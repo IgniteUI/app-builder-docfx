@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#34892;&#12392;&#21015;&#12398;&#12524;&#12452;&#12450;&#12454;&#12488; 
+    </title>
+    <meta name="isRedirected">
+    <meta name="index" content="getting-started.html">
+    <meta name="data-docfx-rel" content="../">
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#34892;&#12392;&#21015;&#12398;&#12524;&#12452;&#12450;&#12454;&#12488; "> 
+     
+    
+    <meta property="docfx:navrel" content="../toc.html">
+    
+    <meta property="docfx:title" content="AppBuilder">
+    <meta property="docfx:link" content="https://jp.infragistics.com/products/app-builder">
+    <meta property="docfx:tocrel" content="../sidebar-toc/toc.html"> 
+    
+    <link rel="canonical" href="https://jp.infragistics.com/products/app-builder/docs/flex-layouts/row-and-column-layout">
+    <link rel="alternate" href="https://www.infragistics.com/products/app-builder/docs/flex-layouts/row-and-column-layout" hreflang="en">
+    <link rel="alternate" href="https://www.infragistics.com/products/app-builder/docs/flex-layouts/row-and-column-layout" hreflang="en-us">
+    <link rel="alternate" href="https://jp.infragistics.com/products/app-builder/docs/flex-layouts/row-and-column-layout" hreflang="ja">
+    <link rel="alternate" href="https://jp.infragistics.com/products/app-builder/docs/flex-layouts/row-and-column-layout" hreflang="ja-jp">
+    
+    <link rel="alternate" href="https://www.infragistics.com/products/app-builder/docs/flex-layouts/row-and-column-layout" hreflang="x-default">
+    
+        <link rel="shortcut icon" href="https://infragistics.com/assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="https://infragistics.com/assets/modern/css/layout.css">
+    <link rel="stylesheet" href="https://infragistics.com/assets/modern/css/animate-custom.css">
+    <link rel="stylesheet" href="https://infragistics.com/assets/modern/css/fontello.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://infragistics.com/css/navigation.css">
+    <link rel="stylesheet" href="https://infragistics.com/css/footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bundles/igniteui.b236591c3094a39a2f24.css">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','{environment:GTMContainerId}');
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'trackSPAPageview',
+        'pagePath': location.pathname,
+        'pageTitle': document.title
+    });
+    </script>
+	<!-- End Google Tag Manager -->
+</head>
+
+<body data-spy="scroll" data-target="#affix" data-nav-base-url="{environment:infragisticsBaseUrl}" data-demos-base-url="{environment:demosBaseUrl}" data-lang="" data-theme="app-builder" data-timestamp="1635750958035">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id={environment:GTMContainerId}" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+	<!-- End Google Tag Manager (noscript) -->
+    <header>
+
+             
+<nav id="autocollapse" class="navbar navbar-fixed-top navbar-inverse ng-scope" role="navigation">
+            <header id="header" class="globalnav" data-nav-auto-init="false" data-mega-menu="true">
+                <div class="sticky-wrapper" style="height: 77px;">
+                    <div id="header-wrap" class="globalnav__container" data-default-height="175" data-sticky-height="175">
+                        <!-- CSE Container -->
+                        <div class="globalnav__search">
+                            <div class="globalnav__search-container globalnav__wrapper">
+                                <div class="search search__container search--support" data-cse-resultsurl="/search">
+                                    <input id="q" class="search__input" type="text" name="q" value="" placeholder="Search Infragistics.com">
+                                    <button type="submit" value="search">
+                                        <svg enable-background="new 0 0 512 512" id="search" version="1.1" viewbox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path d="M497.913,497.913c-18.782,18.782-49.225,18.782-68.008,0l-84.862-84.863c-34.889,22.382-76.13,35.717-120.659,35.717  C100.469,448.767,0,348.312,0,224.383S100.469,0,224.384,0c123.931,0,224.384,100.452,224.384,224.383  c0,44.514-13.352,85.771-35.718,120.676l84.863,84.863C516.695,448.704,516.695,479.131,497.913,497.913z M224.384,64.109  c-88.511,0-160.274,71.747-160.274,160.273c0,88.526,71.764,160.274,160.274,160.274c88.525,0,160.273-71.748,160.273-160.274  C384.657,135.856,312.909,64.109,224.384,64.109z"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Primary Nav -->
+                        <div class="globalnav__primary clearfix">
+                            <div class="globalnav__wrapper">
+                                <!-- My Account -->
+                                <div class="globalnav__section clearfix">
+                                    <nav class="globalnav__menu-container">
+                                        <ul class="navigation navigation--xs navigation--hpad-0">
+                                            <li class="navigation__text deemphasize" style="width: auto;">North American Sales: 1-800-231-8588</li>
+                                            <li><a title="Contact Us" data-id="9668" href="/about-us/contact-us" class="mchNoDecorate">Global Contacts</a></li>
+                                            <li class="navigation__account">
+                                                <a class="signInLink mchNoDecorate" href="/my-account/keys-and-downloads">My Account</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!-- <br /><br /><br /> -->
+                                <!-- Brand -->
+                                <h1 class="globalnav__brand"><a href="/" class="mchNoDecorate"><!--<span class="hidden--visual">Infragistics</span>--><img class="globalnav__logo" src="https://static.infragistics.com/marketing/Website/General/Infragistics-horizontal.svg" alt=""> <img class="globalnav__logo_abbr" src="https://static.infragistics.com/marketing/Website/General/IG-icon.svg" alt=""> </a></h1>
+                                <!-- Mobile Menu Toggle -->
+                                <div class="globalnav__mobile-menu">
+                                    <a class="globalnav__menu-toggle mchNoDecorate" href="#"> <span>Menu</span> </a>
+                                </div>
+                                <!-- Global Search Toggle -->
+                                <div class="globalnav__search-toggle">
+                                    <div class="globalnav__search-close"><i> </i></div>
+                                </div>
+                                <!-- Menu -->
+                                <nav class="globalnav__menu-container">
+                                    <ul class="navigation navigation--navbar navigation--hpad-0 sf-menu">
+                                        <li class="navigation__mobile-link">
+                                            <div class="globalnav__callout-text">North American Sales: 1-800-321-8588</div>
+                                        </li>
+                                        <li class="navigation__mobile-link">
+                                            <a class="navigation__sub-menu mchNoDecorate" href="#">My Account</a>
+                                            <ul class="sub-menu clearfix" style="display: none;">
+                                                <li><a class="signInLink mchNoDecorate" href="/my-account/keys-and-downloads">Sign In/Register</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-full-width">
+            	                            <a class="navigation__sub-menu" title="Design and Development" href="/products/ultimate"><span class="hidden-md">Design &amp; Development</span><span class="visible-md hidden-lg hidden-sm hidden-xs hidden-xxs">Design &amp; Develop</span></a>
+            	                            <ul>
+            		                            <li>
+            			                            <div class="navigation__sub-menu--left">
+            				                            <div class="navigation__sub-menu--left-item">
+            					                            <div class="navigation__sub-menu-header">Best Value Bundles</div>
+            					                            <div class="emphasize"><a href="/products/ultimate"><span class="navigation__sub-menu-title">Infragistics Ultimate</span> <span class="navigation__sub-menu-price bgColor--ultimate">$1,495</span> <span class="deemphasize">The only complete UX/UI toolkit for building high performance, modern web, mobile and desktop applications.</span> </a></div>
+            				                            </div>
+            				                            <div class="navigation__sub-menu--left-item">
+            					                            <div class="emphasize"><a href="/products/pro"><span class="navigation__sub-menu-title">Infragistics Professional</span> <span class="navigation__sub-menu-price bgColor--pro">$1,295</span> <span class="deemphasize">The comprehensive UI components library for web, mobile and desktop developers.</span> </a></div>
+            				                            </div>
+            				                            <div class="navigation__sub-menu--left-item hidden-sm hidden-xs hidden-xxs">
+            					                            <div class="emphasize"><a href="/products/ignite-ui"><span class="navigation__sub-menu-title">Ignite UI</span> <span class="navigation__sub-menu-price bgColor--ignite">$1,295</span> <span class="deemphasize">A complete library of UI components for building modern, data-rich and responsive web apps.</span> </a></div>
+            				                            </div>
+            			                            </div>
+            		                            </li>
+            		                            <li>
+                                                    <div class="navigation__sub-menu-header">Web</div>
+                                                    <a class="deemphasize" title="App Builder" href="/products/appbuilder">App Builder <strong>(New)</strong></a>
+                                                    <a class="deemphasize" href="/products/ignite-ui">Ignite UI</a>
+                                                    <a class="deemphasize small-pad-left" href="/products/ignite-ui-angular">Angular</a>
+                                                    <a class="deemphasize small-pad-left" href="/products/ignite-ui-aspnet-core">ASP.NET Core</a>
+                                                    <a class="deemphasize small-pad-left" href="/products/ignite-ui-aspnet-mvc">ASP.NET MVC</a>
+                                                    <a class="deemphasize small-pad-left" href="/products/ignite-ui-blazor">Blazor</a>
+                                                    <a class="deemphasize small-pad-left" href="/products/ignite-ui-jquery">jQuery</a>
+                                                    <a class="deemphasize small-pad-left" href="/products/ignite-ui-react">React</a>
+                                                    <a class="deemphasize small-pad-left" href="/products/ignite-ui-web-components">Web Components</a>
+                                                    <a class="deemphasize" href="/products/aspnet">Ultimate UI for ASP.NET Web Forms</a>
+            		                            <li>
+                                                    <div class="navigation__sub-menu-header">Desktop</div>
+                                                    <a href="/products/windows-forms">Ultimate UI for Windows Forms</a>
+                                                    <a href="/products/wpf">Ultimate UI for WPF</a>
+            			                            <div class="navigation__sub-menu-header">Cross Platform</div>
+                                                    <a href="/products/uno-platform">Ultimate UI for Uno</a>
+                                                    <a href="/products/uwp">Ultimate UI for UWP</a>
+                                                    <a href="/products/winui">Ultimate UI for WinUI</a>
+                                                    <a href="/products/xamarin">Ultimate UI for Xamarin</a>
+                                                </li>
+            		                            <li>
+            			                            <div class="navigation__sub-menu-header">Design to Code</div>
+                                                    <a class="hidden-sm hidden-xs hidden-xxs" href="/products/indigo-design">Indigo.Design</a>
+                                                    <a class="hidden-sm hidden-xs hidden-xxs" href="/products/appbuilder">App Builder <strong>(New)</strong></a>
+            			                            <div class="navigation__sub-menu-header">Automated Testing Tools</div>
+                                                    <a href="/products/test-automation-micro-focus-uft">Test automation for Micro Focus UFT: Windows Forms</a>
+                                                    <a href="/products/test-automation-micro-focus-uft">Test automation for Micro Focus UFT: WPF</a>
+                                                    <a href="/products/test-automation-ibm-rft">Test automation for IBM RFT: Windows Forms</a>
+                                                </li>
+            	                            </li></ul>
+                                        
+                                        <li>
+                                            <a class="navigation__sub-menu mchNoDecorate" title="UX" href="/products/indigo-design">UX</a>
+                                            <ul style="display: none;">
+                                                <li><a title="Indigo.Design" href="/products/indigo-design" class="mchNoDecorate">Indigo.Design <span class="deemphasize">A Unified Platform for Visual Design, UX Prototyping, Code Generation, and App Development</span></a></li>
+                                                <li><a title="App Builder" href="/products/appbuilder" class="mchNoDecorate">App Builder<span class="deemphasize">Cloud-based WYSIWYG Drag &amp; Drop Tool, Endless Theming options and Standards-Based Code Output</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a class="navigation__sub-menu mchNoDecorate" title="Business Intelligence" href="https://www.revealbi.io">Business Intelligence</a>
+                                            <ul style="display: none;">
+                                                <li><a title="Reveal" href="https://www.revealbi.io" class="mchNoDecorate">Reveal <span class="deemphasize">Easily embed beautiful data visualizations into your apps</span></a></li>
+                                                <li><a title="Slingshot" href="https://www.slingshotapp.io" class="mchNoDecorate">Slingshot <span class="deemphasize">Empower everyone in your organization to use data to make smarter business decisions</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="navigation__sub-menu mchNoDecorate" title="Team Productivity" href="https://www.slingshotapp.io">Team Productivity</a>
+                                            <ul style="display: none;">
+                                                <li><a title="Slingshot" href="https://www.slingshotapp.io" class="mchNoDecorate">Slingshot <span class="deemphasize">Connect everyone you work with to data, project management, content and chats for better results.</span></a></li>
+                                                <li><a title="SharePlus" href="https://www.infragistics.com/products/shareplus-enterprise" class="mchNoDecorate">SharePlus <span class="deemphasize">Secure, instant access to content and data on the go – with or without connectivity.</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="navigation__sub-menu mchNoDecorate" title="Learn and Support" href="/support"><span class="hidden-md">Learn &amp; Support</span><span class="visible-md hidden-lg hidden-sm hidden-xs hidden-xxs">Support</span></a>
+                                            <ul style="display: none;">
+                                                <li><a title="Help and Support Documents" href="/support" class="mchNoDecorate">Help &amp; Support Documents</a></li>
+                                                <li><a title="Blogs" href="/community/blogs" class="mchNoDecorate">Blogs</a></li>
+                                                <li><a title="Forums" href="/community/forums" class="mchNoDecorate">Forums</a></li>
+                                                <li><a title="Product Ideas" href="/community/ideas" class="mchNoDecorate">Product Ideas</a></li>
+                                                <li><a title="Reference Applications" href="/resources/sample-applications" class="mchNoDecorate">Reference Applications</a></li>
+                                                <li><a title="Customer Stories" href="/resources/case-studies" class="mchNoDecorate">Customer Stories</a></li>
+                                                <li><a title="Webinars" href="/webinars" class="mchNoDecorate">Webinars</a></li>
+                                                <li><a title="eBooks and Whitepapers" href="/resources/whitepapers" class="mchNoDecorate">eBook &amp; Whitepapers</a></li>
+                                                <li><a title="Events" href="/events" class="mchNoDecorate">Events</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a title="Free Trials" href="/free-downloads" class="mchNoDecorate">Free Trials</a></li>
+                                        <li>
+                                            <a class="navigation__sub-menu mchNoDecorate" title="Pricing" href="/how-to-buy/product-pricing">Pricing</a>
+                                            <ul style="display: none;">
+                                                <li><a title="Pricing" href="/how-to-buy/product-pricing" class="mchNoDecorate">Product Pricing / Buy Online</a></li>
+                                                <li><a title="Renew Existing License" href="/how-to-buy/renewal" class="mchNoDecorate">Renew Existing License</a></li>
+                                                <li><a title="Contact Us" href="/about-us/contact-us" class="mchNoDecorate">Contact Us</a></li>
+                                            </ul>
+                                        </li>
+                                    </li></ul>
+                                </nav>
+                                <div class="globalnav__overlay">&nbsp;</div>
+                            </div>
+                        </div>
+                        <!-- SECONDARY NAV -->
+                    </div>
+                </div>
+            </header>
+
+
+    <div class="container-fluid">
+
+        <div class="navbar-header navbar-wrapper">
+             
+             <a class="navbar-brand" href="https://jp.infragistics.com/products/app-builder">
+                 <span>AppBuilder</span>
+             </a>              
+<div class="hide-when-search" id="breadcrumb">
+
+    <ul class="breadcrumb">
+        <li></li>
+    </ul>
+
+</div>
+ 
+            <button id="hamburger2" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-flex" id="navbar">
+                    <form class="navbar-form navbar-right" role="search" id="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="search-query" placeholder="Search in topics" autocomplete="off">
+                        <span class="glyphicon glyphicon-remove-circle search-clear-icon" title="Clear search"></span>
+                        </div>
+                    </form>
+        </div>
+
+    </div>
+</nav>   
+    </header>
+
+    <div id="main" role="main" class="container-fluid">
+        <div class="row body-content docfx-content ">
+                <div class="container body-content">
+                    
+                    <div id="search-results">
+                      <div class="search-list"></div>
+                      <div class="sr-items"></div>
+                      <ul id="pagination"></ul>
+                    </div>
+                </div>
+            <div class="sidenav-container col-lg-2 col-md-2">
+                
+                <div class="sidenav hide-when-search">
+                  <a class="toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Components List</a>
+                  <div class="sidetoggle collapse" id="sidetoggle">
+                    <div id="sidetoc"></div>
+                  </div>
+                </div>            </div>
+
+            <div class="article-container null-opacity col-lg-8 col-md-9 col-sm-12 hide-when-search resizable-content" id="_article-content-wrapper">
+                <div id="_article-wrapper">
+                    <article class="content wrap" id="_content" data-uid="">
+<h2 id="行と列のレイアウト" sourcefile="flex-layouts/row-and-column-layout.md" sourcestartlinenumber="1" sourceendlinenumber="1">行と列のレイアウト</h2>
+
+<p sourcefile="flex-layouts/row-and-column-layout.md" sourcestartlinenumber="3" sourceendlinenumber="3">Flex レイアウト コンテナには、ネストされた UI 要素の位置を変更できる設定があります。ここでは、h.align プロパティと v.align プロパティとして示されています。キャンバスのデフォルトは行レイアウトで、水平方向に左揃えになり、垂直方向に引き伸ばされます。何から始めたかに関係なく、いつでも行と列のレイアウトを切り替えることができます。  </p>
+<p sourcefile="flex-layouts/row-and-column-layout.md" sourcestartlinenumber="7" sourceendlinenumber="7">この例では、サインイン ダイアログをキャンバスの中央に配置する必要があります。これを実現するには、配置設定を使用して、ネストされたコンテナをキャンバス上で垂直方向と水平方向の中央に配置します。ダイアログ自体には、すべてがダイアログ内で垂直にスタックするように列レイアウトを使用しました。レイアウト コンテナのサイズはコンテンツに基づいていますが、高さと幅はいつでも指定できます。コンテナにパディング プロパティを追加し、子 UI 要素のスペースを空けるためにマージンを追加することもできます。 </p>
+<p sourcefile="flex-layouts/row-and-column-layout.md" sourcestartlinenumber="11" sourceendlinenumber="11">その間、子要素のラベルをクリックすると、いつでも親 UI 要素を選択できます。これは、ネストされたレイアウト コンテナがある場合に役立ちます。ご覧のとおり、テキスト コンポーネントを表示し、並べて切り替えるためのネストされた行レイアウトがあります。そして、これは列レイアウト内にあります。したがって、行レイアウト ラベルをクリックすると、その親列レイアウトが選択されます。</p>
+
+                        <div>
+<div class="github-btn-wrapper" hidden=""> 
+    <div class="dash-separator"></div>
+    <div class="github-btn">
+        <span>&#12506;&#12540;&#12472;&#12434;&#38283;&#12367;:</span>
+
+        <a target="_blank" href="https://github.com/IgniteUI/app-builder-docfx/tree/master/jp/flex-layouts/row-and-column-layout.md">
+            <img src="../assets/static/github.svg">
+            <span>GitHub</span>
+        </a>
+    </div>
+</div></div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="hidden-md docfx-affix hide-when-search">
+                 
+<div class="hidden-sm" style="height: 100%" role="complementary">
+    <div class="sideaffix">
+        <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+        </nav>
+    </div>
+</div> 
+            </div>
+
+        </div>
+
+    </div>
+
+
+         <div id="footer-container">
+    
+    
+            <footer class="ui-footer ui-footer--clearfix">
+                <div class="ui-footer__wrap ui-footer--clearfix ui-footer__icons">
+                    <a href="/community/blogs/" target="blank”" class="ui-footer__icon-link mchNoDecorate" aria-label="RSS">
+                        <svg viewbox="0 0 512 512">
+                            <path d="M201.8 347.2c0 20.3-16.5 36.8-36.8 36.8 -20.3 0-36.8-16.5-36.8-36.8s16.5-36.8 36.8-36.8C185.3 310.4 201.8 326.8 201.8 347.2zM128.2 204.7v54.5c68.5 0.7 124 56.3 124.7 124.7h54.5C306.7 285.3 226.9 205.4 128.2 204.7zM128.2 166.6c57.9 0.3 112.3 22.9 153.2 63.9 41 41 63.7 95.5 63.9 153.5h54.5c-0.3-149.9-121.7-271.4-271.6-271.9V166.6L128.2 166.6z"></path>
+                        </svg>
+                        <!--[if lt IE 9]><em>RSS</em><![endif]--></a>
+            
+                    <a href="https://twitter.com/infragistics" target="blank" class="ui-footer__icon-link mchNoDecorate" aria-label="Twitter">
+                        <svg viewbox="0 0 512 512">
+                            <path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"></path>
+                        </svg>
+                        <!--[if lt IE 9]><em>Twitter</em><![endif]--></a>
+                    <a href="https://www.facebook.com/infragistics" target="blank”" class="ui-footer__icon-link mchNoDecorate" aria-label="Facebook">
+                        <svg viewbox="0 0 512 512">
+                            <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
+                        </svg>
+                        <!--[if lt IE 9]><em>Facebook</em><![endif]--></a>
+                    <a href="http://www.linkedin.com/company/infragistics" target="blank”" class="ui-footer__icon-link mchNoDecorate" aria-label="LinkedIn">
+                        <svg viewbox="0 0 512 512">
+                            <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path>
+                        </svg>
+                        <!--[if lt IE 9]><em>LinkedIn</em><![endif]--></a>
+                    <a href="https://www.youtube.com/user/Infragistics?annotation_id=annotation_3135485231&amp;feature=iv&amp;src_vid=c8dSiyWIfEo&amp;sub_confirmation=1" target="blank”" class="ui-footer__icon-link mchNoDecorate" aria-label="YouTube">
+                        <svg viewbox="0 0 512 512">
+                            <path d="M422.6 193.6c-5.3-45.3-23.3-51.6-59-54 -50.8-3.5-164.3-3.5-215.1 0 -35.7 2.4-53.7 8.7-59 54 -4 33.6-4 91.1 0 124.8 5.3 45.3 23.3 51.6 59 54 50.9 3.5 164.3 3.5 215.1 0 35.7-2.4 53.7-8.7 59-54C426.6 284.8 426.6 227.3 422.6 193.6zM222.2 303.4v-94.6l90.7 47.3L222.2 303.4z"></path>
+                        </svg>
+                        <!--[if lt IE 9]><em>YouTube</em><![endif]--></a>
+                </div>
+                <div class="ui-footer__wrap ui-footer__wrap--newsletter ui-footer--clearfix">
+                    <!-- 63.75% -->
+                    <div class="ui-footer__menu-block">
+                        <div class="ui-footer__col-one-fourth ui-footer__col-block">
+                            <div class="ui-footer__menu">
+                                <ul class="ui-footer__menu-list">
+                                    <li class="ui-footer__menu-list-item">
+                                        <div class="ui-footer__category">Products</div>
+                                        <ul>
+                                            <li><a class="menu__link mchNoDecorate" href="/products/ultimate">Developers</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/products/indigo-design/desktop">UX Pros</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="https://revealbi.io">Business Intelligence</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/products/shareplus-enterprise">Team Productivity</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/how-to-buy/product-pricing">View All</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/free-downloads">Free Trials</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Column 2 -->
+                        <div class="ui-footer__col-one-fourth ui-footer__col-block">
+                            <div class="ui-footer__menu">
+                                <ul class="ui-footer__menu-list">
+                                    <li class="ui-footer__menu-list-item">
+                                        <div class="ui-footer__category">Learn &amp; Support</div>
+                                        <ul>
+                                            <li><a class="menu__link mchNoDecorate" href="/support">Help &amp; API Docs</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/community/blogs">Blogs</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/support/chat">Technical Support Chat</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/community/forums">Forums</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/community/ideas">Product Ideas</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/my-account/submit-support-request">Submit a Request</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Column 3 -->
+                        <div class="ui-footer__col-one-fourth ui-footer__col-block">
+                            <div class="ui-footer__menu">
+                                <ul class="ui-footer__menu-list">
+                                    <li class="ui-footer__menu-list-item">
+                                        <div class="ui-footer__category">My Account</div>
+                                        <ul>
+                                            <li><a class="menu__link mchNoDecorate" href="https://customer.infragistics.com/subscriptions">Manage My Subscriptions</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/my-account/submit-support-request">Support Requests</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Column 4 -->
+                        <div class="ui-footer__col-one-fourth ui-footer__col-block">
+                            <div class="ui-footer__menu">
+                                <ul class="ui-footer__menu-list">
+                                    <li class="ui-footer__menu-list-item">
+                                        <div class="ui-footer__category">Corporate</div>
+                                        <ul>
+                                            <li><a class="menu__link mchNoDecorate" href="/about-us">About Us</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/about-us/careers">Careers</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/legal/terms-of-use">Legal</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/events">News &amp; Events</a></li>
+                                            <li><a class="menu__link mchNoDecorate" href="/about-us/alliances-partners">Partners</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 21.25% -->
+                    <div class="ui-footer__newsletter-block">
+                        <div class="newsletter__form—alt bg--dark">
+                            <div class="ui-footer-newsletter__header">
+                                <div style="width: 55px;"><img src="https://static.infragistics.com/marketing/Website/General/open-mail-icon.svg" alt=""></div>
+                                <div style="width: 70%;"><span class="text--h5 emphasize">Stay Up-to-Date</span></div>
+                            </div>
+                            <div>
+                                <p class="ui-footer-newsletter__subheadline" style="margin-bottom: 30px;">Get the latest blogs, eBooks, events, and whitepapers.</p>
+                                <a class="navigation__cta mchNoDecorate" style="color: #fff; text-decoration: none; font-size: 0.875rem;" href="/newsletter-signup">Sign Me Up!</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-footer__wrap ui-footer--clearfix ui-footer--legal" style="text-align: center;">
+                    <div class="ui-footer__menu">
+                        <ul class="ui-footer__menu-list">
+                            <li class="ui-footer__menu-list-item display--inline-block" style="margin: 0 8px; display: inline-block;"><a class="menu__link mchNoDecorate" style="display: inline-block;" href="/legal/privacy">Privacy Policy</a><span style="font-size: 10px; color: rgba(255,255,255,0.4); display: inline-block; margin-left: 4px;">(updated)</span></li>
+                            <li class="ui-footer__menu-list-item display--inline-block" style="margin: 0 8px; display: inline-block;"><a class="menu__link mchNoDecorate" href="/legal/cookie-policy">Cookies</a></li>
+                            <li class="ui-footer__menu-list-item display--inline-block" style="margin: 0 8px; display: inline-block;"><a class="menu__link mchNoDecorate" style="display: inline-block;" href="/legal/terms-of-use">Terms of Use</a><span style="font-size: 10px; color: rgba(255,255,255,0.4); display: inline-block; margin-left: 4px;">(updated)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <footer id="footer">
+            	<div id="footer-wrap" class="be-wrap clearfix">
+            		<div id="copyright">© Copyright 2019 INFRAGISTICS. All Rights Reserved</div>
+            	</div>
+            </footer>
+    
+
+</div>
+ 
+
+    <script type="text/javascript" src="https://cdn-na.infragistics.com/igniteui/theming-widget/{environment:themingWidgetVersion}/igniteui-theming-widget.js?t=1635750958035" async=""></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous">
+    </script>
+    <script src="../bundles/runtime.112ec42cce767e753268.js"></script>
+    <script src="../bundles/vendor.f45eaea6bc6f6c6d188f.js"></script>
+    <script src="../bundles/main.2ad4761a2e6329d81637.js"></script>
+    <script type="text/javascript" src="https://infragistics.com/assets/modern/scripts/plugins.nav.js"></script>
+    <script type="text/javascript" src="https://infragistics.com/assets/modern/scripts/navigation.js"></script>
+    <script src="https://use.typekit.net/zhy2hpz.js"></script>
+    <script>try { Typekit.load({ async: true }); } catch (e) { }</script>
+</body>
+
+</html>

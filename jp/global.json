@@ -1,0 +1,18 @@
+{
+    "_navBarTitle": "AppBuilder",
+    "_navBarTitleHref": "https://jp.infragistics.com/products/app-builder",
+    "_repoUrl": "https://github.com/IgniteUI/app-builder-docfx/tree/master/jp/",
+    "_productThemeName": "app-builder",
+    "_currentBaseUrl": "https://jp.infragistics.com/products/app-builder/docs/",
+    "_hasKRLang": false,
+    "_ENBaseUrl": "https://www.infragistics.com/products/app-builder/docs/",
+    "_JABaseUrl": "https://jp.infragistics.com/products/app-builder/docs/",
+    "_KRBaseUrl": "https://www.infragistics.co.kr/products/app-builder/docs/",
+    "_gitHubBtnLbl": "ページを開く:",
+    "_themeUsage": false,
+    "_demosBaseUrlVar": "{environment:demosBaseUrl}",
+    "_initialPage": "getting-started",
+    "_toc-dir": "sidebar-toc",
+    "_enableSearch": true,
+    "_useRedirects": true
+}
