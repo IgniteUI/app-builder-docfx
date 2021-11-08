@@ -13,8 +13,8 @@ _language: ja
 
 ### トピック コンテンツ:
 * <a href="#launch-app-builder-from-indigodesign">Indigo.Design から App Builder を起動する</a>
-* <a href="#getting-the-code">コードの取得</a>
-* <a href="#running-the-app-locally">アプリをローカルで実行する</a>
+* <a href="#コードの取得">コードの取得</a>
+* <a href="#アプリをローカルで実行する">アプリをローカルで実行する</a>
 
 
 <section class="video-container">

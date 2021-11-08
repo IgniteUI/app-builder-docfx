@@ -21,7 +21,7 @@ _language: ja
 * それが完了したら、`npm start` と入力して、アプリをコンパイルして起動します。<br>
  
  
-<img class="responsive-img" src="../../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
+<img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
 <p style="text-align:center;">VS Code で実行されるアプリケーション</p>
 
 App Builder を使用すると、プロ級の Ignite UI コンポーネントを使用してアプリケーションを視覚的にデザインできます。その後、選択した IDE で開発を継続できる Angular アプリケーションとしてコードを生成できます。最終的に、App Builder のデザイン画面でデザインしたものは、アプリが生成およびビルドされたときにまったく同じに見えることが保証されます。フィードバック ボタンを使用してフィードバックをお気軽にお知らせください。今後のリリース マイルストーンに向けて、お客様の経験と、お客様にとって価値のある機能についてお聞かせください。 
@@ -32,4 +32,4 @@ App Builder を使用すると、プロ級の Ignite UI コンポーネントを
 <div class="divider--half"></div>
 
 * [アプリケーションを GitHub にアップロードする](upload-application-to-github.md)
-* [アプリケーション コードのプレビュー](../../appbuilder/preview-code.md)
+* [アプリケーション コードのプレビュー](../preview-code.md)

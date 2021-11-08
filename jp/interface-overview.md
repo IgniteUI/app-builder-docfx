@@ -11,7 +11,7 @@ Indigo App Builder のインターフェースは、すでに慣れているほ�
 Indigo Design AppBuilder には 4 つの主要なセクションがあります。
 
 
-<img class="responsive-img" src="../images/interface-parts-Indigo-Design-App-Builder.png" srcset="../images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
+<img class="responsive-img" src="./images/interface-parts-Indigo-Design-App-Builder.png" srcset="./images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">インターフェース画面パーツ</p>
 
 ## ツールボックス 
