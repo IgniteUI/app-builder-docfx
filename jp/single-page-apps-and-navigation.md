@@ -1,6 +1,6 @@
 ---
 title: Indigo Design AppBuilder の SPA とナビゲーション
-_description: ページに基づいたデザイン アプローチとは異なり、Indigo Design App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。
+_description: ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。
 _keywords: App builder, Indigo Design, インフラジスティックス
 _language: ja
 ---
@@ -15,7 +15,7 @@ _language: ja
     </div>
 </section>
 
-Indigo.Design App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、Indigo Design App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
+Indigo.Design App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
 
 <img class="responsive-img" src="./images/add-layout-preset.png" srcset="./images/add-layout-preset-@2x.png 2x" />
 <p style="text-align:center;">メニュー ボタンからレイアウト プリセットを追加し、[Create New App] を選択する</p>

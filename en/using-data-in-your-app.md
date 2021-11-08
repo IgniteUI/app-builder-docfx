@@ -1,20 +1,20 @@
 ---
-title: Using data in the Indigo Design App Builder
-_description: Indigo Design App Builder enables users to add external data sources and bind them to the applications designed within Indigo Design App Builder
+title: Using data in the App Builder
+_description: App Builder enables users to add external data sources and bind them to the applications designed within App Builder
 _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 ---
 
 # Data Feature overview 
-The Indigo Design App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the Indigo Design App Builder comes with a mock Northwind data source which users can use for reference. Currently, a JSON type data sources can be added, enabling users to upload their own JSON file or provide a Rest API URL with the data source. All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
+The App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Currently, a JSON type data sources can be added, enabling users to upload their own JSON file or provide a Rest API URL with the data source. All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
 <img class="responsive-img" src="./images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
 
 ## Adding a data source
-The Indigo Design App Builder Data feature enables users to add an external data sources, such as JSON (Rest API), Excel or CSV file, either by uploading a file, or linking to external publicly available source. Only Rest API option is available in the initial release of this feature.
+The App Builder Data feature enables users to add an external data sources, such as JSON (Rest API), Excel or CSV file, either by uploading a file, or linking to external publicly available source. Only Rest API option is available in the initial release of this feature.
 
 > [!NOTE]
-> Data sources added to the Indigo Design App Builder are restricted to the user space and are visible only to the user that added them, or to their team space (when the teams feature is available).
+> Data sources added to the App Builder are restricted to the user space and are visible only to the user that added them, or to their team space (when the teams feature is available).
 
 <img class="responsive-img" src="./images/DataSources-Add-URL.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
@@ -42,4 +42,4 @@ When a data source has been added, users can connect a particular data field to 
 ## Additional Resources
 <div class="divider--half"></div>
 
-* [Indigo Design App Builder Components](indigo-design-app-builder-components.md)
+* [App Builder Components](indigo-design-app-builder-components.md)

@@ -1,6 +1,6 @@
 ---
-title: Indigo Design App Builder - Interactions 
-_description: Indigo Design App Builder enables design and development teams to use various interactions when creating connections between screens and components in order to cover real application scenarios.
+title: App Builder - Interactions 
+_description: App Builder enables design and development teams to use various interactions when creating connections between screens and components in order to cover real application scenarios.
 _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, Interactions
 ---
 # Interactions

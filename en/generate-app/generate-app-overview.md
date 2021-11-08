@@ -1,6 +1,6 @@
 ---
-title: Indigo Design App Builder - Preview Code and Generate App
-_description: Indigo Design App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
+title: App Builder - Preview Code and Generate App
+_description: App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications.
 _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
 ---
 # Generate App

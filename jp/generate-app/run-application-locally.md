@@ -1,6 +1,6 @@
 ---
-title: Indigo Design App Builder - アプリケーションを GitHub にアップロードする
-_description: Indigo Design App Builder を使用すると、ユーザーはアプリケーションをローカルにダウンロードするか、GitHub リポジトリにアップロードするかを選択できます。
+title: App Builder - アプリケーションを GitHub にアップロードする
+_description: App Builder を使用すると、ユーザーはアプリケーションをローカルにダウンロードするか、GitHub リポジトリにアップロードするかを選択できます。
 _keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット
 _language: ja
 ---

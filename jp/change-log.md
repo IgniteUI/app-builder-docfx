@@ -1,10 +1,10 @@
 ---
-title: Indigo Design App Builder - 変更ログ 
-_description: Indigo Design App Builder を使用すると、実際のアプリケーション シナリオをカバーするために、画面とコンポーネント間の接続を作成する際にデザインおよび開発チームがさまざまなインタラクションを使用できます。
+title: App Builder - 変更ログ 
+_description: App Builder を使用すると、実際のアプリケーション シナリオをカバーするために、画面とコンポーネント間の接続を作成する際にデザインおよび開発チームがさまざまなインタラクションを使用できます。
 _keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, インタラクション
 _language: ja
 ---
-# Indigo Design App Builder - 変更ログ
+# App Builder - 変更ログ
 
 > [!NOTE]
 ><b>最新の更新は 2021 年 7 月 12 日に行われました。
@@ -130,6 +130,6 @@ _language: ja
 
 
 * [作業の開始](getting-started.md)
-* [Indigo Design App Builder コンポーネント](indigo-design-app-builder-components.md)
+* [App Builder コンポーネント](indigo-design-app-builder-components.md)
 * [インタラクション](interactions.md)
-* [Indigo Design App Builder でデータを使用する](using-data-in-your-app.md)
+* [App Builder でデータを使用する](using-data-in-your-app.md)

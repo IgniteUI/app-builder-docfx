@@ -1,5 +1,5 @@
 ---
-title: Indigo Design App Builder Components
+title: App Builder Components
 _description: Check all available Ignite UI for Angular components, as well as some Indigo Design general components, such as absolute, row, column layout, and views container.
 _keywords: App builder components, Indigo Design, Infragistics
 ---

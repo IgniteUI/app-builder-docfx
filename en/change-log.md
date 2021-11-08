@@ -1,9 +1,9 @@
 ---
-title: Indigo Design App Builder - Change Log 
-_description: Indigo Design App Builder enables design and development teams to use various interactions when creating connections between screens and components in order to cover real application scenarios.
+title: App Builder - Change Log 
+_description: App Builder enables design and development teams to use various interactions when creating connections between screens and components in order to cover real application scenarios.
 _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits, Interactions
 ---
-# Indigo Design App Builder - Change Log 
+# App Builder - Change Log 
 
 > [!NOTE]
 ><b>Latest update was made on July 12th, 2021.
@@ -130,6 +130,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 
 * [Getting Started](getting-started.md)
-* [Indigo Design App Builder Components](indigo-design-app-builder-components.md)
+* [App Builder Components](indigo-design-app-builder-components.md)
 * [Interactions](interactions.md)
-* [Using data in the Indigo Design App Builder](using-data-in-your-app.md)
+* [Using data in the App Builder](using-data-in-your-app.md)

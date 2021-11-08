@@ -1,6 +1,6 @@
 ---
-title: Indigo Design App Builder - インタラクション 
-_description: Indigo Design App Builder を使用すると、実際のアプリケーション シナリオをカバーするために、画面とコンポーネント間の接続を作成する際にデザインおよび開発チームがさまざまなインタラクションを使用できます。
+title: App Builder - インタラクション 
+_description: App Builder を使用すると、実際のアプリケーション シナリオをカバーするために、画面とコンポーネント間の接続を作成する際にデザインおよび開発チームがさまざまなインタラクションを使用できます。
 _keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, インタラクション
 _language: ja
 ---

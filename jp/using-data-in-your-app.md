@@ -1,21 +1,21 @@
 ---
-title: Indigo Design App Builder でデータを使用する
-_description: Indigo Design App Builder を使用して、外部データ ソースを追加し、Indigo Design App Builder で設計されたアプリケーションにバインドできます。
+title: App Builder でデータを使用する
+_description: App Builder を使用して、外部データ ソースを追加し、App Builder で設計されたアプリケーションにバインドできます。
 _keywords: App builder, Indigo Design, インフラジスティックス, データ ソース, データ バインディング
 _language: ja
 ---
 
 # データ機能の概要
-Indigo Design App Builder のデータ機能を使用して、開発中のアプリケーションで外部データソースを追加、編集、使用できます。デフォルトで、Indigo Design App Builder には、ユーザーが参照に使用できる Northwind データ ソースが含まれています。現在、JSON タイプのデータ ソースを追加できるため、ユーザーは独自の JSON ファイルをアップロードすることや、データ ソースに Rest API URL を提供することができます。追加されたすべてのデータ ソースはデータ ツールボックスに配置され、ユーザーは各データ ソースを展開/縮小して、含まれているテーブルおよび選択したフィールドを表示できます。
+App Builder のデータ機能を使用して、開発中のアプリケーションで外部データソースを追加、編集、使用できます。デフォルトで、App Builder には、ユーザーが参照に使用できる Northwind データ ソースが含まれています。現在、JSON タイプのデータ ソースを追加できるため、ユーザーは独自の JSON ファイルをアップロードすることや、データ ソースに Rest API URL を提供することができます。追加されたすべてのデータ ソースはデータ ツールボックスに配置され、ユーザーは各データ ソースを展開/縮小して、含まれているテーブルおよび選択したフィールドを表示できます。
 
 <img class="responsive-img" src="./images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">URL からデータ ソースを追加する</p>
 
 ## データ ソースを追加する
-Indigo Design App Builder のデータ機能を使用して、JSON (Rest API)、Excel、CSV ファイルなどの外部データ ソースを、ファイルのアップロードまたは外部公開ソースへのリンクによって追加できます。この機能の最初のリリースでは、REST API オプションのみ使用できます。
+App Builder のデータ機能を使用して、JSON (Rest API)、Excel、CSV ファイルなどの外部データ ソースを、ファイルのアップロードまたは外部公開ソースへのリンクによって追加できます。この機能の最初のリリースでは、REST API オプションのみ使用できます。
 
 > [!NOTE]
-> Indigo Design App Builder に追加されたデータ ソースはユーザー スペースに制限され、追加したユーザーまたはチーム スペース (チーム機能が利用可能な場合) のみに表示されます。
+> App Builder に追加されたデータ ソースはユーザー スペースに制限され、追加したユーザーまたはチーム スペース (チーム機能が利用可能な場合) のみに表示されます。
 
 <img class="responsive-img" src="./images/DataSources-Add-URL.gif" />
 <p style="text-align:center;">URL からデータ ソースを追加する</p>
@@ -43,4 +43,4 @@ Indigo Design App Builder のデータ機能を使用して、JSON (Rest API)、
 ## その他のリソース
 <div class="divider--half"></div>
 
-* [Indigo Design App Builder コンポーネント](indigo-design-app-builder-components.md)
+* [App Builder コンポーネント](indigo-design-app-builder-components.md)

@@ -1,6 +1,6 @@
 ---
-title: Indigo Design App Builder - Flex レイアウト
-_description: Indigo Design App Builder は Web アプリを対象としています。そのため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト コンポーネントとして利用できます。
+title: App Builder - Flex レイアウト
+_description: App Builder は Web アプリを対象としています。そのため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト コンポーネントとして利用できます。
 _keywords: App builder flex レイアウト, Indigo Design, インフラジスティックス
 _language: ja
 ---
@@ -16,7 +16,7 @@ _language: ja
     </div>
 </section>
 
-Indigo Design App Builder と通常の製品デザイン ツールの最大の違いの 1 つは、デザインからコードまでのツールで使用される Flex に基づくレイアウトです。Indigo Design App Builder は Web アプリを対象としているため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ここに表示されている最も外側のコンテナはキャンバスであり、flex 設定がすでに適用されています。プロパティ パネルで Viewport のサイズを編集することにより、キャンバス サイズを変更できます。
+App Builder と通常の製品デザイン ツールの最大の違いの 1 つは、デザインからコードまでのツールで使用される Flex に基づくレイアウトです。App Builder は Web アプリを対象としているため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ここに表示されている最も外側のコンテナはキャンバスであり、flex 設定がすでに適用されています。プロパティ パネルで Viewport のサイズを編集することにより、キャンバス サイズを変更できます。
 
 <img class="responsive-img" src="../images/edit-create-canvas-size-Indigo-Design-App-Builder.gif" />
 <p style="text-align:center;">キャンバス サイズの変更</p>
