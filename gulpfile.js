@@ -36,11 +36,13 @@ const watchFiles = (done) => {
 
     watch([
       `${DOCFX_TEMPLATE_GLOBAL}`,
-      `${DOCFX_PATH}/**/*.md`, 
-      `${DOCFX_PATH}/codegen/**/*`,
-      `${DOCFX_PATH}/components/**/*`, 
-      `${DOCFX_PATH}/patterns/**/*`, 
-      `${DOCFX_PATH}/style/**/*`],
+      `${DOCFX_PATH}/*.md`, 
+      `${DOCFX_PATH}/app-themes/**/*`,
+      `${DOCFX_PATH}/flex-layouts/**/*`, 
+      `${DOCFX_PATH}/generate-app/**/*`,
+      `${DOCFX_PATH}/indigo-design-components/**/*`,
+      `${DOCFX_PATH}/spa-and-navigation/**/*`, 
+      `${DOCFX_PATH}/using-data-in-your-app/**/*`],
       {delay: 3000},
       series(build, browserSyncReload));
     done();
