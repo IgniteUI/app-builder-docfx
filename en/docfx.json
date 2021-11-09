@@ -1,0 +1,46 @@
+{
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "app-themes/**.md",
+                    "flex-layouts/**.md",
+                    "generate-app/**.md",
+                    "indigo-design-components/**.md",
+                    "spa-and-navigation/**.md",
+                    "using-data-in-your-app/**.md",
+                    "sidebar-toc/toc.yml",
+                    "toc.yml",
+                    "*.md"
+                ],
+                "exclude": ["obj/**", "_site/**"]
+            }
+        ],
+        "resource": [
+            {
+                "files": ["images/**","web.config"],
+                "exclude": ["obj/**", "_site/**"]
+            }
+        ],
+        "overwrite": [
+            {
+                "files": ["apidoc/**.md"],
+                "exclude": ["obj/**", "_site/**"]
+            }
+        ],
+        "dest": "_site",
+        "globalMetadataFiles": ["global.json", "../node_modules/igniteui-docfx-template/template/bundling.global.json"],
+        "fileMetadataFiles": [],
+        "template": ["../node_modules/igniteui-docfx-template/template"],
+        "postProcessors": ["SetEnvironmentVariables"],
+        "noLangKeyword": false,
+        "keepFileLink": false,
+        "cleanupCacheHistory": true,
+        "disableGitFeatures": true,
+        "sitemap": {
+            "baseUrl": "https://www.infragistics.com/products/appbuilder/docs/",
+            "changefreq": "weekly",
+            "priority": 0.7
+        }
+    }
+}

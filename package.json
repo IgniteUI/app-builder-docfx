@@ -1,0 +1,31 @@
+{
+  "name": "app-builder-docfx",
+  "version": "1.0.0",
+  "description": "Documentation generator for App Builder.",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build",
+    "build-staging": "set NODE_ENV=staging && gulp build",
+    "build-production": "set NODE_ENV=production && gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Infragistics",
+  "license": "ISC",
+  "dependencies": {
+    "igniteui-docfx-template": "^3.0.18",
+    "natives": "^1.1.6",
+    "require-or-import": "0.1.1",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-file-include": "^2.1.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-shell": "^0.7.1",
+    "slash": "^3.0.0"
+  }
+}
