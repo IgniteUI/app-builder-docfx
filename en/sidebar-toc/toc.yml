@@ -8,6 +8,8 @@
 - name: Interface Overview
   href: ../interface-overview.md
   new: true
+- name: Video Tutorials
+  href: ../video-tutorials.md
 - name: Flex Layouts
   href: ../flex-layouts/flex-layouts.md
   # items:
