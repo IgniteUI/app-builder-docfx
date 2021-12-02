@@ -38,7 +38,7 @@
         "cleanupCacheHistory": true,
         "disableGitFeatures": true,
         "sitemap": {
-            "baseUrl": "https://www.infragistics.com/products/appbuilder/docs/",
+            "baseUrl": "https://www.infragistics.com/products/appbuilder/help/",
             "changefreq": "weekly",
             "priority": 0.7
         }
