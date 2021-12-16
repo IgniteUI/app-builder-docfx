@@ -21,7 +21,7 @@ This means that you can now create any Blazor UI with simple drag & drop and get
 - Button, Link Button
 - Card
 - NavBar
-- Radio Grouo
+- Radio Group
 
 <img class="responsive-img" src="./images/blazor-introduction.png" />
 <p style="text-align:center;">Blazor Code Generation from AppBuilder</p>

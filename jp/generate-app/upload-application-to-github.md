@@ -34,7 +34,7 @@ GitHub アカウントでログインした後、Indigo.Design にアクセス�
 
 アップロード プロセスが完了したら、ユーザーは App Builder 内から GitHub リポジトリに変更を適用するか、[GitHub で表示] をクリックして GitHub で更新されたファイルを表示できます。
 
-<img class="responsive-img" src="./images/view-application-publish-to-github2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/view-application-publish-to-github2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">VS Code で実行されるアプリケーション</p>
 
 ## その他のリソース
