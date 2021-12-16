@@ -4,7 +4,8 @@
   header: true
 - name: Getting Started
   href: ../getting-started.md
-  new: true
+  new: false
+  updated: true
 - name: Interface Overview
   href: ../interface-overview.md
   new: true

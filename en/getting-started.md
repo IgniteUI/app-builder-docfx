@@ -14,7 +14,7 @@ _keywords: App builder, Indigo Design, Infragistics
 * <a href="#launch-app-builder">Launch App Builder</a>
 * <a href="#getting-the-code">Getting the code</a>
 * <a href="#running-the-app-locally">Running the app locally</a>
-* <a href="#running-the-app-locally">Running the app locally</a>
+* <a href="#running-the-desktop-app">Running the Desktop app</a>
 
 
 <section class="video-container">
@@ -94,6 +94,13 @@ In order to run the downloaded application, the following prerequisites need to 
     </div>
 </div>
 <div class="divider--half"></div>
+
+## Running the Desktop app
+Stay connected to your apps on any device Everyone needs instant access to their work no matter where they are – we’ve got you covered! Mobile, desktop, or web, App Builder is designed, so you can empower your team to reach its full potential from any device, even on the go.
+
+- [Windows installer](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.exe)
+- [MacOS installer](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.dmg)
+- [Linux installer](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.AppImage)
 
 ## Additional Resources
 <div class="divider--half"></div>
