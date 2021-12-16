@@ -1,10 +1,22 @@
 ---
-title: App Builder - Flex Layouts
-_description: App Builder is targeting web apps, and that’s why we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox.
+title: Flex Layouts and Positioning in App Builder
+_description: Learn how to use Flex layouts to create and edit app layouts in App Builder. It's available to you as a row or column layout component in the toolbox.
 _keywords: App builder flex layouts, Indigo Design, Infragistics
 ---
 
 # Flex layouts (and positioning) 
+### What is Flex layout?  
+Flex layout is used for component positioning, space distribution between items, and resizing. It provides powerful alignment capabilities, lays out elements in either columns or rows, and helps you build responsive page layouts that easily adapt to any screen size. 
+
+### How to use Flex layout? 
+In essence, the Flex layout is designed to enable developers to easily specify the sizing of a layout container, define visibilities and viewport sizes, and respectively shrink or expand items in order to best fit into the available space.  
+
+In order to achieve all of this, the first thing you have to do when using Flex layout is to target the container or parent element and adjust the CSS of your container elements.  
+
+### How to create Flex layouts in App Builder? 
+In order to use the Flex layout in the App Builder, you need to define a container (which in the video is referred to as canvas). Note that it has its display property automatically set to Flex. Go to Views, add new container, choose Flex layout row or Flex layout column. 
+
+You can now choose from different Flex layout properties to define alignment, default behavior for how flex items are laid, set other values, and more. 
 
 <section class="video-container">
     <div>
