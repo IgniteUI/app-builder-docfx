@@ -1,18 +1,19 @@
 ---
 title: Getting started with App Builder 
-_description: Learn how to build awesome apps using App Builder. You can use predefined or edit one of our prebuilt layouts. Try Indigo Design today.
+_description: Learn how to build awesome apps using App Builder. You can use predefined or edit one of our prebuilt layouts. Try App Builder today.
 _keywords: App builder, Indigo Design, Infragistics
 ---
 
 # Getting started with App Builder
 
 > [!NOTE]
-><b>App Builder can be launched from the App tab in your Indigo.Design home screen. From there, you will be able also to manage all of your active applications. Once, you finish editing an app in the App Builder, you can generate its code from the "Generate code" button and, then, run it locally.
+><b>App Builder can be launched from the App tab in your Indigo.Design home screen or through the [App Builder domain](https://cloud.indigo.design/login-and-redirect?target=appbuilder&path=/). From there, you will be able also to manage all of your active applications. Once, you finish editing an app in the App Builder, you can generate its code from the "Generate code" button and, then, run it locally.
 
 
 ### In this article:
-* <a href="#launch-app-builder-from-indigodesign">Launch App Builder from Indigo.Design</a>
+* <a href="#launch-app-builder">Launch App Builder</a>
 * <a href="#getting-the-code">Getting the code</a>
+* <a href="#running-the-app-locally">Running the app locally</a>
 * <a href="#running-the-app-locally">Running the app locally</a>
 
 
@@ -26,9 +27,15 @@ _keywords: App builder, Indigo Design, Infragistics
 </section>
 
 
-## Launch App Builder from Indigo.Design
-Once you sign in Indigo.Design, you will land in the home screen and from here you can access each of the three core Indigo.Design products - Prototypes and Usability Tests, as well as the newest one - App Builder which can be found under the Apps tab. From the App Builder home screen in Indigo.Design, users can start a new app, preview or edit an existing one. Through the context menu, every existing app can also be renamed, duplicated or archived.  
+## Launch App Builder
+You can login directly in your App Builder profile or by signing it with Indigo.Design. You will land in the home screen and from here you can access each of the three core Indigo.Design products - Prototypes and Usability Tests, as well as the newest one - App Builder which can be found under the Apps tab. 
 
+From the App Builder home screen, users can start a new app, preview or edit an existing one. Through the context menu, every existing app can also be renamed, duplicated or archived.  
+
+AB Sign-in
+<img class="responsive-img" src="./images/Standalone-AB.png" srcset="./images/Standalone-AB-@2x.png 2x" />
+
+Indigo.Cloud Sign-in
 <img class="responsive-img" src="./images/Indigo-Design-home-screen.gif" />
 <p style="text-align:center;">Indigo.Design home screen</p>
 
@@ -41,7 +48,7 @@ What you'll see when you launch the [App Builder]({environment:infragisticsBaseU
 <img class="responsive-img" src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">New project dialog</p>
 
-Note, that once in the App Builder, users are enabled to easily switch between their active applications or go back to their workspace in Indigo.Design from the in-app side menu at design time without leaving the App Builder.
+Note, that once in the App Builder, users are enabled to easily switch between their active applications or go back to their workspace in App Builder from the in-app side menu at design time without leaving the App Builder.
 
 <img class="responsive-img" src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">Side menu</p>
