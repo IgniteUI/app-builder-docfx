@@ -17,12 +17,20 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
     </div>
 </section>
 
-Previewing generated code and downloading your work as an Angular app is the final step after designing an application. The design and development user story will be completed once the application is generated with all styling and layout properties. Currently, Indigo.Design App Builder offers options to upload all your application files to a GitHub repository or download them as a package and then run it locally. 
+App Builder with Angular code generation has been in the market for a few months now, but with .NET 6 release we launched the beta version of Blazor Code Generation.
+
+Now there is the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor BETA` option to generate code for Blazor, or `Angular` to see a preview of the generated app and code.
+
+<img class="responsive-img" src="../images/generate-code.png" />
+<p style="text-align:center;">Pick platform for code generation</p>
+
+The design and development user story will be completed once the application is generated with all styling and layout properties. Currently, Indigo.Design App Builder offers options to upload all your application files to a GitHub repository or download them as a package and then run it locally. 
 
 ## Additional Resources
 
 <div class="divider--half"></div>
 
+* [Blazor Support](../blazor-support.md)
 * [Upload Application to GitHub](upload-application-to-github.md)
 * [Run Application Locally](run-application-locally.md)
 * [Preview Application Code](../preview-code.md)

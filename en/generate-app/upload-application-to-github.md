@@ -20,20 +20,20 @@ One of the great Indigo.Design App Builder features is actually the code generat
 After finalizing the design of your application and previewing its code, it comes the time for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder. You can also download your application files from the button menu.
 
 
-<img class="responsive-img" src="../images/connect-to-github.png" srcset="../images/connect-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/connect-to-github2.png" srcset="../images/connect-to-github-@2x.png 2x" />
 <p style="text-align:center;">Connect Indigo.Design App Builder to GitHub</p>
 
 Once you log in with your GitHub account, you should authorize Indigo.Design to access it in order to pick up the repository where the app code will be stored. There, you can select between creating a new repository or adding to an existing one. When creating a new repository you can specify the name of the app, add description and choose between public or private repo. Once ready, the app files are being uploaded to GitHub, creating a new GitHub repository.
 
-<img class="responsive-img" src="../images/pick-repository-publish-to-github.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/pick-repository-publish-to-github2.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">Publish application to an existing repo in GitHub</p>
 
-<img class="responsive-img" src="../images/create-new-repo-publish-to-github.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/create-new-repo-publish-to-github2.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">Create a new repository to GitHub</p>
 
 When the upload process is done, users can apply changes to the GitHub repo from inside the App Builder or click to "View it on GitHub" and see the updated files in GitHub.
 
-<img class="responsive-img" src="../images/view-application-publish-to-github.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">An application running in VSCode</p>
 
 ## Additional Resources

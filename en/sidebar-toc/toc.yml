@@ -4,13 +4,10 @@
   header: true
 - name: Getting Started
   href: ../getting-started.md
-  new: false
-  updated: true
+  new: true
 - name: Interface Overview
   href: ../interface-overview.md
   new: true
-- name: Video Tutorials
-  href: ../video-tutorials.md
 - name: Flex Layouts
   href: ../flex-layouts/flex-layouts.md
   new: false
@@ -40,6 +37,8 @@
   #     href: ../indigo-design-components/configuring-components.md
 - name: Using data in your app
   href: ../using-data-in-your-app.md
+  new: false
+  updated: true
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:
@@ -63,6 +62,9 @@
   #     href: ../preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../preview-code-and-genrate-app/compile-and-run-the-app.md
+- name: Blazor Support
+  href: ../blazor-support.md
+  new: true
 - name: Generate App
   href: ../generate-app/generate-app-overview.md
   items:
@@ -72,4 +74,5 @@
       href: ../generate-app/run-application-locally.md
 - name: Change Log
   href: ../change-log.md
-  new: true
+  new: false
+  updated: true
