@@ -7,6 +7,9 @@ _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 # Data Feature overview 
 The App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Currently, a JSON type data sources can be added, enabling users to upload their own JSON file or provide a Rest API URL with the data source. All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
+
+The App Builder now supports **nested collection inside a response object**. You can now bring in APIs that wrap the return collection in a metadata object (e.g. oData and others) and use the nested collection for data-binding components such as the Grid or to perform repeat operations based on it.
+
 <img class="responsive-img" src="./images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
 
