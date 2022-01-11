@@ -1,6 +1,6 @@
 ---
-title: Flex Layouts and Positioning in App Builder
-_description: Learn how to use Flex layouts to create and edit app layouts in App Builder. It's available to you as a row or column layout component in the toolbox.
+title: App Builder の Flex レイアウトと配置
+_description: Flex レイアウトを使用して、App Builder でアプリ レイアウトを作成および編集する方法につぃて説明します。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。
 _keywords: App builder flex レイアウト, Indigo Design, インフラジスティックス
 _language: ja
 ---
@@ -22,7 +22,7 @@ App Builderで Flex レイアウトを使用するには、コンテナー (ビ�
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
         </div>
         <p> アプリのレイアウトを作成する</p>
     </div>
@@ -67,6 +67,6 @@ Flex レイアウト コンテナには、ネストされた UI 要素の位置�
 <div class="divider--half"></div>
 
 * [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [Flexbox (英語)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+* [Flexbox](https://developer.mozilla.org/ja-JP/docs/Learn/CSS/CSS_layout/Flexbox)
 * [Flexbox のガイド (英語)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy (英語)](https://flexboxfroggy.com/)
