@@ -1,6 +1,6 @@
 ---
 title: App Builder を使用した作業の開始
-_description: App Builder を使用してすばらしいアプリを作成する方法を学びます。定義済みのものを使用するか、用意されたレイアウトから選んで編集できます。今すぐ Indigo Design をお試しください。
+_description: App Builder を使用してすばらしいアプリを作成する方法を学びます。定義済みのものを使用するか、用意されたレイアウトから選んで編集できます。今すぐ App Builder をお試しください。
 _keywords: App builder, Indigo Design, インフラジスティックス
 _language: ja
 ---
@@ -8,13 +8,14 @@ _language: ja
 # App Builder を使用した作業の開始
 
 > [!NOTE]
-><b>App Builder は、Indigo.Design ホーム画面の [アプリ] タブから起動できます。そこから、すべてのアクティブなアプリケーションを管理することもできます。App Builder でアプリの編集が完了したら、[コードの生成] ボタンからコードを生成し、ローカルで実行します。
+><b>App Builder は、Indigo.Design ホーム画面の [アプリ] タブまたは [App Builder ドメイン](https://cloud.indigo.design/login-and-redirect?target=appbuilder&path=/)から起動できます。そこから、すべてのアクティブなアプリケーションを管理することもできます。App Builder でアプリの編集が完了したら、[コードの生成] ボタンからコードを生成し、ローカルで実行します。
 
 
 ### トピック コンテンツ:
-* <a href="#launch-app-builder-from-indigodesign">Indigo.Design から App Builder を起動する</a>
+* <a href="#launch-app-builder">Indigo.Design から App Builder を起動する</a>
 * <a href="#コードの取得">コードの取得</a>
 * <a href="#アプリをローカルで実行する">アプリをローカルで実行する</a>
+* <a href="#running-the-desktop-app">Desktop アプリの実行方法</a>
 
 
 <section class="video-container">
@@ -27,8 +28,14 @@ _language: ja
 </section>
 
 
-## Indigo.Design から App Builder を起動する
-Indigo.Design にサインインすると、ホーム画面が表示されます。ここから 3 つの主要な Indigo.Design 製品 (プロトタイプとユーザビリティ テスト)、および最新の App Builder ([アプリ] タブ) にアクセスできます。Indigo.Design の App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。  
+## App Builder を起動する
+App Builder プロファイルに直接ログインするか、Indigo.Design でサインインします。ホーム画面が表示されます。ここから 3 つの主要な Indigo.Design 製品 (プロトタイプとユーザビリティ テスト)、および最新の App Builder ([アプリ] タブ) にアクセスできます。
+
+App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。
+App Builder サインイン
+<img class="responsive-img" src="./images/Standalone-AB.png" srcset="./images/Standalone-AB-@2x.png 2x" />
+
+Indigo.Cloud サインイン
 
 <img class="responsive-img" src="./images/Indigo-Design-home-screen.gif" />
 <p style="text-align:center;">Indigo.Design ホーム画面</p>
@@ -42,7 +49,7 @@ Indigo.Design にサインインすると、ホーム画面が表示されます
 <img class="responsive-img" src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">[新しいプロジェクト] ダイアログ</p>
 
-注: App Builder にアクセスすると、デザイン時に App Builder を終了せずに、アプリ内のサイド メニューからアクティブなアプリケーションを簡単に切り替えたり、Indigo.Design のワークスペースに戻ることができます。
+注: App Builder にアクセスすると、デザイン時に App Builder を終了せずに、アプリ内のサイド メニューからアクティブなアプリケーションを簡単に切り替えたり、App Builder のワークスペースに戻ることができます。
 
 <img class="responsive-img" src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">サイド メニュー</p>
@@ -88,6 +95,13 @@ App Builder は、常にライブ実行中の Web アプリケーションをデ
     </div>
 </div>
 <div class="divider--half"></div>
+
+## Desktop アプリの実行方法
+あらゆるデバイスでアプリといつでも接続できます。どこにいてもすぐに作業にアクセスできます。App Builder は、モバイル、デスクトップ、またはウェブでデザインされているため、外出先でも、どのデバイスからでもチームの可能性を最大限に引き出すことができます。
+
+- [Windows インストーラー](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.exe)
+- [MacOS インストーラー](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.dmg)
+- [Linux インストーラー](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.AppImage)
 
 ## その他のリソース
 <div class="divider--half"></div>

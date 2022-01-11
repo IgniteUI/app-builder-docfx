@@ -18,12 +18,20 @@ _language: ja
     </div>
 </section>
 
-生成されたコードをプレビューし、Angular アプリとして作業をダウンロードすることは、アプリケーションをデザインした後の最後のステップです。すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Indigo.Design App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
+Angular コード生成機能を備えた App Builder は数か月前から販売されていますが、.NET 6 リリースで Blazor コード生成のベータ版をリリースしました。
+
+プラットフォーム ピッカー ドロップダウンは、`[GitHub に公開]` と `[プレビュー]` アクションボタンの隣のナビゲーション バーにあります。`[Blazor ベータ版]` オプションを選択して Blazor のコードを生成するか、`[Angular]` で生成したアプリとコードのプレビューを表示します。
+
+<img class="responsive-img" src="../images/generate-code.png" />
+<p style="text-align:center;">コード生成のプラットフォームの選択</p>
+
+すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Indigo.Design App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
 
 ## その他のリソース
 
 <div class="divider--half"></div>
 
+* [Blazor サポート](../blazor-support.md)
 * [アプリケーションを GitHub にアップロードする](upload-application-to-github.md)
 * [アプリケーションをローカルで実行する](run-application-locally.md)
 * [アプリケーション コードのプレビュー](../preview-code.md)

@@ -7,10 +7,10 @@
 - name: インターフェイスの概要
   href: ../interface-overview.md
   new: true
-- name: ビデオ チュートリアル
-  href: ../video-tutorials.md
 - name: Flex レイアウト
   href: ../flex-layouts/flex-layouts.md
+  new: false
+  updated: true
   # items:
   #   - name: 行と列のレイアウト
   #     href: ../flex-layouts/row-and-column-layout.md
@@ -18,7 +18,7 @@
   #     href: ../flex-layouts/fluid-resizing-and-wrapping.md
   #   - name: Add to layout via context menu
   #     href: ../flex-layouts/add-to-layout-via-context-menu.md
-  #   - name: その他のリソース to learn about web-layouts
+  #   - name: Additional resources to learn about web-layouts
   #     href: ../flex-layouts/additional-resources-to-learn-about-web-layouts.md
 - name: UI コンポーネント
   href: ../indigo-design-app-builder-components.md
@@ -27,7 +27,6 @@
   #     href: ../indigo-design-components/quick-add-components.md
   #   - name: Configuring components
   #     href: ../indigo-design-components/configuring-components.md
-  
 - name: インタラクション
   href: ../interactions.md
   # items:
@@ -35,10 +34,10 @@
   #     href: ../indigo-design-components/quick-add-components.md
   #   - name: Configuring components
   #     href: ../indigo-design-components/configuring-components.md
-
 - name: アプリでデータを使用する
   href: ../using-data-in-your-app.md
-
+  new: false
+  updated: true
 - name: テーマ
   href: ../app-themes/app-themes.md
   # items:
@@ -62,15 +61,17 @@
   #     href: ../preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../preview-code-and-genrate-app/compile-and-run-the-app.md
+- name: Blazor サポート
+  href: ../blazor-support.md
+  new: true
 - name: アプリの生成
   href: ../generate-app/generate-app-overview.md
-  new: true
   items:
     - name: アプリケーションを Github にアップロード
       href: ../generate-app/upload-application-to-github.md
     - name: アプリケーションをローカルで実行
       href: ../generate-app/run-application-locally.md
-
 - name: 変更ログ
   href: ../change-log.md
-  new: true
+  new: false
+  updated: true

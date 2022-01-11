@@ -1,11 +1,23 @@
 ---
-title: App Builder - Flex レイアウト
-_description: App Builder は Web アプリを対象としています。そのため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト コンポーネントとして利用できます。
+title: Flex Layouts and Positioning in App Builder
+_description: Learn how to use Flex layouts to create and edit app layouts in App Builder. It's available to you as a row or column layout component in the toolbox.
 _keywords: App builder flex レイアウト, Indigo Design, インフラジスティックス
 _language: ja
 ---
 
 # Flex レイアウト (および配置) 
+### Flex レイアウトとは? 
+Flex レイアウトは、コンポーネントの配置、項目間のスペースの配置、サイズ変更に使用されます。強力な配置機能を提供し、列または行に要素をレイアウトし、あらゆる画面サイズに簡単に適応するレスポンシブ ページ レイアウトを構築します。
+
+### Flex レイアウトの使用方法
+Flex レイアウトは、レイアウト コンテナーのサイズを簡単に指定し、可視性とビューポート サイズを定義し、利用可能なスペースに合わせて項目をそれぞれ縮小または展開できるように設計されています。
+
+このすべてを実現するために、Flex レイアウトを使用する際に最初に行う必要があるのは、コンテナーまたは親要素を対象にし、コンテナー要素の CSS を調整することです。 
+
+### App Builder で Flex レイアウトを作成する方法
+App Builderで Flex レイアウトを使用するには、コンテナー (ビデオではキャンパスと呼ばれます) を定義する必要があります。display プロパティは自動的に Flex に設定されます。[ビュー] に移動し、新しいコンテナーを追加し、Flex レイアウト行または Flex レイアウト列を選択します。
+
+さまざまな Flex レイアウト プロパティから選択して配置を定義したり、flex 項目のデフォルトの動作、その他の値を設定したりできます。
 
 <section class="video-container">
     <div>
