@@ -11,6 +11,9 @@ App Builder のデータ機能を使用して、開発中のアプリケーシ�
 <img class="responsive-img" src="./images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">URL からデータ ソースを追加する</p>
 
+
+App Builder は、**応答オブジェクト内のネストされたコレクション**をサポートします。戻り値のコレクションをメタデータ オブジェクト (oData など) でラップする API を取り込み、Grid などのデータ バインディングコンポーネントにネスト コレクションを使用したり、それに基づいて繰り返し操作を実行したりできます。
+
 ## データ ソースを追加する
 App Builder のデータ機能を使用して、JSON (Rest API)、Excel、CSV ファイルなどの外部データ ソースを、ファイルのアップロードまたは外部公開ソースへのリンクによって追加できます。この機能の最初のリリースでは、REST API オプションのみ使用できます。
 
