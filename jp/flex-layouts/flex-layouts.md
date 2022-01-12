@@ -1,16 +1,28 @@
 ---
-title: App Builder - Flex レイアウト
-_description: App Builder は Web アプリを対象としています。そのため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト コンポーネントとして利用できます。
+title: App Builder の Flex レイアウトと配置
+_description: Flex レイアウトを使用して、App Builder でアプリ レイアウトを作成および編集する方法につぃて説明します。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。
 _keywords: App builder flex レイアウト, Indigo Design, インフラジスティックス
 _language: ja
 ---
 
 # Flex レイアウト (および配置) 
+### Flex レイアウトとは? 
+Flex レイアウトは、コンポーネントの配置、項目間のスペースの配置、サイズ変更に使用されます。強力な配置機能を提供し、列または行に要素をレイアウトし、あらゆる画面サイズに簡単に適応するレスポンシブ ページ レイアウトを構築します。
+
+### Flex レイアウトの使用方法
+Flex レイアウトは、レイアウト コンテナーのサイズを簡単に指定し、可視性とビューポート サイズを定義し、利用可能なスペースに合わせて項目をそれぞれ縮小または展開できるように設計されています。
+
+このすべてを実現するために、Flex レイアウトを使用する際に最初に行う必要があるのは、コンテナーまたは親要素を対象にし、コンテナー要素の CSS を調整することです。 
+
+### App Builder で Flex レイアウトを作成する方法
+App Builderで Flex レイアウトを使用するには、コンテナー (ビデオではキャンパスと呼ばれます) を定義する必要があります。display プロパティは自動的に Flex に設定されます。[ビュー] に移動し、新しいコンテナーを追加し、Flex レイアウト行または Flex レイアウト列を選択します。
+
+さまざまな Flex レイアウト プロパティから選択して配置を定義したり、flex 項目のデフォルトの動作、その他の値を設定したりできます。
 
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
         </div>
         <p> アプリのレイアウトを作成する</p>
     </div>
@@ -55,6 +67,6 @@ Flex レイアウト コンテナには、ネストされた UI 要素の位置�
 <div class="divider--half"></div>
 
 * [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [Flexbox (英語)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+* [Flexbox](https://developer.mozilla.org/ja-JP/docs/Learn/CSS/CSS_layout/Flexbox)
 * [Flexbox のガイド (英語)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy (英語)](https://flexboxfroggy.com/)
