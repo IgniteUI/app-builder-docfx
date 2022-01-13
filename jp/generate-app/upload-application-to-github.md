@@ -21,20 +21,20 @@ Indigo.Design App Builder の優れた機能の 1 つに、コード生成サー
 アプリケーションのデザインを完了し、そのコードをプレビューした後、完全なアプリ コード リポジトリを生成します。これを行うには、[アプリの生成] ボタンに移動し、GitHub アカウントを App Builder に接続します。ボタン メニューからアプリケーション ファイルをダウンロードすることもできます。
 
 
-<img class="responsive-img" src="../images/connect-to-github.png" srcset="../images/connect-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/connect-to-github2.png" srcset="../images/connect-to-github-@2x.png 2x" />
 <p style="text-align:center;">Indigo.Design App Builder を GitHub に接続する</p>
 
 GitHub アカウントでログインした後、Indigo.Design にアクセスしてアプリ コードが保存されるリポジトリを取得する必要があります。ここで、新しいリポジトリの作成または既存のリポジトリへの追加を選択できます。新しいリポジトリを作成する場合、アプリの名前を指定し、説明を追加して公開または非公開リポジトリを選択できます。準備ができたら、アプリのファイルを GitHub にアップロードし、新しい GitHub リポジトリを作成します。
 
-<img class="responsive-img" src="../images/pick-repository-publish-to-github.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/pick-repository-publish-to-github2.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">アプリケーションを GitHub の既存のリポジトリに公開する</p>
 
-<img class="responsive-img" src="../images/create-new-repo-publish-to-github.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/create-new-repo-publish-to-github2.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">GitHub に新しいリポジトリを作成する</p>
 
 アップロード プロセスが完了したら、ユーザーは App Builder 内から GitHub リポジトリに変更を適用するか、[GitHub で表示] をクリックして GitHub で更新されたファイルを表示できます。
 
-<img class="responsive-img" src="../images/view-application-publish-to-github2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
+<img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">VS Code で実行されるアプリケーション</p>
 
 ## その他のリソース
