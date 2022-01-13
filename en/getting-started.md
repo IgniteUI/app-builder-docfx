@@ -9,13 +9,10 @@ _keywords: App builder, Indigo Design, Infragistics
 > [!NOTE]
 ><b>App Builder can be launched from the App tab in your Indigo.Design home screen or through the [App Builder domain](https://cloud.indigo.design/login-and-redirect?target=appbuilder&path=/). From there, you will be able also to manage all of your active applications. Once, you finish editing an app in the App Builder, you can generate its code from the "Generate code" button and, then, run it locally.
 
-
 ### In this article:
 * <a href="#launch-app-builder">Launch App Builder</a>
 * <a href="#getting-the-code">Getting the code</a>
 * <a href="#running-the-app-locally">Running the app locally</a>
-* <a href="#running-the-desktop-app">Running the Desktop app</a>
-
 
 <section class="video-container">
     <div>
@@ -95,13 +92,6 @@ In order to run the downloaded application, the following prerequisites need to 
 </div>
 <div class="divider--half"></div>
 
-## Running the Desktop app
-Stay connected to your apps on any device Everyone needs instant access to their work no matter where they are – we’ve got you covered! Mobile, desktop, or web, App Builder is designed, so you can empower your team to reach its full potential from any device, even on the go.
-
-- [Windows installer](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.exe)
-- [MacOS installer](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.dmg)
-- [Linux installer](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.AppImage)
-
 ## Additional Resources
 <div class="divider--half"></div>
 
@@ -109,3 +99,4 @@ Stay connected to your apps on any device Everyone needs instant access to their
 * [Single Page And Navigation](single-page-apps-and-navigation.md)
 * [Indigo.Design App Builder Components](indigo-design-app-builder-components.md)
 * [Flex Layouts](flex-layouts/flex-layouts.md)
+* [Running Desktop App](running-desktop-app.md)
