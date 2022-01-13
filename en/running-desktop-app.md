@@ -1,5 +1,5 @@
 
-## Running the Desktop app
+## Running Desktop app
 Stay connected to your apps on any device. Everyone needs instant access to their work no matter where they are – we’ve got you covered! Mobile, desktop, or web, App Builder is designed, so you can empower your team to reach its full potential from any device, even on the go.
 
 - [Windows installer](https://github.com/IgniteUI/app-builder-client/releases/latest/download/AppBuilder.exe)

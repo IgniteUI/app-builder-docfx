@@ -9,12 +9,10 @@ _keywords: App builder, Indigo Design, Infragistics
 > [!NOTE]
 ><b>App Builder can be launched from the App tab in your Indigo.Design home screen or through the [App Builder domain](https://cloud.indigo.design/login-and-redirect?target=appbuilder&path=/). From there, you will be able also to manage all of your active applications. Once, you finish editing an app in the App Builder, you can generate its code from the "Generate code" button and, then, run it locally.
 
-
 ### In this article:
 * <a href="#launch-app-builder">Launch App Builder</a>
 * <a href="#getting-the-code">Getting the code</a>
 * <a href="#running-the-app-locally">Running the app locally</a>
-
 
 <section class="video-container">
     <div>
@@ -101,3 +99,4 @@ In order to run the downloaded application, the following prerequisites need to 
 * [Single Page And Navigation](single-page-apps-and-navigation.md)
 * [Indigo.Design App Builder Components](indigo-design-app-builder-components.md)
 * [Flex Layouts](flex-layouts/flex-layouts.md)
+* [Running Desktop App](running-desktop-app.md)
