@@ -15,7 +15,6 @@ _keywords: App builder, Indigo Design, Infragistics
 * <a href="#getting-the-code">Getting the code</a>
 * <a href="#running-the-app-locally">Running the app locally</a>
 
-
 <section class="video-container">
     <div>
         <div class="video-container__item">
@@ -101,3 +100,4 @@ In order to run the downloaded application, the following prerequisites need to 
 * [Single Page And Navigation](single-page-apps-and-navigation.md)
 * [Indigo.Design App Builder Components](indigo-design-app-builder-components.md)
 * [Flex Layouts](flex-layouts/flex-layouts.md)
+* [Running Desktop App](running-desktop-app.md)
