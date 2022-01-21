@@ -4,6 +4,9 @@
 - name: はじめに
   href: ../getting-started.md
   new: true
+- name: Desktop アプリの実行方法
+  href: ../running-desktop-app.md
+  new: true
 - name: インターフェイスの概要
   href: ../interface-overview.md
   new: true
