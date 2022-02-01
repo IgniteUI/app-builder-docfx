@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-><b>Latest update was made on January 21th, 2022.
+><b>Latest update was made on January 31th, 2022.
 
 # January 2022 Release
 
