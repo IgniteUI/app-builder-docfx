@@ -92,6 +92,9 @@ In order to run the downloaded application, the following prerequisites need to 
 </div>
 <div class="divider--half"></div>
 
+## Report an issue or send feedback
+
+[This repository](https://github.com/IgniteUI/app-builder) is intended for issues and feature requests submission, as well as for general product discussions, questions and any feedback that you want to share.
 ## Additional Resources
 <div class="divider--half"></div>
 
