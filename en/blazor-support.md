@@ -41,4 +41,4 @@ As mentioned, beta version of Blazor Code generation feature supports a handful 
 After finalizing the design of your application and before previewing its code, pay attention to the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor BETA` option to generate code for Blazor, or `Angular` if this is the preferred framework for your app. The picker rememers your choice and next time you go to AppBuilder you will have your desired framework preselected for you.
 
 ## Uploading an application to GitHub
-In addition to see your application in Preview mode or download it locally on the machinbe, there is the option for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder.
+In addition to see your application in Preview mode or download it locally on the machine, there is the option for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder.
