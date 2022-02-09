@@ -26,12 +26,12 @@ Possible reason for the error could be that the proxy server is blocking the req
 Whitelisting *.indigo.design and *.infragistics.com for both https and secure websocket should be enough. 
 
 _The detailed list is as follows: _
-https://appbuilder.indigo.design (https 443)
-wss://appbuilder.indigo.design (websocket 443) 
-https://cloud.indigo.design (https 443) 
-https://igniteuithemingwidget-previous.infragistics.com (https 443) 
-https://igniteuithemingwidget-prod.infragistics.com (https 443) 
-https://iam.infragistics.com (https 443) 
+- https://appbuilder.indigo.design (https 443)
+- wss://appbuilder.indigo.design (websocket 443) 
+- https://cloud.indigo.design (https 443) 
+- https://igniteuithemingwidget-previous.infragistics.com (https 443) 
+- https://igniteuithemingwidget-prod.infragistics.com (https 443) 
+- https://iam.infragistics.com (https 443) 
 
 
 <img class="responsive-img" src="./images/cant-connect-error.PNG" />
