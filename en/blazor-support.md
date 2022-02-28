@@ -44,7 +44,7 @@ After finalizing the design of your application and before previewing its code, 
 In addition to see your application in Preview mode or download it locally on the machine, there is the option for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder.
 
 ## Known issues and limitations
-Generating Blazor application has this limitations:
+Generating Blazor application has this limitations: 
 - Generated application cannot load data from data sources with authentication.
 - Only single level array of objects could be passed as data source. Data sources of object type or of nested arrays type are not supported.
 - Only WASM project is generated.
