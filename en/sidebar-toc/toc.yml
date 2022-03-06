@@ -4,7 +4,12 @@
   header: true
 - name: Getting Started
   href: ../getting-started.md
-  new: true
+  new: false
+  updated: true
+  items:
+    - name: On-prem prerequisites
+      href: ../on-prem-prerequisites.md
+      new: true
 - name: Running Desktop App
   href: ../running-desktop-app.md
   new: true

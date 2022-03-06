@@ -5,14 +5,33 @@ _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 ---
 
 # Data Feature overview 
-The App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Currently, a JSON type data sources can be added, enabling users to upload their own JSON file or provide a Rest API URL with the data source. All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
+The App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Below you can find different ways to set up Rest API data sources:
+- By using a JSON type data source, enabling users to upload their own JSON file or provide a Rest API URL with the data source.
+- By using a Swagger URL or file definition (json/yaml).
+
+All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
 
-The App Builder now supports **nested collection inside a response object**. You can now bring in APIs that wrap the return collection in a metadata object (e.g. oData and others) and use the nested collection for data-binding components such as the Grid or to perform repeat operations based on it.
+The App Builder also supports **nested collection inside a response object**. You can now bring in APIs that wrap the return collection in a metadata object (e.g. oData and others) and use the nested collection for data-binding components such as the Grid or to perform repeat operations based on it.
 
 <img class="responsive-img" src="./images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
 
+## Adding a Swagger data source
+**Swagger** is a set of open-source tools built around the OpenAPI Specification that can help you design, build, document and consume REST APIs.
+
+**OpenAPI Specification** (formerly Swagger Specification) is an API description format for REST APIs. An OpenAPI file allows you to describe your entire API, including:
+
+- Available endpoints (/users) and operations on each endpoint (GET /users, POST /users)
+[ADD IMAGE OR GIF]
+- Operation parameters Input and output for each operation
+[ADD IMAGE OR GIF]
+- Authentication methods
+[ADD IMAGE OR GIF]
+- Contact information, license, terms of use and other information.
+
+API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines. The complete OpenAPI Specification can be found on GitHub: [OpenAPI 3.0 Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md). More about OpenAPI [here](https://swagger.io/docs/specification/about/).
+[ADD IMAGE OR GIF]
 ## Adding a data source
 The App Builder Data feature enables users to add an external data sources, such as JSON (Rest API), Excel or CSV file, either by uploading a file, or linking to external publicly available source. Only Rest API option is available in the initial release of this feature.
 
