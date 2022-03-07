@@ -41,7 +41,7 @@ Right now AppBuilder generates application for Angular and Blazor. Below is a li
 | **Menu and Navigation**                                          |
 | Navigation Bar         | :heavy_check_mark: | :question:         |
 | Navigation Drawer      | :heavy_check_mark: | :question:         |
-| Views Container        | :heavy_check_mark: | :heavy_check_mark: |
+| Views Container        | :heavy_check_mark: | :question: |
 | **Content**                                                      |
 | Avatar                 | :heavy_check_mark: | :question:         |
 | Calendar               | :heavy_check_mark: | :x:                |
@@ -75,7 +75,7 @@ Right now AppBuilder generates application for Angular and Blazor. Below is a li
 | Dialog Window          | :heavy_check_mark: | :x:                |
 | Snackbar               | :heavy_check_mark: | :x:                |
 
-> Note: See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
+> Note: Partially generated components are marked with :question:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
 
 ## Additional Resources
 
