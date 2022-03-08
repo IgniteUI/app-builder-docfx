@@ -38,7 +38,7 @@ This section assumes that you already have docker and a sql server database inst
 
 ### First time installation
 
-1. Download the appbuilder.zip file located [here](test) (public URL)
+1. Download the appbuilder.zip file located here (public URL)
 2. Extract the appbuilder.tar contained in the appbuilder.zip file. 
 3. Open a terminal or command prompt window at the extracted location.
 4. Load and verify the image.
