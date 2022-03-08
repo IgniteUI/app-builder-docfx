@@ -6,11 +6,11 @@ _keywords: App builder, On-premise, Infragistics
 
 # App Builder On-premise Prerequisites and Installation
 
-## App Builder On-premise Prerequisites
+## On-premise Prerequisites
 
 This section lists the prerequisites to install the On-Prem version of AppBuilder and is intended for System Administrators who configure operational parameters that maintains and supports Linux/Mac OS/Windows.
 
-### <a name='sql-server'>Install SQL Server</a>
+### Install SQL Server
 
 1. Install [Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) ([direct link](https://go.microsoft.com/fwlink/?linkid=866658))
 
@@ -29,11 +29,11 @@ This section lists the prerequisites to install the On-Prem version of AppBuilde
 <img class="responsive-img" src="./images/login-parameters.png" />
 <p style="text-align:center;">Login Parameters Dialog</p>
 
-### <a name='docker'>Install Docker</a>
+### Install Docker
 
 Windows guide -> [docs.microsoft.com guide](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-and-11#tabpanel_1_Windows-10-and-11)
 
-## App Builder On-premise Installation
+## On-premise Installation
 This section assumes that you already have docker and a sql server database installed.
 
 ### First time installation
@@ -73,11 +73,10 @@ Note: or if you are using Docker Desktop, go to Containers/Apps, find your conta
 <img class="responsive-img" src="./images/docker-apps.png" />
 <p style="text-align:center;">Docker Containers/Apps</p>
 
-### <a name='updates'>Updates</a>
+### Updates
 
 
 1. Follow the first 4 steps of the first time installation  with the newly published zip file.
-
 
 2. Verify that the new image has loaded correctly (the old image should be tagged as <none>)
 
@@ -101,6 +100,8 @@ docker rm appbuilder
 ```
 
 5. Run the container with the same command as the one used in step 5. of the first time installation.
+
+
 ## Additional Resources
 <div class="divider--half"></div>
 
