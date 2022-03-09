@@ -34,6 +34,7 @@ _language: ja
 * <a href="#introduction">機能の概要</a>
 * <a href="#blazor-code-generation">Blazor コード生成</a>
 * <a href="#uploading-an-application-to-github">アプリケーションを Github にアップロードする</a>
+* <a href="#known-issues-and-limitations">既知の問題点および制限事項</a>
 
 ## 概要
 前述のように、Blazor コード生成機能のベータ版は少数のコンポーネントをサポートしますが、多くのコンポーネントをサポートする予定です。グリッドコード生成をお見逃しなく - ほとんどのグリッド機能はまだサポートされていませんが、データ バインディングは Ignite UI for Blazor のネイティブ グリッド コンポーネントで Blazor アプリケーションを実行する機能を提供します。AppBuilder デザイナーでグリッドでより多くの機能を有効にしても問題ありません。デザインからのコード生成は単なるデータ バインディング以上のものをもたらします。
@@ -43,3 +44,22 @@ _language: ja
 
 ## アプリケーションを Github にアップロードする
 アプリケーションをプレビュー モードで表示したり、ローカルにダウンロードしたりする以外に、完全なアプリコード リポジトリを生成するオプションがあります。これを行うには、[アプリの生成] ボタンに移動し、GitHub アカウントを App Builder に接続します。
+
+## 既知の問題点および制限事項
+Generating Blazor application has the following limitations:
+- The generated application cannot load data from data sources with authentication.
+- Only a single-level array of objects could be passed as a data source. Data sources of object type or of nested arrays type are not supported.
+- Only WASM project is generated.
+- Only white themes are generated.
+- Custom themes do not support custom roundness and custom elevations yet.
+- Bootstrap is turned off in the generated application for now.
+
+Generated components have these limitations:
+- Navigation drawer works only in the pinned state. The mini version does not work too.
+- Date picker works only in dropdown mode and the initial date cannot be set.
+- The input group does not support date type.
+- Radio group does not support horizontal mode.
+- Grid cannot generate a toolbar. This disallows the generation of advanced filtering, exporting, pinning, and hiding. Setting cell and row selection do not work simultaneously. Column selection, paging, grouping, and column moving are not supported yet. Filtering is working only in excel style mode.
+- For all components toggle actions are not generated yet. Also, dates are not bound to internal fields.
+
+Additional information about all supported components for Blazor you can find in [アプリを生成](generate-app/generate-app-overview.md#supported-components)
