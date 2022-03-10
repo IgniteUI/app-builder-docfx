@@ -6,7 +6,7 @@ _keywords: App builder, On-premise, Infragistics
 
 # App Builder On-premise Prerequisites and Installation
 
-## On-premise Prerequisites
+## Prerequisites
 
 This section lists the prerequisites to install the On-Prem version of AppBuilder and is intended for System Administrators who configure operational parameters that maintains and supports Linux/Mac OS/Windows.
 
@@ -33,7 +33,7 @@ This section lists the prerequisites to install the On-Prem version of AppBuilde
 
 Windows guide -> [docs.microsoft.com guide](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-and-11#tabpanel_1_Windows-10-and-11)
 
-## On-premise Installation
+## Installation
 This section assumes that you already have docker and a sql server database installed.
 
 ### First time installation
@@ -100,6 +100,19 @@ docker rm appbuilder
 ```
 
 5. Run the container with the same command as the one used in step 5. of the first time installation.
+
+
+## Activation
+This section assumes that you already installed the On-Prem instance and it is now up and running.
+
+
+
+When the server is first started a prompt dialog will provide you with _Installation ID_ and a _Authentication key_ will be requested. Send this Installation ID to our [Sales department](https://www.infragistics.com/about-us/contact-us#sales) based on your region and we will provide you with _Authentication key_ to activate the server.
+
+
+
+> [!NOTE]
+> You will be warn through the UI thirty days before the expiration of your key.
 
 
 ## Additional Resources

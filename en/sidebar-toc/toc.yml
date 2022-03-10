@@ -8,7 +8,7 @@
   updated: true
   items:
     - name: On-prem prerequisites
-      href: ../on-prem-prerequisites.md
+      href: ../on-prem-prerequisites-and-installation.md
       new: true
 - name: Running Desktop App
   href: ../running-desktop-app.md
