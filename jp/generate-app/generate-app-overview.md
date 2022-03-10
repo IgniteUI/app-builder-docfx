@@ -27,6 +27,57 @@ Angular コード生成機能を備えた App Builder は数か月前から販�
 
 すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Indigo.Design App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
 
+## サポートされているコンポーネント
+
+現在、AppBuilder は Angular と Blazor 用のアプリケーションを生成します。以下は、各プラットフォームでサポートされている各コンポーネントのリストです:
+| コンポーネント              | Angular            | Blazor             |
+|------------------------|--------------------|--------------------|
+| **レイアウト**                                                      |
+| Absolute Layout        | :heavy_check_mark: | :heavy_check_mark: |
+| Card                   | :heavy_check_mark: | :question:         |
+| Column Layout          | :heavy_check_mark: | :heavy_check_mark: |
+| Expansion Panel        | :heavy_check_mark: | :x:                |
+| Row Layout             | :heavy_check_mark: | :heavy_check_mark: |
+| Tab Layout             | :heavy_check_mark: | :x:                |
+| **メニューおよびナビゲーション**                                          |
+| Navigation Bar         | :heavy_check_mark: | :question:         |
+| Navigation Drawer      | :heavy_check_mark: | :question:         |
+| Views Container        | :heavy_check_mark: | :question: |
+| **コンテンツ**                                                      |
+| Avatar                 | :heavy_check_mark: | :question:         |
+| Calendar               | :heavy_check_mark: | :x:                |
+| Chip                   | :heavy_check_mark: | :x:                |
+| Icon                   | :heavy_check_mark: | :question:         |
+| Image                  | :heavy_check_mark: | :question:         |
+| Link                   | :heavy_check_mark: | :question:         |
+| Text                   | :heavy_check_mark: | :question:         |
+| Title                  | :heavy_check_mark: | :question:         |
+| **入力およびフォーム**                                                |
+| Button                 | :heavy_check_mark: | :question:         |
+| Button Group           | :heavy_check_mark: | :x:                |
+| Checkbox               | :heavy_check_mark: | :question:         |
+| Combo                  | :heavy_check_mark: | :x:                |
+| Date Picker            | :heavy_check_mark: | :question:         |
+| Drop Down              | :heavy_check_mark: | :x:                |
+| Floating Action Button | :heavy_check_mark: | :question:         |
+| Icon Button            | :heavy_check_mark: | :question:         |
+| Input Group            | :heavy_check_mark: | :question:         |
+| Radio Group            | :heavy_check_mark: | :question:         |
+| Select                 | :heavy_check_mark: | :x:                |
+| Slider                 | :heavy_check_mark: | :x:                |
+| Switch                 | :heavy_check_mark: | :question:         |
+| Text Area              | :heavy_check_mark: | :x:                |
+| **グリッドおよびリスト**                                                |
+| Grid                   | :heavy_check_mark: | :question:         |
+| List                   | :heavy_check_mark: | :question:         |
+| **通知**                                                |
+| Badge                  | :heavy_check_mark: | :question:         |
+| Banner                 | :heavy_check_mark: | :x:                |
+| Dialog Window          | :heavy_check_mark: | :x:                |
+| Snackbar               | :heavy_check_mark: | :x:                |
+
+> 注: 部分的に生成されたコンポーネントは :question: でマークされます。Blazor コンポーネントの既知の問題および制限の詳細については、[Blazor サポート](../blazor-support.md#既知の問題点および制限事項)を参照してください。
+
 ## その他のリソース
 
 <div class="divider--half"></div>
