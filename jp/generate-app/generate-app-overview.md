@@ -27,9 +27,9 @@ Angular コード生成機能を備えた App Builder は数か月前から販�
 
 すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Indigo.Design App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
 
-## Supported Components
+## サポートされているコンポーネント
 
-Right now AppBuilder generates application for Angular and Blazor. Below is a list of each supported components in each platform:
+現在、AppBuilder は Angular と Blazor 用のアプリケーションを生成します。以下は、各プラットフォームでサポートされている各コンポーネントのリストです:
 | コンポーネント              | Angular            | Blazor             |
 |------------------------|--------------------|--------------------|
 | **レイアウト**                                                      |
@@ -76,7 +76,7 @@ Right now AppBuilder generates application for Angular and Blazor. Below is a li
 | Dialog Window          | :heavy_check_mark: | :x:                |
 | Snackbar               | :heavy_check_mark: | :x:                |
 
-> Note: Partially generated components are marked with :question:. See [Blazor サポート](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
+> 注: 部分的に生成されたコンポーネントは :question: でマークされます。Blazor コンポーネントの既知の問題および制限の詳細については、[Blazor サポート](../blazor-support.md#既知の問題点および制限事項)を参照してください。
 
 ## その他のリソース
 

@@ -46,20 +46,20 @@ _language: ja
 アプリケーションをプレビュー モードで表示したり、ローカルにダウンロードしたりする以外に、完全なアプリコード リポジトリを生成するオプションがあります。これを行うには、[アプリの生成] ボタンに移動し、GitHub アカウントを App Builder に接続します。
 
 ## 既知の問題点および制限事項
-Generating Blazor application has the following limitations:
-- The generated application cannot load data from data sources with authentication.
-- Only a single-level array of objects could be passed as a data source. Data sources of object type or of nested arrays type are not supported.
-- Only WASM project is generated.
-- Only white themes are generated.
-- Custom themes do not support custom roundness and custom elevations yet.
-- Bootstrap is turned off in the generated application for now.
+Blazor アプリケーションの生成には、次の制限があります:
+- 生成されたアプリケーションは、認証付きデータ ソースからデータを読み込みできません。
+- データ ソースとして渡すことができるのは、オブジェクトの単一レベルの配列のみです。オブジェクト型またはネストされた配列型のデータ ソースはサポートされていません。
+- WASM プロジェクトのみが生成されます。
+- 白いテーマのみが生成されます。
+- カスタム テーマは、カスタム ラウンドネスとカスタム エレベーションをまだサポートしていません。
+- 生成されたアプリケーションでは、今のところ Bootstrap はオフになっています。
 
-Generated components have these limitations:
-- Navigation drawer works only in the pinned state. The mini version does not work too.
-- Date picker works only in dropdown mode and the initial date cannot be set.
-- The input group does not support date type.
-- Radio group does not support horizontal mode.
-- Grid cannot generate a toolbar. This disallows the generation of advanced filtering, exporting, pinning, and hiding. Setting cell and row selection do not work simultaneously. Column selection, paging, grouping, and column moving are not supported yet. Filtering is working only in excel style mode.
-- For all components toggle actions are not generated yet. Also, dates are not bound to internal fields.
+生成されたコンポーネントには、次の制限があります:
+- Navigation drawer は、固定された状態でのみ機能します。ミニ バージョンも動作しません。
+- Date picker はドロップダウン モードでのみ機能し、初期日付は設定できません。
+- 入力グループは日付型をサポートしていません。
+- ラジオ グループは水平モードをサポートしていません。
+- グリッドはツールバーを生成できません。これにより、高度なフィルタリング、エクスポート、ピン固定、および非表示の生成ができなくなります。セルと行の選択の設定は同時に機能しません。列の選択、ページング、グループ化、および列の移動はまだサポートされていません。フィルタリングは、Excel スタイル モードでのみ機能します。
+- すべてのコンポーネントについて、切り替え操作はまだ生成されていません。また、日付は内部フィールドにバインドされていません。
 
-Additional information about all supported components for Blazor you can find in [アプリを生成](generate-app/generate-app-overview.md#supported-components)
+Blazor でサポートされているすべてのコンポーネントに関する追加情報は、[アプリを生成](generate-app/generate-app-overview.md#サポートされているコンポーネント)にあります。
