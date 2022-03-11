@@ -33,47 +33,49 @@ Right now AppBuilder generates application for Angular and Blazor. Below is a li
 |------------------------|--------------------|--------------------|
 | **Layouts**                                                      |
 | Absolute Layout        | :heavy_check_mark: | :heavy_check_mark: |
-| Card                   | :heavy_check_mark: | :heavy_check_mark: |
+| Card                   | :heavy_check_mark: | :question:         |
 | Column Layout          | :heavy_check_mark: | :heavy_check_mark: |
 | Expansion Panel        | :heavy_check_mark: | :x:                |
 | Row Layout             | :heavy_check_mark: | :heavy_check_mark: |
 | Tab Layout             | :heavy_check_mark: | :x:                |
 | **Menu and Navigation**                                          |
-| Navigation Bar         | :heavy_check_mark: | :heavy_check_mark: |
-| Navigation Drawer      | :heavy_check_mark: | :heavy_check_mark: |
-| Views Container        | :heavy_check_mark: | :heavy_check_mark: |
+| Navigation Bar         | :heavy_check_mark: | :question:         |
+| Navigation Drawer      | :heavy_check_mark: | :question:         |
+| Views Container        | :heavy_check_mark: | :question: |
 | **Content**                                                      |
-| Avatar                 | :heavy_check_mark: | :heavy_check_mark: |
+| Avatar                 | :heavy_check_mark: | :question:         |
 | Calendar               | :heavy_check_mark: | :x:                |
 | Chip                   | :heavy_check_mark: | :x:                |
-| Icon                   | :heavy_check_mark: | :heavy_check_mark: |
-| Image                  | :heavy_check_mark: | :heavy_check_mark: |
-| Link                   | :heavy_check_mark: | :heavy_check_mark: |
-| Text                   | :heavy_check_mark: | :heavy_check_mark: |
-| Title                  | :heavy_check_mark: | :heavy_check_mark: |
+| Icon                   | :heavy_check_mark: | :question:         |
+| Image                  | :heavy_check_mark: | :question:         |
+| Link                   | :heavy_check_mark: | :question:         |
+| Text                   | :heavy_check_mark: | :question:         |
+| Title                  | :heavy_check_mark: | :question:         |
 | **Input & Forms**                                                |
-| Button                 | :heavy_check_mark: | :heavy_check_mark: |
+| Button                 | :heavy_check_mark: | :question:         |
 | Button Group           | :heavy_check_mark: | :x:                |
-| Checkbox               | :heavy_check_mark: | :heavy_check_mark: |
+| Checkbox               | :heavy_check_mark: | :question:         |
 | Combo                  | :heavy_check_mark: | :x:                |
-| Date Picker            | :heavy_check_mark: | :heavy_check_mark: |
+| Date Picker            | :heavy_check_mark: | :question:         |
 | Drop Down              | :heavy_check_mark: | :x:                |
-| Floating Action Button | :heavy_check_mark: | :heavy_check_mark: |
-| Icon Button            | :heavy_check_mark: | :heavy_check_mark: |
-| Input Group            | :heavy_check_mark: | :heavy_check_mark: |
-| Radio Group            | :heavy_check_mark: | :heavy_check_mark: |
+| Floating Action Button | :heavy_check_mark: | :question:         |
+| Icon Button            | :heavy_check_mark: | :question:         |
+| Input Group            | :heavy_check_mark: | :question:         |
+| Radio Group            | :heavy_check_mark: | :question:         |
 | Select                 | :heavy_check_mark: | :x:                |
 | Slider                 | :heavy_check_mark: | :x:                |
-| Switch                 | :heavy_check_mark: | :heavy_check_mark: |
+| Switch                 | :heavy_check_mark: | :question:         |
 | Text Area              | :heavy_check_mark: | :x:                |
 | **Grids & Lists**                                                |
-| Grid                   | :heavy_check_mark: | :heavy_check_mark: |
-| List                   | :heavy_check_mark: | :heavy_check_mark: |
+| Grid                   | :heavy_check_mark: | :question:         |
+| List                   | :heavy_check_mark: | :question:         |
 | **Notifications**                                                |
-| Badge                  | :heavy_check_mark: | :heavy_check_mark: |
+| Badge                  | :heavy_check_mark: | :question:         |
 | Banner                 | :heavy_check_mark: | :x:                |
 | Dialog Window          | :heavy_check_mark: | :x:                |
 | Snackbar               | :heavy_check_mark: | :x:                |
+
+> Note: Partially generated components are marked with :question:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
 
 ## Additional Resources
 
