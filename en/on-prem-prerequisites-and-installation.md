@@ -14,20 +14,20 @@ This section lists the prerequisites to install the On-Prem version of App Build
 
 1 - Install [Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) ([direct link](https://go.microsoft.com/fwlink/?linkid=866658))
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/on-premise-sql-express.png" />
-<p style="text-align:center;">On-Premise Sql Express Installation</p>
+<img class="responsive-img" style="width: 56%; box-shadow: 5px -4px 13px 1px grey" src="./images/on-premise-sql-express.png" />
+<p style="margin-top:-20px;width: 56%; text-align:center;">On-Premise Sql Express Installation</p>
 
 > Note: An On-prem server should have a real Sql Server not an embedded Sql Server Express of VS
 
 2 - Enable tcp/ip - detailed explanation [here](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol?view=sql-server-ver15#to-enable-a-server-network-protocol).
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/sql-server-config-manager.png" />
-<p style="text-align:center;">SqlServer Config Manager</p>
+<p style="margin-top:-20px;width:56%; text-align:center;">SqlServer Config Manager</p>
 
 3 - Add a new App_Builder user part of Sql Express. You can [install Sql Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) and use it for that purpose.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/login-parameters.png" />
-<p style="text-align:center;">Login Parameters Dialog</p>
+<img class="responsive-img" style="width: 57%; box-shadow: 5px -4px 13px 1px grey" src="./images/login-parameters.png" />
+<p style="margin-top:-20px;width: 57%; text-align:center;">Login Parameters Dialog</p>
 
 ### Install Docker
 
@@ -71,7 +71,7 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderConnectio
 > If you are using Docker Desktop, go to Containers/Apps, find your container and click `Open in browser` 
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/docker-apps.png" />
-<p style="text-align:center;">Docker Containers/Apps</p>
+<p style="margin-top:-20px;text-align:center;">Docker Containers/Apps</p>
 
 ### Updates
 
@@ -110,8 +110,8 @@ This section assumes that you already installed the On-Prem instance and it is n
 When the server is first started, a prompt dialog will provide you with _Installation ID_ and a _Authentication key_ will be requested. Send this _Installation ID_ to our [Sales department](https://www.infragistics.com/about-us/contact-us#sales) based on your region and we will provide you with _Authentication key_ to activate the server.
 
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/activate-app-builder.png" />
-<p style="text-align:center;">Activate App Builder</p>
+<img class="responsive-img" style="width:36%;box-shadow: 5px -4px 13px 1px grey" src="./images/activate-app-builder.png" />
+<p style="margin-top:-20px;width:36%;text-align:center;">Activate App Builder</p>
 
 > [!NOTE]
 > You will receive a warning message directly through the UI thirty days before your key expires.

@@ -11,10 +11,9 @@ The App Builder Data features let users add, edit and use external data source i
 
 All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
-
 The App Builder also supports **nested collection inside a response object**. You can now bring in APIs that wrap the return collection in a metadata object (e.g. oData and others) and use the nested collection for data-binding components such as the Grid or to perform repeat operations based on it.
 
-<img class="responsive-img" src="./images/DataSources-View-data-source.gif" />
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
 
 ## Adding a Swagger data source
@@ -23,15 +22,23 @@ The App Builder also supports **nested collection inside a response object**. Yo
 **OpenAPI Specification** (formerly Swagger Specification) is an API description format for REST APIs. An OpenAPI file allows you to describe your entire API, including:
 
 - Available endpoints (/users) and operations on each endpoint (GET /users, POST /users)
-[ADD IMAGE OR GIF]
+
+<img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/configure-endpoints.png" />
+<p style="width: 70%; text-align:center;">Configure Endpoints</p>
+
 - Operation parameters Input and output for each operation
-[ADD IMAGE OR GIF]
+
+<img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/endpoint-params.png" />
+<p style="width: 70%; text-align:center;">Set Endpoints Parameters/Apps</p>
+
 - Authentication methods
-[ADD IMAGE OR GIF]
 - Contact information, license, terms of use and other information
 
 API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines. The complete OpenAPI Specification can be found on GitHub: [OpenAPI 3.0 Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md). More about OpenAPI [here](https://swagger.io/docs/specification/about/).
-[ADD IMAGE OR GIF]
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/swagger-demo-original.gif" />
+<p style="text-align:center;">Swagger demo</p>
+
 ## Adding a data source
 The App Builder Data feature enables users to add external data sources, such as JSON (Rest API), Excel or CSV file, either by uploading a file, or linking to external publicly available source. Only Rest API option is available in the initial release of this feature.
 
