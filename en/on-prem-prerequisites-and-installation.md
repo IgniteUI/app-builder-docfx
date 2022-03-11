@@ -8,7 +8,7 @@ _keywords: App builder, On-premise, Infragistics
 
 ## Prerequisites
 
-This section lists the prerequisites to install the On-Prem version of AppBuilder and is intended for System Administrators who configure operational parameters that maintains and supports Linux/Mac OS/Windows.
+This section lists the prerequisites to install the On-Prem version of App Builder and is intended for System Administrators who configure operational parameters that maintain and support Linux/Mac OS/Windows.
 
 ### Install SQL Server
 
@@ -34,7 +34,7 @@ This section lists the prerequisites to install the On-Prem version of AppBuilde
 Windows guide -> [docs.microsoft.com guide](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-and-11#tabpanel_1_Windows-10-and-11)
 
 ## Installation
-This section assumes that you already have docker and a sql server database installed.
+This section assumes that you already have docker and an SQL server database installed.
 
 ### First time installation
 
@@ -49,13 +49,13 @@ Run:
 docker load --input appbuilder.tar
 ```
 
-In order to verify that the image is correctly loaded, example with the table below
+In order to verify that the _image_ is correctly loaded, see the example with the table below:
 
 ```
 docker images
 ```
 
-| REPOSITORY| TAG               | IMAGE ID          | CREATED                                   |SIZE   |
+| REPOSITORY    | TAG               | IMAGE ID          | CREATED                                   |SIZE   |
 | --------:     | ----------------  | ----------------- | ---------------------------------------   |-----  |
 | appbuilder    | 1.0               | 2a05977e039b      |12 days ago                                |854MB  |
 
@@ -67,16 +67,15 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderConnectio
 
 6 - Open your browser and type `http://localhost/`
 
-Note: or if you are using Docker Desktop, go to Containers/Apps, find your container and click `Open in browser` 
-
+> [!NOTE]
+> If you are using Docker Desktop, go to Containers/Apps, find your container and click `Open in browser` 
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/docker-apps.png" />
 <p style="text-align:center;">Docker Containers/Apps</p>
 
 ### Updates
 
-
-1 - Follow the first 4 steps of the first time installation  with the newly published zip file.
+1 - Follow the first 4 steps of the first time installation with the newly published zip file
 
 2 - Verify that the new image has loaded correctly (the old image should be tagged as <none>)
 
@@ -102,25 +101,24 @@ docker stop appbuilder
 docker rm appbuilder
 ```
 
-5 - Run the container with the same command as the one used in step 5. of the first time installation.
+5 - Run the container with the same command as the one used in step 5. of the first time installation
 
 
 ## Activation
 This section assumes that you already installed the On-Prem instance and it is now up and running.
 
-When the server is first started a prompt dialog will provide you with _Installation ID_ and a _Authentication key_ will be requested. Send this Installation ID to our [Sales department](https://www.infragistics.com/about-us/contact-us#sales) based on your region and we will provide you with _Authentication key_ to activate the server.
+When the server is first started, a prompt dialog will provide you with _Installation ID_ and a _Authentication key_ will be requested. Send this _Installation ID_ to our [Sales department](https://www.infragistics.com/about-us/contact-us#sales) based on your region and we will provide you with _Authentication key_ to activate the server.
 
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/activate-app-builder.png" />
 <p style="text-align:center;">Activate App Builder</p>
 
 > [!NOTE]
-> You will be warn through the UI thirty days before the expiration of your key.
-
+> You will receive a warning message directly through the UI thirty days before your key expires.
 
 ## Troubleshooting
 ### Docker Desktop on Windows
-[Docker Desktop on Windows is not starting automatically without Login to Windows machine](https://github.com/docker/for-win/issues/6670) - Docker team doesn't  recommend Docker Desktop for _production_ workloads. You should use Docker on a Linux box, or Docker for Windows Server if you want Windows containers.
+[Docker Desktop on Windows is not starting automatically without Login to Windows machine](https://github.com/docker/for-win/issues/6670) - Docker team doesn't recommend Docker Desktop for production workloads. You should use Docker on a Linux box or Docker for Windows Server if you want Windows containers.
 
 
 ## Additional Resources

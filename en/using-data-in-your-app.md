@@ -5,7 +5,7 @@ _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 ---
 
 # Data Feature overview 
-The App Builder Data features lets users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Below you can find different ways to set up Rest API data sources:
+The App Builder Data features let users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Below you can find different ways to set up Rest API data sources:
 - By using a JSON type data source, enabling users to upload their own JSON file or provide a Rest API URL with the data source.
 - By using a Swagger URL or file definition (json/yaml).
 
@@ -28,12 +28,12 @@ The App Builder also supports **nested collection inside a response object**. Yo
 [ADD IMAGE OR GIF]
 - Authentication methods
 [ADD IMAGE OR GIF]
-- Contact information, license, terms of use and other information.
+- Contact information, license, terms of use and other information
 
 API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines. The complete OpenAPI Specification can be found on GitHub: [OpenAPI 3.0 Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md). More about OpenAPI [here](https://swagger.io/docs/specification/about/).
 [ADD IMAGE OR GIF]
 ## Adding a data source
-The App Builder Data feature enables users to add an external data sources, such as JSON (Rest API), Excel or CSV file, either by uploading a file, or linking to external publicly available source. Only Rest API option is available in the initial release of this feature.
+The App Builder Data feature enables users to add external data sources, such as JSON (Rest API), Excel or CSV file, either by uploading a file, or linking to external publicly available source. Only Rest API option is available in the initial release of this feature.
 
 > [!NOTE]
 > Data sources added to the App Builder are restricted to the user space and are visible only to the user that added them, or to their team space (when the teams feature is available).
