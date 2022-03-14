@@ -65,9 +65,21 @@ The App Builder always displays a live-running web application both on the desig
 > [!NOTE]
 > Once the code for your application is downloaded, changes made locally will not be reflected in your App Builder user space.
 
+## On-Premise version of App Builder
+App Builder is a SaaS which provides Developers, Designers and Product Managers with a consolidated platform for software product discovery, software product design, building interactive product PoCs and emitting pixel-perfect code projects ready for subsequent modifications.
+
+Some businesses are part of highly regulated industries. Mostly for security reasons, a lot of them have limited to no access to cloud-based solutions like the App Builder, or limited internet connectivity in certain locations. In order to cover this segment, we had to provide an easy way for such organizations to bring the App Builder behind the firewall, by allowing them to use their own instance of the platform to run on their own infrastructure and to be accessible only by internal personnel.
+
+On-premise applications are reliable, secure, and allow enterprises to maintain a level of control that the cloud often cannot.
+
+Check out this topic for [more technical details on how to install](on-prem-prerequisites-and-installation.md) the On-Prem solution.
+
+<img class="responsive-img" src="./images/on-prem-ab-demo.gif" />
+<p style="text-align:center;">On-Premise version</p>
+
 ## Running the app locally
 
-In order to run the downloaded application, the following prerequisites need to be installed on your machine.
+In order to run the downloaded application, the following prerequisites need to be installed on your machine. Check out [this topic](generate-app/run-application-locally.md) for more information on how to run the generated application locally.
 
 1. NodeJS.
 2. Visual Studio Code (we recommend VS Code, but you can use a different code editor).
@@ -100,6 +112,8 @@ In order to run the downloaded application, the following prerequisites need to 
 
 * [App Builder Interface Overview](interface-overview.md)
 * [Single Page And Navigation](single-page-apps-and-navigation.md)
-* [Indigo.Design App Builder Components](indigo-design-app-builder-components.md)
+* [App Builder Components](indigo-design-app-builder-components.md)
 * [Flex Layouts](flex-layouts/flex-layouts.md)
 * [Running Desktop App](running-desktop-app.md)
+* [Generate app](generate-app/generate-app-overview.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)

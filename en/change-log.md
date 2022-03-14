@@ -7,15 +7,43 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 > [!NOTE]
 
-><b>Latest update was made on January 31th, 2022.
+><b>Latest update was made on March 14th, 2022.
 
-# January 2022 Release
+## March 2022 Release
+### Features
+- **OpenAPI (Swagger) Support** as part of our data-binding RestAPI story.
+- **On-Premise Version of App Builder** that you can install on your own server and behind your own server firewall. This instance is runnable on any infrastructure and accessible only by internal personnel
 
-## IMPROVEMENTS
+### Improvements
+- Image round radius should be in percentage (#5312)
+- Persist the view zoom ratio rather than using the default (#14214)
+
+### MAINTENANCE UPDATES & BUG FIXES
+**Including, but not limited to:**
+- Clicking on Get Assets For Sketch throws error (#14681)
+- Select's popup is cut at the top in preview mode (#14281)
+- When Duplicate an App custom viewport is lost (#13739)
+- Card delete Avatar and switch (#9565)
+- Breadcrumb in data panel doesn't match the visual specs (#14652)
+- Icons overflow input when set fluent theme and rounding (#14846)
+- Detaching a tab when dragging breaks the app (#13352)
+- Button resizes after editing its text (#14719)
+- Outline sections don't collapse when component is de-selected on canvas (#12895)
+- ComboBox Items are affected by preview and there's no clear button (#5856)
+- Select is shown in the "pick component" list when adding open/close action (#6403)
+- Checkbox and Switch generate label position even if set to none (#13775)
+- Setting dark fluent theme with roundness 1 ends up light (#15361)
+- Cell editing doesn't work (#14342)
+- Sign out from Sketch plugin is not signing out (#14486)
+- The disabled state of buttons in the App bar doesn't work (#14315)
+
+## January 2022 Release
+
+### IMPROVEMENTS
 - **Sketch UI Kit Improved Theming Support** - The light/dark mode toggle that changes the surface color now affects how gray colors are set up - as a derivative of black or white.
 - **UI Kits Version Check updates** - Now matching `<major>.<minor>` for consistency between parser dll and symbol. `<patch>` will be ignored and wont throw an error if the symbol version is higher than the parser version (#13942)
 
-## MAINTENANCE UPDATES & BUG FIXES
+### MAINTENANCE UPDATES & BUG FIXES
 **Including, but not limited to:**
 - Workspace title not updated
 - Create new workspace cancel shows invalid state

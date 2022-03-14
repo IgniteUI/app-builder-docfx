@@ -62,3 +62,14 @@ Generated components have these limitations:
 - For all components toggle actions are not generated yet. Also, dates are not bound to internal fields.
 
 Additional information about all supported components for Blazor you can find in [Generate App](generate-app/generate-app-overview.md#supported-components)
+
+## Additional Resources
+
+<div class="divider--half"></div>
+
+* [Generate App](./generate-app/generate-app-overview.md)
+* [App Builder Components](indigo-design-app-builder-components.md)
+* [Flex Layouts](flex-layouts/flex-layouts.md)
+* [Running Desktop App](running-desktop-app.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)

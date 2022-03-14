@@ -69,3 +69,5 @@ To summarize quickly, whatever you have learned about Flex layouts can be used h
 * [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 * [A Guide to flexbox](<https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy](https://flexboxfroggy.com/)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design Styling Overview](https://www.infragistics.com/products/indigo-design/help/style/styling-overview)

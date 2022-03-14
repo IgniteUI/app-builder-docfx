@@ -42,3 +42,5 @@ When the upload process is done, users can apply changes to the GitHub repo from
 
 * [Run Application Locally](run-application-locally.md)
 * [Preview Application Code](../preview-code.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)

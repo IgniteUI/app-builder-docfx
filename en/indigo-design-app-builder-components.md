@@ -42,3 +42,6 @@ For more complex components, like an input field or say card component, you can 
 <div class="divider--half"></div>
 
 * [App Themes](app-themes/app-themes.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+
