@@ -29,47 +29,14 @@ The App Builder Data feature enables users to add external data sources, such as
 <p style="text-align:center;">Adding data source by uploading a file</p>
 
 ## Adding a Swagger data source
-### What is Swagger?
+The power of Swagger tools starts with the OpenAPI Specification — the industry standard for RESTful API design. 
 
-**Swagger** is a set of open-source tools built around the OpenAPI Specification that can help you design, build, document and consume REST APIs.
-### What is OpenAPI?
+You can now specify a Swagger definition (by providing a file URL or simply upload it) and an intuitive design will help you pick an endpoint an data fields, with ease. You can later on bind this data source to a component like Grid, Card, List or any other bindable component.
 
-**OpenAPI Specification** (formerly Swagger Specification) is an API description format for REST APIs. An OpenAPI file allows you to describe your entire API, including:
-
-- Available endpoints (/users) and operations on each endpoint (GET /users, POST /users)
-
-<img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/configure-endpoints.png" />
-<p style="width: 70%; text-align:center;">Configure Endpoints</p>
-
-- Operation parameters Input and output for each operation
-
-<img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/endpoint-params.png" />
-<p style="width: 70%; text-align:center;">Set Endpoints Parameters/Apps</p>
-
-- Authentication methods
-- Contact information, license, terms of use and other information
-
-API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines. The complete OpenAPI Specification can be found on GitHub: [OpenAPI 3.0 Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md). More about OpenAPI [here](https://swagger.io/docs/specification/about/).
+Check out the [full article on how to add a Swagger definition](open-api-swagger-support.md) and bind your data to it.
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/swagger-demo-original.gif" />
 <p style="text-align:center;">Swagger demo</p>
-
-### Specify Swagger definition
-
-At this point you can either specify a _Swagger file URL_ (json/yaml) or _Upload a definition_. Once loaded a _Configure endpoints_ will appear.
-
-The left-side of the _Configure endpoints_ dialog consists of:
-- Base URL - can be automatically populated if value for it is present in the file definition
-- Authorization - provide auth key if needed
-- Endpoints tree view - All available endpoints will be loaded here along with its type (GET, PUT, POST and etc.)
-
-The right-side of the _Configure endpoints_ dialog consists of:
-- Request url with _Send_ button that can be used to test the connection before selecting it
-- Tab elements for authorization, parameters and headers - if one is required, it will be marked as such.
-- Tab content section showing _info_ messages or required fields. Example image:
-
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/endpoints-dialog.png" />
-<p style="text-align:center;">Configure Endpoints Dialog</p>
 
 ## Selecting data fields and changing fields type
 When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
