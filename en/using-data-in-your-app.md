@@ -58,7 +58,7 @@ When a data source has been added, users can connect a particular data field to 
 ## Additional Resources
 <div class="divider--half"></div>
 
-* [App Builder Components](indigo-design-app-builder-components.md)## Additional Resources
+* [App Builder Components](indigo-design-app-builder-components.md)
 * [App Builder Interface Overview](interface-overview.md)
 * [Single Page And Navigation](single-page-apps-and-navigation.md)
 * [App Builder Components](indigo-design-app-builder-components.md)

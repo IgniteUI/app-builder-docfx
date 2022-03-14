@@ -57,3 +57,6 @@ Keep in mind that with the App Builder you can take advantage of Flex layouts, p
 
 * [Flex Layouts](../flex-layouts/flex-layouts.md)
 * [Ignite UI for Angular Theming]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+
