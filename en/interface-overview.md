@@ -31,3 +31,4 @@ On the right side of the screen is the **Property Panel** with viewport, **Desig
 <div class="divider--half"></div>
 
 * [App Builder Components](indigo-design-app-builder-components.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
