@@ -32,3 +32,4 @@ Indigo Design AppBuilder には 4 つの主要なセクションがあります�
 <div class="divider--half"></div>
 
 * [App Builder コンポーネント](indigo-design-app-builder-components.md)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
