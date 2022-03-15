@@ -38,9 +38,12 @@ This section assumes that you already have docker and an SQL server database ins
 
 ### First time installation
 
-1 - Download the appbuilder.zip part of your Download section under the Infragistics Customer Portal.
+1 - Download the appbuilder.zip from the link provided to you by your account representative or from the [Infragistics Customer Portal](https://account.infragistics.com/downloads).
+
 2 - Extract the appbuilder.tar contained in the appbuilder.zip file. 
+
 3 - Open a terminal or command prompt window at the extracted location.
+
 4 - Load and verify the image.
 
 Run:
