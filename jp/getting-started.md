@@ -66,21 +66,21 @@ App Builder は、常にライブ実行中の Web アプリケーションをデ
 > [!NOTE]
 > アプリケーションのコードがダウンロードされると、ローカルで行われた変更は App Builder ユーザー スペースに反映されません。
 
-## On-Premise version of App Builder
-App Builder is a SaaS which provides Developers, Designers and Product Managers with a consolidated platform for software product discovery, software product design, building interactive product PoCs and emitting pixel-perfect code projects ready for subsequent modifications.
+## オンプレミス版の App Builder
+App Builder は、ソフトウェア製品の検出、ソフトウェア製品の設計、インタラクティブな製品概念実証の構築、ピクセルパーフェクトなコード プロジェクトの生成などの統合プラットフォームを開発者、デザイナー、製品マネージャーに提供する SaaS です。
 
-Some businesses are part of highly regulated industries. Mostly for security reasons, a lot of them have limited to no access to cloud-based solutions like the App Builder, or limited internet connectivity in certain locations. In order to cover this segment, we had to provide an easy way for such organizations to bring the App Builder behind the firewall, by allowing them to use their own instance of the platform to run on their own infrastructure and to be accessible only by internal personnel.
+規制の厳しい業界に属する企業もあります。ほとんどの場合、セキュリティ上の理由から、App Builde rなどのクラウド ベースのソリューションへのアクセスが制限されているか、特定の場所でのインターネット接続が制限されています。このセグメントをカバーするためには、このような組織が App Builder をファイアウォールの内側に導入するための簡単な方法を提供する必要がありました。この方法では、独自のインフラ上で動作するプラットフォームのインスタンスを使用し、内部の人員のみがアクセスできるようにする必要がありました。
 
-On-premise applications are reliable, secure, and allow enterprises to maintain a level of control that the cloud often cannot.
+オンプレミス アプリケーションは信頼性が高く、安全であるため、クラウドでは実現できないレベルの制御を維持できます。
 
-Check out this topic for [more technical details on how to install](on-prem-prerequisites-and-installation.md) the On-Prem solution.
+オンプレミス ソリューションの[インストール方法に関する技術的な詳細](on-prem-prerequisites-and-installation.md)については、このトピックを参照してください。
 
 <img class="responsive-img" src="./images/on-prem-ab-demo.gif" />
-<p style="text-align:center;">On-Premise version</p>
+<p style="text-align:center;">オンプレミス版</p>
 
 ## アプリをローカルで実行する
 
-ダウンロードしたアプリケーションを実行するには、次の前提条件がマシンにインストールされている必要があります。Check out [this topic](generate-app/run-application-locally.md) for more information on how to run the generated application locally.
+ダウンロードしたアプリケーションを実行するには、次の前提条件がマシンにインストールされている必要があります。生成されたアプリケーションをローカルで実行する方法の詳細については、[このトピック](generate-app/run-application-locally.md)を参照してください。
 
 1. NodeJS.
 2. Visual Studio Code (VS Code をお勧めしますが、別のコード エディターを使用することもできます)。
