@@ -1,128 +1,128 @@
 ---
-title: App Builder On-premise Prerequisites and Installation
-_description: Learn how to start using App Builder On-premises version and what are the prerequisites to install and run it.
-_keywords: App builder, On-premise, Infragistics
+title: App Builder オンプレミスの前提条件とインストール
+_description: App Builder オンプレミス バージョンの使用を開始する方法と、それをインストールして実行するための前提条件について説明します。
+_keywords: App builder, オンプレミス, インフラジスティックス
 _language: ja
 ---
 
-# App Builder On-premise Prerequisites and Installation
+# App Builder オンプレミスの前提条件とインストール
 
-## Prerequisites
+## 前提条件
 
-This section lists the prerequisites to install the On-Prem version of App Builder and is intended for System Administrators who configure operational parameters that maintain and support Linux/Mac OS/Windows.
+このセクションでは、オンプレミス バージョンの App Builder をインストールするための前提条件を示し、Linux/Mac OS/Windows を維持およびサポートする操作パラメーターを構成するシステム管理者を対象としています。
 
-### Install SQL Server
+### SQL Server をインストール
 
-1 - Install [Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) ([direct link](https://go.microsoft.com/fwlink/?linkid=866658))
+1 - [SQL Server](https://www.microsoft.com/ja-jp/sql-server/sql-server-downloads) ([直接リンク](https://go.microsoft.com/fwlink/?linkid=866658)) をインストールします。
 
 <img class="responsive-img" style="width: 56%; box-shadow: 5px -4px 13px 1px grey" src="./images/on-premise-sql-express.png" />
-<p style="margin-top:-20px;width: 56%; text-align:center;">On-Premise Sql Express Installation</p>
+<p style="margin-top:-20px;width: 56%; text-align:center;">オンプレミス SQL Express のインストール</p>
 
-> Note: An On-prem server should have a real Sql Server not an embedded Sql Server Express of VS
+> 注: オンプレミス サーバーには、VS の組み込み SQL Server Express ではなく、実際の SQL Server が必要です。
 
-2 - Enable tcp/ip - detailed explanation [here](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol?view=sql-server-ver15#to-enable-a-server-network-protocol).
+2 - tcp/ip を有効にするための詳細な説明は[ここ](https://docs.microsoft.com/ja-jp/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol?view=sql-server-ver15#to-enable-a-server-network-protocol)にあります。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/sql-server-config-manager.png" />
-<p style="margin-top:-20px;width:56%; text-align:center;">SqlServer Config Manager</p>
+<p style="margin-top:-20px;width:56%; text-align:center;">SQL Server 構成マネージャー</p>
 
-3 - Add a new App_Builder user part of Sql Express. You can [install Sql Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) and use it for that purpose.
+3 - Sql Express の新しい App_Builder ユーザー部分を追加します。[SQL Server Management Studio をインストールして](https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)、その目的に使用できます。
 
 <img class="responsive-img" style="width: 57%; box-shadow: 5px -4px 13px 1px grey" src="./images/login-parameters.png" />
-<p style="margin-top:-20px;width: 57%; text-align:center;">Login Parameters Dialog</p>
+<p style="margin-top:-20px;width: 57%; text-align:center;">ログイン パラメーター ダイアログ</p>
 
-### Install Docker
+### Docker をインストール
 
-Windows guide -> [docs.microsoft.com guide](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-and-11#tabpanel_1_Windows-10-and-11)
+Windows ガイド -> [docs.microsoft.com guide](https://docs.microsoft.com/ja-jp/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-and-11#tabpanel_1_Windows-10-and-11)
 
-## Installation
-This section assumes that you already have docker and an SQL server database installed.
+## インストール
+このセクションでは、Docker と SQL サーバー データベースが既にインストールされていることを前提としています。
 
-### First time installation
+### 初回インストール
 
-1 - Download the appbuilder.zip from the link provided to you by your account representative or from the [Infragistics Customer Portal](https://account.infragistics.com/downloads).
+1 - [Infragistics カスタマー ポータル](https://account.infragistics.com/downloads)の下のダウンロード セクションの appbuilder.zip 部分をダウンロードします。
 
-2 - Extract the appbuilder.tar contained in the appbuilder.zip file. 
+2 - appbuilder.zip ファイルに含まれている appbuilder.tar を抽出します。 
 
-3 - Open a terminal or command prompt window at the extracted location.
+3 - 抽出した場所でターミナルまたはコマンド プロンプト ウィンドウを開きます。
 
-4 - Load and verify the image.
+4 - 画像を読み込んで確認します。
 
-Run:
+以下を実行します:
 
 ```
 docker load --input appbuilder.tar
 ```
 
-In order to verify that the _image_ is correctly loaded, see the example with the table below:
+画像が正しく読み込まれていることを確認するには、次の表の例を参照してください:
 
 ```
 docker images
 ```
 
-| REPOSITORY    | TAG               | IMAGE ID          | CREATED                                   |SIZE   |
+| リポジトリ    | タグ               | 画像 ID          | 作成日                                   |サイズ   |
 | --------:     | ----------------  | ----------------- | ---------------------------------------   |-----  |
 | appbuilder    | 1.0               | 2a05977e039b      |12 days ago                                |854MB  |
 
-5 - Run the container:
+5 - コンテナーを実行します:
 
 ```
 docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderConnection=Data Source=<your-sql-database-ip>,<your-sql-database-port>;Database=<your-sql-database-name>;User ID=<your-sql-database-user>;Password=<your-sql-database-password>;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -v <external-folder-for-logs>:/appbuilder/logs -v <external-folder-for-storage>:/appbuilder/storage --name appbuilder appbuilder:1.0
 ```
 
-6 - Open your browser and type `http://localhost/`
+6 - ブラウザーを開き、`http://localhost/` と入力します。
 
 > [!NOTE]
-> If you are using Docker Desktop, go to Containers/Apps, find your container and click `Open in browser` 
+> Docker Desktop を使用している場合は、Containers/Apps に移動し、コンテナーを見つけ、[Open in browser] をクリックします。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/docker-apps.png" />
-<p style="margin-top:-20px;text-align:center;">Docker Containers/Apps</p>
+<p style="margin-top:-20px;text-align:center;">Docker の Containers/Apps</p>
 
-### Updates
+### 更新
 
-1 - Follow the first 4 steps of the first time installation with the newly published zip file
+1 - 新しく公開された zip ファイルを使用して、初回インストールの最初の 4 つの手順に従います。
 
-2 - Verify that the new image has loaded correctly (the old image should be tagged as <none>)
+2 - 新しい画像が正しく読み込まれたことを確認します (古い画像は <none> としてタグ付けする必要があります)。
 
 ```
 docker images
 ```
 
 
-| REPOSITORY        | TAG       | IMAGE ID          | CREATED       |SIZE   |
+| リポジトリ        | タグ       | 画像 ID          | 作成日       |サイズ   |
 | --------:         | --------- | ----------------- | ------------- |-----  |
 | appbuilder        | 1.0       | 27ff4c1079ac      | 43 hours ago  |932MB  |
 | <none>            | <none>    | 2a05977e039b      | 12 days ago   |854MB  |
         
-3 - Stop the container
+3 - コンテナーを停止します。
 
 ```
 docker stop appbuilder
 ```
 
-4 - Remove the container
+4 - コンテナーを削除します。
 
 ```
 docker rm appbuilder
 ```
 
-5 - Run the container with the same command as the one used in step 5. of the first time installation
+5 - 初回インストールの手順 5 で使用したコマンドと同じコマンドでコンテナーを実行します。
 
 
-## Activation
-This section assumes that you already installed the On-Prem instance and it is now up and running.
+## アクティブ化
+このセクションでは、オンプレミス インスタンスが既にインストールされており、実行していることを前提としています。
 
-When the server is first started, a prompt dialog will provide you with _Installation ID_ and a _Authentication key_ will be requested. Send this _Installation ID_ to our [Sales department](https://www.infragistics.com/about-us/contact-us#sales) based on your region and we will provide you with _Authentication key_ to activate the server.
+サーバーが最初に起動されると、プロンプト ダイアログにインストール ID が表示され、認証キーが要求されます。このインストール ID をお住まいの地域に基づいて[セールス部門](https://jp.infragistics.com/about-us/contact-us#sales)に送信すると、サーバーをアクティブ化するための認証キーが提供されます。
 
 
 <img class="responsive-img" style="width:36%;box-shadow: 5px -4px 13px 1px grey" src="./images/activate-app-builder.png" />
-<p style="margin-top:-20px;width:36%;text-align:center;">Activate App Builder</p>
+<p style="margin-top:-20px;width:36%;text-align:center;">App Builder をアクティブにする</p>
 
 > [!NOTE]
-> You will receive a warning message directly through the UI thirty days before your key expires.
+> キーの有効期限が切れる 30 日前に、UI から直接警告メッセージが表示されます。
 
-## Troubleshooting
-### Docker Desktop on Windows
-[Docker Desktop on Windows is not starting automatically without Login to Windows machine](https://github.com/docker/for-win/issues/6670) - Docker team doesn't recommend Docker Desktop for production workloads. You should use Docker on a Linux box or Docker for Windows Server if you want Windows containers.
+## トラブルシューティング
+### Windows 上の Docker Desktop
+[Windows 上の Docker Desktop は、Windows マシンにログインしないと自動的に起動しない問題](https://github.com/docker/for-win/issues/6670) - Docker チームは、プロダクション ワークロードに Docker Desktop を推奨していません。Windows コンテナーが必要な場合は、Linux ボックスでは Docker を使用するか、Windows Server では Docker を使用する必要があります。
 
 
 ## その他のリソース
