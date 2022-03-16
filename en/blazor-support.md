@@ -46,20 +46,18 @@ In addition to see your application in Preview mode or download it locally on th
 
 ## Known issues and limitations
 Generating Blazor application has the following limitations:
-- The generated application cannot load data from data sources with authentication.
-- Only a single-level array of objects could be passed as a data source. Data sources of object type or of nested arrays type are not supported.
 - Only WASM project is generated.
-- Only white themes are generated.
+- Only light themes are generated.
 - Custom themes do not support custom roundness and custom elevations yet.
 - Bootstrap is turned off in the generated application for now.
 
 Generated components have these limitations:
-- Navigation drawer works only in the pinned state. The mini version does not work too.
-- Date picker works only in dropdown mode and the initial date cannot be set.
+- Navigation drawer works only in the overlay state. The mini version does not work too.
+- Date picker works only in dropdown mode.
 - The input group does not support date type.
 - Radio group does not support horizontal mode.
 - Grid cannot generate a toolbar. This disallows the generation of advanced filtering, exporting, pinning, and hiding. Setting cell and row selection do not work simultaneously. Column selection, paging, grouping, and column moving are not supported yet. Filtering is working only in excel style mode.
-- For all components toggle actions are not generated yet. Also, dates are not bound to internal fields.
+- For all components toggle actions are not generated yet.
 
 Additional information about all supported components for Blazor you can find in [Generate App](generate-app/generate-app-overview.md#supported-components)
 
