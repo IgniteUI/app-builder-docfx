@@ -1,56 +1,58 @@
 ---
-title: OpenAPI (Swagger) Support
-_description: App Builder enables users to add Swagger definition with endpoints, authentication and parameters
-_keywords: App builder, Infragistics, Data Sources, Data Binding
+title: OpenAPI (Swagger) サポート
+_description: App Builder を使用すると、ユーザーはエンドポイント、認証、パラメーターを使用して Swagger 定義を追加できます。
+_keywords: App builder, インフラジスティックス, データ ソース, データ バインディング
 _language: ja
 ---
 
-# OpenAPI (Swagger) Support
+# OpenAPI (Swagger) サポート
 
-The power of Swagger tools starts with the OpenAPI Specification — the industry standard for RESTful API design
+Swagger ツールの力は、RESTful API の設計の業界標準である OpenAPI 仕様から始まります。
 
-## Swagger Overview
+## Swagger の概要
 
-**Swagger** offers the most powerful and easiest to use tools to take full advantage of the OpenAPI Specification. These tools can help you design, build, document and consume REST APIs.
+**Swagger** は、OpenAPI 仕様を最大限に活用するための最も強力で使いやすいツールを提供します。これらのツールは、REST API の設計、構築、文書化、および使用に役立ちます。
 
 ## OpenAPI Overview
 
-**OpenAPI Specification** (formerly Swagger Specification) is an API description format for REST APIs. An OpenAPI file allows you to describe your entire API, including:
+OpenAPI の概要
 
-- Available endpoints (/users) and operations on each endpoint (GET /users, POST /users)
+**OpenAPI 仕様** (以前の Swagger 仕様) は、REST API の API 記述形式です。OpenAPI ファイルを使用すると、次のような API 全体を記述できます:
+
+- 使用可能なエンドポイント (/users) と各エンドポイントでの操作 (GET /users, POST /users)
 
 <img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/configure-endpoints.png" />
-<p style="width: 70%; text-align:center;">Configure Endpoints</p>
+<p style="width: 70%; text-align:center;">エンドポイントの設定</p>
 
-- Operation parameters Input and output for each operation
+- 操作パラメーター各操作の入力と出力
 
 <img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/endpoint-params.png" />
-<p style="width: 70%; text-align:center;">Set Endpoints Parameters/Apps</p>
+<p style="width: 70%; text-align:center;">エンドポイント パラメーター / アプリの設定</p>
 
-- Authentication methods
-- Contact information, license, terms of use and other information
+- 認証方法
+- 連絡先情報、ライセンス、利用規約およびその他の情報
 
-API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines. The complete OpenAPI Specification can be found on GitHub: [OpenAPI 3.0 Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md). More about OpenAPI [here](https://swagger.io/docs/specification/about/).
+API 仕様は YAML または JSON で記述できます。このフォーマットは習得が容易で、人間と機械の両方が読みやすくなっています。完全な OpenAPI 仕様は、GitHub にあります: [OpenAPI 3.0 の仕様](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md)。OpenAPI の詳細については、[こちら](https://swagger.io/docs/specification/about/)をご覧ください。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/swagger-demo-original.gif" />
-<p style="text-align:center;">Swagger demo</p>
+<p style="text-align:center;">Swagger のデモ</p>
 
-## Specify Swagger definition
+## Swagger 定義を指定
 
-At this point you can either specify a _Swagger file URL_ (json/yaml) or _Upload a definition_. Once loaded a _Configure endpoints_ will appear.
+この時点で、Swagger ファイルの URL (json/yaml) を指定するか、定義をアップロードすることができます。読み込まれると、[エンドポイントの設定] が表示されます。
 
-The left-side of the _Configure endpoints_ dialog consists of:
-- Base URL - can be automatically populated if value for it is present in the file definition
-- Authorization - provide auth key if needed
-- Endpoints tree view - All available endpoints will be loaded here along with its type (GET, PUT, POST and etc.)
+[エンドポイントの設定] ダイアログの左側には、次のものがあります:
+- [ベース URL] - その値がファイル定義に存在する場合、自動的に入力できます
+- [認証] - 必要に応じて認証キーを提供します 
+- エンドポイント ツリー ビュー - 使用可能なすべてのエンドポイントが、そのタイプ (GET、PUT、POST など) とともにここに読み込まれます
 
-The right-side of the _Configure endpoints_ dialog consists of:
-- Request url with _Send_ button that can be used to test the connection before selecting it
-- Tab elements for authorization, parameters and headers - if one is required, it will be marked as such.
-- Tab content section showing _info_ messages or required fields. Example image:
+[エンドポイントの設定] ダイアログの右側は、次のものがあります:
+- 接続を選択する前に接続をテストするために使用できる [送信] ボタンを使用して URL をリクエストします
+- [認証]、[パラメーター]、[ヘッダー] のタブ要素 - 必要な場合は、そのようにマークされます。
+- 情報メッセージまたは必須フィールドを表示するタブ コンテンツ セクション。画像の例:
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/endpoints-dialog.png" />
-<p style="text-align:center;">Configure Endpoints Dialog</p>
+<p style="text-align:center;">[エンドポイントの設定] ダイアログ</p>
 
 ## その他のリソース
 
