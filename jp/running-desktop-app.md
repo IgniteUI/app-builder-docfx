@@ -37,3 +37,13 @@ Linux で <b>AppBuilder.AppImage</b> ファイルをダウンロードすると�
 <img class="responsive-img" src="./images/cant-connect-error.PNG" />
 <p style="text-align:center;">切断エラー</p>
 
+## その他のリソース
+<div class="divider--half"></div>
+
+* [App Builder インターフェイスの概要 ](interface-overview.md)
+* [単一ページアプリとナビゲーション](single-page-apps-and-navigation.md)
+* [App Builder コンポーネント](indigo-design-app-builder-components.md)
+* [Flex レイアウト](flex-layouts/flex-layouts.md)
+* [Desktop アプリの実行方法](running-desktop-app.md)
+* [アプリを生成する](generate-app/generate-app-overview.md)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
