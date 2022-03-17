@@ -6,7 +6,7 @@
   new: false
   updated: true
   items:
-    - name: On-prem prerequisites and installation
+    - name: オンプレミスの前提条件とインストール
       href: ../on-prem-prerequisites-and-installation.md
       new: true
 - name: Desktop アプリの実行方法
