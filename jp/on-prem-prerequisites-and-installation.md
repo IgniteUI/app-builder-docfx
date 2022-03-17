@@ -20,7 +20,7 @@ _language: ja
 
 > 注: オンプレミス サーバーには、VS の組み込み SQL Server Express ではなく、実際の SQL Server が必要です。
 
-2 - tcp/ip を有効にするための詳細な説明は[ここ](https://docs.microsoft.com/ja-jp/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol?view=sql-server-ver15#to-enable-a-server-network-protocol)にあります。
+2 - tcp/ip を有効にするための詳細な説明は[こちら](https://docs.microsoft.com/ja-jp/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol?view=sql-server-ver15#to-enable-a-server-network-protocol)にあります。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/sql-server-config-manager.png" />
 <p style="margin-top:-20px;width:56%; text-align:center;">SQL Server 構成マネージャー</p>

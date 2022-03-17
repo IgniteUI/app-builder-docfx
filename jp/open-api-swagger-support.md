@@ -13,9 +13,7 @@ Swagger ツールの力は、RESTful API の設計の業界標準である OpenA
 
 **Swagger** は、OpenAPI 仕様を最大限に活用するための最も強力で使いやすいツールを提供します。これらのツールは、REST API の設計、構築、文書化、および使用に役立ちます。
 
-## OpenAPI Overview
-
-OpenAPI の概要
+## OpenAPI の概要
 
 **OpenAPI 仕様** (以前の Swagger 仕様) は、REST API の API 記述形式です。OpenAPI ファイルを使用すると、次のような API 全体を記述できます:
 
