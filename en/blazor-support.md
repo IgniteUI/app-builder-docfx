@@ -54,12 +54,38 @@ Generating Blazor application has the following limitations:
 - Bootstrap is turned off in the generated application for now.
 
 Generated components have these limitations:
-- Navigation drawer works only in the pinned state. The mini version does not work too.
-- Date picker works only in dropdown mode and the initial date cannot be set.
-- The input group does not support date type.
-- Radio group does not support horizontal mode.
-- Grid cannot generate a toolbar. This disallows the generation of advanced filtering, exporting, pinning, and hiding. Setting cell and row selection do not work simultaneously. Column selection, paging, grouping, and column moving are not supported yet. Filtering is working only in excel style mode.
-- For all components toggle actions are not generated yet. Also, dates are not bound to internal fields.
+- Card:
+    - cannot generate reversed actions.
+    - cannot generate divider in actions column card type.
+- Navigation Bar - cannot generate title.
+- Navigation Drawer - does not support pin state and pin threshold.
+- Avatar:
+    - does not use IgbIcon in generated code.
+    - initials type shows entire contend instead of first two chars.
+- Icon - does not use IgbIcon in generated code.
+- Date Picker:
+    - does not support dialog mode.
+    - does not support months.
+    - does not support action buttons.
+- Floating Action Button - does not use IgbIcon in generated code.
+- Icon Button - does not use IgbIcon in generated code.
+- Input - when is in date type:
+    - does not support input format.
+    - does not fully support display formats.
+    - does not support help text.
+    - does not support custom prefix and suffix.
+    - does not support min and max values.
+    - does not support value loop.
+- Radio Group - does not support required.
+- Grid:
+    - cannot generate advanced filtering.
+    - does not support column selection.
+    - cannot generate toolbar.
+    - does not support exporting.
+    - does not support paging.
+    - does not support row actions.
+    - does not support quick filtering.
+- Badge - does not use IgbIcon in generated code.
 
 Additional information about all supported components for Blazor you can find in [Generate App](generate-app/generate-app-overview.md#supported-components)
 
