@@ -86,3 +86,5 @@ Angular コード生成機能を備えた App Builder は数か月前から販�
 * [アプリケーションを GitHub にアップロードする](upload-application-to-github.md)
 * [アプリケーションをローカルで実行する](run-application-locally.md)
 * [アプリケーション コードのプレビュー](../preview-code.md)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
