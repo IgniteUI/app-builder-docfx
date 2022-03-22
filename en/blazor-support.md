@@ -58,16 +58,14 @@ Generated components have these limitations:
 - Navigation Bar - cannot generate title.
 - Navigation Drawer - does not support pin state and pin threshold.
 - Avatar:
-    - does not use IgbIcon in generated code.
     - initials type shows entire contend instead of first two chars.
-- Icon - does not use IgbIcon in generated code.
+- Icon - does not use `IgbIcon` in generated code. All components, which internally use Icon, are not generated with `IgbIcon`.
 - Date Picker:
     - does not support dialog mode.
     - does not support months.
     - does not support action buttons.
-- Floating Action Button - does not use IgbIcon in generated code.
-- Icon Button - does not use IgbIcon in generated code.
-- Input - when is in date type:
+- Icon Button - does not generate `IgbIconButton`, but `IgbButton` with icon and not text. Generated `IgbButton` has square ripple.
+- Input Group - when is in date type:
     - does not support input format.
     - does not fully support display formats.
     - does not support help text.
@@ -83,7 +81,6 @@ Generated components have these limitations:
     - does not support paging.
     - does not support row actions.
     - does not support quick filtering.
-- Badge - does not use IgbIcon in generated code.
 
 Additional information about all supported components for Blazor you can find in [Generate App](generate-app/generate-app-overview.md#supported-components)
 
