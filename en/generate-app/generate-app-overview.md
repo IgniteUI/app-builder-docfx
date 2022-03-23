@@ -28,7 +28,7 @@ The design and development user story will be completed once the application is 
 
 ## Supported Components
 
-Right now AppBuilder generates application for Angular and Blazor. Below is a list of each supported components in each platform:
+Currently, the App Builder supports code generation for Angular and Blazor. Below is a list of supported components per platform:
 | Component              | Angular            | Blazor                           |
 |------------------------|--------------------|----------------------------------|
 | **Layouts**                                                                    |
@@ -75,7 +75,7 @@ Right now AppBuilder generates application for Angular and Blazor. Below is a li
 | Dialog Window          | :heavy_check_mark: | :x:                              |
 | Snackbar               | :heavy_check_mark: | :x:                              |
 
-> Note: Partially generated components are marked with :construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
+> Note: Partially generated components are marked with :construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for Blazor components.
 
 ## Additional Resources
 
