@@ -51,7 +51,8 @@ Generating Blazor application has the following limitations:
 - Custom themes do not support custom roundness and custom elevations yet.
 - Bootstrap is turned off in the generated application for now.
 
-Generated components have these limitations:
+Generated components have the following limitations:
+
 - Card:
     - cannot generate reversed actions.
     - cannot generate divider in actions column card type.
