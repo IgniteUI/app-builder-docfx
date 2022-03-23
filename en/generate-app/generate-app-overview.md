@@ -75,7 +75,7 @@ Right now AppBuilder generates application for Angular and Blazor. Below is a li
 | Dialog Window          | :heavy_check_mark: | :x:                              |
 | Snackbar               | :heavy_check_mark: | :x:                              |
 
-> Note: Partially generated components are marked with :heavy_check_mark::construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
+> Note: Partially generated components are marked with :construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
 
 ## Additional Resources
 

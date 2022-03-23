@@ -53,9 +53,11 @@ Generating Blazor application has the following limitations:
 
 Generated components have these limitations:
 - Card:
-    - cannot generate reversed actions.
-    - cannot generate divider in actions column card type.
-- Navigation Bar - cannot generate title.
+    - reversed actions are not reflected in generated code.
+    - divider in actions column card type is not reflected in generated code.
+- Navigation Bar - when type is set to Content+Actions:
+    - title is not reflected in generated code.
+    - content is not reflected in generated code.
 - Navigation Drawer - does not support pin state and pin threshold.
 - Avatar:
     - initials type shows entire contend instead of first two chars.
@@ -64,8 +66,8 @@ Generated components have these limitations:
     - does not support dialog mode.
     - does not support months.
     - does not support action buttons.
-- Icon Button - does not generate `IgbIconButton`, but `IgbButton` with icon and not text. Generated `IgbButton` has square ripple.
-- Input Group - when is in date type:
+- Icon Button - does not generate `IgbIconButton`, but `IgbButton` with icon and no text. Generated `IgbButton` has square ripple.
+- Input Group - when type is set to date:
     - does not support input format.
     - does not fully support display formats.
     - does not support help text.
@@ -74,9 +76,9 @@ Generated components have these limitations:
     - does not support value loop.
 - Radio Group - does not support required.
 - Grid:
-    - cannot generate advanced filtering.
+    - advanced filtering is not reflected in generated code.
     - does not support column selection.
-    - cannot generate toolbar.
+    - toolbar is not reflected in generated code.
     - does not support exporting.
     - does not support paging.
     - does not support row actions.
