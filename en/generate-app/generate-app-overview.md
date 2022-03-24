@@ -28,54 +28,54 @@ The design and development user story will be completed once the application is 
 
 ## Supported Components
 
-Right now AppBuilder generates application for Angular and Blazor. Below is a list of each supported components in each platform:
-| Component              | Angular            | Blazor             |
-|------------------------|--------------------|--------------------|
-| **Layouts**                                                      |
-| Absolute Layout        | :heavy_check_mark: | :heavy_check_mark: |
-| Card                   | :heavy_check_mark: | :question:         |
-| Column Layout          | :heavy_check_mark: | :heavy_check_mark: |
-| Expansion Panel        | :heavy_check_mark: | :x:                |
-| Row Layout             | :heavy_check_mark: | :heavy_check_mark: |
-| Tab Layout             | :heavy_check_mark: | :x:                |
-| **Menu and Navigation**                                          |
-| Navigation Bar         | :heavy_check_mark: | :question:         |
-| Navigation Drawer      | :heavy_check_mark: | :question:         |
-| Views Container        | :heavy_check_mark: | :question: |
-| **Content**                                                      |
-| Avatar                 | :heavy_check_mark: | :question:         |
-| Calendar               | :heavy_check_mark: | :x:                |
-| Chip                   | :heavy_check_mark: | :x:                |
-| Icon                   | :heavy_check_mark: | :question:         |
-| Image                  | :heavy_check_mark: | :question:         |
-| Link                   | :heavy_check_mark: | :question:         |
-| Text                   | :heavy_check_mark: | :question:         |
-| Title                  | :heavy_check_mark: | :question:         |
-| **Input & Forms**                                                |
-| Button                 | :heavy_check_mark: | :question:         |
-| Button Group           | :heavy_check_mark: | :x:                |
-| Checkbox               | :heavy_check_mark: | :question:         |
-| Combo                  | :heavy_check_mark: | :x:                |
-| Date Picker            | :heavy_check_mark: | :question:         |
-| Drop Down              | :heavy_check_mark: | :x:                |
-| Floating Action Button | :heavy_check_mark: | :question:         |
-| Icon Button            | :heavy_check_mark: | :question:         |
-| Input Group            | :heavy_check_mark: | :question:         |
-| Radio Group            | :heavy_check_mark: | :question:         |
-| Select                 | :heavy_check_mark: | :x:                |
-| Slider                 | :heavy_check_mark: | :x:                |
-| Switch                 | :heavy_check_mark: | :question:         |
-| Text Area              | :heavy_check_mark: | :x:                |
-| **Grids & Lists**                                                |
-| Grid                   | :heavy_check_mark: | :question:         |
-| List                   | :heavy_check_mark: | :question:         |
-| **Notifications**                                                |
-| Badge                  | :heavy_check_mark: | :question:         |
-| Banner                 | :heavy_check_mark: | :x:                |
-| Dialog Window          | :heavy_check_mark: | :x:                |
-| Snackbar               | :heavy_check_mark: | :x:                |
+Currently, the App Builder supports code generation for Angular and Blazor. Below is a list of supported components per platform:
+| Component              | Angular            | Blazor                           |
+|------------------------|--------------------|----------------------------------|
+| **Layouts**                                                                    |
+| Absolute Layout        | :heavy_check_mark: | :heavy_check_mark:               |
+| Card                   | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Column Layout          | :heavy_check_mark: | :heavy_check_mark:               |
+| Expansion Panel        | :heavy_check_mark: | :x:                              |
+| Row Layout             | :heavy_check_mark: | :heavy_check_mark:               |
+| Tab Layout             | :heavy_check_mark: | :x:                              |
+| **Menu and Navigation**                                                        |
+| Navigation Bar         | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Navigation Drawer      | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Views Container        | :heavy_check_mark: | :heavy_check_mark:               |
+| **Content**                                                                    |
+| Avatar                 | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Calendar               | :heavy_check_mark: | :x:                              |
+| Chip                   | :heavy_check_mark: | :x:                              |
+| Icon                   | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Image                  | :heavy_check_mark: | :heavy_check_mark:               |
+| Link                   | :heavy_check_mark: | :heavy_check_mark:               |
+| Text                   | :heavy_check_mark: | :heavy_check_mark:               |
+| Title                  | :heavy_check_mark: | :heavy_check_mark:               |
+| **Input & Forms**                                                              |
+| Button                 | :heavy_check_mark: | :heavy_check_mark:               |
+| Button Group           | :heavy_check_mark: | :x:                              |
+| Checkbox               | :heavy_check_mark: | :heavy_check_mark:               |
+| Combo                  | :heavy_check_mark: | :x:                              |
+| Date Picker            | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Drop Down              | :heavy_check_mark: | :x:                              |
+| Floating Action Button | :heavy_check_mark: | :heavy_check_mark:               |
+| Icon Button            | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Input Group            | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Radio Group            | :heavy_check_mark: | :heavy_check_mark::construction: |
+| Select                 | :heavy_check_mark: | :x:                              |
+| Slider                 | :heavy_check_mark: | :x:                              |
+| Switch                 | :heavy_check_mark: | :heavy_check_mark:               |
+| Text Area              | :heavy_check_mark: | :x:                              |
+| **Grids & Lists**                                                              |
+| Grid                   | :heavy_check_mark: | :heavy_check_mark::construction: |
+| List                   | :heavy_check_mark: | :heavy_check_mark:               |
+| **Notifications**                                                              |
+| Badge                  | :heavy_check_mark: | :heavy_check_mark:               |
+| Banner                 | :heavy_check_mark: | :x:                              |
+| Dialog Window          | :heavy_check_mark: | :x:                              |
+| Snackbar               | :heavy_check_mark: | :x:                              |
 
-> Note: Partially generated components are marked with :question:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for the Blazor components.
+> Note: Partially generated components are marked with :construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for Blazor components.
 
 ## Additional Resources
 
