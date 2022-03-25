@@ -47,22 +47,49 @@ _language: ja
 
 ## 既知の問題点および制限事項
 Blazor アプリケーションの生成には、次の制限があります:
-- 生成されたアプリケーションは、認証付きデータ ソースからデータを読み込みできません。
-- データ ソースとして渡すことができるのは、オブジェクトの単一レベルの配列のみです。オブジェクト型またはネストされた配列型のデータ ソースはサポートされていません。
 - WASM プロジェクトのみが生成されます。
-- 白いテーマのみが生成されます。
+- ライト テーマのみが生成されます。
 - カスタム テーマは、カスタム ラウンドネスとカスタム エレベーションをまだサポートしていません。
 - 生成されたアプリケーションでは、今のところ Bootstrap はオフになっています。
 
-生成されたコンポーネントには、次の制限があります:
-- Navigation drawer は、固定された状態でのみ機能します。ミニ バージョンも動作しません。
-- Date picker はドロップダウン モードでのみ機能し、初期日付は設定できません。
-- Input Group は日付型をサポートしていません。
-- Radio Group は水平モードをサポートしていません。
-- グリッドはツールバーを生成できません。これにより、高度なフィルタリング、エクスポート、ピン固定、および非表示の生成ができなくなります。セルと行の選択の設定は同時に機能しません。列の選択、ページング、グループ化、および列の移動はまだサポートされていません。フィルタリングは、Excel スタイル モードでのみ機能します。
-- すべてのコンポーネントについて、切り替え操作はまだ生成されていません。また、日付は内部フィールドにバインドされていません。
+Generated components have the following limitations:
 
-Blazor でサポートされているすべてのコンポーネントに関する追加情報は、[アプリを生成](generate-app/generate-app-overview.md#サポートされているコンポーネント)にあります。
+- Card:
+    - reversed actions are not reflected in generated code.
+    - divider in "Actions-column" type is not reflected in generated code.
+- Navigation Bar
+    - when type is set to "Content+Actions" title and content are not reflected in generated code.
+- Navigation Drawer
+    - does not support pin state and pin threshold.
+- Avatar:
+    - the "Initials" type does not limit the content to the first two chars.
+- Icon
+    - does not use `IgbIcon` in generated code. All components, which use icons, are also not generated with `IgbIcon`.
+- Date Picker:
+    - does not support Dialog mode.
+    - does not support displaying multiple months.
+    - does not support action buttons.
+- Icon Button
+    - does not generate `IgbIconButton`, but `IgbButton` with icon instead.
+- Input Group - when type is set to "Date":
+    - does not support input format.
+    - does not fully support display formats.
+    - does not support help text.
+    - does not support custom prefix and suffix.
+    - does not support min and max values.
+    - does not support value loop.
+- Radio Group
+    - does not support required.
+- Grid:
+    - advanced filtering is not reflected in generated code.
+    - toolbar is not reflected in generated code.
+    - does not support column selection.
+    - does not support exporting.
+    - does not support paging.
+    - does not support row actions.
+    - does not support quick filtering.
+
+サポートされているすべてのコンポーネントのリストについては、[アプリを生成](generate-app/generate-app-overview.md#サポートされているコンポーネント)を参照してください。
 
 ## その他のリソース
 
