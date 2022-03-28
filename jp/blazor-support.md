@@ -56,7 +56,7 @@ Blazor アプリケーションの生成には、次の制限があります:
 
 - Card:
     - 逆のアクションは、生成されたコードには反映されません。
-    - 「Actions-column」 タイプのデバイダーは、生成されたコードに反映されません。
+    - Actions-column タイプのデバイダーは、生成されたコードに反映されません。
 - Navigation Bar
     - タイプが Content+Actions に設定されている場合、タイトルとコンテンツは生成されたコードに反映されません。
 - Navigation Drawer
