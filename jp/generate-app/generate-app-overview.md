@@ -29,7 +29,7 @@ Angular コード生成機能を備えた App Builder は数か月前から販�
 
 ## サポートされているコンポーネント
 
-Currently, the App Builder supports code generation for Angular and Blazor. Below is a list of supported components per platform:
+現在、AppBuilder は Angular と Blazor のコード生成をサポートしています。以下は、プラットフォームごとにサポートされているコンポーネントのリストです:
 | コンポーネント              | Angular            | Blazor                           |
 |------------------------|--------------------|----------------------------------|
 | **レイアウト**                                                                    |

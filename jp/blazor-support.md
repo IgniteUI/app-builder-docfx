@@ -52,42 +52,42 @@ Blazor アプリケーションの生成には、次の制限があります:
 - カスタム テーマは、カスタム ラウンドネスとカスタム エレベーションをまだサポートしていません。
 - 生成されたアプリケーションでは、今のところ Bootstrap はオフになっています。
 
-Generated components have the following limitations:
+生成されたコンポーネントには、次の制限があります:
 
 - Card:
-    - reversed actions are not reflected in generated code.
-    - divider in "Actions-column" type is not reflected in generated code.
+    - 逆のアクションは、生成されたコードには反映されません。
+    -「Actions-column」タイプのデバイダーは、生成されたコードに反映されません。
 - Navigation Bar
-    - when type is set to "Content+Actions" title and content are not reflected in generated code.
+    - タイプが「Content+Actions」に設定されている場合、タイトルとコンテンツは生成されたコードに反映されません。
 - Navigation Drawer
-    - does not support pin state and pin threshold.
+    - ピン固定状態とピンのしきい値はサポートしていません。
 - Avatar:
-    - the "Initials" type does not limit the content to the first two chars.
+    -「Initials」タイプは、コンテンツを最初の 2 文字に制限しません。
 - Icon
-    - does not use `IgbIcon` in generated code. All components, which use icons, are also not generated with `IgbIcon`.
+    - 生成されたコードで `IgbIcon` を使用しません。アイコンを使用するすべてのコンポーネントも、`IgbIcon` で生成されるわけではありません。
 - Date Picker:
-    - does not support Dialog mode.
-    - does not support displaying multiple months.
-    - does not support action buttons.
+    - ダイアログ モードはサポートしていません。
+    - 複数の月の表示はサポートしていません。
+    - アクション ボタンはサポートしていません。
 - Icon Button
-    - does not generate `IgbIconButton`, but `IgbButton` with icon instead.
-- Input Group - when type is set to "Date":
-    - does not support input format.
-    - does not fully support display formats.
-    - does not support help text.
-    - does not support custom prefix and suffix.
-    - does not support min and max values.
-    - does not support value loop.
+    - `IgbIconButton` を生成しませんが、代わりにアイコン付きの `IgbButton` を生成します。
+- Input Group - タイプが「Date」に設定されている場合:
+    - 入力形式はサポートしていません。
+    - 表示形式を完全にはサポートしていません。
+    - ヘルプ テキストはサポートしていません。
+    - カスタム プレフィックスとサフィックスはサポートしていません。
+    - 最小値と最大値はサポートしていません。
+    - 値ループをサポートしていません。
 - Radio Group
-    - does not support required.
+    - 必須をサポートしていません。
 - Grid:
-    - advanced filtering is not reflected in generated code.
-    - toolbar is not reflected in generated code.
-    - does not support column selection.
-    - does not support exporting.
-    - does not support paging.
-    - does not support row actions.
-    - does not support quick filtering.
+    - 高度なフィルタリングは、生成されたコードには反映されません。
+    - ツールバーは生成されたコードに反映されません。
+    - 列の選択はサポートしていません。
+    - エクスポートはサポートしていません。
+    - ページングはサポートしていません。
+    - 行アクションはサポートしていません。
+    - クイック フィルタリングはサポートしていません。
 
 サポートされているすべてのコンポーネントのリストについては、[アプリを生成](generate-app/generate-app-overview.md#サポートされているコンポーネント)を参照してください。
 
