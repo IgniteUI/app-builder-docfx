@@ -61,3 +61,5 @@ Views container には、アプリの読み込み時に 2 つの子ビューの�
 
 * [コードをプレビューしてアプリを生成する](preview-code.md)
 * [Angular ルーティング (英語)](https://angular.io/start/start-routing)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)

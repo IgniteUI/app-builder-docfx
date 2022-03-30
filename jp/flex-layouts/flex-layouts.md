@@ -70,3 +70,5 @@ Flex レイアウト コンテナには、ネストされた UI 要素の位置�
 * [Flexbox](https://developer.mozilla.org/ja-JP/docs/Learn/CSS/CSS_layout/Flexbox)
 * [Flexbox のガイド (英語)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy (英語)](https://flexboxfroggy.com/)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design スタイル設定の概要](https://jp.infragistics.com/products/indigo-design/help/style/styling-overview)

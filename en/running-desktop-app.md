@@ -37,3 +37,14 @@ _The detailed list is as follows: _
 <img class="responsive-img" src="./images/cant-connect-error.PNG" />
 <p style="text-align:center;">Disconnected error</p>
 
+## Additional Resources
+<div class="divider--half"></div>
+
+* [App Builder Interface Overview](interface-overview.md)
+* [Single Page And Navigation](single-page-apps-and-navigation.md)
+* [App Builder Components](indigo-design-app-builder-components.md)
+* [Flex Layouts](flex-layouts/flex-layouts.md)
+* [Running Desktop App](running-desktop-app.md)
+* [Generate app](generate-app/generate-app-overview.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+

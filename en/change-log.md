@@ -7,15 +7,54 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 > [!NOTE]
 
-><b>Latest update was made on January 31th, 2022.
+><b>Latest update was made on March 14th, 2022.
 
-# January 2022 Release
+## March 2022 Release
+### Features
+- **OpenAPI (Swagger) Support** as part of our data-binding RestAPI story.
+- **On-Premise Version of App Builder** that you can install on your own server and behind your own server firewall. This instance is runnable on any infrastructure and accessible only by internal personnel
 
-## IMPROVEMENTS
+### Improvements
+- Set image round radius using px, % or rems
+- Persist zoom level of the design surface when switching between views or preview
+- Improvements when generating **Blazor** apps
+  - Added support for **custom themes** (color palette and typography)
+  - Apply **global font** and **color/background** from the app's theme
+  - Allow **custom headers** when adding REST API URL source
+  - Improved code generation for **Date Picker**, **Grid** (columns), **List** and **Nav-Drawer** items
+  - Added support for **nested arrays** in objects as data source
+
+### MAINTENANCE UPDATES & BUG FIXES
+**Including, but not limited to:**
+- Fix the error that is thrown on "Get Assets For Sketch"
+- Select component popup is cut at the top in preview mode
+- On app duplication the custom viewport is lost
+- Breadcrumb in data panel doesn't match the latest visual enhancements
+- Icons overflow input when set fluent theme and rounding
+- Detaching a tab when dragging breaks the app
+- Button ir resized after editing its text
+- Outline sections don't collapse when component is de-selected on canvas
+- ComboBox Items are affected by preview and there's no clear button
+- Select is shown in the "pick component" list when adding open/close action
+- Checkbox and Switch generate label position even if set to none
+- Setting dark fluent theme with roundness 1 ends up light
+- Grid: Cell editing doesn't work in preview mode
+- Sign out from Sketch plugin is not actually signing out
+- The disabled state of buttons in the App bar doesn't work
+- Assets with % or # in the name don't show in generated application
+- Improve handling of Data Sources with non-ASCII Unicode names in Angular's service methods and Blazor view model
+- Curly braces are not escaped in the generated text content - _Angular specific_
+- Ensure app root container stretches to full height - _Blazor specific_
+- Multiple iterators bound the same data should no longer create multiple data properties in the same view - _Blazor specific_
+
+
+## January 2022 Release
+
+### IMPROVEMENTS
 - **Sketch UI Kit Improved Theming Support** - The light/dark mode toggle that changes the surface color now affects how gray colors are set up - as a derivative of black or white.
 - **UI Kits Version Check updates** - Now matching `<major>.<minor>` for consistency between parser dll and symbol. `<patch>` will be ignored and wont throw an error if the symbol version is higher than the parser version (#13942)
 
-## MAINTENANCE UPDATES & BUG FIXES
+### MAINTENANCE UPDATES & BUG FIXES
 **Including, but not limited to:**
 - Workspace title not updated
 - Create new workspace cancel shows invalid state
