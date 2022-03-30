@@ -41,7 +41,7 @@ When the upload process is done, users can apply changes to the GitHub repo from
 ### Already pushed changes are being overwritten
 There are times when you will be doing application changes externally with code and not via the App Builder. Those changes will be overwritten once you push a change from the App Builder GitHub UI. In order to resolve that you can follow these recommended approaches.
 
-#### Option 1
+#### Option 1 (recommended)
 - Keep pushing from App Builder (leave the PR open, don't merge it).
 - Make your changes in `master` branch
 - Merge manually and resolve conflicts: 
@@ -68,6 +68,10 @@ git checkout dev
 git merge master
 ```
 
+In this case, `dev` becomes your main branch and you keep master only for Appbuilder.
+
+> [!NOTE]
+> We're working in improving this experience with the best of both options. You'll be able to merge App Builder work to `master` and next time App Builder will create a PR that contains only the new differences.
 
 ## Additional Resources
 
