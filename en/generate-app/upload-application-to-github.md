@@ -36,6 +36,39 @@ When the upload process is done, users can apply changes to the GitHub repo from
 <img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">An application running in VSCode</p>
 
+## Troubleshooting
+
+### Already pushed changes are being overwritten
+There are times when you will be doing application changes externally with code and not via the App Builder. Those changes will be overwritten once you push a change from the App Builder GitHub UI. In order to resolve that you can follow these recommended approaches.
+
+#### Option 1
+- Keep pushing from App Builder (leave the PR open, don't merge it).
+- Make your changes in `master` branch
+- Merge manually and resolve conflicts: 
+
+```
+git checkout master
+```
+
+```
+git merge appbuilder-branch
+```
+
+#### Option 2
+- Create a `dev` branch
+- You can merge AppBuilder PRs to master
+- Make your changes in the `dev` branch
+- Merge manually and resolve conflicts: 
+
+```
+git checkout dev 
+```
+
+```
+git merge master
+```
+
+
 ## Additional Resources
 
 <div class="divider--half"></div>
