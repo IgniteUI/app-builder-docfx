@@ -71,7 +71,7 @@ git merge master
 In this case, `dev` becomes your main branch and you keep master only for Appbuilder.
 
 > [!NOTE]
-> We're working in improving this experience with the best of both options. You'll be able to merge App Builder work to `master` and next time App Builder will create a PR that contains only the new differences.
+> We're [working in improving this experience](https://github.com/IgniteUI/app-builder/issues/11) with the best of both options. You'll be able to merge App Builder work to `master` and next time App Builder will create a PR that contains only the new differences.
 
 ## Additional Resources
 
