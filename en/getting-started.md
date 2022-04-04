@@ -106,8 +106,8 @@ In order to run the downloaded application, the following prerequisites need to 
 
 ## Tutorial video
 Learn more about our low-code App Builder in our short overview video:
-<iframe width="100%" height="600" src="https://www.youtube.com/watch?v=WSQ38lLacH4">
-</iframe>
+
+> [!Video https://www.youtube.com/embed/WSQ38lLacH4]
 
 ## Report an issue or send feedback
 
