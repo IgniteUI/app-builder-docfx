@@ -104,6 +104,11 @@ In order to run the downloaded application, the following prerequisites need to 
 </div>
 <div class="divider--half"></div>
 
+## Tutorial video
+Learn more about our low-code App Builder in our short overview video:
+<iframe width="100%" height="600" src="https://www.youtube.com/watch?v=WSQ38lLacH4">
+</iframe>
+
 ## Report an issue or send feedback
 
 [This repository](https://github.com/IgniteUI/app-builder) is intended for issues and feature requests submission, as well as for general product discussions, questions and any feedback that you want to share.
