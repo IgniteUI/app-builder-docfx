@@ -52,3 +52,6 @@ Material から Fluent に切り替えると、コンポーネントの外観が
 
 * [Flex レイアウト](../flex-layouts/flex-layouts.md)
 * [Ignite UI for Angular テーマ化]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
+

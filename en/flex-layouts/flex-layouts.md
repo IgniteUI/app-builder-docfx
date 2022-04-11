@@ -6,10 +6,10 @@ _keywords: App builder flex layouts, Indigo Design, Infragistics
 
 # Flex layouts (and positioning) 
 ### What is Flex layout?  
-Flex layout is used for component positioning, space distribution between items, and resizing. It provides powerful alignment capabilities, lays out elements in either columns or rows, and helps you build responsive page layouts that easily adapt to any screen size. 
+Flex layout is used for component positioning, space distribution between items, and resizing. It provides powerful alignment capabilities, lays out elements in either columns or rows, and helps you build responsive page layouts that easily adapt to any screen size.
 
 ### How to use Flex layout? 
-In essence, the Flex layout is designed to enable developers to easily specify the sizing of a layout container, define visibilities and viewport sizes, and respectively shrink or expand items in order to best fit into the available space.  
+In essence, the Flex layout is designed to enable developers to easily specify the sizing of a layout container, define visibilities and viewport sizes, and respectively shrink or expand items in order to best fit into the available space.
 
 In order to achieve all of this, the first thing you have to do when using Flex layout is to target the container or parent element and adjust the CSS of your container elements.  
 
@@ -69,3 +69,5 @@ To summarize quickly, whatever you have learned about Flex layouts can be used h
 * [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 * [A Guide to flexbox](<https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy](https://flexboxfroggy.com/)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design Styling Overview](https://www.infragistics.com/products/indigo-design/help/style/styling-overview)

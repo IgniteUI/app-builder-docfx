@@ -34,6 +34,7 @@ _language: ja
 * <a href="#introduction">機能の概要</a>
 * <a href="#blazor-code-generation">Blazor コード生成</a>
 * <a href="#uploading-an-application-to-github">アプリケーションを Github にアップロードする</a>
+* <a href="#known-issues-and-limitations">既知の問題点および制限事項</a>
 
 ## 概要
 前述のように、Blazor コード生成機能のベータ版は少数のコンポーネントをサポートしますが、多くのコンポーネントをサポートする予定です。グリッドコード生成をお見逃しなく - ほとんどのグリッド機能はまだサポートされていませんが、データ バインディングは Ignite UI for Blazor のネイティブ グリッド コンポーネントで Blazor アプリケーションを実行する機能を提供します。AppBuilder デザイナーでグリッドでより多くの機能を有効にしても問題ありません。デザインからのコード生成は単なるデータ バインディング以上のものをもたらします。
@@ -43,3 +44,60 @@ _language: ja
 
 ## アプリケーションを Github にアップロードする
 アプリケーションをプレビュー モードで表示したり、ローカルにダウンロードしたりする以外に、完全なアプリコード リポジトリを生成するオプションがあります。これを行うには、[アプリの生成] ボタンに移動し、GitHub アカウントを App Builder に接続します。
+
+## 既知の問題点および制限事項
+Blazor アプリケーションの生成には、次の制限があります:
+- WASM プロジェクトのみが生成されます。
+- ライト テーマのみが生成されます。
+- カスタム テーマは、カスタム ラウンドネスとカスタム エレベーションをまだサポートしていません。
+- 生成されたアプリケーションでは、今のところ Bootstrap はオフになっています。
+
+生成されたコンポーネントには、次の制限があります:
+
+- Card:
+    - 逆のアクションは、生成されたコードには反映されません。
+    - Actions-column タイプのデバイダーは、生成されたコードに反映されません。
+- Navigation Bar
+    - タイプが Content+Actions に設定されている場合、タイトルとコンテンツは生成されたコードに反映されません。
+- Navigation Drawer
+    - ピン固定状態とピンのしきい値はサポートしていません。
+- Avatar:
+    - Initials タイプは、コンテンツを最初の 2 文字に制限しません。
+- Icon
+    - 生成されたコードで `IgbIcon` を使用しません。アイコンを使用するすべてのコンポーネントも、`IgbIcon` で生成されるわけではありません。
+- Date Picker:
+    - ダイアログ モードはサポートしていません。
+    - 複数の月の表示はサポートしていません。
+    - アクション ボタンはサポートしていません。
+- Icon Button
+    - `IgbIconButton` を生成しませんが、代わりにアイコン付きの `IgbButton` を生成します。
+- Input Group - タイプが Date に設定されている場合:
+    - 入力形式はサポートしていません。
+    - 表示形式を完全にはサポートしていません。
+    - ヘルプ テキストはサポートしていません。
+    - カスタム プレフィックスとサフィックスはサポートしていません。
+    - 最小値と最大値はサポートしていません。
+    - 値ループをサポートしていません。
+- Radio Group
+    - 必須をサポートしていません。
+- Grid:
+    - 高度なフィルタリングは、生成されたコードには反映されません。
+    - ツールバーは生成されたコードに反映されません。
+    - 列の選択はサポートしていません。
+    - エクスポートはサポートしていません。
+    - ページングはサポートしていません。
+    - 行アクションはサポートしていません。
+    - クイック フィルタリングはサポートしていません。
+
+サポートされているすべてのコンポーネントのリストについては、[「アプリを生成」](generate-app/generate-app-overview.md#サポートされているコンポーネント)を参照してください。
+
+## その他のリソース
+
+<div class="divider--half"></div>
+
+* [アプリを生成する](./generate-app/generate-app-overview.md)
+* [App Builder コンポーネント](indigo-design-app-builder-components.md)
+* [Flex レイアウト](flex-layouts/flex-layouts.md)
+* [Desktop アプリの実行方法](running-desktop-app.md)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)

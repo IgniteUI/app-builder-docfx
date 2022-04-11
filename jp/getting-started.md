@@ -66,9 +66,21 @@ App Builder は、常にライブ実行中の Web アプリケーションをデ
 > [!NOTE]
 > アプリケーションのコードがダウンロードされると、ローカルで行われた変更は App Builder ユーザー スペースに反映されません。
 
+## オンプレミス版の App Builder
+App Builder は、ソフトウェア製品の検出、ソフトウェア製品の設計、インタラクティブな製品概念実証の構築、ピクセルパーフェクトなコード プロジェクトの生成などの統合プラットフォームを開発者、デザイナー、製品マネージャーに提供する SaaS です。
+
+規制の厳しい業界に属する企業もあります。ほとんどの場合、セキュリティ上の理由から、App Builde rなどのクラウド ベースのソリューションへのアクセスが制限されているか、特定の場所でのインターネット接続が制限されています。このセグメントをカバーするためには、このような組織が App Builder をファイアウォールの内側に導入するための簡単な方法を提供する必要がありました。この方法では、独自のインフラ上で動作するプラットフォームのインスタンスを使用し、内部の人員のみがアクセスできるようにする必要がありました。
+
+オンプレミス アプリケーションは信頼性が高く、安全であるため、クラウドでは実現できないレベルの制御を維持できます。
+
+オンプレミス ソリューションの[インストール方法に関する技術的な詳細](on-prem-prerequisites-and-installation.md)については、このトピックを参照してください。
+
+<img class="responsive-img" src="./images/on-prem-ab-demo.gif" />
+<p style="text-align:center;">オンプレミス版</p>
+
 ## アプリをローカルで実行する
 
-ダウンロードしたアプリケーションを実行するには、次の前提条件がマシンにインストールされている必要があります:
+ダウンロードしたアプリケーションを実行するには、次の前提条件がマシンにインストールされている必要があります。生成されたアプリケーションをローカルで実行する方法の詳細については、[このトピック](generate-app/run-application-locally.md)を参照してください。
 
 1. NodeJS.
 2. Visual Studio Code (VS Code をお勧めしますが、別のコード エディターを使用することもできます)。
@@ -93,11 +105,21 @@ App Builder は、常にライブ実行中の Web アプリケーションをデ
 </div>
 <div class="divider--half"></div>
 
+## Tutorial video
+Learn more about our low-code App Builder in our short overview video:
+
+> [!Video https://www.youtube.com/embed/WSQ38lLacH4]
+
+## 問題の報告またはフィードバックの送信
+
+[このリポジトリ](https://github.com/IgniteUI/app-builder)は、問題や機能リクエストの送信、および製品の全般的なディスカッション、質問、共有したいフィードバックを対象としています。
 ## その他のリソース
 <div class="divider--half"></div>
 
 * [App Builder インターフェイスの概要](interface-overview.md)
 * [単一ページとナビゲーション](single-page-apps-and-navigation.md)
-* [Indigo.Design App Builder コンポーネント](indigo-design-app-builder-components.md)
+* [App Builder コンポーネント](indigo-design-app-builder-components.md)
 * [Flex レイアウト](flex-layouts/flex-layouts.md)
 * [Desktop アプリの実行方法](running-desktop-app.md)
+* [アプリを生成する](generate-app/generate-app-overview.md)
+* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)

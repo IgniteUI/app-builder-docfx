@@ -36,9 +36,48 @@ When the upload process is done, users can apply changes to the GitHub repo from
 <img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">An application running in VSCode</p>
 
+## Troubleshooting
+
+### Already pushed changes are being overwritten
+There are times when you will be doing application changes externally with code and not via the App Builder. Those changes will be overwritten once you push a change from the App Builder GitHub UI. In order to resolve that you can follow these recommended approaches.
+
+#### Option 1 (recommended)
+- Keep pushing from App Builder (leave the PR open, don't merge it).
+- Make your changes in `master` branch
+- Merge manually and resolve conflicts: 
+
+```
+git checkout master
+```
+
+```
+git merge appbuilder-branch
+```
+
+#### Option 2
+- Create a `dev` branch
+- You can merge AppBuilder PRs to master
+- Make your changes in the `dev` branch
+- Merge manually and resolve conflicts: 
+
+```
+git checkout dev 
+```
+
+```
+git merge master
+```
+
+In this case, `dev` becomes your main branch and you keep master only for Appbuilder.
+
+> [!NOTE]
+> We're [working in improving this experience](https://github.com/IgniteUI/app-builder/issues/11) with the best of both options. You'll be able to merge App Builder work to `master` and next time App Builder will create a PR that contains only the new differences.
+
 ## Additional Resources
 
 <div class="divider--half"></div>
 
 * [Run Application Locally](run-application-locally.md)
 * [Preview Application Code](../preview-code.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
