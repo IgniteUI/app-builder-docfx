@@ -105,8 +105,8 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 </div>
 <div class="divider--half"></div>
 
-## Tutorial video
-Learn more about our low-code App Builder in our short overview video:
+## チュートリアル ビデオ
+ローコードな App Builder について詳しくは、このビデオ チュートリアルをご覧ください:
 
 > [!Video https://www.youtube.com/embed/WSQ38lLacH4]
 
