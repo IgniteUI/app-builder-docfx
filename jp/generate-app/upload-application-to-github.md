@@ -37,6 +37,43 @@ GitHub アカウントでログインした後、Indigo.Design にアクセス�
 <img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/view-application-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">VS Code で実行されるアプリケーション</p>
 
+## トラブルシューティング
+
+### すでにプッシュされた変更は上書きされている場合
+App Builder ではなく、コードを使用して外部でアプリケーションの変更を行う場合があります。App Builder GitHub UI から変更をプッシュすると、これらの変更は上書きされます。それを解決するために、以下の推奨されるアプローチに従います。
+
+#### オプション 1 (推奨)
+- App Builder からプッシュし続けます (プルリクエストをマージしないでください)。
+- `master` ブランチで変更を加えます。
+- 手動でマージして競合を解決します: 
+
+```
+git checkout master
+```
+
+```
+git merge appbuilder-branch
+```
+
+#### オプション 2
+- `dev` ブランチを作成します。
+- AppBuilder PR を master にマージできます。
+- `dev` ブランチで変更を加えます。
+- 手動でマージして競合を解決します:
+
+```
+git checkout dev 
+```
+
+```
+git merge master
+```
+
+この場合、`dev` がメイン ブランチになり、App Builder に対してのみ master を保持します。
+
+> [!NOTE]
+> 両方のオプションの最良のものを使用して、[このエクスペリエンスの改善](https://github.com/IgniteUI/app-builder/issues/11)に取り組んでいます。App Builder の作業を `master` にマージすることができ、次回 AppBuilder は新しい違いのみを含む PR を作成します。
+
 ## その他のリソース
 
 <div class="divider--half"></div>
