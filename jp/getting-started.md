@@ -110,7 +110,6 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 
 > [!Video https://www.youtube.com/embed/WSQ38lLacH4]
 
-
 ## 問題の報告またはフィードバックの送信
 
 [このリポジトリ](https://github.com/IgniteUI/app-builder)は、問題や機能リクエストの送信、および製品の全般的なディスカッション、質問、共有したいフィードバックを対象としています。
