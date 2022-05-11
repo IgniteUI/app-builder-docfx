@@ -47,9 +47,7 @@ In addition to see your application in Preview mode or download it locally on th
 ## Known issues and limitations
 Generating Blazor application has the following limitations:
 - Only WASM project is generated.
-- Only light themes are generated.
-- Custom themes do not support custom roundness and custom elevations yet.
-- Bootstrap is turned off in the generated application for now.
+- Bootstrap is turned off in the generated application.
 
 Generated components have the following limitations:
 
