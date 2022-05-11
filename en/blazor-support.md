@@ -56,10 +56,8 @@ Generated components have the following limitations:
 - Card:
     - reversed actions are not reflected in generated code.
     - divider in "Actions-column" type is not reflected in generated code.
-- Navigation Bar
-    - when type is set to "Content+Actions" title and content are not reflected in generated code.
 - Navigation Drawer
-    - does not support pin state and pin threshold.
+    - does not support pin threshold.
 - Avatar:
     - the "Initials" type does not limit the content to the first two chars.
 - Icon
