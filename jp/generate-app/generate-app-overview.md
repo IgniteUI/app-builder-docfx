@@ -33,48 +33,48 @@ Angular コード生成機能を備えた App Builder は数か月前から販�
 | コンポーネント              | Angular            | Blazor                           |
 |------------------------|--------------------|----------------------------------|
 | **レイアウト**                                                                    |
-| Absolute Layout        | :heavy_check_mark: | :heavy_check_mark:               |
-| Card                   | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Column Layout          | :heavy_check_mark: | :heavy_check_mark:               |
-| Expansion Panel        | :heavy_check_mark: | :x:                              |
-| Row Layout             | :heavy_check_mark: | :heavy_check_mark:               |
-| Tab Layout             | :heavy_check_mark: | :x:                              |
-| **メニューおよびナビゲーション**                                                        |
-| Navigation Bar         | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Navigation Drawer      | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Views Container        | :heavy_check_mark: | :heavy_check_mark:               |
-| **コンテンツ**                                                                    |
-| Avatar                 | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Calendar               | :heavy_check_mark: | :x:                              |
-| Chip                   | :heavy_check_mark: | :x:                              |
-| Icon                   | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Image                  | :heavy_check_mark: | :heavy_check_mark:               |
-| Link                   | :heavy_check_mark: | :heavy_check_mark:               |
-| Text                   | :heavy_check_mark: | :heavy_check_mark:               |
-| Title                  | :heavy_check_mark: | :heavy_check_mark:               |
-| **入力およびフォーム**                                                              |
-| Button                 | :heavy_check_mark: | :heavy_check_mark:               |
-| Button Group           | :heavy_check_mark: | :x:                              |
-| Checkbox               | :heavy_check_mark: | :heavy_check_mark:               |
-| Combo                  | :heavy_check_mark: | :x:                              |
-| Date Picker            | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Drop Down              | :heavy_check_mark: | :x:                              |
-| Floating Action Button | :heavy_check_mark: | :heavy_check_mark:               |
-| Icon Button            | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Input Group            | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Radio Group            | :heavy_check_mark: | :heavy_check_mark::construction: |
-| Select                 | :heavy_check_mark: | :x:                              |
-| Slider                 | :heavy_check_mark: | :x:                              |
-| Switch                 | :heavy_check_mark: | :heavy_check_mark:               |
-| Text Area              | :heavy_check_mark: | :x:                              |
-| **グリッドおよびリスト**                                                              |
-| Grid                   | :heavy_check_mark: | :heavy_check_mark::construction: |
-| List                   | :heavy_check_mark: | :heavy_check_mark:               |
-| **通知**                                                              |
-| Badge                  | :heavy_check_mark: | :heavy_check_mark:               |
-| Banner                 | :heavy_check_mark: | :x:                              |
-| Dialog Window          | :heavy_check_mark: | :x:                              |
-| Snackbar               | :heavy_check_mark: | :x:                              |
+| Absolute Layout        | :heavy_check_mark: | :heavy_check_mark: |
+| Card                   | :heavy_check_mark: | :construction:     |
+| Column Layout          | :heavy_check_mark: | :heavy_check_mark: |
+| Expansion Panel        | :heavy_check_mark: | :x:                |
+| Row Layout             | :heavy_check_mark: | :heavy_check_mark: |
+| Tab Layout             | :heavy_check_mark: | :x:                |
+| **メニューおよびナビゲーション**                                          |
+| Navigation Bar         | :heavy_check_mark: | :heavy_check_mark: |
+| Navigation Drawer      | :heavy_check_mark: | :construction:     |
+| Views Container        | :heavy_check_mark: | :heavy_check_mark: |
+| **コンテンツ**                                                      |
+| Avatar                 | :heavy_check_mark: | :construction:     |
+| Calendar               | :heavy_check_mark: | :x:                |
+| Chip                   | :heavy_check_mark: | :heavy_check_mark: |
+| Icon                   | :heavy_check_mark: | :construction:     |
+| Image                  | :heavy_check_mark: | :heavy_check_mark: |
+| Link                   | :heavy_check_mark: | :heavy_check_mark: |
+| Text                   | :heavy_check_mark: | :heavy_check_mark: |
+| Title                  | :heavy_check_mark: | :heavy_check_mark: |
+| **入力およびフォーム**                                                |
+| Button                 | :heavy_check_mark: | :heavy_check_mark: |
+| Button Group           | :heavy_check_mark: | :x:                |
+| Checkbox               | :heavy_check_mark: | :heavy_check_mark: |
+| Combo                  | :heavy_check_mark: | :x:                |
+| Date Picker            | :heavy_check_mark: | :construction:     |
+| Drop Down              | :heavy_check_mark: | :heavy_check_mark: |
+| Floating Action Button | :heavy_check_mark: | :heavy_check_mark: |
+| Icon Button            | :heavy_check_mark: | :construction:     |
+| Input Group            | :heavy_check_mark: | :construction:     |
+| Radio Group            | :heavy_check_mark: | :construction:     |
+| Select                 | :heavy_check_mark: | :x:                |
+| Slider                 | :heavy_check_mark: | :heavy_check_mark: |
+| Switch                 | :heavy_check_mark: | :heavy_check_mark: |
+| Text Area              | :heavy_check_mark: | :x:                |
+| **グリッドおよびリスト**                                                |
+| Grid                   | :heavy_check_mark: | :construction:     |
+| List                   | :heavy_check_mark: | :heavy_check_mark: |
+| **通知**                                                |
+| Badge                  | :heavy_check_mark: | :heavy_check_mark: |
+| Banner                 | :heavy_check_mark: | :x:                |
+| Dialog Window          | :heavy_check_mark: | :x:                |
+| Snackbar               | :heavy_check_mark: | :heavy_check_mark: |
 
 > 注: 部分的に生成されたコンポーネントは :construction: でマークされます。Blazor コンポーネントの既知の問題および制限の詳細については、[Blazor サポート](../blazor-support.md#既知の問題点および制限事項)を参照してください。
 
