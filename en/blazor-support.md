@@ -47,19 +47,15 @@ In addition to see your application in Preview mode or download it locally on th
 ## Known issues and limitations
 Generating Blazor application has the following limitations:
 - Only WASM project is generated.
-- Only light themes are generated.
-- Custom themes do not support custom roundness and custom elevations yet.
-- Bootstrap is turned off in the generated application for now.
+- Bootstrap is turned off in the generated application.
 
 Generated components have the following limitations:
 
 - Card:
     - reversed actions are not reflected in generated code.
     - divider in "Actions-column" type is not reflected in generated code.
-- Navigation Bar
-    - when type is set to "Content+Actions" title and content are not reflected in generated code.
 - Navigation Drawer
-    - does not support pin state and pin threshold.
+    - does not support pin threshold.
 - Avatar:
     - the "Initials" type does not limit the content to the first two chars.
 - Icon
