@@ -39,6 +39,82 @@ Swagger 定義 (ファイル URL の提供またはファイルのアップロ�
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/swagger-demo-original.gif" />
 <p style="text-align:center;">Swagger のデモ</p>
 
+## Using data source from local network sources
+You can now make requests to a localhost or private networks. This includes regular REST endpoints and Swagger endpoints. 
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
+<p style="text-align:center;">Local network sources usage</p>
+
+<div style="font-size: 2em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">Troubleshooting</div>
+
+If you get an error dialog while using a private network this section can help resolve the problem. If the problems aren't resolved, follow the [report and issue or send us feedback](getting-started.md#report-an-issue-or-send-feedback) section.
+### Request failed error dialog
+Due to the essence of working with local networks this type of error requires additional work in order to identify if the local/private service fails due to CORS problems (Cross-Origin Requests) or else.
+
+
+
+If `Request failed` dialog appears while you add a local service, open the `dev tools` of your browser (Hit `F12`) and check the console/network tab for errors. The most probable reason would be CORS restrictions.
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/request-failed-error.gif" />
+<p style="text-align:center;">Request failed error</p>
+
+Based on the local service configuration, there are some ways to overcome the Cross-Origin Requests problem that we discuss with more details below.
+
+### Enable Cross-Origin Requests (CORS) in ASP.NET Core
+
+[This article](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-6.0) shows how to enable CORS in an ASP.NET Core app. You can ensure that the Web App builder adds CORS policy that Allows `all` or `specific` origins:
+
+```
+var builder = WebApplication.CreateBuilder(args);
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+// Add services to the container.
+builder.Services.AddControllers();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin();
+                      });
+});
+```
+
+Set .UseCors() right after the `app` initialization.
+
+```
+var app = builder.Build();
+
+app.UseCors(MyAllowSpecificOrigins);
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+```
+
+### Enable CORS Using IIS Manager, web.config or C#
+
+Follow the steps below in order to enable access to your internally hosted data source using IIS.
+
+1. Open IIS manager on your server or on your local PC.
+2. Navigate to the website you need to edit the response headers for.
+3. From the list or Icons related to the site you are editing, select "HTTP Response Headers" from the middle-pane, as shown in the image below
+4. Double click "HTTP Repsonse Header"
+5. Now, click "Add" from right hand side pane
+6. A dialog box will open. For name enter "Access-Control-Allow-Origin" and for Value enter an asterisk (*).
+7. Click Ok, you are done.
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/IIS-config.gif" />
+<p style="text-align:center;">IIS Configuration</p>
+
+You can simply enable CORS by adding configuration in your asp.net website's web.config file or adding some code in your global.asax file. Detailed information [here](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291).
+
 ## データ フィールドの選択とフィールド タイプの変更
 データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例では Card コンポーネントを使用) を選択し、[繰り返し] モードを [Data] に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、Card セクションを選択したテーブル フィールドに接続します。
 
