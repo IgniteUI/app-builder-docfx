@@ -15,7 +15,7 @@
   new: true
 - name: Interface Overview
   href: ../interface-overview.md
-  new: true
+  new: false
 - name: Flex Layouts
   href: ../flex-layouts/flex-layouts.md
   new: false
