@@ -50,9 +50,11 @@ If you get an error dialog while using a private network this section can help r
 ### Request failed error dialog
 Due to the essence of working with local networks this type of error requires additional work in order to identify if the local/private service fails due to CORS problems (Cross-Origin Requests) or else.
 
+
+
 If `Request failed` dialog appears while you add a local service, open the `dev tools` of your browser (Hit `F12`) and check the console/network tab for errors. The most probable reason would be CORS restrictions.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-error.png" />
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/request-failed-error.gif" />
 <p style="text-align:center;">Request failed error</p>
 
 Based on the local service configuration, there a couple of ways to overcome the Cross-Origin Requests problem that we discuss with more details below.
@@ -111,11 +113,6 @@ Follow the steps below in order to enable access to your internally hosted data 
 <p style="text-align:center;">IIS Configuration</p>
 
 You can simply enable Cors by adding configuration in your asp.net website's web.config file or adding some code in your global.asax file. Detailed information [here](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291).
-
-### Running internal network urls over http will fail
-Example would be a web application built with [Electron](https://www.electronjs.org/). In order to allow `http` and CORS requests the following properties should be set:
-- `allowRunningInsecureContent` set  to true - will allow `http` requests. [Electron API docs](https://www.electronjs.org/docs/latest/tutorial/security#8-do-not-enable-allowrunninginsecurecontent).
-- `webSecurity` set to false - will allow CORS requests. [Electron API docs](https://www.electronjs.org/docs/latest/tutorial/security#6-do-not-disable-websecurity).
 
 ## Selecting data fields and changing fields type
 When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
