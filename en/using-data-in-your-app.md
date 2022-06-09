@@ -44,14 +44,16 @@ You can now make requests to a localhost or private networks. This includes regu
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
 <p style="text-align:center;">Local network sources usage</p>
 
-### Troubleshooting
-### Unknown Error - Something went wrong when connecting
-Due to the essence of working with local networks this type of error requires additional work in order to identify if the local/private service fails due to CORS problems (Cross-Origin Requests) or something else.
+<div style="font-size: 2em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">Troubleshooting</div>
 
-If `Unknown error` dialog appears while you add a local service, open the `dev tools` of your browser (Hit `F12`) and check the console/network tab for errors. The most probable reason would be CORS restrictions.
+If you get an error dialog while using a private network this section can help resolve the problem. If the problems aren't resolved, follow the [report and issue or send us feedback](getting-started.md#report-an-issue-or-send-feedback) section.
+### Request failed error dialog
+Due to the essence of working with local networks this type of error requires additional work in order to identify if the local/private service fails due to CORS problems (Cross-Origin Requests) or else.
+
+If `Request failed` dialog appears while you add a local service, open the `dev tools` of your browser (Hit `F12`) and check the console/network tab for errors. The most probable reason would be CORS restrictions.
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-error.png" />
-<p style="text-align:center;">Unknown error message</p>
+<p style="text-align:center;">Request failed error</p>
 
 Based on the local service configuration, there a couple of ways to overcome the Cross-Origin Requests problem that we discuss with more details below.
 

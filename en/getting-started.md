@@ -111,7 +111,7 @@ Learn more about our low-code App Builder in our short overview video:
 
 ## Report an issue or send feedback
 
-[This repository](https://github.com/IgniteUI/app-builder) is intended for issues and feature requests submission, as well as for general product discussions, questions and any feedback that you want to share.
+[This repository](https://github.com/IgniteUI/app-builder) is intended for issues and feature requests submission, as well as for general product discussions, questions and any feedback that you want to share. You can also <a href="mailto:feedback@indigo.design">send us an email</a>.
 ## Additional Resources
 <div class="divider--half"></div>
 
