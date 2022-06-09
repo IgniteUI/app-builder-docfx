@@ -57,7 +57,7 @@ If `Request failed` dialog appears while you add a local service, open the `dev 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/request-failed-error.gif" />
 <p style="text-align:center;">Request failed error</p>
 
-Based on the local service configuration, there a couple of ways to overcome the Cross-Origin Requests problem that we discuss with more details below.
+Based on the local service configuration, there are some ways to overcome the Cross-Origin Requests problem that we discuss with more details below.
 
 ### Enable Cross-Origin Requests (CORS) in ASP.NET Core
 
