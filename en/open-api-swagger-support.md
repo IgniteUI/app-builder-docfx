@@ -51,6 +51,13 @@ The right-side of the _Configure endpoints_ dialog consists of:
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/endpoints-dialog.png" />
 <p style="text-align:center;">Configure Endpoints Dialog</p>
 
+## Using data source from local network sources
+You can now make requests to a localhost or private networks. For more information, check out the [private networks usage section](using-data-in-your-app.md#using-data-source-from-local-network-sources) part of _Using data in your application_ topic
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
+<p style="text-align:center;">Local network sources usage</p>
+
+
 ## Additional Resources
 
 <div class="divider--half"></div>
