@@ -52,11 +52,11 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/endpoints-dialog.png" />
 <p style="text-align:center;">[エンドポイントの設定] ダイアログ</p>
 
-## Using data source from local network sources
-You can now make requests to a localhost or private networks. For more information, check out the [private networks usage section](using-data-in-your-app.md#using-data-source-from-local-network-sources) part of _Using data in your application_ topic
+## ローカル ネットワーク ソースからのデータ ソースの使用
+これで、ローカル ホストまたはプライベート ネットワークにリクエストを送信できます。詳細については、「アプリでデータを使用する」トピックの[プライベート ネットワークの使用セクション](using-data-in-your-app.md#using-data-source-from-local-network-sources)の部分をご覧ください。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
-<p style="text-align:center;">Local network sources usage</p>
+<p style="text-align:center;">ローカル ネットワーク ソースの使用</p>
 
 
 ## その他のリソース

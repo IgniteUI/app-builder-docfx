@@ -39,30 +39,30 @@ Swagger 定義 (ファイル URL の提供またはファイルのアップロ�
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/swagger-demo-original.gif" />
 <p style="text-align:center;">Swagger のデモ</p>
 
-## Using data source from local network sources
-You can now make requests to a localhost or private networks. This includes regular REST endpoints and Swagger endpoints. 
+## ローカル ネットワーク ソースからのデータ ソースの使用
+これで、ローカル ホストまたはプライベート ネットワークにリクエストを送信できます。これには、通常の REST エンドポイントと Swagger エンドポイントが含まれます。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
-<p style="text-align:center;">Local network sources usage</p>
+<p style="text-align:center;">ローカル ネットワーク ソースの使用</p>
 
-<div style="font-size: 2em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">Troubleshooting</div>
+<div style="font-size: 2em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">トラブルシューティング</div>
 
-If you get an error dialog while using a private network this section can help resolve the problem. If the problems aren't resolved, follow the [report and issue or send us feedback](getting-started.md#report-an-issue-or-send-feedback) section.
-### Request failed error dialog
-Due to the essence of working with local networks this type of error requires additional work in order to identify if the local/private service fails due to CORS problems (Cross-Origin Requests) or else.
+プライベート ネットワークの使用中にエラー ダイアログが表示された場合は、このセクションが問題の解決に役立ちます。問題が解決しない場合は、[問題の報告またはフィードバックの送信](getting-started.md#問題の報告またはフィードバックの送信)セクションに従ってください。
+### [リクエストは失敗しました!] エラー ダイアログ
+ローカル ネットワークでの作業の本質により、このタイプのエラーでは、CORS の問題 (クロスオリジン) などが原因でローカル / プライベート サービスが失敗したかどうかを識別するために、追加の作業が必要になります。
 
 
 
-If `Request failed` dialog appears while you add a local service, open the `dev tools` of your browser (Hit `F12`) and check the console/network tab for errors. The most probable reason would be CORS restrictions.
+ローカル サービスの追加中に [リクエストは失敗しました!] ダイアログが表示された場合は、ブラウザーの開発ツールを開き (`F12`）、コンソール / ネットワーク タブでエラーを確認します。最も可能性の高い理由は、CORS の制限です。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/request-failed-error.gif" />
-<p style="text-align:center;">Request failed error</p>
+<p style="text-align:center;">[リクエストは失敗しました!] エラー </p>
 
-Based on the local service configuration, there are some ways to overcome the Cross-Origin Requests problem that we discuss with more details below.
+ローカル サービスの構成に基づいて、クロスオリジン リクエストの問題を解決する方法がいくつかあります。これについては、以下で詳しく説明します。
 
-### Enable Cross-Origin Requests (CORS) in ASP.NET Core
+### ASP.NET Core でクロスオリジン リクエスト (CORS) を有効にする
 
-[This article](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-6.0) shows how to enable CORS in an ASP.NET Core app. You can ensure that the Web App builder adds CORS policy that Allows `all` or `specific` origins:
+[この記事](https://docs.microsoft.com/ja-jp/aspnet/core/security/cors?view=aspnetcore-6.0)は、ASP.NET Core アプリで CORS を有効にする方法を示しています。Web App Builder が、すべてまたは特定のオリジンを許可する CORS ポリシーを追加するようにすることができます:
 
 ```
 var builder = WebApplication.CreateBuilder(args);
@@ -83,7 +83,7 @@ builder.Services.AddCors(options =>
 });
 ```
 
-Set .UseCors() right after the `app` initialization.
+`app` の初期化の直後に .UseCors() を設定します。
 
 ```
 var app = builder.Build();
@@ -98,22 +98,22 @@ if (app.Environment.IsDevelopment())
 }
 ```
 
-### Enable CORS Using IIS Manager, web.config or C#
+### IIS マネージャー、web.config、または C# を使用して CORS を有効にする
 
-Follow the steps below in order to enable access to your internally hosted data source using IIS.
+IIS を使用して内部でホストされているデータ ソースにアクセスできるようにするには、以下の手順に従います:
 
-1. Open IIS manager on your server or on your local PC.
-2. Navigate to the website you need to edit the response headers for.
-3. From the list or Icons related to the site you are editing, select "HTTP Response Headers" from the middle-pane, as shown in the image below
-4. Double click "HTTP Repsonse Header"
-5. Now, click "Add" from right hand side pane
-6. A dialog box will open. For name enter "Access-Control-Allow-Origin" and for Value enter an asterisk (*).
-7. Click Ok, you are done.
+1. サーバーまたはローカル PC で IIS マネージャーを開きます。
+2. 応答ヘッダーを編集する必要がある Web サイトに移動します。
+3. 下の画像に示すように、編集しているサイトに関連するリストまたはアイコンから、中央のペインから [HTTP 応答ヘッダー] を選択します。
+4. [HTTP 応答ヘッダー] をダブル クリックします。
+5. 次に、右側のペインから [追加] をクリックします。
+6. ダイアログ ボックスが開きます。[名前] には 「Access-Control-Allow-Origin」 と入力し、[値] にはアスタリスク (*) を入力します。
+7. [OK] をクリックします。これで完了です。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/IIS-config.gif" />
-<p style="text-align:center;">IIS Configuration</p>
+<p style="text-align:center;">IIS 構成</p>
 
-You can simply enable CORS by adding configuration in your asp.net website's web.config file or adding some code in your global.asax file. Detailed information [here](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291).
+CORS を有効にするには、asp.net Web サイトの web.config ファイルに構成を追加するか、global.asax ファイルにコードを追加します。詳細情報は[ここ (英語)](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291)にあります。
 
 ## データ フィールドの選択とフィールド タイプの変更
 データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例では Card コンポーネントを使用) を選択し、[繰り返し] モードを [Data] に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、Card セクションを選択したテーブル フィールドに接続します。
