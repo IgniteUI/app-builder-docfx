@@ -7,7 +7,6 @@ _language: ja
 # Indigo Design App Builder - 変更ログ
 
 > [!NOTE]
-
 ><b>最新の更新は 2022 年 6 月 13 日に行われました。
 
 ## 2022 年 6 月リリース
