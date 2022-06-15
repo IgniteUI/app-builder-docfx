@@ -52,6 +52,13 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/endpoints-dialog.png" />
 <p style="text-align:center;">[エンドポイントの設定] ダイアログ</p>
 
+## ローカル ネットワーク ソースからのデータ ソースの使用
+これで、ローカル ホストまたはプライベート ネットワークにリクエストを送信できます。詳細については、「アプリでデータを使用する」トピックの[プライベート ネットワークの使用セクション](using-data-in-your-app.md#ローカル-ネットワーク-ソースからのデータ-ソースの使用)の部分をご覧ください。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
+<p style="text-align:center;">ローカル ネットワーク ソースの使用</p>
+
+
 ## その他のリソース
 
 <div class="divider--half"></div>
