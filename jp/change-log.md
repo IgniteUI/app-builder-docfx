@@ -7,7 +7,37 @@ _language: ja
 # Indigo Design App Builder - 変更ログ
 
 > [!NOTE]
-><b>最新の更新は 2022 年 4 月 11 日に行われました。
+><b>最新の更新は 2022 年 6 月 13 日に行われました。
+
+## 2022 年 6 月リリース
+### 機能
+ - コンポーネント ツールボックスに **Category Chart** を追加しました。
+ - コンポーネント ツールボックスに **Pie Chart** を追加しました。
+ - **GitHub の統合**: ユーザーの変更をロールバックせずに更新を公開できるようになりました。
+ - **ローカル ネットワーク ソース**からのデータ リクエストを許可するようになりました。
+
+[詳細情報](https://www.infragistics.com/community/blogs/b/infragistics/posts/app-builder-release-with-charts-support-and-more)
+
+## 2022 年 5 月リリース
+### 機能
+- Sketch で Material、Fluent、Bootstrap、Indigo テーマに一致する **4 つの新しい UI キット**を使用してデザインを作成できます。
+- **Blazor** に **Dark テーマ**のサポートを追加しました。
+
+### 機能改善
+- **Blazor** アプリのコード生成:
+  - **DropDown、Chip、Slider、Snackbar** のサポートを追加しました。
+  - **Navigation drawer、Navigation bar、および Card** のコード生成を更新しました。
+  - オープン/クローズまたは表示/非表示アクションを使用する**クリック インタラクション**を生成できるようになりました。
+  - バインドされたデータ (コレクション) に基づいた繰り返しコンポーネントのサポートを追加しました。
+- Sketch からアプリをインポートする際の色解析を改善しました。
+- Angular と Blazor の改善 - コード出力から**デフォルト値のままのプロパティを除外しました**。
+- 「Task Management」 **サンプル アプリ**を新しいビジュアル スタイルで更新しました。
+- **Navigation bar** の外観プロパティを設定できるようになりました。
+- メインのアプリ メニューから **App Builder デスクトップ アプリケーションをダウンロード**できるようになりました。
+
+## メンテナンスの更新とバグ修正
+- Indigo.Design UI キットの名前を変更しました。
+- エンドポイント (OpenAPI) の構成時の baseUrl の自動入力を更新しました。
 
 ## 2022 年 4 月リリース
 ### 機能
