@@ -7,7 +7,22 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 > [!NOTE]
 
-><b>Latest update was made on June 13th, 2022.
+><b>Latest update was made on August 9th, 2022.
+
+## August 2022 Release
+### Features
+- Added **Tree component** to the component toolbox for both Angular and Blazor
+- Added **filtering of endpoints** when configuring OpenAPI datasource
+### Improvements
+- Blazor code generation for **Expansion panel component**
+- **UI Kits** support for **Tab Layout content area**
+
+## July 2022 Release
+### Improvements
+- Angular apps are generated using **Ignite UI for Angular `~14.0.0`**
+- Added support for selecting any **Google font** when defining app theme
+- General improvements to **Angular and Blazor code generation**
+
 
 ## June 2022 Release
 ### Features

@@ -6,8 +6,16 @@ _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 
 # Data Feature overview 
 The App Builder Data features let users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Below you can find different ways to set up Rest API data sources:
-- By using a JSON type data source, enabling users to upload their own JSON file or provide a Rest API URL with the data source.
+- By using a Rest API URL with the data source.
 - By using a Swagger URL or file definition (json/yaml).
+
+> [!WARNING]
+> Using a JSON type data source with file upload is now deprecated
+
+If you have uploaded data sources in your application prior the removal of the 'Upload .json file' functionality, you will be notified that the request "Failed to retrieve from 'X' and is now switching to mock data response".
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/Failed to retrieve from.png" />
+<p style="text-align:center;">Failed to retrieve data from previously uploaded file</p>
 
 All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
 
@@ -17,16 +25,13 @@ The App Builder also supports **nested collection inside a response object**. Yo
 <p style="text-align:center;">Nested Collection Demo</p>
 
 ## Adding a data source
-The App Builder Data feature enables users to add external data sources, such as JSON (Rest API), Excel or CSV file, either by uploading a file, or linking to external publicly available source. Only Rest API option is available in the initial release of this feature.
+The App Builder Data feature enables users to link to external publicly available source(Rest API)
 
 > [!NOTE]
 > Data sources added to the App Builder are restricted to the user space and are visible only to the user that added them, or to their team space (when the teams feature is available).
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/DataSources-Add-URL.gif" />
 <p style="text-align:center;">Adding data source from a URL</p>
-
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/DataSources-Add-JSON-file.gif" />
-<p style="text-align:center;">Adding data source by uploading a file</p>
 
 ## Adding a Swagger data source
 The power of Swagger tools starts with the OpenAPI Specification — the industry standard for RESTful API design. 
