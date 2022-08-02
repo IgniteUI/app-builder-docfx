@@ -39,6 +39,82 @@ Swagger 定義 (ファイル URL の提供またはファイルのアップロ�
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/swagger-demo-original.gif" />
 <p style="text-align:center;">Swagger のデモ</p>
 
+## ローカル ネットワーク ソースからのデータ ソースの使用
+これで、ローカル ホストまたはプライベート ネットワークにリクエストを送信できます。これには、通常の REST エンドポイントと Swagger エンドポイントが含まれます。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
+<p style="text-align:center;">ローカル ネットワーク ソースの使用</p>
+
+<div style="font-size: 2em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">トラブルシューティング</div>
+
+プライベート ネットワークの使用中にエラー ダイアログが表示された場合は、このセクションが問題の解決に役立ちます。問題が解決しない場合は、[問題の報告またはフィードバックの送信](getting-started.md#問題の報告またはフィードバックの送信)セクションに従ってください。
+### [リクエストは失敗しました!] エラー ダイアログ
+ローカル ネットワークでの作業の本質により、このタイプのエラーでは、CORS の問題 (クロスオリジン) などが原因でローカル / プライベート サービスが失敗したかどうかを識別するために、追加の作業が必要になります。
+
+
+
+ローカル サービスの追加中に [リクエストは失敗しました!] ダイアログが表示された場合は、ブラウザーの開発ツールを開き (`F12`）、コンソール / ネットワーク タブでエラーを確認します。最も可能性の高い理由は、CORS の制限です。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/request-failed-error.gif" />
+<p style="text-align:center;">[リクエストは失敗しました!] エラー </p>
+
+ローカル サービスの構成に基づいて、クロスオリジン リクエストの問題を解決する方法がいくつかあります。これについては、以下で詳しく説明します。
+
+### ASP.NET Core でクロスオリジン リクエスト (CORS) を有効にする
+
+[この記事](https://docs.microsoft.com/ja-jp/aspnet/core/security/cors?view=aspnetcore-6.0)は、ASP.NET Core アプリで CORS を有効にする方法を示しています。Web App Builder が、すべてまたは特定のオリジンを許可する CORS ポリシーを追加するようにすることができます:
+
+```
+var builder = WebApplication.CreateBuilder(args);
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+// Add services to the container.
+builder.Services.AddControllers();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin();
+                      });
+});
+```
+
+`app` の初期化の直後に .UseCors() を設定します。
+
+```
+var app = builder.Build();
+
+app.UseCors(MyAllowSpecificOrigins);
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+```
+
+### IIS マネージャー、web.config、または C# を使用して CORS を有効にする
+
+IIS を使用して内部でホストされているデータ ソースにアクセスできるようにするには、以下の手順に従います:
+
+1. サーバーまたはローカル PC で IIS マネージャーを開きます。
+2. 応答ヘッダーを編集する必要がある Web サイトに移動します。
+3. 下の画像に示すように、編集しているサイトに関連するリストまたはアイコンから、中央のペインから [HTTP 応答ヘッダー] を選択します。
+4. [HTTP 応答ヘッダー] をダブル クリックします。
+5. 次に、右側のペインから [追加] をクリックします。
+6. ダイアログ ボックスが開きます。[名前] には「Access-Control-Allow-Origin」と入力し、[値] にはアスタリスク (*) を入力します。
+7. [OK] をクリックします。これで完了です。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/IIS-config.gif" />
+<p style="text-align:center;">IIS 構成</p>
+
+CORS を有効にするには、asp.net Web サイトの web.config ファイルに構成を追加するか、global.asax ファイルにコードを追加します。詳細情報は[ここ (英語)](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291)にあります。
+
 ## データ フィールドの選択とフィールド タイプの変更
 データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例では Card コンポーネントを使用) を選択し、[繰り返し] モードを [Data] に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、Card セクションを選択したテーブル フィールドに接続します。
 

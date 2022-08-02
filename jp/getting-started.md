@@ -112,7 +112,7 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 
 ## 問題の報告またはフィードバックの送信
 
-[このリポジトリ](https://github.com/IgniteUI/app-builder)は、問題や機能リクエストの送信、および製品の全般的なディスカッション、質問、共有したいフィードバックを対象としています。
+[このリポジトリ](https://github.com/IgniteUI/app-builder)は、問題や機能リクエストの送信、および製品の全般的なディスカッション、質問、共有したいフィードバックを対象としています。<a href="mailto:feedback@indigo.design">メールを送信する</a>こともできます。
 ## その他のリソース
 <div class="divider--half"></div>
 
