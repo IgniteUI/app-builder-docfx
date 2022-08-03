@@ -12,7 +12,8 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 ## August 2022 Release
 ### Features
 - Added **Tree component** to the component toolbox for both Angular and Blazor
-- Added **filtering of endpoints** when configuring OpenAPI datasource
+- Added **filtering of endpoints** when configuring OpenAPI data source
+
 ### Improvements
 - Blazor code generation for **Expansion panel component**
 - **UI Kits** support for **Tab Layout content area**
