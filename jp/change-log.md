@@ -7,7 +7,26 @@ _language: ja
 # Indigo Design App Builder - 変更ログ
 
 > [!NOTE]
-><b>最新の更新は 2022 年 6 月 13 日に行われました。
+
+><b>最新の更新は 2022 年 8 月 9 日に行われました。
+
+## 2022 年 8 月リリース
+### 機能
+- Added **Tree component** to the component toolbox, for Blazor and Angular.
+
+### 機能改善
+- Added support for `grid-gap` in **row and column layout (Flexbox)**
+- Added **filtering for endpoints** when configuring OpenAPI datasource
+- Generate **Expansion panel** as a Blazor component.
+- **UI Kits** support dedicated content area inside **Tab Layout**
+- Bug fixes and performance improvements
+
+## 2022 年 7 月リリース
+### 機能改善
+- Angular apps are generated using **Ignite UI for Angular `~14.0.0`**
+- Added support for selecting any **Google font** when defining app theme
+- General improvements to **Angular and Blazor code generation**
+
 
 ## 2022 年 6 月リリース
 ### 機能
