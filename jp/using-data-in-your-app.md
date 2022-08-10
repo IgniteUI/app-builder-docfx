@@ -13,7 +13,7 @@ App Builder のデータ機能を使用して、開発中のアプリケーシ�
 > [!WARNING]
 > ファイルのアップロードで JSON タイプのデータ ソースを使用することは非推奨になりました。
 
-「.json ファイルのアップロード」機能が削除される前にアプリケーションでデータ ソースをアップロードした場合、「Failed to retrieve from 'X' and is now switching to mock data response」という要求が通知されます。
+「.json ファイルのアップロード」機能が削除される前にアプリケーションでデータ ソースをアップロードした場合、「'X' から取得できませんでした。モック データ応答に切り替えます。」という要求が通知されます。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/Failed to retrieve from.png" />
 <p style="text-align:center;">以前アップロードされたファイルからデータを取得できませんでした</p>
