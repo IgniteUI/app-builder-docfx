@@ -12,20 +12,20 @@ _language: ja
 
 ## 2022 年 8 月リリース
 ### 機能
-- Added **Tree component** to the component toolbox, for Blazor and Angular.
+- Blazor および Angular のコンポーネント ツールボックスに **Tree コンポーネント**を追加しました。
 
 ### 機能改善
-- Added support for `grid-gap` in **row and column layout (Flexbox)**
-- Added **filtering for endpoints** when configuring OpenAPI datasource
-- Generate **Expansion panel** as a Blazor component.
-- **UI Kits** support dedicated content area inside **Tab Layout**
-- Bug fixes and performance improvements
+- **行と列のレイアウト (Flexbox)** に `grid-gap` のサポートを追加しました。
+- OpenAPI データ ソースの構成時に**エンドポイントのフィルタリング**を追加しました。
+- **Expansion panel** を Blazor コンポーネントとして生成
+- **UI キット**は、**タブ レイアウト**内の専用コンテンツ エリアをサポートします。
+- バグ修正とパフォーマンスの改善
 
 ## 2022 年 7 月リリース
 ### 機能改善
-- Angular apps are generated using **Ignite UI for Angular `~14.0.0`**
-- Added support for selecting any **Google font** when defining app theme
-- General improvements to **Angular and Blazor code generation**
+- Angular アプリは **Ignite UI for Angular `~14.0.0`** を使用して生成されるようにしました。
+- アプリのテーマを定義するときに任意の **Google フォント**の選択がサポートされました。
+- **Angular および Blazor コード生成**の全般的な改善
 
 
 ## 2022 年 6 月リリース

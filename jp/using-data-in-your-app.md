@@ -7,16 +7,16 @@ _language: ja
 
 # データ機能の概要
 App Builder のデータ機能を使用して、開発中のアプリケーションで外部データソースを追加、編集、使用できます。デフォルトで、App Builder には、ユーザーが参照に使用できる Northwind データ ソースが含まれています。以下は、REST API データ ソースを設定するさまざまな方法を示しています。
-- By using a Rest API URL with the data source.
+- データ ソースで REST API URL を使用します。
 - Swagger URL またはファイル定義 (json/yaml) を使用します。
 
 > [!WARNING]
-> Using a JSON type data source with file upload is now deprecated
+> ファイルのアップロードで JSON タイプのデータ ソースを使用することは非推奨になりました。
 
-If you have uploaded data sources in your application prior the removal of the 'Upload .json file' functionality, you will be notified that the request "Failed to retrieve from 'X' and is now switching to mock data response".
+「.json ファイルのアップロード」機能が削除される前にアプリケーションでデータ ソースをアップロードした場合、「Failed to retrieve from 'X' and is now switching to mock data response」という要求が通知されます。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/Failed to retrieve from.png" />
-<p style="text-align:center;">Failed to retrieve data from previously uploaded file</p>
+<p style="text-align:center;">以前アップロードされたファイルからデータを取得できませんでした</p>
 
 追加されたすべてのデータ ソースはデータ ツールボックスに配置され、ユーザーは各データ ソースを展開/縮小して、含まれているテーブルおよび選択したフィールドを表示できます。
 
@@ -26,7 +26,7 @@ App Builder は、**応答オブジェクト内のネストされたコレクシ
 <p style="text-align:center;">ネストされたコレクションのデモ</p>
 
 ## データ ソースを追加する
-The App Builder Data feature enables users to link to external publicly available source(Rest API)
+App Builder のデータ機能により、ユーザーは公開されている外部ソース (Rest API) にリンクできます。
 
 > [!NOTE]
 > App Builder に追加されたデータ ソースはユーザー スペースに制限され、追加したユーザーまたはチーム スペース (チーム機能が利用可能な場合) のみに表示されます。
