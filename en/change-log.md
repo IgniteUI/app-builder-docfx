@@ -7,11 +7,12 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 > [!NOTE]
 
-><b>Latest update was made on August 9th, 2022.
+><b>Latest update was made on August 16th, 2022.
 
 ## August 2022 Release
 ### Features
 - Added **Tree component** to the component toolbox, for Blazor and Angular.
+- Generate your app for both **Blazor WebAssembly and Server**
 
 ### Improvements
 - Added support for `grid-gap` in **row and column layout (Flexbox)**
