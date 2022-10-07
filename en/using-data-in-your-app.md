@@ -135,6 +135,18 @@ When a data source has been added, users can connect a particular data field to 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/DataSources-Connect-data-source-table-fields.gif" />
 <p style="text-align:center;">Connect a data source table field to a component section</p>
 
+## Known issues and limitations
+### Unable to infer schema from data
+This error message will be show when _the size of the parsed table schema_ of the datasource is too big (over 5mb). It can be triggered when:
+
+- Adding a regular REST endpoint.
+- When checking endpoints of a swagger datasource.
+- Or when datasource is updated.
+
+Keep in mind this is not a restriction on the data, for example it can be with more than 50MB of rows, although as long as the schema (shape of the data) can be represented in under 5MB, the App Builder will load it.
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/unable-to-infer-schema-full.png" />
+<p style="text-align:center;">Unable to infer schema from data</p>
 
 ## Additional Resources
 <div class="divider--half"></div>
