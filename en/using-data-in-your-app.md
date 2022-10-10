@@ -143,7 +143,10 @@ This error message will be show when _the size of the parsed table schema_ of th
 - When checking endpoints of a swagger datasource.
 - Or when datasource is updated.
 
-Keep in mind this is not a restriction on the data, for example it can be with more than 50MB of rows, although as long as the schema (shape of the data) can be represented in under 5MB, the App Builder will load it.
+Keep in mind this is not a restriction on the data, for example it can be with more than 50MB of rows, although as long as the *schema (note below) can be represented in under 5MB, the App Builder will load it.
+
+> [!NOTE]
+> Schema: The shape of the data for all the tables of the datasource
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/unable-to-infer-schema-full.png" />
 <p style="text-align:center;">Unable to infer schema from data</p>
