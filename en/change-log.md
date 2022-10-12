@@ -11,18 +11,15 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 ## October 2022 Release
 ### Features
-- New toolbox components - **TreeGrid**, **Accordion**.
-- Grid **Columns Configuration**
-- Added **HR Dashboard sample** app as reference in “Create new app” dialog
+- Added **Tree-Grid** and **Accordion** to the component toolbox
+- Define columns collection for **Grid** component, and re-arrange columns
+- Added new **sample app** - HR Dashboard
 
 ### Improvements
-- **Generate licensed code** upon application download for licensed users ([more](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview#licensed-code-export))
-- **OpenAPI** improvements
-   - Reference object **support**
-   - Table schema parsing **limitations** ([more](https://infragistics.com/products/appbuilder/help/using-data-in-your-app#unable-to-infer-schema-from-data))
-- Full **Safari** browser support
-- Angular apps are generated using **Ignite UI for Angular `~14.1.0`** ([more](https://github.com/IgniteUI/igniteui-angular/blob/master/CHANGELOG.md#1410))
-- Bug fixes and general improvements
+- Added support for reference objects when using **OpenAPI** definition
+- Added support for **Safari browser**
+- **Generate app** with licensed packages if you own a subscription ([more](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview#licensed-code-export))
+- Angular apps are generated using **Ignite UI for Angular `~14.1.0`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/blob/master/CHANGELOG.md#1410))
 
 [LEARN MORE](https://www.infragistics.com/community/blogs/b/infragistics/posts/app-builder-release-with-web-components-code-generation-tree-grid-and-more)
 
