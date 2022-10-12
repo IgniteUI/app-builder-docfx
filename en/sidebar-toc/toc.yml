@@ -9,17 +9,13 @@
   items:
     - name: On-prem prerequisites and installation
       href: ../on-prem-prerequisites-and-installation.md
-      new: true
 - name: Running Desktop App
   href: ../running-desktop-app.md
-  new: true
 - name: Interface Overview
   href: ../interface-overview.md
   new: false
 - name: Flex Layouts
   href: ../flex-layouts/flex-layouts.md
-  new: false
-  updated: true
   # items:
   #   - name: Row and column layout
   #     href: ../flex-layouts/row-and-column-layout.md
@@ -50,7 +46,6 @@
   items:
     - name: OpenAPI (Swagger) Support
       href: ../open-api-swagger-support.md
-      new: true
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:
@@ -76,12 +71,17 @@
   #     href: ../preview-code-and-genrate-app/compile-and-run-the-app.md
 - name: Blazor Support
   href: ../blazor-support.md
-  new: true
+  new: false
+  updated: true
 - name: Generate App
   href: ../generate-app/generate-app-overview.md
+  new: false
+  updated: true
   items:
     - name: Upload application to Github
       href: ../generate-app/upload-application-to-github.md
+      new: false
+      updated: true
     - name: Run Application Locally
       href: ../generate-app/run-application-locally.md
 - name: Change Log

@@ -38,7 +38,7 @@ Starting your app building experience is fast and easy with one of our pre-built
 <div class="divider--half"></div>
 
 > [!NOTE]
-> Supported browsers are Chrome, Edge (Chromium) and Firefox. IE11 and Safari are not supported.
+> Supported browsers are Chrome, Edge (Chromium), Firefox, Safari MacOS and Mobile Safari. IE11 is not supported.
 
 ## Additional Resources
 <div class="divider--half"></div>

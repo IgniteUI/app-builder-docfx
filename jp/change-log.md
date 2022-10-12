@@ -13,6 +13,7 @@ _language: ja
 ## 2022 年 8 月リリース
 ### 機能
 - Blazor および Angular のコンポーネント ツールボックスに **Tree コンポーネント**を追加しました。
+- **Blazor WebAssembly/Server 用**のアプリを生成できます。
 
 ### 機能改善
 - **行と列のレイアウト (Flexbox)** に `grid-gap` のサポートを追加しました。
