@@ -12,9 +12,9 @@ _language: ja
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
         </div>
-        <p>コードのプレビューと生成について</p>
+        <p style="text-align:center">コードのプレビューと生成について</p>
     </div>
 </section>
 
@@ -22,10 +22,27 @@ Angular コード生成機能を備えた App Builder は数か月前から販�
 
 プラットフォーム ピッカー ドロップダウンは、`[GitHub に公開]` と `[プレビュー]` アクションボタンの隣のナビゲーション バーにあります。`[Blazor ベータ版]` オプションを選択して Blazor のコードを生成するか、`[Angular]` で生成したアプリとコードのプレビューを表示します。
 
-<img class="responsive-img" src="../images/generate-code.png" />
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/generate-code.png" />
 <p style="text-align:center;">コード生成のプラットフォームの選択</p>
 
 すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Indigo.Design App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
+
+## ライセンス コードのエクスポート
+
+### ライセンス ユーザー
+**ライセンス ユーザー**の場合、アプリ生成時に [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) のライセンス版パッケージが使用されます。これは、**アプリケーションのダウンロード**と **GitHub への公開**の両方に適用されます。
+
+アプリケーションを GitHub に公開する際、プロジェクトのビルドと、基本テストを実行する CI を追加します。ライセンス版パッケージを使用するために GitHub CI から必要な NPM_AUTH_TOKEN も公開します。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/licensed-ci-npm-token.png" />
+<p style="text-align:center;">NPM 認証トークン</p>
+
+### トライアル ユーザー
+**トライアル ユーザー**の場合、アプリ生成時に [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular)の無料トライアル版パッケージが使用されます。これは、**アプリケーションのダウンロード**と **GitHub への公開**の両方に適用されます。
+
+フル ライセンス パッケージにアップグレードする方法 (プロジェクトが Ignite UI for Angular のトライアル版を使用している場合)、および、ライセンス版の npm フィードを使用するように環境と CI をセットアップする方法については、[ライセンス FAQ とインストール ドキュメント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/general/ignite-ui-licensing) を参照してください。
+
+あるいは、`npm run infragistics-login` を実行するとライセンス フィードへのログインが案内されます。
 
 ## サポートされているコンポーネント
 

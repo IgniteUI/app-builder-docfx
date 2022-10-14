@@ -9,17 +9,13 @@
   items:
     - name: オンプレミスの前提条件とインストール
       href: ../on-prem-prerequisites-and-installation.md
-      new: true
 - name: Desktop アプリの実行方法
   href: ../running-desktop-app.md
-  new: true
 - name: インターフェイスの概要
   href: ../interface-overview.md
   new: false
 - name: Flex レイアウト
   href: ../flex-layouts/flex-layouts.md
-  new: false
-  updated: true
   # items:
   #   - name: 行と列のレイアウト
   #     href: ../flex-layouts/row-and-column-layout.md
@@ -50,7 +46,6 @@
   items:
     - name: OpenAPI (Swagger) サポート
       href: ../open-api-swagger-support.md
-      new: true
 - name: テーマ
   href: ../app-themes/app-themes.md
   # items:
@@ -76,12 +71,17 @@
   #     href: ../preview-code-and-genrate-app/compile-and-run-the-app.md
 - name: Blazor サポート
   href: ../blazor-support.md
-  new: true
+  new: false
+  updated: true
 - name: アプリの生成
   href: ../generate-app/generate-app-overview.md
+  new: false
+  updated: true
   items:
     - name: アプリケーションを Github にアップロード
       href: ../generate-app/upload-application-to-github.md
+      new: false
+      updated: true
     - name: アプリケーションをローカルで実行
       href: ../generate-app/run-application-locally.md
 - name: 変更ログ

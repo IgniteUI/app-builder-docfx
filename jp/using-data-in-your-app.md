@@ -136,9 +136,25 @@ CORS を有効にするには、asp.net Web サイトの web.config ファイル
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/DataSources-Connect-data-source-table-fields.gif" />
 <p style="text-align:center;">データ ソース テーブルのフィールドをコンポーネント セクションに接続する</p>
 
+## 既知の問題と制限
+### データからスキーマを推測できません
+このエラー メッセージは、データ ソースの解析されたテーブル スキーマのサイズが大きすぎる (5MB 以上) 場合に表示されます。以下の場合に発生します。
+
+- 通常の REST エンドポイントを追加する場合。
+- Swagger データ ソースのエンドポイントをチェックする場合。
+- または、データ ソースが更新された場合。
+
+これはデータ量の制限ではありません。たとえば、50MB を超える行があったとしても、*スキーマ (以下の注) が 5MB 未満で表現できていれば、App Builder はそのデータを読み込めます。
+
+> [!NOTE]
+> スキーマ: データ ソースのすべてのテーブルのデータの定義
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/unable-to-infer-schema-full.png" />
+<p style="text-align:center;">データからスキーマを推測できません</p>
 
 ## その他のリソース
 <div class="divider--half"></div>
+
 * [App Builder コンポーネント](indigo-design-app-builder-components.md)
 * [App Builder インターフェイスの概要](interface-overview.md)
 * [単一ページとナビゲーション](single-page-apps-and-navigation.md)
