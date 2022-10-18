@@ -11,9 +11,9 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/zxT-nIXKn7I" frameborder="0" allowfullscreen></iframe>
         </div>
-        <p>Preview and Generate App Code</p>
+        <p style="text-align:center">Preview and Generate App Code</p>
     </div>
 </section>
 
@@ -21,10 +21,28 @@ App Builder with Angular code generation has been in the market for a few months
 
 Now there is the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor BETA` option to generate code for Blazor, or `Angular` to see a preview of the generated app and code.
 
-<img class="responsive-img" src="../images/generate-code.png" />
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/generate-code.png" />
 <p style="text-align:center;">Pick platform for code generation</p>
 
 The design and development user story will be completed once the application is generated with all styling and layout properties. Currently, Indigo.Design App Builder offers options to upload all your application files to a GitHub repository or download them as a package and then run it locally.
+
+
+## Licensed code export
+
+### Licensed user
+If you are a **licensed user** then the licensed packages of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) will be used, upon app generation. This applies for both _application download_ and _publish to GitHub_. 
+
+When the application is published to GitHub we add a CI that will build your project and run basic tests. We also publish NPM_AUTH_TOKEN that is required from the GitHub CI, in order to be able to use the licensed package.
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/licensed-ci-npm-token.png" />
+<p style="text-align:center;">NPM Authentication Token</p>
+
+### Trial user
+If you are a **trial user** then the free trial package of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) will be used, upon app generation. This applies for both _application download_ and _publish to GitHub_.
+
+See the [License FAQ and Installation documentation](https://www.infragistics.com/products/ignite-ui-angular/angular/components/general/ignite-ui-licensing) for information on how to upgrade to the full licensed package, if the project is using a Trial version of Ignite UI for Angular, and how to setup your environment and CI to use our licensed npm feed.
+
+Alternatively run `npm run infragistics-login` for a guided login to our licensed feed.
 
 ## Supported Components
 

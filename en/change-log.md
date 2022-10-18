@@ -7,7 +7,21 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 > [!NOTE]
 
-><b>Latest update was made on August 16th, 2022.
+><b>Latest update was made on 11th of October, 2022.
+
+## October 2022 Release
+### Features
+- Added **Tree-Grid** and **Accordion** to the component toolbox
+- Define columns collection for **Grid** component, and re-arrange columns
+- Added new **sample app** - HR Dashboard
+
+### Improvements
+- Added support for reference objects when using **OpenAPI** definition
+- Added support for **Safari browser**
+- **Generate app** with licensed packages if you own a subscription ([more](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview#licensed-code-export))
+- Angular apps are generated using **Ignite UI for Angular `~14.1.0`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/blob/master/CHANGELOG.md#1410))
+
+[LEARN MORE](https://www.infragistics.com/community/blogs/b/infragistics/posts/app-builder-release-with-web-components-code-generation-tree-grid-and-more)
 
 ## August 2022 Release
 ### Features

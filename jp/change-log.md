@@ -8,11 +8,26 @@ _language: ja
 
 > [!NOTE]
 
-><b>最新の更新は 2022 年 8 月 9 日に行われました。
+><b>最新の更新は 2022 年 10 月 11 日に行われました。
+
+## 2022 年 10 月リリース
+### 機能
+- コンポーネント ツールボックスに **Tree-Grid** および **Accordion** を追加しました。
+- **Grid** コンポーネントの列コレクションを定義し、列を再配置しました。
+- **Grid** コンポーネントの列コレクションを定義し、列を再配置しました。
+
+### 機能改善
+- **OpenAPI** 定義の使用時に参照オブジェクトのサポートを追加しました。
+- **Safari ブラウザー**のサポートを追加しました。
+- サブスクリプションを所有している場合、ライセンス版パッケージで**アプリを生成できるようになりました**。([詳細情報](https://jp.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview#ライセンス-コードのエクスポート))
+- Angular アプリは **Ignite UI for Angular `~14.1.0`** を使用して生成されるようにしました。([変更ログ](https://github.com/IgniteUI/igniteui-angular/blob/master/CHANGELOG.md#1410))
+
+[詳細情報](https://www.infragistics.com/community/blogs/b/infragistics/posts/app-builder-release-with-web-components-code-generation-tree-grid-and-more)
 
 ## 2022 年 8 月リリース
 ### 機能
 - Blazor および Angular のコンポーネント ツールボックスに **Tree コンポーネント**を追加しました。
+- **Blazor WebAssembly/Server 用**のアプリを生成できます。
 
 ### 機能改善
 - **行と列のレイアウト (Flexbox)** に `grid-gap` のサポートを追加しました。
