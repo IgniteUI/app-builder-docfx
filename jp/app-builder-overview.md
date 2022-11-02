@@ -39,7 +39,7 @@ App Builder は、デザインからコード生成を行うソリューショ�
 <div class="divider--half"></div>
 
 > [!NOTE]
-> サポートされているブラウザは、Chrome、Edge (Chromium)、Firefox です。IE11 および Safari はサポートされません。
+> サポートされているブラウザーは、Chrome、Edge (Chromium)、Firefox、Safari MacOS、および Mobile Safari です。IE11 はサポートされていません。
 
 ## その他のリソース
 <div class="divider--half"></div>
