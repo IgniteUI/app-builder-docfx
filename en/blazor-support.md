@@ -7,21 +7,9 @@ _keywords: App Builder, Web App Builder, Blazor, Blazor Code generation, Blazor 
 
 With .NET 6 we are officially supporting a preview version of App Builder with Blazor as a code generation option. This version comes live following the overwhelming feature requests around Blazor support.
 
-This means that you can now create any Blazor UI with simple drag & drop and get all of the production ready Razor, C# and CSS code in a single click for the following components now:
+This means that you can now create any Blazor UI with simple drag & drop and get all of the production ready Razor, C# and CSS code in a single click for almost all components now.
 
-- Grid and TreeGrid with data binding
-- Badge
-- Icon
-- Checkbox, Switch
-- Avatar
-- InputGroup
-- Containers - Absolute, Row, Column
-- Hyperlink, Image, text and title
-- List
-- Button, Link Button
-- Card
-- NavBar
-- Radio Group
+For a list of Blazor components availability see [Generate App](generate-app/generate-app-overview.md#supported-components) supported components section.
 
 <img class="responsive-img" src="./images/blazor-introduction.png" />
 <p style="text-align:center;">Blazor Code Generation from AppBuilder</p>

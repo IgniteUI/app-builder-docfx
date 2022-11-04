@@ -308,7 +308,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 ### General
 * Interactive flows - the interactive flows feature has been extended with master and child views routing.
 * Preset layouts - 4 predefined layouts for quick start of a new design have been added.
-* Library of sample apps - 3 predefined sample apps have been added which users can use as a starting point to speed up the design process or quickly learn how Indigo.Design App Builder works
+* Library of sample apps - 3 predefined sample apps have been added which users can use as a starting point to speed up the design process or quickly learn how Ignite UI App Builder works
 * General improvements and bug fixes
 * Visual improvements and user experience enhancement
 

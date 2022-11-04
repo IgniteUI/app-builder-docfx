@@ -7,7 +7,7 @@ _language: ja
 # アプリを生成する
 
 > [!NOTE]
-><b>Indigo.Design App Builder でデザインされたアプリケーションは、ダウンロードするか、GitHub リポジトリに直接アップロードできます。 
+><b>Ignite UI App Builder でデザインされたアプリケーションは、ダウンロードするか、GitHub リポジトリに直接アップロードできます。 
 
 <section class="video-container">
     <div>
@@ -25,7 +25,7 @@ Angular コード生成機能を備えた App Builder は数か月前から販�
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/generate-code.png" />
 <p style="text-align:center;">コード生成のプラットフォームの選択</p>
 
-すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Indigo.Design App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
+すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー Ignite UI App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
 
 ## ライセンス コードのエクスポート
 
