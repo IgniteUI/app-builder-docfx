@@ -11,6 +11,9 @@
       href: ../on-prem-prerequisites-and-installation.md
 - name: Running Desktop App
   href: ../running-desktop-app.md
+- name: Share, Preview and Edit apps
+  href: ../share-preview-edit-app.md
+  new: true
 - name: Interface Overview
   href: ../interface-overview.md
   new: false
