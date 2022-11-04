@@ -76,6 +76,10 @@
   href: ../blazor-support.md
   new: false
   updated: true
+- name: Web Components Support
+  href: ../web-components-support.md
+  new: true
+  updated: false
 - name: Generate App
   href: ../generate-app/generate-app-overview.md
   new: false

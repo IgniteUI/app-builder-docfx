@@ -15,21 +15,20 @@ The family of supported frameworks of the App Builder has grown even more. The n
 
 ### In this article:
 * <a href="#introduction">Introduction of the feature</a>
-* <a href="#blazor-code-generation">Blazor Code generation</a>
+* <a href="#web-components-code-generation">Web Components Code generation</a>
 * <a href="#uploading-an-application-to-github">Uploading an application to GitHub</a>
 * <a href="#known-issues-and-limitations">Known issues and limitations</a>
 
 ## Introduction
-As mentioned, beta version of Blazor Code generation feature supports a handful of components and many are yet to come. Don't miss out on the grid code generation - while most grid features are not yet supported, data binding is and this gives you the ability to run a Blazor application with a native grid component from Ignite UI for Blazor! Enabling more features in the grid in the AppBuilder designer is still fine - at one moment code generation from the design will bring more than just data binding.
 
-## Blazor Code Generation
-After finalizing the design of your application and before previewing its code, pay attention to the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor BETA` option to generate code for Blazor, or `Angular` if this is the preferred framework for your app. The picker remembers your choice and next time you go to AppBuilder you will have your desired framework preselected for you.
+
+## Web Components Code Generation
 
 ## Uploading an application to GitHub
 In addition to see your application in Preview mode or download it locally on the machine, there is the option for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder.
 
 ## Known issues and limitations
-Generating Blazor application has the following limitations:
+Generating Web Components application has the following limitations:
 - Bootstrap is turned off in the generated application.
 
 Generated components have the following limitations:

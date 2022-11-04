@@ -5,11 +5,13 @@ _keywords: App Builder, Web App Builder, Blazor, Blazor Code generation, Blazor 
 ---
 # Blazor Code Generation with App Builder
 
-With .NET 6 we are officially supporting a preview version of App Builder with Blazor as a code generation option. This version comes live following the overwhelming feature requests around Blazor support.
+With .NET 6 we are officially supporting a version of App Builder with Blazor WASM and Server code generation options. This version comes live following the overwhelming feature requests around Blazor support.
 
 This means that you can now create any Blazor UI with simple drag & drop and get all of the production ready Razor, C# and CSS code in a single click for almost all components now.
 
 For a list of Blazor components availability see [Generate App](generate-app/generate-app-overview.md#supported-components) supported components section.
+
+You can generate both Blazor Web Assembly or Blazor Server apps based on your preferences and requirements.
 
 <img class="responsive-img" src="./images/blazor-introduction.png" />
 <p style="text-align:center;">Blazor Code Generation from AppBuilder</p>
@@ -24,10 +26,10 @@ For a list of Blazor components availability see [Generate App](generate-app/gen
 * <a href="#known-issues-and-limitations">Known issues and limitations</a>
 
 ## Introduction
-As mentioned, beta version of Blazor Code generation feature supports a handful of components and many are yet to come. Don't miss out on the grid code generation - while most grid features are not yet supported, data binding is and this gives you the ability to run a Blazor application with a native grid component from Ignite UI for Blazor! Enabling more features in the grid in the AppBuilder designer is still fine - at one moment code generation from the design will bring more than just data binding.
+As mentioned, Blazor Code generation feature supports a lot of new components and many are yet to come. Don't miss out on the Grid and Tree Grid code generation - as most of the grid features are now supported, like data binding that gives you the ability to run a Blazor application with a native grid component from Ignite UI for Blazor! Features like Excel-style filtering, Paging, Row editing, Cell selection and a lot more, are available to you.
 
 ## Blazor Code Generation
-After finalizing the design of your application and before previewing its code, pay attention to the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor BETA` option to generate code for Blazor, or `Angular` if this is the preferred framework for your app. The picker remembers your choice and next time you go to AppBuilder you will have your desired framework preselected for you.
+After finalizing the design of your application and before previewing its code, pay attention to the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor WASM` or `Blazor Server` option to generate code for Blazor, `Angular` or `Web Components` if this is the preferred framework for your app. The picker remembers your choice and next time you go to AppBuilder you will have your desired framework preselected for you.
 
 ## Uploading an application to GitHub
 In addition to see your application in Preview mode or download it locally on the machine, there is the option for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder.
@@ -62,14 +64,9 @@ Generated components have the following limitations:
     - does not support value loop.
 - Radio Group
     - does not support required.
-- Grid:
-    - advanced filtering is not reflected in generated code.
-    - toolbar is not reflected in generated code.
+- Grid/Tree Gird:
     - does not support column selection.
-    - does not support exporting.
-    - does not support paging.
-    - does not support row actions.
-    - does not support quick filtering.
+    - does not support row actions (action strip).
 
 For a list of all supported components see [Generate App](generate-app/generate-app-overview.md#supported-components)
 
