@@ -20,51 +20,34 @@ The family of supported frameworks of the App Builder has grown even more. The n
 * <a href="#known-issues-and-limitations">Known issues and limitations</a>
 
 ## Introduction
+You can now kickstart your next Web App with the App Builder for the fastest way to deliver high performance Web Components apps.
 
+With the idea to deliver cutting-edge development tools for modern web apps, we now have not only the [Ignite UI for Web Components library](https://www.infragistics.com/products/ignite-ui-web-components) but also the ability to generate Web Apps built with App Builder. 
+
+Wondering what exactly Web Components are? A set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. Custom components and widgets build on the Web Component standards, will work across modern browsers, and can be used with any JavaScript library or framework that works with HTML.
+
+But do not confuse Web Components with a framework or a rendering library because Web Components doesn’t fall into these technical categories. It’s more appropriate to see it as:
+
+ - Low Level Browser APIs
+ - Standard Component Interfaces
+ - Framework-agnostic rich user experience
 
 ## Web Components Code Generation
+
+Using the App Builder, you can now generate advanced Web Apps that benefit from using dependency-free components in a future-proof app dev strategy. When you are ready with your application go ahead and set the desired framework. Once the Web Components drop-down item is selected, you can hit "Download zip" in order to generate and download it.
+
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-download-button.png" />
+<p style="width: 100%; text-align:center;">Download button</p>
+
+If you want to have a quick look at the generated code, go to App Preview and toggle the Code View switch.
+
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-code-generation.png" />
+<p style="width: 100%; text-align:center;">Code preview</p>
 
 ## Uploading an application to GitHub
 In addition to see your application in Preview mode or download it locally on the machine, there is the option for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder.
 
 ## Known issues and limitations
-Generating Web Components application has the following limitations:
-- Bootstrap is turned off in the generated application.
-
-Generated components have the following limitations:
-
-- Card:
-    - reversed actions are not reflected in generated code.
-    - divider in "Actions-column" type is not reflected in generated code.
-- Navigation Drawer
-    - does not support pin threshold.
-- Avatar:
-    - the "Initials" type does not limit the content to the first two chars.
-- Icon
-    - does not use `IgbIcon` in generated code. All components, which use icons, are also not generated with `IgbIcon`.
-- Date Picker:
-    - does not support Dialog mode.
-    - does not support displaying multiple months.
-    - does not support action buttons.
-- Icon Button
-    - does not generate `IgbIconButton`, but `IgbButton` with icon instead.
-- Input Group - when type is set to "Date":
-    - does not support input format.
-    - does not fully support display formats.
-    - does not support help text.
-    - does not support custom prefix and suffix.
-    - does not support min and max values.
-    - does not support value loop.
-- Radio Group
-    - does not support required.
-- Grid:
-    - advanced filtering is not reflected in generated code.
-    - toolbar is not reflected in generated code.
-    - does not support column selection.
-    - does not support exporting.
-    - does not support paging.
-    - does not support row actions.
-    - does not support quick filtering.
 
 For a list of all supported components see [Generate App](generate-app/generate-app-overview.md#supported-components)
 

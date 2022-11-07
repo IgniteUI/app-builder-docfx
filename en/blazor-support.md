@@ -13,8 +13,9 @@ For a list of Blazor components availability see [Generate App](generate-app/gen
 
 You can generate both Blazor Web Assembly or Blazor Server apps based on your preferences and requirements.
 
-<img class="responsive-img" src="./images/blazor-introduction.png" />
-<p style="text-align:center;">Blazor Code Generation from AppBuilder</p>
+
+<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/blazor-introduction.png" />
+<p style="width: 100%; text-align:center;">Blazor Code Generation from AppBuilder</p>
 
 > [!NOTE]
 ><b>Trying to generate code for components not available yet will put a placeholder informing that such a component is not yet supported. This makes it possible for you not to refrain from developing more complex UI in the designer.
@@ -67,6 +68,10 @@ Generated components have the following limitations:
 - Grid/Tree Gird:
     - does not support column selection.
     - does not support row actions (action strip).
+- Rating:
+    - does not support [ngModel] binding for readonly and disabled
+    - does not support repeating of rating elements for exported code
+    - is included only for Angular and WC, there is no Rating for Blazor
 
 For a list of all supported components see [Generate App](generate-app/generate-app-overview.md#supported-components)
 
