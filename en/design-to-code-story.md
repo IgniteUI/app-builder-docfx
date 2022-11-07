@@ -8,13 +8,14 @@ _keywords: App Builder, Web App Builder, Figma design, Sketch import
 
 App Builder enables you to go from Design to Code in a single click. Import Figma, Sketch and Adobe XD files and create Apps directly from the Designs.
 
-This happens by importing your design files with App Builder or by using the Indigo.Design System plugins directly inside Figma, Sketch and Adobe XD. The plugins even deliver custom themes, import images assets, and ensure all components are mapped one-to-one with controls from the App Builder Toolbox. More below.
+This happens by importing your design files with App Builder or by using the [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) plugins directly inside Figma, Sketch and Adobe XD. The plugins even deliver custom themes, import images assets, and ensure all components are mapped one-to-one with controls from the App Builder Toolbox. More below.
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/indigo-design-ui-kit.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI Kit</p>
 
 ## Indigo.Design System
 
+The [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) uniquely combines UI Kits that map to real UI controls and components, with tooling that delivers unprecedented productivity helping digital product teams go from pixel-perfect design to production-ready code. Anything you design can be turned into real, usable code, simplifying the designer-developer handoff.
 ### What is a Design System?
 
 Design systems are usually described as a set of design principles and assets that translate to consistency in the way you build user interfaces. The three core advantages of using a design system are:
