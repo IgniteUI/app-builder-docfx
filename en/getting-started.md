@@ -12,7 +12,7 @@ _keywords: App builder, Indigo Design, Infragistics
 ### In this article:
 * <a href="#launch-app-builder">Launch App Builder</a>
 * <a href="#getting-the-code">Getting the code</a>
-* <a href="#running-the-app-locally">Running the app locally</a>
+* <a href="#running-the-generated-app-locally">Running the app locally</a>
 
 <section class="video-container">
     <div>
@@ -39,7 +39,7 @@ Indigo.Cloud Sign-in
 What you'll see when you launch the [App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) for first time is a pop up window suggesting a quick onboarding tour. What you will see next is the create new project dialog. There are four ways to start a new app:
 1. <b>Create from existing design</b> - if you have an existing Sketch file, created using the Indigo.Design UI kit for Sketch, you can upload it at this point and continue your design in the App Builder, without the need to recreate everything from scratch. Note, that due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
 2. <b>Sample apps</b> - the getting started apps will help you explore applications that have been created using the App Builder and also allow you to modify them in your own user space. They are also a good source for you to preview generated code for a larger application without having to create your own app from scratch. If you use the App Builder for first time, we recommend to use the sample app option as a starting point. This is the quickest way to onboard yourself with the awesome features of the tool and to start building your application.
-3. <b>Defaul layouts</b> - start a new app from scratch, benefiting from a basic predefined layout.
+3. <b>Default layouts</b> - start a new app from scratch, benefiting from a basic predefined layout.
 4. <b>Blank</b> - start a new app from scratch.
 
 <img class="responsive-img" src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
@@ -77,7 +77,7 @@ Check out this topic for [more technical details on how to install](on-prem-prer
 <img class="responsive-img" src="./images/on-prem-ab-demo.gif" />
 <p style="text-align:center;">On-Premise version</p>
 
-## Running the app locally
+## Running the generated app locally
 
 In order to run the downloaded application, the following prerequisites need to be installed on your machine. Check out [this topic](generate-app/run-application-locally.md) for more information on how to run the generated application locally.
 
