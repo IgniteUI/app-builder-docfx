@@ -4,7 +4,7 @@ _description: App Builder enables users to choose the desired platform for code 
 _keywords: App Builder, Web App Builder, Preview apps, Edit applications, Share apps
 ---
 # Share, Preview and Edit Applications
-This topic provides detailed explanation on how to share application with other users, how to grant them with editing capabilities and how to set different App Preview settings and description for meaningful social platforms sharing.
+This topic provides detailed explanation on how to share application with other users, how to grant them with editing capabilities and how to set different App Preview settings and app description for more meaningful social platform sharing.
 
 ## Share application
 A share button has been added in Design mode to make friendlier experience for the [Desktop App](https://github.com/IgniteUI/app-builder-client/releases/tag/1.0.1) and also customize permissions if needed. 
