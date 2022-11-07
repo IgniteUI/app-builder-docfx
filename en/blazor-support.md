@@ -69,7 +69,7 @@ Generated components have the following limitations:
     - does not support column selection.
     - does not support row actions (action strip).
 - Rating:
-    - does not support [ngModel] binding for readonly and disabled
+    - does not support [ngModel] binding for `readonly` and `disabled` inputs (for Angular)
     - does not support repeating of rating elements for exported code
     - is included only for Angular and WC, there is no Rating for Blazor
 

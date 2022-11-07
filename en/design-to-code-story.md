@@ -6,9 +6,7 @@ _keywords: App Builder, Web App Builder, Figma design, Sketch import
 
 # Design-to-code App Builder story
 
-App Builder enables you to go from Design to Code in a single click. Import Figma, Sketch and Adobe XD files and create Apps directly from the Designs.
-
-This happens by importing your design files with App Builder or by using the [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) plugins directly inside Figma, Sketch and Adobe XD. The plugins even deliver custom themes, import images assets, and ensure all components are mapped one-to-one with controls from the App Builder Toolbox. More below.
+App Builder enables you to go from Design to Code in a single click. Import Figma, Sketch and Adobe XD files and create Apps with ease. Use the [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) plugins directly inside Figma, Sketch and Adobe XD to deliver custom themes, import images assets, and ensure all components are mapped one-to-one with controls from the App Builder Toolbox.
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/indigo-design-ui-kit.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI Kit</p>
@@ -25,10 +23,10 @@ Design systems are usually described as a set of design principles and assets th
 - Speeds up the design process and significantly improves consistency.
 
 ### Turn your designs into code
-
-Here are the 4 simple steps to get from Design to Code with the App Builder with simple drag & drop.
-
+Use file import or your favorite design tool.
 #### File import
+
+Below are the 4 simple steps to get from Design to Code with the App Builder with simple drag & drop.
 
 ##### Step 1: Click New App from the Indigo Cloud or App Builder Home Screen
 
