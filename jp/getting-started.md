@@ -13,7 +13,7 @@ _language: ja
 ### トピック コンテンツ:
 * <a href="#app-builder-を起動する">Indigo.Design から App Builder を起動する</a>
 * <a href="#コードの取得">コードの取得</a>
-* <a href="#アプリをローカルで実行する">アプリをローカルで実行する</a>
+* <a href="#作成したアプリをローカルで実行する">アプリをローカルで実行する</a>
 
 <section class="video-container">
     <div>
@@ -78,7 +78,7 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 <img class="responsive-img" src="./images/on-prem-ab-demo.gif" />
 <p style="text-align:center;">オンプレミス版</p>
 
-## アプリをローカルで実行する
+## 作成したアプリをローカルで実行する
 
 ダウンロードしたアプリケーションを実行するには、次の前提条件がマシンにインストールされている必要があります。生成されたアプリケーションをローカルで実行する方法の詳細については、[このトピック](generate-app/run-application-locally.md)を参照してください。
 
