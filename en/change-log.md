@@ -7,7 +7,18 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 > [!NOTE]
 
-><b>Latest update was made on 11th of October, 2022.
+><b>Latest update was made on 2th of November, 2022.
+
+## November 2022 Release
+## Features
+- **Generate app** and components as a **Web Components** project
+- **Share** a public link to preview your app
+- Added **Rating** to the component toolbox (Angular and Web Components)
+## Improvements
+- Added new features for **Grid** component (Blazor)
+- Added TreeGrid component for **Blazor** and **Web Components** code generation
+- Angular apps are generated using **Ignite UI for Angular `~14.1.1`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/releases/tag/14.1.1))
+- Bug fixes
 
 ## October 2022 Release
 ### Features
@@ -297,7 +308,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 ### General
 * Interactive flows - the interactive flows feature has been extended with master and child views routing.
 * Preset layouts - 4 predefined layouts for quick start of a new design have been added.
-* Library of sample apps - 3 predefined sample apps have been added which users can use as a starting point to speed up the design process or quickly learn how Indigo.Design App Builder works
+* Library of sample apps - 3 predefined sample apps have been added which users can use as a starting point to speed up the design process or quickly learn how Ignite UI App Builder works
 * General improvements and bug fixes
 * Visual improvements and user experience enhancement
 

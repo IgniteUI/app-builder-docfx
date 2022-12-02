@@ -11,6 +11,12 @@
       href: ../on-prem-prerequisites-and-installation.md
 - name: Running Desktop App
   href: ../running-desktop-app.md
+- name: Share, Preview and Edit apps
+  href: ../share-preview-edit-app.md
+  new: true
+- name: Design-to-Code story
+  href: ../design-to-code-story.md
+  new: true
 - name: Interface Overview
   href: ../interface-overview.md
   new: false
@@ -73,6 +79,10 @@
   href: ../blazor-support.md
   new: false
   updated: true
+- name: Web Components Support
+  href: ../web-components-support.md
+  new: true
+  updated: false
 - name: Generate App
   href: ../generate-app/generate-app-overview.md
   new: false

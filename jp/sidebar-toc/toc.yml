@@ -11,6 +11,12 @@
       href: ../on-prem-prerequisites-and-installation.md
 - name: Desktop アプリの実行方法
   href: ../running-desktop-app.md
+- name: アプリケーションの共有、プレビュー、および編集
+  href: ../share-preview-edit-app.md
+  new: true
+- name: デザインからコード作成のストーリー
+  href: ../design-to-code-story.md
+  new: true
 - name: インターフェイスの概要
   href: ../interface-overview.md
   new: false
@@ -73,6 +79,10 @@
   href: ../blazor-support.md
   new: false
   updated: true
+- name: Web Components サポート
+  href: ../web-components-support.md
+  new: true
+  updated: false
 - name: アプリの生成
   href: ../generate-app/generate-app-overview.md
   new: false
