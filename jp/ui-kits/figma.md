@@ -9,7 +9,7 @@ _language: ja
 最新の Indigo.Design UI Kit for Material は、Ignite UI for Angular、Blazor、および Web Components の UI ツールセットに対応し、デザイン開発プロセスを完全に再定義します。コンポーネント、パターン、スタイリング、およびカスタマイズ オプションの強力なセットを利用できるようになり、プロトタイプまたは Figma で設計された任意のタイプの画面をインポートして、クリーンなコードに変換できるようになりました。最も素晴らしい点は、すべての静的なデザインが、シングル クリックで実際の UI コンポーネント、ブランディング、およびスタイリングを備えたインタラクティブでレスポンシブなアプリになることです。
 
 > [!NOTE]
-> Download [Figma UI Kit](https://www.figma.com/@infragistics), [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) and [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
+> [Figma UI キット](https://www.figma.com/@infragistics)、[Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474)、および[サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)をダウンロード。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/figma-ui-kit.gif" />
 <p style="width: 100%; text-align:center;">Figma UI キット</p>
@@ -67,7 +67,7 @@ Figma スターターのユーザーの場合も、UI キットの使用方法�
 
 Figma プラグイン、UI キット、およびサンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
  
-Or through the direct links below:
+または、以下の直接リンクから:
 - [Figma UI キット](https://www.figma.com/@infragistics)
 - [Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474) 
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)

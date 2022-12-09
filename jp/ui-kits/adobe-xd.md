@@ -10,7 +10,7 @@ _language: ja
 Adobe XD は、デザイナーがワイヤーフレームやアプリをデザインできる最新の使いやすいツールを提供するためにゼロから作成されたもので、今日の市場で人気のあるベクター グラフィック デザイン プラットフォームの 1 つです。ワイヤーフレーム機能に加えて、デザイナーは忠実度の高いプロトタイプを作成し、デザイン プロセスを通じてチーム間で協力し、アニメーションを構成し、フィードバックを収集することができます。
 
 > [!NOTE]
-> Download [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e), [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5) and [Sample apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
+> [Adobe XD UI キット](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)、[Adobe XD 用プラグイン](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)、および[サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)をダウンロード。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/app-is-ready-xd.png" />
 <p style="width: 100%; text-align:center;">Adobe XD プラグイン</p>
@@ -30,7 +30,7 @@ Indigo.Design App Builder プラグインをインストールした後、Infrag
 
 Adobe XD デザインを App Builder にインポートする方法の詳細については、[この詳細な説明のブログ記事 (英語) を参照してください。](https://www.infragistics.com/community/blogs/b/jason_beres/posts/adobe-xd-to-html-code)
 
-Or through the direct links below:
+または、以下の直接リンクから:
 - [Adobe XD UI キット](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
 - [Adobe XD プラグイン](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5) 
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
