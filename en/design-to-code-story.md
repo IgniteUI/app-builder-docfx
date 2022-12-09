@@ -11,6 +11,9 @@ App Builder enables you to go from Design to Code in a single click. Import Figm
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/indigo-design-ui-kit.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI Kit</p>
 
+> [!NOTE]
+> You can download our UI Kits, Plugins and Sample Apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma) or [though direct links](#download-assets).
+
 ## Indigo.Design System
 
 The [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) uniquely combines UI Kits that map to real UI controls and components, with tooling that delivers unprecedented productivity helping digital product teams go from pixel-perfect design to production-ready code. Anything you design can be turned into real, usable code, simplifying the designer-developer handoff.
@@ -75,80 +78,25 @@ Now you can start using the plugin.
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/sketch-plugin-create-app.png" />
 <p style="width: 100%; text-align:center;">Sketch Plugin Create App</p>
 
+## Download assets
 
+You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma).
 
-## Figma UI Kit
-With support for Sketch and Adobe XD already available and Figma being added as part of the latest App Builder 22.2 Release, we are marking a new milestone in our design-to-code story, covering all the major tools for UX and UI design. 
+Or through the direct links below:
+- [Figma UI Kit](https://www.figma.com/@infragistics)
+- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
+- [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
+- [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)
+- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
+- [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
+- [Plugin for Sketch](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)
+- [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
+ 
+## Additional Resources
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/figma-ui-kit.gif" />
-<p style="width: 100%; text-align:center;">Figma UI Kit</p>
+<div class="divider--half"></div>
 
-The brand-new Figma Material Light UI kit maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click. 
-
-Here are the fresh new controls, components and a healthy dose of quality improvements that arrive with the addition of Figma UI kit today:
-
-- Accordion
-- Avatar
-- Badge
-- Banner
-- Button
-- Button Group
-- Calendar
-- Card
-- Carousel
-- Charts - Category and Pie Chart
-- Checkbox
-- Chip and Chips Area
-- Combo
-- Date Picker
-- Dialog
-- Divider
-- Drop Down
-- Expansion Panel
-- Gauges - Linear and Radial Gauge
-- Grids - Data Grid, Tree Grid, Hierarchical Grid, Pivot Grid
-- Hyperlink
-- Icon
-- Input
-- List
-- Navigation Drawer
-- Progress Bar
-- Radio Group
-- Select
-- Slider
-- Snackbar
-- Splitter
-- Stepper
-- Switch
-- Tabs
-- Text Area
-- Time Picker
-- Toast
-- Tree
-- Tooltip
-
-## Adobe XD UI Kit
-
-Crafted from the ground-up to equip designers with a modern and easy-to-use arsenal of tools which allow them to design wireframes and apps, Adobe XD is one of the popular vector graphic design platforms in the market today. Along with wireframe features, designers can create hi-fidelity prototypes, collaborate across teams through the design process, configure animations and collect feedback.
-
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/app-is-ready-xd.png" />
-<p style="width: 100%; text-align:center;">Adobe XD Plugin</p>
-
-**How to Convert Adobe XD to HTML Code using App Builder?**
-
-There are a couple pre-requisites to get started:
-
-1. Login to your account or start a free trial of App Builder 
-2. Login to your account or start a free trial of Adobe XD 
-
-Once you have installed Adobe XD, you need to install the Indigo.Design App Builder plugin, which enables design to code.  You can access this from the Stock & Marketplace -> Plugins in the Creative Cloud app, simply search for Indigo.Design.
-
-Once you have installed the Indigo.Design App Builder plugin, you need a design based on the UI Kits from Infragistics. The way design to code works with App Builder is that designs in Adobe XD must be created using out UI Kits, which are full-featured, extensible and customizable libraries of UI components and UI patterns that accelerate the design phase.
-
-When your design is ready, you can publish it to App Builder.
-
-For more in-depth tutorial how to import your Adobe XD designs into App Builder, [please refer to this blog article](https://www.infragistics.com/community/blogs/b/jason_beres/posts/adobe-xd-to-html-code) that shows everything with images and detailed descriptions.
-
-## Sketch UI Kit
-
-A strong design-to-code movement emerged in the last few years to pick up where Sketch left off – the goal being to create a seamless, consistent, easy-to-use process that ensures Sketch designs can be easily transformed into usable code.
+* [Figma UI Kit](ui-kits/figma.md)
+* [Adobe XD UI kit](ui-kits/adobe-xd.md)
+* [Sketch UI kit](ui-kits/sketch.md)
