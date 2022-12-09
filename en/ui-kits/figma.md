@@ -8,7 +8,7 @@ _keywords: App Builder, Web App Builder, Figma design
 The brand-new Figma Material Light UI kit maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
 
 > [!NOTE]
->Download [Figma UI Kit](https://www.figma.com/@infragistics) and [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474)
+> Download [Figma UI Kit](https://www.figma.com/@infragistics), [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) and [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/figma-ui-kit.gif" />
 <p style="width: 100%; text-align:center;">Figma UI Kit</p>
@@ -65,6 +65,11 @@ Here is the difference with the Professional plan. You, as a **Free account user
 ## Figma Download assets
 
 You can download the Figma Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma)
+
+Or through the direct links below:
+- [Figma UI Kit](https://www.figma.com/@infragistics)
+- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
  
 ## Known issues and limitations
 - [The difference when using the kit as a free Figma user vs Pro user](#using-the-kit-as-a-free-figma-user-vs-pro-user).

@@ -11,6 +11,9 @@ App Builder enables you to go from Design to Code in a single click. Import Figm
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/indigo-design-ui-kit.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI Kit</p>
 
+> [!NOTE]
+> You can download our UI Kits, Plugins and Sample Apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma) or [though direct links](#download-assets).
+
 ## Indigo.Design System
 
 The [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) uniquely combines UI Kits that map to real UI controls and components, with tooling that delivers unprecedented productivity helping digital product teams go from pixel-perfect design to production-ready code. Anything you design can be turned into real, usable code, simplifying the designer-developer handoff.
@@ -77,7 +80,18 @@ Now you can start using the plugin.
 
 ## Download assets
 
-You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma)
+You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma).
+
+Or through the direct links below:
+- [Figma UI Kit](https://www.figma.com/@infragistics)
+- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
+- [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
+- [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)
+- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
+- [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
+- [Plugin for Sketch](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)
+- [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
  
 ## Additional Resources
 
