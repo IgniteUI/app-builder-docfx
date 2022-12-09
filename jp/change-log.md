@@ -13,7 +13,7 @@ _language: ja
 ## 2022 年 12 月リリース
 ### 機能
 - Angular のコンポーネント ツールボックスに **Pivot Grid コンポーネント**を追加しました。
-- **Tree Grid** コンポーネントの階層データ サポートを追加しました。
+- **Tree Grid** コンポーネントに階層データ サポートを追加しました。
 - [Figma 用の **Indigo.Design UI キット**](https://www.figma.com/@infragistics)をリリースしました。
 - デザインからアプリを作成する [Figma プラグイン](https://www.figma.com/community/plugin/1170035114372031474)をリリースしました。
 - 新しい**サンプル アプリ** - Movie Premieres を追加しました。

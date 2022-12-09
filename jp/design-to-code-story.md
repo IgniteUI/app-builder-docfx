@@ -76,9 +76,9 @@ App Builder を使用して、ワンク リックでデザインからコード�
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/sketch-plugin-create-app.png" />
 <p style="width: 100%; text-align:center;">Sketch プラグイン アプリの作成</p>
 
-## Download assets
+## アセットのダウンロード
 
-You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma)
+プラグイン、UI キット、サンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
  
 ## その他のリソース
 

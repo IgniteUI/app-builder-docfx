@@ -1,80 +1,80 @@
 ---
-title: Figma design to code story
-_description: App Builder enables import your Figma designed files with ease
-_keywords: App Builder, Web App Builder, Figma design
+title: Figma デザインからコード作成のストーリー
+_description: App Builder を使用すると、Figma でデザインしたファイルを簡単にインポートできます。
+_keywords: App Builder、Web App Builder、Figma デザイン
 _language: ja
 ---
 
-# Figma UI Kit
-The brand-new Figma Material Light UI kit maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
+# Figma UI キット
+最新の Figma Material Light UI キットは、Ignite UI for Angular、Blazor、および Web Components の UI ツールセットに対応し、デザイン開発プロセスを完全に再定義します。コンポーネント、パターン、スタイリング、およびカスタマイズ オプションの強力なセットを利用できるようになり、プロトタイプまたは Figma で設計された任意のタイプの画面をインポートして、クリーンなコードに変換できるようになりました。最も素晴らしい点は、すべての静的なデザインが、シングル クリックで実際の UI コンポーネント、ブランディング、およびスタイリングを備えたインタラクティブでレスポンシブなアプリになることです。
 
 > [!NOTE]
->Download [Figma UI Kit](https://www.figma.com/@infragistics) and [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474)
+>[Figma UI キット](https://www.figma.com/@infragistics)と [Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474)をダウンロード。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/figma-ui-kit.gif" />
-<p style="width: 100%; text-align:center;">Figma UI Kit</p>
+<p style="width: 100%; text-align:center;">Figma UI キット</p>
 
-## Using the kit as a free Figma user vs Pro user
-The Indigo.Design UI Kit for Material can be used by everyone, regardless of the user's chosen Figma plan. However, there are certain limitations that you should be aware of.
+## Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてのキットの使用
+Indigo.Design UI Kit for Material は、ユーザーが選択した Figma プランに関係なく、誰でも使用できます。ただし、注意すべき特定の制限があります。
 
-If you're designing for a specific device or screen size, you may want to create a container for your designs. This is where frames come in. Frames allow you to choose an area of the canvas to create your designs in.
+特定のデバイスまたは画面サイズ用にデザインしている場合は、デザイン用のコンテナーを作成することをお勧めします。ここでフレームの出番です。フレームを使用すると、キャンバスの領域を選択してデザインを作成できます。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/8.PNG" />
-<p style="width: 100%; text-align:center;">Add a frame</p>
+<p style="width: 100%; text-align:center;">フレームを追加する</p>
 
-### Figma Pro User Account 
-In case you are a user, signed with a Professional Figma account, then the way to use the Indigo.Design UI Kit for Material is by simply creating a duplicate of the UI Kit from the Figma community. Once you have duplicated (Get a copy) the file, it will be placed in “Recent files”.
+### Figma プロフェッショナル ユーザー アカウント
+Figma プロフェッショナル アカウントのユーザーの場合、Indigo.Design UI Kit for Material を使用する方法は、Figma コミュニティから UI キットの複製を作成するだけです。ファイルを複製すると (Get a copy)、[Recent files] に配置されます。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/1.PNG" />
-<p style="width: 100%; text-align:center;">Indigo.Design UI Kit</p>
+<p style="width: 100%; text-align:center;">Indigo.Design UI キット</p>
 
-Now you need to open the file and use the chevron arrow right next to the file’s name, in order to move the file into your team space.
+ファイルをチーム スペースに移動するには、ファイルを開き、ファイル名の横にある下向き矢印を使用する必要があります。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/2.PNG" />
-<p style="width: 100%; text-align:center;">Move to project</p>
+<p style="width: 100%; text-align:center;">プロジェクトに移動</p>
 
-You can see that right next to the file's name now is displayed the name of the team, to which you have moved the file to, e.g. Personal Files
+ファイルの名前のすぐ隣に、ファイルの移動先のチームの名前が表示されていることがわかります。たとえば、個人用ファイルです。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/3.PNG" />
-<p style="width: 100%; text-align:center;">Personal Files</p>
+<p style="width: 100%; text-align:center;">個人用ファイル</p>
 
-Once the file is moved, open the file and go to the Assets panel. Click on the Team library icon, and you should be able to publish this file as a library, which will distribute all the styles, typography, and components to the rest of your team. From now on, every time you start a project or continue to work on an existing one within your team space, you will be able to activate this library and use it directly inside your project.
+ファイルを移動したら、ファイルを開いて [アセット] パネルに移動します。チーム ライブラリ アイコンをクリックすると、このファイルをライブラリとして公開できるようになります。これにより、すべてのスタイル、タイポグラフィ、およびコンポーネントがチームの他のメンバーに配布されます。以降、プロジェクトを開始、またはチーム スペース内の既存のプロジェクトで作業を継続するときはいつでも、このライブラリをアクティブにして、プロジェクト内で直接使用することができます。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/4.PNG" />
-<p style="width: 100%; text-align:center;">Publish</p>
+<p style="width: 100%; text-align:center;">公開</p>
 
-The activation is from _Assets > Team library icon > use the switch to activate the library_.
+[アセット] > チーム ライブラリ アイコン > スイッチを使用してライブラリを有効にします。
 
 <img class="responsive-img" style="width: 50%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/5.PNG" />
-<p style="width: 50%; text-align:center;">Your teams</p>
+<p style="width: 50%; text-align:center;">チーム</p>
 
-### Figma Free User Account
+### Figma スターター (無料) のユーザー アカウント
 
-For users with a “Free account”, the way to use the UI Kit is quite similar. Once you duplicate the file from the Figma community, you need to move it from **Recent files** to your team space. Open the file and use the chevron arrow, placed right next to the file's name, in order to move the file into your team space. Keep in mind that using the **Free Figma plan**, allows you to have a maximum of three projects, each of which can contain only three files. Once the file is moved, the following step is to open the file and go to the Assets panel. Click on the Team library icon, and you should be able to publish this file as a library, which will distribute only the color styles and typography to the rest of your team. 
+Figma スターターのユーザーの場合も、UI キットの使用方法はほぼ同じです。Figma コミュニティからファイルを複製したら、それを **Recent files (最新のファイル)** からチーム スペースに移動する必要があります。ファイルを開き、ファイル名のすぐ横にある下向き矢印を使用して、ファイルをチーム スペースに移動します。**Figma スターター プラン**を使用すると、使用できるプロジェクトは最大 3 つまで、および、プロジェクトごとに 3 つのファイルしか含めることができないことに注意してください。ファイルを移動したら、次の手順でファイルを開き、[アセット] パネルに移動します。チーム ライブラリ アイコンをクリックすると、このファイルをライブラリとして公開できるようになります。これにより、カラー スタイルとタイポグラフィのみがチームの他のメンバーに配布されます。
 
-From now on, every time you start a project or continue to work on an existing one within your team space, you will be able to activate this library and use it directly inside your project. The activation is from _Assets > Team library icon > use the switch button to activate the library_.
+これからは、プロジェクトを開始するか、チーム スペース内の既存のプロジェクトで作業を続けるたびに、このライブラリをアクティブにして、プロジェクト内で直接使用することができます。[アセット] > チーム ライブラリ アイコン > スイッチを使用してライブラリを有効にします。
 
 
 <img class="responsive-img" style="width: 60%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/6.PNG" />
-<p style="width: 60%; text-align:center;">Publish styles only</p>
+<p style="width: 60%; text-align:center;">スタイルのみの公開</p>
 
 <img class="responsive-img" style="width: 60%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/7.PNG" />
-<p style="width: 60%; text-align:center;">Publish styles</p>
+<p style="width: 60%; text-align:center;">スタイルの公開</p>
 
-Here is the difference with the Professional plan. You, as a **Free account user**, cannot use the library’s components directly from the Assets panel, therefore you need to copy all the needed components from the UI Kit file and paste them into your project file. This will break the link between the UI Kit library and the components you have copied, so any updates you make inside the UI Kit will not be applied directly to the components you have copied and pasted inside your project file. Only color styles and typography styles can be updated automatically. In case you have copied a button from the UI Kit and you have pasted it inside your project and want to make a change of its appearance over time, you can either detach the button and apply that change locally in your project file, or apply that change inside the UI Kit file and copy the button component again and paste it inside your project file. Then you should delete the old button, so there is no duplication of components with the same name. 
+ここがプロフェッショナル プランとの違いです。**Figma スターター ユーザー**は、[アセット] パネルからライブラリのコンポーネントを直接使用することはできません。そのため、UI キット ファイルから必要なすべてのコンポーネントをコピーして、プロジェクト ファイルに貼り付ける必要があります。これにより、UI キット ライブラリとコピーしたコンポーネントとの間のリンクが解除されるため、UI キット内で行った更新は、プロジェクト ファイル内でコピーして貼り付けたコンポーネントに直接適用されません。自動的に更新できるのは、カラー スタイルとタイポグラフィ スタイルのみです。UI キットからボタンをコピーし、それをプロジェクト内に貼り付けたあとで、外観を変更したい場合は、ボタンを切り離して、その変更をプロジェクト ファイルにローカルに適用できます。または、UI キット ファイル内でその変更を適用し、ボタン コンポーネントを再度コピーして、プロジェクト ファイル内に貼り付けることもできます。次に、同じ名前のコンポーネントが重複しないように、古いボタンを削除する必要があります。
 
-## Figma Download assets
+## Figma アセットのダウンロード
 
-You can download the Figma Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma)
+Figma プラグイン、UI キット、およびサンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
  
-## Known issues and limitations
-- [The difference when using the kit as a free Figma user vs Pro user](#using-the-kit-as-a-free-figma-user-vs-pro-user).
-- Dark mode will not be parsed upon import into the App Builder, currently we don't provide definitions or options for it.
+## 既知の問題と制限
+- [Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてキットを使用した場合の違い](#Figma-スターター-ユーザーと-Figma-プロフェッショナル-ユーザーとしてのキットの使用)。
+- ダーク モードは、App Builder へのインポート時に解析されません。現在、ダーク モードの定義やオプションは提供されていません。
 
-## Additional Resources
+## その他のリソース
 
 <div class="divider--half"></div>
 
-* [Design to code story](../design-to-code-story.md)
-* [Adobe XD UI Kit](adobe-xd.md)
-* [Sketch UI Kit](sketch.md)
+* [デザインからコード作成のストーリー](../design-to-code-story.md)
+* [Adobe XD UI キット](adobe-xd.md)
+* [Sketch UI キット](sketch.md)
