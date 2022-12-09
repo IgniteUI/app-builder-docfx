@@ -12,6 +12,9 @@ App Builder を使用して、ワンク リックでデザインからコード�
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/indigo-design-ui-kit.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI キット</p>
 
+> [!NOTE]
+> You can download our UI Kits, Plugins and Sample Apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma) or [though direct links](#アセットのダウンロード).
+
 ## Indigo.Design システム
 
 [Indigo.Design システム](https://jp.infragistics.com/products/appbuilder/ui-toolkit)は、実際の UI コントロールおよびコンポーネントにマップする UI キットと、これまでにない生産性を提供するツールを独自に組み合わせており、デジタル製品チームがピクセル パーフェクトなデザインからプロダクション対応のコードに移行するのを支援します。デザインしたものはすべて実際の使用可能なコードに変換できるため、デザイナーと開発者間のハンドオフが簡単になります。
@@ -79,6 +82,17 @@ App Builder を使用して、ワンク リックでデザインからコード�
 ## アセットのダウンロード
 
 プラグイン、UI キット、サンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
+
+Or through the direct links below:
+- [Figma UI キット](https://www.figma.com/@infragistics)
+- [Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474) 
+- [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
+- [Adobe XD UI キット](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
+- [Adobe XD 用プラグイン](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)
+- [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
+- [Sketch UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
+- [Sketch 用プラグイン](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)
+- [サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
  
 ## その他のリソース
 
