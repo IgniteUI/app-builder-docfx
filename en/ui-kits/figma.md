@@ -5,7 +5,7 @@ _keywords: App Builder, Web App Builder, Figma design
 ---
 
 # Figma UI Kit
-The brand-new Figma Material Light UI kit maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
+The brand-new Figma Indigo.Design UI Kit for Material maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
 
 > [!NOTE]
 > Download [Figma UI Kit](https://www.figma.com/@infragistics), [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) and [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
