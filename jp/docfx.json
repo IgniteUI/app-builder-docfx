@@ -9,6 +9,7 @@
                     "indigo-design-components/**.md",
                     "spa-and-navigation/**.md",
                     "using-data-in-your-app/**.md",
+                    "ui-kits/**.md",
                     "sidebar-toc/toc.yml",
                     "toc.yml",
                     "*.md"
