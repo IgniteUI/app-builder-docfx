@@ -8,14 +8,26 @@ _language: ja
 
 > [!NOTE]
 
-><b>最新の更新は 2022 年 11 月 2 日に行われました。
+><b>最新の更新は 2022 年 12 月 6 日に行われました。
+
+## 2022 年 12 月リリース
+### 機能
+- Angular のコンポーネント ツールボックスに **Pivot Grid コンポーネント**を追加しました。
+- **Tree Grid** コンポーネントに階層データ サポートを追加しました。
+- [Figma 用の **Indigo.Design UI キット**](https://www.figma.com/@infragistics)をリリースしました。
+- デザインからアプリを作成する [Figma プラグイン](https://www.figma.com/community/plugin/1170035114372031474)をリリースしました。
+- 新しい**サンプル アプリ** - Movie Premieres を追加しました。
+
+### 機能改善
+- REST API エンドポイントに接続するときに、**認証の詳細を記憶する**ためのオプションを追加しました。
+- バグ修正とパフォーマンスの改善。
 
 ## 2022 年 11 月リリース
-## 機能
+### 機能
 - **アプリ**とコンポーネントを **Web Components** プロジェクトとして生成できるようになりました。
 - アプリをプレビューする公開リンクを**共有できます**。
 - コンポーネント ツールボックスに **Rating** を追加しました (Angular と Web Components)。
-## 機能改善
+### 機能改善
 - **Grid** コンポーネント (Blazor) の新機能を追加しました。
 - **Blazor** と **Web Components** コード生成用の TreeGrid コンポーネントを追加しました。
 - Angular アプリは **Ignite UI for Angular `~14.1.1`** を使用して生成されるようにしました。([変更ログ](https://github.com/IgniteUI/igniteui-angular/releases/tag/14.1.1))
