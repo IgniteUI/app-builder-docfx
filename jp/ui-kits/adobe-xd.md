@@ -30,15 +30,15 @@ Indigo.Design App Builder プラグインをインストールした後、Infrag
 
 Adobe XD デザインを App Builder にインポートする方法の詳細については、[この詳細な説明のブログ記事 (英語) を参照してください。](https://www.infragistics.com/community/blogs/b/jason_beres/posts/adobe-xd-to-html-code)
 
+## Adobe XD アセットのダウンロード
+
+Adobe XD プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://cloud.indigo.design/resources/adobe-xd)からダウンロードできます。
+
 または、以下の直接リンクから:
 - [Adobe XD UI キット](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
 - [Adobe XD 用プラグイン](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5) 
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
 
-## Adobe XD アセットのダウンロード
-
-Adobe XD プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://cloud.indigo.design/resources/adobe-xd)からダウンロードできます。
- 
 ## その他のリソース
 
 <div class="divider--half"></div>

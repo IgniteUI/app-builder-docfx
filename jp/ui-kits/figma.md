@@ -66,7 +66,7 @@ Figma スターターのユーザーの場合も、UI キットの使用方法�
 ## Figma アセットのダウンロード
 
 Figma プラグイン、UI キット、およびサンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
- 
+
 または、以下の直接リンクから:
 - [Figma UI キット](https://www.figma.com/@infragistics)
 - [Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474) 
