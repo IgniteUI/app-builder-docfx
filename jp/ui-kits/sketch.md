@@ -1,43 +1,43 @@
-## Sketch UI Kit
+## Sketch UI キット
 
-A strong design-to-code movement emerged in the last few years to pick up where Sketch left off – the goal being to create a seamless, consistent, easy-to-use process that ensures Sketch designs can be easily transformed into usable code.
+ここ数年で、デザインからコードへの強力な動きが生まれ、Sketch が中断したところから再開しました。目標は、Sketch のデザインを使用可能なコードに簡単に変換できるようにする、シームレスで一貫性のある使いやすいプロセスを作成することです。
 
 > [!NOTE]
 > [Adobe XD UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)、[Sketch 用プラグイン](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)、および[サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)をダウンロード。
 
-## App Builder Sketch Importer
-Here are the 4 simple steps to get from Design to Code with the App Builder with a drag & drop.
+## App Builder Sketch インポーター
+以下は、App Builder を使ってドラッグアンドドロップでデザインからコードを作成する 4 つの簡単な手順です。
 
-Step 1: Click New App from the Indigo.Design Apps Home Screen
-Create New Angular App from Sketch Design
+手順 1: Indigo.Design アプリのホーム画面で [新しいアプリ] をクリックします。
+Sketch Design から新しい Angular アプリを作成します。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/new-app-dialog.PNG" />
-<p style="width: 100%; text-align:center;">New app dialog</p>
+<p style="width: 100%; text-align:center;">新しいアプリのダイアログ</p>
 
-Step 2: Drag your Sketch file into the "Create from existing design" Drop Area
-Sketch to Angular Drag and Drop
+手順 2: Sketch ファイルを [既存のデザインから作成] ドロップ領域にドラッグします。
+Sketch から Angular へのドラッグ アンド ドロップ
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/import-designs-dialog.PNG" />
-<p style="width: 100%; text-align:center;">Import designs dialog</p>
+<p style="width: 100%; text-align:center;">デザインのインポート ダイアログ</p>
 
-Step 3: Review the Design in the Cloud IDE
-App in Web App Builder from Sketch
+手順 3: Cloud IDE でデザインを確認します。
+Sketch の Web App Builder のアプリ
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/generate-code.PNG" />
-<p style="width: 100%; text-align:center;">Code generation</p>
+<p style="width: 100%; text-align:center;">コードの生成</p>
 
-Step 4: Review or Download your Angular code
-You can choose to use the buttons in the upper right of the IDE to Generate App or Preview your app and see code. Here you can see the Preview option with your running app and your code of HTML, CSS or TypeScript.
+手順 4: Angular コードを確認またはダウンロードします。
+IDE の右上にあるボタンを使用して、アプリを生成するか、アプリをプレビューしてコードを確認するかを選択できます。こちらでは、実行中のアプリと HTML、CSS、または TypeScript のコードで [プレビュー] オプションを確認できます。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/download-project.PNG" />
-<p style="width: 100%; text-align:center;">Code generation</p>
+<p style="width: 100%; text-align:center;">コードの生成</p>
 
 
-Just like that, a design or a developer can go from sketch to code with a web-based WYSIWYG tool. Teams can design and build real apps blazing in a cloud-based WYSIWYG drag & drop and get code - complete with web layout, CSS and even data.
+そんな簡単に、デザインまたは開発者は、Web ベースの WYSIWYG ツールを使用して、Sketch からコードを作成できます。チームは、クラウドベースの WYSIWYG ドラッグ アンド ドロップで非常に優れた実際のアプリをデザインおよび構築し、コードを取得できます。これには、Web レイアウト、CSS、およびデータさえも完備しています。
 
-## Sketch Download assets
+## Sketch アセットのダウンロード 
 
-You can download the Sketch Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/sketch).
+Sketch プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://cloud.indigo.design/resources/sketch)からダウンロードできます。
 
 または、以下の直接リンクから:
 - [Sketch UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
