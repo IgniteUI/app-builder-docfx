@@ -72,8 +72,11 @@ Or through the direct links below:
 - [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
  
 ## Known issues and limitations
-- [The difference when using the kit as a free Figma user vs Pro user](#using-the-kit-as-a-free-figma-user-vs-pro-user).
 - Dark mode will not be parsed upon import into the App Builder, currently we don't provide definitions or options for it.
+- The file model in Figma is closed. The content of the file itself is binary and the App Builder cannot read directly from a `.fig` file. In order to achieve the `import story` you will have to open the Figma app and use the plugin API ([Indigo.Design plugin](https://www.figma.com/community/plugin/1170035114372031474)) to read the file model and its content. From here on the internal heuristics can build an input model for the AppBuilder and complete the import story.
+- [The difference when using the kit as a free Figma user vs Pro user](#using-the-kit-as-a-free-figma-user-vs-pro-user).
+
+
 
 ## Additional Resources
 
