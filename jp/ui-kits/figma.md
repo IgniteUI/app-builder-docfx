@@ -73,8 +73,11 @@ Figma プラグイン、UI キット、およびサンプル アプリは[アセ
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 
 ## 既知の問題と制限
-- [Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてキットを使用した場合の違い](#figma-スターター-ユーザーと-figma-プロフェッショナル-ユーザーとしてのキットの使用)。
 - ダーク モードは、App Builder へのインポート時に解析されません。現在、ダーク モードの定義やオプションは提供されていません。
+- Figma のファイル モデルは閉じられています。ファイル自体のコンテンツはバイナリであり、App Builder は `.fig` ファイルから直接読み取ることができません。`import story` を実現するには、Figma アプリを開き、プラグイン API ([Indigo.Design プラグイン](https://www.figma.com/community/plugin/1170035114372031474)) を使用してファイル モデルとそのコンテンツを読み取る必要があります。ここから、内部ヒューリスティックが AppBuilder の入力モデルを構築し、インポート ストーリーの取り込みを完成させることができます。
+- [Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてキットを使用した場合の違い](#figma-スターター-ユーザーと-figma-プロフェッショナル-ユーザーとしてのキットの使用)。
+
+
 
 ## その他のリソース
 
