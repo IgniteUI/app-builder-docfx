@@ -9,9 +9,34 @@ _language: ja
 
 ## 前提条件
 
-このセクションでは、オンプレミス バージョンの App Builder をインストールするための前提条件を示し、Linux/Mac OS/Windows を維持およびサポートする操作パラメーターを構成するシステム管理者を対象としています。
+このトピックでは、オンプレミス バージョンの App Builder をインストールするための前提条件を示し、Linux/Mac OS/Windows を維持およびサポートする操作パラメーターを構成するシステム管理者を対象としています。
 
-### SQL Server をインストール
+### Database Management
+Based on your requirements you can decide to use either MySQL or MSSQL Server database management systems.
+
+#### MySQL Installation
+
+1 - Install [MySQL community edition](https://dev.mysql.com/doc/refman/8.0/en/installing.html) ([direct link for windows](https://dev.mysql.com/downloads/installer/))
+
+   - Select:
+      * Developer default, Next and Execute. 
+
+        > Note: if you get a prompt saying "one or more products requirements have not been satisfied. Do you want to continue?" Just select Yes)
+   - After installation ends:
+     * Select next to configure the server, when prompted enter the root password you wish, then Execute.  
+     * After the server configuration ends, select Cancel to exit the installer since the rest of the configuration is not needed.
+
+2 - Allow container connection to MySQL.
+
+Connect to MySQL with root user and password of step 1 and execute the following sql script (username and pasword will be the ones used from AppBuilder). 
+> Note: you can use [MySQL Workbench tool](https://dev.mysql.com/downloads/workbench/) to execute sql scripts.
+
+```
+CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;
+```
+
+#### MSSQL Server Installation
 
 1 - [SQL Server](https://www.microsoft.com/ja-jp/sql-server/sql-server-downloads) ([直接リンク](https://go.microsoft.com/fwlink/?linkid=866658)) をインストールします。
 
@@ -30,22 +55,23 @@ _language: ja
 <img class="responsive-img" style="width: 57%; box-shadow: 5px -4px 13px 1px grey" src="./images/login-parameters.png" />
 <p style="margin-top:-20px;width: 57%; text-align:center;">ログイン パラメーター ダイアログ</p>
 
+> Note: Create database permissions might be denied for the newly added user. You should consider giving them a Server Roles that will give them credentials to create database like `dbcreator`.
+
+> Note: Based on administrator decision a change of [authentication mode with SSMS](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/change-server-authentication-mode?view=sql-server-ver16#change-authentication-mode-with-ssms) might be required. SQL Server Database Engine is set to either Windows Authentication mode or SQL Server and Windows Authentication mode.
+
 ### Docker をインストール
 
 Windows ガイド -> [docs.microsoft.com guide](https://docs.microsoft.com/ja-jp/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-and-11#tabpanel_1_Windows-10-and-11)
 
 ## インストール
-このセクションでは、Docker と SQL サーバー データベースが既にインストールされていることを前提としています。
+このセクションでは、Docker と MySQL データベースが既にインストールされていることを前提としています。
 
 ### 初回インストール
 
-1 - [Infragistics カスタマー ポータル](https://account.infragistics.com/downloads)の下のダウンロード セクションの appbuilder.zip 部分をダウンロードします。
-
-2 - appbuilder.zip ファイルに含まれている appbuilder.tar を抽出します。 
-
-3 - 抽出した場所でターミナルまたはコマンド プロンプト ウィンドウを開きます。
-
-4 - 画像を読み込んで確認します。
+1 - Download the appbuilder.zip part of your Download section under the Infragistics Customer Portal.<br/>
+2 - appbuilder.zip ファイルに含まれている appbuilder.tar を抽出します。<br/> 
+3 - 抽出した場所でターミナルまたはコマンド プロンプト ウィンドウを開きます。<br/>
+4 - 画像を読み込んで確認します。<br/>
 
 以下を実行します:
 
@@ -66,13 +92,24 @@ docker images
 5 - コンテナーを実行します:
 
 ```
-docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderConnection=Data Source=<your-sql-database-ip>,<your-sql-database-port>;Database=<your-sql-database-name>;User ID=<your-sql-database-user>;Password=<your-sql-database-password>;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -v <external-folder-for-logs>:/appbuilder/logs -v <external-folder-for-storage>:/appbuilder/storage --name appbuilder appbuilder:1.0
+docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderMySqlConnection=server=<your-mysql-database-ip>;database=<your-mysql-schema>;user=<your-mysql-database-user>;password=<your-mysql-database-password>;oldguids=false" -v <external-folder-for-logs>:/appbuilder/logs -v <external-folder-for-storage>:/appbuilder/storage --name appbuilder appbuilder:1.0
+```
+
+- **MySQL example** - This would be the command assuming your MySql instance is running a schema named IndigoAppBuilderOnPrem on 192.168.2.5 with username=appbuilder and password=appbuilder and that you have selected C:/AppBuilder as the external folder to store the logs and storage. 
+
+```
+docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderMySqlConnection=server=192.168.2.5;database=IndigoAppBuilderOnPrem;user=appbuilder;password=appbuilder;oldguids=false" -v C:/AppBuilder/logs:/appbuilder/logs -v C:/AppBuilder/storage:/appbuilder/storage --name appbuilder appbuilder:1.0
+```
+
+- **MSSQL Server example** - This would be the command assuming your Sql Server instance is running a schema named IndigoAppBuilderOnPrem with SQLEXPRESS server, with USER ID=APP_BUILDER and password=Appbuilder2023! and that you have selected C:/AppBuilder as the external folder to store the logs and storage.
+
+```
+docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer" -e "ConnectionStrings:AppBuilderSqlServerConnection=Data Source=DEV-ZKOLEV\SQLEXPRESS,1433;Database=IndigoAppBuilderOnPrem;User ID=APP_BUILDER;Password=Appbuilder2023!;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -v C:/AppBuilder/logs -v C:/AppBuilder/storage --name appbuilder appbuilder:1.0
 ```
 
 6 - ブラウザーを開き、`http://localhost/` と入力します。
 
-> [!NOTE]
-> Docker Desktop を使用している場合は、Containers/Apps に移動し、コンテナーを見つけ、[Open in browser] をクリックします。
+> 注: Docker Desktop を使用している場合は、Containers/Apps に移動し、コンテナーを見つけ、[Open in browser] をクリックします。
 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/docker-apps.png" />
 <p style="margin-top:-20px;text-align:center;">Docker の Containers/Apps</p>
@@ -117,13 +154,11 @@ docker rm appbuilder
 <img class="responsive-img" style="width:36%;box-shadow: 5px -4px 13px 1px grey" src="./images/activate-app-builder.png" />
 <p style="margin-top:-20px;width:36%;text-align:center;">App Builder をアクティブにする</p>
 
-> [!NOTE]
-> キーの有効期限が切れる 30 日前に、UI から直接警告メッセージが表示されます。
+> 注: キーの有効期限が切れる 30 日前に、UI から直接警告メッセージが表示されます。
 
 ## トラブルシューティング
 ### Windows 上の Docker Desktop
 [Windows 上の Docker Desktop は、Windows マシンにログインしないと自動的に起動しない問題](https://github.com/docker/for-win/issues/6670) - Docker チームは、プロダクション ワークロードに Docker Desktop を推奨していません。Windows コンテナーが必要な場合は、Linux ボックスでは Docker を使用するか、Windows Server では Docker を使用する必要があります。
-
 
 ## その他のリソース
 <div class="divider--half"></div>
