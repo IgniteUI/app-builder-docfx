@@ -64,7 +64,7 @@ _language: ja
 <p style="width: 100%; text-align:center;">アクセスが制限されています</p>
 
 ### 匿名ユーザー アプリのプレビュー
-匿名ユーザーは、アプリケーションのプレビューを利用できます。すべての編集操作が無効になることに注意してください。メインメニューはロードされておらず、 **コード ビュー** のみが利用可能です。アプリ内で REST API 呼び出しが構成されている場合、匿名ユーザーには常に**モック データ**が表示されます。
+匿名ユーザーは、アプリケーションのプレビューを利用できます。すべての編集操作が無効になることに注意してください。メインメニューはロードされておらず、**コード ビュー** のみが利用可能です。アプリ内で REST API 呼び出しが構成されている場合、匿名ユーザーには常に**モック データ**が表示されます。
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/anonymous-access-no-edit.png" />
 <p style="width: 100%; text-align:center;">匿名アクセスのプレビュー</p>
