@@ -14,7 +14,7 @@ _language: ja
 ### 機能
 - コンポーネント ツールボックスに **Pivot Grid コンポーネント**を追加しました。
 - **Tree Grid** コンポーネントに階層データ サポートを追加しました。
-- Added **Combo component** code generation for Web Components.
+- Web Components の **Combo コンポーネント**コード生成を追加しました。
 - [Figma 用の **Indigo.Design UI キット**](https://www.figma.com/@infragistics)をリリースしました。
 - デザインからアプリを作成する [Figma プラグイン](https://www.figma.com/community/plugin/1170035114372031474)をリリースしました。
 - 新しい**サンプル アプリ** - Movie Premieres を追加しました。
