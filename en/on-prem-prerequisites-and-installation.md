@@ -104,7 +104,7 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderMySqlConn
 - **MSSQL Server example** - This would be the command assuming your Sql Server instance is running a schema named IndigoAppBuilderOnPrem with SQLEXPRESS server, with USER ID=APP_BUILDER and password=Appbuilder2023! and that you have selected C:/AppBuilder as the external folder to store the logs and storage.
 
 ```
-docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer" -e "ConnectionStrings:AppBuilderSqlServerConnection=Data Source=DEV-ZKOLEV\SQLEXPRESS,1433;Database=IndigoAppBuilderOnPrem;User ID=APP_BUILDER;Password=Appbuilder2023!;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -v C:/AppBuilder/logs -v C:/AppBuilder/storage --name appbuilder appbuilder:1.0
+docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer" -e "ConnectionStrings:AppBuilderSqlServerConnection=Data Source=DEV-ZKOLEV\SQLEXPRESS,1433;Database=IndigoAppBuilderOnPrem;User ID=APP_BUILDER;Password=Appbuilder2023!;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -v C:/AppBuilder/logs:/appbuilder/logs -v C:/AppBuilder/storage:/appbuilder/storage --name appbuilder appbuilder:1.0
 ```
 
 6 - Open your browser and type `http://localhost/`
