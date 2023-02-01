@@ -105,7 +105,7 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderMySqlConn
 - **MSSQL Server の例** - これは、SQL Server インスタンスが  SQLEXPRESS サーバーで IndigoAppBuilderOnPrem という名前のスキーマを USER ID=APP_BUILDER および password=Appbuilder2023 で実行しており、ログとストレージを保存する外部フォルダーとして C:/AppBuilder を選択したと仮定した場合のコマンドです。
 
 ```
-docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer" -e "ConnectionStrings:AppBuilderSqlServerConnection=Data Source=DEV-ZKOLEV\SQLEXPRESS,1433;Database=IndigoAppBuilderOnPrem;User ID=APP_BUILDER;Password=Appbuilder2023!;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -v C:/AppBuilder/logs -v C:/AppBuilder/storage --name appbuilder appbuilder:1.0
+docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer" -e "ConnectionStrings:AppBuilderSqlServerConnection=Data Source=DEV-ZKOLEV\SQLEXPRESS,1433;Database=IndigoAppBuilderOnPrem;User ID=APP_BUILDER;Password=Appbuilder2023!;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -v C:/AppBuilder/logs:/appbuilder/logs -v C:/AppBuilder/storage:/appbuilder/storage --name appbuilder appbuilder:1.0
 ```
 
 6 - ブラウザーを開き、`http://localhost/` と入力します。
