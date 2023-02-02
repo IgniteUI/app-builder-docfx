@@ -1,10 +1,10 @@
 ---
-title: App Builder On-premise Prerequisites and Installation
+title: App Builder On-premises Prerequisites and Installation
 _description: Learn how to start using App Builder On-premises version and what are the prerequisites to install and run it.
-_keywords: App builder, On-premise, Infragistics
+_keywords: App builder, On-premises, Infragistics
 ---
 
-# App Builder On-premise Prerequisites and Installation
+# App Builder On-premises Prerequisites and Installation
 
 ## Prerequisites
 
@@ -39,8 +39,8 @@ GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;
 
 1 - Install [Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) ([direct link](https://go.microsoft.com/fwlink/?linkid=866658))
 
-<img class="responsive-img" style="width: 56%; box-shadow: 5px -4px 13px 1px grey" src="./images/on-premise-sql-express.png" />
-<p style="margin-top:-20px;width: 56%; text-align:center;">On-Premise Sql Express Installation</p>
+<img class="responsive-img" style="width: 56%; box-shadow: 5px -4px 13px 1px grey" src="./images/on-premises-sql-express.png" />
+<p style="margin-top:-20px;width: 56%; text-align:center;">On-Premises Sql Express Installation</p>
 
 > Note: An On-prem server should have a real Sql Server not an embedded Sql Server Express of VS
 

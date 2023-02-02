@@ -120,7 +120,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 ## March 2022 Release
 ### Features
 - **OpenAPI (Swagger) Support** as part of our data-binding RestAPI story.
-- **On-Premise Version of App Builder** that you can install on your own server and behind your own server firewall. This instance is runnable on any infrastructure and accessible only by internal personnel
+- **On-Premises Version of App Builder** that you can install on your own server and behind your own server firewall. This instance is runnable on any infrastructure and accessible only by internal personnel
 
 ### Improvements
 - Set image round radius using px, % or rems
