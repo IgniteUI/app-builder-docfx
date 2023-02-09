@@ -62,6 +62,9 @@
   items:
     - name: OpenAPI (Swagger) Support
       href: ../open-api-swagger-support.md
+    - name: Grid CRUD Operations
+      href: ../using-data-in-your-app/crud-operations.md
+      new: true
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:

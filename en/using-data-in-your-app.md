@@ -135,6 +135,79 @@ When a data source has been added, users can connect a particular data field to 
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/DataSources-Connect-data-source-table-fields.gif" />
 <p style="text-align:center;">Connect a data source table field to a component section</p>
 
+### Hierarchical Binding Support
+Now you can bind a component to a hierarchical data structure and bind nested data-context collections with data repeat.
+
+Let's look at the following datasource having three data levels, Movies -> Cast -> Films:
+
+```json
+{
+   "name":"Movies list",
+   "movies":[
+   {
+         "title":"The Dark Knight",
+         "cast":[
+            {
+               "name":"Christian Bale",
+               "character":"Bruce Wayne/Batman",
+               "films":[
+                  {
+                     "title":"American Psycho",
+                     "role":"Patrick Bateman"
+                  },
+                  {
+                     "title":"The Prestige",
+                     "role":"Alfred Borden"
+                  }
+               ]
+            },
+            {
+               "name":"Heath Ledger",
+               "character":"The Joker",
+               "films":[
+                  {
+                     "title":"Brokeback Mountain",
+                     "role":"Ennis Del Mar"
+                  },
+                  {
+                     "title":"The Imaginarium of Doctor Parnassus",
+                     "role":"Ennis Del Mar"
+                  },
+                  {
+                     "title":"The Imaginarium of Doctor Parnassus",
+                     "role":"Tony"
+                  }
+               ]
+            }
+         ]
+      },
+      ...
+   ]
+}
+```
+
+You can now bind a repeater to the nested data by using the data context. **Movies -> Cast collection**
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/nested-data-context.png" />
+<p style="text-align:center;">Data context</p>
+
+And even go deeper one more level to the **Cast -> Films collection**
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/nested-data-context-2.png" />
+<p style="text-align:center;">Data context one level deeper</p>
+
+The end result with the above hierarchical data source would be:
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/nested-data-context-result.png" />
+<p style="text-align:center;">Hierarchical binding result</p>
+
+It is also applicable to components like Tree and other containers. The example below is showing how a simple Tree and Tree Grid can bind to data sources with hierarchical structure.
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/Nested-Repeaters.gif" />
+<p style="text-align:center;">Nested repeaters example</p>
+
+Lets review the Tree component, you will notice how we use the Repeat Data option in order to bind the root and child elements to a specific hierarchy level. As the Tree is declarative component, and it does not have data input binding (at tree root level), we declare it by specifying the node hierarchy and iterating through the hierarchical data set. Nodes should be bindable to a data model so that their expanded and selected states are reflected in the underlying data as well.
+
 ## Known issues and limitations
 ### Unable to infer schema from data
 This error message will be show when _the size of the parsed table schema_ of the datasource is too big (over 5mb). It can be triggered when:
