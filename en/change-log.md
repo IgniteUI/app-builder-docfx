@@ -28,7 +28,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Added option to maximize the Create new application dialog
 - Bug fixes and general improvements
 
-
 ## December 2022 Release
 ### Features
 - Added **Pivot Grid component** to the component toolbox.
