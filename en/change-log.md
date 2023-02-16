@@ -13,7 +13,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 ### Features
 
 - Configure REST API methods POST/PUT/DELETE when creating a datasource based on OpenAPI definition.
-- New Data-action for creating, updating, and deleting records in Grid and Tree-Grid component.
+- New Data-action for creating, updating, and deleting records in Grid component.
 - Use Hierarchical type data in Tree-Grid and Tree component.
 - Added support for nested data-binding when repeating components based on hierarchical data.
 - Group and aggregate data in Category chart when repeated labels are present.
