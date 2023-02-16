@@ -30,6 +30,9 @@
 - name: Interface Overview
   href: ../interface-overview.md
   new: false
+- name: Responsive Fluid Layouts
+  href: ../how-to/responsive-fluid-layout.md
+  new: true
 - name: Flex Layouts
   href: ../flex-layouts/flex-layouts.md
   # items:
