@@ -93,7 +93,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
 
 * [App Builder コンポーネント](../indigo-design-app-builder-components.md)
 * [フレックスボックス](https://developer.mozilla.org/ja-JP/docs/Learn/CSS/CSS_layout/Flexbox)
-* [フレックスボックスのガイド](<https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [フレックスボックスのガイド](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy](https://flexboxfroggy.com/)
 * [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
 * [Indigo.Design スタイル設定の概要](https://jp.infragistics.com/products/indigo-design/help/style/styling-overview)
