@@ -10,6 +10,7 @@
                     "spa-and-navigation/**.md",
                     "using-data-in-your-app/**.md",
                     "ui-kits/**.md",
+                    "how-to/**.md",
                     "sidebar-toc/toc.yml",
                     "toc.yml",
                     "*.md"
