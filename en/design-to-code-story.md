@@ -1,10 +1,10 @@
 ---
-title: App Builder - Design-to-code
+title: App Builder - Design-to-Code
 _description: App Builder enables import your Sketch, Adobe XD and Figma designed files
 _keywords: App Builder, Web App Builder, Figma design, Sketch import
 ---
 
-# Design-to-code App Builder story
+# Design-to-Code App Builder story
 
 App Builder enables you to go from Design to Code in a single click. Import Figma, Sketch and Adobe XD files and create Apps with ease. Use the [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) plugins directly inside Figma, Sketch and Adobe XD to deliver custom themes, import images assets, and ensure all components are mapped one-to-one with controls from the App Builder Toolbox.
 
@@ -25,7 +25,7 @@ Design systems are usually described as a set of design principles and assets th
 - Works as an inventory of UX design patterns and brand style guidance.
 - Speeds up the design process and significantly improves consistency.
 
-### Turn your designs into code
+### Turn Your Designs into Code
 Use file import or your favorite design tool.
 #### File import
 
@@ -36,7 +36,7 @@ Below are the 4 simple steps to get from Design to Code with the App Builder wit
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/new-app-dialog.png" />
 <p style="width: 100%; text-align:center;">New app</p>
 
-##### Step 2: Drag your Sketch file into the "Create from existing design" Drop Area
+##### Step 2: Drag your Sketch File into the "Create from existing design" Drop Area
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/import-designs-dialog.png" />
 <p style="width: 100%; text-align:center;">Import Designs</p>
@@ -46,7 +46,7 @@ Below are the 4 simple steps to get from Design to Code with the App Builder wit
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-code-generation.png" />
 <p style="width: 100%; text-align:center;">App Preview</p>
 
-##### Step 4: Review or Download your Angular code
+##### Step 4: Review or Download your Angular Code
 
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-download-button.png" />
 <p style="width: 100%; text-align:center;">Download the application</p>
@@ -78,7 +78,7 @@ Now you can start using the plugin.
 <img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/sketch-plugin-create-app.png" />
 <p style="width: 100%; text-align:center;">Sketch Plugin Create App</p>
 
-## Download assets
+## Download Assets
 
 You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma).
 
