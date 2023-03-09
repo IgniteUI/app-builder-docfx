@@ -136,6 +136,79 @@ CORS を有効にするには、asp.net Web サイトの web.config ファイル
 <img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/DataSources-Connect-data-source-table-fields.gif" />
 <p style="text-align:center;">データ ソース テーブルのフィールドをコンポーネント セクションに接続する</p>
 
+### 階層バインドのサポート
+コンポーネントを階層データ構造にバインドし、ネストされたデータ コンテキスト コレクションをデータの繰り返しでバインドできるようになりました。
+
+Movies -> Cast -> Films の 3 つのデータ レベルを持つ次のデータ ソースを見てみましょう。
+
+```json
+{
+   "name":"Movies list",
+   "movies":[
+   {
+         "title":"The Dark Knight",
+         "cast":[
+            {
+               "name":"Christian Bale",
+               "character":"Bruce Wayne/Batman",
+               "films":[
+                  {
+                     "title":"American Psycho",
+                     "role":"Patrick Bateman"
+                  },
+                  {
+                     "title":"The Prestige",
+                     "role":"Alfred Borden"
+                  }
+               ]
+            },
+            {
+               "name":"Heath Ledger",
+               "character":"The Joker",
+               "films":[
+                  {
+                     "title":"Brokeback Mountain",
+                     "role":"Ennis Del Mar"
+                  },
+                  {
+                     "title":"The Imaginarium of Doctor Parnassus",
+                     "role":"Ennis Del Mar"
+                  },
+                  {
+                     "title":"The Imaginarium of Doctor Parnassus",
+                     "role":"Tony"
+                  }
+               ]
+            }
+         ]
+      },
+      ...
+   ]
+}
+```
+
+データ コンテキストを使用して、ネストされたデータにリピータをバインドできるようになりました。**Movies -> Cast コレクション**
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/nested-data-context.png" />
+<p style="text-align:center;">データ コンテキスト</p>
+
+さらに 1 段階深く、**Cast -> Films コレクション**に移動できます。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/nested-data-context-2.png" />
+<p style="text-align:center;">1 段階深いデータ コンテキスト</p>
+
+上記の階層データ ソースの最終結果は次のようになります。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/nested-data-context-result.png" />
+<p style="text-align:center;">階層バインドの結果</p>
+
+Tree やその他のコンテナーなどのコンポーネントにも適用できます。以下の例は、単純な Tree と Tree Grid を階層構造を持つデータ ソースにバインドする方法を示しています。
+
+<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/using-data-in-your-app/Nested-Repeaters.gif" />
+<p style="text-align:center;">ネストされたリピータの例</p>
+
+Tree コンポーネントを確認してみましょう。ルート要素と子要素を特定の階層レベルにバインドするために、繰り返し: Data オプションを使用します。Tree は宣言型コンポーネントであり、(ツリー ルート レベルで) データ入力バインドを持たないため、ノード階層を指定し、階層データ セットを反復処理することによって宣言します。ノードをデータ モデルにバインドして、展開された状態と選択された状態が基になるデータにも反映されるようにすることができます。
+
 ## 既知の問題と制限
 ### データからスキーマを推測できません
 このエラー メッセージは、データ ソースの解析されたテーブル スキーマのサイズが大きすぎる (5MB 以上) 場合に表示されます。以下の場合に発生します。
