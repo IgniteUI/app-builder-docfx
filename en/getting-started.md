@@ -72,9 +72,9 @@ Some businesses are part of highly regulated industries. Mostly for security rea
 
 On-premises applications are reliable, secure, and allow enterprises to maintain a level of control that the cloud often cannot.
 
-Check out this topic for [more technical details on how to install](on-prem-prerequisites-and-installation.md) the On-Prem solution.
+Check out this topic for [more technical details on how to install](on-prem-prerequisites-and-installation.md) the On-premises solution.
 
-<img class="responsive-img" src="./images/on-prem-ab-demo.gif" />
+<img class="responsive-img" src="./images/on-premises-ab-demo.gif" />
 <p style="text-align:center;">On-Premises version</p>
 
 ## Running the generated app locally
