@@ -119,6 +119,57 @@ Follow the steps below in order to enable access to your internally hosted data 
 
 You can simply enable CORS by adding configuration in your asp.net website's web.config file or adding some code in your global.asax file. Detailed information [here](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291).
 
+## OpenAPI (Swagger) endpoints are grayed out
+
+![Example of a grayed-out endpoint](../en/images/using-data-in-your-app/openapi-endpoint-grayedout.png)
+
+This usually means that the endpoint does not have a defined response or that the response type is unsupported.
+
+This can happen if your API does not provide enough information to Swagger to create a proper response description.
+
+Example of an endpoint that does not work with App Builder:
+
+![Example of a Swagger endpoint with no response defined](../en/images/using-data-in-your-app/openapi-endpoint-noreponse.png)
+
+Example of an endpoint with enough information to work with App Builder:
+
+![Example of a Swagger endpoint with a defined response type](../en/images/using-data-in-your-app/openapi-endpoint-typed-reponse.png)
+
+### Describing response on .Net Controller API
+
+```csharp
+      // Wrong: it doesn't provide enough information to describe the response type as it's not using generics
+      [HttpGet]
+      public async Task<ActionResult> GetCategories()
+      {
+         return Ok(await categoriesService.GetCategories());
+      }
+
+      // Good: it describes the return type using generics
+      [HttpGet]
+      public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
+      {
+         return Ok(await categoriesService.GetCategories());
+      }
+```
+
+### Describing response on .Net Minimal API
+
+```csharp
+      // Wrong: it doesn't provide enough information to describe the response type as Results.Ok() is not generic
+      app.MapGet("/category", async () => Results.Ok(await categoriesService.GetCategories()));
+
+      // Good: It's using `TypedResults`
+      app.MapGet("/category", async () => TypedResults.Ok(await categoriesService.GetCategories()));
+
+      // Good: It describes the response type with `.Produces<>()`
+      app.MapGet("/category", async () => Results.Ok(await categoriesService.GetCategories()))
+         .Produces<IEnumerable<Category>>();
+
+      // Good: It's returning the raw generic object (not wrapped in Result)
+      app.MapGet("/category", async () => await categoriesService.GetCategories());
+```
+
 ## Selecting data fields and changing fields type
 When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
 
