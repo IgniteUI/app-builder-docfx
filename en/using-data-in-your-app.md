@@ -121,7 +121,7 @@ You can simply enable CORS by adding configuration in your asp.net website's web
 
 ## OpenAPI (Swagger) endpoints are grayed out
 
-![Example of a grayed-out endpoint](../en/images/using-data-in-your-app/openapi-endpoint-grayedout.png)
+![Example of a grayed-out endpoint](./images/using-data-in-your-app/openapi-endpoint-grayedout.png)
 
 This usually means that the endpoint does not have a defined response or that the response type is unsupported.
 
@@ -129,13 +129,13 @@ This can happen if your API does not provide enough information to Swagger to cr
 
 Example of an endpoint that does not work with App Builder:
   
-  ![Example of a Swagger endpoint with no response defined](../en/images/using-data-in-your-app/openapi-endpoint-noreponse.png)
+  ![Example of a Swagger endpoint with no response defined](./images/using-data-in-your-app/openapi-endpoint-noreponse.png)
 
   Note that it describes a `200` "text" response with no other type information in it.
 
 Example of an endpoint with enough information to work with App Builder:
 
-  ![Example of a Swagger endpoint with a defined response type](../en/images/using-data-in-your-app/openapi-endpoint-typed-reponse.png)
+  ![Example of a Swagger endpoint with a defined response type](./images/using-data-in-your-app/openapi-endpoint-typed-reponse.png)
 
   Note that the endpoint describes a `200` response with an example of the return type.
 
