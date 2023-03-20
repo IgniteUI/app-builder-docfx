@@ -30,6 +30,9 @@
 - name: インターフェイスの概要
   href: ../interface-overview.md
   new: false
+- name: レスポンシブ Fluid レイアウト
+  href: ../how-to/responsive-fluid-layout.md
+  new: true
 - name: Flex レイアウト
   href: ../flex-layouts/flex-layouts.md
   # items:
@@ -62,6 +65,9 @@
   items:
     - name: OpenAPI (Swagger) サポート
       href: ../open-api-swagger-support.md
+    - name: Grid CRUD 操作
+      href: ../using-data-in-your-app/crud-operations.md
+      new: true
 - name: テーマ
   href: ../app-themes/app-themes.md
   # items:

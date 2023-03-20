@@ -75,7 +75,7 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 
 オンプレミス ソリューションの[インストール方法に関する技術的な詳細](on-prem-prerequisites-and-installation.md)については、このトピックを参照してください。
 
-<img class="responsive-img" src="./images/on-prem-ab-demo.gif" />
+<img class="responsive-img" src="./images/on-premises-ab-demo.gif" />
 <p style="text-align:center;">オンプレミス版</p>
 
 ## 作成したアプリをローカルで実行する

@@ -7,7 +7,7 @@
   new: false
   updated: true
   items:
-    - name: On-prem prerequisites and installation
+    - name: On-premises prerequisites and installation
       href: ../on-prem-prerequisites-and-installation.md
 - name: Running Desktop App
   href: ../running-desktop-app.md
@@ -30,6 +30,9 @@
 - name: Interface Overview
   href: ../interface-overview.md
   new: false
+- name: Responsive Fluid Layouts
+  href: ../how-to/responsive-fluid-layout.md
+  new: true
 - name: Flex Layouts
   href: ../flex-layouts/flex-layouts.md
   # items:
@@ -62,6 +65,9 @@
   items:
     - name: OpenAPI (Swagger) Support
       href: ../open-api-swagger-support.md
+    - name: Grid CRUD Operations
+      href: ../using-data-in-your-app/crud-operations.md
+      new: true
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:
