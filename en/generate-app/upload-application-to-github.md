@@ -20,20 +20,20 @@ One of the great App Builder features is actually the code generation service, s
 After finalizing the design of your application and previewing its code, it comes the time for generating the full app code repository. In order to do that, simply go to the Generate app button and then connect your GitHub account to the App Builder. You can also download your application files from the button menu.
 
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/connect-to-github-@2x.png" srcset="../images/connect-to-github-@2x.png 2x" />
+<img class="responsive-img screen-capture" src="../images/connect-to-github-@2x.png" srcset="../images/connect-to-github-@2x.png 2x" />
 <p style="text-align:center;">Connect App Builder to GitHub</p>
 
 Once you log in with your GitHub account, you should authorize Indigo.Design to access it in order to pick up the repository where the app code will be stored. There, you can select between creating a new repository or adding to an existing one. When creating a new repository you can specify the name of the app, add description and choose between public or private repo. Once ready, the app files are being uploaded to GitHub, creating a new GitHub repository.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/pick-repository-publish-to-github-@2x.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
+<img class="responsive-img screen-capture" src="../images/pick-repository-publish-to-github-@2x.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">Publish application to an existing repo in GitHub</p>
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/create-new-repo-publish-to-github-@2x.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
+<img class="responsive-img screen-capture" src="../images/create-new-repo-publish-to-github-@2x.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">Create a new repository to GitHub</p>
 
 When the upload process is done, users can apply changes to the GitHub repo from inside the App Builder or click to "View it on GitHub" and see the updated files in GitHub.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
+<img class="responsive-img screen-capture" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
 <p style="text-align:center;">An application running in VSCode</p>
 
 ## GitHub integration features
@@ -44,12 +44,12 @@ There are times when you will be doing application changes externally with code 
 Improvements:
 - Warnings when external changes are made in a pull request's associated branch. In order to keep these changes, merge the current Pull Request and then create a new one.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/gh-changes-not-yet-merged.png" srcset="../images/gh-changes-not-yet-merged.png 2x" />
+<img class="responsive-img screen-capture" src="../images/gh-changes-not-yet-merged.png" srcset="../images/gh-changes-not-yet-merged.png 2x" />
 <p style="text-align:center;">'X' has made changes in this branch that are not merged yet</p>
 
 - Warnings when a repository corresponding to other application or platform is chosen.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/gh-repository-linked-to-another-platform.png" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
+<img class="responsive-img screen-capture" src="../images/gh-repository-linked-to-another-platform.png" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
 <p style="text-align:center;">'X' repository was previously used to publish 'Y' app for 'Z' platform</p>
 
 - Ability to go back and forth between different repositories used in the history of an application.

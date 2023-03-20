@@ -11,25 +11,25 @@
 手順 1: Indigo.Design アプリのホーム画面で [新しいアプリ] をクリックします。
 Sketch Design から新しい Angular アプリを作成します。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/new-app-dialog.PNG" />
+<img class="responsive-img screen-capture" src="../images/new-app-dialog.PNG" />
 <p style="width: 100%; text-align:center;">新しいアプリのダイアログ</p>
 
 手順 2: Sketch ファイルを [既存のデザインから作成] ドロップ領域にドラッグします。
 Sketch から Angular へのドラッグ アンド ドロップ
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/import-designs-dialog.PNG" />
+<img class="responsive-img screen-capture" src="../images/import-designs-dialog.PNG" />
 <p style="width: 100%; text-align:center;">デザインのインポート ダイアログ</p>
 
 手順 3: Cloud IDE でデザインを確認します。
 Sketch の Web App Builder のアプリ
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/generate-code.PNG" />
+<img class="responsive-img screen-capture" src="../images/generate-code.PNG" />
 <p style="width: 100%; text-align:center;">コードの生成</p>
 
 手順 4: Angular コードを確認またはダウンロードします。
 IDE の右上にあるボタンを使用して、アプリを生成するか、アプリをプレビューしてコードを確認するかを選択できます。こちらでは、実行中のアプリと HTML、CSS、または TypeScript のコードで [プレビュー] オプションを確認できます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/download-project.PNG" />
+<img class="responsive-img screen-capture" src="../images/download-project.PNG" />
 <p style="width: 100%; text-align:center;">コードの生成</p>
 
 

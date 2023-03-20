@@ -12,7 +12,7 @@ Adobe XD は、デザイナーがワイヤーフレームやアプリをデザ�
 > [!NOTE]
 > [Adobe XD UI キット](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)、[Adobe XD 用プラグイン](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)、および[サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)をダウンロード。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/app-is-ready-xd.png" />
+<img class="responsive-img screen-capture" src="../images/app-is-ready-xd.png" />
 <p style="width: 100%; text-align:center;">Adobe XD プラグイン</p>
 
 **App Builder を使用して Adobe XD を HTML コードに変換する方法**

@@ -11,7 +11,7 @@ _language: ja
 > [!NOTE]
 > [Figma UI キット](https://www.figma.com/@infragistics)、[Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474)、および[サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)をダウンロード。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/figma-ui-kit.gif" />
+<img class="responsive-img screen-capture" src="../images/figma-ui-kit.gif" />
 <p style="width: 100%; text-align:center;">Figma UI キット</p>
 
 ## Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてのキットの使用
@@ -19,33 +19,33 @@ Indigo.Design UI Kit for Material は、ユーザーが選択した Figma プラ
 
 特定のデバイスまたは画面サイズ用にデザインしている場合は、デザイン用のコンテナーを作成することをお勧めします。ここでフレームの出番です。フレームを使用すると、キャンバスの領域を選択してデザインを作成できます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/8.PNG" />
+<img class="responsive-img screen-capture" src="../images/ui-kits/figma/8.PNG" />
 <p style="width: 100%; text-align:center;">フレームを追加する</p>
 
 ### Figma プロフェッショナル ユーザー アカウント
 Figma プロフェッショナル アカウントのユーザーの場合、Indigo.Design UI Kit for Material を使用する方法は、Figma コミュニティから UI キットの複製を作成するだけです。ファイルを複製すると (Get a copy)、[Recent files] に配置されます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/1.PNG" />
+<img class="responsive-img screen-capture" src="../images/ui-kits/figma/1.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI キット</p>
 
 ファイルをチーム スペースに移動するには、ファイルを開き、ファイル名の横にある下向き矢印を使用する必要があります。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/2.PNG" />
+<img class="responsive-img screen-capture" src="../images/ui-kits/figma/2.PNG" />
 <p style="width: 100%; text-align:center;">プロジェクトに移動</p>
 
 ファイルの名前のすぐ隣に、ファイルの移動先のチームの名前が表示されていることがわかります。たとえば、個人用ファイルです。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/3.PNG" />
+<img class="responsive-img screen-capture" src="../images/ui-kits/figma/3.PNG" />
 <p style="width: 100%; text-align:center;">個人用ファイル</p>
 
 ファイルを移動したら、ファイルを開いて [アセット] パネルに移動します。チーム ライブラリ アイコンをクリックすると、このファイルをライブラリとして公開できるようになります。これにより、すべてのスタイル、タイポグラフィ、およびコンポーネントがチームの他のメンバーに配布されます。以降、プロジェクトを開始、またはチーム スペース内の既存のプロジェクトで作業を継続するときはいつでも、このライブラリをアクティブにして、プロジェクト内で直接使用することができます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/4.PNG" />
+<img class="responsive-img screen-capture" src="../images/ui-kits/figma/4.PNG" />
 <p style="width: 100%; text-align:center;">公開</p>
 
 [アセット] > チーム ライブラリ アイコン > スイッチを使用してライブラリを有効にします。
 
-<img class="responsive-img" style="width: 50%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/5.PNG" />
+<img class="responsive-img screen-capture" style="width: 50%;" src="../images/ui-kits/figma/5.PNG" />
 <p style="width: 50%; text-align:center;">チーム</p>
 
 ### Figma スターター (無料) のユーザー アカウント
@@ -55,10 +55,10 @@ Figma スターターのユーザーの場合も、UI キットの使用方法�
 これからは、プロジェクトを開始するか、チーム スペース内の既存のプロジェクトで作業を続けるたびに、このライブラリをアクティブにして、プロジェクト内で直接使用することができます。[アセット] > チーム ライブラリ アイコン > スイッチを使用してライブラリを有効にします。
 
 
-<img class="responsive-img" style="width: 60%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/6.PNG" />
+<img class="responsive-img screen-capture" style="width: 60%;" src="../images/ui-kits/figma/6.PNG" />
 <p style="width: 60%; text-align:center;">スタイルのみの公開</p>
 
-<img class="responsive-img" style="width: 60%; box-shadow: 5px -4px 13px 1px grey" src="../images/ui-kits/figma/7.PNG" />
+<img class="responsive-img screen-capture" style="width: 60%;" src="../images/ui-kits/figma/7.PNG" />
 <p style="width: 60%; text-align:center;">スタイルの公開</p>
 
 ここがプロフェッショナル プランとの違いです。**Figma スターター ユーザー**は、[アセット] パネルからライブラリのコンポーネントを直接使用することはできません。そのため、UI キット ファイルから必要なすべてのコンポーネントをコピーして、プロジェクト ファイルに貼り付ける必要があります。これにより、UI キット ライブラリとコピーしたコンポーネントとの間のリンクが解除されるため、UI キット内で行った更新は、プロジェクト ファイル内でコピーして貼り付けたコンポーネントに直接適用されません。自動的に更新できるのは、カラー スタイルとタイポグラフィ スタイルのみです。UI キットからボタンをコピーし、それをプロジェクト内に貼り付けたあとで、外観を変更したい場合は、ボタンを切り離して、その変更をプロジェクト ファイルにローカルに適用できます。または、UI キット ファイル内でその変更を適用し、ボタン コンポーネントを再度コピーして、プロジェクト ファイル内に貼り付けることもできます。次に、同じ名前のコンポーネントが重複しないように、古いボタンを削除する必要があります。

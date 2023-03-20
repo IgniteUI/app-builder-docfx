@@ -7,7 +7,7 @@ _keywords: App Builder, Web App Builder, Web Components, Web Components code gen
 
 The family of supported frameworks of the App Builder has grown even more. The newest member - [Web Components](https://www.infragistics.com/products/ignite-ui-web-components). Now you can both download or upload to GitHub your Web Components application.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/ab-wc-code-generation.gif" />
+<img class="responsive-img screen-capture" src="./images/ab-wc-code-generation.gif" />
 <p style="width: 100%; text-align:center;">Web Components Code Generation from AppBuilder</p>
 
 > [!NOTE]
@@ -36,12 +36,12 @@ But do not confuse Web Components with a framework or a rendering library becaus
 
 Using the App Builder, you can now generate advanced Web Apps that benefit from using dependency-free components in a future-proof app dev strategy. When you are ready with your application go ahead and set the desired framework. Once the Web Components drop-down item is selected, you can hit "Download zip" in order to generate and download it.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-download-button.png" />
+<img class="responsive-img screen-capture" src="./images/wc-download-button.png" />
 <p style="width: 100%; text-align:center;">Download button</p>
 
 If you want to have a quick look at the generated code, go to App Preview and toggle the Code View switch.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-code-generation.png" />
+<img class="responsive-img screen-capture" src="./images/wc-code-generation.png" />
 <p style="width: 100%; text-align:center;">Code preview</p>
 
 ## Uploading an application to GitHub
