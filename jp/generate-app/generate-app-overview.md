@@ -22,7 +22,7 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 
 プラットフォーム ピッカー ドロップダウンは、`[GitHub に公開]` と `[プレビュー]` アクションボタンの隣のナビゲーション バーにあります。`[Blazor Server`/`Blazor Web Assembly`] オプションを選択して Blazor のコードを生成するか、`[Angular]` で生成したアプリとコードのプレビューを表示します。`Web Components` オプションも利用できます。
 
-<img class="responsive-img screen-capture" src="../images/generate-code.png" />
+<img class="box-shadow" src="../images/generate-code.png" />
 <p style="text-align:center;">コード生成のプラットフォームの選択</p>
 
 すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Ignite UI App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
@@ -34,7 +34,7 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 
 アプリケーションを GitHub に公開する際、プロジェクトのビルドと、基本テストを実行する CI を追加します。ライセンス版パッケージを使用するために GitHub CI から必要な NPM_AUTH_TOKEN も公開します。
 
-<img class="responsive-img screen-capture" src="../images/licensed-ci-npm-token.png" />
+<img class="box-shadow" src="../images/licensed-ci-npm-token.png" />
 <p style="text-align:center;">NPM 認証トークン</p>
 
 ### トライアル ユーザー

@@ -40,19 +40,19 @@ GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;
 
 1 - [SQL Server](https://www.microsoft.com/ja-jp/sql-server/sql-server-downloads) ([直接リンク](https://go.microsoft.com/fwlink/?linkid=866658)) をインストールします。
 
-<img class="responsive-img screen-capture" style="width: 56%;" src="./images/on-premises-sql-express.png" />
+<img class="box-shadow" style="width: 56%;" src="./images/on-premises-sql-express.png" />
 <p style="margin-top:-20px;width: 56%; text-align:center;">オンプレミス SQL Express のインストール</p>
 
 > 注: オンプレミス サーバーには、VS の組み込み SQL Server Express ではなく、実際の SQL Server が必要です。
 
 2 - tcp/ip を有効にするための詳細な説明は[こちら](https://docs.microsoft.com/ja-jp/sql/database-engine/configure-windows/enable-or-disable-a-server-network-protocol?view=sql-server-ver15#to-enable-a-server-network-protocol)にあります。
 
-<img class="responsive-img screen-capture" src="./images/sql-server-config-manager.png" />
+<img class="box-shadow" src="./images/sql-server-config-manager.png" />
 <p style="margin-top:-20px;width:56%; text-align:center;">SQL Server 構成マネージャー</p>
 
 3 - Sql Express の新しい App_Builder ユーザー部分を追加します。[SQL Server Management Studio をインストールして](https://docs.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)、その目的に使用できます。
 
-<img class="responsive-img screen-capture" style="width: 57%;" src="./images/login-parameters.png" />
+<img class="box-shadow" style="width: 57%;" src="./images/login-parameters.png" />
 <p style="margin-top:-20px;width: 57%; text-align:center;">ログイン パラメーター ダイアログ</p>
 
 
@@ -112,7 +112,7 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer"
 
 > 注: Docker Desktop を使用している場合は、Containers/Apps に移動し、コンテナーを見つけ、[Open in browser] をクリックします。
 
-<img class="responsive-img screen-capture> src="./images/docker-apps.png" />
+<img class="box-shadow> src="./images/docker-apps.png" />
 <p style="margin-top:-20px;text-align:center;">Docker の Containers/Apps</p>
 
 ### 更新
@@ -152,7 +152,7 @@ docker rm appbuilder
 サーバーが最初に起動されると、プロンプト ダイアログにインストール ID が表示され、認証キーが要求されます。このインストール ID をお住まいの地域に基づいて[セールス部門](https://jp.infragistics.com/about-us/contact-us#sales)に送信すると、サーバーをアクティブ化するための認証キーが提供されます。
 
 
-<img class="responsive-img screen-capture" style="width:36%;" src="./images/activate-app-builder.png" />
+<img class="box-shadow" style="width:36%;" src="./images/activate-app-builder.png" />
 <p style="margin-top:-20px;width:36%;text-align:center;">App Builder をアクティブにする</p>
 
 > 注: キーの有効期限が切れる 30 日前に、UI から直接警告メッセージが表示されます。

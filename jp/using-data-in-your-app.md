@@ -15,14 +15,14 @@ App Builder のデータ機能を使用して、開発中のアプリケーシ�
 
 「.json ファイルのアップロード」機能が削除される前にアプリケーションでデータ ソースをアップロードした場合、「'X' から取得できませんでした。モック データ応答に切り替えます。」という要求が通知されます。
 
-<img class="responsive-img screen-capture" src="./images/Failed to retrieve from.png" />
+<img class="box-shadow" src="./images/Failed to retrieve from.png" />
 <p style="text-align:center;">以前アップロードされたファイルからデータを取得できませんでした</p>
 
 追加されたすべてのデータ ソースはデータ ツールボックスに配置され、ユーザーは各データ ソースを展開/縮小して、含まれているテーブルおよび選択したフィールドを表示できます。
 
 App Builder は、**応答オブジェクト内のネストされたコレクション**もサポートします。戻り値のコレクションをメタデータ オブジェクト (oData など) でラップする API を取り込み、Grid などのデータ バインディングコンポーネントにネスト コレクションを使用したり、それに基づいて繰り返し操作を実行したりできます。
 
-<img class="responsive-img screen-capture" src="./images/DataSources-View-data-source.gif" />
+<img class="box-shadow" src="./images/DataSources-View-data-source.gif" />
 <p style="text-align:center;">ネストされたコレクションのデモ</p>
 
 ## データ ソースを追加する
@@ -31,7 +31,7 @@ App Builder のデータ機能により、ユーザーは公開されている�
 > [!NOTE]
 > App Builder に追加されたデータ ソースはユーザー スペースに制限され、追加したユーザーまたはチーム スペース (チーム機能が利用可能な場合) のみに表示されます。
 
-<img class="responsive-img screen-capture" src="./images/DataSources-Add-URL.gif" />
+<img class="box-shadow" src="./images/DataSources-Add-URL.gif" />
 <p style="text-align:center;">URL からデータ ソースを追加する</p>
 
 ## Swagger データ ソースを追加する
@@ -41,13 +41,13 @@ Swagger 定義 (ファイル URL の提供またはファイルのアップロ�
 
 [Swagger の定義を追加してデータをバインドする方法についての全記事](open-api-swagger-support.md) を参照してください。
 
-<img class="responsive-img screen-capture" src="./images/swagger-demo-original.gif" />
+<img class="box-shadow" src="./images/swagger-demo-original.gif" />
 <p style="text-align:center;">Swagger のデモ</p>
 
 ## ローカル ネットワーク ソースからのデータ ソースの使用
 これで、ローカル ホストまたはプライベート ネットワークにリクエストを送信できます。これには、通常の REST エンドポイントと Swagger エンドポイントが含まれます。
 
-<img class="responsive-img screen-capture" src="./images/internal-network-data-source.gif" />
+<img class="box-shadow" src="./images/internal-network-data-source.gif" />
 <p style="text-align:center;">ローカル ネットワーク ソースの使用</p>
 
 <div style="font-size: 2em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">トラブルシューティング</div>
@@ -60,7 +60,7 @@ Swagger 定義 (ファイル URL の提供またはファイルのアップロ�
 
 ローカル サービスの追加中に [リクエストは失敗しました!] ダイアログが表示された場合は、ブラウザーの開発ツールを開き (`F12`）、コンソール / ネットワーク タブでエラーを確認します。最も可能性の高い理由は、CORS の制限です。
 
-<img class="responsive-img screen-capture" src="./images/request-failed-error.gif" />
+<img class="box-shadow" src="./images/request-failed-error.gif" />
 <p style="text-align:center;">[リクエストは失敗しました!] エラー </p>
 
 ローカル サービスの構成に基づいて、クロスオリジン リクエストの問題を解決する方法がいくつかあります。これについては、以下で詳しく説明します。
@@ -115,7 +115,7 @@ IIS を使用して内部でホストされているデータ ソースにアク
 6. ダイアログ ボックスが開きます。[名前] には「Access-Control-Allow-Origin」と入力し、[値] にはアスタリスク (*) を入力します。
 7. [OK] をクリックします。これで完了です。
 
-<img class="responsive-img screen-capture" src="./images/IIS-config.gif" />
+<img class="box-shadow" src="./images/IIS-config.gif" />
 <p style="text-align:center;">IIS 構成</p>
 
 CORS を有効にするには、asp.net Web サイトの web.config ファイルに構成を追加するか、global.asax ファイルにコードを追加します。詳細情報は[ここ (英語)](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291)にあります。
@@ -124,16 +124,16 @@ CORS を有効にするには、asp.net Web サイトの web.config ファイル
 データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例では Card コンポーネントを使用) を選択し、[繰り返し] モードを [Data] に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、Card セクションを選択したテーブル フィールドに接続します。
 
 
-<img class="responsive-img screen-capture" src="./images/dataSources-select-fields.gif" />
+<img class="box-shadow" src="./images/dataSources-select-fields.gif" />
 <p style="text-align:center;">データ フィールドを選択する</p>
 
-<img class="responsive-img screen-capture" src="./images/DataSources-Change-field-type.gif" />
+<img class="box-shadow" src="./images/DataSources-Change-field-type.gif" />
 <p style="text-align:center;">データ ソース テーブルのフィールド タイプを変更する</p>
 
 ## データ ソースを繰り返しコンポーネントに接続する
 データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例では Card コンポーネントを使用) を選択し、[繰り返し] モードを [Data] に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、Card セクションを選択したテーブル フィールドに接続します。
 
-<img class="responsive-img screen-capture" src="./images/DataSources-Connect-data-source-table-fields.gif" />
+<img class="box-shadow" src="./images/DataSources-Connect-data-source-table-fields.gif" />
 <p style="text-align:center;">データ ソース テーブルのフィールドをコンポーネント セクションに接続する</p>
 
 ### 階層バインドのサポート
@@ -189,22 +189,22 @@ Movies -> Cast -> Films の 3 つのデータ レベルを持つ次のデータ 
 
 データ コンテキストを使用して、ネストされたデータにリピータをバインドできるようになりました。**Movies -> Cast コレクション**
 
-<img class="responsive-img screen-capture" src="./images/using-data-in-your-app/nested-data-context.png" />
+<img class="box-shadow" src="./images/using-data-in-your-app/nested-data-context.png" />
 <p style="text-align:center;">データ コンテキスト</p>
 
 さらに 1 段階深く、**Cast -> Films コレクション**に移動できます。
 
-<img class="responsive-img screen-capture" src="./images/using-data-in-your-app/nested-data-context-2.png" />
+<img class="box-shadow" src="./images/using-data-in-your-app/nested-data-context-2.png" />
 <p style="text-align:center;">1 段階深いデータ コンテキスト</p>
 
 上記の階層データ ソースの最終結果は次のようになります。
 
-<img class="responsive-img screen-capture" src="./images/using-data-in-your-app/nested-data-context-result.png" />
+<img class="box-shadow" src="./images/using-data-in-your-app/nested-data-context-result.png" />
 <p style="text-align:center;">階層バインドの結果</p>
 
 Tree やその他のコンテナーなどのコンポーネントにも適用できます。以下の例は、単純な Tree と Tree Grid を階層構造を持つデータ ソースにバインドする方法を示しています。
 
-<img class="responsive-img screen-capture" src="./images/using-data-in-your-app/Nested-Repeaters.gif" />
+<img class="box-shadow" src="./images/using-data-in-your-app/Nested-Repeaters.gif" />
 <p style="text-align:center;">ネストされたリピータの例</p>
 
 Tree コンポーネントを確認してみましょう。ルート要素と子要素を特定の階層レベルにバインドするために、繰り返し: Data オプションを使用します。Tree は宣言型コンポーネントであり、(ツリー ルート レベルで) データ入力バインドを持たないため、ノード階層を指定し、階層データ セットを反復処理することによって宣言します。ノードをデータ モデルにバインドして、展開された状態と選択された状態が基になるデータにも反映されるようにすることができます。
@@ -222,7 +222,7 @@ Tree コンポーネントを確認してみましょう。ルート要素と子
 > [!NOTE]
 > スキーマ: データ ソースのすべてのテーブルのデータの定義
 
-<img class="responsive-img screen-capture" src="./images/unable-to-infer-schema-full.png" />
+<img class="box-shadow" src="./images/unable-to-infer-schema-full.png" />
 <p style="text-align:center;">データからスキーマを推測できません</p>
 
 ## その他のリソース

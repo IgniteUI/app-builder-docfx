@@ -34,13 +34,13 @@ In order to add an interaction, first select the component that will trigger the
 ## Navigate to
 "Navigate to" is the most straight-forward and basic interaction which allows users to set up a connection from a component navigating to selected by the user child or master view. Simply pick up a component, create an interaction for it and pick up the destination view. Note that during design time, no visual changes will be introduced to the components or views with an interaction. 
 
-<img class="responsive-img" src="./images/navigate-to-interaction.gif" />
+![navigate-to-interaction](./images/navigate-to-interaction.gif)
 <p style="text-align:center;">"Navigate to" interaction</p>
 
 ## Open/Close interaction
 The Open/Close interaction targets only overlay components, such as Dialog. This means that in order to use it, initially a triggering component, e.g. a button and then an overlay component, e.g. a Dialog, have to be added in the design area. Using the button and dialog example, next step is to select the button, go to Interactions panel and select Open/Close interaction. Once the trigger and the overlay are available, the Open/Close interaction is unlocked and the user can pick the Dialog to be opened upon selection of the button. 
 
-<img class="responsive-img" src="./images/open-close-interaction.gif" />
+![open-close-interaction](./images/open-close-interaction.gif)
 <p style="text-align:center;">"Open/Close" interaction</p>
 
 Note that once a Dialog component is added, an overlay notification will be appear next to the name of the active view in the design area. By clicking on the the overlay, just pick up one of the available overlays and it will be actived. Then, it can be edited according to your application scenario. 
@@ -49,7 +49,7 @@ Note that once a Dialog component is added, an overlay notification will be appe
 ## Show/Hide 
 "Show/Hide" is an interaction that can be applied to a component to show and hide another component visibility in the same view. Similar to the other interactions, first has to be selected a component that triggers the interaction, then the targeted component (the one that shows and hides). Picking up the targeted component can be done upon selecting the target icon (next to the active interaction). This will change your mouse cursor to a target icon and then you are expected to click on the component that will show and hide. Once a target component is selected, the cursor goes back to regular. If you want to cancel targeting a component, simply click ESC. Note that targeting is enabled only when the cursor is over components on which the interaction can be applied and this interaction cannot be applied on a layout component or a whole view. In order to check the applied interaction, you can go and test it in Preview mode.
 
-<img class="responsive-img" src="./images/show-hide-interaction.gif" />
+![show-hide-interaction](./images/show-hide-interaction.gif)
 <p style="text-align:center;">"Show/Hide" interaction</p>
 
 

@@ -25,7 +25,7 @@ The [App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-b
 
 There are six built-in app themes based on Material, Fluent or Bootstrap. Each have a dark version and light version. You can try it out by selecting the theme card in the toolbox.  
 
-<img class="responsive-img" src="../images/switching-between-themes-Indigo-Design-App-Builder.gif" />
+![switching-between-themes-Indigo-Design-App-Builder](../images/switching-between-themes-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">Switching between themes</p>
 
 ## Material vs. Fluent vs. Bootstrap 
@@ -36,15 +36,15 @@ When we switch from Material to Fluent, you will see the components look differe
 
 You can create a custom app theme to match your brand. You do this by creating a new theme, and picking one of the base themes as the starting point. The color palettes are automatically generated based on the primary and secondary color you pick. As far as typography is concerned, for now we have a set of fonts built in, but we plan to add more creative control in future versions. Once you are done editing, save the app theme to apply the changes.  
 
-<img class="responsive-img" src="../images/create-theme-Indigo-Design-App-Builder.gif" />
+![create-theme-Indigo-Design-App-Builder](../images/create-theme-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">Create a new theme</p>
 
-<img class="responsive-img" src="../images/switching-between-themes-Indigo-Design-App-Builder.gif" />
+![switching-between-themes-Indigo-Design-App-Builder](../images/switching-between-themes-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">Switching between themes</p>
 
 After an app theme is selected, when you apply a fill color for a container, the color picker now reflects the palette from the selected theme. This helps us stay true to the design systems approach where brand attributes are decided and maintained at the app level, and not decided on an ad-hoc basis depending on who is creating the UI. 
 
-<img class="responsive-img" src="../images/change-appearance-Indigo-Design-App-Builder.gif" />
+![change-appearance-Indigo-Design-App-Builder](../images/change-appearance-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">Change the appearance of a layout</p>
 
 In the future, we will include a way to add custom colors too, but as a secondary usage scenario. For now, if you still want to further customize the appearance of a layout and further restyle the app using a custom color, you can always type in the color code in the input field on the side. The app-level themes you created in the editor is persisted in a platform-compliant way when generating the app. It also makes it really simple to change the theme in the future.  

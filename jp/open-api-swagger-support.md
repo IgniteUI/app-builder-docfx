@@ -19,12 +19,12 @@ Swagger ツールの力は、RESTful API の設計の業界標準である OpenA
 
 - 使用可能なエンドポイント (/users) と各エンドポイントでの操作 (GET /users, POST /users)
 
-<img class="responsive-img screen-capture" style="width: 70%;" src="./images/configure-endpoints.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/configure-endpoints.png" />
 <p style="width: 70%; text-align:center;">エンドポイントの設定</p>
 
 - 操作パラメーター各操作の入力と出力
 
-<img class="responsive-img screen-capture" style="width: 70%;" src="./images/endpoint-params.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/endpoint-params.png" />
 <p style="width: 70%; text-align:center;">エンドポイント パラメーター / アプリの設定</p>
 
 - 認証方法
@@ -32,7 +32,7 @@ Swagger ツールの力は、RESTful API の設計の業界標準である OpenA
 
 API 仕様は YAML または JSON で記述できます。このフォーマットは習得が容易で、人間と機械の両方が読みやすくなっています。完全な OpenAPI 仕様は、GitHub にあります: [OpenAPI 3.0 の仕様](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md)。OpenAPI の詳細については、[こちら](https://swagger.io/docs/specification/about/)をご覧ください。
 
-<img class="responsive-img screen-capture" src="./images/swagger-demo-original.gif" />
+<img class="box-shadow" src="./images/swagger-demo-original.gif" />
 <p style="text-align:center;">Swagger のデモ</p>
 
 ## Swagger 定義を指定
@@ -49,13 +49,13 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 - [認証]、[パラメーター]、[ヘッダー] のタブ要素 - 必要な場合は、そのようにマークされます。
 - 情報メッセージまたは必須フィールドを表示するタブ コンテンツ セクション。画像の例:
 
-<img class="responsive-img screen-capture" src="./images/endpoints-dialog.png" />
+<img class="box-shadow" src="./images/endpoints-dialog.png" />
 <p style="text-align:center;">[エンドポイントの設定] ダイアログ</p>
 
 ## ローカル ネットワーク ソースからのデータ ソースの使用
 これで、ローカル ホストまたはプライベート ネットワークにリクエストを送信できます。詳細については、「アプリでデータを使用する」トピックの[プライベート ネットワークの使用セクション](using-data-in-your-app.md#ローカル-ネットワーク-ソースからのデータ-ソースの使用)の部分をご覧ください。
 
-<img class="responsive-img screen-capture" src="./images/internal-network-data-source.gif" />
+<img class="box-shadow" src="./images/internal-network-data-source.gif" />
 <p style="text-align:center;">ローカル ネットワーク ソースの使用</p>
 
 
