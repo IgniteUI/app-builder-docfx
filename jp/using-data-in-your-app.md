@@ -120,6 +120,61 @@ IIS を使用して内部でホストされているデータ ソースにアク
 
 CORS を有効にするには、asp.net Web サイトの web.config ファイルに構成を追加するか、global.asax ファイルにコードを追加します。詳細情報は[ここ (英語)](https://qawithexperts.com/article/asp-net/enabling-cors-in-iis-various-possible-methods/291)にあります。
 
+## OpenAPI (Swagger) エンドポイントはグレー表示される
+
+![グレー表示されたエンドポイントの例](./images/using-data-in-your-app/openapi-endpoint-grayedout.png)
+
+これは通常、エンドポイントに定義された応答がないか、応答型が未対応であることを意味します。
+
+API が適切な応答記述を作成するのに十分な情報を Swagger に提供しない場合に発生する可能性があります。
+
+App Builder で動作しないエンドポイントの例は以下のとおりです:
+  
+  ![応答が定義されていない Swagger エンドポイントの例](./images/using-data-in-your-app/openapi-endpoint-noreponse.png)
+
+  `200` の "text" 応答が記述されており、その中に他の型情報がないことに注意してください。
+
+App Builder で動作するのに十分な情報を持つエンドポイントの例は以下のとおりです:
+
+  ![応答タイプが定義されている Swagger エンドポイントの例](./images/using-data-in-your-app/openapi-endpoint-typed-reponse.png)
+
+  エンドポイントは、戻り値の型の例とともに `200` 応答を記述していることに注意してください。
+
+### .Net Controller API での応答の記述
+
+```csharp
+      // Wrong: it doesn't provide enough information to describe the response type as it's not using generics
+      [HttpGet]
+      public async Task<ActionResult> GetCategories()
+      {
+         return Ok(await categoriesService.GetCategories());
+      }
+
+      // Good: it describes the return type using generics
+      [HttpGet]
+      public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
+      {
+         return Ok(await categoriesService.GetCategories());
+      }
+```
+
+### .Net Minimal API での応答の記述
+
+```csharp
+      // Wrong: it doesn't provide enough information to describe the response type as Results.Ok() is not generic
+      app.MapGet("/category", async () => Results.Ok(await categoriesService.GetCategories()));
+
+      // Good: It's using `TypedResults`
+      app.MapGet("/category", async () => TypedResults.Ok(await categoriesService.GetCategories()));
+
+      // Good: It describes the response type with `.Produces<>()`
+      app.MapGet("/category", async () => Results.Ok(await categoriesService.GetCategories()))
+         .Produces<IEnumerable<Category>>();
+
+      // Good: It's returning the raw generic object (not wrapped in Result)
+      app.MapGet("/category", async () => await categoriesService.GetCategories());
+```
+
 ## データ フィールドの選択とフィールド タイプの変更
 データ ソースが追加されると、ユーザーは特定のデータ フィールドをコンポーネント セクションに接続できます。これを行うには、最初にコンポーネント (以下の例では Card コンポーネントを使用) を選択し、[繰り返し] モードを [Data] に変更してメニューをスクロールダウンし、接続するデータ ソースからテーブルを見つけて選択します。最後に、Card セクションを選択したテーブル フィールドに接続します。
 
