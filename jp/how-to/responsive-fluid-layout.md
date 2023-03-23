@@ -1,7 +1,6 @@
 ---
 title: App Builder での Fluid レイアウト
-_description: App Builder での Fluid レイアウト
-Fluid レイアウトを使用して、App Builder でアプリ レイアウトを作成および編集する方法につぃて説明します。
+_description: Fluid レイアウトを使用して、App Builder でアプリ レイアウトを作成および編集する方法につぃて説明します。
 _keywords: App builder fluid レイアウト, Ignite UI, Infragistics
 _language: ja
 ---
