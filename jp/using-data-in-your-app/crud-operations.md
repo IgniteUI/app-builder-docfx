@@ -8,7 +8,7 @@ _language: ja
 # Grid CRUD
 このトピックでは、App Builder の一部としてグリッドで CRUD 操作の使用を開始する方法を示します。
 
-App Builder は、ユーザーがグリッド内から CRUD 操作を実行するための UI を提供するようになりました。グリッドはすぐに使えるセル編集、行編集、行追加、行削除 UI を提供するため、これは非常に簡単です。
+App Builder は、ユーザーがグリッド内から CRUD 操作を実行するための UI を提供するようになりました。グリッドはすぐに使えるセル編集、行編集、行追加、行削除 UI を提供するため、これは非常に簡単です。カスタム [Northwind CRUD API Swagger 定義](https://data-northwind.indigo.design/swagger/v1/swagger.json)と [UI](https://data-northwind.indigo.design/swagger/index.html) ([その他の例はこちら](https://github.com/IgniteUI/app-builder-docfx/wiki/CRUD-API-Examples#northwind-crud-api)) を使用します。
 
 Grid が Customers テーブルにバインドされている場合 (Swagger パスの画像 1)、Data Interactions セクションは、そのような対話を追加すると、Customers で使用可能なメソッドと共に読み込まれます (画像 2)。
 
