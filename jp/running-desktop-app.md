@@ -15,7 +15,7 @@ Linux で <b>AppBuilder.AppImage</b> ファイルをダウンロードすると�
 2. ターミナルを開き、次のコマンドを実行します: <b>chmod +x AppBuilder.AppImage</b>
 3. ファイルを右クリックし、[Run] ボタンをクリックすると、アプリが起動します。
 
-<img class="responsive-img" src="./images/run-app-image.png" />
+![run-app-image](./images/run-app-image.png)
 
 ### プロキシ サーバー側の制限 (切断エラー)
 
@@ -34,7 +34,7 @@ Linux で <b>AppBuilder.AppImage</b> ファイルをダウンロードすると�
 - https://iam.infragistics.com (https 443) 
 
 
-<img class="responsive-img" src="./images/cant-connect-error.PNG" />
+![cant-connect-error](./images/cant-connect-error.PNG)
 <p style="text-align:center;">切断エラー</p>
 
 ## その他のリソース

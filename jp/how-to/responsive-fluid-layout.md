@@ -8,7 +8,7 @@ _language: ja
 # レスポンシブ Fluid レイアウト
 Fluid レイアウトは、作成するのが常に課題です。このミニチュートリアルでは、3カラムのレイアウトを素早く作成し、画面サイズが変わったときに**レスポンシブ**に動作するようにする方法を紹介します。
 
-<img class="responsive-img" src="../images/how-to/basic-structure.png" />
+![how-to/basic-structure](../images/how-to/basic-structure.png)
 
 このチュートリアルでは、App Builder で Layout プロパティを使用して、この動的なスタック効果を実現する方法を示します。 
 <br>
@@ -28,7 +28,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
 >**プロのヒント:** `Ctrl + E` / `Cmd + E` でいつでも新しいコンポーネントをキャンバスに追加でき、アプリの作成プロセスをスピードアップできます。
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-1.png" />
+![step-1](../images/how-to/step-1.png)
 
 <br>
 
@@ -40,7 +40,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
   - 複数選択 (Shift + クリック) で 6 つの **Row Layout** をすべて選択し、`[縦配置: Center]` と `[横配置: Center]` を設定して配置を変更します。
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-2.png" />
+![step-2](../images/how-to/step-2.png)
 
 <br>
 
@@ -50,7 +50,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
 - 下のドロップダウンで、コンテンツの配置を `[Stretch]` に変更します。
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-3.png" />
+![step-3](../images/how-to/step-3.png)
 
 <br>
 
@@ -64,7 +64,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
 - **[編集]** をクリックして、アプリの編集を続行します。
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-4.png" />
+![step-4](../images/how-to/step-4.png)
 
 <br>
 
@@ -77,7 +77,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
 これにより、1 列目は他の 2 列目よりも 2 倍のスペース (水平方向) が確保されます。
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-5.png" />
+![step-5](../images/how-to/step-5.png)
 
 <br>
 
@@ -86,7 +86,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
 3 つの異なる画面サイズでのアプリケーションの最終結果を次に示します。
 [ライブアプリはこちら](https://appbuilder.indigo.design/app/ihyry6j7gpq5/preview)で確認できます。
 
-<img class="responsive-img" src="../images/how-to/final-result.png" />
+![final-result](../images/how-to/final-result.png)
 
 <div class="divider--half"></div>
 

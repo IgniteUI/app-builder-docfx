@@ -30,10 +30,10 @@ You can login directly in your App Builder profile or by signing it with Indigo.
 From the App Builder home screen, users can start a new app, preview or edit an existing one. Through the context menu, every existing app can also be renamed, duplicated or archived.  
 
 AB Sign-in
-<img class="responsive-img" src="./images/Standalone-AB.png" srcset="./images/Standalone-AB-@2x.png 2x" />
+<img src="./images/Standalone-AB.png" srcset="./images/Standalone-AB-@2x.png 2x" />
 
 Indigo.Cloud Sign-in
-<img class="responsive-img" src="./images/Indigo-Design-home-screen.gif" />
+![Indigo-Design-home-screen](./images/Indigo-Design-home-screen.gif)
 <p style="text-align:center;">Indigo.Design home screen</p>
 
 What you'll see when you launch the [App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) for first time is a pop up window suggesting a quick onboarding tour. What you will see next is the create new project dialog. There are four ways to start a new app:
@@ -42,23 +42,23 @@ What you'll see when you launch the [App Builder]({environment:infragisticsBaseU
 3. <b>Default layouts</b> - start a new app from scratch, benefiting from a basic predefined layout.
 4. <b>Blank</b> - start a new app from scratch.
 
-<img class="responsive-img" src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
+<img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">New project dialog</p>
 
 Note, that once in the App Builder, users are enabled to easily switch between their active applications or go back to their workspace in App Builder from the in-app side menu at design time without leaving the App Builder.
 
-<img class="responsive-img" src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
+<img src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">Side menu</p>
 
 
 ## Getting the code
 The App Builder always displays a live-running web application both on the design surface and in the preview window. The underlying code and application model are updated in real time as you make changes to the application in the design surface. You can view the generated application code at any time in the preview window and you can also download the generated application at any time as a complete application code repository, which you can then open in a code editor of your choice. Then you can build and run the application you've designed using the App Builder locally on your machine and you can make additional modifications on the generated code.
  
-<img class="responsive-img" src="./images/Preview-App-Indigo-Design-App-Builder.png" srcset="./images/Preview-App-Indigo-Design-App-Builder@2x.png 2x" />
+<img src="./images/Preview-App-Indigo-Design-App-Builder.png" srcset="./images/Preview-App-Indigo-Design-App-Builder@2x.png 2x" />
 <p style="text-align:center;">Application preview window</p>
 
 
-<img class="responsive-img" src="./images/App-VSCode-Indigo-Design-App-Builder.png" srcset="./images/App-VSCode-Indigo-Design-App-Builder@2x.png 2x" />
+<img src="./images/App-VSCode-Indigo-Design-App-Builder.png" srcset="./images/App-VSCode-Indigo-Design-App-Builder@2x.png 2x" />
 <p style="text-align:center;">Code of a generated application and then run in VScode</p>
 
 
@@ -74,7 +74,7 @@ On-premises applications are reliable, secure, and allow enterprises to maintain
 
 Check out this topic for [more technical details on how to install](on-prem-prerequisites-and-installation.md) the On-premises solution.
 
-<img class="responsive-img" src="./images/on-premises-ab-demo.gif" />
+![on-premises-ab-demo](./images/on-premises-ab-demo.gif)
 <p style="text-align:center;">On-Premises version</p>
 
 ## Running the generated app locally

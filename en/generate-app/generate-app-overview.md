@@ -21,7 +21,7 @@ App Builder with Angular code generation has been in the market for a few months
 
 With the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor Server`/`Blazor Web Assembly` option to generate code for Blazor, or `Angular` to see a preview of the generated app and code. `Web Components` option is also available.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/generate-code.png" />
+<img class="box-shadow" src="../images/generate-code.png" />
 <p style="text-align:center;">Pick platform for code generation</p>
 
 The design and development user story will be completed once the application is generated with all styling and layout properties. Currently, Ignite UI App Builder offers options to upload all your application files to a GitHub repository or download them as a package and then run it locally.
@@ -34,7 +34,7 @@ If you are a **licensed user** then the licensed packages of [Ignite UI for Angu
 
 When the application is published to GitHub we add a CI that will build your project and run basic tests. We also publish NPM_AUTH_TOKEN that is required from the GitHub CI, in order to be able to use the licensed package.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/licensed-ci-npm-token.png" />
+<img class="box-shadow" src="../images/licensed-ci-npm-token.png" />
 <p style="text-align:center;">NPM Authentication Token</p>
 
 ### Trial user

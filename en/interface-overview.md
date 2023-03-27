@@ -10,7 +10,7 @@ The Indigo App Builder interface is similar to the interface of most design tool
 There are four main sections in the App Builder.
 
 
-<img class="responsive-img" src="./images/interface-parts-Indigo-Design-App-Builder.png" srcset="./images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
+<img src="./images/interface-parts-Indigo-Design-App-Builder.png" srcset="./images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">Interface screen parts</p>
 
 ## Toolbox 
