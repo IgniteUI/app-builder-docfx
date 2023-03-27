@@ -30,26 +30,26 @@ App Builderで Flex レイアウトを使用するには、コンテナー (ビ�
 
 App Builder と通常の製品デザイン ツールの最大の違いの 1 つは、デザインからコードまでのツールで使用される Flex に基づくレイアウトです。App Builder は Web アプリを対象としているため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ここに表示されている最も外側のコンテナはキャンバスであり、flex 設定がすでに適用されています。プロパティ パネルで Viewport のサイズを編集することにより、キャンバス サイズを変更できます。
 
-<img class="responsive-img" src="../images/edit-create-canvas-size-Indigo-Design-App-Builder.gif" />
+![edit-create-canvas-size-Indigo-Design-App-Builder](../images/edit-create-canvas-size-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">キャンバス サイズの変更</p>
 
 ## 行と列のレイアウト 
 
 Flex レイアウト コンテナには、ネストされた UI 要素の位置を変更できる設定があります。H.align プロパティと V.Aalign プロパティには、それぞれのドロップダウンから簡単に適用できる flex プロパティがあります。キャンバスのデフォルトは行レイアウトで、水平方向に左揃えになり、垂直方向に引き伸ばされます。何から始めたかに関係なく、いつでも行と列のレイアウトを切り替えることができます。レイアウト コンテナのサイズはコンテンツに基づいていますが、高さと幅はいつでも指定できます。Padding プロパティをコンテナに追加し、マージンを追加して子 UI 要素のスペースを空けることもできます。これは、特定のコンポーネントを選択し、画面右側のプロパティ パネルでパディングまたはマージンを編集した後に実行できます。
 
-<img class="responsive-img" src="../images/row-column-layout-Indigo-Design-App-Builder.gif" />
+![row-column-layout-Indigo-Design-App-Builder](../images/row-column-layout-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">レイアウト プロパティ</p>
 
 子要素のラベルをクリックすると、いつでも親 UI 要素を選択できます。これは、ネストされたレイアウト コンテナがある場合に役立ちます。一方、左下隅の [アウトライン] メニューから必要なコンポーネントを直接選択することもできます。
 
-<img class="responsive-img" src="../images/select-parent-Indigo-Design-App-Builder.gif" />
+![select-parent-Indigo-Design-App-Builder](../images/select-parent-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">親コンポーネントを選択する</p>
 
 ## 流動的なサイズ変更と折り返し 
 
 他の注目に値するプロパティは、拡大と縮小に関連しています。これらは、Viewport のサイズが変更されたときにコンポーネントのサイズ変更に影響します。コンポーネントを `grow` に設定すると、コンテナが行レイアウトの場合は行方向に、列レイアウトの場合は列方向に展開されます。
  
-<img class="responsive-img" src="../images/grow-column-row-layout-Indigo-Design-App-Builder.gif" />
+![grow-column-row-layout-Indigo-Design-App-Builder](../images/grow-column-row-layout-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">列/行のレイアウト オプションを拡大する</p>
 
 
@@ -57,7 +57,7 @@ Flex レイアウト コンテナには、ネストされた UI 要素の位置�
 
 既存のコンポーネントを新しいレイアウトに追加する必要がある場合は、非常に便利なオプションがあります。選択したコンポーネントを右クリックすると、コンテキスト メニューがトリガーされ、要素を行または列のレイアウトに追加できます。
 
-<img class="responsive-img" src="../images/add-to-layout-Indigo-Design-App-Builder.gif" />
+![add-to-layout-Indigo-Design-App-Builder](../images/add-to-layout-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">コンテキスト メニューからレイアウトにコンポーネントを追加する</p>
 
 ## その他のリソース

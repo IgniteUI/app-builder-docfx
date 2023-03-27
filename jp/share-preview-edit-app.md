@@ -14,12 +14,12 @@ _language: ja
 
 [リンクのコピー] と [Twitter] ボタンを使用して、コピーおよび直接共有する機能もあります。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/share-and-preview-image-docfx.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-docfx.png" />
 <p style="width: 100%; text-align:center;">共有ボタン</p>
 
 共有ボタンは、アプリケーションの「他の操作」アイコンを介してワークスペース ビューからも利用できます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/share-and-preview-image-workspace.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-workspace.png" />
 <p style="width: 100%; text-align:center;">ワークスペースからの共有ボタン</p>
 
 ## アプリケーションの共有およびプレビュー
@@ -34,25 +34,25 @@ _language: ja
 #### リンクの編集
 個人用ワークスペースから**アプリの編集リンク**を**サインインしているユーザー**と共有すると、後者は編集にアクセスできず、「編集するためのアクセス権がありません。」 メッセージを受け取ります。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-edit-link.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-edit-link.png" />
 <p style="width: 100%; text-align:center;">編集するためのアクセス権がありません。</p>
 
 ### アプリのワークスペースに参加しているサインイン済みユーザー
 #### アプリのプレビュー リンク
 **アプリのワークスペースに参加しているサインイン済みユーザー**と**アプリのプレビュー リンク**を共有すると、後者は**アプリのプレビューと編集**にアクセスできます。構成されている場合は、**モック データ**ではなく**実際のデータ**も表示できます。暗号化されたトークンを使用してデータ要求が行われ、実際のデータが取得されます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/app-from-shared-workspace-signed-in-user-real-data.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/app-from-shared-workspace-signed-in-user-real-data.png" />
 <p style="width: 100%; text-align:center;">実際のデータを使用した共有ワークスペース</p>
 
 #### リンクの編集
 **アプリのワークスペースの一部であるサインインしているユーザー**と**アプリのプレビュー リンク**を共有すると、現在アプリケーションを編集しているユーザーがいない場合、そのユーザーはアプリケーションを編集するためのアクセス権を持つことになります。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/hold-on-while-editing-app.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/hold-on-while-editing-app.png" />
 <p style="width: 100%; text-align:center;">他のユーザーかがアプリを編集しています。少々お待ちください...</p>
 
 ユーザーがワークスペースに参加していない場合、「招待されたメンバーのみが編集できます。」というメッセージが表示されます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/only-invited-members-can-edit.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/only-invited-members-can-edit.png" />
 <p style="width: 100%; text-align:center;">招待されたメンバーのみがアプリを編集できます</p>
 
 ### リンクのプレビューが無効になっているサインイン ユーザー
@@ -60,13 +60,13 @@ _language: ja
 
 [お問い合わせ] リダイレクト ボタンが表示され、App Builder からサインアウトする場合は [サインアウト] ボタンが表示されます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-disabled-link.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-disabled-link.png" />
 <p style="width: 100%; text-align:center;">アクセスが制限されています</p>
 
 ### 匿名ユーザー アプリのプレビュー
 匿名ユーザーは、アプリケーションのプレビューを利用できます。すべての編集操作が無効になることに注意してください。メインメニューはロードされておらず、**コード ビュー** のみが利用可能です。アプリ内で REST API 呼び出しが構成されている場合、匿名ユーザーには常に**モック データ**が表示されます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/anonymous-access-no-edit.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/anonymous-access-no-edit.png" />
 <p style="width: 100%; text-align:center;">匿名アクセスのプレビュー</p>
 
 ### 個人用ワークスペースからアプリケーションにアクセスする匿名ユーザー
@@ -75,7 +75,7 @@ _language: ja
 ### リンクのプレビューが無効になっている匿名ユーザー
 匿名ユーザーは、制限されたアプリケーションにアクセスできません。[無料で使い始める!] ボタンを使用していつでもトライアル版アカウントを作成して、利用可能なその他の App Builder 機能をすべて試すことができます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/anonymous-access-disabled-share.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/anonymous-access-disabled-share.png" />
 <p style="width: 100%; text-align:center;">アクセスが制限されている、匿名ユーザー</p>
 
 ## その他のリソース

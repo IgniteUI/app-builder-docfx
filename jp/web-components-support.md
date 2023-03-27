@@ -8,7 +8,7 @@ _language: ja
 
 App Builder でサポートされるフレームワークはさらに増えています。最新の追加 - [Web Components](https://jp.infragistics.com/products/ignite-ui-web-components) です。これで、Web コンポーネント アプリケーションを GitHub にダウンロードまたはアップロードできます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/ab-wc-code-generation.gif" />
+<img class="box-shadow" src="./images/ab-wc-code-generation.gif" />
 <p style="width: 100%; text-align:center;">AppBuilder からの Web Components コード生成</p>
 
 > [!NOTE]
@@ -37,12 +37,12 @@ Web Components の概要カスタムで再利用可能なカプセル化され�
 
 App Builder を使用すると、依存関係のないコンポーネントを使用して将来性の高いアプリ開発戦略を活用することで、高度な Web アプリを生成できるようになりました。アプリケーションの準備ができたら、目的のフレームワークを設定します。Web Components ドロップダウン項目が選択されたら、それを生成してダウンロードするために [ZIP のダウンロード] をクリックします。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-download-button.png" />
+<img class="box-shadow" src="./images/wc-download-button.png" />
 <p style="width: 100%; text-align:center;">ダウンロード ボタン</p>
 
 生成されたコードを簡単に確認したい場合は、[アプリ プレビュー] に移動し、[コード ビュー] スイッチを切り替えます。
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/wc-code-generation.png" />
+<img class="box-shadow" src="./images/wc-code-generation.png" />
 <p style="width: 100%; text-align:center;">コードのプレビュー</p>
 
 ## アプリケーションを Github にアップロードする
