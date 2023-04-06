@@ -43,12 +43,12 @@ Below are the 4 simple steps to get from Design to Code with the App Builder wit
 
 ##### Step 3: Review the Design in the Cloud IDE
 
-<img class="box-shadow" src="./images/wc-code-generation.png" />
+<img class="box-shadow" src="./images/wc-code-generation.PNG" />
 <p style="width: 100%; text-align:center;">App Preview</p>
 
 ##### Step 4: Review or Download your Angular Code
 
-<img class="box-shadow" src="./images/wc-download-button.png" />
+<img class="box-shadow" src="./images/wc-download-button.PNG" />
 <p style="width: 100%; text-align:center;">Download the application</p>
 
 #### Publish via Plugin

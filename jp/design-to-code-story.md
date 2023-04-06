@@ -44,12 +44,12 @@ App Builder を使用して、ワンク リックでデザインからコード�
 
 ##### 手順 3: Cloud IDE でデザインを確認します。
 
-<img class="box-shadow" src="./images/wc-code-generation.png" />
+<img class="box-shadow" src="./images/wc-code-generation.PNG" />
 <p style="width: 100%; text-align:center;">アプリケーションのプレビュー</p>
 
 ##### 手順 4: Angular コードを確認またはダウンロードします。
 
-<img class="box-shadow" src="./images/wc-download-button.png" />
+<img class="box-shadow" src="./images/wc-download-button.PNG" />
 <p style="width: 100%; text-align:center;">アプリケーションのダウンロード</p>
 
 #### プラグインによる公開
