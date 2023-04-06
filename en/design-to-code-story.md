@@ -38,7 +38,7 @@ Below are the 4 simple steps to get from Design to Code with the App Builder wit
 
 ##### Step 2: Drag your Sketch File into the "Create from existing design" Drop Area
 
-<img class="box-shadow" src="./images/import-designs-dialog.png" />
+<img class="box-shadow" src="./images/import-designs-dialog.PNG" />
 <p style="width: 100%; text-align:center;">Import Designs</p>
 
 ##### Step 3: Review the Design in the Cloud IDE
@@ -70,7 +70,7 @@ Now you can start using the plugin.
 
 ##### Adobe XD Plugin
 
-<img class="box-shadow" src="./images/adobe-xd-plugin.png" />
+<img class="box-shadow" src="./images/adobe-xd-plugin.PNG" />
 <p style="width: 100%; text-align:center;">Adobe XD Plugin Create App</p>
 
 ##### Sketch Plugin

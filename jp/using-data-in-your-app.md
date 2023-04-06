@@ -277,7 +277,7 @@ Tree コンポーネントを確認してみましょう。ルート要素と子
 > [!NOTE]
 > スキーマ: データ ソースのすべてのテーブルのデータの定義
 
-<img class="box-shadow" src="./images/unable-to-infer-schema-full.png" />
+<img class="box-shadow" src="./images/unable-to-infer-schema-full.PNG" />
 <p style="text-align:center;">データからスキーマを推測できません</p>
 
 ## その他のリソース

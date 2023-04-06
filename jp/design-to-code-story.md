@@ -71,7 +71,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 
 ##### Adobe XD プラグイン
 
-<img class="box-shadow" src="./images/adobe-xd-plugin.png" />
+<img class="box-shadow" src="./images/adobe-xd-plugin.PNG" />
 <p style="width: 100%; text-align:center;">Adobe XD プラグイン アプリの作成</p>
 
 ##### Sketch プラグイン

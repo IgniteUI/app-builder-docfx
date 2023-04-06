@@ -276,7 +276,7 @@ Keep in mind this is not a restriction on the data, for example it can be with m
 > [!NOTE]
 > Schema: The shape of the data for all the tables of the datasource
 
-<img class="box-shadow" src="./images/unable-to-infer-schema-full.png" />
+<img class="box-shadow" src="./images/unable-to-infer-schema-full.PNG" />
 <p style="text-align:center;">Unable to infer schema from data</p>
 
 ## Additional Resources

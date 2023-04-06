@@ -13,7 +13,7 @@ You can customize the sharing experience with a toggle "Allow anyone to preview 
 
 There are also copy and direct share capabilities with the "copy link" and "twitter" buttons.
 
-<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-docfx.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-docfx.PNG" />
 <p style="width: 100%; text-align:center;">Share button</p>
 
 Share button is also available from the workspace view through the "more actions" icon of the application.

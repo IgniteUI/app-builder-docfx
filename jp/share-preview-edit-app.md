@@ -14,7 +14,7 @@ _language: ja
 
 [リンクのコピー] と [Twitter] ボタンを使用して、コピーおよび直接共有する機能もあります。
 
-<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-docfx.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-docfx.PNG" />
 <p style="width: 100%; text-align:center;">共有ボタン</p>
 
 共有ボタンは、アプリケーションの「他の操作」アイコンを介してワークスペース ビューからも利用できます。
