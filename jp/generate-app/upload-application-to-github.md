@@ -33,7 +33,7 @@ GitHub アカウントでログインした後、Indigo.Design にアクセス�
 
 アップロード プロセスが完了したら、ユーザーは App Builder 内から GitHub リポジトリに変更を適用するか、[GitHub で表示] をクリックして GitHub で更新されたファイルを表示できます。
 
-<img class="box-shadow" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
+<img class="box-shadow" src="../images/App-VSCode-Indigo-Design-App-Builder2.PNG" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
 <p style="text-align:center;">VS Code で実行されるアプリケーション</p>
 
 ## GitHub との統合機能
@@ -44,12 +44,12 @@ App Builder ではなく、コードを使用して外部でアプリケーシ�
 機能改善:
 - プルリクエストの関連ブランチで外部変更が行われた場合の警告。これらの変更を保持するには、現在のプルリクエストをマージしてから新しいリクエストを作成します。
 
-<img class="box-shadow" src="../images/gh-changes-not-yet-merged.png" srcset="../images/gh-changes-not-yet-merged.png 2x" />
+<img class="box-shadow" src="../images/gh-changes-not-yet-merged.PNG" srcset="../images/gh-changes-not-yet-merged.png 2x" />
 <p style="text-align:center;">'X' はこのブランチでまだマージされていない変更を加えました</p>
 
 - 他のアプリケーションまたはプラットフォームに対応するリポジトリが選択された場合の警告。
 
-<img class="box-shadow" src="../images/gh-repository-linked-to-another-platform.png" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
+<img class="box-shadow" src="../images/gh-repository-linked-to-another-platform.PNG" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
 <p style="text-align:center;">'X' リポジトリは、以前は 'Z' プラットフォームの 'Y' アプリを公開するために使用されていました</p>
 
 - アプリケーションの履歴で使用される異なるリポジトリ間を行き来できます。

@@ -15,7 +15,7 @@ Blazor コンポーネントの可用性の一覧については、[アプリの
 好みや要件に基づいて、Blazor Web Assembly アプリまたは Blazor Server アプリの両方を生成できます。
 
 
-<img class="box-shadow" src="./images/blazor-introduction.png" />
+<img class="box-shadow" src="./images/blazor-introduction.PNG" />
 <p style="width: 100%; text-align:center;">AppBuilder からの Blazor コード生成</p>
 
 > [!NOTE]

@@ -33,7 +33,7 @@ Below are the 4 simple steps to get from Design to Code with the App Builder wit
 
 ##### Step 1: Click New App from the Indigo Cloud or App Builder Home Screen
 
-<img class="box-shadow" src="./images/new-app-dialog.png" />
+<img class="box-shadow" src="./images/new-app-dialog.PNG" />
 <p style="width: 100%; text-align:center;">New app</p>
 
 ##### Step 2: Drag your Sketch File into the "Create from existing design" Drop Area
@@ -58,14 +58,14 @@ The plugin will help you to publish your designs into App Builder. You can downl
 2. Click on "Crete new application"
 3. Click on "Get assets for.."
 
-<img class="box-shadow" src="./images/assets-download.png" />
+<img class="box-shadow" src="./images/assets-download.PNG" />
 <p style="width: 100%; text-align:center;">Available assets</p>
 
 Now you can start using the plugin.
 
 ##### Figma Plugin
 
-<img class="box-shadow" src="./images/figma-plugin.png" />
+<img class="box-shadow" src="./images/figma-plugin.PNG" />
 <p style="width: 100%; text-align:center;">Figma Plugin</p>
 
 ##### Adobe XD Plugin
@@ -75,7 +75,7 @@ Now you can start using the plugin.
 
 ##### Sketch Plugin
 
-<img class="box-shadow" src="./images/sketch-plugin-create-app.png" />
+<img class="box-shadow" src="./images/sketch-plugin-create-app.PNG" />
 <p style="width: 100%; text-align:center;">Sketch Plugin Create App</p>
 
 ## Download Assets

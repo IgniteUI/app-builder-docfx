@@ -15,7 +15,7 @@ App Builder のデータ機能を使用して、開発中のアプリケーシ�
 
 「.json ファイルのアップロード」機能が削除される前にアプリケーションでデータ ソースをアップロードした場合、「'X' から取得できませんでした。モック データ応答に切り替えます。」という要求が通知されます。
 
-<img class="box-shadow" src="./images/Failed to retrieve from.png" />
+<img class="box-shadow" src="./images/Failed to retrieve from.PNG" />
 <p style="text-align:center;">以前アップロードされたファイルからデータを取得できませんでした</p>
 
 追加されたすべてのデータ ソースはデータ ツールボックスに配置され、ユーザーは各データ ソースを展開/縮小して、含まれているテーブルおよび選択したフィールドを表示できます。

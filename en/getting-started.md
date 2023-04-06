@@ -30,7 +30,7 @@ You can login directly in your App Builder profile or by signing it with Indigo.
 From the App Builder home screen, users can start a new app, preview or edit an existing one. Through the context menu, every existing app can also be renamed, duplicated or archived.  
 
 AB Sign-in
-<img src="./images/Standalone-AB.png" srcset="./images/Standalone-AB-@2x.png 2x" />
+<img src="./images/Standalone-AB.PNG" srcset="./images/Standalone-AB-@2x.png 2x" />
 
 Indigo.Cloud Sign-in
 ![Indigo-Design-home-screen](./images/Indigo-Design-home-screen.gif)

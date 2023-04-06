@@ -34,12 +34,12 @@ App Builder を使用して、ワンク リックでデザインからコード�
 
 ##### 手順 1: Indigo Cloud または App Builder のホーム画面で [新しいアプリ] をクリックします。
 
-<img class="box-shadow" src="./images/new-app-dialog.png" />
+<img class="box-shadow" src="./images/new-app-dialog.PNG" />
 <p style="width: 100%; text-align:center;">新しいアプリケーション</p>
 
 ##### 手順 2: Sketch ファイルを [既存のデザインから作成] ドロップ領域にドラッグします。
 
-<img class="box-shadow" src="./images/import-designs-dialog.png" />
+<img class="box-shadow" src="./images/import-designs-dialog.PNG" />
 <p style="width: 100%; text-align:center;">デザインのインポート</p>
 
 ##### 手順 3: Cloud IDE でデザインを確認します。
@@ -59,14 +59,14 @@ App Builder を使用して、ワンク リックでデザインからコード�
 2. [新しいアプリケーションの作成] をクリックします。
 3. [… のアセットを取得する] をクリックします。
 
-<img class="box-shadow" src="./images/assets-download.png" />
+<img class="box-shadow" src="./images/assets-download.PNG" />
 <p style="width: 100%; text-align:center;">利用可能なアセット</p>
 
 これでプラグインの使用を開始できます。
 
 ##### Figma プラグイン
 
-<img class="box-shadow" src="./images/figma-plugin.png" />
+<img class="box-shadow" src="./images/figma-plugin.PNG" />
 <p style="width: 100%; text-align:center;">Figma プラグイン</p>
 
 ##### Adobe XD プラグイン
@@ -76,7 +76,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 
 ##### Sketch プラグイン
 
-<img class="box-shadow" src="./images/sketch-plugin-create-app.png" />
+<img class="box-shadow" src="./images/sketch-plugin-create-app.PNG" />
 <p style="width: 100%; text-align:center;">Sketch プラグイン アプリの作成</p>
 
 ## アセットのダウンロード
