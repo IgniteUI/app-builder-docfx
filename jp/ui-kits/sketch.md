@@ -29,7 +29,7 @@ Sketch の Web App Builder のアプリ
 手順 4: Angular コードを確認またはダウンロードします。
 IDE の右上にあるボタンを使用して、アプリを生成するか、アプリをプレビューしてコードを確認するかを選択できます。こちらでは、実行中のアプリと HTML、CSS、または TypeScript のコードで [プレビュー] オプションを確認できます。
 
-<img class="box-shadow" src="../images/download-project.PNG" />
+<img class="box-shadow" src="../images/download-project.png" />
 <p style="width: 100%; text-align:center;">コードの生成</p>
 
 

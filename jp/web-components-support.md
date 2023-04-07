@@ -37,12 +37,12 @@ Web Components の概要カスタムで再利用可能なカプセル化され�
 
 App Builder を使用すると、依存関係のないコンポーネントを使用して将来性の高いアプリ開発戦略を活用することで、高度な Web アプリを生成できるようになりました。アプリケーションの準備ができたら、目的のフレームワークを設定します。Web Components ドロップダウン項目が選択されたら、それを生成してダウンロードするために [ZIP のダウンロード] をクリックします。
 
-<img class="box-shadow" src="./images/wc-download-button.png" />
+<img class="box-shadow" src="./images/wc-download-button.PNG" />
 <p style="width: 100%; text-align:center;">ダウンロード ボタン</p>
 
 生成されたコードを簡単に確認したい場合は、[アプリ プレビュー] に移動し、[コード ビュー] スイッチを切り替えます。
 
-<img class="box-shadow" src="./images/wc-code-generation.png" />
+<img class="box-shadow" src="./images/wc-code-generation.PNG" />
 <p style="width: 100%; text-align:center;">コードのプレビュー</p>
 
 ## アプリケーションを Github にアップロードする

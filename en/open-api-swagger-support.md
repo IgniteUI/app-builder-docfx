@@ -18,12 +18,12 @@ The power of Swagger tools starts with the OpenAPI Specification — the industr
 
 - Available endpoints (/users) and operations on each endpoint (GET /users, POST /users)
 
-<img class="box-shadow" style="width: 70%;" src="./images/configure-endpoints.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/configure-endpoints.PNG" />
 <p style="width: 70%; text-align:center;">Configure Endpoints</p>
 
 - Operation parameters Input and output for each operation
 
-<img class="box-shadow" style="width: 70%;" src="./images/endpoint-params.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/endpoint-params.PNG" />
 <p style="width: 70%; text-align:center;">Set Endpoints Parameters/Apps</p>
 
 - Authentication methods
