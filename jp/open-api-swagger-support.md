@@ -19,12 +19,12 @@ Swagger ツールの力は、RESTful API の設計の業界標準である OpenA
 
 - 使用可能なエンドポイント (/users) と各エンドポイントでの操作 (GET /users, POST /users)
 
-<img class="box-shadow" style="width: 70%;" src="./images/configure-endpoints.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/configure-endpoints.PNG" />
 <p style="width: 70%; text-align:center;">エンドポイントの設定</p>
 
 - 操作パラメーター各操作の入力と出力
 
-<img class="box-shadow" style="width: 70%;" src="./images/endpoint-params.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/endpoint-params.PNG" />
 <p style="width: 70%; text-align:center;">エンドポイント パラメーター / アプリの設定</p>
 
 - 認証方法

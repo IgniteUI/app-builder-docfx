@@ -33,7 +33,7 @@ Once you log in with your GitHub account, you should authorize Indigo.Design to 
 
 When the upload process is done, users can apply changes to the GitHub repo from inside the App Builder or click to "View it on GitHub" and see the updated files in GitHub.
 
-<img class="box-shadow" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
+<img class="box-shadow" src="../images/App-VSCode-Indigo-Design-App-Builder2.PNG" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
 <p style="text-align:center;">An application running in VSCode</p>
 
 ## GitHub integration features
@@ -44,12 +44,12 @@ There are times when you will be doing application changes externally with code 
 Improvements:
 - Warnings when external changes are made in a pull request's associated branch. In order to keep these changes, merge the current Pull Request and then create a new one.
 
-<img class="box-shadow" src="../images/gh-changes-not-yet-merged.png" srcset="../images/gh-changes-not-yet-merged.png 2x" />
+<img class="box-shadow" src="../images/gh-changes-not-yet-merged.PNG" srcset="../images/gh-changes-not-yet-merged.png 2x" />
 <p style="text-align:center;">'X' has made changes in this branch that are not merged yet</p>
 
 - Warnings when a repository corresponding to other application or platform is chosen.
 
-<img class="box-shadow" src="../images/gh-repository-linked-to-another-platform.png" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
+<img class="box-shadow" src="../images/gh-repository-linked-to-another-platform.PNG" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
 <p style="text-align:center;">'X' repository was previously used to publish 'Y' app for 'Z' platform</p>
 
 - Ability to go back and forth between different repositories used in the history of an application.

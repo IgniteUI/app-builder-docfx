@@ -6,8 +6,26 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
+> Latest update was made on 13th of April, 2023.
 
-><b>Latest update was made on 6th of February, 2023.
+## April 2023 Release
+### Improvements
+- New code generation for Combo, Select and Dialog components (Blazor)
+- New toggle for unlicensed code export
+- Sample application updates - Team Collaboration, Ecommerce Auto Shop
+- Focus on bug fixing and general improvements
+
+## March 2023 Release
+### Features
+- New sample application - Health Vault
+
+### Improvements
+- Figma import story enhancements
+- Figma Material UI Kit 1.2
+- Figma Plugin upgrade
+- Focus on bug fixing and general improvements
+- Design System Model upgrade
+
 
 ## February 2023 Release
 ### Features

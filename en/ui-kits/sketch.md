@@ -29,7 +29,7 @@ App in Web App Builder from Sketch
 Step 4: Review or Download your Angular code
 You can choose to use the buttons in the upper right of the IDE to Generate App or Preview your app and see code. Here you can see the Preview option with your running app and your code of HTML, CSS or TypeScript.
 
-<img class="box-shadow" src="../images/download-project.PNG" />
+<img class="box-shadow" src="../images/download-project.png" />
 <p style="width: 100%; text-align:center;">Code generation</p>
 
 

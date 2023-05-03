@@ -14,7 +14,7 @@ The App Builder Data features let users add, edit and use external data source i
 
 If you have uploaded data sources in your application prior the removal of the 'Upload .json file' functionality, you will be notified that the request "Failed to retrieve from 'X' and is now switching to mock data response".
 
-<img class="box-shadow" src="./images/Failed to retrieve from.png" />
+<img class="box-shadow" src="./images/Failed to retrieve from.PNG" />
 <p style="text-align:center;">Failed to retrieve data from previously uploaded file</p>
 
 All added data sources are placed in the data toolbox and users can expand/collapse each data source in order to see the included tables and selected fields.
@@ -276,7 +276,7 @@ Keep in mind this is not a restriction on the data, for example it can be with m
 > [!NOTE]
 > Schema: The shape of the data for all the tables of the datasource
 
-<img class="box-shadow" src="./images/unable-to-infer-schema-full.png" />
+<img class="box-shadow" src="./images/unable-to-infer-schema-full.PNG" />
 <p style="text-align:center;">Unable to infer schema from data</p>
 
 ## Additional Resources

@@ -36,12 +36,12 @@ But do not confuse Web Components with a framework or a rendering library becaus
 
 Using the App Builder, you can now generate advanced Web Apps that benefit from using dependency-free components in a future-proof app dev strategy. When you are ready with your application go ahead and set the desired framework. Once the Web Components drop-down item is selected, you can hit "Download zip" in order to generate and download it.
 
-<img class="box-shadow" src="./images/wc-download-button.png" />
+<img class="box-shadow" src="./images/wc-download-button.PNG" />
 <p style="width: 100%; text-align:center;">Download button</p>
 
 If you want to have a quick look at the generated code, go to App Preview and toggle the Code View switch.
 
-<img class="box-shadow" src="./images/wc-code-generation.png" />
+<img class="box-shadow" src="./images/wc-code-generation.PNG" />
 <p style="width: 100%; text-align:center;">Code preview</p>
 
 ## Uploading an application to GitHub

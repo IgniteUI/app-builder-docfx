@@ -31,7 +31,7 @@ App Builder プロファイルに直接ログインするか、Indigo.Design で
 App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。
 
 App Builder サインイン
-<img src="./images/Standalone-AB.png" srcset="./images/Standalone-AB-@2x.png 2x" />
+<img src="./images/Standalone-AB.PNG" srcset="./images/Standalone-AB-@2x.png 2x" />
 
 Indigo.Cloud サインイン
 ![Indigo-Design-home-screen](./images/Indigo-Design-home-screen.gif)
