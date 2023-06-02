@@ -7,7 +7,7 @@ _keywords: App builder fluid layouts, Ignite UI, Infragistics
 # Responsive fluid layouts
 Fluid layouts are always a challenge to create. In this mini tutorial you will see how to quickly create a 3-column layout and then make it behave **responsive** when the screen size changes.
 
-<img class="responsive-img" src="../images/how-to/basic-structure.png" />
+![basic-structure](../images/how-to/basic-structure.png)
 
 This tutorial will show you how to use the Layout properties in App Builder to achieve this dynamic stacking effect. 
 <br>
@@ -27,7 +27,7 @@ This tutorial will show you how to use the Layout properties in App Builder to a
 >**Pro-Tip:** Remember that you can always add a new component to the canvas by using `Ctrl + E` / `Cmd + E`, which will speed up your app creation process!
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-1.png" />
+![step-1](../images/how-to/step-1.png)
 
 <br>
 
@@ -39,7 +39,7 @@ This tutorial will show you how to use the Layout properties in App Builder to a
   - Select all 6 **row layouts** with multiple-selection (shift + click) and change the alignment by setting `V.Align: center` and `H.Align: center`.
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-2.png" />
+![step-2](../images/how-to/step-2.png)
 
 <br>
 
@@ -49,7 +49,7 @@ This tutorial will show you how to use the Layout properties in App Builder to a
 - In the dropdown below, change the content alignment to `stretch`.
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-3.png" />
+![step-3](../images/how-to/step-3.png)
 
 <br>
 
@@ -63,7 +63,7 @@ In order for the stacking to happen, the three **Column layouts** inside that **
 - Click on **Edit** to continue editing your app.
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-4.png" />
+![step-4](../images/how-to/step-4.png)
 
 <br>
 
@@ -76,7 +76,7 @@ Finally, I would also like the first column to be wider than the other two. So w
 This will make the first column to take twice as much available space (horizontally) than the other 2.
 <br>
 
-<img class="responsive-img" src="../images/how-to/step-5.png" />
+![step-5](../images/how-to/step-5.png)
 
 <br>
 
@@ -85,7 +85,7 @@ This will make the first column to take twice as much available space (horizonta
 Here's the end result of our application in 3 different screen sizes.
 You can also check out the [live app here](https://appbuilder.indigo.design/app/ihyry6j7gpq5/preview)
 
-<img class="responsive-img" src="../images/how-to/final-result.png" />
+![final-result](../images/how-to/final-result.png)
 
 <div class="divider--half"></div>
 

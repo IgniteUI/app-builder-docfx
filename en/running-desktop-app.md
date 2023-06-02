@@ -15,7 +15,7 @@ Have in mind that when you download the <b>AppBuilder.AppImage</b> file on Linux
 2. Open terminal and write the following command <b>chmod +x AppBuilder.AppImage</b>. 
 3. Right click on the file, click on the <i> Run button</i> and the app will start.
 
-<img class="responsive-img" src="./images/run-app-image.png" />
+![run-app-image](./images/run-app-image.png)
 
 ### Proxy server limitations (Disconnected error)
 
@@ -34,7 +34,7 @@ _The detailed list is as follows: _
 - https://iam.infragistics.com (https 443) 
 
 
-<img class="responsive-img" src="./images/cant-connect-error.PNG" />
+![cant-connect-error](./images/cant-connect-error.PNG)
 <p style="text-align:center;">Disconnected error</p>
 
 ## Additional Resources

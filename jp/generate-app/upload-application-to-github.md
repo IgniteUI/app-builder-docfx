@@ -21,19 +21,19 @@ App Builder の優れた機能の 1 つに、コード生成サービスがあ�
 アプリケーションのデザインを完了し、そのコードをプレビューした後、完全なアプリ コード リポジトリを生成します。これを行うには、[アプリの生成] ボタンに移動し、GitHub アカウントを App Builder に接続します。ボタン メニューからアプリケーション ファイルをダウンロードすることもできます。
 
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/connect-to-github-@2x.png" srcset="../images/connect-to-github-@2x.png 2x" />App Builder を GitHub に接続する</p>
+<img class="box-shadow" src="../images/connect-to-github-@2x.png" srcset="../images/connect-to-github-@2x.png 2x" />App Builder を GitHub に接続する</p>
 
 GitHub アカウントでログインした後、Indigo.Design にアクセスしてアプリ コードが保存されるリポジトリを取得する必要があります。ここで、新しいリポジトリの作成または既存のリポジトリへの追加を選択できます。新しいリポジトリを作成する場合、アプリの名前を指定し、説明を追加して公開または非公開リポジトリを選択できます。準備ができたら、アプリのファイルを GitHub にアップロードし、新しい GitHub リポジトリを作成します。
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/pick-repository-publish-to-github-@2x.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
+<img class="box-shadow" src="../images/pick-repository-publish-to-github-@2x.png" srcset="../images/pick-repository-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">アプリケーションを GitHub の既存のリポジトリに公開する</p>
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/create-new-repo-publish-to-github-@2x.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
+<img class="box-shadow" src="../images/create-new-repo-publish-to-github-@2x.png" srcset="../images/create-new-repo-publish-to-github-@2x.png 2x" />
 <p style="text-align:center;">GitHub に新しいリポジトリを作成する</p>
 
 アップロード プロセスが完了したら、ユーザーは App Builder 内から GitHub リポジトリに変更を適用するか、[GitHub で表示] をクリックして GitHub で更新されたファイルを表示できます。
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
+<img class="box-shadow" src="../images/App-VSCode-Indigo-Design-App-Builder2.PNG" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
 <p style="text-align:center;">VS Code で実行されるアプリケーション</p>
 
 ## GitHub との統合機能
@@ -44,12 +44,12 @@ App Builder ではなく、コードを使用して外部でアプリケーシ�
 機能改善:
 - プルリクエストの関連ブランチで外部変更が行われた場合の警告。これらの変更を保持するには、現在のプルリクエストをマージしてから新しいリクエストを作成します。
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/gh-changes-not-yet-merged.png" srcset="../images/gh-changes-not-yet-merged.png 2x" />
+<img class="box-shadow" src="../images/gh-changes-not-yet-merged.PNG" srcset="../images/gh-changes-not-yet-merged.png 2x" />
 <p style="text-align:center;">'X' はこのブランチでまだマージされていない変更を加えました</p>
 
 - 他のアプリケーションまたはプラットフォームに対応するリポジトリが選択された場合の警告。
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/gh-repository-linked-to-another-platform.png" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
+<img class="box-shadow" src="../images/gh-repository-linked-to-another-platform.PNG" srcset="../images/gh-repository-linked-to-another-platform.png 2x" />
 <p style="text-align:center;">'X' リポジトリは、以前は 'Z' プラットフォームの 'Y' アプリを公開するために使用されていました</p>
 
 - アプリケーションの履歴で使用される異なるリポジトリ間を行き来できます。

@@ -18,12 +18,12 @@ The power of Swagger tools starts with the OpenAPI Specification — the industr
 
 - Available endpoints (/users) and operations on each endpoint (GET /users, POST /users)
 
-<img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/configure-endpoints.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/configure-endpoints.PNG" />
 <p style="width: 70%; text-align:center;">Configure Endpoints</p>
 
 - Operation parameters Input and output for each operation
 
-<img class="responsive-img" style="width: 70%; box-shadow: 5px -4px 13px 1px grey" src="./images/endpoint-params.png" />
+<img class="box-shadow" style="width: 70%;" src="./images/endpoint-params.PNG" />
 <p style="width: 70%; text-align:center;">Set Endpoints Parameters/Apps</p>
 
 - Authentication methods
@@ -31,7 +31,7 @@ The power of Swagger tools starts with the OpenAPI Specification — the industr
 
 API specifications can be written in YAML or JSON. The format is easy to learn and readable to both humans and machines. The complete OpenAPI Specification can be found on GitHub: [OpenAPI 3.0 Specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md). More about OpenAPI [here](https://swagger.io/docs/specification/about/).
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/swagger-demo-original.gif" />
+<img class="box-shadow" src="./images/swagger-demo-original.gif" />
 <p style="text-align:center;">Swagger demo</p>
 
 ## Specify Swagger definition
@@ -48,13 +48,13 @@ The right-side of the _Configure endpoints_ dialog consists of:
 - Tab elements for authorization, parameters and headers - if one is required, it will be marked as such.
 - Tab content section showing _info_ messages or required fields. Example image:
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/endpoints-dialog.png" />
+<img class="box-shadow" src="./images/endpoints-dialog.png" />
 <p style="text-align:center;">Configure Endpoints Dialog</p>
 
 ## Using data source from local network sources
 You can now make requests to a localhost or private networks. For more information, check out the [private networks usage section](using-data-in-your-app.md#using-data-source-from-local-network-sources) part of _Using data in your application_ topic
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="./images/internal-network-data-source.gif" />
+<img class="box-shadow" src="./images/internal-network-data-source.gif" />
 <p style="text-align:center;">Local network sources usage</p>
 
 

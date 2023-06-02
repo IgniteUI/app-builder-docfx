@@ -7,32 +7,32 @@ _keywords: App builder, Infragistics, Data Sources, Data Binding
 # Grid CRUD
 In this topic we'll show how to start using CRUD operations in the Grid as part of App Builder.
 
-App Builder is now providing a UI for the users to perform CRUD operations from within the grid. This is quite easy as the Grid provides Cell Editing, Row Editing, Row Adding and Row Deleting UI out of the box. We are going to use custom [Northwind CRUD API](https://data-northwind.indigo.design/swagger/index.html) ([more examples here](https://github.com/IgniteUI/app-builder-docfx/wiki/CRUD-API-Examples#northwind-crud-api)).
+App Builder is now providing a UI for the users to perform CRUD operations from within the grid. This is quite easy as the Grid provides Cell Editing, Row Editing, Row Adding and Row Deleting UI out of the box. We are going to use custom [Northwind CRUD API swagger definition](https://data-northwind.indigo.design/swagger/v1/swagger.json) and [UI](https://data-northwind.indigo.design/swagger/index.html) ([more examples here](https://github.com/IgniteUI/app-builder-docfx/wiki/CRUD-API-Examples#northwind-crud-api)).
 
 If the Grid is bound to a Customers table (Swagger path Image 1) the Data Interactions section will be loaded with the methods available for Customers, upon adding such interaction (Image 2).
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/swagger-customers-api.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/swagger-customers-api.png" />
 <p style="text-align:center;">Image 1: Swagger Configure Endpoints</p>
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/adding-data-interaction.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/adding-data-interaction.png" />
 <p style="text-align:center;">Image 2: Properties Panel -> Interactions</p>
 
 In the example below you will see how we use a Northwind Web API service to actually get all customers, pick a specific customer with **CustomerID** "BERGS" and update its **CompanyName** to "Testing the update". App Builder can make actual data request to alter the remote data if the end-user allows it through the prompt window (Turn on live-edit). Keep in mind there are two data access states upon App Preview. **Editor/authenticated user** part of the workspace will directly be prompted with the real-time changes states (image below). **Viewer/not part of the workspace user** will be notified that he doesn't have access to the real Web API and will be using mock data instead.
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/want-to-make-any-changes-question.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/want-to-make-any-changes-question.png" />
 <p style="text-align:center;">Turn on live-edit</p>
 
 A notification bar will be displayed at the bottom of the page warning the end-user that any change that is made would actually update the remote data. You can turn-off that feature by using the **Turn off live edit** action button.
 
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/turn-off-live-update.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/turn-off-live-update.png" />
 <p style="text-align:center;">Turn off live-edit</p>
 
 ## Grid CRUD Demo
 
 This is the whole CRUD process in action:
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/Grid-CRUD.gif" />
+<img class="box-shadow" src="../images/using-data-in-your-app/Grid-CRUD.gif" />
 <p style="text-align:center;">Grid CRUD operations</p>
 
 And what the generated code for the application would look like. This is how the application will directly access the data layer through a Web API calls that will be set for each of the CRUD operations.

@@ -13,12 +13,12 @@ You can customize the sharing experience with a toggle "Allow anyone to preview 
 
 There are also copy and direct share capabilities with the "copy link" and "twitter" buttons.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/share-and-preview-image-docfx.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-docfx.PNG" />
 <p style="width: 100%; text-align:center;">Share button</p>
 
 Share button is also available from the workspace view through the "more actions" icon of the application.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/share-and-preview-image-workspace.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/share-and-preview-image-workspace.PNG" />
 <p style="width: 100%; text-align:center;">Share button from Workspace</p>
 
 ## Preview and Edit application
@@ -33,25 +33,25 @@ If you share **app preview link** from your personal workspace with a **signed-i
 #### Edit link
 If you share **app edit link** from your personal workspace with a **signed-in user**, the latter wont have access to edit and will receive _You don't have access to edit_ message.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-edit-link.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-edit-link.PNG" />
 <p style="width: 100%; text-align:center;">You don't have access to edit</p>
 
 ### Signed-in user part of the app's workspace
 #### App preview link
 If you share **app preview link** with a **signed-in user** that is **part of the app's workspace**, the latter will have access to **preview and edit the app**. He will be able to also see **real data** if configured, not **mock data**. Data requests will be made with the encrypted token and the real data will be fetched.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/app-from-shared-workspace-signed-in-user-real-data.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/app-from-shared-workspace-signed-in-user-real-data.PNG" />
 <p style="width: 100%; text-align:center;">Shared workspace with real data</p>
 
 #### Edit link
 If you share **app edit link** with a **signed-in user** that is **part of the app's workspace** he will have access to edit the application if no one is currently editing it.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/hold-on-while-editing-app.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/hold-on-while-editing-app.PNG" />
 <p style="width: 100%; text-align:center;">Someone else is editing the app, hold on</p>
 
 If the user is not part of the workspace he will get _Only invited members can edit_ message.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/only-invited-members-can-edit.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/only-invited-members-can-edit.PNG" />
 <p style="width: 100%; text-align:center;">Only invited members can edit the app</p>
 
 ### Signed-in user with disabled link preview
@@ -59,13 +59,13 @@ You can always stop sharing an app by disabling the link share with the switch. 
 
 A "contact us" redirect button will be shown and "Sign out" button if you want to sign out from the App Builder.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-disabled-link.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-disabled-link.PNG" />
 <p style="width: 100%; text-align:center;">Access is restricted</p>
 
 ### Anonymous user app preview
 Application preview is available for Anonymous  users. Keep in mind that all edit operations will be disabled. Main menu is not loaded and only **Code view** is available. Anonymous users will always see **mock data** if REST API calls are configured within the app.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/anonymous-access-no-edit.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/anonymous-access-no-edit.PNG" />
 <p style="width: 100%; text-align:center;">Anonymous access preview</p>
 
 ### Anonymous user accessing application from a personal workspace
@@ -74,7 +74,7 @@ If Anonymous (not signed in) user is accessing the application he will be able t
 ### Anonymous user with disabled link preview
 Anonymous users won't have access to restricted applications. You can always use the "Get started for free" button and create a trial account to try out all  the other available App Builder features.
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/share-edit-and-preview/anonymous-access-disabled-share.png" />
+<img class="box-shadow" src="./images/share-edit-and-preview/anonymous-access-disabled-share.PNG" />
 <p style="width: 100%; text-align:center;">Access is restricted, anonymous users</p>
 
 ## Additional Resources

@@ -20,7 +20,7 @@ To finally develop the app, you don't need to copy and paste code. Instead, use 
 * Once that is done, type `npm start` to compile and launch the app.<br>
  
  
-<img class="responsive-img" src="../images/App-VSCode-Indigo-Design-App-Builder2.png" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
+<img src="../images/App-VSCode-Indigo-Design-App-Builder2.PNG" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
 <p style="text-align:center;">An application running in VSCode</p>
 
 The App Builder allows you to design your applications visually using professional grade Ignite UI components, and then you are able to generate the as Angular or Blazor application applications that you can continue developing in your IDE of choice. In the end, you are guaranteed that what you designed in the App Builder design surface looks exactly the same when the app is generated and built. Don't forget to share your feedback using the feedback button. We look forward to hearing about your experience and also about what features are valuable to you as we move forwards to our next release milestones. 

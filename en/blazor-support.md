@@ -14,7 +14,7 @@ For a list of Blazor components availability see [Generate App](generate-app/gen
 You can generate both Blazor Web Assembly or Blazor Server apps based on your preferences and requirements.
 
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="./images/blazor-introduction.png" />
+<img class="box-shadow" src="./images/blazor-introduction.PNG" />
 <p style="width: 100%; text-align:center;">Blazor Code Generation from AppBuilder</p>
 
 > [!NOTE]

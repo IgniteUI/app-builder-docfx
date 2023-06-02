@@ -8,32 +8,32 @@ _language: ja
 # Grid CRUD
 このトピックでは、App Builder の一部としてグリッドで CRUD 操作の使用を開始する方法を示します。
 
-App Builder は、ユーザーがグリッド内から CRUD 操作を実行するための UI を提供するようになりました。グリッドはすぐに使えるセル編集、行編集、行追加、行削除 UI を提供するため、これは非常に簡単です。
+App Builder は、ユーザーがグリッド内から CRUD 操作を実行するための UI を提供するようになりました。グリッドはすぐに使えるセル編集、行編集、行追加、行削除 UI を提供するため、これは非常に簡単です。カスタム [Northwind CRUD API Swagger 定義](https://data-northwind.indigo.design/swagger/v1/swagger.json)と [UI](https://data-northwind.indigo.design/swagger/index.html) ([その他の例はこちら](https://github.com/IgniteUI/app-builder-docfx/wiki/CRUD-API-Examples#northwind-crud-api)) を使用します。
 
 Grid が Customers テーブルにバインドされている場合 (Swagger パスの画像 1)、Data Interactions セクションは、そのような対話を追加すると、Customers で使用可能なメソッドと共に読み込まれます (画像 2)。
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/swagger-customers-api.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/swagger-customers-api.png" />
 <p style="text-align:center;">画像 1: Swagger エンドポイントの設定</p>
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/adding-data-interaction.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/adding-data-interaction.png" />
 <p style="text-align:center;">画像 2: プロパティ パネル -> インタラクション</p>
 
 以下の例では、Northwind Web API サービスを使用して実際にすべての顧客を取得し、**CustomerID** "BERGS" を持つ特定の顧客を選択し、**CompanyName** を "Testing the update" に更新する方法を示します。App Builder は、エンド ユーザーがプロンプト ウィンドウ (ライブ編集をオンにする) で許可した場合、リモート データを変更する実際のデータ リクエストを行うことができます。アプリのプレビューには 2 つのデータ アクセス状態があることに注意してください。ワークスペースの**編集者/認証済みユーザー**の部分は、リアルタイムの変更状態で直接プロンプトが表示されます (以下の画像を参照)。**閲覧者/ワークスペースに参加していないユーザー**には、実際の Web API へのアクセス権がなく、代わりにモック データを使用することが通知されます。
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/want-to-make-any-changes-question.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/want-to-make-any-changes-question.png" />
 <p style="text-align:center;">ライブ編集をオンにする</p>
 
 ページの下部に通知バーが表示され、変更を行うと実際にリモート データが更新されることをエンド ユーザーに警告します。**[ライブ編集をオフにする]** アクション ボタンを使用して、その機能をオフにすることができます。
 
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/turn-off-live-update.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/turn-off-live-update.png" />
 <p style="text-align:center;">ライブ編集をオフにする</p>
 
 ## Grid CRUD デモ
 
 これは、実際の CRUD プロセス全体です。
 
-<img class="responsive-img" style="box-shadow: 5px -4px 13px 1px grey" src="../images/using-data-in-your-app/Grid-CRUD.gif" />
+<img class="box-shadow" src="../images/using-data-in-your-app/Grid-CRUD.gif" />
 <p style="text-align:center;">Grid CRUD 操作</p>
 
 アプリケーション用に生成されたコードは次のようになります。これは、CRUD 操作ごとに設定される Web API 呼び出しを介して、アプリケーションがデータ層に直接アクセスする方法です。

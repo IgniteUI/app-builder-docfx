@@ -11,7 +11,7 @@ Crafted from the ground-up to equip designers with a modern and easy-to-use arse
 > [!NOTE]
 > Download [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e), [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5) and [Sample apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
 
-<img class="responsive-img" style="width: 100%; box-shadow: 5px -4px 13px 1px grey" src="../images/app-is-ready-xd.png" />
+<img class="box-shadow" src="../images/app-is-ready-xd.png" />
 <p style="width: 100%; text-align:center;">Adobe XD Plugin</p>
 
 **How to Convert Adobe XD to HTML Code using App Builder?**

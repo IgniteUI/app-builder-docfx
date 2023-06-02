@@ -31,10 +31,10 @@ App Builder プロファイルに直接ログインするか、Indigo.Design で
 App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。
 
 App Builder サインイン
-<img class="responsive-img" src="./images/Standalone-AB.png" srcset="./images/Standalone-AB-@2x.png 2x" />
+<img src="./images/Standalone-AB.PNG" srcset="./images/Standalone-AB-@2x.png 2x" />
 
 Indigo.Cloud サインイン
-<img class="responsive-img" src="./images/Indigo-Design-home-screen.gif" />
+![Indigo-Design-home-screen](./images/Indigo-Design-home-screen.gif)
 <p style="text-align:center;">Indigo.Design ホーム画面</p>
 
 [App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を初めて起動したときに表示されるのは、簡単なオンボーディング ツアーを提案するポップアップ ウィンドウです。次に表示されるのは、[新しいプロジェクト] の作成ダイアログです。新しいアプリを開始する方法は 4 つあります:
@@ -43,23 +43,23 @@ Indigo.Cloud サインイン
 3. <b>既定のレイアウト</b> - 定義済みの基本レイアウトを使用して新しいアプリケーションを作成します。
 4. <b>Blank (空白)</b> - 新しいアプリを最初から作成します。
 
-<img class="responsive-img" src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
+<img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">[新しいプロジェクト] ダイアログ</p>
 
 注: App Builder にアクセスすると、デザイン時に App Builder を終了せずに、アプリ内のサイド メニューからアクティブなアプリケーションを簡単に切り替えたり、App Builder のワークスペースに戻ることができます。
 
-<img class="responsive-img" src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
+<img src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">サイド メニュー</p>
 
 
 ## コードの取得
 App Builder は、常にライブ実行中の Web アプリケーションをデザイン画面とプレビュー ウィンドウの両方に表示します。基になるコードとアプリケーション モデルは、デザイン画面でアプリケーションに変更を加えると、リアルタイムで更新されます。生成されたアプリケーション コードはプレビュー ウィンドウでいつでも表示できます。また、生成されたアプリケーションを完全なアプリケーション コード リポジトリとしてダウンロードして、選択したコード エディターで開くこともできます。次に、App Builder を使用してデザインしたアプリケーションをマシン上でローカルにビルドして実行し、生成されたコードに追加の変更を加えることができます。
  
-<img class="responsive-img" src="./images/Preview-App-Indigo-Design-App-Builder.png" srcset="./images/Preview-App-Indigo-Design-App-Builder@2x.png 2x" />
+<img src="./images/Preview-App-Indigo-Design-App-Builder.png" srcset="./images/Preview-App-Indigo-Design-App-Builder@2x.png 2x" />
 <p style="text-align:center;">アプリケーション プレビュー ウィンドウ</p>
 
 
-<img class="responsive-img" src="./images/App-VSCode-Indigo-Design-App-Builder.png" srcset="./images/App-VSCode-Indigo-Design-App-Builder@2x.png 2x" />
+<img src="./images/App-VSCode-Indigo-Design-App-Builder.png" srcset="./images/App-VSCode-Indigo-Design-App-Builder@2x.png 2x" />
 <p style="text-align:center;">生成されたアプリケーションのコードを VS Code で実行する</p>
 
 
@@ -75,7 +75,7 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 
 オンプレミス ソリューションの[インストール方法に関する技術的な詳細](on-prem-prerequisites-and-installation.md)については、このトピックを参照してください。
 
-<img class="responsive-img" src="./images/on-premises-ab-demo.gif" />
+![on-premises-ab-demo](./images/on-premises-ab-demo.gif)
 <p style="text-align:center;">オンプレミス版</p>
 
 ## 作成したアプリをローカルで実行する
