@@ -10,12 +10,11 @@ You can now add a Reveal Dashboard directly from the App Builder Toolbox and spe
 When the Reveal Dashboard is loaded you can specify a Dashboard name out of the four available options - Marketing, Sales, Campaigns, and Manufacturing. We do host our own server for testing purposes only. Upon export, you will get a reference to our Trial server (base URL) exposing only the Marketing dashboard for demo purposes.
 
 > [!NOTE]
-> [Check out this live application showcasing the power of Reveal](https://appbuilder.indigo.design/app/hddwklxctko2/preview/077d9549-f7cb-4a91-984a-e0559dd92015).
+> [Read more](https://help.revealbi.io/web/overview/) about Reveal as a business intelligence solution.
 
-> [!NOTE]
-> [Read more about Reveal as a business inteligence solution](https://help.revealbi.io/web/overview/).
+<iframe id="frame" style="aspect-ratio: 4/3; width: 100%;" src="https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview"/>
 
 ## Known issues and limitations
-- Using Custom Theme with font that contain spaces doesn't affect text inside visualizations.
-- Reveal View resizing problems when Display scale is different than 100%
-- Editing dashboards in App Builer Preview might lead to unexpected errors from the server. **Workaround:** set Padding of the wrapping (parent) Reveal Dashboard. [Example](https://appbuilder.indigo.design/app/hddwklxctko2/preview/077d9549-f7cb-4a91-984a-e0559dd92015) with padding of the step container where the reveal dashboard is places.
+- Using Custom Theme with font that contains spaces doesn't affect text inside visualizations.
+- Reveal View resizing problems when Display scale is different than 100%. **Workaround:** set Padding of the wrapping (parent) Reveal Dashboard. [Example](https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview) with padding of the step container where the reveal dashboard is places.
+- Editing dashboards in App Builder Preview might lead to unexpected errors from the server.
