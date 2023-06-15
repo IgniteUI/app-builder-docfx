@@ -15,6 +15,10 @@ When the Reveal Dashboard is loaded you can specify a Dashboard name out of the 
 <iframe id="frame" style="aspect-ratio: 4/3; width: 100%;" src="https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview"/>
 
 ## Known issues and limitations
+- Only one base URL binding is supported per view. If two or more Reveal dashboards are added to the App Builder View, they should be using the same base URL.
 - Using Custom Theme with font that contains spaces doesn't affect text inside visualizations.
-- Reveal View resizing problems when Display scale is different than 100%. **Workaround:** set Padding of the wrapping (parent) Reveal Dashboard. [Example](https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview) with padding of the step container where the reveal dashboard is places.
-- Editing dashboards in App Builder Preview might lead to unexpected errors from the server.
+- App Preview:
+  - Reveal View resizing problems when Display scale is different than 100%, noticeable with the vertical/horizontal scrollbar. **Workaround:** set Padding of the wrapping (parent) Reveal Dashboard. [Example](https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview) with padding of the step container where the reveal dashboard is places.
+  - Editing dashboards in App Builder Preview might lead to unexpected errors from the server *Unexpected error - Quill is not defined*
+- Upon code export:
+  - There might be sizing problems when you interact with the dashboard elements and expand/collapse them. The Reveal placeholder is sizing itself properly when the whole browser window is resized, although thats not the case for the internal elements sizing changes. 
