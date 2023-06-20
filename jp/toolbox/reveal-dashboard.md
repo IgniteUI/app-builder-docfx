@@ -11,7 +11,7 @@ App Builder ツールボックスから Reveal ダッシュボードを直接追
 Reveal ダッシュボードが読み込まれると、Marketing (マーケティング)、Sales (販売)、Campaigns (キャンペーン)、Manufacturing (製造) の 4 つの使用可能なオプションからダッシュボード名を指定できます。テスト目的のみに独自のサーバーをホストしています。エクスポートすると、デモ目的で Marketing ダッシュボードのみを公開するトライアル サーバー (ベース URL) への参照が取得されます。
 
 > [!NOTE]
-> ビジネス インテリジェンス ソリューションとしての Reveal についての詳細は[こちら](https://help.revealbi.io/web/overview/)です。
+> ビジネス インテリジェンス ソリューションとしての Reveal についての詳細は[こちら](https://help.revealbi.io/ja/web/overview/)です。
 
 <iframe id="frame" style="aspect-ratio: 4/3; width: 100%;" src="https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview"/>
 
