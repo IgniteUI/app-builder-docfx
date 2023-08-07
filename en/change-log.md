@@ -6,7 +6,28 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 25th of May, 2023.
+> Latest update was made on 1st of August, 2023.
+
+## August 2023 Release
+### Features
+- Added Combo **Single Selection** feature.
+- Added support for **Material Extended Icons**.
+- New Stepper **navigation actions**.
+- New Indigo.Design UI Kit for **Fluent 1.3**.
+- NewIndigo.Design UI Kit for **Material 1.3**.
+### Improvements
+- Angular apps are generated using **Ignite UI for Angular `16.0.15`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.15)).
+- Bug fixes and general improvements.
+
+## June 2023 Release
+### Features
+- Added **Grid Column Templating** - Header, Cell display and Cell editing
+- UI for browsing and navigation through schema entities in OpenAPI definition
+- Toolbox components linked to relevant help documentation
+### Improvements
+- Angular apps are generated using **Ignite UI for Angular `16.0.0`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.0))
+- Travel App: improvements for the background positioning of images
+- Bug fixes and general improvements.
 
 ## May 2023 Release
 ### Features
