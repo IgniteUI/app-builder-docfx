@@ -13,7 +13,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Added Combo **Single Selection** feature.
 - Added support for **Material Extended Icons**.
 - New Stepper **navigation actions**.
-- New [Indigo.Design UI Kit versions](https://www.figma.com/@infragistics) for both **Fluent 1.3** and **Material 1.3**.
+- New [Indigo.Design UI Kit version 1.3](https://www.figma.com/@infragistics) for both **Fluent** and **Material**.
 
 ### Improvements
 - Angular apps are generated using **Ignite UI for Angular `16.0.15`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.15)).
