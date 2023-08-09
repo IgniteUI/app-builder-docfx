@@ -7,7 +7,28 @@ _language: ja
 # App Builder - 変更ログ
 
 > [!NOTE]
-> 最新の更新は 2023 年 5 月 25 日に行われました。
+> 最新の更新は 2023 年 8 月 1 日に行われました。
+
+## 2023 年 8 月リリース
+### 機能
+- Combo の**単一選択** 機能を追加しました。
+- **Material Extended Icons** のサポートを追加しました。
+- 新しい Stepper **ナビゲーション操作**を追加しました。
+- **Fluent 1.3** 用の新しい Indigo.Design UI キット
+- **Material 1.3** 用の新しい Indigo.Design UI キット
+### 機能改善
+- Angular アプリは **Ignite UI for Angular `16.0.15`** を使用して生成されるようにしました。([変更ログ](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.15))
+- バグ修正と全般的改善。
+
+## 2023 年 6 月リリース
+### 機能
+- **グリッド列テンプレート** - ヘッダー、セル表示、セル編集を追加しました。
+- OpenAPI 定義のスキーマ エンティティを参照およびナビゲーションするための UI を追加しました。
+- ツールボックス コンポーネントは関連するヘルプ ドキュメントにリンクされていました。
+### 機能改善
+- Angular アプリは **Ignite UI for Angular `16.0.0`** を使用して生成されるようにしました。([変更ログ](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.0))
+- Travel アプリ: 画像の背景位置の改善。
+- バグ修正と全般的改善。
 
 ## 2023 年 5 月リリース
 ### 機能
