@@ -99,6 +99,13 @@
   href: ../web-components-support.md
   new: true
   updated: false
+- name: Toolbox Components
+  new: true
+  items:
+    - name: Reveal Dashboard
+      href: ../toolbox/reveal-dashboard.md
+      new: true
+      updated: false
 - name: Generate App
   href: ../generate-app/generate-app-overview.md
   new: false

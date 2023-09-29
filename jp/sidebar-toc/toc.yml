@@ -99,6 +99,13 @@
   href: ../web-components-support.md
   new: true
   updated: false
+- name: ツールボックス コンポーネント
+  new: true
+  items:
+    - name: Reveal ダッシュボード
+      href: ../toolbox/reveal-dashboard.md
+      new: true
+      updated: false
 - name: アプリの生成
   href: ../generate-app/generate-app-overview.md
   new: false

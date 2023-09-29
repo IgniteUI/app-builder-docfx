@@ -6,7 +6,42 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 13th of April, 2023.
+> Latest update was made on 1st of August, 2023.
+
+## August 2023 Release
+### Features
+- Added Combo **Single Selection** feature.
+- Added support for **Material Extended Icons**.
+- New Stepper **navigation actions**.
+- New [Indigo.Design UI Kit version 1.3](https://www.figma.com/@infragistics) for both **Fluent** and **Material**.
+
+### Improvements
+- Angular apps are generated using **Ignite UI for Angular `16.0.15`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.15)).
+- Bug fixes and general improvements.
+
+## June 2023 Release
+### Features
+- Added **Grid Column Templating** - Header, Cell display and Cell editing
+- UI for browsing and navigation through schema entities in OpenAPI definition
+- Toolbox components linked to relevant help documentation
+### Improvements
+- Angular apps are generated using **Ignite UI for Angular `16.0.0`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.0))
+- Travel App: improvements for the background positioning of images
+- Bug fixes and general improvements.
+
+## May 2023 Release
+### Features
+- Added **Stepper** and **Reveal Dashboard** to the component toolbox.
+- Switch between **licensed vs. unlicensed packages** when generating apps.
+
+### Improvements
+- Improved layout heuristics to create **CSS Flexbox layouts from Figma designs** that use Auto-layout.
+- Updated **Figma Material UI Kit** to **v1.3**.
+- Updated **Figma plugin** to create apps using theme palette and **Dark theme**.
+- Automatically extract SVG and PNG as image assets when creating apps from Figma design files.
+- Unified dropdown in App menu to download design system resources and to join our Discord channel.
+- Updated **sample apps** - Travel app, Team Collaboration, Ecommerce Auto Shop and HR Portal.
+- Bug fixes and general improvements.
 
 ## April 2023 Release
 ### Improvements
