@@ -47,6 +47,7 @@ Alternatively run `npm run infragistics-login` for a guided login to our license
 ## Supported Components
 
 Currently, the App Builder supports code generation for Angular and Blazor. Below is a list of supported components per platform:
+
 | Component              | Angular            | Blazor             | Web Components     |
 |------------------------|--------------------|--------------------|--------------------|
 | **Layouts**                                                                           |
@@ -96,6 +97,8 @@ Currently, the App Builder supports code generation for Angular and Blazor. Belo
 | Banner                 | :heavy_check_mark: | :x:                | :x:                |
 | Dialog Window          | :heavy_check_mark: | :x:                | :x:                |
 | Snackbar               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Reveal Dashboard       | :heavy_check_mark: | :x:                | :x:                |
+
 
 > Note: Partially generated components are marked with :construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for Blazor components.
 

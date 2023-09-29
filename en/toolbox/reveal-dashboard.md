@@ -15,6 +15,7 @@ When the Reveal Dashboard is loaded you can specify a Dashboard name out of the 
 <iframe id="frame" style="aspect-ratio: 4/3; width: 100%;" src="https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview"/>
 
 ## Known issues and limitations
+- Reveal dashboard Code generation is available **only for Angular.**
 - Only one base URL binding is supported per view. If two or more Reveal dashboards are added to the App Builder View, they should be using the same base URL.
 - Using Custom Theme with font that contains spaces doesn't affect text inside visualizations.
 - App Preview:
