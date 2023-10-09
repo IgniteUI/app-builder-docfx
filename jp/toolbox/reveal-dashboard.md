@@ -16,6 +16,7 @@ Reveal ダッシュボードが読み込まれると、Marketing (マーケテ�
 <iframe id="frame" style="aspect-ratio: 4/3; width: 100%;" src="https://appbuilder.indigo.design/app/wrwn5yv0tcjg/preview"/>
 
 ## 既知の問題と制限
+- Reveal ダッシュボード コード生成は **Angular でのみ**利用可能です。
 - ビューごとに 1 つのベース URL バインディングのみがサポートされます。2 つ以上の Reveal ダッシュボードが App Builder ビューに追加される場合、それらは同じベース URL を使用する必要があります。
 - スペースを含むフォントでカスタム テーマを使用しても、可視化内のテキストには影響しません。
 - アプリケーションのプレビュー:
