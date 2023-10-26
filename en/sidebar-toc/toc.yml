@@ -68,6 +68,10 @@
     - name: Grid CRUD Operations
       href: ../using-data-in-your-app/crud-operations.md
       new: true
+- name: Master-detail style apps
+  href: ../master-detail/master-detail.md
+  new: true
+  updated: false
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:
