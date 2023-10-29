@@ -8,7 +8,8 @@ _keywords: App builder, Infragistics, Data Sources, Data Binding
 
 Initially, this feature was planned to follow the basics of the Master-detail design interface. But it evolved into something much more. We are all familiar with the essence of the Master-detail pattern, it is a way to present a list of records and enable the user to manage them with ease. It usually comprises two views - One is the master list of records and the other is used to display extended data about a single record. 
 
--IMAGE of master detail-
+<img src="../images/state-and-context/1.png" srcset="../images/state-and-context/1.png 2x" />
+<p style="text-align:center;">Master-detail example</p>
 
 The new feature covers these key elements established by the Master-detail pattern:  
 
@@ -16,7 +17,8 @@ The new feature covers these key elements established by the Master-detail patte
 - Details pane: This area shows the details of the item you select in the Primary pane area. It can consist of a variety of components that interact with each other aiming to show as much information as possible based on the data you have provided.  
 - Interactions: This is about the interactions between the items in the master and their details. For example, if you select an item in the master, the details could be displayed in the pane next to the Master pane, or in a pop-up, or you could drill down more pages. You could broadly classify the interactions into context, drill-downs, and pop-ups.  
 
--IMAGE-
+<img src="../images/state-and-context/2.png" srcset="../images/state-and-context/2.png 2x" />
+<p style="text-align:center;">Master-detail AB Preview</p>
 
 **Let's dive into more details about each of these features.**
 
@@ -31,7 +33,8 @@ Variables can be of type String, Number, Boolean, Date, Object, and Array.
 
 For any of the primitive types you can specify a Default value with a value editor, as for Array and Object, you can pick an endpoint or Schema type from the fly-out menu. We list those based on the available data source schemas in your app. 
 
--IMAGE-
+<img src="../images/state-and-context/3.png" srcset="../images/state-and-context/3.png 2x" />
+<p style="text-align:center;">Managing Variables</p>
 
 How to:
 - Create a Variable - through the Interactions section of the components or the Variables section in the Views properties panel. 
@@ -45,13 +48,14 @@ You can now manage your variables through the Interactions section for the speci
 
 For example, if you add a Combo bound to the Financial -> Box Office Revenue table, and add a Selection Changed event handler, with Set Variable Action, you can pick the Variable field and use the “+ new variable” button.  
 
--IMAGE-
- 
--IMAGE-
+<img src="../images/state-and-context/4.png" srcset="../images/state-and-context/4.png 2x" />
+<p style="text-align:center;">Through component's event handler</p>
+
 
 Clicking this will open the New Variable dialog with the Data type already pre-filled for you, based on the Combo Data source type (Box office revenue) and the Combo selection mode. Why? If Single-selection mode is specified, the variable is expected to use a single object (Box office revenue) and if multi-selection mode is used, it should use an array of objects (Array of Box office revenues), as it is in our case.  
 
--IMAGE-
+<img src="../images/state-and-context/5.png" srcset="../images/state-and-context/5.png 2x" />
+<p style="text-align:center;">New Variable dialog</p>
 
 We consider this as the main flow of Variable creation as it is part of the application lifecycle creation: 
 
@@ -67,13 +71,15 @@ We consider this as the main flow of Variable creation as it is part of the appl
 
 .. and use this variable later on within your app. 
 
--IMAGE-
+<img src="../images/state-and-context/6.gif" srcset="../images/state-and-context/6.gif 2x" />
+<p style="text-align:center;">User flow video</p>
 
 ### Create a variable through the Variables section. 
 
 From there you can open a dialog to create and edit variables. There is a validation in place that will guide you through the naming process. There are two ways to set a variable type, whether by specifying it as a type from the predefined in the drop-down menu or through the automatic initialization from an API request (by selecting an endpoint). With that option, the Data Type will be automatically picked based on the Schema data type of the selected endpoint.  
 
--IMAGE-
+<img src="../images/state-and-context/7.png" srcset="../images/state-and-context/7.png 2x" />
+<p style="text-align:center;">Create Variable</p>
 
 In the section below you will find more details on how to make use of the Variables. 
 
@@ -83,13 +89,15 @@ You can now store data in a Variable and use it in the data context for any of t
 
 Let's look at a concrete example. If I want to get the data from a /Customers endpoint request and later bind it to a Combo component, this can now be easily achieved. While creating the Variable click on the checkbox “Initialize with data from an API request”. This will result in getting an Array of Customers. 
 
--IMAGE-
+<img src="../images/state-and-context/8.gif" srcset="../images/state-and-context/8.gif 2x" />
+<p style="text-align:center;">Initialize data from and endpoint</p>
 
 ### Set a variable value through Component Event context or Data context.  
 
 This functionality allows you to dynamically fill an empty variable with data. Start by creating an empty variable of type Customers Array. You can do that by opening the Data type dropdown from the Create/edit Variable dialog and pick the “array” item and then the data source. In the example’s case that would be /Customers. Let us name the variable `selectedCustomers`. The gif below shows you how to create such a variable and start filling it with data upon Combo value selection changing. The last step of this scenario would be to bind a Grid component, for example, to the `selectedCustomers` array. 
 
--IMAGE-
+<img src="../images/state-and-context/9.gif" srcset="../images/state-and-context/9.gif 2x" />
+<p style="text-align:center;">Example with Event and Data contexts</p>
 
 A similar scenario is listed as part of the next Binding to Components section although the focus there would be properties binding rather than setting a Variable value. 
 
@@ -103,19 +111,23 @@ Imagine that I have a collection of Movies and I want to show a list of details 
 
 - Bind the Movies collection to a component with multiple selection capabilities (Combo) and follow the flow that we covered above, of adding an event handler and Set Variable action. 
 
--IMAGE-
+<img src="../images/state-and-context/4.png" srcset="../images/state-and-context/4.png 2x" />
+<p style="text-align:center;">Array type variable</p>
 
 - Create an empty Array variable of type Box Office Revenue. The Data Type will be pre-filled for me, based on the Data Source provided for the Combo component. 
 
--IMAGE-
+<img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
+<p style="text-align:center;">New Variable dialog</p>
 
 - Add a card component and bind it to the newly created variable "selectedMovies". Bind Title and Subtitle properties to data fields from the Data Context: 
 
--IMAGE-
+<img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
+<p style="text-align:center;">Data context binding</p>
 
 Here is the result of our changes: 
 
--IMAGE-
+<img src="../images/state-and-context/12.gif" srcset="../images/state-and-context/12.gif 2x" />
+<p style="text-align:center;">Result</p>
 
 ### Cross-view communication with Global variables. 
 
@@ -132,13 +144,15 @@ This means that you can use Global variables across different Master and Child v
 
 If you specify the data endpoint that expects path/query parameters, now you can specify them and once present a data request will be made fetching the data based on the provided parameter. Example with Grid bound to Customers Orders, based on “CustomerID” path parameter 
 
--IMAGE-
+<img src="../images/state-and-context/13-path-param-customer-orders.gif" srcset="../images/state-and-context/13-path-param-customer-orders.gif 2x" />
+<p style="text-align:center;">Data requests</p>
 
 ### Data repeaters 
 
 Another example would be repeating a Tree node component through Orders collection fetched based on selected Customer ID. Observe the difference, now we bind it to a Data repeat context. 
 
--IMAGE-
+<img src="../images/state-and-context/14-path-param-customer-orders-tree.gif" srcset="../images/state-and-context/14-path-param-customer-orders-tree.gif 2x" />
+<p style="text-align:center;">Data repeaters</p>
 
 ## Working with events 
 
@@ -152,15 +166,18 @@ Grid and Combo components expose a way to set Selection modes, we dynamically ch
 
 Let us take an example, a Combo component bound to an Array of Customers with a Single selection mode will pass a Customer Object through the Event context for the selected Item. 
 
--IMAGE-
+<img src="../images/state-and-context/15-selection-mode-examples.gif" srcset="../images/state-and-context/15-selection-mode-examples.gif 2x" />
+<p style="text-align:center;">Working with events</p>
 
 Every component part of the App Builder has an OnClick event handler that can be used in the context of a Variable. In the case of the Select item, if there is repeated data bound to it, you can access the Data Context for a particular item through the On Click -> Set variable action and use it to modify a Variable value. Example with a tree below:  
 
--IMAGE-
+<img src="../images/state-and-context/16-onClick-example.png" srcset="../images/state-and-context/16-onClick-example.png 2x" />
+<p style="text-align:center;">On click example</p>
 
 A note for Combo usage with `valueKey` set. The way combo works is to pass a primitive value on the Selection changed event, if for example a CustomerID is set, it will pass a Number, if CustomerName is set it will pass a string. 
 
--IMAGE-
+<img src="../images/state-and-context/17-valueKey-example.png" srcset="../images/state-and-context/17-valueKey-example.png 2x" />
+<p style="text-align:center;">Combo Value key note</p>
 
 ## Step-by-step examples 
 
@@ -174,13 +191,17 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 3. Go to the other view, where the Grid is bound to an API request fetching orders based on that CustomerID 
 4. The Grid should be updated with the selected CustomerID (from the Combo) 
 
--IMAGE-
--IMAGE-
+<img src="../images/state-and-context/18.png" srcset="../images/state-and-context/18.png 2x" />
+<p style="text-align:center;">Selection Changed event</p>
+
+<img src="../images/state-and-context/20.png" srcset="../images/state-and-context/20.png 2x" />
+<p style="text-align:center;">CustomerID Variable</p>
 
 5. Upon clicking on Order from the Orders grid, load another Grid with OrderDetails 
 6. Result 
 
--IMAGE-
+<img src="../images/state-and-context/21.png" srcset="../images/state-and-context/21.png 2x" />
+<p style="text-align:center;">Result</p>
   
 ### Use case 2
 **Tree bound to Hierarchical data source loading data for Grid and Chart** 
@@ -188,22 +209,30 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 1. Add a Tree component and bind its parent to a Hierarchical data source (Repeated data context). 
 2. Bind the parent tree node On Click event to a Set variable action that stores the CustomerID - String variable 
 
--IMAGE-
+<img src="../images/state-and-context/22.png" srcset="../images/state-and-context/22.png 2x" />
+<p style="text-align:center;">Tree node binding</p>
 
 3. Add a Tree child node and repeat to the Parent data context. Bind the child tree node On Click event to a Set variable action that stores the OrderID - Number variable 
 
--IMAGE-
+<img src="../images/state-and-context/23.png" srcset="../images/state-and-context/23.png 2x" />
+<p style="text-align:center;">Child node binding</p>
 
 4. Ensure the root tree element shows the Customer and the child tree node shows the Orders 
 5. Bind a Grid to an endpoint that fetches Orders based on the OrderID variable as a query param 
 
--IMAGE-
+<img src="../images/state-and-context/24.png" srcset="../images/state-and-context/24.png 2x" />
+<p style="text-align:center;">Bind Grid to Orders data</p>
 
-6. Bind the Chart to an endpoint that fetches Customers based on the CustomerID variable as a query param 
+6. Bind the Chart to an endpoint that fetches Customer orders history based on the CustomerID variable as a query param 
 
--IMAGE-
+<img src="../images/state-and-context/25.png" srcset="../images/state-and-context/25.png 2x" />
+<p style="text-align:center;">Bind Chart to Customer Orders History table</p>
 
 7. Result 
+
+<img src="../images/state-and-context/26.png" srcset="../images/state-and-context/26.png 2x" />
+<p style="text-align:center;">Tree + Grid + Chart Result</p>
+
 
 ## Known issues and limitations
 

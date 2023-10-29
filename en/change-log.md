@@ -6,7 +6,18 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 1st of August, 2023.
+> Latest update was made on 31st of October, 2023.
+
+## October 2023 Release
+### Features
+- **Create and edit variables** to pass data between components (local vars) or views (global vars).
+- **Initialize value of array/object** variable from an API request.
+- Update target variable's value using **"Set Variable"** action, when defining a user interaction (event).
+- Use **"Selection changed"** or **"on Click"** events to update variables.
+- **Bind component properties** to variable's value or nested data-fields for object type variables.
+- **Bind component data** to API endpoints with URL params (path and query params).
+### Improvements
+- Bug fixes and general improvements.
 
 ## August 2023 Release
 ### Features
