@@ -279,6 +279,25 @@ Keep in mind this is not a restriction on the data, for example it can be with m
 <img class="box-shadow" src="./images/unable-to-infer-schema-full.PNG" />
 <p style="text-align:center;">Unable to infer schema from data</p>
 
+### Download/Upload definition from local network source
+Downloaded OpenAPI files dot not contain server URL information and it cannot infer the server base address. This will happen if you do not specify the localhost URL directly through the Add URL source and instead Upload it as definition, you will get an empty Base URL.
+
+<img class="box-shadow" style="width: 70%;" src="./images/empty-definition-error.png" />
+<p style="width: 70%; text-align:center;">Missing Base URL</p>
+
+In order to overcome this problem you should add the server base address relative to the server's host in your `Solution/Program.cs` file
+
+```
+app.UseSwagger(c =>
+{
+    c.PreSerializeFilters.Add((swagger, httpReq) =>
+    {
+        // Adding server base address in the generated file relative to the server's host
+        swagger.Servers = new List<OpenApiServer> { new OpenApiServer { Url = $"{httpReq.Scheme}://{httpReq.Host.Value}" } };
+    });
+});
+```
+
 ## Additional Resources
 <div class="divider--half"></div>
 

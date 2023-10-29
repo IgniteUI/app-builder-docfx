@@ -5,7 +5,7 @@
 - name: Getting Started
   href: ../getting-started.md
   new: false
-  updated: true
+  updated: false
   items:
     - name: On-premises prerequisites and installation
       href: ../on-prem-prerequisites-and-installation.md
@@ -13,26 +13,30 @@
   href: ../running-desktop-app.md
 - name: Share, Preview and Edit apps
   href: ../share-preview-edit-app.md
-  new: true
+  new: false
 - name: Design-to-Code story
   href: ../design-to-code-story.md
-  new: true
+  new: false
   items:
     - name: Figma
       href: ../ui-kits/figma.md
-      new: true
+      new: false
     - name: Adobe XD
       href: ../ui-kits/adobe-xd.md
-      new: true
+      new: false
     - name: Sketch
       href: ../ui-kits/sketch.md
-      new: true
+      new: false
 - name: Interface Overview
   href: ../interface-overview.md
   new: false
+- name: Master-detail style apps
+  href: ../master-detail/master-detail.md
+  new: true
+  updated: false
 - name: Responsive Fluid Layouts
   href: ../how-to/responsive-fluid-layout.md
-  new: true
+  new: false
 - name: Flex Layouts
   href: ../flex-layouts/flex-layouts.md
   # items:
@@ -61,13 +65,13 @@
 - name: Using data in your app
   href: ../using-data-in-your-app.md
   new: false
-  updated: true
+  updated: false
   items:
     - name: OpenAPI (Swagger) Support
       href: ../open-api-swagger-support.md
     - name: Grid CRUD Operations
       href: ../using-data-in-your-app/crud-operations.md
-      new: true
+      new: false
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:
@@ -94,27 +98,27 @@
 - name: Blazor Support
   href: ../blazor-support.md
   new: false
-  updated: true
+  updated: false
 - name: Web Components Support
   href: ../web-components-support.md
-  new: true
+  new: false
   updated: false
 - name: Toolbox Components
-  new: true
+  new: false
   items:
     - name: Reveal Dashboard
       href: ../toolbox/reveal-dashboard.md
-      new: true
+      new: false
       updated: false
 - name: Generate App
   href: ../generate-app/generate-app-overview.md
   new: false
-  updated: true
+  updated: false
   items:
     - name: Upload application to Github
       href: ../generate-app/upload-application-to-github.md
       new: false
-      updated: true
+      updated: false
     - name: Run Application Locally
       href: ../generate-app/run-application-locally.md
 - name: Change Log
