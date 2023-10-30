@@ -34,6 +34,10 @@
   href: ../master-detail/master-detail.md
   new: true
   updated: false
+  items:
+    - name: Step-by-step App Creation examples
+      href: ../master-detail/step-by-step-examples.md
+      new: true
 - name: Responsive Fluid Layouts
   href: ../how-to/responsive-fluid-layout.md
   new: false
