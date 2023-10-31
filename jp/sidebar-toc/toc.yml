@@ -30,6 +30,10 @@
 - name: インターフェイスの概要
   href: ../interface-overview.md
   new: false
+- name: Master-detail style apps
+  href: ../master-detail/master-detail.md
+  new: true
+  updated: false
 - name: レスポンシブ Fluid レイアウト
   href: ../how-to/responsive-fluid-layout.md
   new: true

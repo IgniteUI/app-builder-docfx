@@ -6,6 +6,7 @@
                     "app-themes/**.md",
                     "flex-layouts/**.md",
                     "generate-app/**.md",
+                    "master-detail/**.md",
                     "indigo-design-components/**.md",
                     "spa-and-navigation/**.md",
                     "using-data-in-your-app/**.md",

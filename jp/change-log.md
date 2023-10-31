@@ -14,8 +14,8 @@ _language: ja
 - Combo の**単一選択** 機能を追加しました。
 - **Material Extended Icons** のサポートを追加しました。
 - 新しい Stepper **ナビゲーション操作**を追加しました。
-- **Fluent 1.3** 用の新しい Indigo.Design UI キット
-- **Material 1.3** 用の新しい Indigo.Design UI キット
+- **Fluent** と **Material** の両方用の新しい [Indigo.Design UI キット バージョン 1.3](https://www.figma.com/@infragistics)
+
 ### 機能改善
 - Angular アプリは **Ignite UI for Angular `16.0.15`** を使用して生成されるようにしました。([変更ログ](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.15))
 - バグ修正と全般的改善。
