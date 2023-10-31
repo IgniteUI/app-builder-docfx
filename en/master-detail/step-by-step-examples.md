@@ -12,6 +12,8 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 
 **Global variable set from one View and Updating Grid request from another View through a Views container**
 
+[Live demo](https://appbuilder.indigo.design/app/1dt9w1qd7wx5/preview)
+
 1. Add a Global variable which is set upon the Combo selection change event. The combo is bound to the Customer endpoint 
 2. Pick a CustomerID from the Combo 
 3. Go to the other view, where the Grid is bound to an API request fetching orders based on that CustomerID 
@@ -32,6 +34,8 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 ## Example 2
 
 **Tree bound to Hierarchical data source loading data for Grid and Chart** 
+
+[Live demo](https://appbuilder.indigo.design/app/orqsz4t3w5l2/preview)
 
 1. Add a Tree component and bind its parent to a Hierarchical data source (Repeated data context). 
 2. Bind the parent tree node On Click event to a Set variable action that stores the CustomerID - String variable 
