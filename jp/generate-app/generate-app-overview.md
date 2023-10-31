@@ -27,6 +27,7 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 
 すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。現在、Ignite UI App Builder には、すべてのアプリケーション ファイルを GitHub リポジトリにアップロードするか、パッケージとしてダウンロードしてローカルで実行するオプションがあります。
 
+
 ## ライセンス コードのエクスポート
 
 ### ライセンス ユーザー
@@ -47,6 +48,7 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 ## サポートされているコンポーネント
 
 現在、AppBuilder は Angular と Blazor のコード生成をサポートしています。以下は、プラットフォームごとにサポートされているコンポーネントのリストです:
+
 | コンポーネント              | Angular            | Blazor             | Web Components     |
 |------------------------|--------------------|--------------------|--------------------|
 | **レイアウト**                                                                           |
@@ -96,6 +98,7 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 | Banner                 | :heavy_check_mark: | :x:                | :x:                |
 | Dialog Window          | :heavy_check_mark: | :x:                | :x:                |
 | Snackbar               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Reveal Dashboard       | :heavy_check_mark: | :x:                | :x:                |
 
 > 注: 部分的に生成されたコンポーネントは :construction: でマークされます。Blazor コンポーネントの既知の問題および制限の詳細については、[Blazor サポート](../blazor-support.md#既知の問題点および制限事項)を参照してください。
 
