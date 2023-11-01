@@ -280,6 +280,25 @@ Tree コンポーネントを確認してみましょう。ルート要素と子
 <img class="box-shadow" src="./images/unable-to-infer-schema-full.PNG" />
 <p style="text-align:center;">データからスキーマを推測できません</p>
 
+### ローカル ネットワーク ソースからの定義のダウンロード/アップロード
+ダウンロードされた OpenAPI ファイルにはサーバー URL 情報が含まれていないため、サーバーのベース アドレスを推測できません。これは、URL 追加ソースを通じてローカル ホスト URL を直接指定せず、代わりに定義としてアップロードした場合に発生し、空のベース URL が取得されます。
+
+<img class="box-shadow" style="width: 70%;" src="./images/empty-definition-error.png" />
+<p style="width: 70%; text-align:center;">欠落しているベース URL</p>
+
+この問題を解決するには、`Solution/Program.cs` ファイルにサーバーのホストに対する相対的なサーバーのベース アドレスを追加する必要があります。
+
+```
+app.UseSwagger(c =>
+{
+    c.PreSerializeFilters.Add((swagger, httpReq) =>
+    {
+        // Adding server base address in the generated file relative to the server's host
+        swagger.Servers = new List<OpenApiServer> { new OpenApiServer { Url = $"{httpReq.Scheme}://{httpReq.Host.Value}" } };
+    });
+});
+```
+
 ## その他のリソース
 <div class="divider--half"></div>
 
