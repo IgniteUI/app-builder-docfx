@@ -22,6 +22,9 @@ The new feature covers these key elements established by the Master-detail patte
 
 **Let's dive into more details about each of these features.**
 
+> [!NOTE]
+> For the walkthrough below we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
+
 ## Managing Variables  
 
 Simply put, you can now pass data between components in your application through: 
@@ -57,7 +60,7 @@ Clicking this will open the New Variable dialog with the Data type already pre-f
 <img src="../images/state-and-context/5.png" srcset="../images/state-and-context/5.png 2x" />
 <p style="text-align:center;">New Variable dialog</p>
 
-We consider this as the main flow of Variable creation as it is part of the application lifecycle creation: 
+**We consider this as the main flow of Variable creation** as it is part of the application lifecycle creation: 
 
 .. you start with a component
 
