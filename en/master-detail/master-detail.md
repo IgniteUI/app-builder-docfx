@@ -189,7 +189,7 @@ A note for Combo usage with `valueKey` set. The way combo works is to pass a pri
 GET   /posts/1/comments
 GET   /comments?postId=1
 ```
-- Using variables in Grid templating is currently not supported, will be part of the next release planned for end of November.
+- Using variables in Grid templating is currently not supported, will be part of the next release planned for end of November 2023.
 - Binding a component to repeated data of one object is not supported upon code generation.
 - Combo component specifics:
    - Combo with multi-selection mode and specified `valueKey` property will require a Variable to handle an array of primitives, although this is currently not supported in App Builder nor the code generation. Upon Combo multi-selection the `SelectionChanged` event will receive an array of the `valueKey` type.
