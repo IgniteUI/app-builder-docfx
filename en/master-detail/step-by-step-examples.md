@@ -8,6 +8,9 @@ _keywords: App builder, Infragistics, Data Binding
 
 Below you can find real use cases for two scenarios. These scenarios will cover everything that we’ve talked about in the main [State and context management feature set topic](master-detail.md).
 
+> [!NOTE]
+> For the walkthrough below we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
+
 ## Example 1
 
 **Global variable set from one View and Updating Grid request from another View through a Views container**

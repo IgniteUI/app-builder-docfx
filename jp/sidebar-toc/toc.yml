@@ -5,7 +5,7 @@
 - name: はじめに
   href: ../getting-started.md
   new: false
-  updated: true
+  updated: false
   items:
     - name: オンプレミスの前提条件とインストール
       href: ../on-prem-prerequisites-and-installation.md
@@ -13,30 +13,34 @@
   href: ../running-desktop-app.md
 - name: アプリケーションの共有、プレビュー、および編集
   href: ../share-preview-edit-app.md
-  new: true
+  new: false
 - name: デザインからコード作成のストーリー
   href: ../design-to-code-story.md
-  new: true
+  new: false
   items:
     - name: Figma
       href: ../ui-kits/figma.md
-      new: true
+      new: false
     - name: Adobe XD
       href: ../ui-kits/adobe-xd.md
-      new: true
+      new: false
     - name: Sketch
       href: ../ui-kits/sketch.md
-      new: true
+      new: false
 - name: インターフェイスの概要
   href: ../interface-overview.md
   new: false
-- name: Master-detail style apps
+- name: マスター/詳細スタイルのアプリ
   href: ../master-detail/master-detail.md
   new: true
   updated: false
+  items:
+    - name: ステップバイステップのアプリ作成例
+      href: ../master-detail/step-by-step-examples.md
+      new: true
 - name: レスポンシブ Fluid レイアウト
   href: ../how-to/responsive-fluid-layout.md
-  new: true
+  new: false
 - name: Flex レイアウト
   href: ../flex-layouts/flex-layouts.md
   # items:
@@ -65,13 +69,13 @@
 - name: アプリでデータを使用する
   href: ../using-data-in-your-app.md
   new: false
-  updated: true
+  updated: false
   items:
     - name: OpenAPI (Swagger) サポート
       href: ../open-api-swagger-support.md
     - name: Grid CRUD 操作
       href: ../using-data-in-your-app/crud-operations.md
-      new: true
+      new: false
 - name: テーマ
   href: ../app-themes/app-themes.md
   # items:
@@ -98,27 +102,27 @@
 - name: Blazor サポート
   href: ../blazor-support.md
   new: false
-  updated: true
+  updated: false
 - name: Web Components サポート
   href: ../web-components-support.md
-  new: true
+  new: false
   updated: false
 - name: ツールボックス コンポーネント
-  new: true
+  new: false
   items:
     - name: Reveal ダッシュボード
       href: ../toolbox/reveal-dashboard.md
-      new: true
+      new: false
       updated: false
 - name: アプリの生成
   href: ../generate-app/generate-app-overview.md
   new: false
-  updated: true
+  updated: false
   items:
     - name: アプリケーションを Github にアップロード
       href: ../generate-app/upload-application-to-github.md
       new: false
-      updated: true
+      updated: false
     - name: アプリケーションをローカルで実行
       href: ../generate-app/run-application-locally.md
 - name: 変更ログ
