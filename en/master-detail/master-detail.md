@@ -22,6 +22,9 @@ The new feature covers these key elements established by the Master-detail patte
 
 **Let's dive into more details about each of these features.**
 
+> [!NOTE]
+> For the walkthrough below we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
+
 ## Managing Variables  
 
 Simply put, you can now pass data between components in your application through: 
@@ -57,7 +60,7 @@ Clicking this will open the New Variable dialog with the Data type already pre-f
 <img src="../images/state-and-context/5.png" srcset="../images/state-and-context/5.png 2x" />
 <p style="text-align:center;">New Variable dialog</p>
 
-We consider this as the main flow of Variable creation as it is part of the application lifecycle creation: 
+**We consider this as the main flow of Variable creation** as it is part of the application lifecycle creation: 
 
 .. you start with a component
 
@@ -186,7 +189,7 @@ A note for Combo usage with `valueKey` set. The way combo works is to pass a pri
 GET   /posts/1/comments
 GET   /comments?postId=1
 ```
-- Using variables in Grid templating for Blazor and WC is currently not supported.
+- Using variables in Grid templating is currently not supported, will be part of the next release planned for end of November.
 - Binding a component to repeated data of one object is not supported upon code generation.
 - Combo component specifics:
    - Combo with multi-selection mode and specified `valueKey` property will require a Variable to handle an array of primitives, although this is currently not supported in App Builder nor the code generation. Upon Combo multi-selection the `SelectionChanged` event will receive an array of the `valueKey` type.
