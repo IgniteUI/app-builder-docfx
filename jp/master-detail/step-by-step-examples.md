@@ -9,6 +9,9 @@ _language: ja
 
 以下に 2 つのシナリオの実際の使用例を示します。これらのシナリオでは、 [状態とコンテキストの管理機能セットのメイン トピック](master-detail.md)で説明した内容がすべてカバーされます。
 
+> [!NOTE]
+> 以下のチュートリアルでは、[Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html) を使用します。
+
 ## 例 1
 
 **あるビューから設定されたグローバル変数と、ビュー コンテナを介した別のビューからのグリッド リクエストの更新**
