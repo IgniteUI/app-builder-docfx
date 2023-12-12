@@ -195,6 +195,7 @@ GET   /comments?postId=1
    - Combo with multi-selection mode and specified `valueKey` property will require a Variable to handle an array of primitives, although this is currently not supported in App Builder nor the code generation. Upon Combo multi-selection the `SelectionChanged` event will receive an array of the `valueKey` type.
 - Binding a component to an Array of primitives is currently not supported.
 - Leaving a required parameter empty is allowed by the AppBuilder - Code generation will be possible by setting a default value. This will result in an Error state and you will be notified with a warning, although this won't stop you from generating the code for the app and may result in compilation errors.
+- Switching data binding between vars of the same type will reset the bindings.
 
 
 ## Additional Resources
