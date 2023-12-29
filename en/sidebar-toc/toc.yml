@@ -43,11 +43,11 @@
   new: true
   updated: false
   items:
-    - name: URL Parameters Binding
-      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
-      new: true
     - name: Component properties binding
       href: ../guide-to-variables-in-app-builder/component-properties-binding.md
+      new: true
+    - name: URL Parameters Binding
+      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
       new: true
     - name: Working with events and actions
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md

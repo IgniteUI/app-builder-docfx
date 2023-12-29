@@ -1,42 +1,63 @@
-# Guide to Variables in App Builder
+---
+title: "Efficient Component Binding in App Builder: Leveraging Variables for Dynamic UIs"
+description: "Explore how App Builder from Infragistics simplifies component properties binding using local and global variables for dynamic and responsive UI development in low-code environments."
+keywords: "App Builder, Infragistics, Component Binding, Variables Management, Dynamic UI, Low-Code Development, Data Binding, Global Variables, Local Variables"
+---
 
-## Component Properties Binding in App Builder
+# Component Properties Binding in App Builder
 
-Binding component properties to variables is a fundamental aspect of creating interactive and dynamic applications in the App Builder. This section delves into how you can bind properties of UI components to different types of variables, enhancing the interactivity of your applications.
+Binding to component properties in App Builder involves connecting the properties of a component's configuration to various data sources. This process is facilitated by a plug icon, which is visible in each bindable component property. Let's delve into an example to understand this better.
 
-### Overview of Properties Binding
+## Simplified Binding with Variables
 
-In the App Builder, properties of components can be bound to variables, enabling dynamic updates and interactions within your application. This binding is essential for creating responsive UIs that react to user inputs or other changes in the application state.
+Previously, binding a Title and Subtitle to a Card component required iterating through a data array. This iteration made a data context available for binding specific data fields. However, with the introduction of variables, binding has become more versatile. Now, you can create a variable of any type and directly bind it to a Card component, eliminating the need for a data repeater.
 
-### How to Bind Component Properties
+### Data Repeating Through an Array Variable
 
-- **Accessing Bindable Properties**: Each component in the App Builder has configurable properties that can be bound to variables. These properties are accessible through the component's configuration panel.
-- **Binding Process**: The actual binding is facilitated through a plug icon shown next to each bindable property. This intuitive interface allows for a seamless binding experience.
+Consider a scenario where you have a collection of movies and wish to display details about the highest-grossing box office movies based on a selection. Here's how you can achieve this:
 
-### Expanded Binding Options
+1. **Bind the Movies Collection**: Connect the movies collection to a component (like a Combo box) that supports multiple selections. Add an event handler and set a variable action as previously discussed.
 
-The App Builder has enhanced the binding capabilities, allowing for more flexibility and control:
+<img src="../images/state-and-context/4.png" srcset="../images/state-and-context/4.png 2x" />
+<p style="text-align:center;">Array type variable</p>
 
-#### Binding to Simple and Complex Data Types
+2. **Create an Array Variable**: Set up an empty Array variable named "Box Office Revenue". The Data Type is automatically determined based on the data source of the Combo component.
 
-- **Primitive Data Types**: You can bind properties to variables of primitive data types like String, Number, or Boolean.
-- **Complex Data Types**: It's also possible to bind to more complex types like Objects or Arrays, enabling more sophisticated data structures to be represented in your UI.
+<img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
+<p style="text-align:center;">New Variable dialog</p>
 
-#### Data Repeating Through a Variable of Type Array
+3. **Bind to a Card Component**: Link the "selectedMovies" variable to a card component. Bind the Title and Subtitle properties to the appropriate data fields from the Data Context.
 
-- **Use Case Example**: Imagine you have a collection of data, like Movies, and you want to display details based on user selection. You can bind a component, like a Combo box, to an Array type variable representing the selected movies.
-- **Binding Process**: After creating the variable, you can bind properties of UI components, like a Card, to different fields of this array. This allows for dynamic updates and displays based on the user's selection.
+<img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
+<p style="text-align:center;">Data context binding</p>
 
-### Practical Example: Binding in a Master-Detail Interface
+The result is a dynamically updated card component based on your selection:
 
-In a master-detail application, binding component properties to variables is crucial. For instance:
+<img src="../images/state-and-context/12.gif" srcset="../images/state-and-context/12.gif 2x" />
+<p style="text-align:center;">Result</p>
 
-- **Master List**: In the master view, you might have a list of items where the selection is bound to a local variable.
-- **Detail View**: The detail view can have components like text fields or images bound to the properties of the selected item, dynamically updating as different items are selected from the master list.
+## Cross-View Communication with Global Variables
 
-![Data Context Binding](../images/state-and-context/11.png)
-*Example of Data Context Binding in App Builder*
+Understanding the scope of variables is crucial, Sso here is what we've learned:
 
-### Conclusion
+- **Global Variables**: Facilitate data transfer between different views. A global variable created in one view is accessible in all other views.
+- **Local Variables**: Handle data exchange within the components of the same view.
 
-Binding component properties to variables in the App Builder is a powerful feature that brings your UI to life. By leveraging this functionality, you can create applications that are not only interactive but also intuitive and responsive to user interactions. Understanding and utilizing this feature effectively can significantly enhance the user experience in your applications.
+## Takeaways
+What's the essence of App Builder components binding?
+
+- **Enhanced Flexibility**: Variables in App Builder allow for more flexible and efficient data binding, reducing the need for data repeaters.
+- **Simplified Data Contexts**: Direct binding of variables to components simplifies the creation of dynamic UI elements.
+- **Scope Awareness**: Understanding the distinction between global and local variables is key for effective data management across different views.
+- **Practical Application**: The process of binding a movies collection to a card component illustrates the practicality and ease of using variables for data binding.
+
+## Additional Resources
+
+<div class="divider--half"></div>
+
+* [Variables management](variables-management.md)
+* [URL parameters binding](url-parameters-binding.md)
+* [Working with Events and Actions](working-with-events-and-actions.md)
+* [Master-detail concept](../master-detail/master-detail.md)
+* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+* [App Builder Components](../indigo-design-app-builder-components.md)

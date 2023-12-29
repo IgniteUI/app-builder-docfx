@@ -86,8 +86,8 @@ By mastering these aspects of variable management in App Builder, developers can
 
 <div class="divider--half"></div>
 
-* [URL parameters binding](url-parameters-binding.md)
 * [Component properties binding](component-properties-binding.md)
+* [URL parameters binding](url-parameters-binding.md)
 * [Working with Events and Actions](working-with-events-and-actions.md)
 * [Master-detail concept](../master-detail/master-detail.md)
 * [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
