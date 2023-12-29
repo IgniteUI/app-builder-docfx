@@ -37,10 +37,6 @@ Delve into [URL Parameters Binding](../guide-to-variables-in-app-builder/url-par
 ## Working with Events and Actions
 Get hands-on with interactive UI design by checking out [Working with Events and Actions](../guide-to-variables-in-app-builder/working-with-events-and-actions.md). Understand how to harness events and actions in App Builder for creating engaging and dynamic user interfaces.
 
-
-> [!NOTE]
-> Examples utilize the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
-
 ## Known Issues and Limitations
 
 - **URL/Query Params**: Currently, non-swagger URL/Query Params are not supported for data loading.
