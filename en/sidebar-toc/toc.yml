@@ -38,6 +38,20 @@
     - name: Step-by-step App Creation examples
       href: ../master-detail/step-by-step-examples.md
       new: true
+- name: Guide to Variables in App Builder
+  href: ../guide-to-variables-in-app-builder/variables-management.md
+  new: true
+  updated: false
+  items:
+    - name: URL Parameters Binding
+      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
+      new: true
+    - name: Component properties binding
+      href: ../guide-to-variables-in-app-builder/component-properties-binding.md
+      new: true
+    - name: Working with events and actions
+      href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
+      new: true
 - name: Responsive Fluid Layouts
   href: ../how-to/responsive-fluid-layout.md
   new: false
