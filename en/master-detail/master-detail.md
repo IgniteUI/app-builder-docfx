@@ -1,7 +1,7 @@
 ---
-title: Master-detail style apps with variables & events 
-_description: App Builder enables users to use local and global variables that help with storing different data to manage your app state
-_keywords: App builder, Infragistics, Data Sources, Data Binding
+title: "Efficient Variable Management in App Builder for Dynamic Applications"
+_description: "Learn how to effectively manage global and local variables in Infragistics' App Builder. This guide covers the creation, initialization, and application of variables for enhanced data flow and interactivity in your web applications."
+_keywords: "App Builder, Infragistics, Variable Management, Data Flow, Global Variables, Local Variables, Data Binding, Low-Code Platform, Application Development"
 ---
 
 # Master-detail style apps with variables & events 
@@ -55,7 +55,7 @@ For example, if you add a Combo bound to the Financial -> Box Office Revenue tab
 <p style="text-align:center;">Through component's event handler</p>
 
 
-Clicking this will open the New Variable dialog with the Data type already pre-filled for you, based on the Combo Data source type (Box office revenue) and the Combo selection mode. Why? If Single-selection mode is specified, the variable is expected to use a single object (Box office revenue) and if multi-selection mode is used, it should use an array of objects (Array of Box office revenues), as it is in our case.  
+Clicking this will open the New Variable dialog with the Data type already pre-filled for you, based on the Combo Data source type (Box Office Revenue) and the Combo selection mode. Why? If Single-selection mode is specified, the variable is expected to use a single object (Box Office Revenue) and if multi-selection mode is used, it should use an array of objects (Array of Box Office Revenues), as it is in our case.  
 
 <img src="../images/state-and-context/5.png" srcset="../images/state-and-context/5.png 2x" />
 <p style="text-align:center;">New Variable dialog</p>

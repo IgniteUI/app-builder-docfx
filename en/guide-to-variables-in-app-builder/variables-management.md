@@ -1,78 +1,94 @@
 # Guide to Variables Management in App Builder
 
-The App Builder introduces a robust and intuitive way to manage variables within your application. This functionality is crucial for passing data between components and views, enhancing the interactivity and dynamism of your applications.
+App Builder now offers a comprehensive and user-friendly approach to managing variables within your applications. This feature is essential for facilitating data transfer across components and views, thereby enriching the interactivity and dynamic capabilities of your applications.
 
 ## Understanding Variable Types
 
-In App Builder, variables are categorized into two main types:
+In the App Builder, variables are classified into two primary categories:
 
-- **Global Variables**: These are used for passing data between different views in your application.
-- **Local Variables**: These are utilized for transferring data between components within the same view.
+- **Global Variables**: Utilized for data transfer across different views in your application.
+- **Local Variables**: Employed for data movement between components within the same view.
 
-Variables can be of various data types, including String, Number, Boolean, Date, Object, and Array. The App Builder provides flexibility in defining these variables, catering to the diverse needs of your application.
+These variables can be of various data types, such as String, Number, Boolean, Date, Object, and Array. The App Builder's flexible design allows for easy definition of these variables, meeting the diverse requirements of your application.
 
-For any of the primitive types you can specify a Default value with a value editor, as for Array and Object, you can pick an endpoint or Schema type from the fly-out menu. We list those based on the available data source schemas in your app. 
+For primitive types, you can set a Default value using a value editor. For Array and Object types, you can select an endpoint or Schema type from the fly-out menu, based on the data source schemas available in your app.
 
 <img src="../images/state-and-context/3.png" srcset="../images/state-and-context/3.png 2x" />
 <p style="text-align:center;">Managing Variables</p>
 
-## How to create a Variable?
+## How to Create a Variable?
 
-### Interactions section
-You can now manage your variables through the Interactions section for the specific component event that will be using the Variable.
+### Interactions Section
+Manage your variables through the Interactions section, associated with the specific component event that will utilize the Variable.
 
-For example, if you add a Combo bound to the Financial -> Box Office Revenue table, and add a Selection Changed event handler, with Set Variable Action, you can pick the Variable field and use the “+ new variable” button.  
+For instance, if you add a Combo bound to the Financial -> Box Office Revenue table and add a Selection Changed event handler with a Set Variable Action, you can select the Variable field and use the “+ new variable” button.
 
 <img src="../images/state-and-context/4.png" srcset="../images/state-and-context/4.png 2x" />
 <p style="text-align:center;">Through component's event handler</p>
 
-Clicking this will open the New Variable dialog with the Data type already pre-filled for you, based on the Combo Data source type (Box office revenue) and the Combo selection mode. Why? If Single-selection mode is specified, the variable is expected to use a single object (Box office revenue) and if multi-selection mode is used, it should use an array of objects (Array of Box office revenues), as it is in our case.  
+Clicking this opens the New Variable dialog with the Data type pre-filled, based on the Combo Data source type (Box Office Revenue) and the Combo selection mode. The variable type is determined by the selection mode: Single-selection mode suggests a single object (Box Office Revenue), while multi-selection mode indicates an array of objects (Array of Box Office Revenues).
 
 <img src="../images/state-and-context/5.png" srcset="../images/state-and-context/5.png 2x" />
 <p style="text-align:center;">New Variable dialog</p>
 
-**We consider this as the main flow of Variable creation** as it is part of the application lifecycle creation: 
+**This is considered the primary flow of Variable creation**, integral to the application lifecycle:
 
-1. You start with a component
-
-2. Bind it to data
-
-3. Add an event
-
-4. Tight it to a certain action (Set Variable action)
-
-5. Create a variable to preserve the state
-
-6. And use this variable later on within your app. 
+1. Start with a component.
+2. Bind it to data.
+3. Add an event.
+4. Link it to a specific action (Set Variable action).
+5. Create a variable to maintain the state.
+6. Utilize this variable later within your app.
 
 <img src="../images/state-and-context/6.gif" srcset="../images/state-and-context/6.gif 2x" />
 <p style="text-align:center;">User flow video</p>
 
-### Variables Toolbox section
+### Variables Toolbox Section
 
-From there you can open a dialog to create and edit variables. There is a validation in place that will guide you through the naming process. There are two ways to set a variable type, whether by specifying it as a type from the predefined in the drop-down menu or through the automatic initialization from an API request (by selecting an endpoint). With that option, the Data Type will be automatically picked based on the Schema data type of the selected endpoint.  
+Here, you can create and edit variables. A validation process assists with the naming. Set a variable type either by selecting from the predefined drop-down menu or through automatic initialization from an API request, which determines the Data Type based on the Schema data type of the selected endpoint.
 
 <img src="../images/state-and-context/7.png" srcset="../images/state-and-context/7.png 2x" />
 <p style="text-align:center;">Create Variable</p>
 
-In the section below you will find more details on how to make use of the Variables. 
+Below, more details on utilizing Variables are provided.
 
-### Initialize data from an endpoint 
+## Initialize Data from an Endpoint 
 
-You can now store data in a Variable and use it in the data context for any of the existing components. It also detects automatically what the Variable type is, based on the endpoint that you picked. We get that information from the Data Schema. 
+Store data in a Variable and use it in the data context for any component. The Variable type is automatically determined based on the selected endpoint's Data Schema.
 
-Let's look at a concrete example. If I want to get the data from a /Customers endpoint request and later bind it to a Combo component, this can now be easily achieved. While creating the Variable click on the checkbox “Initialize with data from an API request”. This will result in getting an Array of Customers. 
+For example, to bind data from a /Customers endpoint request to a Combo component, create the Variable and select “Initialize with data from an API request”. This results in an Array of Customers.
 
 <img src="../images/state-and-context/8.gif" srcset="../images/state-and-context/8.gif 2x" />
 <p style="text-align:center;">Initialize data from and endpoint</p>
 
-### Set a variable value through Component Event context or Data context.  
+## Set a Variable Value through Component Event Context or Data Context
 
-This functionality allows you to dynamically fill an empty variable with data. Start by creating an empty variable of type Customers Array. You can do that by opening the Data type dropdown from the Create/edit Variable dialog and pick the “array” item and then the data source. In the example’s case that would be /Customers. Let us name the variable `selectedCustomers`. The gif below shows you how to create such a variable and start filling it with data upon Combo value selection changing. The last step of this scenario would be to bind a Grid component, for example, to the `selectedCustomers` array. 
+This feature enables you to dynamically populate an empty variable with data. Begin by creating an empty variable of type Customers Array. Select the “array” item from the Data type dropdown in the Create/edit Variable dialog, then choose the data source, e.g., /Customers. Name the variable `selectedCustomers`. The gif below demonstrates creating this variable and filling it with data upon Combo value selection change. The final step in this scenario is to bind a Grid component to the `selectedCustomers` array.
 
 <img src="../images/state-and-context/9.gif" srcset="../images/state-and-context/9.gif 2x" />
 <p style="text-align:center;">Example with Event and Data contexts</p>
 
-A similar scenario is listed as part of the next Binding to Components section although the focus there would be properties binding rather than setting a Variable value. 
+A similar scenario is discussed in the next section, focusing on Binding to Components, with an emphasis on property binding rather than setting a Variable value.
 
-## Takeaways 
+## Takeaways
+
+What we've learned so far while building an application with Variables?
+
+- **Efficient Data Management**: App Builder's variable management system streamlines data flow within applications, enhancing efficiency and user experience.
+- **Flexibility and Control**: The platform offers flexibility in variable types and initialization methods, allowing for precise control over data handling.
+- **Intuitive User Interface**: With user-friendly dialogs and a structured process for variable creation and management, App Builder simplifies complex tasks.
+- **Dynamic Data Binding**: The ability to initialize variables from endpoints and set variable values through event or data contexts enables dynamic and responsive applications.
+- **Seamless Integration**: The integration of variable management with component events and data binding ensures a cohesive and intuitive development experience.
+
+By mastering these aspects of variable management in App Builder, developers can create more dynamic, responsive, and data-driven web applications.
+
+## Additional Resources
+
+<div class="divider--half"></div>
+
+* [URL parameters binding](url-parameters-binding.md)
+* [Component properties binding](component-properties-binding.md)
+* [Working with Events and Actions](working-with-events-and-actions.md)
+* [Master-detail concept](../master-detail/master-detail.md)
+* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+* [App Builder Components](../indigo-design-app-builder-components.md)
