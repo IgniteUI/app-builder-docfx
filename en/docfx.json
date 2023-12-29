@@ -7,6 +7,7 @@
                     "flex-layouts/**.md",
                     "generate-app/**.md",
                     "master-detail/**.md",
+                    "guide-to-variables-in-app-builder/**.md",
                     "indigo-design-components/**.md",
                     "spa-and-navigation/**.md",
                     "using-data-in-your-app/**.md",

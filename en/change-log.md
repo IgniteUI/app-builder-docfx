@@ -6,7 +6,18 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 31st of October, 2023.
+> Latest update was made on 13th of December, 2023.
+
+## December 2023 Release
+### Features
+- **Manage all variables** defined in your app from a single location. 
+- Added **Financial Chart** to the component toolbox.
+- Added **Value Change** interaction event for **Date Picker** component.
+ 
+### Improvements
+- Angular apps are generated using **Ignite UI for Angular `16.1.11`**.
+- Added an option to **select all** endpoints when configuring an OpenAPI-based datasource. 
+- Bug fixes
 
 ## October 2023 Release
 ### Features

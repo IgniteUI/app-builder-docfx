@@ -12,10 +12,10 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 > For the walkthrough below we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
 
 ## Example 1
+Global variable set from one View and Updating Grid request from another View through a Views container
 
-**Global variable set from one View and Updating Grid request from another View through a Views container**
+<a href="https://appbuilder.indigo.design/app/bea0uqmjezxn/preview" target="_blank">Live demo</a>
 
-[Live demo](https://appbuilder.indigo.design/app/1dt9w1qd7wx5/preview)
 
 1. Add a Global variable which is set upon the Combo selection change event. The combo is bound to the Customer endpoint 
 2. Pick a CustomerID from the Combo 
@@ -33,12 +33,11 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 
 <img src="../images/state-and-context/21.png" srcset="../images/state-and-context/21.png 2x" />
 <p style="text-align:center;">Result</p>
-  
+
 ## Example 2
+Tree bound to Hierarchical data source loading data for Grid and Chart
 
-**Tree bound to Hierarchical data source loading data for Grid and Chart** 
-
-[Live demo](https://appbuilder.indigo.design/app/orqsz4t3w5l2/preview)
+<a href="https://appbuilder.indigo.design/app/jj15bv7rgkw8/preview" target="_blank">Live demo</a>
 
 1. Add a Tree component and bind its parent to a Hierarchical data source (Repeated data context). 
 2. Bind the parent tree node On Click event to a Set variable action that stores the CustomerID - String variable 
@@ -51,7 +50,8 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 <img src="../images/state-and-context/23.png" srcset="../images/state-and-context/23.png 2x" />
 <p style="text-align:center;">Child node binding</p>
 
-4. Ensure the root tree element shows the Customer and the child tree node shows the Orders 
+4. Ensure the root tree element shows the Customer and the child tree node shows the Orders
+
 5. Bind a Grid to an endpoint that fetches Orders based on the OrderID variable as a query param 
 
 <img src="../images/state-and-context/24.png" srcset="../images/state-and-context/24.png 2x" />
