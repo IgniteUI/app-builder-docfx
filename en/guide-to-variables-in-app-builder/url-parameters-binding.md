@@ -11,6 +11,9 @@ App Builder allows for sophisticated data manipulation and display techniques, i
 ## Data Requests
 When working with data endpoints that require path or query parameters, App Builder's URL parameter binding feature becomes invaluable. This feature enables the application to make data requests based on parameters provided in the URL. For instance, consider a Grid component bound to Customer Orders. By using a “CustomerID” path parameter, the Grid dynamically fetches and displays data relevant to the specified customer.
 
+> [!NOTE]
+> For this topic examples we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
+
 <img src="../images/state-and-context/13-path-param-customer-orders.gif" srcset="../images/state-and-context/13-path-param-customer-orders.gif 2x" />
 <p style="text-align:center;">Data requests</p>
 

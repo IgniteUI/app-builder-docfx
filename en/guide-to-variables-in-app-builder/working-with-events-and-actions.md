@@ -1,51 +1,62 @@
-# Guide to Variables in App Builder
+---
+title: "Working with Events and Actions"
+description: "Learn how to effectively utilize events and actions in Infragistics' App Builder for creating dynamic, interactive user interfaces. This guide covers the integration of event handlers with variable management for enhanced application responsiveness."
+keywords: "App Builder, Infragistics, Event Handlers, UI Interactivity, Variable Management, User Interface Design, Low-Code Development, Click Events, Data Context, Selection Events"
+---
 
-## Working with Events and Actions in App Builder
 
-Integrating events and actions is a key aspect of creating interactive applications in the App Builder. This section explores how you can leverage events and actions to enhance the functionality and user experience of your applications.
+# Working with Events and Actions in App Builder
 
-### Overview of Events and Actions
+In App Builder, a key aspect of creating interactive and responsive applications is the effective use of events and actions. This functionality is crucial for integrating components with variable management and user interactions.
 
-Events in the App Builder are user interactions or other triggers that can initiate actions. Actions are the responses to these events, which often involve manipulating variables, updating UI components, or triggering data requests.
+## Understanding Component Event Handlers
 
-### Key Event Handlers in App Builder
+App Builder exposes various component event handlers, which are instrumental in the context of variable management. Key events include:
 
-- **Selection Changed Event**: Used primarily with components like Combo boxes or Grids, this event triggers when the user selection changes.
-- **Row Selection Changed Event**: Specific to Grid components, it activates when the selection of a row in a grid changes.
-- **Click Event**: A versatile event applicable to almost all components, triggered when the component is clicked.
+- **Selection Changed Event**: Utilized in the Combo component.
+- **Row Selection Changed Event**: Employed in the Grid component.
+- **Click Event**: Available for all components, this event is used in the context of setting a variable upon a click action.
 
-### Setting Up Event Handlers
+> [!NOTE]
+> For this topic examples we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
 
-- **Configuring Events**: Events can be configured in the properties panel of each component. You can select the event type and define the action that should occur in response.
-- **Binding Events to Variables**: Many actions involve setting or modifying variables. For instance, selecting an item in a Combo box can set a variable to the selected value.
+## Dynamic Variable Type Adjustment
 
-### Practical Examples of Event-Driven Interactions
+The Grid and Combo components in App Builder allow for the setting of selection modes. Intriguingly, the variable type dynamically changes based on the selection mode chosen. For instance, a Combo component bound to an array of customers in a Single selection mode will pass a Customer Object through the event context for the selected item.
 
-#### Example: Using Selection Changed Event in a Combo Component
+<img src="../images/state-and-context/15-selection-mode-examples.gif" srcset="../images/state-and-context/15-selection-mode-examples.gif 2x" />
+<p style="text-align:center;">Working with events</p>
 
-- **Scenario**: In a Combo component bound to an array of customers, selecting a customer can trigger a 'Selection Changed' event.
-- **Action**: This event can be set to update a variable, which in turn updates other components in the UI, like a detail view or a grid.
+## OnClick Event Handlers and Data Context
 
-#### Example: Grid Row Selection
+Every component in App Builder is equipped with an OnClick event handler, which can be utilized in the context of a variable. In scenarios involving repeated data, you can access the Data Context for a specific item through the On Click -> Set variable action. This feature enables the modification of a variable value based on user interaction, as demonstrated in the tree component example.
 
-- **Scenario**: In an application with a Grid component, selecting a row can trigger a 'Row Selection Changed' event.
-- **Action**: This can be used to display detailed information about the selected row in another part of the application, like a detailed information card or a modal.
+<img src="../images/state-and-context/16-onClick-example.png" srcset="../images/state-and-context/16-onClick-example.png 2x" />
+<p style="text-align:center;">On click example</p>
 
-### Advanced Event Handling
+## Handling Combo Component with `valueKey`
 
-- **OnClick Event Handling**: Every component in the App Builder can be configured to respond to OnClick events. This can be particularly useful for creating interactive lists, where clicking an item can trigger various actions like opening a detail view or modifying a variable.
-- **Dynamic Variable Manipulation**: Events can dynamically manipulate variables, which is essential for maintaining the state and context of the application.
+A notable aspect of the Combo component is its behavior with the `valueKey` attribute set. The Combo component passes a primitive value during the Selection changed event. For example, if `CustomerID` is set as the `valueKey`, a number is passed; if `CustomerName` is set, a string is passed.
 
-### Example: Dynamic Interaction in a Master-Detail Interface
+<img src="../images/state-and-context/17-valueKey-example.png" srcset="../images/state-and-context/17-valueKey-example.png 2x" />
+<p style="text-align:center;">Combo Value key note</p>
 
-In a master-detail application:
+## Takeaways
 
-- **Master List Interaction**: Selecting an item in the master list (e.g., a Combo box or a Grid) triggers an event that updates a variable representing the selected item.
-- **Detail View Update**: The detail view listens to changes in this variable and updates its content accordingly, providing a dynamic and responsive user experience.
+- **Event-Driven Interactivity**: App Builder's event handlers like Selection Changed and Click events enable dynamic interactions within applications.
+- **Variable Management Integration**: These events are seamlessly integrated with variable management, allowing for responsive data-driven applications.
+- **Dynamic Variable Types**: The ability to dynamically change variable types based on component selection modes enhances the flexibility of data handling.
+- **OnClick Data Context Access**: The OnClick event handler provides access to data context, crucial for manipulating variables based on user interactions.
+- **Combo Component Flexibility**: The `valueKey` feature in Combo components demonstrates the flexibility of App Builder in handling different data types.
+- **Enhanced User Experience**: These features collectively contribute to a more interactive and user-friendly application, aligning with the goals of low-code development platforms.
 
-![Working with Events](../images/state-and-context/15-selection-mode-examples.gif)
-*Example of Event Handling in App Builder*
+## Additional Resources
 
-### Conclusion
+<div class="divider--half"></div>
 
-Understanding and effectively utilizing events and actions in the App Builder is crucial for creating interactive and responsive applications. By harnessing these features, you can build applications that not only react to user inputs but also provide a seamless and engaging user experience.
+* [Variables management](variables-management.md)
+* [Component properties binding](component-properties-binding.md)
+* [URL Parameters binding](url-parameters-binding.md)
+* [Master-detail concept](../master-detail/master-detail.md)
+* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+* [App Builder Components](../indigo-design-app-builder-components.md)

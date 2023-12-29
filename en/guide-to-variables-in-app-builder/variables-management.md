@@ -16,6 +16,9 @@ For primitive types, you can set a Default value using a value editor. For Array
 <img src="../images/state-and-context/3.png" srcset="../images/state-and-context/3.png 2x" />
 <p style="text-align:center;">Managing Variables</p>
 
+> [!NOTE]
+> For this topic examples we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
+
 ## How to Create a Variable?
 
 ### Interactions Section

@@ -12,6 +12,9 @@ Binding to component properties in App Builder involves connecting the propertie
 
 Previously, binding a Title and Subtitle to a Card component required iterating through a data array. This iteration made a data context available for binding specific data fields. However, with the introduction of variables, binding has become more versatile. Now, you can create a variable of any type and directly bind it to a Card component, eliminating the need for a data repeater.
 
+> [!NOTE]
+> For this topic examples we will be using the [Northwind WebAPI](https://data-northwind.indigo.design/swagger/index.html).
+
 ### Data Repeating Through an Array Variable
 
 Consider a scenario where you have a collection of movies and wish to display details about the highest-grossing box office movies based on a selection. Here's how you can achieve this:
