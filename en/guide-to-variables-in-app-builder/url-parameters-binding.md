@@ -1,40 +1,42 @@
-# Guide to Variables in App Builder
+---
+title: "Mastering URL Parameter Binding in App Builder"
+description: "Discover how App Builder from Infragistics revolutionizes data-driven applications with URL parameter binding for efficient data requests and repeaters, enhancing user experience in low-code development."
+keywords: "App Builder, Infragistics, URL Parameter Binding, Data Requests, Data Repeaters, Low-Code Development, Dynamic Data Integration, User Experience, Data-Driven Applications"
+---
 
-## URL Parameters Binding in App Builder
+# URL Parameters Binding in App Builder
 
-Binding URL parameters to data requests and components is a crucial feature in the App Builder, enabling applications to interact dynamically with web services and to personalize user experiences based on URL data. This section explores how URL parameters can be effectively utilized in your applications.
+App Builder allows for sophisticated data manipulation and display techniques, including the use of URL parameters for data requests and repeaters. This functionality is crucial for creating dynamic, data-driven applications.
 
-### Understanding URL Parameters Binding
+## Data Requests
+When working with data endpoints that require path or query parameters, App Builder's URL parameter binding feature becomes invaluable. This feature enables the application to make data requests based on parameters provided in the URL. For instance, consider a Grid component bound to Customer Orders. By using a “CustomerID” path parameter, the Grid dynamically fetches and displays data relevant to the specified customer.
 
-URL parameters binding allows your application to fetch and display data based on parameters passed in the URL. This is particularly useful for creating applications that respond to user input or external links.
+<img src="../images/state-and-context/13-path-param-customer-orders.gif" srcset="../images/state-and-context/13-path-param-customer-orders.gif 2x" />
+<p style="text-align:center;">Data requests</p>
 
-### How to Bind URL Parameters
+## Data Repeaters
 
-- **Setting Up Data Requests**: When configuring data endpoints in your application, you can specify that certain data requests depend on URL parameters. This setup allows for dynamic data fetching based on user navigation or actions.
-- **Binding to Data Repeaters**: URL parameters can also be used in conjunction with data repeaters, enabling the display of lists or collections based on the parameters passed.
+Data repeaters take this concept further. For example, a Tree node component can be repeated through an Orders collection, which is fetched based on the selected Customer ID. Unlike simple data binding, this involves binding the component to a Data Repeat context, allowing for the dynamic creation of UI elements based on the data fetched from the URL parameters.
 
-### Practical Use Cases
+<img src="../images/state-and-context/14-path-param-customer-orders-tree.gif" srcset="../images/state-and-context/14-path-param-customer-orders-tree.gif 2x" />
+<p style="text-align:center;">Data repeaters</p>
 
-#### Data Requests Based on URL Parameters
-
-- **Example Scenario**: Consider an application displaying customer orders. By binding the data request to a URL parameter like `CustomerID`, the application can dynamically fetch and display orders specific to a customer.
-- **Implementation**: This involves setting up the data endpoint to expect a path or query parameter and configuring the data request in the App Builder to use this parameter.
-
-#### Data Repeaters and URL Parameters
-
-- **Repeating UI Components**: URL parameters can be used to control the data displayed in repeating UI components, like a tree view or a grid.
-- **Dynamic Data Display**: For instance, a tree node component can repeat through an Orders collection fetched based on a selected Customer ID from the URL parameter, dynamically updating the displayed data.
-
-### Example: URL Parameters in a Customer Orders Application
-
-In an application designed to display customer orders, URL parameters play a pivotal role:
-
-- **Grid Bound to Customer Orders**: A grid component can be bound to a data request fetching customer orders, where the `CustomerID` is provided through the URL.
-- **Dynamic Updates**: As the URL parameter changes (e.g., different customer IDs), the grid updates to show the relevant orders, providing a seamless and dynamic user experience.
-
-![Data Requests with URL Parameters](../images/state-and-context/13-path-param-customer-orders.gif)
-*Example of Data Requests Using URL Parameters in App Builder*
-
-### Conclusion
-
+## Takeaways
 URL parameters binding in the App Builder opens up a myriad of possibilities for creating dynamic, data-driven applications. By leveraging this feature, you can build applications that respond intelligently to user navigation and input, enhancing the overall user experience and the applicability of your applications in real-world scenarios.
+
+- **Dynamic Data Fetching**: URL parameter binding in App Builder enables dynamic data fetching, allowing components like Grids and Trees to display data based on URL parameters.
+- **Enhanced User Experience**: This feature enhances user interaction with the application by providing context-specific data, improving the overall user experience.
+- **Data Display**: The ability to use data repeaters in conjunction with URL parameters offers a versatile approach to displaying data, especially in scenarios requiring nested or hierarchical data structures.
+- **Seamless Integration**: The integration of URL parameters with data requests and repeaters in App Builder is seamless, making it easier for developers to create complex, data-driven applications.
+- **Consistency with Previous Concepts**: This feature builds upon the previously discussed concepts of component properties binding and variable management, showcasing the comprehensive and cohesive nature of App Builder's capabilities.
+
+## Additional Resources
+
+<div class="divider--half"></div>
+
+* [Variables management](variables-management.md)
+* [Component properties binding](component-properties-binding.md)
+* [Working with Events and Actions](working-with-events-and-actions.md)
+* [Master-detail concept](../master-detail/master-detail.md)
+* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+* [App Builder Components](../indigo-design-app-builder-components.md)
