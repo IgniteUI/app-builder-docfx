@@ -2,6 +2,9 @@
 
 App Builder now offers a comprehensive and user-friendly approach to managing variables within your applications. This feature is essential for facilitating data transfer across components and views, thereby enriching the interactivity and dynamic capabilities of your applications.
 
+<img src="../images/state-and-context/general-variables-intro.gif" srcset="../images/state-and-context/general-variables-intro.gif 2x" />
+<p style="text-align:center;">Variables Introduction</p>
+
 ## Understanding Variable Types
 
 In the App Builder, variables are classified into two primary categories:
