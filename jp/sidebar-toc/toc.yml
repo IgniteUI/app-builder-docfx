@@ -38,6 +38,20 @@
     - name: ステップバイステップのアプリ作成例
       href: ../master-detail/step-by-step-examples.md
       new: true
+- name: App Builder での変数管理のガイド
+  href: ../guide-to-variables-in-app-builder/variables-management.md
+  new: true
+  updated: false
+  items:
+    - name: コンポーネント プロパティのバインド
+      href: ../guide-to-variables-in-app-builder/component-properties-binding.md
+      new: true
+    - name: URL パラメーターのバインド
+      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
+      new: true
+    - name: ベントとアクションを操作する
+      href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
+      new: true
 - name: レスポンシブ Fluid レイアウト
   href: ../how-to/responsive-fluid-layout.md
   new: false
