@@ -28,7 +28,7 @@ Linux で <b>AppBuilder.AppImage</b> ファイルをダウンロードすると�
 詳細なリストは以下のとおりです。
 - https://appbuilder.indigo.design (https 443)
 - wss://appbuilder.indigo.design (websocket 443) 
-- https://cloud.indigo.design (https 443) 
+- https://appbuilder.indigo.design (https 443) 
 - https://igniteuithemingwidget-previous.infragistics.com (https 443) 
 - https://igniteuithemingwidget-prod.infragistics.com (https 443) 
 - https://iam.infragistics.com (https 443) 

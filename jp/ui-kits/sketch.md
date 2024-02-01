@@ -37,7 +37,7 @@ IDE の右上にあるボタンを使用して、アプリを生成するか、�
 
 ## Sketch アセットのダウンロード 
 
-Sketch プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://cloud.indigo.design/resources/sketch)からダウンロードできます。
+Sketch プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://appbuilder.indigo.design/resources/sketch)からダウンロードできます。
 
 または、以下の直接リンクから:
 - [Sketch UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)

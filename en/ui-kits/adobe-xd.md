@@ -31,7 +31,7 @@ For more in-depth tutorial how to import your Adobe XD designs into App Builder,
 
 ## Adobe XD Download assets
 
-You can download the Adobe XD Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/adobe-xd).
+You can download the Adobe XD Plugin, UI kit and sample apps from the [Download Assets page.](https://appbuilder.indigo.design/resources/adobe-xd).
 
 Or through the direct links below:
 - [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)

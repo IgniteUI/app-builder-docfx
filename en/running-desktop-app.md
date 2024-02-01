@@ -28,7 +28,7 @@ A resolution for that problem would be whitelisting **"*.indigo.design"** and **
 _The detailed list is as follows: _
 - https://appbuilder.indigo.design (https 443)
 - wss://appbuilder.indigo.design (websocket 443) 
-- https://cloud.indigo.design (https 443) 
+- https://appbuilder.indigo.design (https 443) 
 - https://igniteuithemingwidget-previous.infragistics.com (https 443) 
 - https://igniteuithemingwidget-prod.infragistics.com (https 443) 
 - https://iam.infragistics.com (https 443) 

@@ -37,7 +37,7 @@ Just like that, a design or a developer can go from sketch to code with a web-ba
 
 ## Sketch Download assets
 
-You can download the Sketch Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/sketch).
+You can download the Sketch Plugin, UI kit and sample apps from the [Download Assets page.](https://appbuilder.indigo.design/resources/sketch).
 
 Or through the direct links below:
 - [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)

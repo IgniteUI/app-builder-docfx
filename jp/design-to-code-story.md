@@ -13,7 +13,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 <p style="width: 100%; text-align:center;">Indigo.Design UI キット</p>
 
 > [!NOTE]
-> UI キット、プラグイン、サンプル アプリは、[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)または[直接リンク](#アセットのダウンロード)からダウンロードできます。
+> UI キット、プラグイン、サンプル アプリは、[アセットのダウンロード ページ](https://appbuilder.indigo.design/resources/figma)または[直接リンク](#アセットのダウンロード)からダウンロードできます。
 
 ## Indigo.Design システム
 
@@ -81,7 +81,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 
 ## アセットのダウンロード
 
-プラグイン、UI キット、サンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
+プラグイン、UI キット、サンプル アプリは[アセットのダウンロード ページ](https://appbuilder.indigo.design/resources/figma)からダウンロードできます。
 
 または、以下の直接リンクから:
 - [Figma UI キット](https://www.figma.com/@infragistics)

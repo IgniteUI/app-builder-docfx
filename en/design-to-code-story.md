@@ -12,7 +12,7 @@ App Builder enables you to go from Design to Code in a single click. Import Figm
 <p style="width: 100%; text-align:center;">Indigo.Design UI Kit</p>
 
 > [!NOTE]
-> You can download our UI Kits, Plugins and Sample Apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma) or [though direct links](#download-assets).
+> You can download our UI Kits, Plugins and Sample Apps from the [Download Assets page.](https://appbuilder.indigo.design/resources/figma) or [though direct links](#download-assets).
 
 ## Indigo.Design System
 
@@ -80,7 +80,7 @@ Now you can start using the plugin.
 
 ## Download Assets
 
-You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma).
+You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://appbuilder.indigo.design/resources/figma).
 
 Or through the direct links below:
 - [Figma UI Kit](https://www.figma.com/@infragistics)

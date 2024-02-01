@@ -32,7 +32,7 @@ Adobe XD デザインを App Builder にインポートする方法の詳細に�
 
 ## Adobe XD アセットのダウンロード
 
-Adobe XD プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://cloud.indigo.design/resources/adobe-xd)からダウンロードできます。
+Adobe XD プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://appbuilder.indigo.design/resources/adobe-xd)からダウンロードできます。
 
 または、以下の直接リンクから:
 - [Adobe XD UI キット](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)

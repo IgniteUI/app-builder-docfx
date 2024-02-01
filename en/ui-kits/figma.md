@@ -64,7 +64,7 @@ Here is the difference with the Professional plan. You, as a **Free account user
 
 ## Figma Download assets
 
-You can download the Figma Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma)
+You can download the Figma Plugin, UI kit and sample apps from the [Download Assets page.](https://appbuilder.indigo.design/resources/figma)
 
 Or through the direct links below:
 - [Figma UI Kit](https://www.figma.com/@infragistics)
