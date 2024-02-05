@@ -55,7 +55,7 @@ Get hands-on with interactive UI design by checking out [Working with Events and
 ## Additional Resources
 
 - [Variables Management](../guide-to-variables-in-app-builder/variables-management.md)
-* [Navigation with Route parameters](route-parameters-navigation.md)
+* [Navigation with Route parameters](../guide-to-variables-in-app-builder/route-parameters-navigation.md)
 - [Component Properties Binding](../guide-to-variables-in-app-builder/component-properties-binding.md)
 - [URL Parameters Binding](../guide-to-variables-in-app-builder/url-parameters-binding.md)
 - [Working with Events and Actions](../guide-to-variables-in-app-builder/working-with-events-and-actions.md)
