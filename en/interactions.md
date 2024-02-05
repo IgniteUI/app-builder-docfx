@@ -37,6 +37,8 @@ In order to add an interaction, first select the component that will trigger the
 ![navigate-to-interaction](./images/navigate-to-interaction.gif)
 <p style="text-align:center;">"Navigate to" interaction</p>
 
+See [Navigation with Route parameters](route-parameters-navigation.md) for details how to create enhanced navigation including parameters in the navigatin route.
+
 ## Open/Close interaction
 The Open/Close interaction targets only overlay components, such as Dialog. This means that in order to use it, initially a triggering component, e.g. a button and then an overlay component, e.g. a Dialog, have to be added in the design area. Using the button and dialog example, next step is to select the button, go to Interactions panel and select Open/Close interaction. Once the trigger and the overlay are available, the Open/Close interaction is unlocked and the user can pick the Dialog to be opened upon selection of the button. 
 
