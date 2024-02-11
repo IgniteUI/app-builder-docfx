@@ -38,6 +38,7 @@ URL parameters binding in the App Builder opens up a myriad of possibilities for
 <div class="divider--half"></div>
 
 * [Variables management](variables-management.md)
+* [Navigation with Route parameters](route-parameters-navigation.md)
 * [Component properties binding](component-properties-binding.md)
 * [Working with Events and Actions](working-with-events-and-actions.md)
 * [Master-detail concept](../master-detail/master-detail.md)

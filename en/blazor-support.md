@@ -15,7 +15,7 @@ You can generate both Blazor Web Assembly or Blazor Server apps based on your pr
 
 
 <img class="box-shadow" src="./images/blazor-introduction.PNG" />
-<p style="width: 100%; text-align:center;">Blazor Code Generation from AppBuilder</p>
+<p style="width: 100%; text-align:center;">Blazor Code Generation from App Builder</p>
 
 > [!NOTE]
 ><b>Trying to generate code for components not available yet will put a placeholder informing that such a component is not yet supported. This makes it possible for you not to refrain from developing more complex UI in the designer.

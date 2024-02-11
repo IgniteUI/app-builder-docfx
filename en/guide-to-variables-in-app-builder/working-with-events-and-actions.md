@@ -55,6 +55,7 @@ A notable aspect of the Combo component is its behavior with the `valueKey` attr
 <div class="divider--half"></div>
 
 * [Variables management](variables-management.md)
+* [Navigation with Route parameters](route-parameters-navigation.md)
 * [Component properties binding](component-properties-binding.md)
 * [URL Parameters binding](url-parameters-binding.md)
 * [Master-detail concept](../master-detail/master-detail.md)
