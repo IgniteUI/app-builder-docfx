@@ -56,6 +56,7 @@ App Builder でマスター/詳細シナリオを作成するために、いく�
 ## その他のリソース
 
 - [変数の管理](../guide-to-variables-in-app-builder/variables-management.md)
+* [ルート パラメーターを使用したナビゲーション](../guide-to-variables-in-app-builder/route-parameters-navigation.md)
 - [コンポーネント プロパティのバインド](../guide-to-variables-in-app-builder/component-properties-binding.md)
 - [URL パラメーターのバインド](../guide-to-variables-in-app-builder/url-parameters-binding.md)
 - [イベントとアクションの操作](../guide-to-variables-in-app-builder/working-with-events-and-actions.md)
