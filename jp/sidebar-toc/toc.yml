@@ -52,6 +52,9 @@
     - name: ベントとアクションを操作する
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
       new: true
+    - name: ルート パラメーターを使用したアプリのナビゲーション
+      href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
+      new: true
 - name: レスポンシブ Fluid レイアウト
   href: ../how-to/responsive-fluid-layout.md
   new: false

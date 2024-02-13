@@ -60,6 +60,7 @@ What's the essence of App Builder components binding?
 
 * [Variables management](variables-management.md)
 * [URL parameters binding](url-parameters-binding.md)
+* [Navigation with Route parameters](route-parameters-navigation.md)
 * [Working with Events and Actions](working-with-events-and-actions.md)
 * [Master-detail concept](../master-detail/master-detail.md)
 * [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)

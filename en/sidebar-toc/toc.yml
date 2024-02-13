@@ -52,6 +52,9 @@
     - name: Working with events and actions
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
       new: true
+    - name: App Navigation with Route Parameters
+      href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
+      new: true
 - name: Responsive Fluid Layouts
   href: ../how-to/responsive-fluid-layout.md
   new: false

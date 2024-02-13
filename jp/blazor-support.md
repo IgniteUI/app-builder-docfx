@@ -16,7 +16,7 @@ Blazor コンポーネントの可用性の一覧については、[アプリの
 
 
 <img class="box-shadow" src="./images/blazor-introduction.PNG" />
-<p style="width: 100%; text-align:center;">AppBuilder からの Blazor コード生成</p>
+<p style="width: 100%; text-align:center;">App Builder からの Blazor コード生成</p>
 
 > [!NOTE]
 ><b>まだ利用できないコンポーネントのコードを生成しようとすると、そのようなコンポーネントがまだサポートされていないことを示すプレースホルダーが表示されます。これにより、デザイナーでより複雑な UI を開発することを控える必要はありません。

@@ -39,6 +39,7 @@ App Builder での URL パラメーター バインドにより、動的なデ�
 <div class="divider--half"></div>
 
 * [変数の管理](variables-management.md)
+* [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
 * [コンポーネント プロパティのバインド](component-properties-binding.md)
 * [イベントとアクションの操作](working-with-events-and-actions.md)
 * [マスター/詳細の概念](../master-detail/master-detail.md)
