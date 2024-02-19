@@ -28,7 +28,7 @@ _language: ja
 
 2 - MySQL へのコンテナー接続を許可します。
 
-手順 1 のルート ユーザーとパスワードで MySQL に接続し、次の sql スクリプトを実行します (ユーザー名とパスワードは AppBuilder から使用されるものになります)。 
+手順 1 のルート ユーザーとパスワードで MySQL に接続し、次の sql スクリプトを実行します (ユーザー名とパスワードは App Builder から使用されるものになります)。 
 > 注: [MySQL Workbench ツール](https://dev.mysql.com/downloads/workbench/)を使用して SQL スクリプトを実行できます。
 
 ```
