@@ -6,7 +6,17 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 13th of December, 2023.
+> Latest update was made on 19th of February, 2024.
+
+## February 2024 Release
+### Features
+- App Navigation with **Route Parameters**
+- Added **Dependent variables** support
+- Added **Static value input capabilities** for "set variable" action through **editors** (based on variable type)
+
+### Improvements
+- Angular apps are generated using **Ignite UI for Angular `17.0.x`**.
+- Bug fixes
 
 ## December 2023 Release
 ### Features
