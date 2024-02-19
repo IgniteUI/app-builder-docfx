@@ -7,9 +7,6 @@ _language: ja
 
 # App Builder を使用した作業の開始
 
-> [!NOTE]
-><b>App Builder は、Indigo.Design ホーム画面の [アプリ] タブまたは [App Builder ドメイン](https://cloud.indigo.design/login-and-redirect?target=appbuilder&path=/)から起動できます。そこから、すべてのアクティブなアプリケーションを管理することもできます。App Builder でアプリの編集が完了したら、[コードの生成] ボタンからコードを生成し、ローカルで実行します。
-
 ### トピック コンテンツ:
 * <a href="#app-builder-を起動する">Indigo.Design から App Builder を起動する</a>
 * <a href="#コードの取得">コードの取得</a>
