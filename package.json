@@ -19,7 +19,7 @@
     "yargs": "^10.0.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^3.0.2",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
