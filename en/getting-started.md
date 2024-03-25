@@ -14,7 +14,7 @@ _keywords: App builder, Indigo Design, Infragistics
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?v=WSQ38lLacH4" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>Get Started with App Builder</p>
     </div>
@@ -22,22 +22,18 @@ _keywords: App builder, Indigo Design, Infragistics
 
 
 ## Launch App Builder
-You can login directly in your App Builder profile or by signing it with Indigo.Design. You will land in the home screen and from here you can access each of the three core Indigo.Design products - Prototypes and Usability Tests, as well as the newest one - App Builder which can be found under the Apps tab. 
+To access App Builder, navigate to [https://appbuilder.dev](https://appbuilder.dev) and sign in. Alternatively, you can launch App builder directly by visiting [https://my.appbuilder.dev](https://my.appbuilder.dev). You will need an active trial or paid subscription to create and edit apps.
 
-From the App Builder home screen, users can start a new app, preview or edit an existing one. Through the context menu, every existing app can also be renamed, duplicated or archived.  
+## Create new app
+There are thee ways in which you can create a new app from the "Create new application" dilaog:
 
-AB Sign-in
-<img src="./images/Standalone-AB.PNG" srcset="./images/Standalone-AB-@2x.png 2x" />
+1. **Sample apps** - the getting started apps will help you explore applications that have been created using the App Builder and also allow you to modify them in your own user space. They are also a good source for you to preview generated code for a larger application without having to create your own app from scratch. If you use the App Builder for first time, we recommend to use the sample app option as a starting point. This is the quickest way to onboard yourself with the awesome features of the tool and to start building your application.
+2. **App layouts** - start a new app from scratch, benefiting from a predefined layouts. You will also find the the option to create an app based on a blank template from here.
+4. **Import design** - if you have an existing design file, created using the Indigo.Design UI kit for Figma or Sketch, you can use this as a starting point for your apps. To do this, get our Indigo.Design system, which includes plugins to publish your design, UI kits, and sample design files.
 
-Indigo.Cloud Sign-in
-![Indigo-Design-home-screen](./images/Indigo-Design-home-screen.gif)
-<p style="text-align:center;">Indigo.Design home screen</p>
-
-What you'll see when you launch the [App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) for first time is a pop up window suggesting a quick onboarding tour. What you will see next is the create new project dialog. There are four ways to start a new app:
-1. <b>Create from existing design</b> - if you have an existing Sketch file, created using the Indigo.Design UI kit for Sketch, you can upload it at this point and continue your design in the App Builder, without the need to recreate everything from scratch. Note, that due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
-2. <b>Sample apps</b> - the getting started apps will help you explore applications that have been created using the App Builder and also allow you to modify them in your own user space. They are also a good source for you to preview generated code for a larger application without having to create your own app from scratch. If you use the App Builder for first time, we recommend to use the sample app option as a starting point. This is the quickest way to onboard yourself with the awesome features of the tool and to start building your application.
-3. <b>Default layouts</b> - start a new app from scratch, benefiting from a basic predefined layout.
-4. <b>Blank</b> - start a new app from scratch.
+<br>
+> Note: Due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
+<br>
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">New project dialog</p>
@@ -59,8 +55,7 @@ The App Builder always displays a live-running web application both on the desig
 <p style="text-align:center;">Code of a generated application and then run in VScode</p>
 
 
-> [!NOTE]
-> Once the code for your application is downloaded, changes made locally will not be reflected in your App Builder user space.
+> [!NOTE] Once the code for your application is downloaded, changes made locally will not be reflected in your App Builder user space.
 
 ## On-Premises version of App Builder
 App Builder is a SaaS which provides Developers, Designers and Product Managers with a consolidated platform for software product discovery, software product design, building interactive product PoCs and emitting pixel-perfect code projects ready for subsequent modifications.
