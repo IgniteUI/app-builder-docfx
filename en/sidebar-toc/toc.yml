@@ -21,9 +21,9 @@
     - name: Figma
       href: ../ui-kits/figma.md
       new: false
-    - name: Adobe XD
-      href: ../ui-kits/adobe-xd.md
-      new: false
+    #name: Adobe XD
+      #href: ../ui-kits/adobe-xd.md
+      #new: false
     - name: Sketch
       href: ../ui-kits/sketch.md
       new: false
