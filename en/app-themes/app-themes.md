@@ -13,7 +13,7 @@ An app theme is a collection of color palettes and attributes that create a sens
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/tuTELBXDKYA" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?v=mGY9mibUAlE" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>Customize App Themes</p>
     </div>
