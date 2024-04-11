@@ -111,4 +111,4 @@ Currently, the App Builder supports code generation for Angular and Blazor. Belo
 * [Run Application Locally](run-application-locally.md)
 * [Preview Application Code](../preview-code.md)
 * [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design Components]({environment:infragisticsBaseUrl}/components)
+* [App Builder Components]({environment:appbuilderBaseUrl}/components)
