@@ -35,6 +35,9 @@
         ],
         "dest": "_site",
         "globalMetadataFiles": ["global.json", "../node_modules/igniteui-docfx-template/template/bundling.global.json"],
+        "globalMetadata": {
+            "_appFaviconPath": "https://staging.appbuilder.dev/wp-content/themes/slingshot/icons/favicon.ico"
+        },
         "fileMetadataFiles": [],
         "template": ["../node_modules/igniteui-docfx-template/template"],
         "noLangKeyword": false,
@@ -42,7 +45,7 @@
         "cleanupCacheHistory": true,
         "disableGitFeatures": true,
         "sitemap": {
-            "baseUrl": "https://www.infragistics.com/products/appbuilder/help/",
+            "baseUrl": "https://www.appbuilder.dev/help/",
             "changefreq": "weekly",
             "priority": 0.7
         }
