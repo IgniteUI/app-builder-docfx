@@ -14,7 +14,7 @@ _keywords: App builder, Indigo Design, Infragistics
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>Get Started with App Builder</p>
     </div>
@@ -100,11 +100,6 @@ In order to run the downloaded application, the following prerequisites need to 
     </div>
 </div>
 <div class="divider--half"></div>
-
-## Tutorial video
-Learn more about our low-code App Builder in our short overview video:
-
-> [!Video https://www.youtube.com/embed/WSQ38lLacH4]
 
 ## Report an issue or send feedback
 

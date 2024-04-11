@@ -15,7 +15,7 @@ _language: ja
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/DK50La2GFJ0" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>App Builder を使ってみましょう</p>
     </div>
@@ -101,11 +101,6 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
     </div>
 </div>
 <div class="divider--half"></div>
-
-## チュートリアル ビデオ
-ローコードな App Builder について詳しくは、このビデオ チュートリアルをご覧ください:
-
-> [!Video https://www.youtube.com/embed/WSQ38lLacH4]
 
 ## 問題の報告またはフィードバックの送信
 

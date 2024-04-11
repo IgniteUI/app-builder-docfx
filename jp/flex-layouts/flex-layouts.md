@@ -22,7 +22,7 @@ App Builderで Flex レイアウトを使用するには、コンテナー (ビ�
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/BRkaSYr7qHU?si=74eY9-rqm90A8kmh" frameborder="0" allowfullscreen></iframe>
         </div>
         <p> アプリのレイアウトを作成する</p>
     </div>

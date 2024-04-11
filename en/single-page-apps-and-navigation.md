@@ -9,7 +9,7 @@ _keywords: App builder, Indigo Design, Infragistics
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>Set Up Single-Page Apps and Navigation</p>
     </div>
