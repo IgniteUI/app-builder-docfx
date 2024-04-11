@@ -10,7 +10,7 @@ _language: ja
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/gcTyeFp_65c?si=w-3ycuuDZ4whrEZc" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/gcTyeFp_65c?si=w-3ycuuDZ4whrEZc&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>テーマをカスタマイズする</p>
     </div>

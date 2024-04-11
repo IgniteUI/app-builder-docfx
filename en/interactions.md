@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Interactions
 
 > [!NOTE]
-><b>The Interactions feature of the Ignite UI App Builder enables users to define particular interactions between views and components, such as Navigate to another view, Show or Hide and Open or Close an app component.
+><b>The Interactions feature of the App Builder enables users to define particular interactions between views and components, such as Navigate to another view, Show or Hide and Open or Close an app component.
 
 
 
@@ -28,7 +28,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 </section>
 
 ## Intro
-Ignite UI App Builder enables its users not only to design application layouts and screens, but also to define the application interaction design. Interactions can be set up between components and views or just between components. Through this feature particular application scenarios, such as showing and hiding a calendar component triggered upon click on a button component, can be established. This will help users build great UX flows according to the needs of their customers. All added interactions will be available not only in Preview mode, but also in the application code after generating it.
+App Builder enables its users not only to design application layouts and screens, but also to define the application interaction design. Interactions can be set up between components and views or just between components. Through this feature particular application scenarios, such as showing and hiding a calendar component triggered upon click on a button component, can be established. This will help users build great UX flows according to the needs of their customers. All added interactions will be available not only in Preview mode, but also in the application code after generating it.
 In order to add an interaction, first select the component that will trigger the action, then go to the Property panel in the right side of the Ignite UI App Builder interface and scroll down to the Interactions. Then, select the + icon button to create a new interaction. Upon this, a new interaction will be created below where first has to be picked up the interaction type, then the target component or view. No more than one interaction can be added to a component. Created interactions can be tested on Preview Mode, as well as deleted or edited from the Interactions panel. Check below detailed description about how to use each one of the interactions.
 
 ## Navigate to
@@ -68,4 +68,4 @@ Note that we are constantly updating the Ignite UI App Builder with new interact
 * [Flex Layouts](flex-layouts/flex-layouts.md)
 * [Running Desktop App](running-desktop-app.md)
 * [Generate app](generate-app/generate-app-overview.md)
-* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)

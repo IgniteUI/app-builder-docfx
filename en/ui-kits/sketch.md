@@ -8,7 +8,7 @@ A strong design-to-code movement emerged in the last few years to pick up where 
 ## App Builder Sketch Importer
 Here are the 4 simple steps to get from Design to Code with the App Builder with a drag & drop.
 
-Step 1: Click New App from the Indigo.Design Apps Home Screen
+Step 1: Click New App from the App Builder main menu
 Create New Angular App from Sketch Design
 
 <img class="box-shadow" src="../images/new-app-dialog.PNG" />
