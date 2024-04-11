@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Figma design, Sketch import
 
 # Design-to-Code App Builder story
 
-App Builder enables you to go from Design to Code in a single click. Import Figma, Sketch and Adobe XD files and create Apps with ease. Use the [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) plugins directly inside Figma, Sketch and Adobe XD to deliver custom themes, import images assets, and ensure all components are mapped one-to-one with controls from the App Builder Toolbox.
+App Builder enables you to go from Design to Code in a single click. First, create your designs with the [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit)  for Figma or Sketch. You can then use our Figma plugin to publish as apps in App Builder. For Sketch, you can import your Sketch files directly into app builder when creating a new app. Once imported, you will find your UI kit components are mapped to components available in the toolbox. This will allow you to extend your app with data and variables to create dynamic app experiences.
 
 <img class="box-shadow" src="./images/indigo-design-ui-kit.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI Kit</p>
@@ -68,16 +68,6 @@ Now you can start using the plugin.
 <img class="box-shadow" src="./images/figma-plugin.PNG" />
 <p style="width: 100%; text-align:center;">Figma Plugin</p>
 
-##### Adobe XD Plugin
-
-<img class="box-shadow" src="./images/adobe-xd-plugin.PNG" />
-<p style="width: 100%; text-align:center;">Adobe XD Plugin Create App</p>
-
-##### Sketch Plugin
-
-<img class="box-shadow" src="./images/sketch-plugin-create-app.PNG" />
-<p style="width: 100%; text-align:center;">Sketch Plugin Create App</p>
-
 ## Download Assets
 
 You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma).
@@ -86,11 +76,7 @@ Or through the direct links below:
 - [Figma UI Kit](https://www.figma.com/@infragistics)
 - [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
 - [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
-- [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
-- [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)
-- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
 - [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
-- [Plugin for Sketch](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)
 - [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
  
 ## Additional Resources
@@ -98,5 +84,4 @@ Or through the direct links below:
 <div class="divider--half"></div>
 
 * [Figma UI Kit](ui-kits/figma.md)
-* [Adobe XD UI kit](ui-kits/adobe-xd.md)
 * [Sketch UI kit](ui-kits/sketch.md)

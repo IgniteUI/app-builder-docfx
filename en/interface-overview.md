@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 # Interface overview 
 
-The Indigo App Builder interface is similar to the interface of most design tools you may already be used to, with some minor differences. But in all cases you are going to get used to it very quickly.
+The App Builder interface is similar to the interface of most design tools you may already be used to, with some minor differences. But in all cases you are going to get used to it very quickly.
 There are four main sections in the App Builder.
 
 
@@ -15,7 +15,9 @@ There are four main sections in the App Builder.
 
 ## Toolbox 
 
-The **Toolbox** is the section on the left-hand side and it includes five tabs for **Components, Views, Data Sources, Themes** and the **Outline Tree**. The Components tab gives you access to all available Ignite UI for Angular components, as well as some App Builder general components, such as absolute, row, column layout and views container. The search input on the top of the components list makes easy to find a particular component. All of the components are conveniently distributed into groups based on their application. The grayed-out components have still not been added, and are thus disabled, but soon will be implemented in future updates. Below the Components tab you will find the Views tab. In the views tab you can find all the views in the application displayed with their parent-child relationships. The third tab is Data. This is where all data sources and related options are located. You can view and edit all available data sources, as well as add a new one. The fourth tab gives you access to all theming capabilities and to all available preconfigured themes. You can create and edit your own themes and quickly switch between them. The last tab - the Outline Tree - shows you a detailed hierarchy of the components in the selected app view.
+The **Toolbox** is the section on the left-hand side and it includes five tabs for **Components, Views, Data Sources, Themes** and the **Outline Tree**. 
+
+The Components tab gives you access to all available components in App Builder that you can add to your design canvas and configure for use. The search input on the top of the components list makes easy to find a particular component. Below the Components tab you will find the Views tab. In the views tab you can find all the views in the application displayed with their parent-child relationships. The third tab is Data. This is where all data sources and related options are located. You can view and edit all available data sources, as well as add a new one. The fourth tab gives you access to all theming capabilities and to all available preconfigured themes. You can create and edit your own themes and quickly switch between them. The last tab - the Outline Tree - shows you a detailed hierarchy of the components in the selected app view.
 
 ## Design Canvas
 

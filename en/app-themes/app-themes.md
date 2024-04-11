@@ -13,13 +13,13 @@ An app theme is a collection of color palettes and attributes that create a sens
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/tuTELBXDKYA" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/gcTyeFp_65c?si=w-3ycuuDZ4whrEZc&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>Customize App Themes</p>
     </div>
 </section>
 
-The [App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) adopts a design systems approach to UI creation and you can download app themes and apply them at the app-level. With a single selection of a theme, the theme is globally applied to the whole application immediately. Having global theme avoids the need to create local styles that are difficult to maintain.  
+The [App Builder]({environment:appbuilderBaseUrl}) adopts a design systems approach to UI creation and you can download app themes and apply them at the app-level. With a single selection of a theme, the theme is globally applied to the whole application immediately. Having global theme avoids the need to create local styles that are difficult to maintain.  
 
 ## Switching App Builder themes 
 
@@ -58,5 +58,5 @@ Keep in mind that with the App Builder you can take advantage of Flex layouts, p
 * [Flex Layouts](../flex-layouts/flex-layouts.md)
 * [Ignite UI for Angular Theming]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
 * [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+* [App Builder Components]({environment:appbuilderBaseUrl}/components)
 

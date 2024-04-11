@@ -15,7 +15,7 @@ _language: ja
 ## 例 1
 あるビューから設定されたグローバル変数と、ビュー コンテナを介した別のビューからのグリッド リクエストの更新
 
-<a href="https://appbuilder.indigo.design/app/bea0uqmjezxn/preview" target="_blank">ライブ デモ</a>
+<a href="https://my.appbuilder.dev/app/bea0uqmjezxn/preview" target="_blank">ライブ デモ</a>
 
 
 1. コンボ選択変更イベント時に設定されるグローバル変数を追加します。コンボは Customer エンドポイントにバインドされています。
@@ -38,7 +38,7 @@ _language: ja
 ## 例 2
 グリッドとチャートのデータを読み込む階層データ ソースにバインドされたツリー
 
-<a href="https://appbuilder.indigo.design/app/jj15bv7rgkw8/preview" target="_blank">ライブ デモ</a>
+<a href="https://my.appbuilder.dev/app/jj15bv7rgkw8/preview" target="_blank">ライブ デモ</a>
 
 1. Tree コンポーネントを追加し、その親を階層データ ソース (繰り返しデータ コンテキスト) にバインドします。 
 2. 親ツリー ノードのクリック時イベントを、CustomerID - 文字列変数を格納する変数設定アクションにバインドします。 

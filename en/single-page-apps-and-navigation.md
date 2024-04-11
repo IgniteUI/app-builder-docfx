@@ -9,13 +9,13 @@ _keywords: App builder, Indigo Design, Infragistics
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/5mF15w3Ww3g" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
         </div>
         <p>Set Up Single-Page Apps and Navigation</p>
     </div>
 </section>
 
-Another Ignite UI App Builder feature is the single-page apps and navigation. Unlike a page-based design approach, App Builder lets you create separate views that are injected or switched based on how users navigate. To see this action, you can create a new app using the create new application button, then select one of the default layouts that shows a top navigation defined. 
+Another App Builder feature is the single-page apps and navigation. Unlike a page-based design approach, App Builder lets you create separate views that are injected or switched based on how users navigate. To see this action, you can create a new app using the create new application button, then select one of the default layouts that shows a top navigation defined. 
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">Add layout preset from the Menu button, then select Create New App</p>
@@ -61,6 +61,6 @@ That's it for single page apps and the navigation feature. To summarize, child v
 
 * [Preview Code and Generate App](preview-code.md)
 * [Angular Routing](https://angular.io/start/start-routing)
-* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+* [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
+* [App Builder Components]({environment:appbuilderBaseUrl}/components)
 

@@ -83,5 +83,4 @@ Or through the direct links below:
 <div class="divider--half"></div>
 
 * [Design to code story](../design-to-code-story.md)
-* [Adobe XD UI Kit](adobe-xd.md)
 * [Sketch UI Kit](sketch.md)
