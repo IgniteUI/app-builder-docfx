@@ -65,4 +65,4 @@ Improvements:
 * [Run Application Locally](run-application-locally.md)
 * [Preview Application Code](../preview-code.md)
 * [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+* [App Builder Components]({environment:appbuilderBaseUrl}/components)

@@ -85,5 +85,5 @@ Anonymous users won't have access to restricted applications. You can always use
 * [Open API/Swagger support](open-api-swagger-support.md)
 * [Running Desktop App](running-desktop-app.md)
 * [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+* [App Builder Components]({environment:appbuilderBaseUrl}/components)
 

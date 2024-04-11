@@ -21,7 +21,7 @@ You can now choose from different Flex layout properties to define alignment, de
 <section class="video-container">
     <div>
         <div class="video-container__item">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/MUq3MGm9YlU" frameborder="0" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/BRkaSYr7qHU?si=74eY9-rqm90A8kmh&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
         </div>
         <p> Create App Layouts</p>
     </div>
@@ -67,7 +67,7 @@ To summarize quickly, whatever you have learned about Flex layouts can be used h
 
 * [App Builder Components](../indigo-design-app-builder-components.md)
 * [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-* [A Guide to flexbox](<https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [A Guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox Froggy](https://flexboxfroggy.com/)
 * [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
 * [Indigo.Design Styling Overview](https://www.infragistics.com/products/indigo-design/help/style/styling-overview)

@@ -69,16 +69,6 @@ App Builder を使用して、ワンク リックでデザインからコード�
 <img class="box-shadow" src="./images/figma-plugin.PNG" />
 <p style="width: 100%; text-align:center;">Figma プラグイン</p>
 
-##### Adobe XD プラグイン
-
-<img class="box-shadow" src="./images/adobe-xd-plugin.PNG" />
-<p style="width: 100%; text-align:center;">Adobe XD プラグイン アプリの作成</p>
-
-##### Sketch プラグイン
-
-<img class="box-shadow" src="./images/sketch-plugin-create-app.PNG" />
-<p style="width: 100%; text-align:center;">Sketch プラグイン アプリの作成</p>
-
 ## アセットのダウンロード
 
 プラグイン、UI キット、サンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。

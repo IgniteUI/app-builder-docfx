@@ -33,4 +33,4 @@ The App Builder allows you to design your applications visually using profession
 * [Upload Application to Github](upload-application-to-github.md)
 * [Preview Application Code](../preview-code.md)
 * [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+* [appbuilderBaseUrl]({environment:appbuilderBaseUrl}/components)
