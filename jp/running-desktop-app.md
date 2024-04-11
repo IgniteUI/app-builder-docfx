@@ -26,8 +26,8 @@ Linux で <b>AppBuilder.AppImage</b> ファイルをダウンロードすると�
 この問題を解決するには、**https** と **secure websocket** の両方に **"*.indigo.design"** と **"*.infragistics.com"** をホワイトリストに追加します。
 
 詳細なリストは以下のとおりです。
-- https://appbuilder.indigo.design (https 443)
-- wss://appbuilder.indigo.design (websocket 443) 
+- https://my.appbuilder.dev/ (https 443)
+- wss://my.appbuilder.dev/ (websocket 443) 
 - https://cloud.indigo.design (https 443) 
 - https://igniteuithemingwidget-previous.infragistics.com (https 443) 
 - https://igniteuithemingwidget-prod.infragistics.com (https 443) 

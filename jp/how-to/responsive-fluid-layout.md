@@ -84,7 +84,7 @@ Fluid レイアウトは、作成するのが常に課題です。このミニ�
 ## これで完了です。
 
 3 つの異なる画面サイズでのアプリケーションの最終結果を次に示します。
-[ライブアプリはこちら](https://appbuilder.indigo.design/app/ihyry6j7gpq5/preview)で確認できます。
+[ライブアプリはこちら](https://my.appbuilder.dev//app/ihyry6j7gpq5/preview)で確認できます。
 
 ![final-result](../images/how-to/final-result.png)
 

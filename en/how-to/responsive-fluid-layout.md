@@ -83,7 +83,7 @@ This will make the first column to take twice as much available space (horizonta
 ## And we're done!
 
 Here's the end result of our application in 3 different screen sizes.
-You can also check out the [live app here](https://appbuilder.indigo.design/app/ihyry6j7gpq5/preview)
+You can also check out the [live app here](https://my.appbuilder.dev//app/ihyry6j7gpq5/preview)
 
 ![final-result](../images/how-to/final-result.png)
 

@@ -26,8 +26,8 @@ Possible reason for the error could be that the proxy server is blocking some re
 A resolution for that problem would be whitelisting **"*.indigo.design"** and **"*.infragistics.com"** for both **https** and **secure websocket**. 
 
 _The detailed list is as follows: _
-- https://appbuilder.indigo.design (https 443)
-- wss://appbuilder.indigo.design (websocket 443) 
+- https://my.appbuilder.dev/ (https 443)
+- wss://my.appbuilder.dev/ (websocket 443) 
 - https://cloud.indigo.design (https 443) 
 - https://igniteuithemingwidget-previous.infragistics.com (https 443) 
 - https://igniteuithemingwidget-prod.infragistics.com (https 443) 
