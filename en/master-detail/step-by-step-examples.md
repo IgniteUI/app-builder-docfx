@@ -14,7 +14,7 @@ Below you can find real use cases for two scenarios. These scenarios will cover 
 ## Example 1
 Global variable set from one View and Updating Grid request from another View through a Views container
 
-<a href="https://my.appbuilder.dev//app/bea0uqmjezxn/preview" target="_blank">Live demo</a>
+<a href="https://my.appbuilder.dev/app/bea0uqmjezxn/preview" target="_blank">Live demo</a>
 
 
 1. Add a Global variable which is set upon the Combo selection change event. The combo is bound to the Customer endpoint 
@@ -37,7 +37,7 @@ Global variable set from one View and Updating Grid request from another View th
 ## Example 2
 Tree bound to Hierarchical data source loading data for Grid and Chart
 
-<a href="https://my.appbuilder.dev//app/jj15bv7rgkw8/preview" target="_blank">Live demo</a>
+<a href="https://my.appbuilder.dev/app/jj15bv7rgkw8/preview" target="_blank">Live demo</a>
 
 1. Add a Tree component and bind its parent to a Hierarchical data source (Repeated data context). 
 2. Bind the parent tree node On Click event to a Set variable action that stores the CustomerID - String variable 
