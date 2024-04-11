@@ -1,14 +1,17 @@
 {
     "development": {
         "infragisticsBaseUrl": "https://jp.staging.infragistics.com",
+        "appbuilderBaseUrl": "https://jp.staging.appbuilder.dev",
         "GTMContainerId": "GTM-WLXLBZD"
     },
     "staging": {
         "infragisticsBaseUrl": "https://jp.staging.infragistics.com",
+        "appbuilderBaseUrl": "https://jp.staging.appbuilder.dev",
         "GTMContainerId": "GTM-NCKNPN"
     },
     "production": {
         "infragisticsBaseUrl": "https://jp.infragistics.com",
+        "appbuilderBaseUrl": "https://appbuilder.dev",
         "GTMContainerId": "GTM-T65CF7"
     }
 }

@@ -86,11 +86,7 @@ Or through the direct links below:
 - [Figma UI Kit](https://www.figma.com/@infragistics)
 - [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
 - [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
-<!-- - [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
-- [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)
-- [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip) -->
 - [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
-<!-- - [Plugin for Sketch](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip) -->
 - [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
  
 ## Additional Resources
@@ -98,5 +94,4 @@ Or through the direct links below:
 <div class="divider--half"></div>
 
 * [Figma UI Kit](ui-kits/figma.md)
-<!-- * [Adobe XD UI kit](ui-kits/adobe-xd.md) -->
 * [Sketch UI kit](ui-kits/sketch.md)
