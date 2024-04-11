@@ -68,4 +68,4 @@ Note that we are constantly updating the Ignite UI App Builder with new interact
 * [Flex Layouts](flex-layouts/flex-layouts.md)
 * [Running Desktop App](running-desktop-app.md)
 * [Generate app](generate-app/generate-app-overview.md)
-* [Getting Started]({environment:infragisticsBaseUrl}/help/getting-started)
+* [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)

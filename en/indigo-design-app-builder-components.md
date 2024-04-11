@@ -41,6 +41,6 @@ For more complex components, like an input field or say card component, you can 
 <div class="divider--half"></div>
 
 * [App Themes](app-themes/app-themes.md)
-* [Getting Started]({environment:infragisticsBaseUrl}/help/getting-started)
-* [Components]({environment:infragisticsBaseUrl}/components)
+* [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
+* [Components]({environment:appbuilderBaseUrl}/components)
 
