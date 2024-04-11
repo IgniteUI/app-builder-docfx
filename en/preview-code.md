@@ -40,5 +40,5 @@ Moreover, you are skipping the hand-off where developers have to inspect the vis
 * [Flex Layouts](flex-layouts/flex-layouts.md)
 * [Running Desktop App](running-desktop-app.md)
 * [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-<!-- * [Indigo.Design Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview) -->
+* [App Builder Components]({environment:infragisticsBaseUrl}/components)
 

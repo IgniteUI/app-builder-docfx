@@ -69,4 +69,4 @@ You can now make requests to a localhost or private networks. For more informati
 * [Flex Layouts](flex-layouts/flex-layouts.md)
 * [Running Desktop App](running-desktop-app.md)
 * [Generate app](generate-app/generate-app-overview.md)
-* [Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+* [Getting Started]({environment:infragisticsBaseUrl}/help/getting-started)

@@ -61,6 +61,6 @@ That's it for single page apps and the navigation feature. To summarize, child v
 
 * [Preview Code and Generate App](preview-code.md)
 * [Angular Routing](https://angular.io/start/start-routing)
-* [Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [App Builder Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+* [Getting Started]({environment:infragisticsBaseUrl}/help/getting-started)
+* [App Builder Components]({environment:infragisticsBaseUrl}/components)
 

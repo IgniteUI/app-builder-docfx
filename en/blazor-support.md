@@ -83,5 +83,5 @@ For a list of all supported components see [Generate App](generate-app/generate-
 * [App Builder Components](indigo-design-app-builder-components.md)
 * [Flex Layouts](flex-layouts/flex-layouts.md)
 * [Running Desktop App](running-desktop-app.md)
-* [Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [Components](https://www.infragistics.com/products/indigo-design/help/components/components-overview)
+* [Getting Started]({environment:infragisticsBaseUrl}/help/getting-started)
+* [Components]({environment:infragisticsBaseUrl}/components)

@@ -68,16 +68,6 @@ Now you can start using the plugin.
 <img class="box-shadow" src="./images/figma-plugin.PNG" />
 <p style="width: 100%; text-align:center;">Figma Plugin</p>
 
-##### Adobe XD Plugin
-
-<img class="box-shadow" src="./images/adobe-xd-plugin.PNG" />
-<p style="width: 100%; text-align:center;">Adobe XD Plugin Create App</p>
-
-##### Sketch Plugin
-
-<img class="box-shadow" src="./images/sketch-plugin-create-app.PNG" />
-<p style="width: 100%; text-align:center;">Sketch Plugin Create App</p>
-
 ## Download Assets
 
 You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma).
