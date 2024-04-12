@@ -69,3 +69,4 @@ Note that we are constantly updating the Ignite UI App Builder with new interact
 * [Running Desktop App](running-desktop-app.md)
 * [Generate app](generate-app/generate-app-overview.md)
 * [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
+* [Indigo.Design Components]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
