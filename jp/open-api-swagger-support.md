@@ -70,4 +70,5 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 * [Flex レイアウト](flex-layouts/flex-layouts.md)
 * [Desktop アプリの実行方法](running-desktop-app.md)
 * [アプリを生成する](generate-app/generate-app-overview.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

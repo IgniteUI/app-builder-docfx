@@ -63,4 +63,5 @@ That's it for single page apps and the navigation feature. To summarize, child v
 * [Angular Routing](https://angular.io/start/start-routing)
 * [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
 * [App Builder Components]({environment:appbuilderBaseUrl}/components)
+* [Indigo.Design Components]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
 

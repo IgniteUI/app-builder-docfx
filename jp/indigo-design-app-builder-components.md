@@ -43,5 +43,5 @@ Mac でキーボード ショートカットの ctrl + E または cmd + E を�
 <div class="divider--half"></div>
 
 * [テーマ](app-themes/app-themes.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
+* [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

@@ -84,5 +84,4 @@ Figma プラグイン、UI キット、およびサンプル アプリは[アセ
 <div class="divider--half"></div>
 
 * [デザインからコード作成のストーリー](../design-to-code-story.md)
-* [Adobe XD UI キット](adobe-xd.md)
 * [Sketch UI キット](sketch.md)

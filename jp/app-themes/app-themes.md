@@ -16,7 +16,7 @@ _language: ja
     </div>
 </section>
 
-[App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) は、UI 作成にデザイン システム アプローチを採用しており、アプリ レベルでテーマを適用できます。テーマを 1 回選択するだけで、そのテーマはアプリケーション全体に即座にグローバルに適用されます。これにより、メンテナンスが難しいローカル スタイルを作成する必要がなくなります。  
+[App Builder]({environment:appbuilderBaseUrl}) は、UI 作成にデザイン システム アプローチを採用しており、アプリ レベルでテーマを適用できます。テーマを 1 回選択するだけで、そのテーマはアプリケーション全体に即座にグローバルに適用されます。これにより、メンテナンスが難しいローカル スタイルを作成する必要がなくなります。  
 
 ## App Builder テーマを切り替える
 
@@ -53,5 +53,5 @@ Material から Fluent に切り替えると、コンポーネントの外観が
 * [Flex レイアウト](../flex-layouts/flex-layouts.md)
 * [Ignite UI for Angular テーマ化]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
 * [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
+* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
 

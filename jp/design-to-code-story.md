@@ -7,7 +7,7 @@ _language: ja
 
 # デザインからコード作成の App Builder ストーリー
 
-App Builder を使用して、ワンク リックでデザインからコードを作成できます。Figma、Sketch、Adobe XD ファイルをインポートしてアプリを簡単に作成できます。[Indigo.Design システム](https://jp.infragistics.com/products/appbuilder/ui-toolkit) プラグインを Figma、Sketch、Adobe XD 内で直接使用して、カスタム テーマの提供、画像アセットのインポート、そしてすべてのコンポーネントが App Builder ツールボックスのコントロールで 1 対 1 でマッピングされるようにします。
+App Builder を使用して、ワンク リックでデザインからコードを作成できます。まず、Figma または Sketch 用の [Indigo.Design システム](https://jp.infragistics.com/products/appbuilder/ui-toolkit) を使用してデザインを作成します。その後、Figma プラグインを使用して、App Builder でアプリとして公開できます。Sketch の場合、新しいアプリを作成するときに、Sketch ファイルを App Builder に直接インポートできます。インポートすると、UI キット コンポーネントがツールボックスで使用可能なコンポーネントにマップされます。これにより、データと変数を使用してアプリを拡張し、動的なアプリ エクスペリエンスを作成できます。
 
 <img class="box-shadow" src="./images/indigo-design-ui-kit.PNG" />
 <p style="width: 100%; text-align:center;">Indigo.Design UI キット</p>
@@ -77,11 +77,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 - [Figma UI キット](https://www.figma.com/@infragistics)
 - [Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474) 
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
-- [Adobe XD UI キット](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
-- [Adobe XD 用プラグイン](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)
-- [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
 - [Sketch UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
-- [Sketch 用プラグイン](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)
 - [サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
  
 ## その他のリソース
@@ -89,5 +85,4 @@ App Builder を使用して、ワンク リックでデザインからコード�
 <div class="divider--half"></div>
 
 * [Figma UI キット](ui-kits/figma.md)
-* [Adobe XD UI キット](ui-kits/adobe-xd.md)
 * [Sketch UI キット](ui-kits/sketch.md)

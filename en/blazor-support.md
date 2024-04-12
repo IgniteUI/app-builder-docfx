@@ -85,3 +85,4 @@ For a list of all supported components see [Generate App](generate-app/generate-
 * [Running Desktop App](running-desktop-app.md)
 * [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
 * [Components]({environment:appbuilderBaseUrl}/components)
+* [Indigo.Design Components]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
