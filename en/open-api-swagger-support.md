@@ -70,3 +70,4 @@ You can now make requests to a localhost or private networks. For more informati
 * [Running Desktop App](running-desktop-app.md)
 * [Generate app](generate-app/generate-app-overview.md)
 * [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
+* [Indigo.Design Components]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

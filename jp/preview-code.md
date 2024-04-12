@@ -40,5 +40,5 @@ _language: ja
 * [Flex レイアウト](flex-layouts/flex-layouts.md)
 * [Desktop アプリの実行方法](running-desktop-app.md)
 * [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
+* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
 

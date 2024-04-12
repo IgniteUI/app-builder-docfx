@@ -84,5 +84,6 @@ Blazor アプリケーションの生成には、次の制限があります:
 * [App Builder コンポーネント](indigo-design-app-builder-components.md)
 * [Flex レイアウト](flex-layouts/flex-layouts.md)
 * [Desktop アプリの実行方法](running-desktop-app.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
+* [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+* [コンポーネント]({environment:appbuilderBaseUrl}/components)
+* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

@@ -23,22 +23,18 @@ _language: ja
 
 
 ## App Builder を起動する
-App Builder プロファイルに直接ログインするか、Indigo.Design でサインインします。ホーム画面が表示されます。ここから 3 つの主要な Indigo.Design 製品 (プロトタイプとユーザビリティ テスト)、および最新の App Builder ([アプリ] タブ) にアクセスできます。
+App Builder にアクセスするには、[https://appbuilder.dev](https://appbuilder.dev) に移動してサインインします。または、[https://my.appbuilder.dev](https://my.appbuilder.dev) にアクセスして App Builder を直接起動することもできます。アプリを作成および編集するには、有効なトライアル版または有料サブスクリプションが必要です。
 
-App Builder のホーム画面から、ユーザーは新しいアプリを起動し、既存のアプリをプレビューまたは編集できます。コンテキスト メニューを使用して、既存のアプリを名前変更、複製、またはアーカイブすることもできます。
+## 新しいアプリの作成
+[新しいアプリケーションの作成] ダイアログから新しいアプリケーションを作成するには、次の 3 つの方法があります。
 
-App Builder サインイン
-<img src="./images/Standalone-AB.PNG" srcset="./images/Standalone-AB-@2x.png 2x" />
+1. **サンプル アプリ** - 入門アプリは、App Builder を使用して作成されたアプリケーションを探索するのに役立ち、独自のユーザー スペースでそれらを変更することもできます。また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。App Builder を初めて使用する場合は、[Sample Apps] オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。
+2. **アプリのレイアウト** - 定義済みレイアウトを使用して新しいアプリケーションを作成します。こちらには、空のテンプレートに基づいてアプリを作成するオプションもあります。
+4. **デザインのインポート** - Figma または Sketch 用の Indigo.Design UI キットを使用して作成された既存のデザイン ファイルがある場合、これをアプリの開始点として使用できます。これを行うには、デザイン、UI キット、サンプル デザイン ファイルを公開するためのプラグインが含まれる Indigo.Design システムを取得してください。
 
-Indigo.Cloud サインイン
-![Indigo-Design-home-screen](./images/Indigo-Design-home-screen.gif)
-<p style="text-align:center;">Indigo.Design ホーム画面</p>
-
-[App Builder]({environment:infragisticsBaseUrl}/products/indigo-design/app-builder) を初めて起動したときに表示されるのは、簡単なオンボーディング ツアーを提案するポップアップ ウィンドウです。次に表示されるのは、[新しいプロジェクト] の作成ダイアログです。新しいアプリを開始する方法は 4 つあります:
-1. <b>既存のデザインから作成</b> - Sketch の Indigo.Design UI キットを使用して作成された既存の Sketch ファイルがある場合、この時点でアップロードして App Builder でデザインを続行できます。Sketch の絶対レイアウトと App Builder の Flex レイアウトの違いにより、Sketch ファイルの解析後に追加の調整が必要になる場合があります。
-2. <b>サンプル アプリ</b> - 入門アプリは、App Builder を使用して作成されたアプリケーションを探索するのに役立ち、独自のユーザー スペースでそれらを変更することもできます。また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。App Builder を初めて使用する場合は、[Sample Apps] オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。
-3. <b>既定のレイアウト</b> - 定義済みの基本レイアウトを使用して新しいアプリケーションを作成します。
-4. <b>Blank (空白)</b> - 新しいアプリを最初から作成します。
+<br>
+> 注: Sketch の絶対レイアウトと App Builder の Flex レイアウトの違いにより、Sketch ファイルの解析後に追加の調整が必要になる場合があります。
+<br>
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">[新しいプロジェクト] ダイアログ</p>
@@ -104,7 +100,7 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 
 ## 問題の報告またはフィードバックの送信
 
-[このリポジトリ](https://github.com/IgniteUI/app-builder)は、問題や機能リクエストの送信、および製品の全般的なディスカッション、質問、共有したいフィードバックを対象としています。<a href="mailto:feedback@indigo.design">メールを送信する</a>こともできます。
+[このリポジトリ](https://github.com/IgniteUI/app-builder)は、問題や機能リクエストの送信、および製品の全般的なディスカッション、質問、共有したいフィードバックを対象としています。<a href="mailto:appbuilder@infragistics.com">メールを送信する</a>こともできます。
 ## その他のリソース
 <div class="divider--half"></div>
 
@@ -114,4 +110,4 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 * [Flex レイアウト](flex-layouts/flex-layouts.md)
 * [Desktop アプリの実行方法](running-desktop-app.md)
 * [アプリを生成する](generate-app/generate-app-overview.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design はじめに]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)
