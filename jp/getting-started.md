@@ -110,4 +110,4 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 * [Flex レイアウト](flex-layouts/flex-layouts.md)
 * [Desktop アプリの実行方法](running-desktop-app.md)
 * [アプリを生成する](generate-app/generate-app-overview.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+* [Indigo.Design はじめに]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)

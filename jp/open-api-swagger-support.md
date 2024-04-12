@@ -71,3 +71,4 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 * [Desktop アプリの実行方法](running-desktop-app.md)
 * [アプリを生成する](generate-app/generate-app-overview.md)
 * [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

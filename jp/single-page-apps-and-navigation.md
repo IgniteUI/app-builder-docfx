@@ -63,3 +63,4 @@ Views container には、アプリの読み込み時に 2 つの子ビューの�
 * [Angular ルーティング (英語)](https://angular.io/start/start-routing)
 * [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
 * [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
+* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

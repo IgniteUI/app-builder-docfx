@@ -70,3 +70,4 @@ Ignite UI App Builder は常に新しいインタラクションで更新され�
 * [Desktop アプリの実行方法](running-desktop-app.md)
 * [アプリを生成する](generate-app/generate-app-overview.md)
 * [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
