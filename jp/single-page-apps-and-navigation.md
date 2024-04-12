@@ -15,7 +15,7 @@ _language: ja
     </div>
 </section>
 
-Ignite UI App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
+App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">メニュー ボタンからレイアウト プリセットを追加し、[Create New App] を選択する</p>
@@ -61,5 +61,5 @@ Views container には、アプリの読み込み時に 2 つの子ビューの�
 
 * [コードをプレビューしてアプリを生成する](preview-code.md)
 * [Angular ルーティング (英語)](https://angular.io/start/start-routing)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
+* [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)

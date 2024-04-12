@@ -65,4 +65,4 @@ App Builder ではなく、コードを使用して外部でアプリケーシ�
 * [アプリケーションをローカルで実行する](run-application-locally.md)
 * [アプリケーション コードをプレビューする](../preview-code.md)
 * [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [Indigo.Design コンポーネント](https://jp.infragistics.com/products/indigo-design/help/components/components-overview)
+* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)

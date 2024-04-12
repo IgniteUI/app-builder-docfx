@@ -3,12 +3,12 @@
 ここ数年で、デザインからコードへの強力な動きが生まれ、Sketch が中断したところから再開しました。目標は、Sketch のデザインを使用可能なコードに簡単に変換できるようにする、シームレスで一貫性のある使いやすいプロセスを作成することです。
 
 > [!NOTE]
-> [Adobe XD UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)、[Sketch 用プラグイン](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)、および[サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)をダウンロード。
+> [Sketch XD UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)および[サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)をダウンロード。
 
 ## App Builder Sketch インポーター
 以下は、App Builder を使ってドラッグアンドドロップでデザインからコードを作成する 4 つの簡単な手順です。
 
-手順 1: Indigo.Design アプリのホーム画面で [新しいアプリ] をクリックします。
+手順 1: App Builder のメイン メニューで [新しいアプリ] をクリックします。
 Sketch Design から新しい Angular アプリを作成します。
 
 <img class="box-shadow" src="../images/new-app-dialog.PNG" />
@@ -37,11 +37,9 @@ IDE の右上にあるボタンを使用して、アプリを生成するか、�
 
 ## Sketch アセットのダウンロード 
 
-Sketch プラグイン、UI キット、およびサンプル アプリは、[アセットのダウンロード ページ](https://cloud.indigo.design/resources/sketch)からダウンロードできます。
+Sketch UI キットは、以下の直接リンクからダウンロードできます:
 
-または、以下の直接リンクから:
 - [Sketch UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
-- [Sketch 用プラグイン](https://dl.infragistics.com/products/Infragistics/Indigo.Design/9EB45F5BB4B3442F8B4CECB3EB403063/Infragistics_IndigoDesign_Sketch_Plugin.zip)
 - [サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
 
 ## その他のリソース
@@ -50,4 +48,3 @@ Sketch プラグイン、UI キット、およびサンプル アプリは、[�
 
 * [デザインからコード作成へのストーリー](../design-to-code-story.md)
 * [Figma UI キット](figma.md)
-* [Adobe XD UI キット](adobe-xd.md)
