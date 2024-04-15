@@ -6,14 +6,8 @@ _language: ja
 ---
 
 # 単一ページアプリとナビゲーション
-<section class="video-container">
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>単一ページ アプリとナビゲーションを設定する</p>
-    </div>
-</section>
+
+> [!Video https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A&list=UULF8cj8_eJROxAXsOjhbvduLw]
 
 App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
 
