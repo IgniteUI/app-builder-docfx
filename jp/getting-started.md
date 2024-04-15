@@ -12,14 +12,7 @@ _language: ja
 * <a href="#コードの取得">コードの取得</a>
 * <a href="#作成したアプリをローカルで実行する">アプリをローカルで実行する</a>
 
-<section class="video-container">
-    <div>
-        <div class="video-container__item">
-            <iframe src="https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>App Builder を使ってみましょう</p>
-    </div>
-</section>
+> [!Video https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw&rel=0]
 
 
 ## App Builder を起動する

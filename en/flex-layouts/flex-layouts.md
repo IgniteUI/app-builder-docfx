@@ -18,14 +18,7 @@ In order to use the Flex layout in the App Builder, you need to define a contain
 
 You can now choose from different Flex layout properties to define alignment, default behavior for how flex items are laid, set other values, and more. 
 
-<section class="video-container">
-    <div>
-        <div class="video-container__item">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/BRkaSYr7qHU?si=74eY9-rqm90A8kmh&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p> Create App Layouts</p>
-    </div>
-</section>
+> [!Video https://www.youtube.com/embed/BRkaSYr7qHU?si=74eY9-rqm90A8kmh&list=UULF8cj8_eJROxAXsOjhbvduLw]
 
 One of the greatest differences between the App Builder and the regular product design tools are the flex-based layouts used in the design-to-code tool. Since the App Builder is targeting web apps, we are offering Flex as one of the approaches to create layouts. It's available to you as a row or column layout component in the toolbox. The outermost container you see here is the canvas and has flex settings already applied to it. You can change the canvas size by editing the viewport size in the properties panel. 
 

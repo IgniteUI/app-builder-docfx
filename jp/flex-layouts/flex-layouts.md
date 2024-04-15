@@ -19,14 +19,7 @@ App Builderで Flex レイアウトを使用するには、コンテナー (ビ�
 
 さまざまな Flex レイアウト プロパティから選択して配置を定義したり、flex 項目のデフォルトの動作、その他の値を設定したりできます。
 
-<section class="video-container">
-    <div>
-        <div class="video-container__item">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/BRkaSYr7qHU?si=74eY9-rqm90A8kmh&list=UULF8cj8_eJROxAXsOjhbvduLw" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p> アプリのレイアウトを作成する</p>
-    </div>
-</section>
+> [!Video https://www.youtube.com/embed/BRkaSYr7qHU?si=74eY9-rqm90A8kmh&list=UULF8cj8_eJROxAXsOjhbvduLw]
 
 App Builder と通常の製品デザイン ツールの最大の違いの 1 つは、デザインからコードまでのツールで使用される Flex に基づくレイアウトです。App Builder は Web アプリを対象としているため、レイアウトを作成するアプローチの 1 つとして Flex を提供しています。ツールボックスの行または列のレイアウト ンポーネントとして利用できます。ここに表示されている最も外側のコンテナはキャンバスであり、flex 設定がすでに適用されています。プロパティ パネルで Viewport のサイズを編集することにより、キャンバス サイズを変更できます。
 
