@@ -16,7 +16,7 @@ _language: ja
 - **Tree-grid** コンポーネントの行選択イベントに基づく変数の更新。
  
 ### 機能改善
-- **Input、Checkbox、Switch、Date Picker、Calendar、Rating、Slider コンポーネント** に双方向データ バインディングのサポートが追加されました。
+- **Input、Checkbox、Switch、Date Picker、Calendar、Rating、Slider コンポーネント**に双方向データ バインディングのサポートが追加されました。
 - **単一ノードの展開**と**項目のクリックによる切り替え**のための **Tree コンポーネント プロパティ**が追加されました。
 - Input コンポーネントに検索スタイルのオプションが追加されました。
 - Angular アプリは [Ignite UI for Angular `17.2.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/17.2.0) を使用して生成されるようにしました。
