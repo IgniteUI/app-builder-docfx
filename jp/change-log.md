@@ -7,7 +7,22 @@ _language: ja
 # App Builder - 変更ログ
 
 > [!NOTE]
-> 最新の更新は 2024 年 2 月 19 日に行われました。
+> 最新の更新は 2024 年 5 月 23 日に行われました。
+
+## 2024 年 5 月リリース
+## 機能
+- 最新の OpenAPI スキーマを使用するように**既存のデータソースを更新し**、差異がある場合はそれを表示します。
+- **Tree-grid** コンポーネントの行を作成、更新、削除するためのデータ アクションの設定。
+- **Tree-grid** コンポーネントの行選択イベントに基づく変数の更新。
+ 
+### 機能改善
+- **Input、Checkbox、Switch、Date Picker、Calendar、Rating、Slider コンポーネント**に双方向データ バインディングのサポートが追加されました。
+- **単一ノードの展開**と**項目のクリックによる切り替え**のための **Tree コンポーネント プロパティ**が追加されました。
+- Input コンポーネントに検索スタイルのオプションが追加されました。
+- Angular アプリは [Ignite UI for Angular `17.2.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/17.2.0) を使用して生成されるようにしました。
+- Web Component アプリは、[Ignite UI for Web Components `4.9.0`](https://github.com/IgniteUI/igniteui-webcomponents/blob/4.9.0/CHANGELOG.md#490---2024-04-30) を使用して生成されるようにしました。
+- Blazor アプリは [Ignite UI for Blazor `23.2.204`](https://jp.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor#232204) を使用して生成されるようにしました。
+- 不具合修正
 
 ## 2024 年 2 月リリース
 ### 機能
