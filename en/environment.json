@@ -2,16 +2,16 @@
     "development": {
         "infragisticsBaseUrl": "https://staging.infragistics.com",
         "appbuilderBaseUrl": "https://staging.appbuilder.dev",
-        "GTMContainerId": "GTM-WLXLBZD"
+        "GTMContainerId": "GTM-PGP9PMGT"
     },
     "staging": {
         "infragisticsBaseUrl": "https://staging.infragistics.com",
         "appbuilderBaseUrl": "https://staging.appbuilder.dev",
-        "GTMContainerId": "GTM-NCKNPN"
+        "GTMContainerId": "GTM-PGP9PMGT"
     },
     "production": {
         "infragisticsBaseUrl": "https://www.infragistics.com",
         "appbuilderBaseUrl": "https://appbuilder.dev",
-        "GTMContainerId": "GTM-T65CF7"
+        "GTMContainerId": "GTM-KVWNJHSS"
     }
 }
