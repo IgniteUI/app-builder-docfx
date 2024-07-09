@@ -7,7 +7,24 @@ _language: ja
 # App Builder - 変更ログ
 
 > [!NOTE]
-> 最新の更新は 2024 年 5 月 23 日に行われました。
+> 最新の更新は 2024 年 6 月 25 日に行われました。
+
+
+# 2024 年 6 月リリース
+## 機能
+- **React** 用のアプリをデザインおよび生成します。
+- 初めてアクセスするユーザーが **ゲスト アクセス モード**で App Builder を使用できるようにします。訪問者はアカウントでサインインすることで、いつでも進行状況を保存できます。
+
+## 機能改善
+- **Select、Text-area、Radio-group コンポーネント**に双方向データ バインディングのサポートが追加されました。
+- アプリが依存する**データ ソースの更新**について通知を受け取り、変更内容を表示します。
+
+## メンテナンス更新
+- Angular アプリは [Ignite UI for Angular `17.2.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/17.2.0) を使用して生成されるようにしました。
+- React アプリは、[Ignite UI for React `18.6.1`](https://github.com/IgniteUI/igniteui-react) を使用して生成されるようにしました。
+- Web Component アプリは、[Ignite UI for Web Components `4.9.0`](https://github.com/IgniteUI/igniteui-webcomponents/blob/4.9.0/CHANGELOG.md#490---2024-04-30) を使用して生成されるようにしました。
+- Blazor アプリは [Ignite UI for Blazor `23.2.204`](https://jp.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor#232204) を使用して生成されるようにしました。
+- 不具合修正
 
 ## 2024 年 5 月リリース
 ## 機能
