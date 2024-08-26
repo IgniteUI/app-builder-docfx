@@ -6,19 +6,30 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 25th of June, 2024.
+> Latest update was made on 26th of August, 2024.
 
+## August 2024 Release
+### Features
+- App Builder AI-driven image and data source generation.
+- Added CSS Grid Layout support.
+- Set global Application size and component based size.
+- Automatic background refresh of data sources upon updating your Rest API.
 
-# June 2024 Release
-## Features
+### Improvements
+- New data provider support - PostgreSQL (SDK and On-prem).
+- New drill-down picker for collections of data sources.
+- Exposed UI for Download/upload application template.
+
+## June 2024 Release
+### Features
 - Design and generate your apps for **React**.
 - Allow first-time visitors to use App Builder in **Guest-access mode**. Visitors can save their progress at any time by signing in with an account.
 
-## Improvements
+### Improvements
 - Added two-way data binding support to **Select, Text-area and Radio-group components**.
 - Get notified of **updates to Datasources** that your app depends on, and view the changes.
 
-## Maintenance updates
+### Maintenance updates
 - Angular apps are generated using [Ignite UI for Angular `17.2.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/17.2.0).
 - React apps are generated using [Ignite UI for React `18.6.1`](https://github.com/IgniteUI/igniteui-react).
 - Web Component apps are generated using [Ignite UI for Web Components `4.9.0`](https://github.com/IgniteUI/igniteui-webcomponents/blob/4.9.0/CHANGELOG.md#490---2024-04-30).
@@ -26,7 +37,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Bug fixes
 
 ## May 2024 Release
-## Features
+### Features
 - **Update existing Datasource** to use the latest OpenAPI schema, and show differences if present.
 - Set up Data-action(s) to create, update and delete rows in **Tree-grid** component.
 - Update a variable based on row selection event in **Tree-grid** component.
