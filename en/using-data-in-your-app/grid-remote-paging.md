@@ -95,7 +95,7 @@ On Preview, initial load will perform only one request. Upon page change or per 
 - Upon going to Preview, initial load will perform two requests, one for the grid sliced data, and one for the total records count. After that, upon page change or per page change, only one request will be made for the Grid sliced data.
 
 ## Known limitations
-When user sets up remote paging with the configurator and runs it again (dev story 1 -> dev story 2 or vice versa) redundant variable (Intitialized from API) will remain.
+When user sets up remote paging with the configurator and runs it again, the redundant variable, which is intitialized from API endpoint, will remain existing.
 
 ## Additional Resources
 
