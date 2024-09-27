@@ -36,7 +36,7 @@ In this case, the API returns both the paged data and the total number of record
 2. **Using Separate Endpoints for Data and Total Record Count**  
 In this setup, two API calls are made: one to retrieve the paged data and another to get the total records count.
 
-### One endpoint
+### Single endpoint
 This is an example of supported data structure:
 
 ```
