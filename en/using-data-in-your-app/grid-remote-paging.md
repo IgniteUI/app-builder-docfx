@@ -72,7 +72,7 @@ This is an example of supported data structure:
    - **PageChange** will have Source (value) set to the Page index (current page) coming from the Event context provided by the igx-paginator.  **Target** variable will be the **Page Index**.
 
 **Behaviour:**
-On Preview, initial load will perform only one request. Upon page change or per page change, a new request will be made to fetch the data based on the new Page and Size values.
+On Preview, initial load will perform only one request. Upon page change or per page value change, a new request will be made to fetch the data based on the new Page and Size values.
 
 ### Two different endpoints
 
