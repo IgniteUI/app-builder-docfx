@@ -17,7 +17,7 @@ Remote paging is a feature that allows the grid to load and display data dynamic
 Remote paging divides the data into "pages" that are requested individually from a remote server. This ensures that only the necessary slice of data is loaded at a time. It can be configured for both **Grid** and **Tree Grid** components using built-in properties in the tool.
 
 Users use a Configurator to set up everything required for remote paging to work. What is needed?
-- `pageIndex` - The page index of records to fetch. If this parameter is not provided, fetching starts from the beginning (page 0).
+- `pageIndex` - The index of the page, which data will be fetched. If this parameter is not provided, page index defaults to 0, which fetches the first page of data.
 - `pageSize` - The maximum number of records to fetch per page. If this parameter is not provided, all records are fetched.
 - `totalRecords` - Returns the total number of records that the Paginator uses to make proper calculations and pass the data records to the Grid.
 
