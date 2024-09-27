@@ -32,29 +32,29 @@
   new: false
 - name: Master-detail style apps
   href: ../master-detail/master-detail.md
-  new: true
+  new: false
   updated: false
   items:
     - name: Step-by-step App Creation examples
       href: ../master-detail/step-by-step-examples.md
-      new: true
+      new: false
 - name: Guide to Variables in App Builder
   href: ../guide-to-variables-in-app-builder/variables-management.md
-  new: true
+  new: false
   updated: false
   items:
     - name: Component properties binding
       href: ../guide-to-variables-in-app-builder/component-properties-binding.md
-      new: true
+      new: false
     - name: URL Parameters Binding
       href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
-      new: true
+      new: false
     - name: Working with events and actions
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
-      new: true
+      new: false
     - name: App Navigation with Route Parameters
       href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
-      new: true
+      new: false
 - name: Responsive Fluid Layouts
   href: ../how-to/responsive-fluid-layout.md
   new: false
@@ -93,6 +93,9 @@
     - name: Grid CRUD Operations
       href: ../using-data-in-your-app/crud-operations.md
       new: false
+    - name: Grid Remote Paging
+      href: ../using-data-in-your-app/grid-remote-paging.md
+      new: true
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:
