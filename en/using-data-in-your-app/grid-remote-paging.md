@@ -79,7 +79,7 @@ On Preview, initial load will perform only one request. Upon page change or per 
 **Steps:**
 1. Bind the `Data` property the grid to an endpoint that expects Page and Size query params.
 2. Add Remote paging feature and select the **Remote** paging mode to load the Configuration dialog.
-3. Hook the totalRecordsCount to a different endpoint (than the grid) that returns the total records count only.
+3. Hook the totalRecordsCount to a different endpoint (different than the grid `Data` property) that returns the total records count only.
 4. Through the **Paging Configuration Dialog**, specify the query param that will be used for **Page Index** and the one used for **Page Size**.
 5. Click Save
 
