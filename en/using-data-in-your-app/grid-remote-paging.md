@@ -19,7 +19,7 @@ Remote paging divides the data into "pages" that are requested individually from
 Users use a Configurator to set up everything required for remote paging to work. What is needed?
 - `pageIndex` - The index of the page, which data will be fetched. If this parameter is not provided, page index defaults to 0, which fetches the first page of data.
 - `pageSize` - The maximum number of records to fetch and display per page. If this parameter is not provided, all records are fetched, and total number of pages will be 1.
-- `totalRecords` - Returns the total number of records that the Paginator uses to make proper calculations and pass the data records to the Grid.
+- `totalRecords` - Returns the total number of records available at the server. This number is required for the Paginator to calculate the total number of pages.
 
 **User flow:**
 
