@@ -86,7 +86,7 @@ On Preview, initial load will perform only one request. Upon page change or per 
 **Result:**
 - Two variables of type number for storing both **Page Index** and **Page Size** values are created.
 - Grid data source will have query params bound to the two newly created variables.
-- Third variable for storing of the **Total records count** will be created. **Object type**, initialized from data request. (Note, currently AB does not support primitive result types)
+- Third variable for storing the **Total records count** will be created. **Object type**, initialized from data request. (Note, currently AB does not support primitive result types)
 - Two interaction for **PerPageChanged** and **PageChange** will be automatically created.
    - **PerPageChange** will have **Source** (value) set to the Page size coming from the Event context provided by the igx-paginator. **Target** variable will be the **Page Size**.
    - **PageChange** will have Source (value) set to the Page index (current page) coming from the Event context provided by the igx-paginator.  **Target** variable will be the **Page Index**.
