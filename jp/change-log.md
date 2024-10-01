@@ -7,7 +7,21 @@ _language: ja
 # App Builder - 変更ログ
 
 > [!NOTE]
-> 最新の更新は 2024 年 8 月 26 日に行われました。
+> 最新の更新は 2024 年 9 月 27 日に行われました。
+
+## 2024 年 9 月リリース
+### 機能
+- 関連するデータ ソースの変更が検出されたときに**互換性のないバインディングをグローバルに修正する**ためのガイド付きアプローチ。
+- グリッド コンポーネントで**リモート ページング**を構成して、サーバーからデータをチャンク単位で取得します。
+- CSS グリッド レイアウトの親の変更のサポート。CSS Flexbox とともにテンプレートの行と列を含む **CSS グリッドを使用して**レイアウトを作成します。
+
+### メンテナンス更新
+- Angular アプリは [Ignite UI for Angular `18.1.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/18.1.0) を使用して生成されるようにしました。
+- React アプリは、[Ignite UI for React `18.6.1`](https://github.com/IgniteUI/igniteui-react) を使用して生成されるようにしました。
+- Web Component アプリは、[Ignite UI for Web Components `4.11.1`](https://github.com/IgniteUI/igniteui-webcomponents/) を使用して生成されるようにしました。
+- Blazor アプリは [Ignite UI for Blazor `23.2.257`](https://jp.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor) を使用して生成されるようにしました。
+- 不具合修正
+
 ## 2024 年 8 月リリース
 ### 機能
 - App Builder AI 駆動型画像およびデータ ソース生成。
@@ -21,7 +35,6 @@ _language: ja
 - ダウンロード/アップロード アプリケーション テンプレートの UI を公開しました。
 
 ## 2024 年 6 月リリース
-### 機能
 ### 機能
 - **React** 用のアプリをデザインおよび生成します。
 - 初めてアクセスするユーザーが **ゲスト アクセス モード**で App Builder を使用できるようにします。訪問者はアカウントでサインインすることで、いつでも進行状況を保存できます。

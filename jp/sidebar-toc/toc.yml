@@ -32,29 +32,29 @@
   new: false
 - name: マスター/詳細スタイルのアプリ
   href: ../master-detail/master-detail.md
-  new: true
+  new: false
   updated: false
   items:
     - name: ステップバイステップのアプリ作成例
       href: ../master-detail/step-by-step-examples.md
-      new: true
+      new: false
 - name: App Builder での変数管理のガイド
   href: ../guide-to-variables-in-app-builder/variables-management.md
-  new: true
+  new: false
   updated: false
   items:
     - name: コンポーネント プロパティのバインド
       href: ../guide-to-variables-in-app-builder/component-properties-binding.md
-      new: true
+      new: false
     - name: URL パラメーターのバインド
       href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
-      new: true
+      new: false
     - name: ベントとアクションを操作する
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
-      new: true
+      new: false
     - name: ルート パラメーターを使用したアプリのナビゲーション
       href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
-      new: true
+      new: false
 - name: レスポンシブ Fluid レイアウト
   href: ../how-to/responsive-fluid-layout.md
   new: false
@@ -93,6 +93,9 @@
     - name: Grid CRUD 操作
       href: ../using-data-in-your-app/crud-operations.md
       new: false
+    - name: Grid リモート ページング
+      href: ../using-data-in-your-app/grid-remote-paging.md
+      new: true
 - name: テーマ
   href: ../app-themes/app-themes.md
   # items:
