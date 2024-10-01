@@ -24,7 +24,9 @@ _language: ja
 
 **ユーザー フロー:**
 
-<img class="box-shadow" src="../images/using-data-in-your-app/remote-paging-configurator-flow.png" />
+<a href="https://www.appbuilder.dev/help/images/using-data-in-your-app/remote-paging-configurator-flow.png" target="_blank">
+    <img class="box-shadow" src="../images/using-data-in-your-app/remote-paging-configurator-flow.png" style="cursor: pointer;" />
+</a>
 <p style="text-align:center;">ユーザー フローのコンフィギュレーター</p>
 
 ## ユーザー設定
