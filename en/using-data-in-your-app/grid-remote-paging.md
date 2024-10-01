@@ -23,7 +23,9 @@ Users use a Configurator to set up everything required for remote paging to work
 
 **User flow:**
 
-<img class="box-shadow" src="../images/using-data-in-your-app/remote-paging-configurator-flow.png" />
+<a href="https://www.appbuilder.dev/help/images/using-data-in-your-app/remote-paging-configurator-flow.png" target="_blank">
+    <img class="box-shadow" src="../images/using-data-in-your-app/remote-paging-configurator-flow.png" style="cursor: pointer;" />
+</a>
 <p style="text-align:center;">Configurator user flow</p>
 
 ## User Configuration
