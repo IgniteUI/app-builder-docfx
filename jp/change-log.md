@@ -19,7 +19,7 @@ _language: ja
 - Angular アプリは [Ignite UI for Angular `18.1.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/18.1.0) を使用して生成されるようにしました。
 - React アプリは、[Ignite UI for React `18.6.1`](https://github.com/IgniteUI/igniteui-react) を使用して生成されるようにしました。
 - Web Component アプリは、[Ignite UI for Web Components `4.11.1`](https://github.com/IgniteUI/igniteui-webcomponents/) を使用して生成されるようにしました。
-- Blazor アプリは [Ignite UI for Blazor `23.2.257`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor) を使用して生成されるようにしました。
+- Blazor アプリは [Ignite UI for Blazor `23.2.257`](https://jp.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor) を使用して生成されるようにしました。
 - 不具合修正
 
 ## 2024 年 8 月リリース
