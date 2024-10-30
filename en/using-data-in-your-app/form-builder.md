@@ -1,63 +1,41 @@
 ---
-title: Grid Remote paging
+title: Form Builder
 _description: Remote paging feature allows the grid to load and display data dynamically, fetching only a portion of the data from the server as needed
 _keywords: App builder, Remote Paging, Infragistics, Data Sources
 ---
 
 # Form Builder Overview
 
-App Builder’s Form Builder functionality allows developers to design HTML forms visually with a seamless drag-and-drop experience. With an emphasis on auto-generating form structures from API endpoints, Form Builder not only simplifies UI creation but also connects these forms directly to backend data sources. This feature offers flexibility in form layout, component customization, and notification capabilities for form submissions, errors, and server-side validations.
+App Builder’s Form Builder functionality allows developers to design HTML Forms with drag-and-drop experience. Focusing on auto-generating Form structures from API endpoints, Form Builder experience is not only simplified but also connects these Forms directly to backend data sources. This feature offers flexibility in Form layout, component customization, and notification capabilities for form submissions, errors, and server-side validations.
 
 ## Key features of Form Builder
 
-1. **Automatic Form Generation from Data Sources**  
-When a developer drags an endpoint or data model onto the design surface, Form Builder auto-generates form components based on the endpoint’s properties:
+1. **Automatic Form generation from data sources**  
+When a developer drags a data endpoint onto the design surface a set of form components will be auto-generated based on the endpoint’s properties.
     - `POST` and `PUT` methods create input fields for data submission.
+    - Setting up additional interactions like `OnSuccess` and `OnError` events is also automatic.
 
-2. **Dynamic Component Selection and Metadata-Based Mapping**  
-Form components are chosen based on the data type and metadata of each field, ensuring intuitive inputs and labels (e.g., date fields use date pickers, boolean fields use switches). Developers retain control, with the ability to modify components as needed, add validations, or adjust labels directly in the properties panel.
+2. **Form components generation and mapping**  
+Form components are chosen based on the data type and metadata of each field, ensuring intuitive inputs and labels (e.g., date fields use *date pickers*, boolean fields use *switches*). Developers retain control, with the ability to modify components as needed, add validations, or adjust labels directly in the properties panel.
 
-3. **Form Customization Options**  
-App Builder enables developers to tailor the form layout and behavior after it’s generated, allowing:
-   - Adding or removing elements within the form.
-   - Adjusting control properties like validation, label customization, and mapping.
-   - Setting up additional interactions like `OnSuccess` and `OnError` events.
+3. **Form modicitation**  
+Once generated, the form can be edited to include/exclude fields, customize labels, and set input validation, providing an intuitive design experience. App Builder enables developers to tailor the form layout and components.
+    - Adding or removing elements within the form.
+    - Adjusting control properties like validation for Disabled and Required states, label customization, and mapping.
 
-4. **Runtime and Preview Support for Forms**  
-Preview and runtime environments let end-users interact with the forms as they would in a production setting, including:
-   - Real-time input validation feedback.
-   - Visual notifications upon successful form submission or error handling, currently via a Snackbar component.
+4. **Live Interaction with Forms**  
+In App Builder’s Preview mode, end-users can interact with Forms, seeing:
+    - Input data validation (real-time).
+    - Form submission with notifications on successful submissions or validation errors.
 
-## End-User Experience with Forms
+> [!NOTE]
+> Upon form submit in Preview mode the Post/Put action will be executed, hence adding or updating the record though the specified endpoint.
 
-- **Form Creation and Modification**  
-   Users can drop an entity or endpoint onto the design surface, triggering automatic form generation. Once generated, the form can be edited to include/exclude fields, customize labels, and set input validation, providing an intuitive design experience.
+5. **Configurable action buttons**  
+Form action buttons (`Submit`, `Reset`) offer type and appearance customization, supporting both in-form and external placements. This flexibility is critical for developers who need finer control over form behavior in complex layouts.
 
-- **Live Interaction with Forms**  
-   In App Builder’s preview mode, end-users can interact with forms, enabling:
-   - Input data validation (real-time).
-   - Form submission with feedback on successful submissions or validation errors.
-
-- **Control Flexibility for Varied Use Cases**  
-   With features like dynamic action button placement and event handling for `Submit` and `Reset`, App Builder supports diverse use cases—from simple data entry forms to more complex CRUD operations integrated within an application.
-
-- **Configurable Action Buttons**  
-   Form action buttons (`Submit`, `Reset`) offer type and appearance customization, supporting both in-form and external placements. This flexibility is critical for developers who need finer control over form behavior in complex layouts.
-
-- **Snackbar Notifications**  
-   Success and error messages are displayed via Snackbars, providing non-intrusive feedback on form submission. These notifications are hardcoded for the initial release but will support more flexible interaction handling in future iterations.
-
-- **Property Panel Customization**  
-   Every form component and control can be fine-tuned in the properties panel. For instance:
-   - **Validation**: Customize required fields or toggle controls as disabled.
-   - **Labels and Placeholders**: Update display text based on user needs or project standards.
-
-## Code generation beyond Auto-Generated Forms
-
-After generation, forms remain fully customizable. Developers can:
-- Add/remove form elements and rearrange layouts.
-- Integrate forms with additional data sources for multi-step form workflows.
-- Manually add server-side validation checks and handle custom form submission interactions.
+6. **Submit action notifications**  
+Success and error messages are displayed via Snackbars, providing non-intrusive feedback on form submission. These notifications are hardcoded for the initial release but will support more flexible interaction handling in future iterations.
 
 ## Form Controls Support
 
@@ -85,7 +63,7 @@ All Form controls support “two-way” binding and corresponding form context.
 
 ## Future Enhancements
 
-The roadmap for App Builder’s Form Builder includes improvements to validation options, extended metadata support, and expanded notification and interaction handling. Additionally, enhanced runtime previews, custom validators, and support for more advanced field types will offer developers even greater flexibility.
+The roadmap for App Builder’s Form Builder includes improvements to the manual form creation (building a Form from skratch) validation options, extended metadata support, and expanded notification and interaction handling.
 
 ## Known limitations
 
