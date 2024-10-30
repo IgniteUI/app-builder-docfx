@@ -6,40 +6,40 @@ _keywords: App builder, Remote Paging, Infragistics, Data Sources
 
 # Form Builder Overview
 
-App Builder’s Form Builder functionality allows developers to design HTML Forms with drag-and-drop experience. Focusing on auto-generating Form structures from API endpoints, Form Builder experience is not only simplified but also connects these Forms directly to backend data sources. This feature offers flexibility in Form layout, component customization, and notification capabilities for form submissions, errors, and server-side validations.
+App Builder’s Form Builder functionality enables developers to design HTML forms through a drag-and-drop experience. It emphasizes auto-generating form structures directly from API endpoints, simplifying the creation process and allowing seamless data connections with backend sources. This feature offers extensive flexibility in form layout, component customization, and includes options for displaying notifications for submissions, errors, and server-side validations.
 
-## Key features of Form Builder
+## Key Features of Form Builder
 
 1. **Automatic Form generation from data sources**  
-When a developer drags a data endpoint onto the design surface a set of form components will be auto-generated based on the endpoint’s properties.
-    - `POST` and `PUT` methods create input fields for data submission.
-    - Setting up additional interactions like `OnSuccess` and `OnError` events is also automatic.
+   When a developer drags a data endpoint onto the design surface, a set of form components is automatically generated based on the endpoint’s properties.
+   - `POST` and `PUT` methods create input fields for data submission.
+   - Basic event handling, like `OnSuccess` and `OnError` interactions, is automatically configured.
 
-2. **Form components generation and mapping**  
-Form components are chosen based on the data type and metadata of each field, ensuring intuitive inputs and labels (e.g., date fields use *date pickers*, boolean fields use *switches*). Developers retain control, with the ability to modify components as needed, add validations, or adjust labels directly in the properties panel.
+2. **Automatic Form controls creation and mapping**  
+   Form controls are created based on each field’s data type and metadata, ensuring intuitive inputs and labels (e.g., date fields use *date pickers*, boolean fields use *switches*). Developers retain full control to modify components, add validations, or adjust labels directly in the properties panel.
 
-3. **Form modicitation**  
-Once generated, the form can be edited to include/exclude fields, customize labels, and set input validation, providing an intuitive design experience. App Builder enables developers to tailor the form layout and components.
-    - Adding or removing elements within the form.
-    - Adjusting control properties like validation for Disabled and Required states, label customization, and mapping.
+3. **Form modification**  
+   Once generated, the form can be edited to include or exclude fields, customize labels, and set input validations, offering an intuitive design experience. App Builder allows developers to tailor both form layout and components:
+   - Easily add or remove elements within the form.
+   - Adjust control properties such as *Required* and *Disabled* validations, label customization, and mapping.
 
-4. **Live Interaction with Forms**  
-In App Builder’s Preview mode, end-users can interact with Forms, seeing:
-    - Input data validation (real-time).
-    - Form submission with notifications on successful submissions or validation errors.
+4. **Live interaction with Forms**  
+   In App Builder’s Preview mode, users can interact with forms to see:
+   - Real-time input validation.
+   - Form submission, with notifications indicating success or validation errors.
 
 > [!NOTE]
-> Upon form submit in Preview mode the Post/Put action will be executed, hence adding or updating the record though the specified endpoint.
+> Upon form submission in Preview mode, the `Post/Put` action is executed, adding or updating the record through the specified endpoint.
 
-5. **Configurable action buttons**  
-Form action buttons (`Submit`, `Reset`) offer type and appearance customization, supporting both in-form and external placements. This flexibility is critical for developers who need finer control over form behavior in complex layouts.
+5. **Configurable Action Buttons**  
+   Action buttons (`Submit`, `Reset`) offer full customization, supporting both in-form and external placements. This flexibility is essential for developers needing precise control over form behavior in more complex layouts.
 
-6. **Submit action notifications**  
-Success and error messages are displayed via Snackbars, providing non-intrusive feedback on form submission. These notifications are hardcoded for the initial release but will support more flexible interaction handling in future iterations.
+6. **Submit Action notifications**  
+   Success and error messages are displayed via Snackbars, offering non-intrusive feedback on form submissions. These notifications are hardcoded for the initial release, with plans to support flexible interaction handling in future iterations.
 
 ## Form Controls Support
 
-The Form Builder supports a range of UI controls mapped to specific data types, ensuring developers can create accessible and responsive forms with minimal effort. Below is a summary of supported controls and current limitations.
+The Form Builder supports a variety of UI controls mapped to specific data types, ensuring developers can create accessible, responsive forms efficiently. Below is a summary of supported controls and current limitations.
 
 | Form Control  | Default Type  | Status      | Notes                                    |
 |---------------|---------------|-------------|------------------------------------------|
@@ -53,28 +53,28 @@ The Form Builder supports a range of UI controls mapped to specific data types, 
 | Calendar      | Date          | Implemented | May not refresh selected date accurately |
 | Input Field   | String, Number| Implemented | -                                        |
 
-> **Note**: Form controls currently support basic validation properties (`Required`, `Disabled`). Future enhancements will add:
+> **Note:** Form controls currently support basic validation properties (`Required`, `Disabled`). Future enhancements will include:
 > - **Range validation** (`min`, `max`).
 > - **String length validation** (`min length`, `max length`).
 > - **Pattern validation** (regex).
-> - **Enum validations** for select and combo box controls.
+> - **Enum validation** for select and combo box controls.
 
-All Form controls support “two-way” binding and corresponding form context.
+All Form controls support two-way binding and are bound to the form context.
 
 ## Future Enhancements
 
-The roadmap for App Builder’s Form Builder includes improvements to the manual form creation (building a Form from skratch) validation options, extended metadata support, and expanded notification and interaction handling.
+The roadmap for App Builder’s Form Builder includes advancements in manual form creation, validation options, extended metadata support, and enhanced notification and interaction handling.
 
-## Known limitations
+## Known Limitations
 
-**The following known issues and limitations apply to the initial release of the Form Builder, launched on October 28.*
+The following known issues and limitations apply to the initial release of Form Builder, launched on October 28:
 
-- **Form Copy-Pasting**: Copying and pasting a form currently leads to issues where the original form loses its data bindings, which transfer to the newly pasted form instance instead.
-- **Boolean Required Flag Confusion**: There is ambiguity around the implementation of a required Boolean field, especially for scenarios like “accept terms of service.”
-- **Submit/Reset Form Behavior**: The Submit/Reset functionality has been adapted to work correctly due to a mixture of template and reactive forms, but may still encounter inconsistencies.
+- **Form Copy-Pasting**: Copying and pasting a form currently results in the original form losing its data bindings, which transfer to the newly pasted form instance.
+- **Boolean Required Flag**: There is ambiguity in implementing a required Boolean field, particularly for cases like “accept terms of service.”
+- **Submit/Reset Behavior**: The Submit/Reset functionality has been adapted to work within both template and reactive forms but may still experience inconsistencies.
 - **Code Generation**:
-    - **Typing Issues with Form Models**: Form models may encounter typing inconsistencies, particularly when working with nested structures or arrays. This complicates the generation of accurate form models in the output code.
-    - **igx-hint Element in Preview**: The `igx-hint` element is currently excluded from preview as it is not generated in the final code. Future updates may include functionality to support message display.
+    - **Typing Issues with Form Models**: Typing inconsistencies may arise, especially when working with nested structures or arrays, complicating accurate form model generation in the output code.
+    - **`igx-hint` Element in Preview**: The `igx-hint` element is currently excluded from preview as it is not generated in the final code. Future updates may add support for message display functionality.
 
 ## Additional Resources
 
@@ -82,7 +82,6 @@ The roadmap for App Builder’s Form Builder includes improvements to the manual
 
 * [App Builder Components](../indigo-design-app-builder-components.md)
 * [App Builder Interface Overview](../interface-overview.md)
-* [Single Page And Navigation](../single-page-apps-and-navigation.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
+* [Single Page and Navigation](../single-page-apps-and-navigation.md)
 * [Flex Layouts](../flex-layouts/flex-layouts.md)
 * [Running Desktop App](../running-desktop-app.md)
