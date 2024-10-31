@@ -89,8 +89,8 @@ Future validation enhancements will include:
 The following known issues and limitations apply to the initial release of Form Builder, launched on October 28:
 
 - **Form Reset behavior** discrepancy between App Builder runtime experience and generated application runtime:
-    - In App Builder the Reset behavior upon button click falls back to the initial values state upon Editing a record; Clears the form upon Adding of a record.
-    - For generated app the reset button click behavior clears the Form, set the form controls to empty values.
+    - In App Builder, the Reset button click reverts to the initial values when editing a record, and clears the form when adding a new record.
+    - In the generated application, the Reset button click clears the form by setting all form controls to empty values.
 - **Form Copy-Pasting**: Copying and pasting a form currently results in the original form losing its data bindings, which transfer to the newly pasted form instance.
 - **Boolean Required Flag**: There is ambiguity in implementing a required Boolean field, particularly for cases like “accept terms of service.”
 - **Submit/Reset Behavior**: The Submit/Reset functionality has been adapted to work within both template and reactive forms but may still experience inconsistencies.
