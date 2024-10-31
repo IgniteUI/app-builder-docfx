@@ -7,8 +7,11 @@ _keywords: App builder, Remote Paging, Infragistics, Data Sources
 # Form Builder Overview
 App Builder’s Form Builder functionality enables developers to design HTML forms through a drag-and-drop experience. It emphasizes auto-generating form structures directly from API endpoints, simplifying the creation process and allowing seamless data connections with backend sources. This feature offers extensive flexibility in form layout, component customization, and includes options for displaying notifications for submissions, errors, and server-side validations.
 
+> [!NOTE]
+> Be among the first to explore an early preview of the Form Builder features by visiting our [Preview Environment](https://preview.appbuilder.dev/).
+
 ## Key Features of Form Builder
-### Automatic Form generation from data sources
+### Automatic Form generation from data endpoints
 When a developer drags a data endpoint onto the design surface, a set of form components is automatically generated based on the endpoint’s properties.
 - `POST` and `PUT` methods create input fields for data submission.
 - Basic event handling, like `OnSuccess` and `OnError` interactions, is automatically configured.
@@ -69,20 +72,25 @@ The Form Builder supports a variety of UI controls mapped to specific data types
 | Input Field   | String, Number| -                                        |
 
 > [!NOTE]
-> Form controls currently support basic validation properties (`Required`, `Disabled`). Future enhancements will include:
-> - Range validation (`min`, `max`).
-> - String length validation (`min length`, `max length`).
-> - Pattern validation (regex).
-> - Enum validation for select and combo box controls.
+> Form controls currently support basic validation properties (`Required`, `Disabled`). 
 
 All Form controls support two-way binding and are bound to the form context.
 
 ## Future Enhancements
 The roadmap for App Builder’s Form Builder includes advancements in manual form creation, validation options, extended metadata support, and enhanced notification and interaction handling.
 
-## Known Limitations
+Future validation enhancements will include:
+- Range validation (`min`, `max`).
+- String length validation (`min length`, `max length`).
+- Pattern validation (regex).
+- Enum validation for select and combo box controls
+
+## Known issues and Limitations
 The following known issues and limitations apply to the initial release of Form Builder, launched on October 28:
 
+- **Form Reset behavior** discrepancy between App Builder runtime experience and generated application runtime:
+    - In App Builder, the Reset button click reverts to the initial values when editing a record, and clears the form when adding a new record.
+    - In the generated application, the Reset button click clears the form by setting all form controls to empty values.
 - **Form Copy-Pasting**: Copying and pasting a form currently results in the original form losing its data bindings, which transfer to the newly pasted form instance.
 - **Boolean Required Flag**: There is ambiguity in implementing a required Boolean field, particularly for cases like “accept terms of service.”
 - **Submit/Reset Behavior**: The Submit/Reset functionality has been adapted to work within both template and reactive forms but may still experience inconsistencies.
