@@ -96,6 +96,9 @@
     - name: Grid Remote Paging
       href: ../using-data-in-your-app/grid-remote-paging.md
       new: true
+    - name: Form Builder
+      href: ../using-data-in-your-app/form-builder.md
+      new: true
 - name: App Themes
   href: ../app-themes/app-themes.md
   # items:
