@@ -96,6 +96,9 @@
     - name: Grid リモート ページング
       href: ../using-data-in-your-app/grid-remote-paging.md
       new: true
+    - name: フォーム ビルダー
+      href: ../using-data-in-your-app/form-builder.md
+      new: true
 - name: テーマ
   href: ../app-themes/app-themes.md
   # items:
