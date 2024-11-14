@@ -94,7 +94,9 @@ The following known issues and limitations apply to the initial release of Form 
 - **Code Generation**:
     - **Typing Issues with Form Models**: Typing inconsistencies may arise, especially when working with nested structures or arrays, complicating accurate form model generation in the output code.
     - **`igx-hint` Element in Preview**: The `igx-hint` element is currently excluded from preview as it is not generated in the final code. Future updates may add support for message display functionality.
-    - Disabled property will not be rendered for input in an angular generated form. 
+    - **Calendar** not showing in generated app when in a form.
+    - **Reset button click behavior** - it clears the form for React-generated projects. Instead of reverting to initial values, the form controls get empty values.
+    - **Disabled property** will not be rendered for input in an angular generated form. 
 
 ## Additional Resources
 
