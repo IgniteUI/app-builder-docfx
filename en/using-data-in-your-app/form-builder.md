@@ -7,9 +7,6 @@ _keywords: App builder, Remote Paging, Infragistics, Data Sources
 # Form Builder Overview
 App Builder’s Form Builder functionality enables developers to design HTML forms through a drag-and-drop experience. It emphasizes auto-generating form structures directly from API endpoints, simplifying the creation process and allowing seamless data connections with backend sources. This feature offers extensive flexibility in form layout, component customization, and includes options for displaying notifications for submissions, errors, and server-side validations.
 
-> [!NOTE]
-> Be among the first to explore an early preview of the Form Builder features by visiting our [Preview Environment](https://preview.appbuilder.dev/).
-
 ## Key Features of Form Builder
 ### Automatic Form generation from data endpoints
 When a developer drags a data endpoint onto the design surface, a set of form components is automatically generated based on the endpoint’s properties.
@@ -97,6 +94,9 @@ The following known issues and limitations apply to the initial release of Form 
 - **Code Generation**:
     - **Typing Issues with Form Models**: Typing inconsistencies may arise, especially when working with nested structures or arrays, complicating accurate form model generation in the output code.
     - **`igx-hint` Element in Preview**: The `igx-hint` element is currently excluded from preview as it is not generated in the final code. Future updates may add support for message display functionality.
+    - **Calendar** not showing in generated app when in a form.
+    - **Reset button click behavior** - it clears the form for React-generated projects. Instead of reverting to initial values, the form controls get empty values.
+    - **Disabled property** will not be rendered for input in an angular generated form. 
 
 ## Additional Resources
 
