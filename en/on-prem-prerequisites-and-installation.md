@@ -114,6 +114,10 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer"
 <img class="box-shadow" src="./images/docker-apps.png" />
 <p style="margin-top:-20px;text-align:center;">Docker Containers/Apps</p>
 
+### Authentication with OpenID Connect (OAuth 2.0)
+
+Follow the [On-Prem Authentication with OpenID Connect (OAuth 2.0)](on-premises/auth-with-openid-connect-o-auth.md) topic for more information.
+
 ### Updates
 
 1 - Follow the first 4 steps of the first time installation with the newly published zip file
@@ -163,6 +167,7 @@ Docker Desktop on Windows is not starting automatically without Login to Windows
 ## Additional Resources
 <div class="divider--half"></div>
 
+* [On-Prem Authentication with OpenID Connect](on-premises/auth-with-openid-connect-o-auth.md)
 * [App Builder Interface Overview](interface-overview.md)
 * [Single Page And Navigation](single-page-apps-and-navigation.md)
 * [App Builder Components](indigo-design-app-builder-components.md)
