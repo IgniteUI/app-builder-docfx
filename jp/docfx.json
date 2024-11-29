@@ -12,6 +12,7 @@
                     "spa-and-navigation/**.md",
                     "using-data-in-your-app/**.md",
                     "ui-kits/**.md",
+                    "on-premises/**.md",
                     "toolbox/**.md",
                     "how-to/**.md",
                     "sidebar-toc/toc.yml",
