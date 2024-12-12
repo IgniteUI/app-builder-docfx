@@ -6,7 +6,16 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 27th of September, 2024.
+> Latest update was made on 18th of November, 2024.
+
+## November 2024 Release
+### Features
+- **Form builder** - Build forms from scratch or automatically by dropping a REST data endpoint.
+- **New** default data source based on Northwind Rest API.
+- **New** US Presidential Election sample app.
+
+### Improvements
+- Improved UX for resolving theme and component sizes.
 
 ## September 2024 Release
 ### Features
