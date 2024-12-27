@@ -9,6 +9,13 @@
   items:
     - name: On-premises prerequisites and installation
       href: ../on-prem-prerequisites-and-installation.md
+      updated: true
+    - name: Auth with OpenID Connect
+      href: ../on-premises/auth-with-openid-connect-o-auth.md
+      new: true
+    - name: Configuration flags for On-prem and SDK
+      href: ../on-premises/configuration-flags.md
+      new: true
 - name: Running Desktop App
   href: ../running-desktop-app.md
 - name: Share, Preview and Edit apps
@@ -21,9 +28,6 @@
     - name: Figma
       href: ../ui-kits/figma.md
       new: false
-    #name: Adobe XD
-      #href: ../ui-kits/adobe-xd.md
-      #new: false
     - name: Sketch
       href: ../ui-kits/sketch.md
       new: false
