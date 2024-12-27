@@ -168,6 +168,8 @@ Docker Desktop on Windows is not starting automatically without Login to Windows
 <div class="divider--half"></div>
 
 * [On-Prem Authentication with OpenID Connect](on-premises/auth-with-openid-connect-o-auth.md)
+* [App Builder Deployment Configuration Flags](on-premises/configuration-flags.md)
+* [External Resources Whitelisting](on-premises/external-references-for-whitelisting.md)
 * [App Builder Interface Overview](interface-overview.md)
 * [Single Page And Navigation](single-page-apps-and-navigation.md)
 * [App Builder Components](indigo-design-app-builder-components.md)
