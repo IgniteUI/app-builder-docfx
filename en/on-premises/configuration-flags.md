@@ -1,4 +1,11 @@
-# Configuration flags upon On-Prem and SDK deployment
+---
+title: App Builder Configuration flags for on-premise and SDK deployment
+_description: Learn how to configure deployment flags for on-premise and SDK instance
+_keywords: App builder, On-premises, deployment flags
+---
+
+
+# Configuration flags upon On-Premise and SDK deployment
 
 This document is outlining the available configuration flags for deploying and managing the App Builder on-premise instance. This document should provide examples of key environment variables, such as:
 
@@ -84,5 +91,6 @@ docker run --restart always -p 80:5000 -e AuthSettings__ClientId="1234-4657-00"
 <div class="divider--half"></div>
 
 * [Auth with openid connect](auth-with-openid-connect-o-auth.md)
+* [External Resources Whitelisting](external-references-for-whitelisting.md)
 * [On-prem Prerequisites and Installation Overview](../on-prem-prerequisites-and-installation.md)
 * [App Builder Interface Overview](../interface-overview.md)
