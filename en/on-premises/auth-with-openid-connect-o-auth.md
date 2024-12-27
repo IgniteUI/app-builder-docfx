@@ -48,4 +48,8 @@ docker run --restart always -p 80:5000 -e ConnectionStrings__Provider=SqlServer 
 <div class="divider--half"></div>
 
 * [On-prem Prerequisites and Installation Overview](../on-prem-prerequisites-and-installation.md)
-* [App Builder Interface Overview](../interface-overview.md)
+* [App Builder Deployment Configuration Flags](configuration-flags.md)
+* [External Resources Whitelisting](external-references-for-whitelisting.md)
+* [Running Desktop App](../running-desktop-app.md)
+* [Generate app](../generate-app/generate-app-overview.md)
+* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)

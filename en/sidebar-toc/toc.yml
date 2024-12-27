@@ -16,6 +16,9 @@
     - name: Configuration flags for On-prem and SDK
       href: ../on-premises/configuration-flags.md
       new: true
+    - name: Whitelisting External Resources for On-Premise App Builder
+      href: ../on-premises/external-references-for-whitelisting.md
+      new: true
 - name: Running Desktop App
   href: ../running-desktop-app.md
 - name: Share, Preview and Edit apps
