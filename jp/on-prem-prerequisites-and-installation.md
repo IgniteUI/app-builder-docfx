@@ -112,8 +112,12 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer"
 
 > 注: Docker Desktop を使用している場合は、Containers/Apps に移動し、コンテナーを見つけ、[Open in browser] をクリックします。
 
-<img class="box-shadow> src="./images/docker-apps.png" />
-<p style="margin-top:-20px;text-align:center;">Docker の Containers/Apps</p>
+<img class="box-shadow" src="./images/docker-apps.png" />
+<p style="margin-top:-20px;text-align:center;">Docker Containers/Apps</p>
+
+### OpenID Connect (OAuth 2.0) による認証
+
+詳細については、[OpenID Connect (OAuth 2.0) を使用したオンプレミス認証](on-premises/auth-with-openid-connect-o-auth.md)のトピックを参照してください。
 
 ### 更新
 
@@ -164,6 +168,9 @@ docker rm appbuilder
 ## その他のリソース
 <div class="divider--half"></div>
 
+* [OpenID Connect を使用したオンプレミス認証](on-premises/auth-with-openid-connect-o-auth.md)
+* [App Builder 配置構成フラグ](on-premises/configuration-flags.md)
+* [外部リソースのホワイトリスト化](on-premises/external-references-for-whitelisting.md)
 * [App Builder インターフェイスの概要 ](interface-overview.md)
 * [単一ページアプリとナビゲーション](single-page-apps-and-navigation.md)
 * [App Builder コンポーネント](indigo-design-app-builder-components.md)
