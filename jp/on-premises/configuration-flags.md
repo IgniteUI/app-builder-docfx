@@ -56,7 +56,7 @@ appTheme: {
         secondary: '#2D8DFF',               // セカンダリ カラー
         surface: '#F1F7FF',
         success: '#31AB2B',                 // 成功インジケーターのカラー
-        warn: '#F2C200',                    // 警告インジケータのカラー
+        warn: '#F2C200',                    // 警告インジケーターのカラー
         error: '#DB372A',                   // エラー インジケーターのカラー
         info: '#0678FF',                    // 情報インジケーターのカラー
         grays: '#2F2F2F',

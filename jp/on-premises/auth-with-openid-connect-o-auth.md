@@ -14,7 +14,7 @@
 - トークンの更新を有効にする (`offline_access` スコープ)
 - アクセス トークンの有効期限: (推奨 600 秒)
 - 更新トークンの有効期限: スライディング ウィンドウが推奨され、最小 1 時間 (24 時間を推奨)、最大有効期間は組織によって決定され、無制限になります。
-- ID トークンにユーザークレームを含めます (必須の標準クレーム: "sub" と "email"、オプションのカスタム クレーム: "given_name"と "family_name")。
+- ID トークンにユーザークレームを含めます (必須の標準クレーム: "sub" と "email"、オプションのカスタム クレーム: "given_name" と "family_name")。
 - 必要なスコープ: openid email profile offline_access appbuilder.user
 - Audience: "appbuilder" (デフォルト)
 - サインイン リダイレクト URI: <app builder host>/oidc/ig/callback
