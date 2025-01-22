@@ -8,7 +8,7 @@ _keywords: App Builder, Web App Builder, Figma design
 The brand-new Figma Indigo.Design UI Kit for Material maps to our Ignite UI for Angular, Blazor and Web Components UI toolset to completely redefine design-development processes. You now get a robust set of components, patterns, styling, and customization options, enabling you to import prototypes or any type of screen designed in Figma and transform it clean code. The best part is that all static designs become interactive, responsive apps with real UI components, branding, and styling – in a single click.
 
 > [!NOTE]
-> Download [Figma UI Kit](https://www.figma.com/@infragistics), [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) and [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
+> Download [Figma UI Kit](https://www.figma.com/@infragistics), [Plugin for Figma](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) and [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 
 <img class="box-shadow" src="../images/figma-ui-kit.gif" />
 <p style="width: 100%; text-align:center;">Figma UI Kit</p>
@@ -68,12 +68,12 @@ You can download the Figma Plugin, UI kit and sample apps from the [Download Ass
 
 Or through the direct links below:
 - [Figma UI Kit](https://www.figma.com/@infragistics)
-- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Plugin for Figma](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) 
 - [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
  
 ## Known issues and limitations
 - Dark mode will not be parsed upon import into the App Builder, currently we don't provide definitions or options for it.
-- The file model in Figma is closed. The content of the file itself is binary and the App Builder cannot read directly from a `.fig` file. In order to achieve the `import story` you will have to open the Figma app and use the plugin API ([Indigo.Design plugin](https://www.figma.com/community/plugin/1170035114372031474)) to read the file model and its content. From here on the internal heuristics can build an input model for the AppBuilder and complete the import story.
+- The file model in Figma is closed. The content of the file itself is binary and the App Builder cannot read directly from a `.fig` file. In order to achieve the `import story` you will have to open the Figma app and use the plugin API ([Indigo.Design plugin](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin)) to read the file model and its content. From here on the internal heuristics can build an input model for the AppBuilder and complete the import story.
 - [The difference when using the kit as a free Figma user vs Pro user](#using-the-kit-as-a-free-figma-user-vs-pro-user).
 
 
