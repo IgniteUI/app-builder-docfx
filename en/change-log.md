@@ -13,13 +13,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Introduced **Indigo UI Kit for Figma**, seamlessly integrating with App Builder to visually design and generate code for Angular, React, Blazor, and Web Components.
 - Added **Automatic value binding** for Grid Column edit templates.
 
-### Maintenance updates
-- Angular apps are generated using [Ignite UI for Angular `19.0.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/19.0.0).
-- React apps are generated using [Ignite UI for React `18.7.4`](https://github.com/IgniteUI/igniteui-react).
-- Web Component apps are generated using [Ignite UI for Web Components `5.1.2`](https://github.com/IgniteUI/igniteui-webcomponents/).
-- Blazor apps are generated using [Ignite UI for Blazor `24.2.6`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor).
-- Bug fixes
-
 ## December 2024 Release
 ### Features
 - Added **Hierarchical Grid** to the component toolbox.

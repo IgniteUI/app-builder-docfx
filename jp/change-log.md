@@ -14,13 +14,6 @@ _language: ja
 - **Figma 用 Indigo UI Kit** を導入しました。これにより、App Builder とシームレスに統合し、Angular、React、Blazor、Web Components 用のコードを視覚的にデザインして生成できます。
 - グリッド列編集テンプレートに**自動値バインディング**を追加しました。
 
-### メンテナンス更新
-- Angular アプリは [Ignite UI for Angular `19.0.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/19.0.0) を使用して生成されるようにしました。
-- React アプリは [Ignite UI for React `18.7.4`](https://github.com/IgniteUI/igniteui-react) を使用して生成されるようにしました。
-- Web Component アプリは [Ignite UI for Web Components `5.1.2`](https://github.com/IgniteUI/igniteui-webcomponents/) を使用して生成されるようにしました。
-- Blazor アプリは [Ignite UI for Blazor `24.2.6`](https://jp.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor) を使用して生成されるようにしました。
-- 不具合修正
-
 ## 2024 年 12 月リリース
 ### 機能
 - コンポーネント ツールボックスに **Hierarchical Grid** を追加しました。
