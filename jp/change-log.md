@@ -4,10 +4,34 @@ _description: App Builder を使用すると、実際のアプリケーション
 _keywords: App Builder, Web App Builder, デザイン システム, デザイン システム UX, UI キット, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular デザイン システム, Sketch から コードをエクスポート, Angular 用のデザイン キット, Sketch UI キット, インタラクション
 _language: ja
 ---
-# App Builder - 変更ログ
+# App Builder - Change Log 
 
 > [!NOTE]
-> 最新の更新は 2024 年 11 月 18 日に行われました。
+> Latest update was made on 22nd of January, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+## January 2025 Release
+### Features
+- Introduced **Indigo UI Kit for Figma**, seamlessly integrating with App Builder to visually design and generate code for Angular, React, Blazor, and Web Components.
+- Added **Automatic value binding** for Grid Column edit templates.
+
+### Maintenance updates
+- Angular apps are generated using [Ignite UI for Angular `19.0.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/19.0.0).
+- React apps are generated using [Ignite UI for React `18.7.4`](https://github.com/IgniteUI/igniteui-react).
+- Web Component apps are generated using [Ignite UI for Web Components `5.1.2`](https://github.com/IgniteUI/igniteui-webcomponents/).
+- Blazor apps are generated using [Ignite UI for Blazor `24.2.6`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor).
+- Bug fixes
+
+## December 2024 Release
+### Features
+- Added **Hierarchical Grid** to the component toolbox.
+- **GitHub Pages** deployment for hosting static sites directly from a repository.
+
+### Maintenance updates
+- Angular apps are generated using [Ignite UI for Angular `19.0.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/19.0.0).
+- React apps are generated using [Ignite UI for React `18.7.4`](https://github.com/IgniteUI/igniteui-react).
+- Web Component apps are generated using [Ignite UI for Web Components `5.1.2`](https://github.com/IgniteUI/igniteui-webcomponents/).
+- Blazor apps are generated using [Ignite UI for Blazor `24.2.6`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor).
+- Bug fixes
 
 ## 2024 年 11 月リリース
 ### 機能
