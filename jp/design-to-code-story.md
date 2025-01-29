@@ -75,7 +75,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 
 または、以下の直接リンクから:
 - [Figma UI キット](https://www.figma.com/@infragistics)
-- [Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Figma 用プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) 
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 - [Sketch UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
 - [サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)

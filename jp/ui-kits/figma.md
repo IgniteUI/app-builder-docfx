@@ -9,7 +9,7 @@ _language: ja
 最新の Indigo.Design UI Kit for Material は、Ignite UI for Angular、Blazor、および Web Components の UI ツールセットに対応し、デザイン開発プロセスを完全に再定義します。コンポーネント、パターン、スタイリング、およびカスタマイズ オプションの強力なセットを利用できるようになり、プロトタイプまたは Figma で設計された任意のタイプの画面をインポートして、クリーンなコードに変換できるようになりました。最も素晴らしい点は、すべての静的なデザインが、シングル クリックで実際の UI コンポーネント、ブランディング、およびスタイリングを備えたインタラクティブでレスポンシブなアプリになることです。
 
 > [!NOTE]
-> [Figma UI キット](https://www.figma.com/@infragistics)、[Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474)、および[サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)をダウンロード。
+> [Figma UI キット](https://www.figma.com/@infragistics)、[Figma 用プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin)、および[サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)をダウンロード。
 
 <img class="box-shadow" src="../images/figma-ui-kit.gif" />
 <p style="width: 100%; text-align:center;">Figma UI キット</p>
@@ -69,12 +69,12 @@ Figma プラグイン、UI キット、およびサンプル アプリは[アセ
 
 または、以下の直接リンクから:
 - [Figma UI キット](https://www.figma.com/@infragistics)
-- [Figma 用プラグイン](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Figma 用プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) 
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 
 ## 既知の問題と制限
 - ダーク モードは、App Builder へのインポート時に解析されません。現在、ダーク モードの定義やオプションは提供されていません。
-- Figma のファイル モデルは閉じられています。ファイル自体のコンテンツはバイナリであり、App Builder は `.fig` ファイルから直接読み取ることができません。`import story` を実現するには、Figma アプリを開き、プラグイン API ([Indigo.Design プラグイン](https://www.figma.com/community/plugin/1170035114372031474)) を使用してファイル モデルとそのコンテンツを読み取る必要があります。ここから、内部ヒューリスティックが AppBuilder の入力モデルを構築し、インポート ストーリーの取り込みを完成させることができます。
+- Figma のファイル モデルは閉じられています。ファイル自体のコンテンツはバイナリであり、App Builder は `.fig` ファイルから直接読み取ることができません。`import story` を実現するには、Figma アプリを開き、プラグイン API ([Indigo.Design プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin)) を使用してファイル モデルとそのコンテンツを読み取る必要があります。ここから、内部ヒューリスティックが AppBuilder の入力モデルを構築し、インポート ストーリーの取り込みを完成させることができます。
 - [Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてキットを使用した場合の違い](#figma-スターター-ユーザーと-figma-プロフェッショナル-ユーザーとしてのキットの使用)。
 
 
