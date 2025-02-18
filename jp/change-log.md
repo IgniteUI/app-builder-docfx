@@ -8,6 +8,7 @@ _language: ja
 
 > [!NOTE]
 > 最新の更新は 2025 年 1 月 22 日に行われました。[詳細については、AppBuilder ブログをご覧ください。](https://www.appbuilder.dev/ja/blog)
+
 ## 2025 年 1 月リリース
 ### 機能
 - **Figma 用 Indigo UI Kit** を導入しました。これにより、App Builder とシームレスに統合し、Angular、React、Blazor、Web Components 用のコードを視覚的にデザインして生成できます。

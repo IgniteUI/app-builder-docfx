@@ -7,6 +7,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 > [!NOTE]
 > Latest update was made on 22nd of January, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
 ## January 2025 Release
 ### Features
 - Introduced **Indigo UI Kit for Figma**, seamlessly integrating with App Builder to visually design and generate code for Angular, React, Blazor, and Web Components.
