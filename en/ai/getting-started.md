@@ -7,6 +7,8 @@ _keywords: App Builder AI, Infragistics, Ignite UI
 # Getting Started with App Builder AI
 This guide covers the newly introduced AI-powered content generation in App Builder.
 
+AI capabilities are currently available only as a **Preview** and are not yet with a finalized design. These AI features are still being polished and are intended for gathering feedback. As such, they may not be fully refined and may evolve based on user input. You can access the **Preview** functionalities here: https://preview.appbuilder.dev/
+
 ## View Generation
 The generative AI-powered view generation in App Builder provides a powerful alternative to traditional layout pickers. By leveraging free-text user prompts and multiple prompt patterns, users can generate highly customized views that are automatically transformed into fully functional applications. This approach not only accelerates the creation of App Views but also simplifies UI design, making interface generation accessible to users with varying levels of technical expertise.
 

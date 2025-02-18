@@ -6,7 +6,11 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 22nd of January, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 18nd of February, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+## January 2025 Release
+### Features
+- **Generative AI** for [creating Application Views, Themes, and Viewports on Preview](https://preview.appbuilder.dev/).
 
 ## January 2025 Release
 ### Features
