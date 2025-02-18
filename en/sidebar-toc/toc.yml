@@ -2,6 +2,10 @@
 - name: App Builder Overview
   href: ../app-builder-overview.md
   header: true
+- name: AI in App Builder
+  href: ../ai/getting-started.md
+  new: true
+  updated: false
 - name: Getting Started
   href: ../getting-started.md
   new: false
