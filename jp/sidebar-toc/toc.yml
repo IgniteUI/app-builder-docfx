@@ -2,6 +2,10 @@
 - name: App Builder の概要
   href: ../app-builder-overview.md
   header: true
+- name: App Builder の AI
+  href: ../ai/getting-started.md
+  new: true
+  updated: false
 - name: はじめに
   href: ../getting-started.md
   new: false
