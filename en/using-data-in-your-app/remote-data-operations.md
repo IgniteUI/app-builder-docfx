@@ -6,16 +6,20 @@ _keywords: App Builder, Remote Data, Pagination, Infragistics, Data Sources
 
 # Remote Data Operations
 
-This remote data functionality allows **Card**, **Column Layout**, **Absolute Layout** and **Row Layout** components in App Builder to load data from a server and display it in a paginated fashion. This is similar to **Grid Remote Paging**, but tailored for specific (non-grid) components whose data can be repeated.
+This functionality allows users to iterate over data using the **Card**, **Column Layout**, **Absolute Layout**, and **Row Layout** components while leveraging the Paginator component to configure and execute requests that fetch only a specific page of the data.
 
 ## Key Benefits
 - **Improved performance**: Fetch only the required subset (page) of data from the server, avoiding large payloads.
 - **Scalable**: Handles large datasets by loading data in smaller chunks.
-- **Flexible UI**: Lets you place repeated items, like Cards, in a custom layout while benefiting from paging features.
+- **Flexible UI**: Allows the user to place repeated items, like Cards, in a custom layout while benefiting from paging features.
 
 ## How Component-first Remote Data Works
 
-When you enable remote data on a repeated component (e.g., a Card iterating over a JSON array), App Builder fetches only the necessary records from your REST or Swagger endpoint. If **Paging** is enabled, a **Paginator** component is automatically added, along with internal variables such as `pageIndex` and `pageSize` when set up. Changing pages triggers new server requests to retrieve just that page of data.
+When a user repeats a component over data (e.g., a **Card** iterating over a JSON array) and selects an endpoint (table) from a data source, they can configure remote paging if the API provides such an endpoint.
+
+When **Paging** is enabled, a **Paginator** component is automatically added. After that, the user can open the Remote Paging Configurator by selecting the newly created **Paginator** to set up everything else.
+
+During setup, internal variables such as **pageIndex** and **pageSize** are created. Changing pages triggers new server requests to retrieve only the corresponding page of data.
 
 **User flow**:
 
@@ -26,11 +30,11 @@ When you enable remote data on a repeated component (e.g., a Card iterating over
 
 ## Setting Up Remote Data
 
-### **1. Add a Repeaters Component**
+### **1. Repeat a component over data**
 - From the **Toolbox**, drag a **Card**, **Column Layout**, **Absolute Layout**, **Grid Layout** or **Row Layout** (these support paging so far).
 - Select the component and open its **Properties** panel, which will appear on the right hand side.
 
-### **2. Configure Remote Data**
+### **2. Select Data**
 - Under **Repeat**, click **Data**.
 - Choose a REST endpoint or a Swagger definition that provides the JSON response.
 - If paging is needed, ensure your API supports parameters like `pageIndex` and `pageSize` so you can page effectivelly.
@@ -46,17 +50,15 @@ When you enable remote data on a repeated component (e.g., a Card iterating over
 - Changing pages or page sizes triggers new requests, fetching only that portion of data.
 
 **Expected Result:**
-- The component (**Card/Column Layout/Row Layout/Grid Layout/Absolute Layout**) paginates like a Grid, dynamically fetching only the needed data for the current page.
+- The component (**Card/Column Layout/Row Layout/Grid Layout/Absolute Layout**) paginates like a Grid, dynamically fetching only the data for the current page.
 
 ## Known Limitations
 
 ### **1. Row Layout Enforcement**
-- To ensure proper placement of the **Paginator**, App Builder will wrap your repeated component inside a **Row Layout** with **Wrap enabled**. This can alter your design if you decide to use it for other purposes.
-- **Workaround**: Re-organize or re-parent components manually if needed.
+- To ensure proper alignment of the **Paginator** along with the repeated component, App Builder will wrap those inside a **Row Layout** with **Wrap**, **Grow** and "Shrink" rules enabled.
 
 ### **2. Variable-first Approach Not Yet Supported**
-- Currently, data must be bound directly to the component, and App Builder handles variable creation behind the scenes.
-- **Future Enhancement**: A **Variable-first** approach will let you create data request variables first and bind multiple components to them.
+- Currently, the user must start with repeating a component over data, in order to enable Paging. Next version might expose the **Paginator** as a standalone component, which configures data requests on its own, allowing any component be bound to the corresponding data.
 
 ## Additional Resources
 
