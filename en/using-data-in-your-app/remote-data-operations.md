@@ -35,7 +35,7 @@ During setup, internal variables such as **pageIndex** and **pageSize** are crea
 - Select the component and open its **Properties** panel, which will appear on the right hand side.
 
 ### **2. Select Data**
-- Under **Repeat**, click **Data**.
+- Under **Repeat**, select **Data**.
 - Choose a REST endpoint or a Swagger definition that provides the JSON response.
 - If paging is needed, ensure your API supports parameters like `pageIndex` and `pageSize` so you can page effectivelly.
 
