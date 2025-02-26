@@ -1,7 +1,7 @@
 ---
 title: Form Builder
-_description: Remote paging feature allows the grid to load and display data dynamically, fetching only a portion of the data from the server as needed
-_keywords: App builder, Remote Paging, Infragistics, Data Sources
+_description: App Builder's Form Builder enables developers to design forms visually with a drag-and-drop interface.
+_keywords: App Builder, Form Builder, Infragistics
 ---
 
 # Form Builder Overview
