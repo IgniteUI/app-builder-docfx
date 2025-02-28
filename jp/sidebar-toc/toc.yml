@@ -107,6 +107,9 @@
     - name: Grid リモート ページング
       href: ../using-data-in-your-app/grid-remote-paging.md
       new: true
+    - name: リモート データ操作
+      href: ../using-data-in-your-app/remote-data-operations.md
+      new: true
     - name: フォーム ビルダー
       href: ../using-data-in-your-app/form-builder.md
       new: true
