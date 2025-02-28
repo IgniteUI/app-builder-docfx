@@ -1,6 +1,6 @@
 ---
 title: Form Builder (フォーム ビルダー)
-_description: App Builder's Form Builder enables developers to design forms visually with a drag-and-drop interface.
+_description: App Builder のフォーム ビルダーを使用すると、ドラッグ アンド ドロップ インターフェイスを使用して視覚的にフォームを設計できます。
 _keywords: App Builder, フォーム ビルダー, インフラジスティックス
 _language: ja
 ---
