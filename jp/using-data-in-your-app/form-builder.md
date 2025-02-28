@@ -1,7 +1,7 @@
 ---
 title: Form Builder (フォーム ビルダー)
-_description: リモート ページングは、必要に応じてサーバーからデータの一部のみを取得して、グリッドがデータを動的に読み込んで表示する機能です。
-_keywords: App builder, リモート ページング, インフラジスティックス, データ ソース
+_description: App Builder's Form Builder enables developers to design forms visually with a drag-and-drop interface.
+_keywords: App Builder, フォーム ビルダー, インフラジスティックス
 _language: ja
 ---
 
