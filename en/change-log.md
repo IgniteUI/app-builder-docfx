@@ -6,11 +6,14 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 18nd of February, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 5th of March, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
 
-## January 2025 Release
+## March 2025 Release
 ### Features
-- **Generative AI** for [creating Application Views, Themes, and Viewports on Preview](https://preview.appbuilder.dev/).
+- Added **Remote Paging** support to allow apps to request paged data from API.
+- **Multiple-actions Support** - a single interaction (e.g., click, row selection) can now trigger multiple actions, enabling more complex workflows.
+- Grid **Summaries toggle** – Added a property to enable/disable summaries per column.
+- Added **Carousel component** to the component toolbox.
 
 ## January 2025 Release
 ### Features
