@@ -43,7 +43,7 @@ Users can iteratively generate and refine views using various context menu optio
 > **Child views can be created** when a view container is involved in the generated content.
 > Users can refine both **AI-generated** and **manually created** views iteratively.
 
-### Image-Based Generation
+<!-- ### Image-Based Generation
 
 Upload an image using the button under the View tab in the GenAI Dialog.
 
@@ -51,7 +51,7 @@ Upload an image using the button under the View tab in the GenAI Dialog.
 <p style="text-align:center;">Image upload view generation</p>
 
 > [!NOTE] 
-> The image-based generation does not guarantee perfect adherence to the reference; some components or layouts may be interpreted differently by the AI.
+> The image-based generation does not guarantee perfect adherence to the reference; some components or layouts may be interpreted differently by the AI. -->
 
 ### Example Use Cases
 
@@ -197,7 +197,7 @@ Result:
 
 ## Additional AI Features
 
-### Theme Generation
+<!-- ### Theme Generation
 
 **Steps:**
 1. Open the **AIGen** dialog and navigate to the **Theme** tab.
@@ -208,7 +208,7 @@ Result:
 6. Apply the theme in your project.
 
 <img class="box-shadow" src="../images/ai/theme-generation.png" />
-<p style="text-align:center;">App Theme Generation</p>
+<p style="text-align:center;">App Theme Generation</p> -->
 
 ### Image Generation
 
