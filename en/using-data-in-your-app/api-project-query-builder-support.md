@@ -47,7 +47,7 @@ Create a file named QueryBuilderController.cs in your Controllers directory:
                     "products" => dataContext.Products.Run<ProductDb, ProductDto>(query, mapper),
                     "regions" => dataContext.Regions.Run<RegionDb, RegionDto>(query, mapper),
                     "territories" => dataContext.Territories.Run<TerritoryDb, TerritoryDto>(query, mapper),
-                    "employees" => dataContext.Employees.Run<EmployeeDb, EmployeeDto>(query, mapper)
+                    "employees" => dataContext.Employees.Run<EmployeeDb, EmployeeDto>(query, mapper),
                     "customers" => dataContext.Customers.Run<CustomerDb, CustomerDto>(query, mapper),
                     "orders" => dataContext.Orders.Run<OrderDb, OrderDto>(query, mapper),
                     "orderdetails" => dataContext.OrderDetails.Run<OrderDetailDb, OrderDetailDto>(query, mapper),
