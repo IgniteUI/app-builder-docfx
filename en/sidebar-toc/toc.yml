@@ -103,15 +103,17 @@
       href: ../open-api-swagger-support.md
     - name: Grid CRUD Operations
       href: ../using-data-in-your-app/crud-operations.md
-      new: false
     - name: Grid Remote Paging
       href: ../using-data-in-your-app/grid-remote-paging.md
-      new: true
     - name: Remote Data Operations
       href: ../using-data-in-your-app/remote-data-operations.md
-      new: true
     - name: Form Builder
       href: ../using-data-in-your-app/form-builder.md
+    - name: Complex Query Builder
+      href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
+      new: true
+    - name: Web API Query Builder Support
+      href: ../using-data-in-your-app/api-project-query-builder-support.md
       new: true
 - name: App Themes
   href: ../app-themes/app-themes.md
