@@ -6,7 +6,19 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 5th of March, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 27th of March, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+## March 2025 Release ([Preview Environment](https://preview.appbuilder.dev/))
+### Features
+- **Conversational AI Experience** for app creation.
+- Added **Initial Advanced Filtering** support to all Grids.
+- New **Query Variable** type - A specialized variable that interacts with data sources, dynamically filtering large datasets through API requests with server-side filtering for optimal performance.
+- Added **Query Builder component** to the component toolbox.
+- **Reorder Actions** – Customize the execution order of actions triggered by component interactions.
+
+### Maintenance updates
+- Forms Reset capabilities in generated applications.
+- Disabled Summaries Support for Blazor, React and Web Components.
 
 ## March 2025 Release
 ### Features
