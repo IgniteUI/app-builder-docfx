@@ -11,7 +11,7 @@ _keywords: App Builder, Query Builder, Query Variable, Data Filtering, Server-si
 The Query Builder component in App Builder operates through two key concepts:
 - **Query Variable** and **Query Builder Component** in the toolbox.
 
-The **Query Variable** is a specialized variable that interacts with data sources, designed to efficiently handle large datasets by dynamically filtering data through API requests. These requests utilize **server-side filtering**, driven by advanced expressions as parameters, ensuring optimal performance when handling extensive data.
+The **Query Variable**, currently available only as part of [Preview Environment](https://preview.appbuilder.dev/), is a specialized variable that interacts with data sources, designed to efficiently handle large datasets by dynamically filtering data through API requests. These requests utilize **server-side filtering**, driven by advanced expressions as parameters, ensuring optimal performance when handling extensive data.
 
 This variable integrates with the **Query Builder component**, allowing for dynamic data management and UI-driven filtering.
 
@@ -393,6 +393,7 @@ Query Builder provides more flexibility by allowing direct control over the **fi
 
 <div class="divider--half"></div>
 
+* [Query Builder Support for API Projects](api-project-query-builder-support.md)
 * [App Builder Components](../indigo-design-app-builder-components.md)
 * [App Builder Interface Overview](../interface-overview.md)
 * [Form Builder](form-builder.md)

@@ -11,6 +11,8 @@ This guide outlines how to implement a Query Builder Models and Utilities in you
 
 The implementation is already part of the [NorthwindAPI REST API](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder) project. Here are the examples for [NorthwindAPI QueryBuilderController](https://github.com/IgniteUI/NorthwindAPI/blob/main/NorthwindCRUD/Controllers/QueryBuilderController.cs) and [NorthwindAPI QueryBuilder Models](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder).
 
+The [Query Builder Usage Step-by-Step-Guide](query-builder-step-by-step-guide.md) topic explains in details how to use the Query Builder Variable and Component as part of [App Builder](https://preview.appbuilder.dev/) preview environment.
+
 ## Prerequisites
 
 - A .NET Core or .NET API project.
@@ -346,6 +348,7 @@ https://data-northwind.appbuilder.dev/QueryBuilder/ExecuteQuery
 
 <div class="divider--half"></div>
 
+* [Query Builder Usage Step-by-Step-Guide](query-builder-step-by-step-guide.md)
 * [App Builder Components](../indigo-design-app-builder-components.md)
 * [App Builder Interface Overview](../interface-overview.md)
 * [Form Builder](form-builder.md)
