@@ -53,7 +53,7 @@ Create a file named QueryBuilderController.cs in your Controllers directory:
                     "orderdetails" => dataContext.OrderDetails.Run<OrderDetailDb, OrderDetailDto>(query, mapper),
                     "shippers" => dataContext.Shippers.Run<ShipperDb, ShipperDto>(query, mapper),
                     "suppliers" => dataContext.Suppliers.Run<SupplierDb, SupplierDto>(query, mapper),
-                    _ => throw new InvalidOperationException($"Unknown entity ${t}"),
+                    _ => throw new InvalidOperationException($"Unknown entity {t}"),
                 }
             },
         });
