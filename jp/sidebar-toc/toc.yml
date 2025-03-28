@@ -103,15 +103,17 @@
       href: ../open-api-swagger-support.md
     - name: Grid CRUD 操作
       href: ../using-data-in-your-app/crud-operations.md
-      new: false
     - name: Grid リモート ページング
       href: ../using-data-in-your-app/grid-remote-paging.md
-      new: true
     - name: リモート データ操作
       href: ../using-data-in-your-app/remote-data-operations.md
-      new: true
     - name: フォーム ビルダー
       href: ../using-data-in-your-app/form-builder.md
+    - name: 複雑なクエリ ビルダー
+      href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
+      new: true
+    - name: Web API クエリ ビルダーのサポート
+      href: ../using-data-in-your-app/api-project-query-builder-support.md
       new: true
 - name: テーマ
   href: ../app-themes/app-themes.md
