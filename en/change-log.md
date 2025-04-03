@@ -8,7 +8,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 > [!NOTE]
 > Latest update was made on 27th of March, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
 
-## March 2025 Release ([Preview Environment](https://preview.appbuilder.dev/))
+## End of March 2025 Release ([Preview Environment](https://preview.appbuilder.dev/))
 ### Features
 - **Conversational AI Experience** for app creation.
 - Added **Initial Advanced Filtering** support to all Grids.
