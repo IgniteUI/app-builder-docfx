@@ -170,6 +170,8 @@ For [step-by-step walkthrough](https://www.appbuilder.dev/help/using-data-in-you
 ## 6. Troubleshooting Common Problems
 Here are some common issues and their solutions:
 
+- In App Builder the CRUD is working only for Grid, for the Form component there are some missing peaces from the OpenAPI specification that are currently in progress.
+
 - CORS problems. How to enable CORS if needed:
  
 ```
