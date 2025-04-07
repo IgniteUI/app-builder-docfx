@@ -9,7 +9,7 @@ _language: ja
 > [!NOTE]
 > 最新の更新は 2025 年 3 月 27 日に行われました。[詳細については、App Builder ブログをご覧ください。](https://www.appbuilder.dev/ja/blog)
 
-## 2025 年 3 月リリース ([プレビュー版環境](https://preview.appbuilder.dev/))
+## 2025 年 3 月末リリース ([プレビュー版環境](https://preview.appbuilder.dev/))
 ### 機能
 - アプリ作成のための**会話型 AI エクスペリエンス**。
 - すべてのグリッドに**初期の高度なフィルタリング**のサポートを追加しました。
