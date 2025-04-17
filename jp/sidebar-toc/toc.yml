@@ -115,6 +115,9 @@
     - name: Web API クエリ ビルダーのサポート
       href: ../using-data-in-your-app/api-project-query-builder-support.md
       new: true
+    - name: 任意のデータベースで データ API ビルダーを使用する
+      href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
+      new: true
 - name: テーマ
   href: ../app-themes/app-themes.md
   # items:
