@@ -1,7 +1,7 @@
 ---
 title: Publish Apps to Azure DevOps from App Builder + Microsoft Account Type Requirements
 _description: Learn how to publish applications to Azure DevOps directly from App Builder and understand how different Microsoft account types impact authentication and access.
-_keywords: App Builder, Azure DevOps, Microsoft Accounts, Work Accounts, Personal Accounts, Authentication, Publish, CI/CD, Pull Requests, Domain Verification, Infragistics
+_keywords: App Builder, Azure DevOps, Azure Integration, Infragistics
 ---
 
 # Publishing Apps to Azure DevOps from App Builder
