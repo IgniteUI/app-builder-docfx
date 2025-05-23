@@ -10,7 +10,7 @@ The **Azure DevOps integration** in App Builder allows you to publish generated 
 
 Before you begin, it's important to understand how **Microsoft account types** affect authentication and what steps are required to enable access — [see the section below](#how-microsoft-account-types-impact-authentication) for details.
 
-## 🔌 Connect to Your Existing Azure DevOps Project
+## Connect to Your Existing Azure DevOps Project
 
 1. In App Builder, click the **Publish** button.
 2. Select **Azure DevOps** as the target platform.
@@ -20,7 +20,7 @@ Before you begin, it's important to understand how **Microsoft account types** a
 > Your credentials are securely verified. App Builder only requests permissions required for publishing.
 
 
-## ➕ Create a Repo for the App from App Builder
+## Create a Repo for the App from App Builder
 
 If no repository exists yet:
 
@@ -29,13 +29,13 @@ If no repository exists yet:
 3. Define the repository name and visibility (private/public – visibility depends on project settings).
 4. The repo is created and initialized for publishing.
 
-## ⏫ Publish/Push the Code to the Repo
+## Publish/Push the Code to the Repo
 
 1. Click **Publish** to generate and push your app’s source code.
 2. The initial publish populates the default branch (`main`) with your generated files.
 3. A status indicator confirms successful publishing.
 
-## 🤖 Automatic CI Build
+## Automatic CI Build
 
 Azure DevOps supports build pipelines that can be triggered on push:
 
@@ -45,7 +45,7 @@ Azure DevOps supports build pipelines that can be triggered on push:
 
 > If no pipeline is configured, you will need to create one manually and grant it access to the repository.
 
-## ⤴ Pull Requests for Follow-up Changes
+## Pull Requests for Follow-up Changes
 
 For subsequent publishes:
 
@@ -56,7 +56,7 @@ For subsequent publishes:
 
 > This workflow mimics GitHub pull requests and ensures code quality and team collaboration.
 
-## ⚙ Deploy as Live App (Coming Soon)
+## Deploy as Live App (Coming Soon)
 
 Soon, you’ll be able to deploy your app to **Azure Web Apps** directly from App Builder.
 
