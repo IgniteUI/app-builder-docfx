@@ -1,7 +1,7 @@
 ---
 title: Publish Apps to Azure DevOps from App Builder + Microsoft Account Type Requirements
 _description: Learn how to publish applications to Azure DevOps directly from App Builder and understand how different Microsoft account types impact authentication and access.
-_keywords: App Builder, Azure DevOps, Microsoft Accounts, Work Accounts, Personal Accounts, Authentication, Publish, CI/CD, Pull Requests, Domain Verification, Infragistics
+_keywords: App Builder, Azure DevOps, Azure Integration, Infragistics
 ---
 
 # Publishing Apps to Azure DevOps from App Builder
@@ -10,7 +10,7 @@ The **Azure DevOps integration** in App Builder allows you to publish generated 
 
 Before you begin, it's important to understand how **Microsoft account types** affect authentication and what steps are required to enable access — [see the section below](#how-microsoft-account-types-impact-authentication) for details.
 
-## 🔌 Connect to Your Existing Azure DevOps Project
+## Connect to Your Existing Azure DevOps Project
 
 1. In App Builder, click the **Publish** button.
 2. Select **Azure DevOps** as the target platform.
@@ -20,7 +20,7 @@ Before you begin, it's important to understand how **Microsoft account types** a
 > Your credentials are securely verified. App Builder only requests permissions required for publishing.
 
 
-## ➕ Create a Repo for the App from App Builder
+## Create a Repo for the App from App Builder
 
 If no repository exists yet:
 
@@ -29,13 +29,13 @@ If no repository exists yet:
 3. Define the repository name and visibility (private/public – visibility depends on project settings).
 4. The repo is created and initialized for publishing.
 
-## ⏫ Publish/Push the Code to the Repo
+## Publish/Push the Code to the Repo
 
 1. Click **Publish** to generate and push your app’s source code.
 2. The initial publish populates the default branch (`main`) with your generated files.
 3. A status indicator confirms successful publishing.
 
-## 🤖 Automatic CI Build
+## Automatic CI Build
 
 Azure DevOps supports build pipelines that can be triggered on push:
 
@@ -43,9 +43,7 @@ Azure DevOps supports build pipelines that can be triggered on push:
 2. App Builder triggers the build automatically when code is pushed.
 3. Monitor build status from within Azure DevOps.
 
-> If no pipeline is configured, you will need to create one manually and grant it access to the repository.
-
-## ⤴ Pull Requests for Follow-up Changes
+## Pull Requests for Follow-up Changes
 
 For subsequent publishes:
 
@@ -54,9 +52,9 @@ For subsequent publishes:
 3. The build pipeline runs on the PR to validate the changes.
 4. You can review code diffs before merging.
 
-> This workflow mimics GitHub pull requests and ensures code quality and team collaboration.
+> This workflow ensures code quality and team collaboration.
 
-## ⚙ Deploy as Live App (Coming Soon)
+## Deploy as Live App (Coming Soon)
 
 Soon, you’ll be able to deploy your app to **Azure Web Apps** directly from App Builder.
 
