@@ -165,6 +165,10 @@
       href: ../generate-app/upload-application-to-github.md
       new: false
       updated: false
+    - name: Upload application to Azure DevOps
+      href: ../generate-app/azure-integration.md
+      new: true
+      updated: false
     - name: Run Application Locally
       href: ../generate-app/run-application-locally.md
 - name: Change Log
