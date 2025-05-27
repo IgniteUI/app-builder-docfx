@@ -43,8 +43,6 @@ Azure DevOps supports build pipelines that can be triggered on push:
 2. App Builder triggers the build automatically when code is pushed.
 3. Monitor build status from within Azure DevOps.
 
-> If no pipeline is configured, you will need to create one manually and grant it access to the repository.
-
 ## Pull Requests for Follow-up Changes
 
 For subsequent publishes:
@@ -54,7 +52,7 @@ For subsequent publishes:
 3. The build pipeline runs on the PR to validate the changes.
 4. You can review code diffs before merging.
 
-> This workflow mimics GitHub pull requests and ensures code quality and team collaboration.
+> This workflow ensures code quality and team collaboration.
 
 ## Deploy as Live App (Coming Soon)
 
