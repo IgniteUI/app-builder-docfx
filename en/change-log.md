@@ -6,7 +6,15 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 27th of March, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 27th of May, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+## May 2025 Release
+### Features
+- Hierarchical Grid **Load-on-demand** functionality, configured through RowIslands with separate data requests, loading child data only when needed.
+- Added **Child-level Routing** support using the Views Container within nested routes for richer navigation.
+- Added **Input Validation** support across Form, Grid, and standalone Input components, enabling use of minLength, maxLength, pattern, min, and max attributes.
+- **Multi-column Headers** and **Collapsible Column Groups** functionality that allows grouping multiple columns under a single header.
+- Added **Azure DevOps Integration** that allows you to publish apps directly to your DevOps repositories. [Help docs](https://www.appbuilder.dev/help/generate-app/azure-integration).
 
 ## End of March 2025 Release ([Preview Environment](https://preview.appbuilder.dev/))
 ### Features
