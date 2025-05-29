@@ -7,7 +7,15 @@ _language: ja
 # App Builder - 変更ログ
 
 > [!NOTE]
-> 最新の更新は 2025 年 3 月 27 日に行われました。[詳細については、App Builder ブログをご覧ください。](https://www.appbuilder.dev/ja/blog)
+> 最新の更新は 2025 年 5 月 27 日に行われました。[詳細については、App Builder ブログをご覧ください。](https://www.appbuilder.dev/ja/blog)
+
+## 2025 年 5 月リリース
+### 機能
+- Hierarchical Grid の**オンデマンド ロード**機能は、個別のデータ リクエストを持つ RowIslands を通じて構成され、必要な場合にのみ子データをロードします。
+- より豊富なナビゲーションを実現するために、ネストされたルート内の Views Container を使用した**子レベルのルーティング**のサポートを追加しました。
+- Form、Grid、スタンドアロンの Input コンポーネント全体に**入力検証**のサポートが追加され、minLength、maxLength、pattern、min、max 属性の使用が可能になりました。
+- **複数列ヘッダー**と**縮小可能な列グループ**機能により、複数の列を 1 つのヘッダーの下にグループ化できます。
+- アプリを DevOps リポジトリに直接公開できる **Azure DevOps との統合**が追加されました。[ヘルプ ドキュメント](https://www.appbuilder.dev/ja/help/generate-app/azure-integration)。
 
 ## 2025 年 3 月末リリース ([プレビュー版環境](https://preview.appbuilder.dev/))
 ### 機能
