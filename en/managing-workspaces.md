@@ -55,17 +55,14 @@ Copy an app to another workspace with automatic handling of:
    - Match existing ones where possible.
    - Display success notifications upon completion.
 
-> ⚠️ GitHub repo links are not preserved. You’ll need to reconnect repositories manually.
-
----
+> [!NOTE]
+> GitHub repo links are not preserved. You’ll need to reconnect repositories manually.
 
 ## What to Expect
 
 - **No loss of functionality** during or after migration.
 - **No visual UI changes**.
 - **Localized email notifications** are sent when apps are created or deleted.
-
----
 
 ## Limitations
 
@@ -99,10 +96,9 @@ No. App Builder will auto-match resources when possible. Only unmatched resource
 ## Additional Resources
 <div class="divider--half"></div>
 
-* [App Builder Interface Overview](../interface-overview.md)
-* [Single Page and Navigation](../single-page-apps-and-navigation.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
-* [Flex Layouts](../flex-layouts/flex-layouts.md)
-* [Running Desktop App](../running-desktop-app.md)
-* [Generating an App](../generate-app/generate-app-overview.md)
-* [Indigo.Design Getting Started]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)
+* [App Builder Interface Overview](interface-overview.md)
+* [Single Page and Navigation](single-page-apps-and-navigation.md)
+* [App Builder Components](indigo-design-app-builder-components.md)
+* [Flex Layouts](flex-layouts/flex-layouts.md)
+* [Running Desktop App](running-desktop-app.md)
+* [Generating an App](generate-app/generate-app-overview.md)
