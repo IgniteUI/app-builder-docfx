@@ -23,6 +23,9 @@
     - name: Whitelisting External Resources for On-Premise App Builder
       href: ../on-premises/external-references-for-whitelisting.md
       new: true
+    - name: Managing Workspaces in App Builder
+      href: ../managing-workspaces.md
+      new: true
 - name: Running Desktop App
   href: ../running-desktop-app.md
 - name: Share, Preview and Edit apps
