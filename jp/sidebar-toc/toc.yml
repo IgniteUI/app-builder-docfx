@@ -23,6 +23,9 @@
     - name: オンプレミス App Builder の外部リソースのホワイトリスト化
       href: ../on-premises/external-references-for-whitelisting.md
       new: true
+    - name: App Builder でのワークスペースの管理
+      href: ../managing-workspaces.md
+      new: true
 - name: Desktop アプリの実行方法
   href: ../running-desktop-app.md
 - name: アプリケーションの共有、プレビュー、および編集
