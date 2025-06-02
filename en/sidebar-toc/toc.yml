@@ -1,177 +1,125 @@
-
 - name: App Builder Overview
-  href: ../app-builder-overview.md
+  href: ../app-builder-overview.md # Provides a general introduction to the App Builder as a design-to-code solution
   header: true
 - name: AI in App Builder
-  href: ../ai/getting-started.md
-  new: true
-  updated: false
+  href: ../ai/getting-started.md # Details the newly introduced AI-powered content generation features
+  new: true # Marked as new based on source description and user example
 - name: Getting Started
-  href: ../getting-started.md
-  new: false
-  updated: false
+  href: ../getting-started.md # Covers launching, creating, and running the app locally
   items:
-    - name: On-premises prerequisites and installation
-      href: ../on-prem-prerequisites-and-installation.md
-      updated: true
-    - name: Auth with OpenID Connect
-      href: ../on-premises/auth-with-openid-connect-o-auth.md
-      new: true
-    - name: Configuration flags for On-prem and SDK
-      href: ../on-premises/configuration-flags.md
-      new: true
-    - name: Whitelisting External Resources for On-Premise App Builder
-      href: ../on-premises/external-references-for-whitelisting.md
-      new: true
-- name: Running Desktop App
-  href: ../running-desktop-app.md
-- name: Share, Preview and Edit apps
-  href: ../share-preview-edit-app.md
-  new: false
-- name: Design-to-Code story
-  href: ../design-to-code-story.md
-  new: false
+    - name: Launch App Builder
+      href: ../getting-started.md#launch-app-builder # Section within the main getting started file
+    - name: Create new app
+      href: ../getting-started.md#create-new-app # Section within the main getting started file, including options for sample apps, layouts, or importing designs
+    - name: Running the generated app locally
+      href: ../generate-app/run-application-locally.md # Provides instructions and prerequisites for running the downloaded application package
+    - name: On-premises Prerequisites and Installation
+      href: ../on-prem-prerequisites-and-installation.md # Details the prerequisites and steps for installing the on-premises version
+      updated: true # Marked as updated based on user example
+    - name: On-Premise Authentication with OpenID Connect
+      href: ../on-premises/auth-with-openid-connect-o-auth.md # Configuration for custom authentication providers for on-premise instances
+      new: true # Marked as new based on user example
+    - name: On-Premise Configuration flags
+      href: ../on-premises/configuration-flags.md # Outlines available flags for on-premise and SDK deployment
+      new: true # Marked as new based on user example
+    - name: On-Premise Whitelisting External Resources
+      href: ../on-premises/external-references-for-whitelisting.md # Lists external URLs that need whitelisting for on-premise setups
+      new: true # Marked as new based on user example
+    - name: Running Desktop App
+      href: ../running-desktop-app.md # Lists required external URLs for the desktop app
+- name: Interface and Design
   items:
-    - name: Figma
-      href: ../ui-kits/figma.md
-      new: false
-    - name: Sketch
-      href: ../ui-kits/sketch.md
-      new: false
-- name: Interface Overview
-  href: ../interface-overview.md
-  new: false
-- name: Master-detail style apps
-  href: ../master-detail/master-detail.md
-  new: false
-  updated: false
+    - name: Interface overview
+      href: ../interface-overview.md # Describes the main sections of the App Builder interface: Toolbox, Components, Views, Data Sources, Themes, and Outline Tree
+    - name: App Builder Components
+      href: ../indigo-design-app-builder-components.md # Lists available components in the Toolbox
+    - name: App Themes
+      href: ../app-themes/app-themes.md # Explains how to define the look and feel using themes, including built-in options and customization
+    - name: Layouts
+      items: # Nested one level deeper for specific layout types
+        - name: Flex layouts (and positioning)
+          href: ../flex-layouts/flex-layouts.md # Introduces Flex layouts for component positioning and responsiveness
+        - name: Responsive fluid layouts
+          href: ../how-to/responsive-fluid-layout.md # Guide on creating layouts that adapt to different screen sizes
+    - name: Single page apps and navigation
+      href: ../single-page-apps-and-navigation.md # Explains the concept of single-page apps and navigation using views and views-containers
+- name: Building Application Logic
   items:
-    - name: Step-by-step App Creation examples
-      href: ../master-detail/step-by-step-examples.md
-      new: false
-- name: Guide to Variables in App Builder
-  href: ../guide-to-variables-in-app-builder/variables-management.md
-  new: false
-  updated: false
+    - name: Working with Events and Actions
+      href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md # Covers how to use events triggered by components to perform actions
+    - name: Interactions
+      href: ../interactions.md # Details defining interactions between views and components, such as Navigate, Show/Hide, and Open/Close
+    - name: Master-Detail Style Apps
+      href: ../master-detail/master-detail.md # Explores creating apps with a primary pane (list) and a details pane, integrating variables, events, and data binding
+    - name: Using data in the App Builder
+      href: ../using-data-in-your-app.md # Overview of adding, editing, and using external data sources like REST APIs and Swagger definitions
+      items: # Nested one level deeper for specific data concepts and features
+        - name: OpenAPI (Swagger) Support
+          href: ../open-api-swagger-support.md # Explains how to use Swagger definitions to describe and integrate REST APIs
+        - name: Variables Management
+          href: ../guide-to-variables-in-app-builder/variables-management.md # Guide to using global and local variables for data transfer within the app
+        - name: Component Properties Binding
+          href: ../guide-to-variables-in-app-builder/component-properties-binding.md # Describes connecting component properties to data sources using variables
+        - name: URL Parameter Binding
+          href: ../guide-to-variables-in-app-builder/url-parameters-binding.md # Covers binding component data to API endpoints using URL parameters
+        - name: Remote Data Operations
+          href: ../using-data-in-your-app/remote-data-operations.md # Functionality for iterating over data and fetching specific pages using components and the Paginator
+        - name: Grid Remote Paging
+          href: ../using-data-in-your-app/grid-remote-paging.md # Specific details on configuring remote paging for the Grid component
+        - name: Grid CRUD Operations
+          href: ../using-data-in-your-app/crud-operations.md # (Based on title, relates to data manipulation in Grids)
+        - name: Query Builder Support for API Projects
+          href: ../using-data-in-your-app/api-project-query-builder-support.md # Implement Query Builder Models and Utilities for user-defined queries
+          updated: true # Feature added/updated recently based on Change Log
+        - name: Query Builder Step-by-Step Guide
+          href: ../using-data-in-your-app/query-builder-step-by-step-guide.md # Detailed guide on using the Query Builder
+          updated: true # Feature added/updated recently based on Change Log
+        - name: Quickstart with Microsoft Data API Builder
+          href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md # Guide to setting up Data API Builder for database access via REST API
+        - name: Form Builder
+          href: ../using-data-in-your-app/form-builder.md # Enables visual design of HTML forms, including auto-generation from API endpoints and validation
+          updated: true # Feature added in November 2024
+        - name: App Navigation with Route Parameters
+          href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
+          new: false
+    - name: Step-by-step App Creation Examples
+      href: ../master-detail/step-by-step-examples.md # Provides real-use case scenarios for building apps with data binding and interactions
+- name: Code Generation and Deployment
   items:
-    - name: Component properties binding
-      href: ../guide-to-variables-in-app-builder/component-properties-binding.md
-      new: false
-    - name: URL Parameters Binding
-      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
-      new: false
-    - name: Working with events and actions
-      href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
-      new: false
-    - name: App Navigation with Route Parameters
-      href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
-      new: false
-- name: Responsive Fluid Layouts
-  href: ../how-to/responsive-fluid-layout.md
-  new: false
-- name: Flex Layouts
-  href: ../flex-layouts/flex-layouts.md
-  # items:
-  #   - name: Row and column layout
-  #     href: ../flex-layouts/row-and-column-layout.md
-  #   - name: Fluid resizing & wrapping
-  #     href: ../flex-layouts/fluid-resizing-and-wrapping.md
-  #   - name: Add to layout via context menu
-  #     href: ../flex-layouts/add-to-layout-via-context-menu.md
-  #   - name: Additional resources to learn about web-layouts
-  #     href: ../flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: UI Components
-  href: ../indigo-design-app-builder-components.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../indigo-design-components/configuring-components.md
-- name: Interactions
-  href: ../interactions.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../indigo-design-components/configuring-components.md
-- name: Using data in your app
-  href: ../using-data-in-your-app.md
-  new: false
-  updated: false
-  items:
-    - name: OpenAPI (Swagger) Support
-      href: ../open-api-swagger-support.md
-    - name: Grid CRUD Operations
-      href: ../using-data-in-your-app/crud-operations.md
-    - name: Grid Remote Paging
-      href: ../using-data-in-your-app/grid-remote-paging.md
-    - name: Remote Data Operations
-      href: ../using-data-in-your-app/remote-data-operations.md
-    - name: Form Builder
-      href: ../using-data-in-your-app/form-builder.md
-    - name: Complex Query Builder
-      href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
-      new: true
-    - name: Web API Query Builder Support
-      href: ../using-data-in-your-app/api-project-query-builder-support.md
-      new: true
-    - name: Use Data API Builder with Any Database
-      href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
-      new: true
-- name: App Themes
-  href: ../app-themes/app-themes.md
-  # items:
-  #   - name: Switching app themes
-  #     href: ../app-themes/switching-app-themes.md
-  #   - name: Material vs. Fluent vs Bootstrap 
-  #     href: ../app-themes/material-vs-fluent-vs-bootstrap.md
-  #   - name: Customize & apply theme 
-  #     href: ../app-themes/customize-and-apply-theme.md
-- name: Single Page Apps and Navigation
-  href: ../single-page-apps-and-navigation.md
-  # items:
-  #   - name: Master view vs. Child views
-  #     href: ../spa-and-navigation/master-view-vs-child-views.md
-  #   - name: Add navigations (routing)
-  #     href: ../spa-and-navigation/add-navigations-routing.md
-- name: Preview Code
-  href: ../preview-code.md
-  # items:
-  #   - name: Preview code
-  #     href: ../preview-code-and-genrate-app/preview-code.md
-  #   - name: Compile and Run the app
-  #     href: ../preview-code-and-genrate-app/compile-and-run-the-app.md
-- name: Blazor Support
-  href: ../blazor-support.md
-  new: false
-  updated: false
-- name: Web Components Support
-  href: ../web-components-support.md
-  new: false
-  updated: false
-- name: Toolbox Components
-  new: false
-  items:
+    - name: Design-to-Code Story
+      href: ../design-to-code-story.md # Overview of turning designs from tools like Figma, Sketch, and Adobe XD into production-ready code
+      updated: true # Covers recently added Figma integration
+    - name: Figma design to code story
+      href: ../ui-kits/figma.md # Specific details on using the Figma UI Kit and plugin for design-to-code
+      updated: true # Integration introduced in January 2025
+    - name: Preview Code
+      href: ../preview-code.md # Describes how to view the generated HTML, CSS, and TS code within the App Builder
+    - name: Generate App Overview
+      href: ../generate-app/generate-app-overview.md # Explains options for downloading or uploading generated code to GitHub, and lists supported frameworks
+    - name: Supported Frameworks
+      items: # Nested one level deeper for specific framework support
+        - name: Blazor Code Generation
+          href: ../blazor-support.md # Details Blazor WASM and Server code generation support
+        - name: Web Components Code Generation
+          href: ../web-components-support.md # Details Web Components code generation support
+        - name: Angular Code Generation
+          href: ../generate-app/generate-app-overview.md # Angular generation is a core feature, listed in the Generate App Overview. A dedicated file was not provided.
+        - name: React Code Generation
+          href: ../generate-app/generate-app-overview.md # React generation is supported, listed in the Generate App Overview. A dedicated file was not provided.
+    - name: Publish to GitHub
+      href: ../generate-app/upload-application-to-github.md # Explains connecting a GitHub account and uploading generated code to a repository
+    - name: Publish to Azure DevOps
+      href: ../generate-app/azure-integration.md # Details integrating with Azure DevOps for publishing generated code
+- name: Integrations
+  items: # Nested one level deeper for specific integrations
     - name: Reveal Dashboard
-      href: ../toolbox/reveal-dashboard.md
-      new: false
-      updated: false
-- name: Generate App
-  href: ../generate-app/generate-app-overview.md
-  new: false
-  updated: false
-  items:
-    - name: Upload application to Github
-      href: ../generate-app/upload-application-to-github.md
-      new: false
-      updated: false
-    - name: Upload application to Azure DevOps
-      href: ../generate-app/azure-integration.md
-      new: true
-      updated: false
-    - name: Run Application Locally
-      href: ../generate-app/run-application-locally.md
+      href: ../toolbox/reveal-dashboard.md # Integration details for the Reveal Dashboard component
+      updated: true # Component added in May 2023
+- name: Sharing and Collaboration
+  href: ../share-preview-edit-app.md # Covers sharing applications, granting edit access, and preview settings
 - name: Change Log
-  href: ../change-log.md
-  new: false
-  updated: true
+  href: ../change-log.md # Provides updates and features added in various releases
+- name: Resources
+  items: # Nested one level deeper for specific resources
+    - name: Video tutorials
+      href: ../video-tutorials.md # Resource page for video guides
