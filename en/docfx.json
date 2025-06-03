@@ -13,6 +13,7 @@
                     "using-data-in-your-app/**.md",
                     "ui-kits/**.md",
                     "ai/**.md",
+                    "sdk/**.md",
                     "on-premises/**.md",
                     "toolbox/**.md",
                     "how-to/**.md",
