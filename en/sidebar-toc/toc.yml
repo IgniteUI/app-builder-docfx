@@ -27,10 +27,10 @@
       new: false
     - name: Running the App Builder Desktop App
       href: ../running-desktop-app.md
-- name: Design-to-Code Workflow
+- name: Design System & Design-to-Code Workflow
   href: ../design-to-code-story.md
   updated: false
-- name: Figma Design-to-Code Workflow
+- name: Figma UI Kit & Usage
   href: ../ui-kits/figma.md
   updated: false
 - name: Platform Interface and Structure
@@ -51,6 +51,16 @@
           href: ../using-data-in-your-app/grid-remote-paging.md
         - name: Grid CRUD
           href: ../using-data-in-your-app/crud-operations.md
+      - name: Form Builder
+        href: ../using-data-in-your-app/form-builder.md
+      - name: Query Builder Component
+        items:
+        - name: Implementing Query Builder for Server-Side Filtering
+          href: ../using-data-in-your-app/api-project-query-builder-support.md
+          updated: false
+        - name: Step-by-Step Using the Query Builder
+          href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
+          updated: false
     - name: Layouts
       items:
         - name: Flex Layouts and Component Positioning
@@ -100,11 +110,20 @@
     - name: App Navigation with Route Parameters
       href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
       new: false
-- name: Integrations
+- name: Integrations & External Tools
   items:
     - name: Adding Reveal Dashboards to Apps
       href: ../toolbox/reveal-dashboard.md
-      updated: false
+    - name: Figma Design-to-Code Workflow
+      href: ../ui-kits/figma.md
+    - name: OpenAPI (Swagger) Support
+      href: ../open-api-swagger-support.md
+    - name: Feed data with Microsoft Data API Builder
+      href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
+    - name: Publishing Apps to GitHub
+      href: ../generate-app/upload-application-to-github.md
+    - name: Publishing Apps to Azure DevOps
+      href: ../generate-app/azure-integration.md
 - name: Code Generation
   items:
     - name: Preview Code

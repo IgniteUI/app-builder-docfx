@@ -23,7 +23,9 @@ There are thee ways in which you can create a new app from the "Create new appli
 4. **Import design** - if you have an existing design file, created using the Indigo.Design UI kit for Figma or Sketch, you can use this as a starting point for your apps. To do this, get our Indigo.Design system, which includes plugins to publish your design, UI kits, and sample design files.
 
 <br>
-> Note: Due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
+
+> [!NOTE]
+> Due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
 <br>
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
@@ -33,7 +35,6 @@ Note, that once in the App Builder, users are enabled to easily switch between t
 
 <img src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">Side menu</p>
-
 
 ## Getting the code
 The App Builder always displays a live-running web application both on the design surface and in the preview window. The underlying code and application model are updated in real time as you make changes to the application in the design surface. You can view the generated application code at any time in the preview window and you can also download the generated application at any time as a complete application code repository, which you can then open in a code editor of your choice. Then you can build and run the application you've designed using the App Builder locally on your machine and you can make additional modifications on the generated code.

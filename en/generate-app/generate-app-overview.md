@@ -100,7 +100,8 @@ Currently, the App Builder supports code generation for Angular and Blazor. Belo
 | Reveal Dashboard       | :heavy_check_mark: | :x:                | :x:                |
 
 
-> Note: Partially generated components are marked with :construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for Blazor components.
+> [!NOTE]
+> Partially generated components are marked with :construction:. See [Blazor Support](../blazor-support.md#known-issues-and-limitations) for more details on the known issues and limitations for Blazor components.
 
 ## Additional Resources
 
