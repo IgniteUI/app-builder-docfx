@@ -33,14 +33,24 @@
 - name: Figma Design-to-Code Workflow
   href: ../ui-kits/figma.md
   updated: false
-- name: Interface and Design
+- name: Platform Interface and Structure
+  href: ../interface-overview.md
   items:
     - name: Interface overview
       href: ../interface-overview.md
-    - name: App Builder Components
-      href: ../indigo-design-app-builder-components.md
     - name: App Themes
       href: ../app-themes/app-themes.md
+    - name: Toolbox Components
+      href: ../indigo-design-app-builder-components.md
+      items:
+      - name: Reveal Dashboard
+        href: ../toolbox/reveal-dashboard.md
+      - name: Grid
+        items:
+        - name: Grid Remote Paging
+          href: ../using-data-in-your-app/grid-remote-paging.md
+        - name: Grid CRUD
+          href: ../using-data-in-your-app/crud-operations.md
     - name: Layouts
       items:
         - name: Flex Layouts and Component Positioning
@@ -117,7 +127,7 @@
       href: ../generate-app/upload-application-to-github.md
     - name: Publishing Apps to Azure DevOps
       href: ../generate-app/azure-integration.md
-- name: Sharing and Previewing Applications (Collaboration)
+- name: Sharing and Previewing Applications
   href: ../share-preview-edit-app.md
 - name: Change Log (Release Notes)
   href: ../change-log.md
