@@ -9,6 +9,8 @@
   items:
     - name: Launch App Builder
       href: ../getting-started.md#launch-app-builder
+    - name: Interface overview
+      href: ../interface-overview.md
     - name: Create New App
       href: ../getting-started.md#create-new-app
     - name: Running the Generated App Locally
@@ -36,8 +38,6 @@
 - name: Platform Interface and Structure
   href: ../interface-overview.md
   items:
-    - name: Interface overview
-      href: ../interface-overview.md
     - name: App Themes
       href: ../app-themes/app-themes.md
     - name: Toolbox Components
@@ -53,9 +53,9 @@
           href: ../using-data-in-your-app/crud-operations.md
       - name: Form Builder
         href: ../using-data-in-your-app/form-builder.md
-      - name: Query Builder Component
+      - name: Query Builder
         items:
-        - name: Implementing Query Builder for Server-Side Filtering
+        - name: Server-Side Filtering Implementation
           href: ../using-data-in-your-app/api-project-query-builder-support.md
           updated: false
         - name: Step-by-Step Using the Query Builder
@@ -123,7 +123,9 @@
     - name: Publishing Apps to GitHub
       href: ../generate-app/upload-application-to-github.md
     - name: Publishing Apps to Azure DevOps
-      href: ../generate-app/azure-integration.md
+      href: ../generate-app/azure-integration.md    
+    - name: Authentication with OpenID Connect (On-Premise)
+      href: ../on-premises/auth-with-openid-connect-o-auth.md
 - name: Code Generation
   items:
     - name: Preview Code
