@@ -9,8 +9,6 @@
   items:
     - name: Interface overview
       href: ../interface-overview.md
-    - name: Create New App
-      href: ../getting-started.md#create-new-app
     - name: Running the Generated App Locally
       href: ../generate-app/run-application-locally.md
     - name: SDK, On-Prem & Desktop
@@ -66,25 +64,25 @@
           href: ../flex-layouts/flex-layouts.md
         - name: Creating Responsive and Fluid Layouts (Row and Column)
           href: ../how-to/responsive-fluid-layout.md
-    - name: Single Page Apps and Navigation
-      href: ../single-page-apps-and-navigation.md
 - name: Building Application Logic
   items:
     - name: Working with Events and Actions
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
     - name: Configuring Interactions for Component Events
       href: ../interactions.md
+    - name: Managing App State with Variables
+      href: ../guide-to-variables-in-app-builder/variables-management.md
     - name: Master-Detail Style Apps
       href: ../master-detail/master-detail.md
     - name: Step-by-step App Creation Examples
       href: ../master-detail/step-by-step-examples.md
+    - name: Single Page Apps and Navigation
+      href: ../single-page-apps-and-navigation.md
 - name: Using data in the App Builder
   href: ../using-data-in-your-app.md
   items:
     - name: OpenAPI (Swagger) Support
       href: ../open-api-swagger-support.md
-    - name: Managing App State with Variables
-      href: ../guide-to-variables-in-app-builder/variables-management.md
     - name: Binding Data to Component Properties
       href: ../guide-to-variables-in-app-builder/component-properties-binding.md
     - name: URL Parameter Binding
@@ -118,11 +116,7 @@
     - name: OpenAPI (Swagger) Support
       href: ../open-api-swagger-support.md
     - name: Feed data with Microsoft Data API Builder
-      href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
-    - name: Publishing Apps to GitHub
-      href: ../generate-app/upload-application-to-github.md
-    - name: Publishing Apps to Azure DevOps
-      href: ../generate-app/azure-integration.md    
+      href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md 
     - name: Authentication with OpenID Connect (On-Premise)
       href: ../on-premises/auth-with-openid-connect-o-auth.md
 - name: Code Generation

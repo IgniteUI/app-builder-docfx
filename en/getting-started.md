@@ -6,11 +6,30 @@ _keywords: App builder, Indigo Design, Infragistics
 
 # Getting started with App Builder
 
-### In this article:
-* <a href="#launch-app-builder">Launch App Builder</a>
-* <a href="#getting-the-code">Getting the code</a>
-* <a href="#running-the-generated-app-locally">Running the app locally</a>
-* <a href="#video-tutorial">Video tutorial</a>
+App Builder is a low-code platform that lets you quickly turn designs into functional web apps—without writing all the code. Start from scratch, use templates, or import Figma designs, then visually build your app with drag-and-drop components, real data connections, and layout customization. It generates production-ready code for Angular, React, Blazor, and Web Components, with one-click export or deployment to GitHub or Azure.
+## How Everything Works Together
+
+The diagram below gives you a high-level overview of how App Builder fits into the broader ecosystem of design and development tools:
+
+<img class="box-shadow" src="images/platform-ecosystem.png" />
+<p style="width: 100%; text-align:center;">Platform Ecosystem</p>
+
+### In Simple Terms:
+
+* **Design System → UI Kits & Adapters**:
+  It starts with a design system, implemented as UI kits (like Indigo.Design for Figma). Adapters translate your design into a format App Builder can use.
+* **App Builder + Integrations**:
+  You use App Builder to visually create your app. It supports REST data, Reveal SDK widgets (for dashboards), and Slingshot tasks (for project management).
+* **Common App Model**:
+  Everything flows into a central **Common App Model**—a unified format that describes your app, regardless of how you started (design import or manual build).
+* **Code Generation (Codegen)**:
+  The model is then used by the **code generator**, which outputs real, usable code for:
+  * **Angular**
+  * **React**
+  * **Web Components**
+  * **Blazor**
+* **Deployment Targets**:
+  Finally, the generated code can be deployed directly to platforms like **GitHub** or **Microsoft Azure**.
 
 ## Launch App Builder
 To access App Builder, navigate to [https://appbuilder.dev](https://appbuilder.dev) and sign in. Alternatively, you can launch App builder directly by visiting [https://my.appbuilder.dev](https://my.appbuilder.dev). You will need an active trial or paid subscription to create and edit apps.
