@@ -7,28 +7,27 @@
 - name: Getting Started
   href: ../getting-started.md
   items:
-    - name: Launch App Builder
-      href: ../getting-started.md#launch-app-builder
     - name: Interface overview
       href: ../interface-overview.md
     - name: Create New App
       href: ../getting-started.md#create-new-app
     - name: Running the Generated App Locally
       href: ../generate-app/run-application-locally.md
-    - name: On-Premises Prerequisites and Installation
-      href: ../on-prem-prerequisites-and-installation.md
-      updated: false
-    - name: On-Premise Authentication with OpenID Connect
-      href: ../on-premises/auth-with-openid-connect-o-auth.md
-      new: false
-    - name: On-Premises and SDK Configuration Flags
-      href: ../on-premises/configuration-flags.md
-      new: false
-    - name: Whitelisting External Resources (On-Premises)
-      href: ../on-premises/external-references-for-whitelisting.md
-      new: false
-    - name: Running the App Builder Desktop App
-      href: ../running-desktop-app.md
+    - name: SDK, On-Prem & Desktop
+      items:
+        - name: Using the App Builder SDK
+          href: ../sdk/sdk.md
+        - name: Using the On-Premises Version
+          href: ../on-prem-prerequisites-and-installation.md
+          items:
+          - name: On-Prem Authentication with OpenID Connect
+            href: ../on-premises/auth-with-openid-connect-o-auth.md
+          - name: On-Premises and SDK Configuration Flags
+            href: ../on-premises/configuration-flags.md
+          - name: Whitelisting External Resources
+            href: ../on-premises/external-references-for-whitelisting.md
+        - name: Using the Desktop App
+          href: ../running-desktop-app.md
 - name: Design System & Design-to-Code Workflow
   href: ../design-to-code-story.md
   updated: false
