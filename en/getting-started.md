@@ -10,9 +10,7 @@ _keywords: App builder, Indigo Design, Infragistics
 * <a href="#launch-app-builder">Launch App Builder</a>
 * <a href="#getting-the-code">Getting the code</a>
 * <a href="#running-the-generated-app-locally">Running the app locally</a>
-
-> [!Video https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw&rel=0]
-
+* <a href="#video-tutorial">Video tutorial</a>
 
 ## Launch App Builder
 To access App Builder, navigate to [https://appbuilder.dev](https://appbuilder.dev) and sign in. Alternatively, you can launch App builder directly by visiting [https://my.appbuilder.dev](https://my.appbuilder.dev). You will need an active trial or paid subscription to create and edit apps.
@@ -90,9 +88,15 @@ In order to run the downloaded application, the following prerequisites need to 
 </div>
 <div class="divider--half"></div>
 
+## Video tutorial
+
+
+> [!Video https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw&rel=0]
+
 ## Report an issue or send feedback
 
 [This repository](https://github.com/IgniteUI/app-builder) is intended for issues and feature requests submission, as well as for general product discussions, questions and any feedback that you want to share. You can also <a href="mailto:appbuilder@infragistics.com">send us an email</a>.
+
 ## Additional Resources
 <div class="divider--half"></div>
 
