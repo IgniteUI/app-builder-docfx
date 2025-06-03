@@ -1,180 +1,154 @@
-
 - name: App Builder Overview
   href: ../app-builder-overview.md
   header: true
-- name: AI in App Builder
+- name: AI-Powered View and Content Generation
   href: ../ai/getting-started.md
   new: true
-  updated: false
 - name: Getting Started
   href: ../getting-started.md
-  new: false
-  updated: false
   items:
-    - name: On-premises prerequisites and installation
+    - name: Launch App Builder
+      href: ../getting-started.md#launch-app-builder
+    - name: Create New App
+      href: ../getting-started.md#create-new-app
+    - name: Running the Generated App Locally
+      href: ../generate-app/run-application-locally.md
+    - name: On-Premises Prerequisites and Installation
       href: ../on-prem-prerequisites-and-installation.md
-      updated: true
-    - name: Auth with OpenID Connect
+      updated: false
+    - name: On-Premise Authentication with OpenID Connect
       href: ../on-premises/auth-with-openid-connect-o-auth.md
-      new: true
-    - name: Configuration flags for On-prem and SDK
+      new: false
+    - name: On-Premises and SDK Configuration Flags
       href: ../on-premises/configuration-flags.md
-      new: true
-    - name: Whitelisting External Resources for On-Premise App Builder
+      new: false
+    - name: Whitelisting External Resources (On-Premises)
       href: ../on-premises/external-references-for-whitelisting.md
-      new: true
-    - name: Managing Workspaces in App Builder
-      href: ../managing-workspaces.md
-      new: true
-- name: Running Desktop App
-  href: ../running-desktop-app.md
-- name: Share, Preview and Edit apps
-  href: ../share-preview-edit-app.md
-  new: false
-- name: Design-to-Code story
+      new: false
+    - name: Running the App Builder Desktop App
+      href: ../running-desktop-app.md
+- name: Design System & Design-to-Code Workflow
   href: ../design-to-code-story.md
-  new: false
-  items:
-    - name: Figma
-      href: ../ui-kits/figma.md
-      new: false
-    - name: Sketch
-      href: ../ui-kits/sketch.md
-      new: false
-- name: Interface Overview
+  updated: false
+- name: Figma UI Kit & Usage
+  href: ../ui-kits/figma.md
+  updated: false
+- name: Platform Interface and Structure
   href: ../interface-overview.md
-  new: false
-- name: Master-detail style apps
-  href: ../master-detail/master-detail.md
-  new: false
-  updated: false
   items:
-    - name: Step-by-step App Creation examples
-      href: ../master-detail/step-by-step-examples.md
-      new: false
-- name: Guide to Variables in App Builder
-  href: ../guide-to-variables-in-app-builder/variables-management.md
-  new: false
-  updated: false
+    - name: Interface overview
+      href: ../interface-overview.md
+    - name: App Themes
+      href: ../app-themes/app-themes.md
+    - name: Toolbox Components
+      href: ../indigo-design-app-builder-components.md
+      items:
+      - name: Reveal Dashboard
+        href: ../toolbox/reveal-dashboard.md
+      - name: Grid
+        items:
+        - name: Grid Remote Paging
+          href: ../using-data-in-your-app/grid-remote-paging.md
+        - name: Grid CRUD
+          href: ../using-data-in-your-app/crud-operations.md
+      - name: Form Builder
+        href: ../using-data-in-your-app/form-builder.md
+      - name: Query Builder Component
+        items:
+        - name: Implementing Query Builder for Server-Side Filtering
+          href: ../using-data-in-your-app/api-project-query-builder-support.md
+          updated: false
+        - name: Step-by-Step Using the Query Builder
+          href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
+          updated: false
+    - name: Layouts
+      items:
+        - name: Flex Layouts and Component Positioning
+          href: ../flex-layouts/flex-layouts.md
+        - name: Creating Responsive and Fluid Layouts (Row and Column)
+          href: ../how-to/responsive-fluid-layout.md
+    - name: Single Page Apps and Navigation
+      href: ../single-page-apps-and-navigation.md
+- name: Building Application Logic
   items:
-    - name: Component properties binding
-      href: ../guide-to-variables-in-app-builder/component-properties-binding.md
-      new: false
-    - name: URL Parameters Binding
-      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
-      new: false
-    - name: Working with events and actions
+    - name: Working with Events and Actions
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
-      new: false
-    - name: App Navigation with Route Parameters
-      href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
-      new: false
-- name: Responsive Fluid Layouts
-  href: ../how-to/responsive-fluid-layout.md
-  new: false
-- name: Flex Layouts
-  href: ../flex-layouts/flex-layouts.md
-  # items:
-  #   - name: Row and column layout
-  #     href: ../flex-layouts/row-and-column-layout.md
-  #   - name: Fluid resizing & wrapping
-  #     href: ../flex-layouts/fluid-resizing-and-wrapping.md
-  #   - name: Add to layout via context menu
-  #     href: ../flex-layouts/add-to-layout-via-context-menu.md
-  #   - name: Additional resources to learn about web-layouts
-  #     href: ../flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: UI Components
-  href: ../indigo-design-app-builder-components.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../indigo-design-components/configuring-components.md
-- name: Interactions
-  href: ../interactions.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../indigo-design-components/configuring-components.md
-- name: Using data in your app
+    - name: Configuring Interactions for Component Events
+      href: ../interactions.md
+    - name: Master-Detail Style Apps
+      href: ../master-detail/master-detail.md
+    - name: Step-by-step App Creation Examples
+      href: ../master-detail/step-by-step-examples.md
+- name: Using data in the App Builder
   href: ../using-data-in-your-app.md
-  new: false
-  updated: false
   items:
     - name: OpenAPI (Swagger) Support
       href: ../open-api-swagger-support.md
-    - name: Grid CRUD Operations
-      href: ../using-data-in-your-app/crud-operations.md
-    - name: Grid Remote Paging
-      href: ../using-data-in-your-app/grid-remote-paging.md
+    - name: Managing App State with Variables
+      href: ../guide-to-variables-in-app-builder/variables-management.md
+    - name: Binding Data to Component Properties
+      href: ../guide-to-variables-in-app-builder/component-properties-binding.md
+    - name: URL Parameter Binding
+      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
     - name: Remote Data Operations
       href: ../using-data-in-your-app/remote-data-operations.md
-    - name: Form Builder
-      href: ../using-data-in-your-app/form-builder.md
-    - name: Complex Query Builder
-      href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
-      new: true
-    - name: Web API Query Builder Support
+    - name: Grid Remote Paging
+      href: ../using-data-in-your-app/grid-remote-paging.md
+    - name: Performing Grid CRUD Operations (with OpenAPI)
+      href: ../using-data-in-your-app/crud-operations.md
+    - name: Implementing Query Builder for Server-Side Filtering
       href: ../using-data-in-your-app/api-project-query-builder-support.md
-      new: true
-    - name: Use Data API Builder with Any Database
+      updated: false
+    - name: Step-by-Step Using the Query Builder
+      href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
+      updated: false
+    - name: Quickstart with Microsoft Data API Builder
       href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
-      new: true
-- name: App Themes
-  href: ../app-themes/app-themes.md
-  # items:
-  #   - name: Switching app themes
-  #     href: ../app-themes/switching-app-themes.md
-  #   - name: Material vs. Fluent vs Bootstrap 
-  #     href: ../app-themes/material-vs-fluent-vs-bootstrap.md
-  #   - name: Customize & apply theme 
-  #     href: ../app-themes/customize-and-apply-theme.md
-- name: Single Page Apps and Navigation
-  href: ../single-page-apps-and-navigation.md
-  # items:
-  #   - name: Master view vs. Child views
-  #     href: ../spa-and-navigation/master-view-vs-child-views.md
-  #   - name: Add navigations (routing)
-  #     href: ../spa-and-navigation/add-navigations-routing.md
-- name: Preview Code
-  href: ../preview-code.md
-  # items:
-  #   - name: Preview code
-  #     href: ../preview-code-and-genrate-app/preview-code.md
-  #   - name: Compile and Run the app
-  #     href: ../preview-code-and-genrate-app/compile-and-run-the-app.md
-- name: Blazor Support
-  href: ../blazor-support.md
-  new: false
-  updated: false
-- name: Web Components Support
-  href: ../web-components-support.md
-  new: false
-  updated: false
-- name: Toolbox Components
-  new: false
+    - name: Form Builder Visual Design and Data Connection
+      href: ../using-data-in-your-app/form-builder.md
+      updated: false
+    - name: App Navigation with Route Parameters
+      href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
+      new: false
+- name: Integrations & External Tools
   items:
-    - name: Reveal Dashboard
+    - name: Adding Reveal Dashboards to Apps
       href: ../toolbox/reveal-dashboard.md
-      new: false
-      updated: false
-- name: Generate App
-  href: ../generate-app/generate-app-overview.md
-  new: false
-  updated: false
-  items:
-    - name: Upload application to Github
+    - name: Figma Design-to-Code Workflow
+      href: ../ui-kits/figma.md
+    - name: OpenAPI (Swagger) Support
+      href: ../open-api-swagger-support.md
+    - name: Feed data with Microsoft Data API Builder
+      href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
+    - name: Publishing Apps to GitHub
       href: ../generate-app/upload-application-to-github.md
-      new: false
-      updated: false
-    - name: Upload application to Azure DevOps
+    - name: Publishing Apps to Azure DevOps
       href: ../generate-app/azure-integration.md
-      new: true
-      updated: false
-    - name: Run Application Locally
-      href: ../generate-app/run-application-locally.md
-- name: Change Log
+- name: Code Generation
+  items:
+    - name: Preview Code
+      href: ../preview-code.md
+    - name: Generate App Overview
+      href: ../generate-app/generate-app-overview.md
+    - name: Supported Frameworks
+      items:
+        - name: Blazor Code Generation
+          href: ../blazor-support.md
+        - name: Web Components Code Generation
+          href: ../web-components-support.md
+        - name: Angular Code Generation
+          href: ../generate-app/generate-app-overview.md
+        - name: React Code Generation
+          href: ../generate-app/generate-app-overview.md
+- name: Application Deployment
+  items:
+    - name: Publishing Apps to GitHub
+      href: ../generate-app/upload-application-to-github.md
+    - name: Publishing Apps to Azure DevOps
+      href: ../generate-app/azure-integration.md
+- name: Sharing and Previewing Applications
+  href: ../share-preview-edit-app.md
+- name: Change Log (Release Notes)
   href: ../change-log.md
-  new: false
-  updated: true
+- name: Video Tutorials
+  href: ../video-tutorials.md
