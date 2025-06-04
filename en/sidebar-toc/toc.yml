@@ -7,11 +7,14 @@
 - name: Getting Started
   href: ../getting-started.md
   items:
-    - name: Interface overview
+    - name: Interface Overview
       href: ../interface-overview.md
-    - name: Running the Generated App Locally
-      href: ../generate-app/run-application-locally.md
-    - name: SDK, On-Prem & Desktop
+    - name: Managing Workspaces in App Builder
+      href: ../managing-workspaces.md
+      new: true
+    - name: Using the Desktop App
+      href: ../running-desktop-app.md
+    - name: On-premises and SDK
       items:
         - name: Using the App Builder SDK
           href: ../sdk/sdk.md
@@ -24,8 +27,6 @@
             href: ../on-premises/configuration-flags.md
           - name: Whitelisting External Resources
             href: ../on-premises/external-references-for-whitelisting.md
-        - name: Using the Desktop App
-          href: ../running-desktop-app.md
 - name: Design System & Design-to-Code Workflow
   href: ../design-to-code-story.md
   updated: false
@@ -121,6 +122,8 @@
       href: ../on-premises/auth-with-openid-connect-o-auth.md
 - name: Code Generation
   items:
+    - name: Running the Generated App Locally
+      href: ../generate-app/run-application-locally.md
     - name: Preview Code
       href: ../preview-code.md
     - name: Generate App Overview
@@ -141,7 +144,7 @@
       href: ../generate-app/upload-application-to-github.md
     - name: Publishing Apps to Azure DevOps
       href: ../generate-app/azure-integration.md
-- name: Sharing and Previewing Applications
+- name: Previewing and Sharing Applications
   href: ../share-preview-edit-app.md
 - name: Change Log (Release Notes)
   href: ../change-log.md
