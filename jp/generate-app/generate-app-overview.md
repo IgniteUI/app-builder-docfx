@@ -100,7 +100,8 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 | Snackbar               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Reveal Dashboard       | :heavy_check_mark: | :x:                | :x:                |
 
-> 注: 部分的に生成されたコンポーネントは :construction: でマークされます。Blazor コンポーネントの既知の問題および制限の詳細については、[Blazor サポート](../blazor-support.md#既知の問題点および制限事項)を参照してください。
+> [!NOTE]
+> 部分的に生成されたコンポーネントは :construction: でマークされます。Blazor コンポーネントの既知の問題および制限の詳細については、[Blazor サポート](../blazor-support.md#既知の問題点および制限事項)を参照してください。
 
 ## その他のリソース
 
