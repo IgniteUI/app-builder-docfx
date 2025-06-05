@@ -6,12 +6,12 @@ _keywords: App builder, Indigo Design, Infragistics
 
 # Single page apps and navigation  
 
-> [!Video https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A&list=UULF8cj8_eJROxAXsOjhbvduLw]
-
 Another App Builder feature is the single-page apps and navigation. Unlike a page-based design approach, App Builder lets you create separate views that are injected or switched based on how users navigate. To see this action, you can create a new app using the create new application button, then select one of the default layouts that shows a top navigation defined. 
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">Add layout preset from the Menu button, then select Create New App</p>
+
+> [!Video https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A&list=UULF8cj8_eJROxAXsOjhbvduLw]
 
 ## Parent view vs. Child views 
 

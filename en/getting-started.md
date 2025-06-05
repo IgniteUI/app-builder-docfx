@@ -6,13 +6,30 @@ _keywords: App builder, Indigo Design, Infragistics
 
 # Getting started with App Builder
 
-### In this article:
-* <a href="#launch-app-builder">Launch App Builder</a>
-* <a href="#getting-the-code">Getting the code</a>
-* <a href="#running-the-generated-app-locally">Running the app locally</a>
+App Builder is a low-code platform that lets you quickly turn designs into functional web apps—without writing all the code. Start from scratch, use templates, or import Figma designs, then visually build your app with drag-and-drop components, real data connections, and layout customization. It generates production-ready code for Angular, React, Blazor, and Web Components, with one-click export or deployment to GitHub or Azure.
+## How Everything Works Together
 
-> [!Video https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw&rel=0]
+The diagram below gives you a high-level overview of how App Builder fits into the broader ecosystem of design and development tools:
 
+<img class="box-shadow" src="images/platform-ecosystem.png" />
+<p style="width: 100%; text-align:center;">Platform Ecosystem</p>
+
+### In Simple Terms:
+
+* **Design System → UI Kits & Adapters**:
+  It starts with a design system, implemented as UI kits (like Indigo.Design for Figma). Adapters translate your design into a format App Builder can use.
+* **App Builder + Integrations**:
+  You use App Builder to visually create your app. It supports REST data, Reveal SDK widgets (for dashboards), and Slingshot tasks (for project management).
+* **Common App Model**:
+  Everything flows into a central **Common App Model**—a unified format that describes your app, regardless of how you started (design import or manual build).
+* **Code Generation (Codegen)**:
+  The model is then used by the **code generator**, which outputs real, usable code for:
+  * **Angular**
+  * **React**
+  * **Web Components**
+  * **Blazor**
+* **Deployment Targets**:
+  Finally, the generated code can be deployed directly to platforms like **GitHub** or **Microsoft Azure**.
 
 ## Launch App Builder
 To access App Builder, navigate to [https://appbuilder.dev](https://appbuilder.dev) and sign in. Alternatively, you can launch App builder directly by visiting [https://my.appbuilder.dev](https://my.appbuilder.dev). You will need an active trial or paid subscription to create and edit apps.
@@ -25,7 +42,9 @@ There are thee ways in which you can create a new app from the "Create new appli
 4. **Import design** - if you have an existing design file, created using the Indigo.Design UI kit for Figma or Sketch, you can use this as a starting point for your apps. To do this, get our Indigo.Design system, which includes plugins to publish your design, UI kits, and sample design files.
 
 <br>
-> Note: Due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
+
+> [!NOTE]
+> Due to the differences between the absolute layout in Sketch and the Flex layout in the App Builder, some additional adjustments may be needed after parsing your Sketch file.
 <br>
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
@@ -35,7 +54,6 @@ Note, that once in the App Builder, users are enabled to easily switch between t
 
 <img src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">Side menu</p>
-
 
 ## Getting the code
 The App Builder always displays a live-running web application both on the design surface and in the preview window. The underlying code and application model are updated in real time as you make changes to the application in the design surface. You can view the generated application code at any time in the preview window and you can also download the generated application at any time as a complete application code repository, which you can then open in a code editor of your choice. Then you can build and run the application you've designed using the App Builder locally on your machine and you can make additional modifications on the generated code.
@@ -90,9 +108,15 @@ In order to run the downloaded application, the following prerequisites need to 
 </div>
 <div class="divider--half"></div>
 
+## Video tutorial
+
+
+> [!Video https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw&rel=0]
+
 ## Report an issue or send feedback
 
 [This repository](https://github.com/IgniteUI/app-builder) is intended for issues and feature requests submission, as well as for general product discussions, questions and any feedback that you want to share. You can also <a href="mailto:appbuilder@infragistics.com">send us an email</a>.
+
 ## Additional Resources
 <div class="divider--half"></div>
 

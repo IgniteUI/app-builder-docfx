@@ -7,13 +7,31 @@ _language: ja
 
 # App Builder を使用した作業の開始
 
-### トピック コンテンツ:
-* <a href="#app-builder-を起動する">Indigo.Design から App Builder を起動する</a>
-* <a href="#コードの取得">コードの取得</a>
-* <a href="#作成したアプリをローカルで実行する">アプリをローカルで実行する</a>
+App Builder は、すべてのコードを記述することなく、デザインを機能的な Web アプリにすばやく変換できるローコード プラットフォームです。空の状態から始めたり、テンプレートを使用したり、Figma デザインをインポートしたりすることができ、ドラッグ アンド ドロップ コンポーネント、実際のデータとの接続、レイアウトのカスタマイズを使用して視覚的にアプリを構築します。Angular、React、Blazor、Web Components の実稼働環境に対応するコードを生成し、ワンクリックで GitHub または Azure にエクスポートまたは配置できます。
 
-> [!Video https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw&rel=0]
+## すべての仕組みを理解するために
 
+以下の図は、App Builder がデザインおよび開発ツールのの広範なエコシステムの中でどのように機能しているかを高い視点から示した概要です。
+
+<img class="box-shadow" src="images/platform-ecosystem.png" />
+<p style="width: 100%; text-align:center;">プラットフォーム エコシステム</p>
+
+### 簡単に言うと:
+
+* **デザインシ ステム → UI キットとアダプター**:
+  それは、UI キット (Figma の Indigo.Design など) として実装されたデザイン システムから始まります。アダプターはデザインを App Builder が使用できる形式に変換します。
+* **App Builder + 統合**:
+  App Builder を使用して、アプリを視覚的に作成します。REST データ、Reveal SDK ウィジェット (ダッシュボード用)、Slingshot タスク (プロジェクト管理用) をサポートしています。
+* **共通アプリ モデル**:
+  すべてが中央の**共通アプリ モデル**に集約されます。共通アプリ モデルは、開始方法 (デザインのインポートまたは手動ビルド) に関係なく、アプリを記述する統一された形式です。
+* **コード生成 (Codegen)**:
+  次に、モデルは**コード ジェネレーター**によって使用され、次のような実際の使用可能なコードが出力されます。
+  * **Angular**
+  * **React**
+  * **Web Components**
+  * **Blazor**
+* **配置対象**:
+  最後に、生成されたコードは、**GitHub** や **Microsoft Azure** などのプラットフォームに直接配置できます。
 
 ## App Builder を起動する
 App Builder にアクセスするには、[https://appbuilder.dev](https://appbuilder.dev) に移動してサインインします。または、[https://my.appbuilder.dev](https://my.appbuilder.dev) にアクセスして App Builder を直接起動することもできます。アプリを作成および編集するには、有効なトライアル版または有料サブスクリプションが必要です。
@@ -26,7 +44,9 @@ App Builder にアクセスするには、[https://appbuilder.dev](https://appbu
 4. **デザインのインポート** - Figma または Sketch 用の Indigo.Design UI キットを使用して作成された既存のデザイン ファイルがある場合、これをアプリの開始点として使用できます。これを行うには、デザイン、UI キット、サンプル デザイン ファイルを公開するためのプラグインが含まれる Indigo.Design システムを取得してください。
 
 <br>
-> 注: Sketch の絶対レイアウトと App Builder の Flex レイアウトの違いにより、Sketch ファイルの解析後に追加の調整が必要になる場合があります。
+
+> [!NOTE]
+> Sketch の絶対レイアウトと App Builder の Flex レイアウトの違いにより、Sketch ファイルの解析後に追加の調整が必要になる場合があります。
 <br>
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
@@ -36,7 +56,6 @@ App Builder にアクセスするには、[https://appbuilder.dev](https://appbu
 
 <img src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">サイド メニュー</p>
-
 
 ## コードの取得
 App Builder は、常にライブ実行中の Web アプリケーションをデザイン画面とプレビュー ウィンドウの両方に表示します。基になるコードとアプリケーション モデルは、デザイン画面でアプリケーションに変更を加えると、リアルタイムで更新されます。生成されたアプリケーション コードはプレビュー ウィンドウでいつでも表示できます。また、生成されたアプリケーションを完全なアプリケーション コード リポジトリとしてダウンロードして、選択したコード エディターで開くこともできます。次に、App Builder を使用してデザインしたアプリケーションをマシン上でローカルにビルドして実行し、生成されたコードに追加の変更を加えることができます。
@@ -91,9 +110,15 @@ App Builder は、ソフトウェア製品の検出、ソフトウェア製品�
 </div>
 <div class="divider--half"></div>
 
+## ビデオ チュートリアル
+
+
+> [!Video https://www.youtube.com/embed/QnQV80hWfco?si=Kcg2ZTIBeENvgaga&list=UULF8cj8_eJROxAXsOjhbvduLw&rel=0]
+
 ## 問題の報告またはフィードバックの送信
 
 [このリポジトリ](https://github.com/IgniteUI/app-builder)は、問題や機能リクエストの送信、および製品の全般的なディスカッション、質問、共有したいフィードバックを対象としています。<a href="mailto:appbuilder@infragistics.com">メールを送信する</a>こともできます。
+
 ## その他のリソース
 <div class="divider--half"></div>
 

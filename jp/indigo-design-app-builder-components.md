@@ -7,16 +7,16 @@ _language: ja
 
 # App Builder コンポーネント
 
+左側の**ツールボックス** タブでは、使用可能なすべての [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) のリストと、Absolute、Row、Column Layout、Views Container などの App Builder  の一般的なコンポーネントを順番に表示できます。コンポーネント リストの上部にある検索入力により、特定のコンポーネントを簡単に見つけることができます。すべてのコンポーネントは、使用法に基づいてグループに簡単に分散されます。グレーアウトされたコンポーネントはまだ追加されていないため無効になっていますが、間もなく次のアップデートで利用できるようになります。コンポーネントは、**ツールボックス**からドラッグアンドドロップすることで**デザイン キャンバス**に追加できます。
+
+App Builder コンポーネントの使用:
 <section class="video-container">
     <div>
         <div class="video-container__item">
             <iframe src="https://www.youtube.com/embed/omlSzOuvFlM" frameborder="0" allowfullscreen></iframe>
         </div>
-        <p>App Builder コンポーネントの使用</p>
     </div>
 </section>
-
-左側の**ツールボックス** タブでは、使用可能なすべての [Ignite UI for Angular]({environment:infragisticsBaseUrl}/products/ignite-ui-angular) のリストと、Absolute、Row、Column Layout、Views Container などの App Builder  の一般的なコンポーネントを順番に表示できます。コンポーネント リストの上部にある検索入力により、特定のコンポーネントを簡単に見つけることができます。すべてのコンポーネントは、使用法に基づいてグループに簡単に分散されます。グレーアウトされたコンポーネントはまだ追加されていないため無効になっていますが、間もなく次のアップデートで利用できるようになります。コンポーネントは、**ツールボックス**からドラッグアンドドロップすることで**デザイン キャンバス**に追加できます。
 
 ## クイック追加のコンポーネント 
 
@@ -28,7 +28,6 @@ Mac でキーボード ショートカットの ctrl + E または cmd + E を�
 ## コンポーネントの構成 
 
 すべてのコンポーネントには、Indigo.Design システムに一致する一連のプリセット タイプが付属しています。たとえば、Indigo.Design システムには、Raised、Outline、Flat の 3 つのプリセット タイプのボタンがあります。
-
 
 ![component-presets-Indigo-Design-App-Builder](./images/component-presets-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">コンポーネントのプリセット</p>
