@@ -7,12 +7,12 @@ _language: ja
 
 # 単一ページアプリとナビゲーション
 
-> [!Video https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A&list=UULF8cj8_eJROxAXsOjhbvduLw]
-
 App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
-<p style="text-align:center;">メニュー ボタンからレイアウト プリセットを追加し、[Create New App] を選択する</p>
+<p style="text-align:center;">メニュー ボタンからレイアウト プリセットを追加し、[新しいアプリの作成] を選択する</p>
+
+> [!Video https://www.youtube.com/embed/hssubbXsOTM?si=yKKhVTo-1_fXyJ6A&list=UULF8cj8_eJROxAXsOjhbvduLw]
 
 ## 親ビュー vs. 子ビュー
 

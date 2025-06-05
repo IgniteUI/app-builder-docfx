@@ -1,180 +1,154 @@
-﻿
-- name: App Builder の概要
+﻿- name: App Builder の概要
   href: ../app-builder-overview.md
   header: true
-- name: App Builder の AI
+- name: AI を活用したビューとコンテンツ生成
   href: ../ai/getting-started.md
   new: true
-  updated: false
 - name: はじめに
   href: ../getting-started.md
-  new: false
-  updated: false
   items:
-    - name: オンプレミスの前提条件とインストール
-      href: ../on-prem-prerequisites-and-installation.md
-      updated: true
-    - name: OpenID Connect による認証
-      href: ../on-premises/auth-with-openid-connect-o-auth.md
-      new: true
-    - name: オンプレミスと SDK の構成フラグ
-      href: ../on-premises/configuration-flags.md
-      new: true
-    - name: オンプレミス App Builder の外部リソースのホワイトリスト化
-      href: ../on-premises/external-references-for-whitelisting.md
-      new: true
+    - name: インターフェイスの概要
+      href: ../interface-overview.md
     - name: App Builder でのワークスペースの管理
       href: ../managing-workspaces.md
       new: true
-- name: Desktop アプリの実行方法
-  href: ../running-desktop-app.md
-- name: アプリケーションの共有、プレビュー、および編集
-  href: ../share-preview-edit-app.md
-  new: false
-- name: デザインからコード作成のストーリー
+    - name: デスクトップ アプリの使用
+      href: ../running-desktop-app.md
+    - name: アプリケーションをローカルで実行
+      href: ../generate-app/run-application-locally.md
+    - name: SDK・オンプレミス
+      items:
+        - name: App Builder SDK の使用
+          href: ../sdk/sdk.md
+        - name: オンプレミス版の使用
+          href: ../on-prem-prerequisites-and-installation.md
+          items:
+          - name: OpenID Connect を使用したオンプレミス認証
+            href: ../on-premises/auth-with-openid-connect-o-auth.md
+          - name: オンプレミスと SDK の構成フラグ
+            href: ../on-premises/configuration-flags.md
+          - name: 外部リソースのホワイトリスト化
+            href: ../on-premises/external-references-for-whitelisting.md
+- name: デザインシ ステムとデザインからコード作成までのワークフロー
   href: ../design-to-code-story.md
-  new: false
-  items:
-    - name: Figma
-      href: ../ui-kits/figma.md
-      new: false
-    - name: Sketch
-      href: ../ui-kits/sketch.md
-      new: false
-- name: インターフェイスの概要
+  updated: false
+- name: Figma UI キットと使用方法
+  href: ../ui-kits/figma.md
+  updated: false
+- name: プラットフォーム インターフェースと構造
   href: ../interface-overview.md
-  new: false
-- name: マスター/詳細スタイルのアプリ
-  href: ../master-detail/master-detail.md
-  new: false
-  updated: false
   items:
-    - name: ステップバイステップのアプリ作成例
-      href: ../master-detail/step-by-step-examples.md
-      new: false
-- name: App Builder での変数管理のガイド
-  href: ../guide-to-variables-in-app-builder/variables-management.md
-  new: false
-  updated: false
+    - name: アプリ テーマ
+      href: ../app-themes/app-themes.md
+    - name: ツールボックス コンポーネント
+      href: ../indigo-design-app-builder-components.md
+      items:
+      - name: Reveal ダッシュボード
+        href: ../toolbox/reveal-dashboard.md
+      - name: Grid
+        items:
+        - name: Grid リモート ページング
+          href: ../using-data-in-your-app/grid-remote-paging.md
+        - name: Grid CRUD
+          href: ../using-data-in-your-app/crud-operations.md
+      - name: Form Builder
+        href: ../using-data-in-your-app/form-builder.md
+      - name: Query Builder
+        items:
+        - name: サーバー側フィルタリングの実装
+          href: ../using-data-in-your-app/api-project-query-builder-support.md
+          updated: false
+        - name: Query Builder のステップバイステップ ガイド
+          href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
+          updated: false
+    - name: レイアウト
+      items:
+        - name: Flex レイアウトとコンポーネントの配置
+          href: ../flex-layouts/flex-layouts.md
+        - name: レスポンシブで流動的なレイアウト (行と列) の作成
+          href: ../how-to/responsive-fluid-layout.md
+- name: アプリケーション ロジックの構築
   items:
-    - name: コンポーネント プロパティのバインド
-      href: ../guide-to-variables-in-app-builder/component-properties-binding.md
-      new: false
-    - name: URL パラメーターのバインド
-      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
-      new: false
-    - name: ベントとアクションを操作する
+    - name: イベントとアクションの操作
       href: ../guide-to-variables-in-app-builder/working-with-events-and-actions.md
-      new: false
-    - name: ルート パラメーターを使用したアプリのナビゲーション
-      href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
-      new: false
-- name: レスポンシブ Fluid レイアウト
-  href: ../how-to/responsive-fluid-layout.md
-  new: false
-- name: Flex レイアウト
-  href: ../flex-layouts/flex-layouts.md
-  # items:
-  #   - name: 行と列のレイアウト
-  #     href: ../flex-layouts/row-and-column-layout.md
-  #   - name: Fluid resizing & wrapping
-  #     href: ../flex-layouts/fluid-resizing-and-wrapping.md
-  #   - name: Add to layout via context menu
-  #     href: ../flex-layouts/add-to-layout-via-context-menu.md
-  #   - name: Additional resources to learn about web-layouts
-  #     href: ../flex-layouts/additional-resources-to-learn-about-web-layouts.md
-- name: UI コンポーネント
-  href: ../indigo-design-app-builder-components.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../indigo-design-components/configuring-components.md
-- name: インタラクション
-  href: ../interactions.md
-  # items:
-  #   - name: Quick add components
-  #     href: ../indigo-design-components/quick-add-components.md
-  #   - name: Configuring components
-  #     href: ../indigo-design-components/configuring-components.md
-- name: アプリでデータを使用する
+    - name: コンポーネント イベントのインタラクションの設定
+      href: ../interactions.md
+    - name: 変数を使用したアプリの状態管理
+      href: ../guide-to-variables-in-app-builder/variables-management.md
+    - name: マスター詳細スタイルのアプリ
+      href: ../master-detail/master-detail.md
+    - name: "アプリ作成 - ステップバイステップの例"
+      href: ../master-detail/step-by-step-examples.md
+    - name: 単一ページアプリとナビゲーション
+      href: ../single-page-apps-and-navigation.md
+- name: App Builder でデータを使用する
   href: ../using-data-in-your-app.md
-  new: false
-  updated: false
   items:
     - name: OpenAPI (Swagger) サポート
       href: ../open-api-swagger-support.md
-    - name: Grid CRUD 操作
-      href: ../using-data-in-your-app/crud-operations.md
-    - name: Grid リモート ページング
-      href: ../using-data-in-your-app/grid-remote-paging.md
+    - name: コンポーネント プロパティへのデータのバインド
+      href: ../guide-to-variables-in-app-builder/component-properties-binding.md
+    - name: URL パラメーターのバインド
+      href: ../guide-to-variables-in-app-builder/url-parameters-binding.md
     - name: リモート データ操作
       href: ../using-data-in-your-app/remote-data-operations.md
-    - name: フォーム ビルダー
-      href: ../using-data-in-your-app/form-builder.md
-    - name: 複雑なクエリ ビルダー
-      href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
-      new: true
-    - name: Web API クエリ ビルダーのサポート
+    - name: Grid リモート ページング
+      href: ../using-data-in-your-app/grid-remote-paging.md
+    - name: グリッド CRUD 操作の実行 (OpenAPI を使用)
+      href: ../using-data-in-your-app/crud-operations.md
+    - name: サーバー側フィルタリングのための Query Builder の実装
       href: ../using-data-in-your-app/api-project-query-builder-support.md
-      new: true
-    - name: 任意のデータベースで データ API ビルダーを使用する
+      updated: false
+    - name: Query Builder のステップバイステップ ガイド
+      href: ../using-data-in-your-app/query-builder-step-by-step-guide.md
+      updated: false
+    - name: Microsoft のデータ API ビルダーのクイックスタート ガイド
       href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
-      new: true
-- name: テーマ
-  href: ../app-themes/app-themes.md
-  # items:
-  #   - name: Switching app themes
-  #     href: ../app-themes/switching-app-themes.md
-  #   - name: Material vs. Fluent vs Bootstrap 
-  #     href: ../app-themes/material-vs-fluent-vs-bootstrap.md
-  #   - name: Customize & apply theme 
-  #     href: ../app-themes/customize-and-apply-theme.md
-- name: 単一ページアプリとナビゲーション
-  href: ../single-page-apps-and-navigation.md
-  # items:
-  #   - name: Master view vs. Child views
-  #     href: ../spa-and-navigation/master-view-vs-child-views.md
-  #   - name: Add navigations (routing)
-  #     href: ../spa-and-navigation/add-navigations-routing.md
-- name: コードのプレビュー
-  href: ../preview-code.md
-  # items:
-  #   - name: Preview code
-  #     href: ../preview-code-and-genrate-app/preview-code.md
-  #   - name: Compile and Run the app
-  #     href: ../preview-code-and-genrate-app/compile-and-run-the-app.md
-- name: Blazor サポート
-  href: ../blazor-support.md
-  new: false
-  updated: false
-- name: Web Components サポート
-  href: ../web-components-support.md
-  new: false
-  updated: false
-- name: ツールボックス コンポーネント
-  new: false
+    - name: Form Builder のビジュアル デザインとデータ接続
+      href: ../using-data-in-your-app/form-builder.md
+      updated: false
+    - name: ルート パラメーターを使用したアプリのナビゲーション
+      href: ../guide-to-variables-in-app-builder/route-parameters-navigation.md
+      new: false
+- name: 統合と外部ツール
   items:
-    - name: Reveal ダッシュボード
+    - name: アプリに Reveal ダッシュボードを追加する
       href: ../toolbox/reveal-dashboard.md
-      new: false
-      updated: false
-- name: アプリの生成
-  href: ../generate-app/generate-app-overview.md
-  new: false
-  updated: false
+    - name: Figma のデザインからコード作成までのワークフロー
+      href: ../ui-kits/figma.md
+    - name: OpenAPI (Swagger) サポート
+      href: ../open-api-swagger-support.md
+    - name: Microsoft のデータ API ビルダーでデータを入力する
+      href: ../using-data-in-your-app/quickstart-use-microsoft-data-api-builder.md
+    - name: OpenID Connect による認証 (オンプレミス)
+      href: ../on-premises/auth-with-openid-connect-o-auth.md
+- name: コードの生成
   items:
-    - name: アプリケーションを Github にアップロード
-      href: ../generate-app/upload-application-to-github.md
-      new: false
-      updated: false
-    - name: アプリケーションを Azure DevOps にアップロード
-      href: ../generate-app/azure-integration.md
-      new: true
-      updated: false
     - name: アプリケーションをローカルで実行
       href: ../generate-app/run-application-locally.md
-- name: 変更ログ
+    - name: コードのプレビュー
+      href: ../preview-code.md
+    - name: アプリの生成 (概要)
+      href: ../generate-app/generate-app-overview.md
+    - name: サポートされているフレームワーク
+      items:
+        - name: Blazor のコード生成
+          href: ../blazor-support.md
+        - name: Web Components のコード作成
+          href: ../web-components-support.md
+        - name: Angular のコード生成
+          href: ../generate-app/generate-app-overview.md
+        - name: React のコード生成
+          href: ../generate-app/generate-app-overview.md
+- name: アプリケーションの配置
+  items:
+    - name: GitHub へのアプリのプッシュ
+      href: ../generate-app/upload-application-to-github.md
+    - name: Azure DevOps へのアプリの公開
+      href: ../generate-app/azure-integration.md
+- name: アプリケーションのプレビューと共有
+  href: ../share-preview-edit-app.md
+- name: 変更ログ (リリースノート)
   href: ../change-log.md
-  new: false
-  updated: true
+- name: ビデオ チュートリアル
+  href: ../video-tutorials.md
