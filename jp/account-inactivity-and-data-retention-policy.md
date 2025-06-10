@@ -45,13 +45,6 @@ _language: ja
 <img class="box-shadow" style="display:flex;margin:auto auto 20px auto;" src="images/data-retention-policy.png" />
 <p style="width: 100%; text-align:center;">削除警告メールの例</p>
 
-## 削除タイマーのリセット方法
-
-**データ削除を回避する**には、**120 日以内**に**以下のいずれか**を実行してください:
-
-* App Builder サブスクリプションを**更新またはアップグレードする**
-* App Builder に **ログインしてアクセスする** (アクティビティがあればタイマーはリセットされます)
-
 ## まとめ
 
 | 状況                      | 結果                                  |
