@@ -44,13 +44,6 @@ If the project is deleted, the link becomes invalid.
 <img class="box-shadow" style="display:flex;margin:auto auto 20px auto;" src="images/data-retention-policy.png" />
 <p style="width: 100%; text-align:center;">Example Deletion Warning Email</p>
 
-## How to Reset the Deletion Clock
-
-To **avoid data deletion**, users can do **either** of the following **before Day 120**:
-
-* **Renew or upgrade** the App Builder subscription
-* **Log in and access** App Builder again (activity resets the timer)
-
 ## Summary
 
 | Condition                      | Outcome                                  |
