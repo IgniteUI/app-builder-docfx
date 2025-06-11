@@ -21,6 +21,8 @@ When a user's **App Builder subscription expires**, the following policy applies
 > [!NOTE]
 > This data deletion policy applies **only to App Builder** user data. Infragistics retains general account information unless the user explicitly requests its deletion.
 
+For more information on how we handle personal data and data retention, see our [Privacy Policy](https://www.appbuilder.dev/privacy-policy).
+
 ## What Data Is Deleted?
 
 After 120 days of subscription expiration and inactivity, the following data is deleted:
@@ -53,6 +55,8 @@ If the project is deleted, the link becomes invalid.
 | 120 days post-expiry           | All App Builder data is deleted          |
 | Subscription renewed           | Timer is reset, no deletion              |
 | GDPR deletion requested        | Personal info and workspace data deleted |
+
+For details on personal data collection and retention practices, refer to our [Privacy Policy](https://www.appbuilder.dev/privacy-policy).
 
 ---
 
