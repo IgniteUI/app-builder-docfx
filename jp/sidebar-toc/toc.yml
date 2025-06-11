@@ -14,8 +14,6 @@
       new: true
     - name: デスクトップ アプリの使用
       href: ../running-desktop-app.md
-    - name: アプリケーションをローカルで実行
-      href: ../generate-app/run-application-locally.md
     - name: SDK・オンプレミス
       items:
         - name: App Builder SDK の使用
@@ -29,6 +27,8 @@
             href: ../on-premises/configuration-flags.md
           - name: 外部リソースのホワイトリスト化
             href: ../on-premises/external-references-for-whitelisting.md
+    - name: App Builder におけるアカウントの非アクティブとデータ保持ポリシー
+      href: ../account-inactivity-and-data-retention-policy.md
 - name: デザインシ ステムとデザインからコード作成までのワークフロー
   href: ../design-to-code-story.md
   updated: false

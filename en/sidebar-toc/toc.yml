@@ -27,6 +27,8 @@
             href: ../on-premises/configuration-flags.md
           - name: Whitelisting External Resources
             href: ../on-premises/external-references-for-whitelisting.md
+    - name: Account Inactivity and Data Retention Policy in App Builder
+      href: ../account-inactivity-and-data-retention-policy.md
 - name: Design System & Design-to-Code Workflow
   href: ../design-to-code-story.md
   updated: false
