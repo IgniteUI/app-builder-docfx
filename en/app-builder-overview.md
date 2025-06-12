@@ -6,41 +6,60 @@ _keywords: App builder, Indigo Design, Infragistics
 
 # App Builder - Overview 
 
-App Builder is a design to code solution, enabling design and development teams to quickly and easily design and build real web applications, using professionally-built components to generate production-ready code for Angular, Blazor, Web Components and React.
 
-Through the [App Builder]({environment:appbuilderBaseUrl}/platform) you are able to build pixel-perfect apps incredibly fast, saving huge amounts of design time and getting apps looking exactly like your design. That is a new generation design tool, where designers use the design system approach and a component library, everything designed is running live, dev ready, with high-quality app code. Speaking of production ready code, everything you design results in production ready Angular repository with all it's components, styles, build setup, etc. So, you do the design and check the instant real-time preview, we'll do the code. Since the App Builder is 100% web based, there is no need to download anything, not heavy IDE's, and no 3rd party dependencies. Everything is on the web, accessible by your whole team on any platform.  
+App Builder is a web-based [design-to-code platform]({environment:appbuilderBaseUrl}/platform) that empowers design and development teams to rapidly build real, production-ready web applications using professionally built components for Angular, Blazor, React, and Web Components. With built-in support for design systems, pixel-perfect layouts, and instant real-time previews, teams can skip redundant handoffs and generate high-quality, dev-ready code directly from their designs - no installations, heavy IDEs, or third-party dependencies needed.
 
-Starting your app building experience is fast and easy with one of our pre-built app templates or use one of our preset layout options to build your app in no time. Just tweak our app design, swap a theme and your done! Use pre-configured themes and typography, or customize them to match your own app theme and corporate branding on a per-control, per-screen or per-app basis. Start you new app in the App Builder, build it faster than ever, iterate with new features and get the production-ready code! 
-
-## Prerequisites
-
-1. Install NodeJS.
-2. Install Visual Studio Code.
-
-<div>
-    <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="./images/general/nodejs.svg"
-           style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
-      <a target="_blank" href="https://nodejs.org/en/download/" class="no-external-icon"
-         style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
-        DOWNLOAD NODE
-      </a>
-    </div>
-    <div style="display:inline-block;width:45%;text-align:center;">
-      <img src="./images/general/vs-code.svg"
-           style="display:flex;max-height:100px;margin:auto auto 20px auto;" />
-      <a target="_blank" href="https://code.visualstudio.com/download" class="no-external-icon"
-         style="color:white;background-color:#09f;text-decoration:none;font-weight:700;font-size:16px;padding: 5px 15px 5px 15px;">
-        DOWNLOAD VS CODE
-      </a>
-    </div>
-</div>
-<div class="divider--half"></div>
+You can kick off your app with pre-built templates or layout presets, then quickly customize the design, theme, and branding to fit your needs. Whether you're designing screens from scratch or modifying existing templates, App Builder streamlines the process—helping you go from concept to live code in minutes, ready to deploy or extend in your favorite development environment.
 
 > [!NOTE]
 > Supported browsers are Chrome, Edge (Chromium), Firefox, Safari MacOS and Mobile Safari. IE11 is not supported.
+
+## The App Builder Lifecycle at a Glance
+
+| **Stage**                                 | **What Happens**                                                                                                            |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **1. Design Foundation**                  | Start from a Design System (e.g., Indigo.Design). Use Figma UI Kits and Adapters to bridge design to dev.                   |
+| **2. Visual App Building**                | Drag-and-drop components in App Builder. Create layouts, bind REST APIs, use Reveal dashboards, or plug in Slingshot Tasks. |
+| **3. Unified Common App Model**           | All inputs (designs, logic, data bindings) are transformed into a central Common App Model.                                 |
+| **4. Framework-Specific Code Generation** | The model powers Codegen for Angular, React, Web Components, and Blazor.                                                    |
+| **5. One-Click Deployment**               | Export the code to GitHub or deploy it instantly to Azure.                                                                  |
+
+## Why It Matters?
+
+- **Design-to-Code Continuity**: No more manual translation from Figma to dev. Maintain design fidelity and reduce rework.
+- **Low-Code Speed, Full-Code Control**: Get production-quality code you can extend, audit, or fully own.
+- **Reusable Architecture**: Build once with a Common App Model and generate for multiple frameworks.
+- **Enterprise-Ready**: Connect to real data, integrate dashboards, and manage workflows with extensibility in mind.
+
+## Who Should Use It?
+- Developers looking to speed up prototyping or production development.
+- Designers who want to hand off production-ready UI definitions.
+- Team Leads & CTOs needing scalable, consistent frontend architectures.
+- Cross-functional teams building internal tools, dashboards, or customer-facing apps.
+## Key Benefits and Impact
+
+| Benefit                          | Impact                                                               |
+| ----------------------------------- | ----------------------------------------------------------------------- |
+| Unified workflow from Figma to Code | Save 30–50% dev time on frontends                                       |
+| One Common App Model                | Maintain consistency across teams & tools                               |
+| Live integrations & data support    | Deliver real-world, functional apps                                     |
+| Flexible output formats             | Future-proof your stack with Angular, React, Web Components, and Blazor |
+| One-click deployment options        | Reduce DevOps complexity & time-to-market                               |
+
+## Use Cases
+
+- Internal dashboards & admin tools
+- Client portals with dynamic data
+- MVPs & prototypes with real functionality
+- Design system-driven applications
+
+## Try It Yourself
+Start from a [Figma file](ui-kits/figma.md), connect to your REST API, and [generate a fully working](https://my.appbuilder.dev/) Angular or React app in less than 10 minutes.
 
 ## Additional Resources
 <div class="divider--half"></div>
 
 * [Getting Started](getting-started.md)
+* [App Builder Interface Overview](interface-overview.md)
+* [Design to Code Story](design-to-code-story.md)
+* [App Builder SDK](sdk/sdk.md)
