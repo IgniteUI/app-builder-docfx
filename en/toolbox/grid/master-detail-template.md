@@ -4,8 +4,6 @@
 
 Master-detail template allow you to enrich your data grids by expanding rows to display additional information about a record. This feature helps you build interactive views where users can click to reveal related summaries, or any other components tied to that specific row context data.
 
-For example, you can show an **employee's performance info**, a **vehicle's trip history**, or a **customer’s recent orders** directly within the row, making your applications more informative and engaging.
-
 ## What Can You Do with It?
 
 With **App Builder’s Master-Detail template support**, you can:
@@ -18,6 +16,7 @@ With **App Builder’s Master-Detail template support**, you can:
 * App Builder offers a **design-time experience** for inserting components inside the row detail area.
 * Components inside this area can be bound to:
   * The current **row’s data context**.
+  * Other data sources and Variables context.
 * You can easily preview how these template will appear directly inside the App Builder Canvas and App Preview.
 
 ## Try It Out
