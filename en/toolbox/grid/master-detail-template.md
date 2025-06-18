@@ -2,7 +2,7 @@
 
 ## What Is Master-Detail Template?
 
-Master-detail template allow you to enrich your data grids by expanding rows to display additional information about a record. This feature helps you build interactive views where users can click to reveal related summaries, or any other components tied to that specific row data.
+Master-detail template allow you to enrich your data grids by expanding rows to display additional information about a record. This feature helps you build interactive views where users can click to reveal related summaries, or any other components tied to that specific row context data.
 
 For example, you can show an **employee's performance info**, a **vehicle's trip history**, or a **customer’s recent orders** directly within the row, making your applications more informative and engaging.
 
@@ -10,9 +10,8 @@ For example, you can show an **employee's performance info**, a **vehicle's trip
 
 With **App Builder’s Master-Detail template support**, you can:
 
-* Create **expandable rows** that reveal additional data on demand.
-* Add **cards, and text blocks** that use row-specific data.
-* Reproduce rich UX patterns like those in our [Fleet Management example](https://www.infragistics.com/products/ignite-ui-angular/grid-samples).
+* Use **expandable rows** that reveal additional row data.
+* Leverage Component binding support - Add **cards, text blocks or other components** that can use row-specific data.
 
 ## How It Works in App Builder
 
@@ -32,6 +31,20 @@ To start using Master-Detail template:
 5. Preview your app and export your code to extend the functionality even further.
 
 ## Known Limitations
+### Contextual binding, Row ID Parameters Not Supported
+
+When using a component within a Master-Detail template, **contextual binding using the current row’s ID as a parameter is not supported**. If the component’s data source requires parameters, these must not be bound to the master-detail (row) context. Instead, use manual values or predefined variables. This restriction helps avoid unsupported code generation scenarios involving per-row parameter binding.
+
+> [!NOTE]
+> This limitation applies only to data source parameters and iterated element data bindings. Other parameter picker components—such as those in the Set Data action sections for component interactions—are not affected and remain fully supported.
+
+This restriction helps avoid:
+- Ambiguity around dynamic subscriptions.
+- Performance bottlenecks due to lack of caching.
+
+### Iterating over data collection from the contextual binding is not implemented in CodeGen
+
+Iterating over data collection from the contextual binding is not implemented in CodeGen. Such scenario fails to codegenerate.
 
 ### Overlay Components (e.g., Dialog, Banner)
 
