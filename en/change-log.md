@@ -6,7 +6,14 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 27th of May, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 25th of June, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+## June 2025 Release
+### Features
+- Added **Spanish language support**.
+- Introduced additional variants for **Icon button** — contained, outlined, and flat.
+- Enabled **Conditional Actions** for Data Actions, allowing forms and grids to perform different logic based on action outcomes.
+- Introduced **Grid Master-Detail** Template.
 
 ## May 2025 Release
 ### Features
