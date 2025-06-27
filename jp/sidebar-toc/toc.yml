@@ -51,6 +51,8 @@
           href: ../using-data-in-your-app/grid-remote-paging.md
         - name: Grid CRUD
           href: ../using-data-in-your-app/crud-operations.md
+        - name: マスター詳細テンプレート
+          href: ../toolbox/grid/master-detail-template.md
       - name: Form Builder
         href: ../using-data-in-your-app/form-builder.md
       - name: Query Builder
