@@ -6,14 +6,34 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 25th of June, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 28th of August, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+# August 2025 Release
+## Features
+- Added **ApexCharts** to the component toolbox.
+- **Pivot Grid** now auto-generates dimensions and values from data fields for a ready-to-use pivot view.
+- Added **Selected List Item** support, applying selected styling and storing the chosen value for later use.
+- Added **Empty Grid Template** and **Loading Indicator Template**.
 
 ## June 2025 Release
-### Features
-- Added **Spanish language support**.
-- Introduced additional variants for **Icon button** — contained, outlined, and flat.
+## Features
 - Enabled **Conditional Actions** for Data Actions, allowing forms and grids to perform different logic based on action outcomes.
 - Introduced **Grid Master-Detail** Template.
+- Added **Spanish language support**.
+- Added **Child-level Routing** support using the Views Container within nested routes for richer navigation.
+
+## Improvements
+- **Form and Input Validation** enhancements
+- Introduced additional variants for **Icon button** — contained, outlined, and flat.
+
+## AI Features on [Preview](https://preview.appbuilder.dev/)
+- **Pinned Chat History** – Pin/unpin chats to easily revisit key sessions.
+- **Contextual Editing** – Click a UI element to edit it directly via AI chat.
+- **Component Indicator** – See which UI element is selected below the chat.
+- **Canvas Loading Feedback** – New indicator shows when prompts are processing.
+- **AI on Home Page** – Explore prompt cards and a personalized prompt gallery.
+- **Prompt Gallery Improvements** – Filter and find useful prompts faster.
+- **Image Upload Support** – Upload images via icon, drag & drop, or paste.
 
 ## May 2025 Release
 ### Features
