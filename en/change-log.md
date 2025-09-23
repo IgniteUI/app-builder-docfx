@@ -6,7 +6,11 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 28th of August, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 23th of September, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+## September 2025 Release
+### Features
+- **Conditional Logic for General Actions** now enables nested If-Else, multi-branch conditions, conditional deletes with prompts, and dynamic parameter passing for more flexible data action flows.
 
 ## August 2025 Release
 ### Features

@@ -51,6 +51,9 @@ Overlay elements like **Dialogs** or **Banners**, placed inside master-detail te
 
 While these components may appear functional in the App Builder preview, they **do not retain the row data context** in the generated application. For example, a dialog meant to show details like `EmployeeId` will not have access to that value at local runtime.
 
+### Working with Conditional Actions
+Binding a parameter or comparison value in a Conditional Action to the Template context is not yet supported. At this time, only component properties and SetVariable support binding to the Template context.
+
 ## Resources
 
 * [Fleet Management Sample (GitHub)](https://www.infragistics.com/products/ignite-ui-angular/grid-samples)
