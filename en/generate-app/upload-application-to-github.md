@@ -34,7 +34,7 @@ Once you log in with your GitHub account, you should authorize Indigo.Design to 
 When the upload process is done, users can apply changes to the GitHub repo from inside the App Builder or click to "View it on GitHub" and see the updated files in GitHub.
 
 <img class="box-shadow" src="../images/App-VSCode-Indigo-Design-App-Builder2.PNG" srcset="../images/App-VSCode-Indigo-Design-App-Builder2.png 2x" />
-<p style="text-align:center;">An application running in VSCode</p>
+<p style="text-align:center;">An application running in VS Code</p>
 
 ## GitHub integration features
 

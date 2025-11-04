@@ -14,13 +14,13 @@ App Builder のフォーム ビルダー機能を使用すると、開発者は�
 - `POST` および `PUT` メソッドは、データ送信用の入力フィールドを作成します。
 - `OnSuccess` や `OnError` インタラクションなどの基本的なイベント処理は自動的に構成されます。
 
-<img class="box-shadow" src="../images/using-data-in-your-app/automatinc-form-creation.gif" />
+<img class="box-shadow" src="../images/using-data-in-your-app/automatic-form-creation.gif" />
 <p style="text-align:center;">自動フォーム作成</p>
 
 ### フォーム コントロールの自動作成とマッピング
 フォーム コントロールは、各フィールドのデータ タイプとメタデータに基づいて作成され、直感的な入力とラベルが確保されます (例: 日付フィールドでは**日付ピッカー**が使用され、ブール型フィールドでは**スイッチ**が使用されます)。開発者は、プロパティ パネルでコンポーネントを変更したり、検証を追加したり、ラベルを直接調整したりするための完全な制御を保持します。
 
-<img class="box-shadow" src="../images/using-data-in-your-app/automatinc-form-controls.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/automatic-form-controls.png" />
 <p style="text-align:center;">フォーム コントロールの自動作成</p>
 
 ### フォームの変更

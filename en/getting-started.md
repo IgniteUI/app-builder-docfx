@@ -35,11 +35,11 @@ The diagram below gives you a high-level overview of how App Builder fits into t
 To access App Builder, navigate to [https://appbuilder.dev](https://appbuilder.dev) and sign in. Alternatively, you can launch App builder directly by visiting [https://my.appbuilder.dev](https://my.appbuilder.dev). You will need an active trial or paid subscription to create and edit apps.
 
 ## Create new app
-There are thee ways in which you can create a new app from the "Create new application" dilaog:
+There are three ways in which you can create a new app from the "Create new application" dialog:
 
 1. **Sample apps** - the getting started apps will help you explore applications that have been created using the App Builder and also allow you to modify them in your own user space. They are also a good source for you to preview generated code for a larger application without having to create your own app from scratch. If you use the App Builder for first time, we recommend to use the sample app option as a starting point. This is the quickest way to onboard yourself with the awesome features of the tool and to start building your application.
-2. **App layouts** - start a new app from scratch, benefiting from a predefined layouts. You will also find the the option to create an app based on a blank template from here.
-4. **Import design** - if you have an existing design file, created using the Indigo.Design UI kit for Figma or Sketch, you can use this as a starting point for your apps. To do this, get our Indigo.Design system, which includes plugins to publish your design, UI kits, and sample design files.
+2. **App layouts** - start a new app from scratch, benefiting from predefined layouts. You will also find the option to create an app based on a blank template from here.
+3. **Import design** - if you have an existing design file, created using the Indigo.Design UI kit for Figma or Sketch, you can use this as a starting point for your apps. To do this, get our Indigo.Design system, which includes plugins to publish your design, UI kits, and sample design files.
 
 <br>
 
@@ -50,7 +50,7 @@ There are thee ways in which you can create a new app from the "Create new appli
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">New project dialog</p>
 
-Note, that once in the App Builder, users are enabled to easily switch between their active applications or go back to their workspace in App Builder from the in-app side menu at design time without leaving the App Builder.
+Note that once in the App Builder, users are enabled to easily switch between their active applications or go back to their workspace in App Builder from the in-app side menu at design time without leaving the App Builder.
 
 <img src="./images/Indigo-Design-side-menu.png" srcset="./images/Indigo-Design-side-menu-@2x.png 2x" />
 <p style="text-align:center;">Side menu</p>
@@ -63,7 +63,7 @@ The App Builder always displays a live-running web application both on the desig
 
 
 <img src="./images/App-VSCode-Indigo-Design-App-Builder.png" srcset="./images/App-VSCode-Indigo-Design-App-Builder@2x.png 2x" />
-<p style="text-align:center;">Code of a generated application and then run in VScode</p>
+<p style="text-align:center;">Code of a generated application run in VS Code</p>
 
 
 > [!NOTE]

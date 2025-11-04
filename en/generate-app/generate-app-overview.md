@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Generate App
 
 > [!NOTE]
-><b>The applications, designed in Ignite UI App Builder can be downloaded or directly uploaded to a GitHub repository. 
+> The applications designed in Ignite UI App Builder can be downloaded or directly uploaded to a GitHub repository. 
 
 <section class="video-container">
     <div>
@@ -19,7 +19,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 App Builder with Angular code generation has been in the market for a few months now, but with .NET 6 release we launched the Blazor Code Generation and as of today we do support Web Components code generation as well.
 
-With the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons. Choose the `Blazor Server`/`Blazor Web Assembly` option to generate code for Blazor, or `Angular` to see a preview of the generated app and code. `Web Components` option is also available.
+With the Platform picker dropdown, located in the navigation bar just next to the `Publish to Github` and `Preview` action buttons, choose the `Blazor Server`/`Blazor Web Assembly` option to generate code for Blazor, or `Angular` to see a preview of the generated app and code. The `Web Components` option is also available.
 
 <img class="box-shadow" src="../images/generate-code.PNG" />
 <p style="text-align:center;">Pick platform for code generation</p>
