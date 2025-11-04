@@ -31,7 +31,7 @@ If you share **app preview link** from your personal workspace with a **signed-i
 > Mock data will always be used for non-workspace member
 
 #### Edit link
-If you share **app edit link** from your personal workspace with a **signed-in user**, the latter wont have access to edit and will receive _You don't have access to edit_ message.
+If you share **app edit link** from your personal workspace with a **signed-in user**, the latter won't have access to edit and will receive _You don't have access to edit_ message.
 
 <img class="box-shadow" src="./images/share-edit-and-preview/app-from-personal-workspace-signed-in-edit-link.PNG" />
 <p style="width: 100%; text-align:center;">You don't have access to edit</p>

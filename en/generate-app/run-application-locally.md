@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Run Application Locally
 
 ### Run the app locally
-To finally develop the app, you don't need to copy and paste code. Instead, use the generate app button in the toolbar. This quickly creates a package with your Angular or Blazor application (depend on what framework is selected in the Platform picker dropdown) that can be downloaded. To run this app, open up the folder in an IDE like Visual Studio Code. 
+To finally develop the app, you don't need to copy and paste code. Instead, use the generate app button in the toolbar. This quickly creates a package with your Angular or Blazor application (depending on what framework is selected in the Platform picker dropdown) that can be downloaded. To run this app, open up the folder in an IDE like Visual Studio Code. 
 
 * Make sure you have Node.js installed. <br>
 * Then in the console, type `npm install` to install the dependencies. It may take a while to install all the necessary packages. <be>
@@ -16,9 +16,9 @@ To finally develop the app, you don't need to copy and paste code. Instead, use 
 ><b>The application files can be downloaded as a package and then run in your preferred IDE.
 
 <img src="../images/App-VSCode-Indigo-Design-App-Builder2.PNG" srcset="../images/App-VSCode-Indigo-Design-App-Builder @2x.png 2x" />
-<p style="text-align:center;">An application running in VSCode</p>
+<p style="text-align:center;">An application running in VS Code</p>
 
-The App Builder allows you to design your applications visually using professional grade Ignite UI components, and then you are able to generate the as Angular or Blazor application applications that you can continue developing in your IDE of choice. In the end, you are guaranteed that what you designed in the App Builder design surface looks exactly the same when the app is generated and built. Don't forget to share your feedback using the feedback button. We look forward to hearing about your experience and also about what features are valuable to you as we move forwards to our next release milestones. 
+The App Builder allows you to design your applications visually using professional grade Ignite UI components, and then you are able to generate them as Angular or Blazor applications that you can continue developing in your IDE of choice. In the end, you are guaranteed that what you designed in the App Builder design surface looks exactly the same when the app is generated and built. Don't forget to share your feedback using the feedback button. We look forward to hearing about your experience and also about what features are valuable to you as we move forward to our next release milestones. 
 
 
 ## Additional Resources

@@ -23,7 +23,7 @@ The generative AI-powered view generation in App Builder provides a powerful alt
 **Step 3**: Apply an action using the plus button in the Preview section:
 - **Add Content** – Appends the content to the end of the current view.
 - **Create New View** – Adds the newly generated content to a separate View page.
-- **Replace Content** – Replaces the selected component in the current view with the generated output. Simply select a section/layout/component that you want to transform into something else, and open the GenAI Dialog agan, place your prompt and click on the Add button -> Replace Content option.
+- **Replace Content** – Replaces the selected component in the current view with the generated output. Simply select a section/layout/component that you want to transform into something else, and open the GenAI Dialog again, place your prompt and click on the Add button -> Replace Content option.
 
 **Example of replacing an element with an input of type "search," specifying a placeholder value and a width of 200px:**
 
@@ -147,7 +147,7 @@ And here is the App Preview:
 ### Useful Patterns for More Precise Results
 
 > [!NOTE]
-> Consider these patterns as recomendations, you can always use the regular prompt descriptions phrasing.
+> Consider these patterns as recommendations; you can always use regular prompt descriptions phrasing.
 
 #### Pattern 1: Combined Layout and Component Prompts
 For more structured outputs that combine layout and detailed component configurations, users can specify an overall screen design with multiple sections. For instance:
@@ -164,7 +164,7 @@ row layout
 			switch: remember me
 			button: login
 			row layout
-				text: Dont have an account?
+				text: Don't have an account?
 				link: sign up
 	image
 ```

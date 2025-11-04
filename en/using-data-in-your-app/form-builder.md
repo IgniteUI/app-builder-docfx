@@ -9,17 +9,17 @@ App Builder’s Form Builder functionality enables developers to design HTML for
 
 ## Key Features of Form Builder
 ### Automatic Form generation from data endpoints
-When a developer drags a data endpoint onto the design surface, a set of form components is automatically generated based on the endpoint’s properties.
+When a developer drags a data endpoint onto the design surface, a set of form components is automatically generated based on the endpoint's properties.
 - `POST` and `PUT` methods create input fields for data submission.
 - Basic event handling, like `OnSuccess` and `OnError` interactions, is automatically configured.
 
-<img class="box-shadow" src="../images/using-data-in-your-app/automatinc-form-creation.gif" />
+<img class="box-shadow" src="../images/using-data-in-your-app/automatic-form-creation.gif" />
 <p style="text-align:center;">Automatic Form creation</p>
 
 ### Automatic Form controls creation and mapping
-Form controls are created based on each field’s data type and metadata, ensuring intuitive inputs and labels (e.g., date fields use *date pickers*, boolean fields use *switches*). Developers retain full control to modify components, add validations, or adjust labels directly in the properties panel.
+Form controls are created based on each field's data type and metadata, ensuring intuitive inputs and labels (e.g., date fields use *date pickers*, boolean fields use *switches*). Developers retain full control to modify components, add validations, or adjust labels directly in the properties panel.
 
-<img class="box-shadow" src="../images/using-data-in-your-app/automatinc-form-controls.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/automatic-form-controls.png" />
 <p style="text-align:center;">Automatic Form control creation</p>
 
 ### Form modification
@@ -36,7 +36,7 @@ In App Builder’s Preview mode, users can interact with forms to see:
 - Form submission, with notifications indicating success or validation errors.
 
 <img class="box-shadow" src="../images/using-data-in-your-app/setting-up-variables-and-form-initial-state.gif" />
-<p style="text-align:center;">Setting up variables and Form initial state</p>
+<p style="text-align:center;">Setting up variables and form initial state</p>
 
 
 > [!NOTE]
@@ -96,7 +96,7 @@ The following known issues and limitations apply to the initial release of Form 
     - **`igx-hint` Element in Preview**: The `igx-hint` element is currently excluded from preview as it is not generated in the final code. Future updates may add support for message display functionality.
     - **Calendar** not showing in generated app when in a form.
     - **Reset button click behavior** - it clears the form for React-generated projects. Instead of reverting to initial values, the form controls get empty values.
-    - **Disabled property** will not be rendered for input in an angular generated form. 
+    - **Disabled property** will not be rendered for input in an Angular-generated form. 
 
 ## Additional Resources
 

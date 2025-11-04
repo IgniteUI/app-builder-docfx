@@ -1,6 +1,6 @@
 ---
 title: App Builder - Design-to-Code
-_description: App Builder enables import your Sketch, Adobe XD and Figma designed files
+_description: App Builder enables you to import your Sketch, Adobe XD and Figma designed files
 _keywords: App Builder, Web App Builder, Figma design, Sketch import
 ---
 
@@ -55,8 +55,8 @@ Below are the 4 simple steps to get from Design to Code with the App Builder wit
 
 The plugin will help you to publish your designs into App Builder. You can download it by following these steps:
 1. Open App Builder
-2. Click on "Crete new application"
-3. Click on "Get assets for.."
+2. Click on "Create new application"
+3. Click on "Get assets for..."
 
 <img class="box-shadow" src="./images/assets-download.PNG" />
 <p style="width: 100%; text-align:center;">Available assets</p>

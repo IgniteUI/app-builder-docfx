@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log 
 
 > [!NOTE]
-> Latest update was made on 23th of September, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 23rd of September, 2025. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
 
 ## September 2025 Release
 ### Features
@@ -404,7 +404,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 ### IMPROVEMENTS
 - **Sketch UI Kit Improved Theming Support** - The light/dark mode toggle that changes the surface color now affects how gray colors are set up - as a derivative of black or white.
-- **UI Kits Version Check updates** - Now matching `<major>.<minor>` for consistency between parser dll and symbol. `<patch>` will be ignored and wont throw an error if the symbol version is higher than the parser version (#13942)
+- **UI Kits Version Check updates** - Now matching `<major>.<minor>` for consistency between parser dll and symbol. `<patch>` will be ignored and won't throw an error if the symbol version is higher than the parser version (#13942)
 
 ### MAINTENANCE UPDATES & BUG FIXES
 **Including, but not limited to:**
