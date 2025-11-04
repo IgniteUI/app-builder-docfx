@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Interactions
 
 > [!NOTE]
-><b>The Interactions feature of the App Builder enables users to define particular interactions between views and components, such as Navigate to another view, Show or Hide and Open or Close an app component.
+> The Interactions feature of the App Builder enables users to define particular interactions between views and components, such as Navigate to another view, Show or Hide and Open or Close an app component.
 
 
 
@@ -37,7 +37,7 @@ In order to add an interaction, first select the component that will trigger the
 ![navigate-to-interaction](./images/navigate-to-interaction.gif)
 <p style="text-align:center;">"Navigate to" interaction</p>
 
-See [Navigation with Route parameters](guide-to-variables-in-app-builder/route-parameters-navigation.md) for details how to create enhanced navigation including parameters in the navigatin route.
+See [Navigation with Route parameters](guide-to-variables-in-app-builder/route-parameters-navigation.md) for details on how to create enhanced navigation including parameters in the navigation route.
 
 ## Open/Close interaction
 The Open/Close interaction targets only overlay components, such as Dialog. This means that in order to use it, initially a triggering component, e.g. a button and then an overlay component, e.g. a Dialog, have to be added in the design area. Using the button and dialog example, next step is to select the button, go to Interactions panel and select Open/Close interaction. Once the trigger and the overlay are available, the Open/Close interaction is unlocked and the user can pick the Dialog to be opened upon selection of the button. 
@@ -45,7 +45,7 @@ The Open/Close interaction targets only overlay components, such as Dialog. This
 ![open-close-interaction](./images/open-close-interaction.gif)
 <p style="text-align:center;">"Open/Close" interaction</p>
 
-Note that once a Dialog component is added, an overlay notification will be appear next to the name of the active view in the design area. By clicking on the the overlay, just pick up one of the available overlays and it will be actived. Then, it can be edited according to your application scenario. 
+Note that once a Dialog component is added, an overlay notification will appear next to the name of the active view in the design area. By clicking on the overlay, just pick one of the available overlays and it will be activated. Then, it can be edited according to your application scenario. 
 
 
 ## Show/Hide 
