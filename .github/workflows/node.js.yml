@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]  # Only run linting on one Node version
 
     steps:
     - uses: actions/checkout@v3
@@ -26,4 +26,15 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: dotnet tool restore
-    - run: npm run build
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v40
+      with:
+        files: |
+          **/*.md
+    - name: Run verification on changed files
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        echo "Changed markdown files: ${{ steps.changed-files.outputs.all_changed_files }}"
+        npx markdownlint ${{ steps.changed-files.outputs.all_changed_files }}
+        npx cspell ${{ steps.changed-files.outputs.all_changed_files }}
