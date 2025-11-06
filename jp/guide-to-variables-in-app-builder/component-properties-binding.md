@@ -48,6 +48,7 @@ App Builder でコンポーネント プロパティにバインドするには�
 - **ローカル変数**: 同じビューのコンポーネント内でデータ交換を処理します。
 
 ## 重要ポイント
+
 App Builder コンポーネント バインドの本質は何ですか?
 
 - **柔軟性の向上**: App Builder の変数を使用すると、より柔軟で効率的なデータ バインドが可能になり、データ リピーターの必要性が減ります。
@@ -59,10 +60,10 @@ App Builder コンポーネント バインドの本質は何ですか?
 
 <div class="divider--half"></div>
 
-* [変数の管理](variables-management.md)
-* [URL パラメーターのバインド](url-parameters-binding.md)
-* [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
-* [イベントとアクションの操作](working-with-events-and-actions.md)
-* [マスター/詳細の概念](../master-detail/master-detail.md)
-* [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [変数の管理](variables-management.md)
+- [URL パラメーターのバインド](url-parameters-binding.md)
+- [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
+- [イベントとアクションの操作](working-with-events-and-actions.md)
+- [マスター/詳細の概念](../master-detail/master-detail.md)
+- [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)

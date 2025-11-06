@@ -25,6 +25,7 @@ For primitive types, you can set a Default value using a value editor. For Array
 ## How to Create a Variable?
 
 ### Interactions Section
+
 Manage your variables through the Interactions section, associated with the specific component event that will utilize the Variable.
 
 For instance, if you add a Combo bound to the Financial -> Box Office Revenue table and add a Selection Changed event handler with a Set Variable Action, you can select the Variable field and use the “+ new variable” button.
@@ -58,7 +59,7 @@ Here, you can create and edit variables. A validation process assists with the n
 
 Below, more details on utilizing Variables are provided.
 
-## Initialize Data from an Endpoint 
+## Initialize Data from an Endpoint
 
 Store data in a Variable and use it in the data context for any component. The Variable type is automatically determined based on the selected endpoint's Data Schema.
 
@@ -92,10 +93,10 @@ By mastering these aspects of variable management in App Builder, developers can
 
 <div class="divider--half"></div>
 
-* [Component properties binding](component-properties-binding.md)
-* [URL parameters binding](url-parameters-binding.md)
-* [Navigation with Route parameters](route-parameters-navigation.md)
-* [Working with Events and Actions](working-with-events-and-actions.md)
-* [Master-detail concept](../master-detail/master-detail.md)
-* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
+- [Component properties binding](component-properties-binding.md)
+- [URL parameters binding](url-parameters-binding.md)
+- [Navigation with Route parameters](route-parameters-navigation.md)
+- [Working with Events and Actions](working-with-events-and-actions.md)
+- [Master-detail concept](../master-detail/master-detail.md)
+- [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)

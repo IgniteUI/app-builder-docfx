@@ -7,7 +7,7 @@ _language: ja
 # アプリを生成する
 
 > [!NOTE]
-><b>Ignite UI App Builder でデザインされたアプリケーションは、ダウンロードするか、GitHub リポジトリに直接アップロードできます。 
+><b>Ignite UI App Builder でデザインされたアプリケーションは、ダウンロードするか、GitHub リポジトリに直接アップロードできます。
 
 <section class="video-container">
     <div>
@@ -31,6 +31,7 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 ## ライセンス コードのエクスポート
 
 ### ライセンス ユーザー
+
 **ライセンス ユーザー**の場合、アプリ生成時に [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular) のライセンス版パッケージが使用されます。これは、**アプリケーションのダウンロード**と **GitHub への公開**の両方に適用されます。
 
 アプリケーションを GitHub に公開する際、プロジェクトのビルドと、基本テストを実行する CI を追加します。ライセンス版パッケージを使用するために GitHub CI から必要な NPM_AUTH_TOKEN も公開します。
@@ -39,6 +40,7 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 <p style="text-align:center;">NPM 認証トークン</p>
 
 ### トライアル ユーザー
+
 **トライアル ユーザー**の場合、アプリ生成時に [Ignite UI for Angular](https://jp.infragistics.com/products/ignite-ui-angular)の無料トライアル版パッケージが使用されます。これは、**アプリケーションのダウンロード**と **GitHub への公開**の両方に適用されます。
 
 フル ライセンス パッケージにアップグレードする方法 (プロジェクトが Ignite UI for Angular のトライアル版を使用している場合)、および、ライセンス版の npm フィードを使用するように環境と CI をセットアップする方法については、[ライセンス FAQ とインストール ドキュメント](https://jp.infragistics.com/products/ignite-ui-angular/angular/components/general/ignite-ui-licensing) を参照してください。
@@ -107,9 +109,9 @@ Angular コード生成を備えた App Builder が市場に出てから数か�
 
 <div class="divider--half"></div>
 
-* [Blazor サポート](../blazor-support.md)
-* [アプリケーションを GitHub にアップロードする](upload-application-to-github.md)
-* [アプリケーションをローカルで実行する](run-application-locally.md)
-* [アプリケーション コードのプレビュー](../preview-code.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
+- [Blazor サポート](../blazor-support.md)
+- [アプリケーションを GitHub にアップロードする](upload-application-to-github.md)
+- [アプリケーションをローカルで実行する](run-application-locally.md)
+- [アプリケーション コードのプレビュー](../preview-code.md)
+- [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)

@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # Generate App
 
 > [!NOTE]
-> The applications designed in Ignite UI App Builder can be downloaded or directly uploaded to a GitHub repository. 
+> The applications designed in Ignite UI App Builder can be downloaded or directly uploaded to a GitHub repository.
 
 <section class="video-container">
     <div>
@@ -30,7 +30,8 @@ The design and development user story will be completed once the application is 
 ## Licensed code export
 
 ### Licensed user
-If you are a **licensed user** then the licensed packages of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) will be used, upon app generation. This applies for both _application download_ and _publish to GitHub_. 
+
+If you are a **licensed user** then the licensed packages of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) will be used, upon app generation. This applies for both _application download_ and _publish to GitHub_.
 
 When the application is published to GitHub we add a CI that will build your project and run basic tests. We also publish NPM_AUTH_TOKEN that is required from the GitHub CI, in order to be able to use the licensed package.
 
@@ -38,6 +39,7 @@ When the application is published to GitHub we add a CI that will build your pro
 <p style="text-align:center;">NPM Authentication Token</p>
 
 ### Trial user
+
 If you are a **trial user** then the free trial package of [Ignite UI for Angular](https://www.infragistics.com/products/ignite-ui-angular) will be used, upon app generation. This applies for both _application download_ and _publish to GitHub_.
 
 See the [License FAQ and Installation documentation](https://www.infragistics.com/products/ignite-ui-angular/angular/components/general/ignite-ui-licensing) for information on how to upgrade to the full licensed package, if the project is using a Trial version of Ignite UI for Angular, and how to setup your environment and CI to use our licensed npm feed.
@@ -107,9 +109,9 @@ Currently, the App Builder supports code generation for Angular and Blazor. Belo
 
 <div class="divider--half"></div>
 
-* [Blazor Support](../blazor-support.md)
-* [Upload Application to GitHub](upload-application-to-github.md)
-* [Run Application Locally](run-application-locally.md)
-* [Preview Application Code](../preview-code.md)
-* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [App Builder Components]({environment:appbuilderBaseUrl}/components)
+- [Blazor Support](../blazor-support.md)
+- [Upload Application to GitHub](upload-application-to-github.md)
+- [Run Application Locally](run-application-locally.md)
+- [Preview Application Code](../preview-code.md)
+- [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder Components]({environment:appbuilderBaseUrl}/components)

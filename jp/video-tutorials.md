@@ -8,6 +8,7 @@ _language: ja
 # ビデオ チュートリアル
 
 ## App Builder ビデオ チュートリアル
+
 <section class="video-container">
     <div>
         <div class="video-container__item">

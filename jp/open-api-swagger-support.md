@@ -40,11 +40,13 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 この時点で、Swagger ファイルの URL (json/yaml) を指定するか、定義をアップロードすることができます。読み込まれると、[エンドポイントの設定] が表示されます。
 
 [エンドポイントの設定] ダイアログの左側には、次のものがあります:
+
 - [ベース URL] - その値がファイル定義に存在する場合、自動的に入力できます
-- [認証] - 必要に応じて認証キーを提供します 
+- [認証] - 必要に応じて認証キーを提供します
 - エンドポイント ツリー ビュー - 使用可能なすべてのエンドポイントが、そのタイプ (GET、PUT、POST など) とともにここに読み込まれます
 
 [エンドポイントの設定] ダイアログの右側は、次のものがあります:
+
 - 接続を選択する前に接続をテストするために使用できる [送信] ボタンを使用して URL をリクエストします
 - [認証]、[パラメーター]、[ヘッダー] のタブ要素 - 必要な場合は、そのようにマークされます。
 - 情報メッセージまたは必須フィールドを表示するタブ コンテンツ セクション。画像の例:
@@ -53,6 +55,7 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 <p style="text-align:center;">[エンドポイントの設定] ダイアログ</p>
 
 ## ローカル ネットワーク ソースからのデータ ソースの使用
+
 これで、ローカル ホストまたはプライベート ネットワークにリクエストを送信できます。詳細については、「アプリでデータを使用する」トピックの[プライベート ネットワークの使用セクション](using-data-in-your-app.md#ローカル-ネットワーク-ソースからのデータ-ソースの使用)の部分をご覧ください。
 
 <img class="box-shadow" src="./images/internal-network-data-source.gif" />
@@ -63,12 +66,12 @@ API 仕様は YAML または JSON で記述できます。このフォーマッ�
 
 <div class="divider--half"></div>
 
-* [App Builder コンポーネント](indigo-design-app-builder-components.md)
-* [App Builder インターフェイスの概要 ](interface-overview.md)
-* [単一ページアプリとナビゲーション](single-page-apps-and-navigation.md)
-* [App Builder コンポーネント](indigo-design-app-builder-components.md)
-* [Flex レイアウト](flex-layouts/flex-layouts.md)
-* [Desktop アプリの実行方法](running-desktop-app.md)
-* [アプリを生成する](generate-app/generate-app-overview.md)
-* [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
-* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
+- [App Builder コンポーネント](indigo-design-app-builder-components.md)
+- [App Builder インターフェイスの概要](interface-overview.md)
+- [単一ページアプリとナビゲーション](single-page-apps-and-navigation.md)
+- [App Builder コンポーネント](indigo-design-app-builder-components.md)
+- [Flex レイアウト](flex-layouts/flex-layouts.md)
+- [Desktop アプリの実行方法](running-desktop-app.md)
+- [アプリを生成する](generate-app/generate-app-overview.md)
+- [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+- [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

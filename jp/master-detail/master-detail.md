@@ -7,12 +7,13 @@ _language: ja
 
 # 変数とイベントを備えたマスター/詳細スタイルのアプリ
 
-当初、この機能はマスター/詳細設計インターフェイスの基本に従う予定でした。しかし、それはさらに進化しました。マスター/詳細パターンの本質については誰もがよく知っています。これは、レコードのリストを表示し、ユーザーがレコードを簡単に管理できるようにする方法です。通常、これは 2 つのビューで構成されます。1 つはレコードのマスター リストで、もう 1 つは単一レコードに関する拡張データを表示するために使用されます。 
+当初、この機能はマスター/詳細設計インターフェイスの基本に従う予定でした。しかし、それはさらに進化しました。マスター/詳細パターンの本質については誰もがよく知っています。これは、レコードのリストを表示し、ユーザーがレコードを簡単に管理できるようにする方法です。通常、これは 2 つのビューで構成されます。1 つはレコードのマスター リストで、もう 1 つは単一レコードに関する拡張データを表示するために使用されます。
 
 <img src="../images/state-and-context/1.png" width="100%" srcset="../images/state-and-context/1.png 2x" />
 <p style="text-align:center;">マスター/詳細の例</p>
 
 ## App Builder のマスター/詳細パターンの重要な要素
+
 この新しい機能は、マスター/詳細パターンによって確立される次の主要な要素をカバーします。  
 
 - **プライマリ ペイン**: この領域には、他のアプリ コンポーネントの読み込みを開始する項目またはトリガーのリストが表示されます。
@@ -27,15 +28,19 @@ _language: ja
 App Builder でマスター/詳細シナリオを作成するために、いくつかの機能を統合します。
 
 ## 変数管理のトピック
+
 [変数管理](../guide-to-variables-in-app-builder/variables-management.md)でアプリの可能性を最大限に引き出します。グローバル変数とローカル変数を効果的に管理、活用し、データフローとインタラクティビティを向上させる方法について説明します。
 
 ## コンポーネント プロパティのバインド
+
 [コンポーネント プロパティのバインド](../guide-to-variables-in-app-builder/component-properties-binding.md)を使用して、アプリのデータ バインドとユーザー エクスペリエンスを向上させます。動的でインタラクティブな UI のためにコンポーネントのプロパティをデータにバインドする方法を説明します。
 
 ## URL パラメーターのバインド
+
 [URL パラメーターのバインド](../guide-to-variables-in-app-builder/url-parameters-binding.md)を詳しく調べて、データ フェッチを実行する方法について説明します。アプリケーションで効率的なデータ リクエストとリピーターを実現するための URL パラメーターの使用方法について説明します。
 
 ## イベントとアクションの操作
+
 インタラクティブな UI デザインを実際に体験するには、[「イベントとアクションを操作する」](../guide-to-variables-in-app-builder/working-with-events-and-actions.md)をご覧ください。App Builder でイベントとアクションを利用して、魅力的で動的なユーザー インターフェイスを作成する方法を理解します。
 
 ## 既知の問題と制限
@@ -56,7 +61,8 @@ App Builder でマスター/詳細シナリオを作成するために、いく�
 ## その他のリソース
 
 - [変数の管理](../guide-to-variables-in-app-builder/variables-management.md)
-* [ルート パラメーターを使用したナビゲーション](../guide-to-variables-in-app-builder/route-parameters-navigation.md)
+- [ルート パラメーターを使用したナビゲーション](../guide-to-variables-in-app-builder/route-parameters-navigation.md)
+
 - [コンポーネント プロパティのバインド](../guide-to-variables-in-app-builder/component-properties-binding.md)
 - [URL パラメーターのバインド](../guide-to-variables-in-app-builder/url-parameters-binding.md)
 - [イベントとアクションの操作](../guide-to-variables-in-app-builder/working-with-events-and-actions.md)

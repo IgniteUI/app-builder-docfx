@@ -10,6 +10,7 @@ _language: ja
 ## Query Builder 変数とコンポーネントの概要
 
 App Builder の Query Builder コンポーネントは、次の 2 つの主要な概念に基づいて動作します:
+
 - ツールボックス内の**クエリ変数**と**クエリ ビルダー コンポーネント**。
 
 **クエリ変数**は、現在[プレビュー版環境](https://preview.appbuilder.dev/)の一部としてのみ利用可能であり、データ ソースと対話する特殊な変数であり、API リクエストを通じてデータを動的にフィルター処理することで大規模なデータセットを効率的に処理できるように設計されています。これらのリクエストは、高度な式をパラメーターとして駆動する**サーバー側のフィルタリング**を利用し、大量のデータを処理する際に最適なパフォーマンスを保証します。
@@ -17,12 +18,13 @@ App Builder の Query Builder コンポーネントは、次の 2 つの主要�
 この変数は**クエリ ビルダー コンポーネント**と統合され、動的なデータ管理と UI 駆動型のフィルタリングが可能になります。
 
 クエリ変数の概念は、クエリ ビルダー コンポーネントが使用される 2 つの主な方法をカバーします。
-* **クエリ ビルダー コンポーネント**が、App Builder に統合され、**クエリ変数**エディターとして使用される場合。
-* **クエリ ビルダー コンポーネント**が UI 要素として機能し、ツールボックスからキャンバスに配置された際にエンドユーザーが直接操作できる場合。
+
+- **クエリ ビルダー コンポーネント**が、App Builder に統合され、**クエリ変数**エディターとして使用される場合。
+- **クエリ ビルダー コンポーネント**が UI 要素として機能し、ツールボックスからキャンバスに配置された際にエンドユーザーが直接操作できる場合。
 
 ## ステップバイステップの紹介
 
-## 手順 1. ユーザー ストーリーを定義して実装します:
+## 手順 1. ユーザー ストーリーを定義して実装します
 
 次のユースケースを実現してみましょう。選択したカテゴリに属し、**orderDetails** テーブルで指定された範囲内の数量で注文されたすべての製品を、**products** テーブルから取得します。
 
@@ -40,18 +42,22 @@ AND productId IN (
 )
 ```
 
-1.  **メイン クエリ (Products テーブル)**:
+1. **メイン クエリ (Products テーブル)**:
+
 - **products** テーブルからすべての列 (`*`) を選択します。
 - **categoryId = "Beverages"** の製品をフィルタリングします (Beverages カテゴリの製品のみ)。
-2.  **サブクエリ (OrderDetails テーブル)**:
+
+2. **サブクエリ (OrderDetails テーブル)**:
+
 - 注文された **quantity** が **5 〜 10** (両端を含む) の **orderDetails** から **productId** を取得します。
 - これらの **productId** は、メイン クエリの **IN** 句で使用され、製品をフィルター処理します。
-        
+
 **最終出力:**
 
 結果は、**5 〜 10 個**の数量で注文された**飲料製品**のリストになります。
 
 ## 手順 2. クエリ変数を作成します
+
 クエリ変数を作成しましょう。この変数は、API リクエストを通じてデータを動的にフィルタリングすることで、大規模なデータセットを処理するために使用されます。
 
 1. 新しい変数を作成します。
@@ -74,20 +80,21 @@ AND productId IN (
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/2.png" />
 
 ## 手順 3.クエリ変数を設定します
-    
+
 まず、**[クエリの編集]** パネルを開きます。
-    
+
 **2 つのテーブル**で機能する複雑なクエリを構築します。
+
 - **products** – データが取得されるメイン テーブル。
 - **orderDetails** – 範囲内の数量に基づいて製品をフィルタリングするためにサブクエリで使用されます。
-    
+
 💡 **注:** 値をハードコーディングする代わりに、**各条件を変数にバインド**し、アプリのコンポーネントを通じてユーザーが動的に更新できるようにします。
-    
+
 **選択したカテゴリで製品をフィルタリングします**:
 
 - クエリ条件を設定するために **WHERE 句**の構築を開始します。
 - **Select コンポーネント**で使用される、デフォルト値が **1** の**数値変数**を作成します。
-    
+
 <details>
 <summary>🖼️ カテゴリ フィルターの設定を表示n</summary>
 
@@ -98,11 +105,12 @@ AND productId IN (
 <br/>
 
 指定された範囲内の数量の注文の製品 ID を取得するための**条件を設定**します。
-- デフォルト値が **10** と **15** である 2 つの**数値変数** (quantityGreaterThan、quantityLessThan) を作成します。        
+
+- デフォルト値が **10** と **15** である 2 つの**数値変数** (quantityGreaterThan、quantityLessThan) を作成します。
 - これらは **Input コンポーネント**によって制御されます。
-            
+
 <details>
-<summary>🖼️ 最小数量構成を表示</summary> 
+<summary>🖼️ 最小数量構成を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/4.png" />
 <p style="text-align:center;">最小数量構成を表示</p>
@@ -113,7 +121,7 @@ AND productId IN (
 <br/>
 
 <details>
-<summary>🖼️ 最大数量設定を表示</summary> 
+<summary>🖼️ 最大数量設定を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/5.png" />
 <p style="text-align:center;">最大数量設定を表示</p>
@@ -124,7 +132,7 @@ AND productId IN (
 💡 **注:** ハードコードされた値も使用できますが、このデモでは、**動的フィルタリング**に**変数**を使用します。
 
 ## 手順 4.クエリを適用して保存します
-    
+
 1. **[保存]** をクリックして、**複雑なクエリ変数**の設定を保存します。
 2. **[SEND] ボタン**を使用してクエリの実行をテストします。
 
@@ -134,20 +142,23 @@ AND productId IN (
 <br />
 
 **この時点で、4 つの変数があります。**
+
 - **ComplexQuery** → **サーバー側のフィルタリング**を処理するクエリ変数。
 - **selectedCategory** → **カテゴリ ID** を保持します。
 - **quantityGreaterThan** → **最小数量**を定義します。
 - **quantityLessThan** → **最大数量**を定義します。
 
 ## 手順 5.インタラクティブなコンポーネントを追加します
+
 これらの変数は、サンプル アプリ内の**コンポーネントにバインドされます**。
+
 - カテゴリ選択の **Select コンポーネント**。
 - 数量の範囲を指定するための **2 つの Input コンポーネント**。
 
 **Select コンポーネント**と 2 つの **Input コンポーネント**を追加し、それらを手順 3 で作成した変数にバインドします。
 
 <details>
-<summary>🖼️ コンポーネントの追加を表示</summary> 
+<summary>🖼️ コンポーネントの追加を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/7.png" />
 <p style="text-align:center;">コンポーネントの追加を表示</p>
@@ -160,7 +171,7 @@ AND productId IN (
 **Select コンポーネント**:
 **Select コンポーネント**にフォーカスし、**[Select item]** をクリックします。Northwind データ ソースの **Category テーブル**を使用して、これに**データ リピーター**を適用します。
 <details>
-  <summary>🖼️ データ リピーターの設定を表示</summary> 
+  <summary>🖼️ データ リピーターの設定を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/8.png" />
 <p style="text-align:center;">データ リピーターの設定を表示</p>
@@ -171,7 +182,7 @@ AND productId IN (
 Select item 要素の Content と Value を Category -> Name と CategoryID にバインドします。
 
 <details>
-  <summary>🖼️ Select item のバインディングを表示</summary> 
+  <summary>🖼️ Select item のバインディングを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/9.png" />
 <p style="text-align:center;">Select item のバインディングを表示</p>
@@ -182,7 +193,7 @@ Select item 要素の Content と Value を Category -> Name と CategoryID に�
 Select コンポーネントにフォーカスし、selectedCategory 変数にバインドします。
 
 <details>
-<summary>🖼️ Select コンポーネントのバインディングを表示</summary> 
+<summary>🖼️ Select コンポーネントのバインディングを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/10.png" />
 <p style="text-align:center;">Select コンポーネントのバインディングを表示</p>
@@ -193,7 +204,7 @@ Select コンポーネントにフォーカスし、selectedCategory 変数に�
 quantityGreaterThan の **Input コンポーネント**:
 
 <details>
-<summary>🖼️ 最小数量入力バインディングを表示</summary> 
+<summary>🖼️ 最小数量入力バインディングを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/11.png" />
 <p style="text-align:center;">最小数量入力バインディングを表示</p>
@@ -204,7 +215,7 @@ quantityGreaterThan の **Input コンポーネント**:
 quantityLessThan **Input コンポーネント**:
 
 <details>
-<summary>🖼️ 最大数量入力バインディングを表示</summary> 
+<summary>🖼️ 最大数量入力バインディングを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/12.png" />
 <p style="text-align:center;">最大数量入力バインディングを表示</p>
@@ -216,7 +227,7 @@ quantityLessThan **Input コンポーネント**:
 3. **Grid コンポーネント**を追加し、手順 2 で作成した**クエリ変数**にバインドします。
 
 <details>
-<summary>🖼️ Grid コンポーネントのバインディングを表示</summary> 
+<summary>🖼️ Grid コンポーネントのバインディングを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/13.png" />
 <p style="text-align:center;">Grid コンポーネントのバインディングを表示</p>
@@ -234,7 +245,7 @@ quantityLessThan **Input コンポーネント**:
 これまでのところ、クエリは、**Dairy Products** カテゴリに属し、数量が **5 から 7 の間**で注文された**すべての製品**を返します。
 
 <details>
-<summary>🖼️ 最初のクエリ結果を表示</summary> 
+<summary>🖼️ 最初のクエリ結果を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/15.png" />
 <p style="text-align:center;">最初のクエリ結果を表示</p>
@@ -247,8 +258,9 @@ quantityLessThan **Input コンポーネント**:
 ## 手順 7.グリッド行選択を使用して製品ごとの注文数量を表示
 
 1. **グリッドの行選択変更**インタラクションを追加し、それに**変数**をバインドします。
+
 <details>
-  <summary>🖼️ グリッドの行選択インタラクションを表示</summary> 
+  <summary>🖼️ グリッドの行選択インタラクションを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/16.png" />
 <p style="text-align:center;">グリッドの行選択インタラクションを表示</p>
@@ -257,8 +269,9 @@ quantityLessThan **Input コンポーネント**:
 <br />
 
 2. 変数が **ProductDTO** タイプであることを確認してください。
+
 <details>
-  <summary>🖼️ 変数タイプの設定を表示</summary> 
+  <summary>🖼️ 変数タイプの設定を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/17.png" />
 <p style="text-align:center;">変数タイプの設定を表示</p>
@@ -269,7 +282,7 @@ quantityLessThan **Input コンポーネント**:
 3. 関連データを表示するには、**Dialog** とその中に **Grid** を追加します。
 
 <details>
-  <summary>🖼️ ダイアログとグリッドの設定を表示</summary> 
+  <summary>🖼️ ダイアログとグリッドの設定を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/18.png" />
 <p style="text-align:center;">ダイアログとグリッドの設定を表示</p>
@@ -280,6 +293,7 @@ quantityLessThan **Input コンポーネント**:
 4. 特定のカテゴリ内の製品の **order details** を取得する別の**クエリ変数**を構成します。
 
 **クエリの例:**
+
 ```
 SELECT * 
 FROM orderDetails 
@@ -291,9 +305,10 @@ WHERE productId IN (
 AND Quantity BETWEEN 5 AND 15;
 
 ```
+
 <br />
 
-**結果:** 
+**結果:**
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/19.png" />
 <p style="text-align:center;">orderDetails クエリ結果を表示</p>
@@ -301,7 +316,7 @@ AND Quantity BETWEEN 5 AND 15;
 5. **Grid コンポーネント**を **OrdersComplexQuery 変数**にバインドします。
 
 <details>
-  <summary>🖼️ orderDetails にグリッド バインディングを表示</summary> 
+  <summary>🖼️ orderDetails にグリッド バインディングを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/20.png" />
 <p style="text-align:center;">orderDetails にグリッド バインディングを表示</p>
@@ -314,12 +329,12 @@ AND Quantity BETWEEN 5 AND 15;
 - **[プレビュー]** をクリックします。
 - Input コンポーネントを使用してクエリ結果を動的に調整します。
 - ユース ケースの例:
-    - **Confections** カテゴリーを検索します。
-    - **Quantity を 4 ～ 8 の間**で設定します。
+  - **Confections** カテゴリーを検索します。
+  - **Quantity を 4 ～ 8 の間**で設定します。
 <br />
 
 <details>
-  <summary>🖼️ Confections の例でアプリのプレビューを表示</summary> 
+  <summary>🖼️ Confections の例でアプリのプレビューを表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/21.png" />
 <p style="text-align:center;">Confections の例でアプリのプレビューを表示</p>
@@ -327,11 +342,13 @@ AND Quantity BETWEEN 5 AND 15;
 </details>
 
 ## 手順 9.クエリ ビルダーを使用してリアルタイムでクエリを変更します
+
 この手順では、**クエリをリアルタイムで変更する方法**を示します。**数量範囲内**で注文をフィルタリングする代わりに、特定の**数量以上**になるように変更します。
-1.  **ツールボックス**から **Query Builder コンポーネント**をドラッグアンドドロップします
+
+1. **ツールボックス**から **Query Builder コンポーネント**をドラッグアンドドロップします
 
 <details>
-  <summary>🖼️ Query Builder コンポーネントの追加を表示</summary> 
+  <summary>🖼️ Query Builder コンポーネントの追加を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/22.png" />
 <p style="text-align:center;">Query Builder コンポーネントの追加を表示</p>
@@ -344,7 +361,7 @@ AND Quantity BETWEEN 5 AND 15;
 3. これで、**クエリ コンポーネント**は**クエリ変数**にバインドされ、データ リクエストを動的に処理するようになりました。
 
 <details>
-  <summary>🖼️ Query Builder のバインディング結果を表示</summary> 
+  <summary>🖼️ Query Builder のバインディング結果を表示</summary>
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/23.png" />
 <p style="text-align:center;">Query Builder のバインディング結果を表示</p>
@@ -366,7 +383,7 @@ AND Quantity BETWEEN 5 AND 15;
 
 ## FAQ
 
-1. Query Builder はなぜ OData を使用しないのですか? 
+1. Query Builder はなぜ OData を使用しないのですか?
 OData はサブクエリをサポートしていませんが、Query Builder は**主に条件ツリーを構築します**が、一部の式は OData 互換のフィルターにマップされる場合があります。ただし、OData の制限により、完全なサポートは保証されません。
 
 Query Builder は、**フィルタリング ロジック**を直接制御できるようにすることで柔軟性を高め、OData がネイティブにサポートしていないサブクエリなどの複雑なシナリオをより適切にサポートできるようにします。
@@ -388,18 +405,19 @@ Query Builder は、**フィルタリング ロジック**を直接制御でき�
 - **バインド可能なプロパティ:** 変数バインディングをサポートするのは **「Query」 プロパティ**のみです。
 
 ### サーバー側の大文字と小文字の区別
+
 - 独自のデータ サーバーを実装する場合は、**大文字と小文字を区別するフィールド名**を構成しないことを検討してください。
 
 ## その他のリソース
 
 <div class="divider--half"></div>
 
-* [API プロジェクト向けの Query Builder のサポート](api-project-query-builder-support.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [App Builder インターフェイスの概要](../interface-overview.md)
-* [フォーム ビルダー](form-builder.md)
-* [グリッド リモート ページング](grid-remote-paging.md)
-* [CRUD 操作](crud-operations.md)
-* [リモート データ操作](remote-data-operations.md)
-* [Flex レイアウト](../flex-layouts/flex-layouts.md)
-* [Desktop アプリの実行方法](../running-desktop-app.md)
+- [API プロジェクト向けの Query Builder のサポート](api-project-query-builder-support.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [App Builder インターフェイスの概要](../interface-overview.md)
+- [フォーム ビルダー](form-builder.md)
+- [グリッド リモート ページング](grid-remote-paging.md)
+- [CRUD 操作](crud-operations.md)
+- [リモート データ操作](remote-data-operations.md)
+- [Flex レイアウト](../flex-layouts/flex-layouts.md)
+- [Desktop アプリの実行方法](../running-desktop-app.md)

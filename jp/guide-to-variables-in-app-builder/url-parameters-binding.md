@@ -10,6 +10,7 @@ _language: ja
 App Builder では、データ リクエストやリピーターに URL パラメーターを使用することを含め、高度なデータ操作および表示の技法を実装可能です。この機能は、動的なデータ駆動型アプリケーションを作成するために重要です。
 
 ## データ リクエスト
+
 パスまたはクエリ パラメーターを必要とするデータ エンドポイントを扱う場合、App Builder の URL パラメーター バインド機能がとても有用です。この機能により、アプリケーションは URL で指定されたパラメーターに基づいてデータ要求を行うことができます。たとえば、Customer Orders にバインドされた Grid コンポーネントを考えてみましょう。「CustomerID」 パス パラメーターを使用することにより、グリッドは指定された顧客に関連するデータを動的に取得して表示します。
 
 > [!NOTE]
@@ -26,6 +27,7 @@ App Builder では、データ リクエストやリピーターに URL パラ�
 <p style="text-align:center;">データ リピーター</p>
 
 ## 重要ポイント
+
 App Builder での URL パラメーター バインドにより、動的なデータ駆動型アプリケーションを作成するための無数の可能性が提供されますこの機能を活用することで、ユーザーのナビゲーションや入力に最適に応答するアプリケーションを構築することができ、全体的なユーザー エクスペリエンスと実用レベルのシナリオでのアプリケーションの適用性を向上させることができます。
 
 - **動的なデータ取得**: App Builder の URL パラメーター バインドにより、動的なデータの取得が可能になり、グリッドやツリーなどのコンポーネントが URL パラメーターに基づいてデータを表示できるようになります。
@@ -38,10 +40,10 @@ App Builder での URL パラメーター バインドにより、動的なデ�
 
 <div class="divider--half"></div>
 
-* [変数の管理](variables-management.md)
-* [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
-* [コンポーネント プロパティのバインド](component-properties-binding.md)
-* [イベントとアクションの操作](working-with-events-and-actions.md)
-* [マスター/詳細の概念](../master-detail/master-detail.md)
-* [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [変数の管理](variables-management.md)
+- [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
+- [コンポーネント プロパティのバインド](component-properties-binding.md)
+- [イベントとアクションの操作](working-with-events-and-actions.md)
+- [マスター/詳細の概念](../master-detail/master-detail.md)
+- [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)

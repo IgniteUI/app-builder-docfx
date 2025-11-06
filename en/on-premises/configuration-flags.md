@@ -80,7 +80,7 @@ shellTheme: {
     },
 }
 ```
- 
+
 ### Through a parameter in a docker run command (On-prem context)
 
 ```sh
@@ -88,9 +88,10 @@ docker run --restart always -p 80:5000 -e AuthSettings__ClientId="1234-4657-00"
 ```
 
 ## Additional Resources
+
 <div class="divider--half"></div>
 
-* [Auth with openid connect](auth-with-openid-connect-o-auth.md)
-* [External Resources Whitelisting](external-references-for-whitelisting.md)
-* [On-prem Prerequisites and Installation Overview](../on-prem-prerequisites-and-installation.md)
-* [App Builder Interface Overview](../interface-overview.md)
+- [Auth with openid connect](auth-with-openid-connect-o-auth.md)
+- [External Resources Whitelisting](external-references-for-whitelisting.md)
+- [On-prem Prerequisites and Installation Overview](../on-prem-prerequisites-and-installation.md)
+- [App Builder Interface Overview](../interface-overview.md)

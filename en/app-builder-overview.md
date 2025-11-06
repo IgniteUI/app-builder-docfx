@@ -4,7 +4,7 @@ _description: App Builder is a design to code solution, enabling design and 
 _keywords: App builder, Indigo Design, Infragistics
 ---
 
-# App Builder - Overview 
+# App Builder - Overview
 
 
 App Builder is a web-based [design-to-code platform]({environment:appbuilderBaseUrl}/platform) that empowers design and development teams to rapidly build real, production-ready web applications using professionally built components for Angular, Blazor, React, and Web Components. With built-in support for design systems, pixel-perfect layouts, and instant real-time previews, teams can skip redundant handoffs and generate high-quality, dev-ready code directly from their designs - no installations, heavy IDEs, or third-party dependencies needed.
@@ -32,10 +32,12 @@ You can kick off your app with pre-built templates or layout presets, then quick
 - **Enterprise-Ready**: Connect to real data, integrate dashboards, and manage workflows with extensibility in mind.
 
 ## Who Should Use It?
+
 - Developers looking to speed up prototyping or production development.
 - Designers who want to hand off production-ready UI definitions.
 - Team Leads & CTOs needing scalable, consistent frontend architectures.
 - Cross-functional teams building internal tools, dashboards, or customer-facing apps.
+
 ## Key Benefits and Impact
 
 | Benefit                          | Impact                                                               |
@@ -54,12 +56,14 @@ You can kick off your app with pre-built templates or layout presets, then quick
 - Design system-driven applications
 
 ## Try It Yourself
+
 Start from a [Figma file](ui-kits/figma.md), connect to your REST API, and [generate a fully working](https://my.appbuilder.dev/) Angular or React app in less than 10 minutes.
 
 ## Additional Resources
+
 <div class="divider--half"></div>
 
-* [Getting Started](getting-started.md)
-* [App Builder Interface Overview](interface-overview.md)
-* [Design to Code Story](design-to-code-story.md)
-* [App Builder SDK](sdk/sdk.md)
+- [Getting Started](getting-started.md)
+- [App Builder Interface Overview](interface-overview.md)
+- [Design to Code Story](design-to-code-story.md)
+- [App Builder SDK](sdk/sdk.md)

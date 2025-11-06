@@ -13,18 +13,18 @@ _language: ja
 
 ## App Builder テーマを切り替える
 
-プライベート プレビューには、Material、Fluent、または Bootstrap に基づく 6 つの組み込みテーマが付属しています。それぞれにダーク バージョンとライト バージョンがあります。ツールボックスでテーマ カードを選択すると、試すことができます。 
+プライベート プレビューには、Material、Fluent、または Bootstrap に基づく 6 つの組み込みテーマが付属しています。それぞれにダーク バージョンとライト バージョンがあります。ツールボックスでテーマ カードを選択すると、試すことができます。
 
 ![switching-between-themes-Indigo-Design-App-Builder](../images/switching-between-themes-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">テーマの切り替え</p>
 
-## Material vs. Fluent vs. Bootstrap 
+## Material vs. Fluent vs. Bootstrap
 
-Material から Fluent に切り替えると、コンポーネントの外観が異なることがわかります。たとえば、Material の入力フィールドのフローティング ラベル スタイルは、固定ラベルに切り替わります。また、スイッチも視覚的に異なります。ツールボックスでテーマ カードを選択すると、試すことができます。 
+Material から Fluent に切り替えると、コンポーネントの外観が異なることがわかります。たとえば、Material の入力フィールドのフローティング ラベル スタイルは、固定ラベルに切り替わります。また、スイッチも視覚的に異なります。ツールボックスでテーマ カードを選択すると、試すことができます。
 
-## テーマをカスタマイズして適用する 
+## テーマをカスタマイズして適用する
 
-ブランドに合わせてカスタム テーマを作成できます。これを行うには、新しいテーマを作成し、基本テーマの 1 つを開始点として選択します。カラー パレットは、選択したプライマリ カラーとセカンダリ カラーに基づいて自動的に生成されます。タイポグラフィに関しては、今のところフォントのセットが組み込まれていますが、将来のバージョンではよりクリエイティブなコントロールを追加する予定です。編集が完了したら、テーマを保存して変更を適用します。 
+ブランドに合わせてカスタム テーマを作成できます。これを行うには、新しいテーマを作成し、基本テーマの 1 つを開始点として選択します。カラー パレットは、選択したプライマリ カラーとセカンダリ カラーに基づいて自動的に生成されます。タイポグラフィに関しては、今のところフォントのセットが組み込まれていますが、将来のバージョンではよりクリエイティブなコントロールを追加する予定です。編集が完了したら、テーマを保存して変更を適用します。
 
 ![create-theme-Indigo-Design-App-Builder](../images/create-theme-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">新しいテーマを作成する</p>
@@ -43,8 +43,8 @@ Material から Fluent に切り替えると、コンポーネントの外観が
 
 <div class="divider--half"></div>
 
-* [Flex レイアウト](../flex-layouts/flex-layouts.md)
-* [Ignite UI for Angular テーマ化]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
+- [Flex レイアウト](../flex-layouts/flex-layouts.md)
+- [Ignite UI for Angular テーマ化]({environment:infragisticsBaseUrl}/products/ignite-ui-angular/angular/components/themes/index)
+- [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
 

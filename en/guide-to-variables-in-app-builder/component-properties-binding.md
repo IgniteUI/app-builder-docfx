@@ -47,6 +47,7 @@ Understanding the scope of variables is crucial, Sso here is what we've learned:
 - **Local Variables**: Handle data exchange within the components of the same view.
 
 ## Takeaways
+
 What's the essence of App Builder components binding?
 
 - **Enhanced Flexibility**: Variables in App Builder allow for more flexible and efficient data binding, reducing the need for data repeaters.
@@ -58,10 +59,10 @@ What's the essence of App Builder components binding?
 
 <div class="divider--half"></div>
 
-* [Variables management](variables-management.md)
-* [URL parameters binding](url-parameters-binding.md)
-* [Navigation with Route parameters](route-parameters-navigation.md)
-* [Working with Events and Actions](working-with-events-and-actions.md)
-* [Master-detail concept](../master-detail/master-detail.md)
-* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
+- [Variables management](variables-management.md)
+- [URL parameters binding](url-parameters-binding.md)
+- [Navigation with Route parameters](route-parameters-navigation.md)
+- [Working with Events and Actions](working-with-events-and-actions.md)
+- [Master-detail concept](../master-detail/master-detail.md)
+- [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)

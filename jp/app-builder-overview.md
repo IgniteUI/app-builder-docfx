@@ -5,7 +5,7 @@ _keywords: App builder, Indigo Design, インフラジスティックス
 _language: ja
 ---
 
-# App Builder - 概要 
+# App Builder - 概要
 
 App Builder は、Angular、Blazor、React、Web Components 向けのプロフェッショナルなコンポーネントを使用して、本番対応の Web アプリケーションを迅速に構築できる Web ベースの[デザインからコード作成へのプラットフォーム]({environment:appbuilderBaseUrl}/platform)です。デザイン システム対応、ピクセルパーフェクトなレイアウト、リアルタイム プレビューなどが標準搭載されており、無駄な引き継ぎ作業を省き、デザインから直接高品質な開発用コードを生成できます。インストールや重たい IDE、外部依存は不要です。
 
@@ -32,10 +32,12 @@ App Builder は、Angular、Blazor、React、Web Components 向けのプロフ�
 - **エンタープライズ対応**: リアルデータ接続、ダッシュボード統合、ワークフロー拡張に対応。
 
 ## 利用対象者
+
 - プロトタイピングや本番開発を迅速化したい開発者。
 - 本番対応 UI を引き渡したいデザイナー。
 - スケーラブルで一貫したフロントエンド構成を求めるチーム リーダーや CTO。
 - 社内ツールやダッシュボード、顧客向けアプリを構築するクロスファンクショナル チーム。
+
 ## 主なメリットと影響
 
 | メリット                          | 影響                                                               |
@@ -54,12 +56,14 @@ App Builder は、Angular、Blazor、React、Web Components 向けのプロフ�
 - デザイン システムに基づくアプリケーション
 
 ## 試してみましょう
+
 [Figma ファイル](ui-kits/figma.md)から開始し、REST API に接続して、[10 分以内に完全に機能する](https://my.appbuilder.dev/) Angular または React アプリを生成してみましょう。
 
 ## その他のリソース
+
 <div class="divider--half"></div>
 
-* [作業の開始](getting-started.md)
-* [App Builder インターフェイスの概要](interface-overview.md)
-* [デザインからコード作成へのストーリー](design-to-code-story.md)
-* [App Builder SDK](sdk/sdk.md)
+- [作業の開始](getting-started.md)
+- [App Builder インターフェイスの概要](interface-overview.md)
+- [デザインからコード作成へのストーリー](design-to-code-story.md)
+- [App Builder SDK](sdk/sdk.md)

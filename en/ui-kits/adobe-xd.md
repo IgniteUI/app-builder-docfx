@@ -18,8 +18,8 @@ Crafted from the ground-up to equip designers with a modern and easy-to-use arse
 
 There are a couple pre-requisites to get started:
 
-1. Login to your account or start a free trial of App Builder 
-2. Login to your account or start a free trial of Adobe XD 
+1. Login to your account or start a free trial of App Builder
+2. Login to your account or start a free trial of Adobe XD
 
 Once you have installed Adobe XD, you need to install the Indigo.Design App Builder plugin, which enables design to code.  You can access this from the Stock & Marketplace -> Plugins in the Creative Cloud app, simply search for Indigo.Design.
 
@@ -34,14 +34,15 @@ For more in-depth tutorial how to import your Adobe XD designs into App Builder,
 You can download the Adobe XD Plugin, UI kit and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/adobe-xd).
 
 Or through the direct links below:
+
 - [Adobe XD UI Kit](https://assets.adobe.com/public/c1a672c5-49e6-4df1-4d32-1c37fa234f1e)
-- [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5) 
+- [Plugin for Adobe XD](https://exchange.adobe.com/creativecloud/plugindetails.html/app/cc/92c7dec5)
 - [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_XD.zip)
 
 ## Additional Resources
 
 <div class="divider--half"></div>
 
-* [Design to code story](../design-to-code-story.md)
-* [Figma UI Kit](figma.md)
-* [Sketch UI Kit](sketch.md)
+- [Design to code story](../design-to-code-story.md)
+- [Figma UI Kit](figma.md)
+- [Sketch UI Kit](sketch.md)

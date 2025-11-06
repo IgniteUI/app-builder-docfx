@@ -11,24 +11,25 @@ _keywords: App builder, On-premises, Infragistics
 This topic lists the prerequisites to install the On-premises version of App Builder and is intended for System Administrators who configure operational parameters that maintain and support Linux/Mac OS/Windows.
 
 ### Database Management
+
 Based on your requirements you can decide to use either MySQL or MSSQL Server database management systems.
 
 #### MySQL Installation
 
 1 - Install [MySQL community edition](https://dev.mysql.com/doc/refman/8.0/en/installing.html) ([direct link for windows](https://dev.mysql.com/downloads/installer/))
 
-   - Select:
-      * Developer default, Next and Execute. 
+- Select:
+  - Developer default, Next and Execute.
 
         > Note: if you get a prompt saying "one or more products requirements have not been satisfied. Do you want to continue?" Just select Yes)
-   - After installation ends:
-     * Select next to configure the server, when prompted enter the root password you wish, then Execute.  
-     * After the server configuration ends, select Cancel to exit the installer since the rest of the configuration is not needed.
+- After installation ends:
+  - Select next to configure the server, when prompted enter the root password you wish, then Execute.  
+  - After the server configuration ends, select Cancel to exit the installer since the rest of the configuration is not needed.
 
 2 - Allow container connection to MySQL.
 
-Connect to MySQL with root user and password of step 1 and execute the following sql script (username and pasword will be the ones used from AppBuilder). 
-> Note: you can use [MySQL Workbench tool](https://dev.mysql.com/downloads/workbench/) to execute sql scripts. 
+Connect to MySQL with root user and password of step 1 and execute the following sql script (username and password will be the ones used from AppBuilder).
+> Note: you can use [MySQL Workbench tool](https://dev.mysql.com/downloads/workbench/) to execute sql scripts.
 
 ```
 CREATE USER 'username'@'%' IDENTIFIED BY 'password';
@@ -64,6 +65,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;
 Windows guide -> [docs.microsoft.com guide](https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-10-and-11#tabpanel_1_Windows-10-and-11)
 
 ## Installation
+
 This section assumes that you already have docker and an MySQL database installed.
 
 ### First time installation
@@ -95,7 +97,7 @@ docker images
 docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderMySqlConnection=server=<your-mysql-database-ip>;database=<your-mysql-schema>;user=<your-mysql-database-user>;password=<your-mysql-database-password>;oldguids=false" -v <external-folder-for-logs>:/appbuilder/logs -v <external-folder-for-storage>:/appbuilder/storage --name appbuilder appbuilder:1.0
 ```
 
-- **MySQL example** - This would be the command assuming your MySql instance is running a schema named IndigoAppBuilderOnPrem on 192.168.2.5 with username=appbuilder and password=appbuilder and that you have selected C:/AppBuilder as the external folder to store the logs and storage. 
+- **MySQL example** - This would be the command assuming your MySql instance is running a schema named IndigoAppBuilderOnPrem on 192.168.2.5 with username=appbuilder and password=appbuilder and that you have selected C:/AppBuilder as the external folder to store the logs and storage.
 
 ```
 docker run --restart always -p 80:5000 -e "ConnectionStrings:AppBuilderMySqlConnection=server=192.168.2.5;database=IndigoAppBuilderOnPrem;user=appbuilder;password=appbuilder;oldguids=false" -v C:/AppBuilder/logs:/appbuilder/logs -v C:/AppBuilder/storage:/appbuilder/storage --name appbuilder appbuilder:1.0
@@ -109,7 +111,7 @@ docker run --restart always -p 80:5000 -e "ConnectionStrings:Provider=SqlServer"
 
 6 - Open your browser and type `http://localhost/`
 
-> Note: If you are using Docker Desktop, go to Containers/Apps, find your container and click `Open in browser` 
+> Note: If you are using Docker Desktop, go to Containers/Apps, find your container and click `Open in browser`
 
 <img class="box-shadow" src="./images/docker-apps.png" />
 <p style="margin-top:-20px;text-align:center;">Docker Containers/Apps</p>
@@ -133,7 +135,7 @@ docker images
 | --------:         | --------- | ----------------- | ------------- |-----  |
 | appbuilder        | 1.0       | 27ff4c1079ac      | 43 hours ago  |932MB  |
 | <none>            | <none>    | 2a05977e039b      | 12 days ago   |854MB  |
-        
+
 3 - Stop the container
 
 ```
@@ -150,6 +152,7 @@ docker rm appbuilder
 
 
 ## Activation
+
 This section assumes that you already installed the On-premises instance and it is now up and running.
 
 When the server is first started, a prompt dialog will provide you with _Installation ID_ and a _Authentication key_ will be requested. Send this _Installation ID_ to our [Sales department](https://www.infragistics.com/about-us/contact-us#sales) based on your region and we will provide you with _Authentication key_ to activate the server.
@@ -161,20 +164,23 @@ When the server is first started, a prompt dialog will provide you with _Install
 > Note: You will receive a warning message directly through the UI thirty days before your key expires.
 
 ## Troubleshooting
+
 ### Docker Desktop on Windows
+
 Docker Desktop on Windows is not starting automatically without Login to Windows machine [Docker Desktop on Windows](https://github.com/docker/for-win/issues/6670) - Docker team doesn't recommend Docker Desktop for production workloads. You should use Docker on a Linux box or Docker for Windows Server if you want Windows containers.
 
 ## Additional Resources
+
 <div class="divider--half"></div>
 
-* [On-Prem Authentication with OpenID Connect](on-premises/auth-with-openid-connect-o-auth.md)
-* [App Builder Deployment Configuration Flags](on-premises/configuration-flags.md)
-* [External Resources Whitelisting](on-premises/external-references-for-whitelisting.md)
-* [App Builder Interface Overview](interface-overview.md)
-* [Single Page And Navigation](single-page-apps-and-navigation.md)
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [Flex Layouts](flex-layouts/flex-layouts.md)
-* [Running Desktop App](running-desktop-app.md)
-* [Generate app](generate-app/generate-app-overview.md)
-* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+- [On-Prem Authentication with OpenID Connect](on-premises/auth-with-openid-connect-o-auth.md)
+- [App Builder Deployment Configuration Flags](on-premises/configuration-flags.md)
+- [External Resources Whitelisting](on-premises/external-references-for-whitelisting.md)
+- [App Builder Interface Overview](interface-overview.md)
+- [Single Page And Navigation](single-page-apps-and-navigation.md)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [Flex Layouts](flex-layouts/flex-layouts.md)
+- [Running Desktop App](running-desktop-app.md)
+- [Generate app](generate-app/generate-app-overview.md)
+- [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
 

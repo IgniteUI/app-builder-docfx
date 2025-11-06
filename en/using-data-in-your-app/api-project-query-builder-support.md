@@ -7,6 +7,7 @@ _keywords: App Builder, Query Builder, Query Variable, Data Filtering, Server-si
 # Query Builder Support for API Projects
 
 ## Overview
+
 This guide outlines how to implement a Query Builder Models and Utilities in your API  Project, to enable user-defined queries. The implementation involves creating a controller, defining Query Builder models, and adding utilities for executing and generating SQL statements from these queries. The resulting customization will allow users to construct complex queries with subqueries support, filtering, logical operators, and field selection, executed efficiently against a data source.
 
 The implementation is already part of the [NorthwindAPI REST API](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder) project. Here are the examples for [NorthwindAPI QueryBuilderController](https://github.com/IgniteUI/NorthwindAPI/blob/main/NorthwindCRUD/Controllers/QueryBuilderController.cs) and [NorthwindAPI QueryBuilder Models](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder).
@@ -60,9 +61,9 @@ Create a file named QueryBuilderController.cs in your Controllers directory:
     }
 ```
 
-*   Purpose: Accepts a Query object via POST request and delegates execution to the QueryExecutor.
-*   Dependency Injection: Injects QueryExecutor for processing queries (configure this in your DI container).
-    
+- Purpose: Accepts a Query object via POST request and delegates execution to the QueryExecutor.
+- Dependency Injection: Injects QueryExecutor for processing queries (configure this in your DI container).
+
 For a complete example, see [NorthwindAPI QueryBuilderController](https://github.com/IgniteUI/NorthwindAPI/blob/main/NorthwindCRUD/Controllers/QueryBuilderController.cs).
 
 
@@ -82,9 +83,9 @@ public enum FilterType
 }
 ```
 
-*   And: Combines filters with a logical AND.
-*   Or: Combines filters with a logical OR.
-    
+- And: Combines filters with a logical AND.
+- Or: Combines filters with a logical OR.
+
 
 ### Query Class
 
@@ -100,10 +101,10 @@ public class Query
 }
 ```
 
-*   Entity: The target entity/table being queried (e.g., "Products").
-*   ReturnFields: Fields to include in the result (e.g., ["Name", "Price"] or ["*"] for all).
-*   Operator: Logical operator (And or Or) for combining filters.
-*   FilteringOperands: Array of QueryFilter objects defining conditions.
+- Entity: The target entity/table being queried (e.g., "Products").
+- ReturnFields: Fields to include in the result (e.g., ["Name", "Price"] or ["*"] for all).
+- Operator: Logical operator (And or Or) for combining filters.
+- FilteringOperands: Array of QueryFilter objects defining conditions.
 
 ### QueryFilter Class
 
@@ -124,14 +125,14 @@ public class QueryFilter
 }
 ```
 
-*   FieldName: The field to filter (e.g., "Price").
-*   IgnoreCase: Whether the filter is case-insensitive.
-*   Condition: The comparison type (e.g., "Equals", "GreaterThan").
-*   SearchVal: Value to compare against (e.g., 100).
-*   SearchTree: Nested query for subqueries.
-*   Operator: Logical operator for compound conditions.
-*   FilteringOperands: Array for nested or compound filters.
-    
+- FieldName: The field to filter (e.g., "Price").
+- IgnoreCase: Whether the filter is case-insensitive.
+- Condition: The comparison type (e.g., "Equals", "GreaterThan").
+- SearchVal: Value to compare against (e.g., 100).
+- SearchTree: Nested query for subqueries.
+- Operator: Logical operator for compound conditions.
+- FilteringOperands: Array for nested or compound filters.
+
 ### QueryFilterCondition Class
 
 Defines available filtering conditions.
@@ -145,9 +146,9 @@ public class QueryFilterCondition
 }
 ```
 
-*   Name: Condition identifier (e.g., "Equals", "Contains").
-*   IsUnary: True for single-operand conditions (e.g., "IsNull").
-*   IconName: UI icon identifier (optional).
+- Name: Condition identifier (e.g., "Equals", "Contains").
+- IsUnary: True for single-operand conditions (e.g., "IsNull").
+- IconName: UI icon identifier (optional).
 
 For reference, see [NorthwindAPI QueryBuilder Models](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder).
 
@@ -233,9 +234,9 @@ private static Expression BuildConditionExpression<TEntity>(DataContext db, IQue
 ...
 ```
 
-*   SELECT Clause: Builds field selection or defaults to *.
-*   WHERE Clause: Combines filter conditions with AND/OR operators.
-*   Notes: Implement BuildCondition to support your specific conditions (e.g., "Equals" → =, "Contains" → LIKE).
+- SELECT Clause: Builds field selection or defaults to *.
+- WHERE Clause: Combines filter conditions with AND/OR operators.
+- Notes: Implement BuildCondition to support your specific conditions (e.g., "Equals" → =, "Contains" → LIKE).
 
 ## Example Usage Result
 
@@ -317,7 +318,7 @@ Sample Complex Query
         "discontinued"
     ]
 }
-``` 
+```
 
 **SQL Output**
 
@@ -331,7 +332,7 @@ AND productId IN (
     WHERE quantity >= {{quantityGreaterThan}} 
     AND quantity <= {{quantityLessThan}} 
 )
-``` 
+```
 
 POST Request with filteringExpressionTree in the Request Body
 
@@ -348,12 +349,12 @@ https://data-northwind.appbuilder.dev/QueryBuilder/ExecuteQuery
 
 <div class="divider--half"></div>
 
-* [Query Builder Usage Step-by-Step-Guide](query-builder-step-by-step-guide.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
-* [App Builder Interface Overview](../interface-overview.md)
-* [Form Builder](form-builder.md)
-* [Grid Remote Paging](grid-remote-paging.md)
-* [Crud Operations](crud-operations.md)
-* [Remote Data Operations](remote-data-operations.md)
-* [Flex Layouts](../flex-layouts/flex-layouts.md)
-* [Running Desktop App](../running-desktop-app.md)
+- [Query Builder Usage Step-by-Step-Guide](query-builder-step-by-step-guide.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)
+- [App Builder Interface Overview](../interface-overview.md)
+- [Form Builder](form-builder.md)
+- [Grid Remote Paging](grid-remote-paging.md)
+- [Crud Operations](crud-operations.md)
+- [Remote Data Operations](remote-data-operations.md)
+- [Flex Layouts](../flex-layouts/flex-layouts.md)
+- [Running Desktop App](../running-desktop-app.md)

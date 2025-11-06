@@ -4,7 +4,7 @@ _description: App Builder is a design to code solution, enabling design and 
 _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI kit, Sketch, Ignite UI for Angular, Sketch to Angular, Angular, Angular Design System, Export code from Sketch, Design Kits for Angular, Sketch UI kits
 ---
 
-# Interface overview 
+# Interface overview
 
 The App Builder interface is similar to the interface of most design tools you may already be used to, with some minor differences. But in all cases you are going to get used to it very quickly.
 There are four main sections in the App Builder.
@@ -13,9 +13,9 @@ There are four main sections in the App Builder.
 <img src="./images/interface-parts-Indigo-Design-App-Builder.png" srcset="./images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">Interface screen parts</p>
 
-## Toolbox 
+## Toolbox
 
-The **Toolbox** is the section on the left-hand side and it includes five tabs for **Components, Views, Data Sources, Themes** and the **Outline Tree**. 
+The **Toolbox** is the section on the left-hand side and it includes five tabs for **Components, Views, Data Sources, Themes** and the **Outline Tree**.
 
 The Components tab gives you access to all available components in App Builder that you can add to your design canvas and configure for use. The search input on the top of the components list makes easy to find a particular component. Below the Components tab you will find the Views tab. In the views tab you can find all the views in the application displayed with their parent-child relationships. The third tab is Data. This is where all data sources and related options are located. You can view and edit all available data sources, as well as add a new one. The fourth tab gives you access to all theming capabilities and to all available preconfigured themes. You can create and edit your own themes and quickly switch between them. The last tab - the Outline Tree - shows you a detailed hierarchy of the components in the selected app view.
 
@@ -30,7 +30,8 @@ On the right side of the screen is the **Property Panel** with viewport, **Desig
 
 
 ## Additional Resources
+
 <div class="divider--half"></div>
 
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)

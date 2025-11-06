@@ -4,8 +4,10 @@ _description: App Builder enables users to add external data sources and bind th
 _keywords: App builder, Indigo Design, Infragistics, Data Sources, Data Binding
 ---
 
-# Data Feature overview 
+# Data Feature overview
+
 The App Builder Data features let users add, edit and use external data source in the application they are developing. By default, the App Builder comes with a mock Northwind data source which users can use for reference. Below you can find different ways to set up Rest API data sources:
+
 - By using a Rest API URL with the data source.
 - By using a Swagger URL or file definition (json/yaml).
 
@@ -25,6 +27,7 @@ The App Builder also supports **nested collection inside a response object**. Yo
 <p style="text-align:center;">Nested Collection Demo</p>
 
 ## Adding a data source
+
 The App Builder Data feature enables users to link to external publicly available source(Rest API)
 
 > [!NOTE]
@@ -34,7 +37,8 @@ The App Builder Data feature enables users to link to external publicly availabl
 <p style="text-align:center;">Adding data source from a URL</p>
 
 ## Adding a Swagger data source
-The power of Swagger tools starts with the OpenAPI Specification — the industry standard for RESTful API design. 
+
+The power of Swagger tools starts with the OpenAPI Specification — the industry standard for RESTful API design.
 
 You can now specify a Swagger definition (by providing a file URL or simply upload it) and an intuitive design will help you pick an endpoint an data fields, with ease. You can later on bind this data source to a component like Grid, Card, List or any other bindable component.
 
@@ -44,7 +48,8 @@ Check out the [full article on how to add a Swagger definition](open-api-swagger
 <p style="text-align:center;">Swagger demo</p>
 
 ## Using data source from local network sources
-You can now make requests to a localhost or private networks. This includes regular REST endpoints and Swagger endpoints. 
+
+You can now make requests to a localhost or private networks. This includes regular REST endpoints and Swagger endpoints.
 
 <img class="box-shadow" src="./images/internal-network-data-source.gif" />
 <p style="text-align:center;">Local network sources usage</p>
@@ -52,9 +57,10 @@ You can now make requests to a localhost or private networks. This includes regu
 <div style="font-size: 2em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;">Troubleshooting</div>
 
 If you get an error dialog while using a private network this section can help resolve the problem. If the problems aren't resolved, follow the [report and issue or send us feedback](getting-started.md#report-an-issue-or-send-feedback) section.
-### Request failed error dialog
-Due to the essence of working with local networks this type of error requires additional work in order to identify if the local/private service fails due to CORS problems (Cross-Origin Requests) or else.
 
+### Request failed error dialog
+
+Due to the essence of working with local networks this type of error requires additional work in order to identify if the local/private service fails due to CORS problems (Cross-Origin Requests) or else.
 
 
 If `Request failed` dialog appears while you add a local service, open the `dev tools` of your browser (Hit `F12`) and check the console/network tab for errors. The most probable reason would be CORS restrictions.
@@ -102,14 +108,14 @@ if (app.Environment.IsDevelopment())
 }
 ```
 
-### Enable CORS Using IIS Manager, web.config or C#
+### Enable CORS Using IIS Manager, web.config or C #
 
 Follow the steps below in order to enable access to your internally hosted data source using IIS.
 
 1. Open IIS manager on your server or on your local PC.
 2. Navigate to the website you need to edit the response headers for.
 3. From the list or Icons related to the site you are editing, select "HTTP Response Headers" from the middle-pane, as shown in the image below
-4. Double click "HTTP Repsonse Header"
+4. Double click "HTTP Response Header"
 5. Now, click "Add" from right hand side pane
 6. A dialog box will open. For name enter "Access-Control-Allow-Origin" and for Value enter an asterisk (*).
 7. Click Ok, you are done.
@@ -175,6 +181,7 @@ Example of an endpoint with enough information to work with App Builder:
 ```
 
 ## Selecting data fields and changing fields type
+
 When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
 
 
@@ -185,12 +192,14 @@ When a data source has been added, users can connect a particular data field to 
 <p style="text-align:center;">Changing a data source table field type</p>
 
 ## Connecting Data Source to a repeated component
+
 When a data source has been added, users can connect a particular data field to a component section. In order for this to be done, first select the component (a card component is used in the example below), then change Repeat mode to Data and scroll down the menu to locate and select the table from the Data Source that you want to connect to. Finally, connect the card section with the selected table field.
 
 <img class="box-shadow" src="./images/DataSources-Connect-data-source-table-fields.gif" />
 <p style="text-align:center;">Connect a data source table field to a component section</p>
 
 ### Hierarchical Binding Support
+
 Now you can bind a component to a hierarchical data structure and bind nested data-context collections with data repeat.
 
 Let's look at the following datasource having three data levels, Movies -> Cast -> Films:
@@ -264,7 +273,9 @@ It is also applicable to components like Tree and other containers. The example 
 Lets review the Tree component, you will notice how we use the Repeat Data option in order to bind the root and child elements to a specific hierarchy level. As the Tree is declarative component, and it does not have data input binding (at tree root level), we declare it by specifying the node hierarchy and iterating through the hierarchical data set. Nodes should be bindable to a data model so that their expanded and selected states are reflected in the underlying data as well.
 
 ## Known issues and limitations
+
 ### Unable to infer schema from data
+
 This error message will be show when _the size of the parsed table schema_ of the datasource is too big (over 5mb). It can be triggered when:
 
 - Adding a regular REST endpoint.
@@ -280,6 +291,7 @@ Keep in mind this is not a restriction on the data, for example it can be with m
 <p style="text-align:center;">Unable to infer schema from data</p>
 
 ### Download/Upload definition from local network source
+
 Downloaded OpenAPI files dot not contain server URL information and it cannot infer the server base address. This will happen if you do not specify the localhost URL directly through the Add URL source and instead Upload it as definition, you will get an empty Base URL.
 
 <img class="box-shadow" style="width: 70%;" src="./images/empty-definition-error.png" />
@@ -299,12 +311,13 @@ app.UseSwagger(c =>
 ```
 
 ## Additional Resources
+
 <div class="divider--half"></div>
 
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [App Builder Interface Overview](interface-overview.md)
-* [Single Page And Navigation](single-page-apps-and-navigation.md)
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [Flex Layouts](flex-layouts/flex-layouts.md)
-* [Running Desktop App](running-desktop-app.md)
-* [Generate app](generate-app/generate-app-overview.md)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [App Builder Interface Overview](interface-overview.md)
+- [Single Page And Navigation](single-page-apps-and-navigation.md)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [Flex Layouts](flex-layouts/flex-layouts.md)
+- [Running Desktop App](running-desktop-app.md)
+- [Generate app](generate-app/generate-app-overview.md)

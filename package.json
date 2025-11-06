@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "dotnet tool restore",
     "lint:md": "markdownlint \"**/*.md\" --config .markdownlint.json",
-    "lint:md:fix": "markdownlint \"**/*.md\" --fix",
+    "lint:md:fix": "markdownlint \"**/*.md\" --config .markdownlint.json --fix",
     "spellcheck": "cspell \"en/**/*.md\" \"jp/**/*.md\"",
     "verify": "npm run spellcheck && npm run lint:md"
   },
