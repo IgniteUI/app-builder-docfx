@@ -11,7 +11,7 @@ The `.markdownlint.json` file configures markdown-lint with rules suitable for t
 ### Enabled Rules
 <!-- - **MD001**: Heading levels should only increment by one level at a time
 - **MD003**: Heading style (ATX style with #) -->
-- **MD004**: Unordered list style (dash)
+<!-- - **MD004**: Unordered list style (dash) -->
 <!-- - **MD007**: Unordered list indentation (2 spaces) -->
 - **MD009**: Trailing spaces (allow 2 for line breaks)
 - **MD010**: Hard tabs
@@ -45,6 +45,7 @@ The `.markdownlint.json` file configures markdown-lint with rules suitable for t
 
 - **MD001**: Heading levels increment (disabled - documentation may skip heading levels for layout)
 - **MD003**: Heading style (disabled - allows both ATX and Setext styles)
+- **MD004**: Unordered list style (disabled - allows both dash and asterisk styles for international docs)
 - **MD007**: Unordered list indentation (disabled - flexible indentation for complex lists)
 - **MD013**: Line length (disabled - technical docs have long URLs/code examples)
 - **MD025**: Multiple top-level headings (disabled - allows multiple H1 headers for DocFX frontmatter)

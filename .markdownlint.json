@@ -2,7 +2,7 @@
   "default": true,
   "MD001": false,
   "MD003": false,
-  "MD004": { "style": "dash" },
+  "MD004": false,
   "MD007": false,
   "MD009": { "br_spaces": 2 },
   "MD010": true,
