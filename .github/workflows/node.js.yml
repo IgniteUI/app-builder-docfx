@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x]  # Only run linting on one Node version
+        node-version: [22.x]  # Only run linting on one Node version
 
     steps:
     - uses: actions/checkout@v3
