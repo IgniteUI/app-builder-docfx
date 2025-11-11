@@ -44,15 +44,15 @@ AND productId IN (
 
 1. **メイン クエリ (Products テーブル)**:
 
-- **products** テーブルからすべての列 (`*`) を選択します。
-- **categoryId = "Beverages"** の製品をフィルタリングします (Beverages カテゴリの製品のみ)。
+   - **products** テーブルからすべての列 (`*`) を選択します。
+   - **categoryId = "Beverages"** の製品をフィルタリングします (Beverages カテゴリの製品のみ)。
 
 2. **サブクエリ (OrderDetails テーブル)**:
 
-- 注文された **quantity** が **5 〜 10** (両端を含む) の **orderDetails** から **productId** を取得します。
-- これらの **productId** は、メイン クエリの **IN** 句で使用され、製品をフィルター処理します。
+   - 注文された **quantity** が **5 〜 10** (両端を含む) の **orderDetails** から **productId** を取得します。
+   - これらの **productId** は、メイン クエリの **IN** 句で使用され、製品をフィルター処理します。
 
-**最終出力:**
+   **最終出力:**
 
 結果は、**5 〜 10 個**の数量で注文された**飲料製品**のリストになります。
 
@@ -65,19 +65,19 @@ AND productId IN (
 3. 新しく追加された**クエリ ビルダー エンドポイント**を選択します。[App Builder のテスト OpenAPI は、サーバー側のフィルタリングをサポートするようになりました。](https://data-northwind.appbuilder.dev/swagger/index.html)
 4. 「query」 エンドポイントを検索し、**ExecuteQuery.products** を選択します。これは、複雑なクエリの例の**基本テーブル**として機能します。
 
-<details>
+   <details>
 
-<summary>🖼️ Query Builder エンドポイントの選択を表示</summary>
+   <summary>🖼️ Query Builder エンドポイントの選択を表示</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/1.png" />
-<p style="text-align:center;">エンドポイントの選択</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/1.png" />
+   <p style="text-align:center;">エンドポイントの選択</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
-**結果:**
+   **結果:**
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/2.png" />
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/2.png" />
 
 ## 手順 3.クエリ変数を設定します
 
@@ -136,17 +136,17 @@ AND productId IN (
 1. **[保存]** をクリックして、**複雑なクエリ変数**の設定を保存します。
 2. **[SEND] ボタン**を使用してクエリの実行をテストします。
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/6.png" />
-<p style="text-align:center;">クエリ実行テストを表示</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/6.png" />
+   <p style="text-align:center;">クエリ実行テストを表示</p>
 
-<br />
+   <br />
 
-**この時点で、4 つの変数があります。**
+   **この時点で、4 つの変数があります。**
 
-- **ComplexQuery** → **サーバー側のフィルタリング**を処理するクエリ変数。
-- **selectedCategory** → **カテゴリ ID** を保持します。
-- **quantityGreaterThan** → **最小数量**を定義します。
-- **quantityLessThan** → **最大数量**を定義します。
+   - **ComplexQuery** → **サーバー側のフィルタリング**を処理するクエリ変数。
+   - **selectedCategory** → **カテゴリ ID** を保持します。
+   - **quantityGreaterThan** → **最小数量**を定義します。
+   - **quantityLessThan** → **最大数量**を定義します。
 
 ## 手順 5.インタラクティブなコンポーネントを追加します
 
@@ -223,8 +223,8 @@ quantityLessThan **Input コンポーネント**:
 </details>
 <br />
 
-2. **Value** プロパティの**双方向バインディング**が有効になっていることを確認してください。
-3. **Grid コンポーネント**を追加し、手順 2 で作成した**クエリ変数**にバインドします。
+1. **Value** プロパティの**双方向バインディング**が有効になっていることを確認してください。
+2. **Grid コンポーネント**を追加し、手順 2 で作成した**クエリ変数**にバインドします。
 
 <details>
 <summary>🖼️ Grid コンポーネントのバインディングを表示</summary>
@@ -259,70 +259,70 @@ quantityLessThan **Input コンポーネント**:
 
 1. **グリッドの行選択変更**インタラクションを追加し、それに**変数**をバインドします。
 
-<details>
-  <summary>🖼️ グリッドの行選択インタラクションを表示</summary>
+   <details>
+     <summary>🖼️ グリッドの行選択インタラクションを表示</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/16.png" />
-<p style="text-align:center;">グリッドの行選択インタラクションを表示</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/16.png" />
+   <p style="text-align:center;">グリッドの行選択インタラクションを表示</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 2. 変数が **ProductDTO** タイプであることを確認してください。
 
-<details>
-  <summary>🖼️ 変数タイプの設定を表示</summary>
+   <details>
+     <summary>🖼️ 変数タイプの設定を表示</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/17.png" />
-<p style="text-align:center;">変数タイプの設定を表示</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/17.png" />
+   <p style="text-align:center;">変数タイプの設定を表示</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 3. 関連データを表示するには、**Dialog** とその中に **Grid** を追加します。
 
-<details>
-  <summary>🖼️ ダイアログとグリッドの設定を表示</summary>
+   <details>
+     <summary>🖼️ ダイアログとグリッドの設定を表示</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/18.png" />
-<p style="text-align:center;">ダイアログとグリッドの設定を表示</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/18.png" />
+   <p style="text-align:center;">ダイアログとグリッドの設定を表示</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 4. 特定のカテゴリ内の製品の **order details** を取得する別の**クエリ変数**を構成します。
 
-**クエリの例:**
+   **クエリの例:**
 
-```
-SELECT * 
-FROM orderDetails 
-WHERE productId IN (
-    SELECT productId 
-    FROM products 
-    WHERE categoryId = 1
-)
-AND Quantity BETWEEN 5 AND 15;
+   ```
+   SELECT * 
+   FROM orderDetails 
+   WHERE productId IN (
+       SELECT productId 
+       FROM products 
+       WHERE categoryId = 1
+   )
+   AND Quantity BETWEEN 5 AND 15;
 
-```
+   ```
 
-<br />
+   <br />
 
-**結果:**
+   **結果:**
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/19.png" />
-<p style="text-align:center;">orderDetails クエリ結果を表示</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/19.png" />
+   <p style="text-align:center;">orderDetails クエリ結果を表示</p>
 
 5. **Grid コンポーネント**を **OrdersComplexQuery 変数**にバインドします。
 
-<details>
-  <summary>🖼️ orderDetails にグリッド バインディングを表示</summary>
+   <details>
+     <summary>🖼️ orderDetails にグリッド バインディングを表示</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/20.png" />
-<p style="text-align:center;">orderDetails にグリッド バインディングを表示</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/20.png" />
+   <p style="text-align:center;">orderDetails にグリッド バインディングを表示</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 ## 手順 8.アプリをプレビューします。
 
@@ -356,9 +356,9 @@ AND Quantity BETWEEN 5 AND 15;
 </details>
 <br />
 
-2. それを先ほど作成した**複雑なクエリ変数**にバインドします。
+1. それを先ほど作成した**複雑なクエリ変数**にバインドします。
 
-3. これで、**クエリ コンポーネント**は**クエリ変数**にバインドされ、データ リクエストを動的に処理するようになりました。
+2. これで、**クエリ コンポーネント**は**クエリ変数**にバインドされ、データ リクエストを動的に処理するようになりました。
 
 <details>
   <summary>🖼️ Query Builder のバインディング結果を表示</summary>

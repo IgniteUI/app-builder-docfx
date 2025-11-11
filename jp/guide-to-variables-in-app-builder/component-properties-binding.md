@@ -25,15 +25,15 @@ App Builder でコンポーネント プロパティにバインドするには�
 <img src="../images/state-and-context/4.png" srcset="../images/state-and-context/4.png 2x" />
 <p style="text-align:center;">配列型の変数</p>
 
-2. **配列変数を作成する**: 「Box Office Revenue」 型の空の配列変数を作成します。データ タイプは、Combo コンポーネントのデータ ソースに基づいて自動的に決定されます。
+1. **配列変数を作成する**: 「Box Office Revenue」 型の空の配列変数を作成します。データ タイプは、Combo コンポーネントのデータ ソースに基づいて自動的に決定されます。
 
-<img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
-<p style="text-align:center;">新しい変数のダイアログ</p>
+   <img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
+   <p style="text-align:center;">新しい変数のダイアログ</p>
 
-3. **Card コンポーネントにバインドする**: 「selectedMovies」 変数をカード コンポーネントにリンクします。Title プロパティと Subtitle プロパティをデータ コンテキストの適切なデータ フィールドにバインドします。
+2. **Card コンポーネントにバインドする**: 「selectedMovies」 変数をカード コンポーネントにリンクします。Title プロパティと Subtitle プロパティをデータ コンテキストの適切なデータ フィールドにバインドします。
 
-<img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
-<p style="text-align:center;">データ コンテキストのバインド</p>
+   <img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
+   <p style="text-align:center;">データ コンテキストのバインド</p>
 
 その結果、選択に基づいて動的に更新されるカード コンポーネントが生成されます。
 

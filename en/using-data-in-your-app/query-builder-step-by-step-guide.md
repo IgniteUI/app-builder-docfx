@@ -43,15 +43,15 @@ AND productId IN (
 
 1. **Main Query (Products table)**:
 
-- Selects all columns (`*`) from the **products** table.
-- Filters products where **categoryId = "Beverages"** (only products from the Beverages category).
+   - Selects all columns (`*`) from the **products** table.
+   - Filters products where **categoryId = "Beverages"** (only products from the Beverages category).
 
 2. **Subquery (OrderDetails table)**:
 
-- Retrieves **productId's** from **orderDetails** where the **quantity** ordered is between **5 and 10** (inclusive).
-- These **productId's** are then used in the **IN** clause of the main query to filter products.
+   - Retrieves **productId's** from **orderDetails** where the **quantity** ordered is between **5 and 10** (inclusive).
+   - These **productId's** are then used in the **IN** clause of the main query to filter products.
 
-**Final Output:**
+   **Final Output:**
 
 The result will be a list of **beverage products** that have been ordered in quantities between **5 to 10 units**.
 
@@ -64,19 +64,19 @@ Let's start by creating a Query Variable. This Variable will be used for handlin
 3. Select the newly added **Query Builder endpoint**. [App Builder's Testing OpenAPI now supports server-side filtering](https://data-northwind.appbuilder.dev/swagger/index.html).
 4. Search for "query" endpoints and pick **ExecuteQuery.products**. This will serve as the **base table** for our complex query example.
 
-<details>
+   <details>
 
-<summary>🖼️ View Query Builder endpoint selection</summary>
+   <summary>🖼️ View Query Builder endpoint selection</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/1.png" />
-<p style="text-align:center;">Endpoint selection</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/1.png" />
+   <p style="text-align:center;">Endpoint selection</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
-**Result:**
+   **Result:**
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/2.png" />
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/2.png" />
 
 ## Step 3. Configure the Query Variable
 
@@ -135,17 +135,17 @@ Build the complex query that will work with **two tables**:
 1. Click **Save** to store the **Complex Query Variable** configuration.
 2. Test the query execution using the **SEND button**.
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/6.png" />
-<p style="text-align:center;">View query execution test</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/6.png" />
+   <p style="text-align:center;">View query execution test</p>
 
-<br />
+   <br />
 
-**At this point, we have four variables:**
+   **At this point, we have four variables:**
 
-- **ComplexQuery** → The Query Variable handling **server-side filtering**.
-- **selectedCategory** → Holds the **category ID**.
-- **quantityGreaterThan** → Defines the **minimum quantity**.
-- **quantityLessThan** → Defines the **maximum quantity**.
+   - **ComplexQuery** → The Query Variable handling **server-side filtering**.
+   - **selectedCategory** → Holds the **category ID**.
+   - **quantityGreaterThan** → Defines the **minimum quantity**.
+   - **quantityLessThan** → Defines the **maximum quantity**.
 
 ## Step 5. Add Interactive Components
 
@@ -222,8 +222,8 @@ Focus the Select component and bind it to the selectedCategory variable:
 </details>
 <br />
 
-2. Ensure the **two-way binding** for their **Value** properties is enabled.
-3. Add a **Grid component** and bind it to the **Query Variable** created in Step 2.
+1. Ensure the **two-way binding** for their **Value** properties is enabled.
+2. Add a **Grid component** and bind it to the **Query Variable** created in Step 2.
 
 <details>
 <summary>🖼️ View grid component binding</summary>
@@ -258,70 +258,70 @@ However, the **actual order quantities are not visible**, since our query only r
 
 1. Add a **Grid Row Selection Changed** interaction and bind a **variable** to it.
 
-<details>
-  <summary>🖼️ View grid row selection interaction</summary>
+   <details>
+     <summary>🖼️ View grid row selection interaction</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/16.png" />
-<p style="text-align:center;">View grid row selection interaction</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/16.png" />
+   <p style="text-align:center;">View grid row selection interaction</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 2. Ensure the variable is of type **ProductDTO**
 
-<details>
-  <summary>🖼️ View variable type configuration</summary>
+   <details>
+     <summary>🖼️ View variable type configuration</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/17.png" />
-<p style="text-align:center;">View variable type configuration</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/17.png" />
+   <p style="text-align:center;">View variable type configuration</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 3. Add a **Dialog** and a **Grid** inside it to display the relevant data.
 
-<details>
-  <summary>🖼️ View dialog and grid setup</summary>
+   <details>
+     <summary>🖼️ View dialog and grid setup</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/18.png" />
-<p style="text-align:center;">View dialog and grid setup</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/18.png" />
+   <p style="text-align:center;">View dialog and grid setup</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 4. Configure another **Query Variable** that retrieves **order details** for products within a specific category.
 
-**Example Query:**
+   **Example Query:**
 
-```
-SELECT * 
-FROM orderDetails 
-WHERE productId IN (
-    SELECT productId 
-    FROM products 
-    WHERE categoryId = 1
-)
-AND Quantity BETWEEN 5 AND 15;
+   ```
+   SELECT * 
+   FROM orderDetails 
+   WHERE productId IN (
+       SELECT productId 
+       FROM products 
+       WHERE categoryId = 1
+   )
+   AND Quantity BETWEEN 5 AND 15;
 
-```
+   ```
 
-<br />
+   <br />
 
-**Result:**
+   **Result:**
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/19.png" />
-<p style="text-align:center;">View order details query result</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/19.png" />
+   <p style="text-align:center;">View order details query result</p>
 
 5. Bind the **Grid component** to the **OrdersComplexQuery Variable**
 
-<details>
-  <summary>🖼️ View grid binding to order details</summary>
+   <details>
+     <summary>🖼️ View grid binding to order details</summary>
 
-<img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/20.png" />
-<p style="text-align:center;">View grid binding to order details</p>
+   <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/20.png" />
+   <p style="text-align:center;">View grid binding to order details</p>
 
-</details>
-<br />
+   </details>
+   <br />
 
 ## Step 8. Preview the App
 
@@ -355,9 +355,9 @@ This step demonstrates **how the query can be modified in real-time**. Instead o
 </details>
 <br />
 
-2. Bind it to the **Complex Query Variable** created earlier.
+1. Bind it to the **Complex Query Variable** created earlier.
 
-3. Now, the **Query Component** is bound to the **Query Variable**, dynamically handling data requests.
+2. Now, the **Query Component** is bound to the **Query Variable**, dynamically handling data requests.
 
 <details>
   <summary>🖼️ View Query Builder binding result</summary>

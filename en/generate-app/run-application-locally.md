@@ -5,7 +5,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 ---
 # Run Application Locally
 
-### Run the app locally
+## Run the app locally
 
 To finally develop the app, you don't need to copy and paste code. Instead, use the generate app button in the toolbar. This quickly creates a package with your Angular or Blazor application (depending on what framework is selected in the Platform picker dropdown) that can be downloaded. To run this app, open up the folder in an IDE like Visual Studio Code.
 

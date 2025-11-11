@@ -21,7 +21,8 @@ Based on your requirements you can decide to use either MySQL or MSSQL Server da
 - Select:
   - Developer default, Next and Execute.
 
-        > Note: if you get a prompt saying "one or more products requirements have not been satisfied. Do you want to continue?" Just select Yes)
+  > Note: if you get a prompt saying "one or more products requirements have not been satisfied. Do you want to continue?" Just select Yes)
+
 - After installation ends:
   - Select next to configure the server, when prompted enter the root password you wish, then Execute.  
   - After the server configuration ends, select Cancel to exit the installer since the rest of the configuration is not needed.

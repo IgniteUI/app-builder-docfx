@@ -8,7 +8,7 @@ _keywords: App Builder themes, Indigo Design, Infragistics
 
 An app theme is a collection of color palettes and attributes that create a sense of visual persistency throughout the entire app, view, or activity. With app themes, you can define the look and feel of your application by selecting and configuring different panels, styles, layouts, typography, pre-built theme widgets. Or you can create a custom theme file too.
 
-# App Builder themes
+## App Builder themes
 
 > [!Video https://www.youtube.com/embed/gcTyeFp_65c?si=w-3ycuuDZ4whrEZc&list=UULF8cj8_eJROxAXsOjhbvduLw]
 

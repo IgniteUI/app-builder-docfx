@@ -108,7 +108,7 @@ if (app.Environment.IsDevelopment())
 }
 ```
 
-### Enable CORS Using IIS Manager, web.config or C #
+### Enable CORS Using IIS Manager, web.config or C\#
 
 Follow the steps below in order to enable access to your internally hosted data source using IIS.
 

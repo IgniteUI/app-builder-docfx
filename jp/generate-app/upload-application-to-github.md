@@ -9,8 +9,7 @@ _language: ja
 > [!NOTE]
 ><b>App Builder でデザインの準備ができたら、非公開または GitHub リポジトリにアップロードできます。
 
-
-### トピック コンテンツ
+## トピック コンテンツ
 
 - <a href="#はじめに">はじめに</a>
 - <a href="#uploading-an-application-to-github">アプリケーションを Github にアップロードする</a>

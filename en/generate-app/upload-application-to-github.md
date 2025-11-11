@@ -8,8 +8,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 > [!NOTE]
 ><b>Once ready with your design in App Builder you can upload it to your private or GitHub repository.
 
-
-### In this article
+## In this article
 
 - <a href="#intro">Introduction of the feature</a>
 - <a href="#uploading-an-application-to-github">Uploading an application to GitHub</a>

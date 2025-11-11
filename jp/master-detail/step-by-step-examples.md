@@ -30,11 +30,12 @@ _language: ja
 <img src="../images/state-and-context/20.png" srcset="../images/state-and-context/20.png 2x" />
 <p style="text-align:center;">CustomerID 変数</p>
 
-5. Orders グリッドから Order をクリックすると、OrderDetails を含む別のグリッドを読み込みます。
-6. 結果
+1. Orders グリッドから Order をクリックすると、OrderDetails を含む別のグリッドを読み込みます。
 
-<img src="../images/state-and-context/21.png" srcset="../images/state-and-context/21.png 2x" />
-<p style="text-align:center;">結果</p>
+2. 結果
+
+   <img src="../images/state-and-context/21.png" srcset="../images/state-and-context/21.png 2x" />
+   <p style="text-align:center;">結果</p>
 
 ## 例 2
 
@@ -45,27 +46,27 @@ _language: ja
 1. Tree コンポーネントを追加し、その親を階層データ ソース (繰り返しデータ コンテキスト) にバインドします。
 2. 親ツリー ノードのクリック時イベントを、CustomerID - 文字列変数を格納する変数設定アクションにバインドします。
 
-<img src="../images/state-and-context/22.png" srcset="../images/state-and-context/22.png 2x" />
-<p style="text-align:center;">ツリー ノードのバインド</p>
+   <img src="../images/state-and-context/22.png" srcset="../images/state-and-context/22.png 2x" />
+   <p style="text-align:center;">ツリー ノードのバインド</p>
 
 3. ツリー子ノードを追加し、親データ コンテキストに繰り返します。子ツリー ノードのクリック時イベントを、OrderID - Number 変数を格納する変数の設定アクションにバインドします。
 
-<img src="../images/state-and-context/23.png" srcset="../images/state-and-context/23.png 2x" />
-<p style="text-align:center;">子ノードのバインド</p>
+   <img src="../images/state-and-context/23.png" srcset="../images/state-and-context/23.png 2x" />
+   <p style="text-align:center;">子ノードのバインド</p>
 
 4. ルート ツリー要素に Customer が表示され、子ツリー ノードに Orders が表示されていることを確認します。
 
 5. OrderID 変数に基づいてクエリ パラメーターとして Orders を取得するエンドポイントに Grid をバインドします。
 
-<img src="../images/state-and-context/24.png" srcset="../images/state-and-context/24.png 2x" />
-<p style="text-align:center;">グリッドを Orders データにバインドする</p>
+   <img src="../images/state-and-context/24.png" srcset="../images/state-and-context/24.png 2x" />
+   <p style="text-align:center;">グリッドを Orders データにバインドする</p>
 
 6. CustomerID 変数に基づいて Customer Orders History をクエリ パラメーターとして取得するエンドポイントにチャートをバインドします。
 
-<img src="../images/state-and-context/25.png" srcset="../images/state-and-context/25.png 2x" />
-<p style="text-align:center;">チャートを Customer Orders History テーブルにバインドする</p>
+   <img src="../images/state-and-context/25.png" srcset="../images/state-and-context/25.png 2x" />
+   <p style="text-align:center;">チャートを Customer Orders History テーブルにバインドする</p>
 
 7. 結果
 
-<img src="../images/state-and-context/26.png" srcset="../images/state-and-context/26.png 2x" />
-<p style="text-align:center;">ツリー + グリッド + チャートの結果</p>
+   <img src="../images/state-and-context/26.png" srcset="../images/state-and-context/26.png 2x" />
+   <p style="text-align:center;">ツリー + グリッド + チャートの結果</p>

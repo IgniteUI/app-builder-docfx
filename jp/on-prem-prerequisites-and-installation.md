@@ -22,7 +22,8 @@ _language: ja
 - 選択:
   - Developer default (開発者のデフォルト)、Next (次へ) および Execute (実行)。
 
-        > 注:「one or more products requirements have not been satisfied. Do you want to continue?」というプロンプトが表示された場合は、「Yes」を選択してください。
+  > 注:「one or more products requirements have not been satisfied. Do you want to continue?」というプロンプトが表示された場合は、「Yes」を選択してください。
+
 - インストールの終了後:
   - [次へ] を選択してサーバーを構成し、プロンプトが表示されたら、必要なルート パスワードを入力してから [実行] を選択します。  
   - サーバー構成が終了したら、残りの構成は必要ないため、Cancel (キャンセル) を選択してインストーラーを終了します。

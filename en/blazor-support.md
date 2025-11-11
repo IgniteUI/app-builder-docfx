@@ -20,7 +20,7 @@ You can generate both Blazor Web Assembly or Blazor Server apps based on your pr
 > [!NOTE]
 ><b>Trying to generate code for components not available yet will put a placeholder informing that such a component is not yet supported. This makes it possible for you not to refrain from developing more complex UI in the designer.
 
-### In this article
+## In this article
 
 - <a href="#introduction">Introduction of the feature</a>
 - <a href="#blazor-code-generation">Blazor Code generation</a>

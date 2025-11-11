@@ -9,10 +9,11 @@ This directory contains markdown linting configuration for the App Builder docum
 The `.markdownlint.json` file configures markdown-lint with rules suitable for technical documentation and DocFX compatibility:
 
 ### Enabled Rules
-<!-- - **MD001**: Heading levels should only increment by one level at a time
-- **MD003**: Heading style (ATX style with #) -->
-<!-- - **MD004**: Unordered list style (dash) -->
-<!-- - **MD007**: Unordered list indentation (2 spaces) -->
+
+- **MD001**: Heading levels should only increment by one level at a time
+- **MD003**: Heading style (ATX style with #)
+- **MD004**: Unordered list style (dash)
+- **MD007**: Unordered list indentation (2 spaces)
 - **MD009**: Trailing spaces (allow 2 for line breaks)
 - **MD010**: Hard tabs
 - **MD012**: Multiple consecutive blank lines (max 2)
@@ -22,10 +23,10 @@ The `.markdownlint.json` file configures markdown-lint with rules suitable for t
 - **MD022**: Headings should be surrounded by blank lines
 - **MD023**: Headings must start at the beginning of the line
 - **MD024**: Multiple headings with the same content (allow different nesting)
+- **MD025**: Multiple top-level headings in same document (front_matter_title handled)
 - **MD026**: Trailing punctuation in heading
 - **MD027**: Multiple spaces after blockquote symbol
-<!-- - **MD028**: Blank line inside blockquote
-- **MD029**: Ordered list item prefix (ordered style) -->
+- **MD029**: Ordered list item prefix (ordered style)
 - **MD030**: Spaces after list markers
 - **MD031**: Fenced code blocks should be surrounded by blank lines
 - **MD032**: Lists should be surrounded by blank lines
@@ -35,22 +36,17 @@ The `.markdownlint.json` file configures markdown-lint with rules suitable for t
 - **MD039**: Spaces inside link text
 - **MD042**: No empty links
 - **MD045**: Images should have alternate text (alt text)
-<!-- - **MD046**: Code block style (fenced) -->
+- **MD046**: Code block style (fenced)
 - **MD047**: Files should end with a single newline character
 - **MD048**: Code fence style (backtick)
 - **MD049**: Emphasis style (underscore)
 - **MD050**: Strong style (asterisk)
+- **MD055**: Table pipe style (leading and trailing)
 
 ### Disabled Rules
 
-- **MD001**: Heading levels increment (disabled - documentation may skip heading levels for layout)
-- **MD003**: Heading style (disabled - allows both ATX and Setext styles)
-- **MD004**: Unordered list style (disabled - allows both dash and asterisk styles for international docs)
-- **MD007**: Unordered list indentation (disabled - flexible indentation for complex lists)
 - **MD013**: Line length (disabled - technical docs have long URLs/code examples)
-- **MD025**: Multiple top-level headings (disabled - allows multiple H1 headers for DocFX frontmatter)
 - **MD028**: Blank line inside blockquote (disabled - allows flexible blockquote formatting)
-- **MD029**: Ordered list item prefix (disabled - allows flexible numbering in documentation)
 - **MD033**: Inline HTML (disabled - allows HTML tags needed for DocFX)
 - **MD034**: Bare URLs (disabled - allows bare URLs as we use many reference links)
 - **MD036**: Emphasis used instead of heading (disabled - allows emphasis used as headers for styling)
@@ -58,7 +54,6 @@ The `.markdownlint.json` file configures markdown-lint with rules suitable for t
 - **MD041**: First line in a file should be a top-level heading (disabled - not always applicable with frontmatter)
 - **MD043**: Required heading structure (disabled - too restrictive)
 - **MD044**: Proper names should have the correct capitalization (disabled - would require extensive config)
-- **MD046**: Code block style (disabled - allows both fenced and indented code blocks)
 
 ## Usage
 
@@ -125,6 +120,8 @@ npm run verify
 - Trailing spaces (MD009)
 - Missing blank lines around headers, lists, code blocks (MD022, MD031, MD032)
 - Inconsistent list markers (MD004)
+- Inconsistent heading styles (MD003)
+- List indentation (MD007)
 - File ending newlines (MD047)
 - Header spacing issues (MD018, MD019)
 - Some emphasis and code span formatting (MD037, MD038)
@@ -134,30 +131,62 @@ npm run verify
 - **All spelling errors** (cspell has no auto-fix feature)
 - Complex markdown structure issues
 - Content-related problems
-- Heading hierarchy problems (MD001)
-- Line length issues (MD013)
+- Heading hierarchy problems (MD001) - need to add intermediate heading levels
+- Ordered list numbering (MD029) - may need to indent content to maintain list context
+- Multiple top-level headings (MD025) - need to demote additional H1s to H2
+- Code block style (MD046) - need to convert indented blocks to fenced blocks
 
 ## Common Issues and Fixes
 
 ### MD001 - Heading increment
 
 **Issue**: Jumping from `##` to `####`
-**Fix**: Use `###` instead
+**Fix**: Use `###` instead - headings should only increment by one level at a time
+
+### MD003 - Heading style
+
+**Issue**: Mixing ATX (`#`) and Setext (underline) heading styles
+**Fix**: Use ATX style (`#`, `##`, `###`) consistently
+
+### MD004 - Unordered list style
+
+**Issue**: Mixing `-`, `*`, or `+` for list items
+**Fix**: Use dash (`-`) consistently for unordered lists
+
+### MD007 - Unordered list indentation
+
+**Issue**: Incorrect indentation in nested lists
+**Fix**: Use 2 spaces for nested list items
 
 ### MD009 - Trailing spaces
 
 **Issue**: Unnecessary trailing spaces at end of line
-**Fix**: Remove trailing spaces (except when intentional for line breaks)
+**Fix**: Remove trailing spaces (except when intentional for line breaks with 2 spaces)
 
 ### MD022 - Headings surrounded by blank lines
 
 **Issue**: No blank line before/after heading
 **Fix**: Add blank lines around headings
 
+### MD025 - Multiple top-level headings
+
+**Issue**: Multiple `#` headings in same document
+**Fix**: Use only one H1 per document (frontmatter title doesn't count)
+
+### MD029 - Ordered list item prefix
+
+**Issue**: Inconsistent or incorrect numbering like `1. 2. 4.` or using all `1.` items
+**Fix**: Use sequential numbering `1. 2. 3.` for ordered lists
+
 ### MD031 - Code blocks surrounded by blank lines
 
 **Issue**: No blank line before/after code fence
 **Fix**: Add blank lines around code blocks
+
+### MD046 - Code block style
+
+**Issue**: Using indented code blocks (4 spaces) instead of fenced blocks
+**Fix**: Use fenced code blocks with triple backticks (```)
 
 ### MD047 - File should end with newline
 

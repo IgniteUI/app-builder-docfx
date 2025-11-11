@@ -28,7 +28,7 @@ _language: ja
 
 以下に、App Builder プラットフォームに含まれるすべての外部 URL の詳細なリストを示します。明確さと使いやすさを確保するために、URL はその目的に基づいてカテゴリごとに整理されています。
 
-#### App Builder リソース
+### App Builder リソース
 
 - [ランディング ページ。](https://jp.infragistics.com/products/appbuilder)
 - [価格ページ。](https://www.appbuilder.dev/ja/pricing)
@@ -36,7 +36,7 @@ _language: ja
 - [プレビュー版環境](https://preview.appbuilder.dev/)と[製品版環境](https://my.appbuilder.dev/)のプラットフォーム URL。
 - [サブスクリプション](https://account.appbuilder.dev/subscriptions)と[個人プロファイル](https://account.appbuilder.dev/private-profile)のユーザー アカウント。
 
-#### ドキュメントとヘルプ。
+### ドキュメントとヘルプ。
 
 - [作業の開始。](https://jp.infragistics.com/products/appbuilder/help/getting-started)
 - [変更ログ。](https://jp.infragistics.com/products/appbuilder/help/change-log)

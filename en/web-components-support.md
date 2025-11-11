@@ -13,7 +13,7 @@ The family of supported frameworks of the App Builder has grown even more. The n
 > [!NOTE]
 ><b>Trying to generate code for components not available yet will put a placeholder informing that such a component is not yet supported. This makes it possible for you not to refrain from developing more complex UI in the designer.
 
-### In this article
+## In this article
 
 - <a href="#introduction">Introduction of the feature</a>
 - <a href="#web-components-code-generation">Web Components Code generation</a>

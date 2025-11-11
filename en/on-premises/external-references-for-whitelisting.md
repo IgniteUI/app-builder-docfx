@@ -27,7 +27,7 @@ By integrating this whitelist, developers can ensure that all necessary external
 
 Below you can find a detailed list of all external URLs part of the App Builder Platform. To ensure clarity and usability, the URLs have been organized into categories based on their purpose:
 
-#### App Builder Resources
+### App Builder Resources
 
 - [Landing page.](https://www.infragistics.com/products/appbuilder)
 - [Pricing page.](https://www.appbuilder.dev/pricing)
@@ -35,7 +35,13 @@ Below you can find a detailed list of all external URLs part of the App Builder 
 - Platform URLs for [Preview](https://preview.appbuilder.dev/) and [Production](https://my.appbuilder.dev/) environments.
 - User Accounts for [Subscriptions](https://account.appbuilder.dev/subscriptions) and [Individual Profiles](https://account.appbuilder.dev/private-profile).
 
-#### Documentation & Help
+  - [Landing page.](https://www.infragistics.com/products/appbuilder)
+  - [Pricing page.](https://www.appbuilder.dev/pricing)
+  - App Builder desktop application for [Windows](https://www.infragistics.com/products/appbuilder/download), [Mac](https://www.infragistics.com/products/appbuilder/download/mac) and [Linux](https://www.infragistics.com/products/appbuilder/download/linux).
+  - Platform URLs for [Preview](https://preview.appbuilder.dev/) and [Production](https://my.appbuilder.dev/) environments.
+  - User Accounts for [Subscriptions](https://account.appbuilder.dev/subscriptions) and [Individual Profiles](https://account.appbuilder.dev/private-profile).
+
+### Documentation & Help
 
 - [Getting started page.](https://www.infragistics.com/products/appbuilder/help/getting-started)
 - [Change Log.](https://www.infragistics.com/products/appbuilder/help/change-log)

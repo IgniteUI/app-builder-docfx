@@ -8,8 +8,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 > [!NOTE]
 > The Interactions feature of the App Builder enables users to define particular interactions between views and components, such as Navigate to another view, Show or Hide and Open or Close an app component.
 
-
-### In this article
+## In this article
 
 - <a href="#intro">Introduction of the feature</a>
 - <a href="#navigate-to">Interaction: Navigate to</a>
