@@ -31,7 +31,7 @@ Below you can find a detailed list of all external URLs part of the App Builder 
 
 - [Landing page.](https://www.infragistics.com/products/appbuilder)
 - [Pricing page.](https://www.appbuilder.dev/pricing)
-- - App Builder desktop application for [Windows](https://www.infragistics.com/products/appbuilder/download), [Mac](https://www.infragistics.com/products/appbuilder/download/mac) and [Linux](https://www.infragistics.com/products/appbuilder/download/linux).
+- App Builder desktop application for [Windows](https://www.infragistics.com/products/appbuilder/download), [Mac](https://www.infragistics.com/products/appbuilder/download/mac) and [Linux](https://www.infragistics.com/products/appbuilder/download/linux).
 - Platform URLs for [Preview](https://preview.appbuilder.dev/) and [Production](https://my.appbuilder.dev/) environments.
 - User Accounts for [Subscriptions](https://account.appbuilder.dev/subscriptions) and [Individual Profiles](https://account.appbuilder.dev/private-profile).
 
