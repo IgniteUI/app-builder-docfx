@@ -93,14 +93,27 @@ npx markdownlint --config .markdownlint.json "en/**/*.md"
 # Lint all markdown files
 npm run lint:md
 
-# Fix auto-fixable issues
+# Lint only English docs
+npm run lint:md:en
+
+# Lint only Japanese docs
+npm run lint:md:jp
+
+# Fix auto-fixable issues (all files)
 npm run lint:md:fix
 
-# Run spell check only
+# Run spell check on English docs only
 npm run spellcheck
 
-# Run full verification (includes spell check)
+# Run spell check on Japanese docs only
+npm run spellcheck:jp
+
+# Run full verification on English docs (spell check + linting)
 npm run verify
+
+# Run full verification on Japanese docs (spell check + linting)
+npm run verify:jp
+```
 
 ## Auto-Fix Capabilities
 
