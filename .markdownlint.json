@@ -3,7 +3,7 @@
   "MD001": false,
   "MD003": { "style": "atx" },
   "MD004": { "style": "dash" },
-  "MD007": false,
+  "MD007": { "indent": 2 },
   "MD009": { "br_spaces": 2 },
   "MD010": true,
   "MD012": { "maximum": 2 },
