@@ -11,8 +11,10 @@
     "postinstall": "dotnet tool restore",
     "lint:md": "markdownlint \"**/*.md\" --config .markdownlint.json",
     "lint:md:fix": "markdownlint \"**/*.md\" --config .markdownlint.json --fix",
-    "spellcheck": "cspell \"en/**/*.md\" \"jp/**/*.md\"",
-    "verify": "npm run spellcheck && npm run lint:md"
+    "spellcheck": "cspell \"en/**/*.md\"",
+    "spellcheck:jp": "cspell \"jp/**/*.md\"",
+    "verify": "npm run spellcheck && npm run lint:md -- \"en/**/*.md\"",
+    "verify:jp": "npm run spellcheck:jp && npm run lint:md -- \"jp/**/*.md\""
   },
   "author": "Infragistics",
   "license": "ISC",
