@@ -35,7 +35,7 @@
   "MD043": false,
   "MD044": false,
   "MD045": true,
-  "MD046": false,
+  "MD046": { "style": "fenced" },
   "MD047": true,
   "MD048": { "style": "backtick" },
   "MD049": { "style": "underscore" },
