@@ -27,3 +27,4 @@ jobs:
     - run: npm ci
     - run: dotnet tool restore
     - run: npm run verify
+    - run: npm run build
