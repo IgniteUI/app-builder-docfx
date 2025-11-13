@@ -9,6 +9,7 @@ keywords: "App Builder, Infragistics, URL Parameter Binding, Data Requests, Data
 App Builder allows for sophisticated data manipulation and display techniques, including the use of URL parameters for data requests and repeaters. This functionality is crucial for creating dynamic, data-driven applications.
 
 ## Data Requests
+
 When working with data endpoints that require path or query parameters, App Builder's URL parameter binding feature becomes invaluable. This feature enables the application to make data requests based on parameters provided in the URL. For instance, consider a Grid component bound to Customer Orders. By using a “CustomerID” path parameter, the Grid dynamically fetches and displays data relevant to the specified customer.
 
 > [!NOTE]
@@ -25,6 +26,7 @@ Data repeaters take this concept further. For example, a Tree node component can
 <p style="text-align:center;">Data repeaters</p>
 
 ## Takeaways
+
 URL parameters binding in the App Builder opens up a myriad of possibilities for creating dynamic, data-driven applications. By leveraging this feature, you can build applications that respond intelligently to user navigation and input, enhancing the overall user experience and the applicability of your applications in real-world scenarios.
 
 - **Dynamic Data Fetching**: URL parameter binding in App Builder enables dynamic data fetching, allowing components like Grids and Trees to display data based on URL parameters.
@@ -37,10 +39,10 @@ URL parameters binding in the App Builder opens up a myriad of possibilities for
 
 <div class="divider--half"></div>
 
-* [Variables management](variables-management.md)
-* [Navigation with Route parameters](route-parameters-navigation.md)
-* [Component properties binding](component-properties-binding.md)
-* [Working with Events and Actions](working-with-events-and-actions.md)
-* [Master-detail concept](../master-detail/master-detail.md)
-* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
+- [Variables management](variables-management.md)
+- [Navigation with Route parameters](route-parameters-navigation.md)
+- [Component properties binding](component-properties-binding.md)
+- [Working with Events and Actions](working-with-events-and-actions.md)
+- [Master-detail concept](../master-detail/master-detail.md)
+- [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)

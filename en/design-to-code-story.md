@@ -17,6 +17,7 @@ App Builder enables you to go from Design to Code in a single click. First, crea
 ## Indigo.Design System
 
 The [Indigo.Design System](https://www.infragistics.com/products/appbuilder/ui-toolkit) uniquely combines UI Kits that map to real UI controls and components, with tooling that delivers unprecedented productivity helping digital product teams go from pixel-perfect design to production-ready code. Anything you design can be turned into real, usable code, simplifying the designer-developer handoff.
+
 ### What is a Design System?
 
 Design systems are usually described as a set of design principles and assets that translate to consistency in the way you build user interfaces. The three core advantages of using a design system are:
@@ -26,7 +27,9 @@ Design systems are usually described as a set of design principles and assets th
 - Speeds up the design process and significantly improves consistency.
 
 ### Turn Your Designs into Code
+
 Use file import or your favorite design tool.
+
 #### File import
 
 Below are the 4 simple steps to get from Design to Code with the App Builder with simple drag & drop.
@@ -54,6 +57,7 @@ Below are the 4 simple steps to get from Design to Code with the App Builder wit
 #### Publish via Plugin
 
 The plugin will help you to publish your designs into App Builder. You can download it by following these steps:
+
 1. Open App Builder
 2. Click on "Create new application"
 3. Click on "Get assets for..."
@@ -73,15 +77,16 @@ Now you can start using the plugin.
 You can download the Plugins, UI kits and sample apps from the [Download Assets page.](https://cloud.indigo.design/resources/figma).
 
 Or through the direct links below:
+
 - [Figma UI Kit](https://www.figma.com/@infragistics)
-- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474) 
+- [Plugin for Figma](https://www.figma.com/community/plugin/1170035114372031474)
 - [Sample Apps](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 - [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
 - [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
- 
+
 ## Additional Resources
 
 <div class="divider--half"></div>
 
-* [Figma UI Kit](ui-kits/figma.md)
-* [Sketch UI kit](ui-kits/sketch.md)
+- [Figma UI Kit](ui-kits/figma.md)
+- [Sketch UI kit](ui-kits/sketch.md)

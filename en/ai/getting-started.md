@@ -5,22 +5,26 @@ _keywords: App Builder AI, Infragistics, Ignite UI
 ---
 
 # Getting Started with App Builder AI
+
 This guide covers the newly introduced AI-powered content generation in App Builder.
 
 AI capabilities are currently available only as a **Preview** and are not yet with a finalized design. These AI features are still being polished and are intended for gathering feedback. As such, they may not be fully refined and may evolve based on user input. You can access the **Preview** functionalities here: https://preview.appbuilder.dev/
 
 ## View Generation
+
 The generative AI-powered view generation in App Builder provides a powerful alternative to traditional layout pickers. By leveraging free-text user prompts and multiple prompt patterns, users can generate highly customized views that are automatically transformed into fully functional applications. This approach not only accelerates the creation of App Views but also simplifies UI design, making interface generation accessible to users with varying levels of technical expertise.
 
 <img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/login-screen.png" />
 <p style="text-align:center;">Login screen</p>
 
 ### Prompt-Based Generation
+
 **Step 1**: Enter a free-text prompt into the GenAI Dialog.
 
 **Step 2**: View the generated result in the **Preview** section.
 
 **Step 3**: Apply an action using the plus button in the Preview section:
+
 - **Add Content** – Appends the content to the end of the current view.
 - **Create New View** – Adds the newly generated content to a separate View page.
 - **Replace Content** – Replaces the selected component in the current view with the generated output. Simply select a section/layout/component that you want to transform into something else, and open the GenAI Dialog again, place your prompt and click on the Add button -> Replace Content option.
@@ -58,6 +62,7 @@ Upload an image using the button under the View tab in the GenAI Dialog.
 #### Example 1: Login Screen
 
 Prompt:
+
 ```
 Create a detailed login screen
 ```
@@ -108,35 +113,35 @@ AI Output - Angular template:
 
 ```html
 <div class="row-layout group">
-		<h2 class="content">
-			Vehicle Selection
-		</h2>
-		<igx-select type="border" placeholder="Select Make" required class="select">
-			<igx-select-item value="Toyota">
-				Toyota
-			</igx-select-item>
-			<igx-select-item value="Honda">
-				Honda
-			</igx-select-item>
-			<igx-select-item value="Ford">
-				Ford
-			</igx-select-item>
-			<label igxLabel>Make</label>
-			<igx-hint>Select your car's make</igx-hint>
-		</igx-select>
-		<igx-select type="border" placeholder="Select Model" required class="select">
-			<igx-select-item value="Corolla">
-				Corolla
-			</igx-select-item>
-			<igx-select-item value="Civic">
-				Civic
-			</igx-select-item>
-			<igx-select-item value="Mustang">
-				Mustang
-			</igx-select-item>
-			<label igxLabel>Model</label>
-			<igx-hint>Select your car's model</igx-hint>
-		</igx-select>
+  <h2 class="content">
+   Vehicle Selection
+  </h2>
+  <igx-select type="border" placeholder="Select Make" required class="select">
+   <igx-select-item value="Toyota">
+    Toyota
+   </igx-select-item>
+   <igx-select-item value="Honda">
+    Honda
+   </igx-select-item>
+   <igx-select-item value="Ford">
+    Ford
+   </igx-select-item>
+   <label igxLabel>Make</label>
+   <igx-hint>Select your car's make</igx-hint>
+  </igx-select>
+  <igx-select type="border" placeholder="Select Model" required class="select">
+   <igx-select-item value="Corolla">
+    Corolla
+   </igx-select-item>
+   <igx-select-item value="Civic">
+    Civic
+   </igx-select-item>
+   <igx-select-item value="Mustang">
+    Mustang
+   </igx-select-item>
+   <label igxLabel>Model</label>
+   <igx-hint>Select your car's model</igx-hint>
+  </igx-select>
 ```
 
 And here is the App Preview:
@@ -150,23 +155,24 @@ And here is the App Preview:
 > Consider these patterns as recommendations; you can always use regular prompt descriptions phrasing.
 
 #### Pattern 1: Combined Layout and Component Prompts
+
 For more structured outputs that combine layout and detailed component configurations, users can specify an overall screen design with multiple sections. For instance:
 
 ```
 A login screen with:
 row layout
-	col layout
-		title: Login
-		text: Please enter your email and password to sign in
-		form:
-			input: email
-			input: password
-			switch: remember me
-			button: login
-			row layout
-				text: Don't have an account?
-				link: sign up
-	image
+ col layout
+  title: Login
+  text: Please enter your email and password to sign in
+  form:
+   input: email
+   input: password
+   switch: remember me
+   button: login
+   row layout
+    text: Don't have an account?
+    link: sign up
+ image
 ```
 
 Result:
@@ -174,7 +180,7 @@ Result:
 <img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/prompt-1.png" />
 <p style="text-align:center;">Login screen</p>
 
-#### Prompt 2:
+#### Prompt 2
 
 Structured equivalent prompt
 
@@ -182,14 +188,15 @@ Structured equivalent prompt
 Generate a view with this layout:
 nav bar
 horizontal group
-	nav drawer (isOpen=true, pin=true)
-		5 items
-	vertical group
-		title (color=red)
-		horizontal group
-			4 cards with media
+ nav drawer (isOpen=true, pin=true)
+  5 items
+ vertical group
+  title (color=red)
+  horizontal group
+   4 cards with media
 
 ```
+
 Result:
 
 <img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/prompt-2.png" />
@@ -213,6 +220,7 @@ Result:
 ### Image Generation
 
 **Steps:**
+
 1. Open the **AIGen** dialog and navigate to the **Image** tab.
 2. Enter a prompt describing the image or use an **Example Prompt**.
 3. Once satisfied with the result, click **Add** to save it to your **Image Library**.
@@ -224,6 +232,7 @@ You can now start using it within your project.
 ### Data Source Generation
 
 **Steps:**
+
 1. Open the **AIGen** dialog and navigate to the **Data** tab.
 2. Enter a prompt describing the data you need.
 3. Click the **Example Prompt** button for inspiration.
@@ -240,12 +249,13 @@ Use the **Send Feedback** form to share your suggestions, report issues, or desc
 <p style="text-align:center;">Give Us Feedback</p>
 
 ## Additional Resources
+
 <div class="divider--half"></div>
 
-* [App Builder Interface Overview](../interface-overview.md)
-* [Single Page and Navigation](../single-page-apps-and-navigation.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
-* [Flex Layouts](../flex-layouts/flex-layouts.md)
-* [Running Desktop App](../running-desktop-app.md)
-* [Generating an App](../generate-app/generate-app-overview.md)
-* [Indigo.Design Getting Started]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)
+- [App Builder Interface Overview](../interface-overview.md)
+- [Single Page and Navigation](../single-page-apps-and-navigation.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)
+- [Flex Layouts](../flex-layouts/flex-layouts.md)
+- [Running Desktop App](../running-desktop-app.md)
+- [Generating an App](../generate-app/generate-app-overview.md)
+- [Indigo.Design Getting Started]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)

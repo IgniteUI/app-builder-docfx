@@ -6,6 +6,7 @@ A strong design-to-code movement emerged in the last few years to pick up where 
 > Download [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip) and [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
 
 ## App Builder Sketch Importer
+
 Here are the 4 simple steps to get from Design to Code with the App Builder with a drag & drop.
 
 Step 1: Click New App from the App Builder main menu
@@ -38,6 +39,7 @@ Just like that, a design or a developer can go from sketch to code with a web-ba
 ## Sketch Download assets
 
 Or through the direct links below:
+
 - [Sketch UI Kit](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
 - [Sample apps](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
 
@@ -45,5 +47,5 @@ Or through the direct links below:
 
 <div class="divider--half"></div>
 
-* [Design to code story](../design-to-code-story.md)
-* [Figma UI Kit](figma.md)
+- [Design to code story](../design-to-code-story.md)
+- [Figma UI Kit](figma.md)

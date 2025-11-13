@@ -61,7 +61,7 @@ Soon, you’ll be able to deploy your app to **Azure Web Apps** directly from Ap
 - Will support both **standard** and **static web apps**
 - Simplifies deployment for customer demos and staging environments
 
-# How Microsoft Account Types Impact Authentication
+## How Microsoft Account Types Impact Authentication
 
 When connecting Azure DevOps to App Builder, authentication is handled via Microsoft Entra ID (formerly Azure Active Directory). Account type directly impacts the success of this connection.
 

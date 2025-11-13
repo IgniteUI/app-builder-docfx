@@ -62,7 +62,7 @@ App Builder から直接 **Azure Web Apps** にアプリをデプロイできる
 - **標準ウェブ アプリ**と**静的ウェブ アプリ**の両方をサポートします。
 - 顧客向けのデモやステージング環境の配置を簡素化します。
 
-# Microsoft アカウント タイプが認証に与える影響
+## Microsoft アカウント タイプが認証に与える影響
 
 Azure DevOps を App Builder に接続する場合、認証は Microsoft Entra ID (旧 Azure Active Directory) を介して処理されます。アカウント タイプは、この接続の成功に直接影響します。
 

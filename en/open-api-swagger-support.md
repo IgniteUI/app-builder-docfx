@@ -39,11 +39,13 @@ API specifications can be written in YAML or JSON. The format is easy to learn a
 At this point you can either specify a _Swagger file URL_ (json/yaml) or _Upload a definition_. Once loaded a _Configure endpoints_ will appear.
 
 The left-side of the _Configure endpoints_ dialog consists of:
+
 - Base URL - can be automatically populated if value for it is present in the file definition
 - Authorization - provide auth key if needed
 - Endpoints tree view - All available endpoints will be loaded here along with its type (GET, PUT, POST and etc.)
 
 The right-side of the _Configure endpoints_ dialog consists of:
+
 - Request url with _Send_ button that can be used to test the connection before selecting it
 - Tab elements for authorization, parameters and headers - if one is required, it will be marked as such.
 - Tab content section showing _info_ messages or required fields. Example image:
@@ -52,6 +54,7 @@ The right-side of the _Configure endpoints_ dialog consists of:
 <p style="text-align:center;">Configure Endpoints Dialog</p>
 
 ## Using data source from local network sources
+
 You can now make requests to a localhost or private networks. For more information, check out the [private networks usage section](using-data-in-your-app.md#using-data-source-from-local-network-sources) part of _Using data in your application_ topic
 
 <img class="box-shadow" src="./images/internal-network-data-source.gif" />
@@ -62,12 +65,12 @@ You can now make requests to a localhost or private networks. For more informati
 
 <div class="divider--half"></div>
 
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [App Builder Interface Overview](interface-overview.md)
-* [Single Page And Navigation](single-page-apps-and-navigation.md)
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [Flex Layouts](flex-layouts/flex-layouts.md)
-* [Running Desktop App](running-desktop-app.md)
-* [Generate app](generate-app/generate-app-overview.md)
-* [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
-* [Indigo.Design Components]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [App Builder Interface Overview](interface-overview.md)
+- [Single Page And Navigation](single-page-apps-and-navigation.md)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [Flex Layouts](flex-layouts/flex-layouts.md)
+- [Running Desktop App](running-desktop-app.md)
+- [Generate app](generate-app/generate-app-overview.md)
+- [Getting Started]({environment:appbuilderBaseUrl}/help/getting-started)
+- [Indigo.Design Components]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)

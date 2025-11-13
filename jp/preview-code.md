@@ -17,9 +17,9 @@ _language: ja
 
 生成されたコードをプレビューし、Angular アプリとして作業をダウンロードすることは、1 つのアプリケーションをデザインした後の最後のステップです。すべてのスタイリングおよびレイアウト プロパティを使用してアプリケーションが生成されると、デザインおよび開発のユーザー ストーリーが完成します。
 
-## コードをプレビューする 
+## コードをプレビューする
 
-プレビュー モードでは、実行中のアプリであるかのようにデザインを操作できます。たとえば、ビューポートのサイズを変更して、コンポーネントの配置がどのように動作するかを確認できます。しかし、開発者に提供する真の価値は、生成されようとしているアプリ コードをプレビューすることです。これを確認するには、コード ビューをオンに切り替えて、デザインと並べて表示します。読み取り専用モードですが、生成されたコードの品質を確認するのに役立ちます。 
+プレビュー モードでは、実行中のアプリであるかのようにデザインを操作できます。たとえば、ビューポートのサイズを変更して、コンポーネントの配置がどのように動作するかを確認できます。しかし、開発者に提供する真の価値は、生成されようとしているアプリ コードをプレビューすることです。これを確認するには、コード ビューをオンに切り替えて、デザインと並べて表示します。読み取り専用モードですが、生成されたコードの品質を確認するのに役立ちます。
 
 ![view-code-Indigo-Design-App-Builder](./images/view-code-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">プレビュー モードでコードを表示する</p>
@@ -35,10 +35,10 @@ _language: ja
 
 <div class="divider--half"></div>
 
-* [アプリを生成する](./generate-app/generate-app-overview.md)
-* [App Builder コンポーネント](indigo-design-app-builder-components.md)
-* [Flex レイアウト](flex-layouts/flex-layouts.md)
-* [Desktop アプリの実行方法](running-desktop-app.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
+- [アプリを生成する](./generate-app/generate-app-overview.md)
+- [App Builder コンポーネント](indigo-design-app-builder-components.md)
+- [Flex レイアウト](flex-layouts/flex-layouts.md)
+- [Desktop アプリの実行方法](running-desktop-app.md)
+- [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
 

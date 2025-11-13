@@ -6,11 +6,11 @@ The **Query Builder** in App Builder allows you to visually define and manage da
 
 Using the Query Builder, you can:
 
-* **Connect to a data source** and visually build queries.
-* **Filter data** based on field values using operators like equals, contains, greater than, etc.
-* **Combine multiple conditions** with logical groups (AND/OR).
-* **Preview query results** to ensure the output matches your expectations.
-* **Bind the query** to UI components such as grids, lists, or charts.
+- **Connect to a data source** and visually build queries.
+- **Filter data** based on field values using operators like equals, contains, greater than, etc.
+- **Combine multiple conditions** with logical groups (AND/OR).
+- **Preview query results** to ensure the output matches your expectations.
+- **Bind the query** to UI components such as grids, lists, or charts.
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/6.png" />
 <p style="text-align:center;">View query execution test</p>
@@ -49,11 +49,11 @@ In App Builder, this logic can be created visually — connecting the SelectedCa
 
 <div class="divider--half"></div>
 
-* [Query Builder Step-by-Step Guide](query-builder-step-by-step-guide.md)
-* [Query Builder Support for API Projects](api-project-query-builder-support.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
-* [App Builder Interface Overview](../interface-overview.md)
-* [Form Builder](form-builder.md)
-* [Grid Remote Paging](grid-remote-paging.md)
-* [Crud Operations](crud-operations.md)
-* [Remote Data Operations](remote-data-operations.md)
+- [Query Builder Step-by-Step Guide](query-builder-step-by-step-guide.md)
+- [Query Builder Support for API Projects](api-project-query-builder-support.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)
+- [App Builder Interface Overview](../interface-overview.md)
+- [Form Builder](form-builder.md)
+- [Grid Remote Paging](grid-remote-paging.md)
+- [Crud Operations](crud-operations.md)
+- [Remote Data Operations](remote-data-operations.md)

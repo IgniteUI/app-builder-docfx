@@ -8,6 +8,7 @@ _language: ja
 # API プロジェクト向けのクエリ ビルダーのサポート
 
 ## 概要
+
 このガイドでは、ユーザー定義のクエリを有効にするために、API プロジェクトにクエリ ビルダー モデルとユーティリティを実装する方法について説明します。実装には、コントローラーの作成、クエリ ビルダー モデルの定義、およびこれらのクエリから SQL ステートメントを実行および生成するためのユーティリティの追加が含まれます。結果として得られるカスタマイズにより、ユーザーはサブクエリのサポート、フィルタリング、論理演算子、フィールド選択を使用して複雑なクエリを構築し、データ ソースに対して効率的に実行できるようになります。
 
 この実装はすでに [NorthwindAPI REST API](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder) プロジェクトの一部になっています。これらは NorthwindAPI QueryBuilderController と NorthwindAPI QueryBuilder モデルの例です: [NorthwindAPI QueryBuilderController](https://github.com/IgniteUI/NorthwindAPI/blob/main/NorthwindCRUD/Controllers/QueryBuilderController.cs) と [NorthwindAPI QueryBuilder モデル](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder)。
@@ -61,9 +62,9 @@ Controllers ディレクトリに QueryBuilderController.cs という名前の�
     }
 ```
 
-*   目的: POST リクエストで Query オブジェクトを受け取り、QueryExecutor に処理を委ねます。
-*   依存性の注入: QueryExecutor を注入してクエリの処理を実行します (DI コンテナーで設定)。
-    
+- 目的: POST リクエストで Query オブジェクトを受け取り、QueryExecutor に処理を委ねます。
+- 依存性の注入: QueryExecutor を注入してクエリの処理を実行します (DI コンテナーで設定)。
+
 完全な例については、[NorthwindAPI QueryBuilderController](https://github.com/IgniteUI/NorthwindAPI/blob/main/NorthwindCRUD/Controllers/QueryBuilderController.cs) を参照してください。
 
 
@@ -83,9 +84,9 @@ public enum FilterType
 }
 ```
 
-*   And: フィルターを論理 AND で結合します。
-*   Or: フィルターを論理 OR で結合します。
-    
+- And: フィルターを論理 AND で結合します。
+- Or: フィルターを論理 OR で結合します。
+
 
 ### Query クラス
 
@@ -101,10 +102,10 @@ public class Query
 }
 ```
 
-*   Entity: クエリの対象となるエンティティ/テーブル (例: "Products")。
-*   ReturnFields: 結果に含めるフィールド (例: ["Name", "Price"]、またはすべてを表す ["*"])。
-*   Operator: フィルターを組み合わせるための論理演算子 (And または Or)。
-*   FilteringOperands: 条件を定義する QueryFilter オブジェクトの配列。
+- Entity: クエリの対象となるエンティティ/テーブル (例: "Products")。
+- ReturnFields: 結果に含めるフィールド (例: ["Name", "Price"]、またはすべてを表す ["*"])。
+- Operator: フィルターを組み合わせるための論理演算子 (And または Or)。
+- FilteringOperands: 条件を定義する QueryFilter オブジェクトの配列。
 
 ### QueryFilter クラス
 
@@ -125,14 +126,14 @@ public class QueryFilter
 }
 ```
 
-*   FieldName: フィルタリングするフィールド (例: "Price")。
-*   IgnoreCase: フィルターが大文字と小文字を区別するかどうか。
-*   Condition: 比較タイプ (例: "Equals"、"GreaterThan")。
-*   SearchVal: 比較する値 (例: 100)。
-*   SearchTree: サブクエリのネストされたクエリ。
-*   Operator: 複合条件の論理演算子。
-*   FilteringOperands: ネストされたフィルターまたは複合フィルターの配列。
-    
+- FieldName: フィルタリングするフィールド (例: "Price")。
+- IgnoreCase: フィルターが大文字と小文字を区別するかどうか。
+- Condition: 比較タイプ (例: "Equals"、"GreaterThan")。
+- SearchVal: 比較する値 (例: 100)。
+- SearchTree: サブクエリのネストされたクエリ。
+- Operator: 複合条件の論理演算子。
+- FilteringOperands: ネストされたフィルターまたは複合フィルターの配列。
+
 ### QueryFilterCondition クラス
 
 使用可能なフィルタリング条件を定義します。
@@ -146,9 +147,9 @@ public class QueryFilterCondition
 }
 ```
 
-*   Name: 条件識別子 (例: "Equals"、"Contains")。
-*   IsUnary: 単一オペランド条件の場合は True です (例: "IsNull")。
-*   IconName: UI アイコン識別子 (オプション)。
+- Name: 条件識別子 (例: "Equals"、"Contains")。
+- IsUnary: 単一オペランド条件の場合は True です (例: "IsNull")。
+- IconName: UI アイコン識別子 (オプション)。
 
 詳細な実装は、[NorthwindAPI QueryBuilder モデル](https://github.com/IgniteUI/NorthwindAPI/tree/main/NorthwindCRUD/QueryBuilder)を参照してください。
 
@@ -234,9 +235,9 @@ private static Expression BuildConditionExpression<TEntity>(DataContext db, IQue
 ...
 ```
 
-*   SELECT 句: フィールド選択を構築するか、デフォルトで * に設定します。
-*   WHERE 句: フィルター条件を AND/OR 演算子で組み合わせます。
-*   注: 特定の条件をサポートするには、BuildCondition を実装します (例: "Equals" → =, "Contains" → LIKE)。
+- SELECT 句: フィールド選択を構築するか、デフォルトで * に設定します。
+- WHERE 句: フィルター条件を AND/OR 演算子で組み合わせます。
+- 注: 特定の条件をサポートするには、BuildCondition を実装します (例: "Equals" → =, "Contains" → LIKE)。
 
 ## 使用例の結果
 
@@ -318,7 +319,7 @@ private static Expression BuildConditionExpression<TEntity>(DataContext db, IQue
         "discontinued"
     ]
 }
-``` 
+```
 
 **SQL 出力**
 
@@ -332,7 +333,7 @@ AND productId IN (
     WHERE quantity >= {{quantityGreaterThan}} 
     AND quantity <= {{quantityLessThan}} 
 )
-``` 
+```
 
 リクエスト本文に filteringExpressionTree を含む POST リクエスト
 
@@ -349,12 +350,12 @@ https://data-northwind.appbuilder.dev/QueryBuilder/ExecuteQuery
 
 <div class="divider--half"></div>
 
-* [クエリ ビルダーの使用方法のステップ バイス テップ ガイド](query-builder-step-by-step-guide.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [App Builder インターフェイスの概要](../interface-overview.md)
-* [フォーム ビルダー](form-builder.md)
-* [グリッド リモート ページング](grid-remote-paging.md)
-* [CRUD 操作](crud-operations.md)
-* [リモート データ操作](remote-data-operations.md)
-* [Flex レイアウト](../flex-layouts/flex-layouts.md)
-* [Desktop アプリの実行方法](../running-desktop-app.md)
+- [クエリ ビルダーの使用方法のステップ バイス テップ ガイド](query-builder-step-by-step-guide.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [App Builder インターフェイスの概要](../interface-overview.md)
+- [フォーム ビルダー](form-builder.md)
+- [グリッド リモート ページング](grid-remote-paging.md)
+- [CRUD 操作](crud-operations.md)
+- [リモート データ操作](remote-data-operations.md)
+- [Flex レイアウト](../flex-layouts/flex-layouts.md)
+- [Desktop アプリの実行方法](../running-desktop-app.md)

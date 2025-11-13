@@ -6,6 +6,7 @@ _language: ja
 ---
 
 # Figma UI キット
+
 最新の Indigo.Design UI Kit for Material は、Ignite UI for Angular、Blazor、および Web Components の UI ツールセットに対応し、デザイン開発プロセスを完全に再定義します。コンポーネント、パターン、スタイリング、およびカスタマイズ オプションの強力なセットを利用できるようになり、プロトタイプまたは Figma で設計された任意のタイプの画面をインポートして、クリーンなコードに変換できるようになりました。最も素晴らしい点は、すべての静的なデザインが、シングル クリックで実際の UI コンポーネント、ブランディング、およびスタイリングを備えたインタラクティブでレスポンシブなアプリになることです。
 
 > [!NOTE]
@@ -15,6 +16,7 @@ _language: ja
 <p style="width: 100%; text-align:center;">Figma UI キット</p>
 
 ## Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてのキットの使用
+
 Indigo.Design UI Kit for Material は、ユーザーが選択した Figma プランに関係なく、誰でも使用できます。ただし、注意すべき特定の制限があります。
 
 特定のデバイスまたは画面サイズ用にデザインしている場合は、デザイン用のコンテナーを作成することをお勧めします。ここでフレームの出番です。フレームを使用すると、キャンバスの領域を選択してデザインを作成できます。
@@ -23,6 +25,7 @@ Indigo.Design UI Kit for Material は、ユーザーが選択した Figma プラ
 <p style="width: 100%; text-align:center;">フレームを追加する</p>
 
 ### Figma プロフェッショナル ユーザー アカウント
+
 Figma プロフェッショナル アカウントのユーザーの場合、Indigo.Design UI Kit for Material を使用する方法は、Figma コミュニティから UI キットの複製を作成するだけです。ファイルを複製すると (Get a copy)、[Recent files] に配置されます。
 
 <img class="box-shadow" src="../images/ui-kits/figma/1.png" />
@@ -68,20 +71,21 @@ Figma スターターのユーザーの場合も、UI キットの使用方法�
 Figma プラグイン、UI キット、およびサンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
 
 または、以下の直接リンクから:
+
 - [Figma UI キット](https://www.figma.com/@infragistics)
-- [Figma 用プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) 
+- [Figma 用プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin)
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 
 ## 既知の問題と制限
+
 - ダーク モードは、App Builder へのインポート時に解析されません。現在、ダーク モードの定義やオプションは提供されていません。
 - Figma のファイル モデルは閉じられています。ファイル自体のコンテンツはバイナリであり、App Builder は `.fig` ファイルから直接読み取ることができません。`import story` を実現するには、Figma アプリを開き、プラグイン API ([Indigo.Design プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin)) を使用してファイル モデルとそのコンテンツを読み取る必要があります。ここから、内部ヒューリスティックが AppBuilder の入力モデルを構築し、インポート ストーリーの取り込みを完成させることができます。
 - [Figma スターター ユーザーと Figma プロフェッショナル ユーザーとしてキットを使用した場合の違い](#figma-スターター-ユーザーと-figma-プロフェッショナル-ユーザーとしてのキットの使用)。
-
 
 
 ## その他のリソース
 
 <div class="divider--half"></div>
 
-* [デザインからコード作成のストーリー](../design-to-code-story.md)
-* [Sketch UI キット](sketch.md)
+- [デザインからコード作成のストーリー](../design-to-code-story.md)
+- [Sketch UI キット](sketch.md)

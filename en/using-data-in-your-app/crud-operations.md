@@ -5,6 +5,7 @@ _keywords: App builder, Infragistics, Data Sources, Data Binding
 ---
 
 # Grid CRUD
+
 In this topic we'll show how to start using CRUD operations in the Grid as part of App Builder.
 
 App Builder is now providing a UI for the users to perform CRUD operations from within the grid. This is quite easy as the Grid provides Cell Editing, Row Editing, Row Adding and Row Deleting UI out of the box. We are going to use custom [Northwind CRUD API swagger definition](https://data-northwind.indigo.design/swagger/v1/swagger.json) and [UI](https://data-northwind.indigo.design/swagger/index.html) ([more examples here](https://github.com/IgniteUI/app-builder-docfx/wiki/CRUD-API-Examples#northwind-crud-api)).
@@ -93,9 +94,9 @@ We generate a service that can be reused by any component that needs to perform 
 
 <div class="divider--half"></div>
 
-* [App Builder Components](../indigo-design-app-builder-components.md)
-* [App Builder Interface Overview](../interface-overview.md)
-* [Single Page And Navigation](../single-page-apps-and-navigation.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
-* [Flex Layouts](../flex-layouts/flex-layouts.md)
-* [Running Desktop App](../running-desktop-app.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)
+- [App Builder Interface Overview](../interface-overview.md)
+- [Single Page And Navigation](../single-page-apps-and-navigation.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)
+- [Flex Layouts](../flex-layouts/flex-layouts.md)
+- [Running Desktop App](../running-desktop-app.md)

@@ -7,7 +7,7 @@ _language: ja
 
 # 単一ページアプリとナビゲーション
 
-App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。 
+App Builder のもう 1 つの機能は、単一ページのアプリとナビゲーションです。ページに基づいたデザイン アプローチとは異なり、App Builder では、ユーザーのナビゲート方法に基づいて挿入または切り替えられる個別のビューを作成できます。このアクションを確認するには、[+ 新しいアプリ] ボタンを使用して新しいアプリを作成し、定義された上部ナビゲーションを表示するデフォルトのレイアウトの 1 つを選択します。
 
 <img src="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="./images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">メニュー ボタンからレイアウト プリセットを追加し、[新しいアプリの作成] を選択する</p>
@@ -16,7 +16,7 @@ App Builder のもう 1 つの機能は、単一ページのアプリとナビ�
 
 ## 親ビュー vs. 子ビュー
 
-ここに表示されているのは [Master View] です。また、ツールボックスの [ビュー] リストを見ると、その下に 2 つの子ビューがネストされていることがわかります。各子ビューは、プライマリ ツールバー領域のナビゲーション ボタンに対応しています。アプリをプレビューすると、[View 1] をクリックすると、[View 1] 内で利用可能なコンテンツが表示され、[View 2] でも同様に表示されます。 
+ここに表示されているのは [Master View] です。また、ツールボックスの [ビュー] リストを見ると、その下に 2 つの子ビューがネストされていることがわかります。各子ビューは、プライマリ ツールバー領域のナビゲーション ボタンに対応しています。アプリをプレビューすると、[View 1] をクリックすると、[View 1] 内で利用可能なコンテンツが表示され、[View 2] でも同様に表示されます。
 
 ![top-navigation-interactions-preview-Indigo-Design-App-Builder](./images/top-navigation-interactions-preview-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">ビューを切り替える - レイアウト プリセット</p>
@@ -36,9 +36,9 @@ Views container には、アプリの読み込み時に 2 つの子ビューの�
 ![views-interaction-Indigo-Design-App-Builder](./images/views-interaction-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">ビューの変更の操作 - サンプル アプリ</p>
 
-## ナビゲーションの追加 (ルーティング) 
+## ナビゲーションの追加 (ルーティング)
 
-ナビゲーションを子ビューに接続するために、[インタラクション] セクションのボタンへナビゲーション アクションを追加できます。現在、[次へ移動]、[開く / 閉じる] および [表示 / 非表示] (Nav Drawer、Dropdown、Select などのコンポーネント用) アクションを提供していますが、将来のリリースでさらにアクションを追加する予定です。 
+ナビゲーションを子ビューに接続するために、[インタラクション] セクションのボタンへナビゲーション アクションを追加できます。現在、[次へ移動]、[開く / 閉じる] および [表示 / 非表示] (Nav Drawer、Dropdown、Select などのコンポーネント用) アクションを提供していますが、将来のリリースでさらにアクションを追加する予定です。
 
 
 <img src="./images/change-navigation-Indigo-Design-App-Builder.png" srcset="./images/change-navigation-Indigo-Design-App-Builder-@2x.png
@@ -53,8 +53,8 @@ Views container には、アプリの読み込み時に 2 つの子ビューの�
 
 <div class="divider--half"></div>
 
-* [コードをプレビューしてアプリを生成する](preview-code.md)
-* [Angular ルーティング (英語)](https://angular.io/start/start-routing)
-* [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
-* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
-* [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
+- [コードをプレビューしてアプリを生成する](preview-code.md)
+- [Angular ルーティング (英語)](https://angular.io/start/start-routing)
+- [はじめに]({environment:appbuilderBaseUrl}/help/getting-started)
+- [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
+- [Indigo.Design コンポーネント]({environment:infragisticsBaseUrl}/products/indigo-design/help/components/components-overview)
