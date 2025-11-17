@@ -6,22 +6,26 @@ _language: ja
 ---
 
 # App Builder AI を使用した作業の開始
+
 このガイドでは、App Builder で新しく導入された AI を活用したコンテンツ生成について説明します。
 
 AI 機能は現在**プレビュー**としてのみ利用可能であり、まだ最終的なデザインではありません。これらの AI 機能は現在も改善中であり、フィードバックを収集することを目的としています。そのため、完全に洗練されておらず、ユーザーの入力に基づいて進化する可能性があります。**プレビュー**機能にはここからアクセスできます: https://preview.appbuilder.dev/
 
 ## ビューの生成
+
 App Builder の AI を活用したビューの生成機能は、従来のレイアウト ピッカーに代わる強力な選択肢を提供します。フリーテキストのユーザー プロンプトと複数のプロンプト パターンを活用することで、ユーザーは高度にカスタマイズされたビューを生成し、それを完全に機能するアプリケーションに自動的に変換できます。このアプローチは、アプリ ビューの作成を加速するだけでなく、UI デザインを簡素化し、さまざまなレベルの技術レベルのユーザーがインターフェースを生成できるようにします。
 
 <img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/login-screen.png" />
 <p style="text-align:center;">ログイン画面</p>
 
 ### プロンプト ベースの生成
+
 **手順 1**: GenAI ダイアログにフリーテキスト プロンプトを入力します。
 
 **手順 2**: 生成された結果を **[プレビュー]** セクションで表示します。
 
 **手順 3**: [プレビュー] セクションのプラス ボタンを使用して操作を適用します。
+
 - **コンテンツの追加** – 現在のビューの最後にコンテンツを追加します。
 - **新しいビューの作成** – 新しく生成されたコンテンツを別のビュー ページに追加します。
 - **コンテンツの置換** – 現在のビューで選択されたコンポーネントを生成された出力に置き換えます。別のものに変換したいセクション/レイアウト/コンポーネントを選択し、もう一度 GenAI ダイアログを開いてプロンプトを配置し、[追加] ボタン -> [コンテンツの置換] オプションをクリックします。
@@ -59,6 +63,7 @@ GenAI ダイアログの [表示] タブのボタンを使用して画像をア�
 #### 例 1: ログイン画面
 
 プロンプト:
+
 ```
 Create a detailed login screen
 ```
@@ -70,24 +75,24 @@ AI 出力 - Angular テンプレート:
 
 ```html
 <div class="column-layout group">
-	 <h1 class="content">Login</h1>
-	 <p class="content">Enter your username and password to log in.</p>
-	 <form class="column-layout form">
-		  <igx-input-group type="box" class="input">
-				<input type="text" placeholder="Enter your username" required igxInput />
-				<label igxLabel>Username</label>
-				<igx-hint>Username</igx-hint>
-		  </igx-input-group>
-		  <igx-input-group type="box" class="input">
-				<input type="password" placeholder="Enter your password" required igxInput />
-				<label igxLabel>Password</label>
-				<igx-hint>Password</igx-hint>
-		  </igx-input-group>
-		  <igx-checkbox labelPosition="after" class="checkbox">Remember me</igx-checkbox>
-		  <button igxButton="contained" type="button" igxRipple class="button">Login</button>
-		  <a href="#" target="_self" class="ig-typography__body-1 hyperlink">Forgot password?</a>
-		  <a href="#" target="_self" class="ig-typography__body-1 hyperlink">Create an account</a>
-	 </form>
+  <h1 class="content">Login</h1>
+  <p class="content">Enter your username and password to log in.</p>
+  <form class="column-layout form">
+    <igx-input-group type="box" class="input">
+    <input type="text" placeholder="Enter your username" required igxInput />
+    <label igxLabel>Username</label>
+    <igx-hint>Username</igx-hint>
+    </igx-input-group>
+    <igx-input-group type="box" class="input">
+    <input type="password" placeholder="Enter your password" required igxInput />
+    <label igxLabel>Password</label>
+    <igx-hint>Password</igx-hint>
+    </igx-input-group>
+    <igx-checkbox labelPosition="after" class="checkbox">Remember me</igx-checkbox>
+    <button igxButton="contained" type="button" igxRipple class="button">Login</button>
+    <a href="#" target="_self" class="ig-typography__body-1 hyperlink">Forgot password?</a>
+    <a href="#" target="_self" class="ig-typography__body-1 hyperlink">Create an account</a>
+  </form>
 </div>
 ```
 
@@ -109,35 +114,35 @@ AI 出力 - Angular テンプレート:
 
 ```html
 <div class="row-layout group">
-		<h2 class="content">
-			Vehicle Selection
-		</h2>
-		<igx-select type="border" placeholder="Select Make" required class="select">
-			<igx-select-item value="Toyota">
-				Toyota
-			</igx-select-item>
-			<igx-select-item value="Honda">
-				Honda
-			</igx-select-item>
-			<igx-select-item value="Ford">
-				Ford
-			</igx-select-item>
-			<label igxLabel>Make</label>
-			<igx-hint>Select your car's make</igx-hint>
-		</igx-select>
-		<igx-select type="border" placeholder="Select Model" required class="select">
-			<igx-select-item value="Corolla">
-				Corolla
-			</igx-select-item>
-			<igx-select-item value="Civic">
-				Civic
-			</igx-select-item>
-			<igx-select-item value="Mustang">
-				Mustang
-			</igx-select-item>
-			<label igxLabel>Model</label>
-			<igx-hint>Select your car's model</igx-hint>
-		</igx-select>
+  <h2 class="content">
+   Vehicle Selection
+  </h2>
+  <igx-select type="border" placeholder="Select Make" required class="select">
+   <igx-select-item value="Toyota">
+    Toyota
+   </igx-select-item>
+   <igx-select-item value="Honda">
+    Honda
+   </igx-select-item>
+   <igx-select-item value="Ford">
+    Ford
+   </igx-select-item>
+   <label igxLabel>Make</label>
+   <igx-hint>Select your car's make</igx-hint>
+  </igx-select>
+  <igx-select type="border" placeholder="Select Model" required class="select">
+   <igx-select-item value="Corolla">
+    Corolla
+   </igx-select-item>
+   <igx-select-item value="Civic">
+    Civic
+   </igx-select-item>
+   <igx-select-item value="Mustang">
+    Mustang
+   </igx-select-item>
+   <label igxLabel>Model</label>
+   <igx-hint>Select your car's model</igx-hint>
+  </igx-select>
 ```
 
 アプリのプレビューは次のとおりです。
@@ -151,23 +156,24 @@ AI 出力 - Angular テンプレート:
 > これらのパターンを推奨事項として考慮し、通常のプロンプトの説明のフレーズをいつでも使用できます。
 
 #### パターン 1: レイアウトとコンポーネントの組み合わせプロンプト
+
 レイアウトと詳細なコンポーネント構成を組み合わせた、より構造化された出力の場合、複数のセクションを含む全体的な画面デザインを指定できます。次に例を示します。
 
 ```
 A login screen with:
 row layout
-	col layout
-		title: Login
-		text: Please enter your email and password to sign in
-		form:
-			input: email
-			input: password
-			switch: remember me
-			button: login
-			row layout
-				text: Dont have an account?
-				link: sign up
-	image
+ col layout
+  title: Login
+  text: Please enter your email and password to sign in
+  form:
+   input: email
+   input: password
+   switch: remember me
+   button: login
+   row layout
+    text: Dont have an account?
+    link: sign up
+ image
 ```
 
 結果:
@@ -175,7 +181,7 @@ row layout
 <img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/prompt-1.png" />
 <p style="text-align:center;">ログイン画面</p>
 
-#### プロンプト 2:
+#### プロンプト 2
 
 構造化された同等のプロンプト
 
@@ -183,14 +189,15 @@ row layout
 Generate a view with this layout:
 nav bar
 horizontal group
-	nav drawer (isOpen=true, pin=true)
-		5 items
-	vertical group
-		title (color=red)
-		horizontal group
-			4 cards with media
+ nav drawer (isOpen=true, pin=true)
+  5 items
+ vertical group
+  title (color=red)
+  horizontal group
+   4 cards with media
 
 ```
+
 結果:
 
 <img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/prompt-2.png" />
@@ -214,6 +221,7 @@ horizontal group
 ### 画像の生成
 
 **手順:**
+
 1. **AIGen** ダイアログを開き、**[Image]** タブに移動します。
 2. 画像を説明するプロンプトを入力するか、**プロンプトの例**を使用します。
 3. 結果に満足したら、**[追加]** をクリックして**画像ライブラリ**に保存します。
@@ -225,6 +233,7 @@ horizontal group
 ### データ ソースの生成
 
 **手順:**
+
 1. **AIGen** ダイアログを開き、**[Data]** タブに移動します。
 2. 必要なデータを説明するプロンプトを入力します。
 3. インスピレーションを得るには、**[プロンプトの例]** ボタンをクリックしてください。
@@ -241,12 +250,13 @@ horizontal group
 <p style="text-align:center;">ご意見の送信</p>
 
 ## その他のリソース
+
 <div class="divider--half"></div>
 
-* [App Builder インターフェイスの概要](../interface-overview.md)
-* [単一ページとナビゲーション](../single-page-apps-and-navigation.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [Flex レイアウト](../flex-layouts/flex-layouts.md)
-* [Desktop アプリの実行方法](../running-desktop-app.md)
-* [アプリの生成](../generate-app/generate-app-overview.md)
-* [Indigo.Design はじめに]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)
+- [App Builder インターフェイスの概要](../interface-overview.md)
+- [単一ページとナビゲーション](../single-page-apps-and-navigation.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [Flex レイアウト](../flex-layouts/flex-layouts.md)
+- [Desktop アプリの実行方法](../running-desktop-app.md)
+- [アプリの生成](../generate-app/generate-app-overview.md)
+- [Indigo.Design はじめに]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)

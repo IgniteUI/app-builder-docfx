@@ -16,9 +16,9 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 Previewing generated code and downloading your work as an Angular app is the final step after designing one application. The design and development user story will be completed once the application is generated with all styling and layout properties.
 
-## Preview Code 
+## Preview Code
 
-The preview mode allows you to interact with your design as if it's a running app. For instance, you can resize the viewport to see how the positioning for components behave. But the real value it offers to developers is to preview the app code that is about to be generated. To see this, you can toggle the code-view ON and see it side-by-side with the design. It's in read-only mode, but will help you review the quality of code produced. 
+The preview mode allows you to interact with your design as if it's a running app. For instance, you can resize the viewport to see how the positioning for components behave. But the real value it offers to developers is to preview the app code that is about to be generated. To see this, you can toggle the code-view ON and see it side-by-side with the design. It's in read-only mode, but will help you review the quality of code produced.
 
 ![view-code-Indigo-Design-App-Builder](./images/view-code-Indigo-Design-App-Builder.gif)
 <p style="text-align:center;">View code in the Preview mode</p>
@@ -35,10 +35,10 @@ Moreover, you are skipping the hand-off where developers have to inspect the vis
 
 <div class="divider--half"></div>
 
-* [Generate App](./generate-app/generate-app-overview.md)
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [Flex Layouts](flex-layouts/flex-layouts.md)
-* [Running Desktop App](running-desktop-app.md)
-* [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
-* [App Builder Components]({environment:appbuilderBaseUrl}/components)
+- [Generate App](./generate-app/generate-app-overview.md)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [Flex Layouts](flex-layouts/flex-layouts.md)
+- [Running Desktop App](running-desktop-app.md)
+- [Indigo.Design Getting Started](https://www.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder Components]({environment:appbuilderBaseUrl}/components)
 

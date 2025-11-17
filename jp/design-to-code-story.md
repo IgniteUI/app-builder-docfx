@@ -18,6 +18,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 ## Indigo.Design システム
 
 [Indigo.Design システム](https://jp.infragistics.com/products/appbuilder/ui-toolkit)は、実際の UI コントロールおよびコンポーネントにマップする UI キットと、これまでにない生産性を提供するツールを独自に組み合わせており、デジタル製品チームがピクセル パーフェクトなデザインからプロダクション対応のコードに移行するのを支援します。デザインしたものはすべて実際の使用可能なコードに変換できるため、デザイナーと開発者間のハンドオフが簡単になります。
+
 ### デザイン システムの概要
 
 通常、デザイン システムは、ユーザー インターフェイスの構築方法に一貫性を持たせるための一連のデザイン原則と資産のセットとして説明されます。デザイン システムを使用する 3 つの主な利点:
@@ -27,7 +28,9 @@ App Builder を使用して、ワンク リックでデザインからコード�
 - デザイン プロセスを高速化し、一貫性を大幅に向上します。
 
 ### デザインをコードに変換
+
 ファイルのインポートまたはお気に入りのデザイン ツールを使用します。
+
 #### ファイルのインポート
 
 以下は、App Builder を使ってドラッグアンドドロップでデザインからコードを作成する 4 つの簡単な手順です。
@@ -55,6 +58,7 @@ App Builder を使用して、ワンク リックでデザインからコード�
 #### プラグインによる公開
 
 このプラグインは、デザインを App Builder に公開します。以下の手順でダウンロードできます。
+
 1. App Builder を開きます。
 2. [新しいアプリケーションの作成] をクリックします。
 3. [… のアセットを取得する] をクリックします。
@@ -74,15 +78,16 @@ App Builder を使用して、ワンク リックでデザインからコード�
 プラグイン、UI キット、サンプル アプリは[アセットのダウンロード ページ](https://cloud.indigo.design/resources/figma)からダウンロードできます。
 
 または、以下の直接リンクから:
+
 - [Figma UI キット](https://www.figma.com/@infragistics)
-- [Figma 用プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) 
+- [Figma 用プラグイン](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin)
 - [サンプル アプリ](https://download.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps_Figma.zip)
 - [Sketch UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)
 - [サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)
- 
+
 ## その他のリソース
 
 <div class="divider--half"></div>
 
-* [Figma UI キット](ui-kits/figma.md)
-* [Sketch UI キット](ui-kits/sketch.md)
+- [Figma UI キット](ui-kits/figma.md)
+- [Sketch UI キット](ui-kits/sketch.md)

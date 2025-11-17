@@ -10,13 +10,14 @@ _language: ja
 このガイドでは、データ API ビルダーを任意のデータベースでセットアップして使用するための手順を段階的に説明します。サポートされているデータベースの[完全なリスト](https://learn.microsoft.com/ja-jp/azure/data-api-builder/overview) (SQL Server、MySQL、PostgreSQL など) も示します。ネイティブ OpenAPI、Swagger for REST エンドポイントを作成し、データベースを効果的に管理するには、次の手順に従ってください。
 
 主要機能
+
 - リレーショナル テーブル、ビュー、ストアド プロシージャーのサポート
 - 複数のデータ ソースを同時にサポート
 - REST エンドポイント
-    - POST、GET、PUT、PATCH、DELETE
-    - フィルタリング、並べ替え、ページネーション
-    - メモリ内キャッシュ
-    - OpenAPI のサポート
+  - POST、GET、PUT、PATCH、DELETE
+  - フィルタリング、並べ替え、ページネーション
+  - メモリ内キャッシュ
+  - OpenAPI のサポート
 - 専用 CLI による簡単な開発
 - オープン ソースで無料
 
@@ -45,6 +46,7 @@ dotnet tool update --global Microsoft.DataApiBuilder
 詳細については、[公式ドキュメント](https://learn.microsoft.com/ja-jp/azure/data-api-builder/how-to-install-cli)を参照してください。
 
 ## 2. データベースの構成
+
 データベースが設定されていることを確認してください。SQL Server Management Studio、MySQL Workbench、その他のデータベース管理ツールなどのツールを使用して、データベースを作成および構成できます。このガイドでは、MSSQL データベースの例を紹介します。
 
 ## 3. 構成ファイルを通じて作成されたデータ API ビルダーの REST エンドポイント
@@ -68,6 +70,7 @@ dab add Products --source "Products" --permissions "anonymous:*"
 ```
 
 ### 現在の dab-config.json 構成ファイルを確認します
+
 ファイルには、単一のエンティティ (REST API エンドポイント) を含む API のベースライン実装が含まれている必要があります。
 
 > [!NOTE]
@@ -140,13 +143,14 @@ dab add Products --source "Products" --permissions "anonymous:*"
 ```
 
 ## 4. REST API をテストします
+
 次に、データ API ビルダー ツールを起動して、すべてが正しく設定されていることを確認します。
 
 ```
 dab start
 ```
 
-出力。API が実行されると、http://localhost:5000/swagger/index.html でアクセスできます。 
+出力。API が実行されると、http://localhost:5000/swagger/index.html でアクセスできます。
 
 ```
 Successfully completed runtime initialization.
@@ -165,16 +169,17 @@ info: Microsoft.Hosting.Lifetime[0]
 
 [ステップバイステップのチュートリアル](https://www.appbuilder.dev/ja/help/using-data-in-your-app#swagger-データ-ソースを追加する)については、[このトピック](https://www.appbuilder.dev/ja/help/using-data-in-your-app#swagger-データ-ソースを追加する)を参照してください。
 
-<img class="box-shadow" src="../images/using-data-in-your-app/DAB-data-souce-example.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/DAB-data-source-example.png" />
 <p style="text-align:center;">App Builder の DAB</p>
 
 ## 6.よくある問題のトラブルシューティング
+
 よくある問題とその解決策:
 
 - App Builder では CRUD が Grid でのみ動作します。Form コンポーネントでは、現在進行中の OpenAPI 仕様の一部が不足しているため、完全には動作しません。
 
 - CORS の問題 - CORS を有効にする方法:
- 
+
 ```
 "host": {
     "cors": {
@@ -189,6 +194,7 @@ info: Microsoft.Hosting.Lifetime[0]
     "mode": "development"
 }
 ```
+
 - OpenID Connect サポート提案 - [data-api-builder GitHub の問題](https://github.com/Azure/data-api-builder/issues/2226)。
 
 - DELETE エンドポイントが機能しない?
@@ -202,12 +208,12 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <div class="divider--half"></div>
 
-* [API プロジェクト向けの Query Builder のサポート](api-project-query-builder-support.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [App Builder インターフェイスの概要](../interface-overview.md)
-* [フォーム ビルダー](form-builder.md)
-* [グリッド リモート ページング](grid-remote-paging.md)
-* [CRUD 操作](crud-operations.md)
-* [リモート データ操作](remote-data-operations.md)
-* [Flex レイアウト](../flex-layouts/flex-layouts.md)
-* [Desktop アプリの実行方法](../running-desktop-app.md)
+- [API プロジェクト向けの Query Builder のサポート](api-project-query-builder-support.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [App Builder インターフェイスの概要](../interface-overview.md)
+- [フォーム ビルダー](form-builder.md)
+- [グリッド リモート ページング](grid-remote-paging.md)
+- [CRUD 操作](crud-operations.md)
+- [リモート データ操作](remote-data-operations.md)
+- [Flex レイアウト](../flex-layouts/flex-layouts.md)
+- [Desktop アプリの実行方法](../running-desktop-app.md)

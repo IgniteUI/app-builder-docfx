@@ -56,6 +56,8 @@
       - name: Form Builder
         href: ../using-data-in-your-app/form-builder.md
       - name: Query Builder
+        href: ../using-data-in-your-app/query-builder-overview.md
+        updated: false
         items:
         - name: サーバー側フィルタリングの実装
           href: ../using-data-in-your-app/api-project-query-builder-support.md

@@ -81,7 +81,7 @@ shellTheme: {
     },
 }
 ```
- 
+
 ### docker run コマンドのパラメーターを通じて (オンプレミスのコンテキスト)
 
 ```sh
@@ -89,9 +89,10 @@ docker run --restart always -p 80:5000 -e AuthSettings__ClientId="1234-4657-00"
 ```
 
 ## その他のリソース
+
 <div class="divider--half"></div>
 
-* [OpenID Connect による認証](auth-with-openid-connect-o-auth.md)
-* [外部リソースのホワイトリスト化](external-references-for-whitelisting.md)
-* [オンプレミスの前提条件とインストールの概要](../on-prem-prerequisites-and-installation.md)
-* [App Builder インターフェイスの概要](../interface-overview.md)
+- [OpenID Connect による認証](auth-with-openid-connect-o-auth.md)
+- [外部リソースのホワイトリスト化](external-references-for-whitelisting.md)
+- [オンプレミスの前提条件とインストールの概要](../on-prem-prerequisites-and-installation.md)
+- [App Builder インターフェイスの概要](../interface-overview.md)

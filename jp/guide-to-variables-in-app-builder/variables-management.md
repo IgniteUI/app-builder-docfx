@@ -25,6 +25,7 @@ App Builder では、変数は主に次の 2 つのカテゴリに分類され�
 ## 変数の作成方法
 
 ### インタラクション セクション
+
 変数を利用する特定のコンポーネント イベントに関連付けられた変数は、[インタラクション] セクションを通じて管理します。
 
 たとえば、Financial -> Box Office Revenue テーブルにバインドされたコンボを追加し、変数の設定アクションを使用して選択変更イベント ハンドラーを追加した場合、変数フィールドを選択して [+ 新しい変数] ボタンを使用できます。
@@ -58,7 +59,7 @@ App Builder では、変数は主に次の 2 つのカテゴリに分類され�
 
 以下に、変数の利用について詳しく説明します。
 
-## エンドポイントからのデータの初期化 
+## エンドポイントからのデータの初期化
 
 データを変数に保存し、任意のコンポーネントのデータ コンテキストで使用します。変数の型は、選択したエンドポイントのデータ スキーマに基づいて自動的に決定されます。
 
@@ -92,10 +93,10 @@ App Builder での変数管理のこれらの側面を習得することで、�
 
 <div class="divider--half"></div>
 
-* [コンポーネント プロパティのバインド](component-properties-binding.md)
-* [URL パラメーターのバインド](url-parameters-binding.md)
-* [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
-* [イベントとアクションの操作](working-with-events-and-actions.md)
-* [マスター/詳細の概念](../master-detail/master-detail.md)
-* [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [コンポーネント プロパティのバインド](component-properties-binding.md)
+- [URL パラメーターのバインド](url-parameters-binding.md)
+- [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
+- [イベントとアクションの操作](working-with-events-and-actions.md)
+- [マスター/詳細の概念](../master-detail/master-detail.md)
+- [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)

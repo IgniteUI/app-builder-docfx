@@ -25,15 +25,15 @@ App Builder でコンポーネント プロパティにバインドするには�
 <img src="../images/state-and-context/4.png" srcset="../images/state-and-context/4.png 2x" />
 <p style="text-align:center;">配列型の変数</p>
 
-2. **配列変数を作成する**: 「Box Office Revenue」 型の空の配列変数を作成します。データ タイプは、Combo コンポーネントのデータ ソースに基づいて自動的に決定されます。
+1. **配列変数を作成する**: 「Box Office Revenue」 型の空の配列変数を作成します。データ タイプは、Combo コンポーネントのデータ ソースに基づいて自動的に決定されます。
 
-<img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
-<p style="text-align:center;">新しい変数のダイアログ</p>
+   <img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
+   <p style="text-align:center;">新しい変数のダイアログ</p>
 
-3. **Card コンポーネントにバインドする**: 「selectedMovies」 変数をカード コンポーネントにリンクします。Title プロパティと Subtitle プロパティをデータ コンテキストの適切なデータ フィールドにバインドします。
+2. **Card コンポーネントにバインドする**: 「selectedMovies」 変数をカード コンポーネントにリンクします。Title プロパティと Subtitle プロパティをデータ コンテキストの適切なデータ フィールドにバインドします。
 
-<img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
-<p style="text-align:center;">データ コンテキストのバインド</p>
+   <img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
+   <p style="text-align:center;">データ コンテキストのバインド</p>
 
 その結果、選択に基づいて動的に更新されるカード コンポーネントが生成されます。
 
@@ -48,6 +48,7 @@ App Builder でコンポーネント プロパティにバインドするには�
 - **ローカル変数**: 同じビューのコンポーネント内でデータ交換を処理します。
 
 ## 重要ポイント
+
 App Builder コンポーネント バインドの本質は何ですか?
 
 - **柔軟性の向上**: App Builder の変数を使用すると、より柔軟で効率的なデータ バインドが可能になり、データ リピーターの必要性が減ります。
@@ -59,10 +60,10 @@ App Builder コンポーネント バインドの本質は何ですか?
 
 <div class="divider--half"></div>
 
-* [変数の管理](variables-management.md)
-* [URL パラメーターのバインド](url-parameters-binding.md)
-* [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
-* [イベントとアクションの操作](working-with-events-and-actions.md)
-* [マスター/詳細の概念](../master-detail/master-detail.md)
-* [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [変数の管理](variables-management.md)
+- [URL パラメーターのバインド](url-parameters-binding.md)
+- [ルート パラメーターを使用したナビゲーション](route-parameters-navigation.md)
+- [イベントとアクションの操作](working-with-events-and-actions.md)
+- [マスター/詳細の概念](../master-detail/master-detail.md)
+- [ステップバイステップのアプリ作成例](../master-detail/step-by-step-examples.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)

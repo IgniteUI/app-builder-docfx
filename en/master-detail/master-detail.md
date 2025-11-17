@@ -6,12 +6,13 @@ keywords: "App Builder, Infragistics, Master-Detail Pattern, Web Application Dev
 
 # Master-Detail Style Apps with Variables & Events
 
-Initially, this feature was planned to follow the basics of the Master-detail design interface. But it evolved into something much more. We are all familiar with the essence of the Master-detail pattern, it is a way to present a list of records and enable the user to manage them with ease. It usually comprises two views - One is the master list of records and the other is used to display extended data about a single record. 
+Initially, this feature was planned to follow the basics of the Master-detail design interface. But it evolved into something much more. We are all familiar with the essence of the Master-detail pattern, it is a way to present a list of records and enable the user to manage them with ease. It usually comprises two views - One is the master list of records and the other is used to display extended data about a single record.
 
 <img src="../images/state-and-context/1.png" width="100%" srcset="../images/state-and-context/1.png 2x" />
 <p style="text-align:center;">Master-detail example</p>
 
 ## Key Elements of the Master-Detail Pattern in App Builder
+
 The new feature covers these key elements established by the Master-detail pattern:  
 
 - **Primary Pane**: This area displays a list of items or triggers that initiate the loading of other app components.
@@ -26,15 +27,19 @@ The new feature covers these key elements established by the Master-detail patte
 To create master-detail scenarios in App Builder, we integrate several features:
 
 ## Variables Management Topic
+
 Unlock the full potential of your app by diving into [Variables Management](../guide-to-variables-in-app-builder/variables-management.md). Learn how to effectively manage and utilize both global and local variables for enhanced data flow and interactivity.
 
 ## Component Properties Binding
+
 Enhance your app's data binding and user experience by exploring [Component Properties Binding](../guide-to-variables-in-app-builder/component-properties-binding.md). Discover how to bind component properties to your data for dynamic and interactive UIs.
 
 ## URL Parameters Binding
+
 Delve into [URL Parameters Binding](../guide-to-variables-in-app-builder/url-parameters-binding.md) to learn how to perform data fetching. Learn how to use URL parameters for efficient data requests and repeaters in your applications.
 
 ## Working with Events and Actions
+
 Get hands-on with interactive UI design by checking out [Working with Events and Actions](../guide-to-variables-in-app-builder/working-with-events-and-actions.md). Understand how to harness events and actions in App Builder for creating engaging and dynamic user interfaces.
 
 ## Known Issues and Limitations
@@ -55,7 +60,8 @@ Get hands-on with interactive UI design by checking out [Working with Events and
 ## Additional Resources
 
 - [Variables Management](../guide-to-variables-in-app-builder/variables-management.md)
-* [Navigation with Route parameters](../guide-to-variables-in-app-builder/route-parameters-navigation.md)
+- [Navigation with Route parameters](../guide-to-variables-in-app-builder/route-parameters-navigation.md)
+
 - [Component Properties Binding](../guide-to-variables-in-app-builder/component-properties-binding.md)
 - [URL Parameters Binding](../guide-to-variables-in-app-builder/url-parameters-binding.md)
 - [Working with Events and Actions](../guide-to-variables-in-app-builder/working-with-events-and-actions.md)

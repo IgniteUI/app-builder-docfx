@@ -7,17 +7,19 @@ _language: ja
 # アプリケーションを Github にアップロードする
 
 > [!NOTE]
-><b>App Builder でデザインの準備ができたら、非公開または GitHub リポジトリにアップロードできます。 
+><b>App Builder でデザインの準備ができたら、非公開または GitHub リポジトリにアップロードできます。
 
+## トピック コンテンツ
 
-### トピック コンテンツ:
-* <a href="#はじめに">はじめに</a>
-* <a href="#uploading-an-application-to-github">アプリケーションを Github にアップロードする</a>
+- <a href="#はじめに">はじめに</a>
+- <a href="#uploading-an-application-to-github">アプリケーションを Github にアップロードする</a>
 
 ## はじめに
-App Builder の優れた機能の 1 つに、コード生成サービスがあります。アプリ デザインを完成させ、コードをレビューすると、ユーザーは最終的なアプリケーションコードを取得できます。アプリ コードを App Builder 内から直接 GitHub リポジトリに簡単にアップロードできるため、エクスペリエンスがさらに向上します。GitHub は開発者に人気のあるツールで、App Builder 機能を使用すると、レビューアーの割り当て、変更の追跡、コメントなど、すべての GitHub 機能を利用できます。この機能を提供することにより、製品チームはデザインからコード作成へのコラボレーションのストーリーにさらに 1 つの要素を追加するだけでなく、App Builder プラットフォームを、エンジニアに馴染みのある有名なサービスと統合しました。 
+
+App Builder の優れた機能の 1 つに、コード生成サービスがあります。アプリ デザインを完成させ、コードをレビューすると、ユーザーは最終的なアプリケーションコードを取得できます。アプリ コードを App Builder 内から直接 GitHub リポジトリに簡単にアップロードできるため、エクスペリエンスがさらに向上します。GitHub は開発者に人気のあるツールで、App Builder 機能を使用すると、レビューアーの割り当て、変更の追跡、コメントなど、すべての GitHub 機能を利用できます。この機能を提供することにより、製品チームはデザインからコード作成へのコラボレーションのストーリーにさらに 1 つの要素を追加するだけでなく、App Builder プラットフォームを、エンジニアに馴染みのある有名なサービスと統合しました。
 
 ## アプリケーションを Github にアップロードする
+
 アプリケーションのデザインを完了し、そのコードをプレビューした後、完全なアプリ コード リポジトリを生成します。これを行うには、[アプリの生成] ボタンに移動し、GitHub アカウントを App Builder に接続します。ボタン メニューからアプリケーション ファイルをダウンロードすることもできます。
 
 
@@ -39,9 +41,11 @@ GitHub アカウントでログインした後、Indigo.Design にアクセス�
 ## GitHub との統合機能
 
 ### すでにプッシュされた変更は上書きされません
+
 App Builder ではなく、コードを使用して外部でアプリケーションの変更を行う場合があります。App Builder GitHub UI から変更をプッシュすると、これらの変更は上書きされません。App Builder 以外の main/master ブランチでのユーザー変更を尊重する新しい統合ポイントを追加しました。App Builder の作業を `main` ブランチにマージでき、次回 App Builder は新しい違いのみを含む PR を作成します。
 
 機能改善:
+
 - プルリクエストの関連ブランチで外部変更が行われた場合の警告。これらの変更を保持するには、現在のプルリクエストをマージしてから新しいリクエストを作成します。
 
 <img class="box-shadow" src="../images/gh-changes-not-yet-merged.PNG" srcset="../images/gh-changes-not-yet-merged.png 2x" />
@@ -62,7 +66,7 @@ App Builder ではなく、コードを使用して外部でアプリケーシ�
 
 <div class="divider--half"></div>
 
-* [アプリケーションをローカルで実行する](run-application-locally.md)
-* [アプリケーション コードをプレビューする](../preview-code.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
-* [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)
+- [アプリケーションをローカルで実行する](run-application-locally.md)
+- [アプリケーション コードをプレビューする](../preview-code.md)
+- [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder コンポーネント]({environment:appbuilderBaseUrl}/components)

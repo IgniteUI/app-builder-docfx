@@ -1,6 +1,6 @@
 # Guide to Navigation with Route Parameters
 
-As part of supporting the application state, using of variables in App Builder now facilitates the navigation within the application with a *special kind* of variables, i.e. `Route parameters`.
+As part of supporting the application state, using of variables in App Builder now facilitates the navigation within the application with a _special kind_ of variables, i.e. `Route parameters`.
 
 ## Understanding Route Parameters
 
@@ -57,9 +57,9 @@ In option 2, when a value for customerID param is not set, the handling of the `
 
 <div class="divider--half"></div>
 
-* [Component properties binding](component-properties-binding.md)
-* [URL parameters binding](url-parameters-binding.md)
-* [Working with Events and Actions](working-with-events-and-actions.md)
-* [Master-detail concept](../master-detail/master-detail.md)
-* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
+- [Component properties binding](component-properties-binding.md)
+- [URL parameters binding](url-parameters-binding.md)
+- [Working with Events and Actions](working-with-events-and-actions.md)
+- [Master-detail concept](../master-detail/master-detail.md)
+- [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)

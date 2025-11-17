@@ -9,13 +9,14 @@ _keywords: Data API Builder, REST API, MySQL, MSSQL, Database Configuration, API
 This guide provides a step-by-step process to set up and use the Data API Builder with any database, [full list](https://learn.microsoft.com/en-us/azure/data-api-builder/overview) of the supported databases - SQL Server, MySQL and PostgreSQL to name a few. Follow these instructions to create native OpenAPI, Swagger for REST endpoints and manage your database effectively.
 
 Key Features
+
 - Support for relational tables, views, and stored procedures
 - Support multiple, simultaneous data sources
 - REST endpoints
-    - POST, GET, PUT, PATCH, DELETE
-    - Filtering, sorting, and pagination
-    - In-memory cache
-    - Support for OpenAPI
+  - POST, GET, PUT, PATCH, DELETE
+  - Filtering, sorting, and pagination
+  - In-memory cache
+  - Support for OpenAPI
 - Easy development via dedicated CLI
 - Open Source & free
 
@@ -44,6 +45,7 @@ dotnet tool update --global Microsoft.DataApiBuilder
 For more details, refer to the official documentation: [.](https://learn.microsoft.com/en-us/azure/data-api-builder/how-to-install-cli)
 
 ## 2. Database Configuration
+
 Make sure you have a database set-up. You can use tools like SQL Server Management Studio, MySQL Workbench, or any other database management tool to create and configure your database. For this guide, we’ll provide examples for MSSQL database.
 
 ## 3. REST Endpoints in Data API Builder created through a Configuration file
@@ -66,7 +68,8 @@ Add an entity (e.g., Products) to the configuration file:
 dab add Products --source "Products" --permissions "anonymous:*"
 ```
 
-### Observe your current dab-config.json configuration file. 
+### Observe your current dab-config.json configuration file
+
 The file should include a baseline implementation of your API with a single entity, a REST API endpoint:
 
 > [!NOTE]
@@ -139,13 +142,14 @@ The file should include a baseline implementation of your API with a single enti
 ```
 
 ## 4. Test the REST API
+
 Now, start the Data API builder tool to validate that everything is set-up correctly.
 
 ```
 dab start
 ```
 
-Output.Once the API is running, you can access it at http://localhost:5000/swagger/index.html 
+Output.Once the API is running, you can access it at http://localhost:5000/swagger/index.html
 
 ```
 Successfully completed runtime initialization.
@@ -164,16 +168,17 @@ This URL will open the Swagger UI, where you can test your API endpoints.
 
 For [step-by-step walkthrough](https://www.appbuilder.dev/help/using-data-in-your-app#adding-a-swagger-data-source) follow [this](https://www.appbuilder.dev/help/using-data-in-your-app#adding-a-swagger-data-source) topic.
 
-<img class="box-shadow" src="../images/using-data-in-your-app/DAB-data-souce-example.png" />
+<img class="box-shadow" src="../images/using-data-in-your-app/DAB-data-source-example.png" />
 <p style="text-align:center;">DAB in AB</p>
 
 ## 6. Troubleshooting Common Problems
+
 Here are some common issues and their solutions:
 
 - In App Builder the CRUD is working only for Grid, for the Form component there are some missing peaces from the OpenAPI specification that are currently in progress.
 
 - CORS problems. How to enable CORS if needed:
- 
+
 ```
 "host": {
     "cors": {
@@ -188,6 +193,7 @@ Here are some common issues and their solutions:
     "mode": "development"
 }
 ```
+
 - OpenID Connect Support Proposal - [Issue in data-api-builder GitHub](https://github.com/Azure/data-api-builder/issues/2226).
 
 - DELETE endpoint not working?
@@ -201,12 +207,12 @@ Double-check the username, password, and authentication method (e.g., Windows Au
 
 <div class="divider--half"></div>
 
-* [Query Builder Support for API Projects](api-project-query-builder-support.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
-* [App Builder Interface Overview](../interface-overview.md)
-* [Form Builder](form-builder.md)
-* [Grid Remote Paging](grid-remote-paging.md)
-* [Crud Operations](crud-operations.md)
-* [Remote Data Operations](remote-data-operations.md)
-* [Flex Layouts](../flex-layouts/flex-layouts.md)
-* [Running Desktop App](../running-desktop-app.md)
+- [Query Builder Support for API Projects](api-project-query-builder-support.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)
+- [App Builder Interface Overview](../interface-overview.md)
+- [Form Builder](form-builder.md)
+- [Grid Remote Paging](grid-remote-paging.md)
+- [Crud Operations](crud-operations.md)
+- [Remote Data Operations](remote-data-operations.md)
+- [Flex Layouts](../flex-layouts/flex-layouts.md)
+- [Running Desktop App](../running-desktop-app.md)

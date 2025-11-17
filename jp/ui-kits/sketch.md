@@ -6,6 +6,7 @@
 > [Sketch XD UI キット](https://dl.infragistics.com/products/Infragistics/Indigo.Design/ABECAC7231EE434C8CD3DC619BE6F75B/Infragistics_IndigoDesign_UI_Kit.zip)および[サンプル アプリ](https://dl.infragistics.com/products/Infragistics/Indigo.Design/Samples/Infragistics_IndigoDesign_Sample_Apps.zip)をダウンロード。
 
 ## App Builder Sketch インポーター
+
 以下は、App Builder を使ってドラッグアンドドロップでデザインからコードを作成する 4 つの簡単な手順です。
 
 手順 1: App Builder のメイン メニューで [新しいアプリ] をクリックします。
@@ -35,7 +36,7 @@ IDE の右上にあるボタンを使用して、アプリを生成するか、�
 
 そんな簡単に、デザインまたは開発者は、Web ベースの WYSIWYG ツールを使用して、Sketch からコードを作成できます。チームは、クラウドベースの WYSIWYG ドラッグ アンド ドロップで非常に優れた実際のアプリをデザインおよび構築し、コードを取得できます。これには、Web レイアウト、CSS、およびデータさえも完備しています。
 
-## Sketch アセットのダウンロード 
+## Sketch アセットのダウンロード
 
 Sketch UI キットは、以下の直接リンクからダウンロードできます:
 
@@ -46,5 +47,5 @@ Sketch UI キットは、以下の直接リンクからダウンロードでき�
 
 <div class="divider--half"></div>
 
-* [デザインからコード作成へのストーリー](../design-to-code-story.md)
-* [Figma UI キット](figma.md)
+- [デザインからコード作成へのストーリー](../design-to-code-story.md)
+- [Figma UI キット](figma.md)

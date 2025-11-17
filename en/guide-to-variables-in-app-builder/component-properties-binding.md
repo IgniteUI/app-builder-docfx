@@ -24,15 +24,15 @@ Consider a scenario where you have a collection of movies and wish to display de
 <img src="../images/state-and-context/4.png" srcset="../images/state-and-context/4.png 2x" />
 <p style="text-align:center;">Array type variable</p>
 
-2. **Create an Array Variable**: Set up an empty Array variable named "Box Office Revenue". The Data Type is automatically determined based on the data source of the Combo component.
+1. **Create an Array Variable**: Set up an empty Array variable named "Box Office Revenue". The Data Type is automatically determined based on the data source of the Combo component.
 
-<img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
-<p style="text-align:center;">New Variable dialog</p>
+   <img src="../images/state-and-context/10.png" srcset="../images/state-and-context/10.png 2x" />
+   <p style="text-align:center;">New Variable dialog</p>
 
-3. **Bind to a Card Component**: Link the "selectedMovies" variable to a card component. Bind the Title and Subtitle properties to the appropriate data fields from the Data Context.
+2. **Bind to a Card Component**: Link the "selectedMovies" variable to a card component. Bind the Title and Subtitle properties to the appropriate data fields from the Data Context.
 
-<img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
-<p style="text-align:center;">Data context binding</p>
+   <img src="../images/state-and-context/11.png" srcset="../images/state-and-context/11.png 2x" />
+   <p style="text-align:center;">Data context binding</p>
 
 The result is a dynamically updated card component based on your selection:
 
@@ -47,6 +47,7 @@ Understanding the scope of variables is crucial, Sso here is what we've learned:
 - **Local Variables**: Handle data exchange within the components of the same view.
 
 ## Takeaways
+
 What's the essence of App Builder components binding?
 
 - **Enhanced Flexibility**: Variables in App Builder allow for more flexible and efficient data binding, reducing the need for data repeaters.
@@ -58,10 +59,10 @@ What's the essence of App Builder components binding?
 
 <div class="divider--half"></div>
 
-* [Variables management](variables-management.md)
-* [URL parameters binding](url-parameters-binding.md)
-* [Navigation with Route parameters](route-parameters-navigation.md)
-* [Working with Events and Actions](working-with-events-and-actions.md)
-* [Master-detail concept](../master-detail/master-detail.md)
-* [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
-* [App Builder Components](../indigo-design-app-builder-components.md)
+- [Variables management](variables-management.md)
+- [URL parameters binding](url-parameters-binding.md)
+- [Navigation with Route parameters](route-parameters-navigation.md)
+- [Working with Events and Actions](working-with-events-and-actions.md)
+- [Master-detail concept](../master-detail/master-detail.md)
+- [Step-by-step App Creation examples](../master-detail/step-by-step-examples.md)
+- [App Builder Components](../indigo-design-app-builder-components.md)

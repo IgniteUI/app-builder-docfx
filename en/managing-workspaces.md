@@ -15,6 +15,7 @@ With native workspace support, App Builder no longer relies on Indigo.Design Clo
 ## Key Features
 
 ### Workspace Collaboration
+
 - Invite team members via email.
 - Add members based on shared workspace suggestions.
 - Accept invites with email/account validation.
@@ -23,31 +24,38 @@ With native workspace support, App Builder no longer relies on Indigo.Design Clo
 - Pin/unpin workspaces per user preference.
 
 ### Workspace Entities
+
 Resources automatically shared across all apps in a workspace:
+
 - Viewports
 - Themes
 - Data Sources
 - Assets (e.g., images)
 
 ### App Copy Across Workspaces
+
 Copy an app to another workspace with automatic handling of:
+
 - Shared assets, themes, viewports, variables and datasources.
 - No GitHub repo links are preserved after copying.
 
 ## How to Use
 
 ### Create and Manage Workspaces
+
 1. Access the **Workspace menu** from the App Builder dashboard.
 2. Use the existing UI to **create a workspace**, invite users, or update settings.
 3. Use the **workspace pinning** option to personalize your menu.
 
 ### Invite and Manage Members
+
 - **Invite users via email** directly from App Builder.
 - Accepting invites includes account validation for security.
 - Track invite status and resend invitations if needed.
 - Remove members with immediate effect.
 
 ### Copying Applications to Another Workspace
+
 1. Use the **"Copy to Workspace"** option from an app's context menu.
 2. Select the target workspace(s).
 3. Confirm the copy action. App Builder will:
@@ -81,24 +89,27 @@ Copy an app to another workspace with automatic handling of:
 | Tracking Invites                  | Monitor and re-send unaccepted invites from the workspace settings. |
 
 
-
 ## Frequently Asked Questions
 
 ### Can I see my App Builder workspaces in Indigo.Design?
+
 No. Native workspace support is now fully decoupled from Indigo.Design. Workspaces created in App Builder are not visible or synced with Indigo.
 
 ### What happens to my apps and members after migration?
+
 There is **no service interruption** or data loss. All existing workspaces, apps, memberships, and share URLs are preserved.
 
 ### Do I need to manually re-link resources when copying an app?
+
 No. App Builder will auto-match resources when possible. Only unmatched resources are duplicated.
 
 ## Additional Resources
+
 <div class="divider--half"></div>
 
-* [App Builder Interface Overview](interface-overview.md)
-* [Single Page and Navigation](single-page-apps-and-navigation.md)
-* [App Builder Components](indigo-design-app-builder-components.md)
-* [Flex Layouts](flex-layouts/flex-layouts.md)
-* [Running Desktop App](running-desktop-app.md)
-* [Generating an App](generate-app/generate-app-overview.md)
+- [App Builder Interface Overview](interface-overview.md)
+- [Single Page and Navigation](single-page-apps-and-navigation.md)
+- [App Builder Components](indigo-design-app-builder-components.md)
+- [Flex Layouts](flex-layouts/flex-layouts.md)
+- [Running Desktop App](running-desktop-app.md)
+- [Generating an App](generate-app/generate-app-overview.md)

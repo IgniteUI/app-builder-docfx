@@ -5,7 +5,7 @@ _keywords: App Builder, Web App Builder, デザイン システム, デザイン
 _language: ja
 ---
 
-# インターフェイスの概要 
+# インターフェイスの概要
 
 App Builder のインターフェースは、すでに慣れているほとんどのデザイン ツールのインターフェースに似ていますが、多少違いがあります。しかし、すぐにそれに慣れるでしょう。
 App Builder には 4 つの主要なセクションがあります。
@@ -14,7 +14,7 @@ App Builder には 4 つの主要なセクションがあります。
 <img src="./images/interface-parts-Indigo-Design-App-Builder.png" srcset="./images/interface-parts-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">インターフェース画面パーツ</p>
 
-## ツールボックス 
+## ツールボックス
 
 **ツールボックス**は左側のセクションであり、**[コンポーネント]、[ビュー]、[データ]、[テーマ]**、および **[アウトライン]** 用の 5 つのタブが含まれています。[コンポーネント] タブでは、デザイン キャンバスに追加して使用できるように構成できる、App Builder で使用可能なすべてのコンポーネントにアクセスできます。コンポーネント リストの上部にある検索入力により、特定のコンポーネントを簡単に見つけることができます。[コンポーネント] タブの下に、[ビュー] タブがあります。[ビュー] タブでは、親子関係で表示されるアプリケーションのすべてのビューを見つけることができます。3 番目のタブは [データ] です。これは、すべてのデータソースと関連オプションが配置されている場所です。使用可能なすべてのデータソースを表示および編集し、新しいデータソースを追加できます。4 番目のタブでは、すべてのテーマ機能と、使用可能なすべての事前構成済みテーマにアクセスできます。独自のテーマを作成および編集して、すばやく切り替えることができます。最後の [アウトライン] タブには、選択したアプリ ビューのコンポーネントの詳細な階層が表示されます。
 
@@ -29,7 +29,8 @@ App Builder には 4 つの主要なセクションがあります。
 
 
 ## その他のリソース
+
 <div class="divider--half"></div>
 
-* [App Builder コンポーネント](indigo-design-app-builder-components.md)
-* [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
+- [App Builder コンポーネント](indigo-design-app-builder-components.md)
+- [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)

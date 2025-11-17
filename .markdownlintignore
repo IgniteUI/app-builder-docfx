@@ -1,0 +1,16 @@
+# Markdownlint ignore file
+# Ignore generated site files
+_site/
+node_modules/
+
+# Ignore specific files that may have intentional formatting
+*.nuspec
+gulpfile.js
+package.json
+
+# Ignore auto-generated or template files
+docfx.json
+global.json
+environment.json
+web.config
+toc.yml
