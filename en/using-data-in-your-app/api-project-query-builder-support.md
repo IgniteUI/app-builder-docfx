@@ -19,8 +19,6 @@ There are two approaches to implement Query Builder support in your API project:
 | **NuGet Package** (`Infragistics.QueryBuilder. Executor`) | Quick integration, standard use cases | Low |
 | **Manual Implementation** | Full customization, complex requirements | Medium-High |
 
----
-
 ## Option 1: Using the Infragistics.QueryBuilder. Executor NuGet Package (Recommended)
 
 The `Infragistics.QueryBuilder. Executor` package provides ready-to-use classes, conditions, and methods that you can plug directly into your existing API project with minimal configuration.
@@ -97,8 +95,6 @@ var sql = SqlGenerator.GenerateSql(query);
 Console.WriteLine(sql);
 // Output: SELECT Id, Name, Email FROM Users WHERE IsActive = 1 AND CreatedDate > '2024-01-01'
 ```
-
----
 
 ## Option 2: Manual Implementation
 
@@ -312,8 +308,6 @@ private static Expression BuildConditionExpression<TEntity>(
 }
 ```
 
----
-
 ## Supported Filter Conditions
 
 Both implementation options support the following filter conditions, which align with the Angular Query Builder component (`IgxQueryBuilderComponent`):
@@ -383,7 +377,6 @@ Both implementation options support the following filter conditions, which align
 | `inQuery` | Field value exists in the subquery results |
 | `notInQuery` | Field value does not exist in the subquery results |
 
----
 
 ## Angular Frontend Integration
 
@@ -481,8 +474,6 @@ mainTree.filteringOperands.push({
     </igx-query-builder-header>
 </igx-query-builder>
 ```
-
----
 
 ## Example:  Complex Query with Subquery
 
@@ -587,8 +578,6 @@ POST https://data-northwind.appbuilder.dev/QueryBuilder/ExecuteQuery
 Content-Type: application/json
 ```
 
----
-
 ## Localization Support
 
 The Angular Query Builder component includes built-in localization support for filter condition labels.  The `igniteui-angular` repository provides resource strings in multiple languages including:
@@ -618,8 +607,6 @@ export const QueryBuilderResourceStringsEN: IQueryBuilderResourceStrings = {
     // ... more strings
 };
 ```
-
----
 
 ## Additional References
 
