@@ -112,7 +112,7 @@ For projects requiring full customization or complex entity mappings, you can im
 
 ### Step 1: Create the QueryBuilderController
 
-The QueryBuilderController serves as the entry point for handling query requests.  It receives a Query object from the client, processes it using the QueryExecutor, and returns the results. 
+The QueryBuilderController serves as the entry point for handling query requests.  It receives a Query object from the client, processes it using the QueryExecutor, and returns the results.  
 
 Create a file named `QueryBuilderController.cs` in your Controllers directory:
 
@@ -169,7 +169,7 @@ For a complete example, see [NorthwindAPI QueryBuilderController](https://github
 
 ### Step 2: Define Query Builder Models
 
-The Query Builder relies on a set of models to represent the query structure. Place these in a `QueryBuilder` directory or namespace. 
+The Query Builder relies on a set of models to represent the query structure. Place these in a `QueryBuilder` directory or namespace.  
 
 #### FilterType Enum
 
@@ -319,6 +319,7 @@ private static Expression BuildConditionExpression<TEntity>(
 Both implementation options support the following filter conditions, which align with the Angular Query Builder component (`IgxQueryBuilderComponent`):
 
 ### String Conditions
+
 | Condition | Description |
 |-----------|-------------|
 | `contains` | Field contains the search value |
@@ -333,6 +334,7 @@ Both implementation options support the following filter conditions, which align
 | `notNull` | Field is not null |
 
 ### Numeric Conditions
+
 | Condition | Description |
 |-----------|-------------|
 | `equals` | Field equals the search value |
@@ -347,6 +349,7 @@ Both implementation options support the following filter conditions, which align
 | `notNull` | Field is not null |
 
 ### Date/Time Conditions
+
 | Condition | Description |
 |-----------|-------------|
 | `equals` | Field equals the search value |
@@ -365,6 +368,7 @@ Both implementation options support the following filter conditions, which align
 | `notNull` | Field is not null |
 
 ### Boolean Conditions
+
 | Condition | Description |
 |-----------|-------------|
 | `true` | Field is true |
@@ -373,6 +377,7 @@ Both implementation options support the following filter conditions, which align
 | `notNull` | Field is not null |
 
 ### Subquery Conditions
+
 | Condition | Description |
 |-----------|-------------|
 | `inQuery` | Field value exists in the subquery results |
@@ -598,7 +603,7 @@ The Angular Query Builder component includes built-in localization support for f
 - Swedish (SV)
 - And more...
 
-Example resource strings: 
+Example resource strings:  
 
 ```typescript
 export const QueryBuilderResourceStringsEN: IQueryBuilderResourceStrings = {
