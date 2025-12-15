@@ -164,7 +164,6 @@ public class QueryBuilderController : ControllerBase
 
 完全な例については、[NorthwindAPI QueryBuilderController](https://github.com/IgniteUI/NorthwindAPI/blob/main/NorthwindCRUD/Controllers/QueryBuilderController.cs) を参照してください。
 
-
 ### 手順 2: クエリ ビルダー モデルの定義
 
 クエリ ビルダーは、クエリ構造を表すためのモデル郡に依存します。これらを `QueryBuilder` ディレクトリまたは名前空間に配置します。
@@ -424,7 +423,8 @@ const entities = [
             { field: 'productId', dataType: 'number' },
             { field: 'quantity', dataType: 'number' },
             { field: 'discount', dataType: 'number' }
-        ]    }
+        ]
+    }
 ];
 
 // サブクエリを含む複雑なクエリの構築
