@@ -1,262 +1,106 @@
 ---
-title: App Builder AI を使用した作業の開始 
-_description: 想像できるものなら、App Builder AI が作成します。単純で繰り返しの多い作業を 自動化し、開発チームがカスタム機能に集中できるようにして、実際のアプリを迅速に提供できます。
-_keywords: App Builder AI, Infragistics, Ignite UI
+title: App Builder AI を使用した作業の開始
+_description: App Builder の AI Chat 機能を使用すると、自然言語を使用してマルチ ビュー アプリの構築、データの生成、テーマの作成などを行うことができます。
+_keywords: App Builder AI, AI Chat, インフラジスティックス, Ignite UI, AI 生成
 _language: ja
 ---
 
 # App Builder AI を使用した作業の開始
 
-このガイドでは、App Builder で新しく導入された AI を活用したコンテンツ生成について説明します。
+App Builder の AI チャット機能は、ナビゲーション付きのマルチ ビュー アプリの構築を支援します。既存の UI をコンテキスト内で簡単に反復編集でき、アプリの他の部分を壊すことなく作業可能です。画像やスクリーンショットをアップロードして、カスタム テーマを適用した完全な UI を作成できます。
 
-AI 機能は現在**プレビュー**としてのみ利用可能であり、まだ最終的なデザインではありません。これらの AI 機能は現在も改善中であり、フィードバックを収集することを目的としています。そのため、完全に洗練されておらず、ユーザーの入力に基づいて進化する可能性があります。**プレビュー**機能にはここからアクセスできます: https://preview.appbuilder.dev/
+AI チャット パネルは、App Builder 内のすべての AI 駆動型の生成とアシストの中心的なハブです。
 
-## ビューの生成
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/entry-blog-gif.gif" />
 
-App Builder の AI を活用したビューの生成機能は、従来のレイアウト ピッカーに代わる強力な選択肢を提供します。フリーテキストのユーザー プロンプトと複数のプロンプト パターンを活用することで、ユーザーは高度にカスタマイズされたビューを生成し、それを完全に機能するアプリケーションに自動的に変換できます。このアプローチは、アプリ ビューの作成を加速するだけでなく、UI デザインを簡素化し、さまざまなレベルの技術レベルのユーザーがインターフェースを生成できるようにします。
+## 主要機能
 
-<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/login-screen.png" />
-<p style="text-align:center;">ログイン画面</p>
+### 1. エンドツーエンドのアプリケーションと UI の生成
 
-### プロンプト ベースの生成
+AI 機能は、自然言語から完全なアプリケーションを生成できるようになりました。これにはマルチ ページ構造、ビューポート、ナビゲーション、テーマなどが含まれます。ダッシュボード、ランディング ページ、製品リスト、e コマース、またはログイン/登録画面などの完全な画面を構築します。すべての出力は、一貫性のある高品質な UI のために Ignite UI のエンタープライズ グレードのコンポーネントを使用して作成されます。
 
-**手順 1**: GenAI ダイアログにフリーテキスト プロンプトを入力します。
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/image-9-1536x729.png" />
 
-**手順 2**: 生成された結果を **[プレビュー]** セクションで表示します。
+### 2. スマートなコマンドと構造化された実行
 
-**手順 3**: [プレビュー] セクションのプラス ボタンを使用して操作を適用します。
+精度と一貫性を保証する強力なコマンド エンジンです。
 
-- **コンテンツの追加** – 現在のビューの最後にコンテンツを追加します。
-- **新しいビューの作成** – 新しく生成されたコンテンツを別のビュー ページに追加します。
-- **コンテンツの置換** – 現在のビューで選択されたコンポーネントを生成された出力に置き換えます。別のものに変換したいセクション/レイアウト/コンポーネントを選択し、もう一度 GenAI ダイアログを開いてプロンプトを配置し、[追加] ボタン -> [コンテンツの置換] オプションをクリックします。
+- **CREATE**: アプリ、ビュー、コンポーネント、テーマ、ビューポート、データ ソース、画像を作成します。
+- **UPDATE**: コンポーネント、テーマ、画像、プロパティを変更します。
+- **DELETE**: キャンバスから要素を安全に削除します (ビューとテーマは除く)。
 
-**プレースホルダー値と幅 200px を指定して、要素を「検索」タイプの入力に置き換える例:**
+このプロセスには、プレビュー、ステップ バイ ステップの実行、およびエラーが発生した場合の明確な診断が含まれます。
 
-<img class="box-shadow" style="align-items: center;" src="../images/ai/Replace content with AI.gif" />
-<p style="text-align:center;">コンテンツの置換の置換</p>
+### 3. AI は実際の動作するデータを理解して生成
 
-ユーザーは、さまざまなコンテキスト メニュー オプションを使用して、ビューを繰り返し生成および調整できます。動作は**現在のビューの状態**と**選択されたコンポーネント**に依存します。
+自然言語の説明から、実際の動作するデータを理解して生成します。データ ソースを自動的に作成し、JSON を生成し、スキーマを検出し、手動設定なしでコンポーネントにデータをバインドします。また、フィールドをマッピングし、変数を作成し、バインディングをインテリジェントに構成して、すべてがすぐに使える状態にします。
 
-| コンテキスト             | コンポーネントが選択されていません                    | レイアウト コンテナーが選択されています                       | コンテナー以外のコンポーネントが選択されています                   |
-| ------------------- | ----------------------------------------- | ----------------------------------------------- | --------------------------------------------------- |
-| **コンテンツの追加**     | ビューの末尾にコンテンツを追加します    | 選択したコンテナーにコンテンツを追加します       | 最初に選択されたコンポーネントの前にコンテンツを挿入します |
-| **コンテンツの置換** | 現在のビューのコンテンツを完全に置き換えます | 選択されたコンテナーの内容を完全に置き換えます | 選択されたすべてのコンポーネントを置き換えます                    |
-| **新しいビューの作成** | 新しいマスター ビューを作成します             | 新しいマスター ビューを作成します                   | 新しいマスター ビューを作成します                       |
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/image-10-1536x729.png" />
 
-> [!NOTE]
-> **元に戻す/やり直し**は、**追加**および**置換**アクションではサポートされていますが、新しいビューの作成では**サポートされていません**。
-> 生成されたコンテンツにビュー コンテナーが含まれる場合は、**子ビューを作成できます**。
-> **AI によって生成されたビュー**と**手動で作成されたビュー**の両方を売り返し改良できます。
+### 4. テーマの生成とビジュアル スタイリング
 
-<!-- ### 画像ベースの生成
+AI は、シンプルなテキスト プロンプトから一貫性のある美しいテーマを生成します。アップロードされたデザイン参照または明示的な色の値から、完全なテーマ パレットを生成することもできます。すべての色とトークンが正しくマッピングされ、アプリケーション全体で統一されたビジュアル スタイルが実現されます。
 
-GenAI ダイアログの [表示] タブのボタンを使用して画像をアップロードします。
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/image-11-1536x729.png" />
 
-<img class="box-shadow" style="align-items: center;" src="../images/ai/gen-from-image.png" />
-<p style="text-align:center;">画像アップロード ビューの生成</p>
+### 5. 画像からアプリケーションへの生成
 
-> [!NOTE] 
-> 画像ベースの生成では、参照に完全に準拠することが保証されるわけではなく、AI によって一部のコンポーネントまたはレイアウトは異なる解釈をされる場合があります。 -->
+AI のコンテキスト認識解釈により、アップロードされた画像から完全なアプリケーションを生成できます。また、プロンプトから画像を作成し、必要に応じてデザインに自動的に配置することもできます。これにより、ビジュアルの探索と最終的な UI の作成の両方がより速く、より直感的になります。
 
-### ユース ケースの例
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/image-13.png" />
 
-#### 例 1: ログイン画面
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/image-15-1536x729.png" />
 
-プロンプト:
+## マルチ モード AI チャット
 
-```
-Create a detailed login screen
-```
+AI チャットはインテント分類を実行し、プロンプトがコンテンツの生成 (コンポーネントの作成や編集など) を目的としているか、製品関連のヘルプを求めているかを判断します。
 
-<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/login-screen.png" />
-<p style="text-align:center;">ログイン画面</p>
+- **Analyze モード (Submit)**: ユーザーの意図を検出し、リクエストをルーティングします (サポート vs. 生成)。
+- **Generate モード (Generate)**: アプリケーション、ビュー、レイアウト、コンポーネント、テーマ、データを作成します。
+- **Support モード (Ask)**: ドキュメントとヘルプ コンテンツに基づいて質問に回答します。
 
-AI 出力 - Angular テンプレート:
+この機能強化により、App Builder はコンテキストに応じて応答し、コンテンツ生成とアプリ内サポートの間でシームレスに切り替えることができます。
 
-```html
-<div class="column-layout group">
-  <h1 class="content">Login</h1>
-  <p class="content">Enter your username and password to log in.</p>
-  <form class="column-layout form">
-    <igx-input-group type="box" class="input">
-    <input type="text" placeholder="Enter your username" required igxInput />
-    <label igxLabel>Username</label>
-    <igx-hint>Username</igx-hint>
-    </igx-input-group>
-    <igx-input-group type="box" class="input">
-    <input type="password" placeholder="Enter your password" required igxInput />
-    <label igxLabel>Password</label>
-    <igx-hint>Password</igx-hint>
-    </igx-input-group>
-    <igx-checkbox labelPosition="after" class="checkbox">Remember me</igx-checkbox>
-    <button igxButton="contained" type="button" igxRipple class="button">Login</button>
-    <a href="#" target="_self" class="ig-typography__body-1 hyperlink">Forgot password?</a>
-    <a href="#" target="_self" class="ig-typography__body-1 hyperlink">Create an account</a>
-  </form>
-</div>
-```
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/image-16-1536x729.png" />
 
-<img class="box-shadow" src="../images/ai/login-screen-preview-blazor.png" />
-<p style="text-align:center;">Blazor コードを使用したログイン画面</p>
+## リッチな会話エクスペリエンス
 
-#### 例 2: カーサービス ビュー
+会話型ワークスペースは、アプリを構築するための柔軟でインタラクティブな環境を提供します。
 
-プロンプト:
+- **Chat コンポーネント**: Ignite UI Chat コンポーネントは、テキスト、音声認識、画像生成とアップロードの両方をサポートします。
+- **セッション管理**: セッションは名前変更、検索、ピン固定、削除が可能で、長いワークフロー全体で整理された状態を保つことができます。
+- **ピン固定されたチャット履歴**: 重要なセッションにすばやく戻ることができます。
+- **画像アップロード**: ドラッグ アンド ドロップ、貼り付け、または従来の選択コピー -> 貼り付けのサポートにより簡単です。
+- **ガイダンス**: AI は、構築時に役立つフォローアップの提案、プロンプト、次のステップを推奨します。すべてのアクションには、コマンド プレビュー、実行の進行状況、実用的なエラーの説明が付属しています。何かを改良する必要がある場合、再試行オプションによりプロセスが簡単で許容的になります。
 
-```
-Design a booking screen for an auto-service shop app that allows customers to schedule common car services. The screen should include sections for vehicle selection, available services, appointment scheduling, and a booking summary. Users first select their car make, model, and year from dropdown menus. Then, they choose a service from a grid of six cards, each displaying the service name, price, description, and a "Select" button. Next, they pick a date from a calendar and select an available time slot from a grid of eight buttons. Finally, the booking summary lists the selected services and provides "Confirm Booking" and "Cancel" buttons. The layout should follow a structured column and row format, ensuring a seamless flow from vehicle selection to appointment confirmation.
-```
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/image-17-1536x729.png" />
 
-<img class="box-shadow" src="../images/ai/complex-page-example.png" />
-<p style="text-align:center;">自動車整備工場</p>
+### 音声認識
 
-AI 出力 - Angular テンプレート:
+音声認識サポートにより、AI との対話がさらに直感的になります。プロンプト エリアのマイク ボタンをクリックし、指示を話すと、テキスト フィールドに直接文字起こしされるのを確認できます。ハンズフリー ワークフローや迅速なアイデアのキャプチャに最適です。
 
-```html
-<div class="row-layout group">
-  <h2 class="content">
-   Vehicle Selection
-  </h2>
-  <igx-select type="border" placeholder="Select Make" required class="select">
-   <igx-select-item value="Toyota">
-    Toyota
-   </igx-select-item>
-   <igx-select-item value="Honda">
-    Honda
-   </igx-select-item>
-   <igx-select-item value="Ford">
-    Ford
-   </igx-select-item>
-   <label igxLabel>Make</label>
-   <igx-hint>Select your car's make</igx-hint>
-  </igx-select>
-  <igx-select type="border" placeholder="Select Model" required class="select">
-   <igx-select-item value="Corolla">
-    Corolla
-   </igx-select-item>
-   <igx-select-item value="Civic">
-    Civic
-   </igx-select-item>
-   <igx-select-item value="Mustang">
-    Mustang
-   </igx-select-item>
-   <label igxLabel>Model</label>
-   <igx-hint>Select your car's model</igx-hint>
-  </igx-select>
-```
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/speech-to-text.gif" />
 
-アプリのプレビューは次のとおりです。
+## コンテキスト編集とライブ デザイン コントロール
 
-<img class="box-shadow" src="../images/ai/complex-page-example-preview.png" />
-<p style="text-align:center;">自動車整備工場のプレビュー</p>
+より簡単な対話のために、AI チャットとデザイン サーフェスの間に深い統合があります。
 
-### より正確な結果を得るための便利なパターン
+- **コンテキスト ポップアップ**: 任意の UI 要素をクリックして、AI コンテキスト ポップアップを通じて変更できます。
+- **コンポーネント インジケーター**: 選択されているものを常に表示します。
+- **リアルタイム フィードバック**: デザイン エリア処理インジケーターを介したリアルタイム フィードバックにより、生成または更新中に情報を提供し続けます。
 
-> [!NOTE]
-> これらのパターンを推奨事項として考慮し、通常のプロンプトの説明のフレーズをいつでも使用できます。
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/add-my-profile-icon-1.gif" />
 
-#### パターン 1: レイアウトとコンポーネントの組み合わせプロンプト
+## AI 駆動型の「新しいアプリの作成」ダイアログ
 
-レイアウトと詳細なコンポーネント構成を組み合わせた、より構造化された出力の場合、複数のセクションを含む全体的な画面デザインを指定できます。次に例を示します。
+AI 駆動型の「新しいアプリの作成」ダイアログでプロジェクトを開始します。パーソナライズされたエクスペリエンス、改善されたフィルタリング、発見のためのプロンプト カードを備えた、より豊富なプロンプト ギャラリーを備えています。
 
-```
-A login screen with:
-row layout
- col layout
-  title: Login
-  text: Please enter your email and password to sign in
-  form:
-   input: email
-   input: password
-   switch: remember me
-   button: login
-   row layout
-    text: Dont have an account?
-    link: sign up
- image
-```
-
-結果:
-
-<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/prompt-1.png" />
-<p style="text-align:center;">ログイン画面</p>
-
-#### プロンプト 2
-
-構造化された同等のプロンプト
-
-```
-Generate a view with this layout:
-nav bar
-horizontal group
- nav drawer (isOpen=true, pin=true)
-  5 items
- vertical group
-  title (color=red)
-  horizontal group
-   4 cards with media
-
-```
-
-結果:
-
-<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/prompt-2.png" />
-<p style="text-align:center;">複合ビュー</p>
-
-## 追加の AI 機能
-
-<!-- ### テーマの生成
-
-**手順:**
-1. **AIGen** ダイアログを開き、**[Theme]** タブに移動します。
-2. テーマを説明するプロンプトを入力します。
-3. インスピレーションを得るには、**[プロンプトの例]** ボタンをクリックしてください。
-4. 結果を生成して確認します。
-5. **[追加]** をクリックして、テーマを**テーマ ライブラリ**に保存します。
-6. プロジェクトにテーマを適用します。
-
-<img class="box-shadow" src="../images/ai/theme-generation.png" />
-<p style="text-align:center;">アプリ テーマの生成</p> -->
-
-### 画像の生成
-
-**手順:**
-
-1. **AIGen** ダイアログを開き、**[Image]** タブに移動します。
-2. 画像を説明するプロンプトを入力するか、**プロンプトの例**を使用します。
-3. 結果に満足したら、**[追加]** をクリックして**画像ライブラリ**に保存します。
-これで、プロジェクト内で使用できます。
-
-<img class="box-shadow" src="../images/ai/image-generation.png" />
-<p style="text-align:center;">画像の生成</p>
-
-### データ ソースの生成
-
-**手順:**
-
-1. **AIGen** ダイアログを開き、**[Data]** タブに移動します。
-2. 必要なデータを説明するプロンプトを入力します。
-3. インスピレーションを得るには、**[プロンプトの例]** ボタンをクリックしてください。
-4. **[追加]** をクリックして、新しいデータ ソースを作成するか、既存のデータ ソースに追加します。
-
-<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/data-source-generation.png" />
-<p style="text-align:center;">データ ソースの生成</p>
-
-## ご意見の送信
-
-**[ご意見の送信]** フォームを使用して、ご提案、問題の報告、または直面している課題を共有してください。
-
-<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/send-feedback.png" />
-<p style="text-align:center;">ご意見の送信</p>
+<img class="box-shadow" style="position: relative; left: 50%; transform: translateX(-50%);" src="../images/ai/gallery-view.gif" />
 
 ## その他のリソース
 
 <div class="divider--half"></div>
 
 - [App Builder インターフェイスの概要](../interface-overview.md)
-- [単一ページとナビゲーション](../single-page-apps-and-navigation.md)
 - [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-- [Flex レイアウト](../flex-layouts/flex-layouts.md)
-- [Desktop アプリの実行方法](../running-desktop-app.md)
 - [アプリの生成](../generate-app/generate-app-overview.md)
-- [Indigo.Design はじめに]({environment:infragisticsBaseUrl}/products/indigo-design/help/getting-started)
