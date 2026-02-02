@@ -118,6 +118,7 @@ npm run verify:jp
 ## Auto-Fix Capabilities
 
 ### Recommended Workflow
+
 ```bash
 # 1. Auto-fix what's possible
 npm run lint:md:fix
