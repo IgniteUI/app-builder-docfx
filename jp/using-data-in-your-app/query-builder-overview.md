@@ -6,11 +6,11 @@ App Builder の **Query Builder** を使用すると、コードを書かずに�
 
 Query Builder を使用すると次が可能です:
 
-* **データ ソース**に接続し、視覚的にクエリを構築
-* **フィルター処理**: 「equals」、「contains」、「greater than」 などの演算子を使ってフィールド値を条件設定
-* **複数条件の組み合わせ**: AND/OR の論理グループ
-* **クエリ結果のプレビュー**で結果を確認
-* クエリを UI コンポーネントに**バインド**: グリッド、リスト、またはチャートなど
+- **データ ソース**に接続し、視覚的にクエリを構築
+- **フィルター処理**: 「equals」、「contains」、「greater than」 などの演算子を使ってフィールド値を条件設定
+- **複数条件の組み合わせ**: AND/OR の論理グループ
+- **クエリ結果のプレビュー**で結果を確認
+- クエリを UI コンポーネントに**バインド**: グリッド、リスト、またはチャートなど
 
 <img class="box-shadow" src="../images/using-data-in-your-app/Query Builder/6.png" />
 <p style="text-align:center;">クエリ実行テストを表示</p>
@@ -49,11 +49,11 @@ App Builder では、SelectedCategory、UPFrom、UPTo の入力を動的フィ�
 
 <div class="divider--half"></div>
 
-* [Query Builder のステップ バイス テップ ガイド](query-builder-step-by-step-guide.md)
-* [API プロジェクト向けの Query Builder のサポート](api-project-query-builder-support.md)
-* [App Builder コンポーネント](../indigo-design-app-builder-components.md)
-* [App Builder インターフェイスの概要](../interface-overview.md)
-* [Form Builder](form-builder.md)
-* [グリッド リモート ページング](grid-remote-paging.md)
-* [CRUD 操作](crud-operations.md)
-* [リモート データ操作](remote-data-operations.md)
+- [Query Builder のステップ バイス テップ ガイド](query-builder-step-by-step-guide.md)
+- [API プロジェクト向けの Query Builder のサポート](api-project-query-builder-support.md)
+- [App Builder コンポーネント](../indigo-design-app-builder-components.md)
+- [App Builder インターフェイスの概要](../interface-overview.md)
+- [Form Builder](form-builder.md)
+- [グリッド リモート ページング](grid-remote-paging.md)
+- [CRUD 操作](crud-operations.md)
+- [リモート データ操作](remote-data-operations.md)
