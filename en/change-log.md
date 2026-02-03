@@ -23,7 +23,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 - **AI-powered design** - Generate multi-view apps with navigation using AI chat. Seamlessly iterate on existing UIs in context without disrupting other parts of your app. Upload images or screenshots to create complete UIs with custom themes.
 - **Richer CRM Sample App** – Expanded CRM app with enhanced Home, Reports, Deals, and Support views for faster customization and prototyping.
-- **Quick Add Enhancements** – Perform search with insertion for charts, sliders, and inputs; Searches and remembers recent selections.
+- **Quick Add Enhancements** – Perform search with insertion for charts, sliders, and inputs; Search and remember recent selections.
 - **List Item Selection** – Enhanced selection capabilities for both dynamically and manually created lists.
 
 ## September 2025 Release
