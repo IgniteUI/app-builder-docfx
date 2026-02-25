@@ -18,8 +18,8 @@
       items:
         - name: Using the App Builder SDK
           href: ../sdk/sdk.md
-        - name: Using the On-Premises Version
-          href: ../on-prem-prerequisites-and-installation.md
+        - name: On-Premises Installation
+          href: ../on-premises/prerequisites-and-installation.md
           items:
           - name: On-Prem Authentication with OpenID Connect
             href: ../on-premises/auth-with-openid-connect-o-auth.md
