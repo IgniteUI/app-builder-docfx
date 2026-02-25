@@ -166,6 +166,7 @@ When the server is first started, a prompt dialog will provide you with _Install
 ## Configuration Overview
 
 ### Default Configuration
+
 When you start the AppBuilder Docker image without custom configuration, the following features are **disabled by default**:
 
 - Database connection - No database credentials provided (must be configured via environment variables or config file)
@@ -176,9 +177,11 @@ When you start the AppBuilder Docker image without custom configuration, the fol
 - GitHub/Azure DevOps integration - Publishing features disabled
 
 ### Configuration Methods
+
 You have two options to configure AppBuilder:
 
 #### Option 1: Environment Variables (Quick Start)
+
 Pass configuration directly as environment variables when starting the container:
 
 ```bash
@@ -215,7 +218,9 @@ Required directory structure:
 **Note:** If you don't plan to enable AI features, you can skip the AI configuration files entirely.
 
 ## Main Configuration (appsettings.json)
+
 ### Database Connection
+
 The database connection settings determine where AppBuilder stores all application data including user projects, components, assets, and metadata.
 
 ```json
@@ -237,6 +242,7 @@ The database connection settings determine where AppBuilder stores all applicati
 | AppBuilderPostgreSqlConnection | string | PostgreSQL connection string. Used when Provider is "PostgreSql". Standard Npgsql connection string format. |
 
 ### Logging Configuration
+
 Controls how application logs are written and managed.
 
 ```json
@@ -297,7 +303,9 @@ Controls how application logs are written and managed.
 
 
 ### Rate Limiting Options
+
 Controls request rate limiting to prevent abuse.
+
 ```json
 {
   "IPRateLimiterOptions": {
@@ -333,6 +341,7 @@ Controls request rate limiting to prevent abuse.
 **User Rate Limiter:** Limits requests per authenticated user. Protects against abuse by authenticated users.
 
 ### GitHub Integration
+
 Enables publishing projects to GitHub repositories.
 
 Set disablePublishToGithub: false in
@@ -344,6 +353,7 @@ Set disablePublishToGithub: false in
   }
 }
 ```
+
 ```json
 {
   "GithubOptions": {
@@ -371,6 +381,7 @@ Set disablePublishToGithub: false in
 | `ClientSecret` | string | **GitHub OAuth App Client Secret.** Keep this secret! |
 
 **Setup Steps:**
+
 1. Go to GitHub > Settings > Developer settings > OAuth Apps > New OAuth App
 2. Set Homepage URL to your AppBuilder URL
 3. Set Authorization callback URL to `https://your-appbuilder-url/oauth/github/auth-callback`
@@ -378,9 +389,11 @@ Set disablePublishToGithub: false in
 5. Restart the container to include the changes `docker run --restart always -p 8080:5000 --network appbuilder-network -v C:/appbuilder/config:/appbuilder/config --name appbuilder -d appbuilder:2.0`
 
 ### Azure DevOps Integration
+
 Enables publishing projects to Azure DevOps repositories.
 
 Set disablePublishToDevOps: false in
+
 ```json
 {
   "FrontendOptions": {
@@ -388,6 +401,7 @@ Set disablePublishToDevOps: false in
   }
 }
 ```
+
 ```json
 {
   "DevOpsOptions": {
@@ -530,6 +544,7 @@ Stores API keys for AI providers.
 ```
 
 **Only configure the providers you plan to use.** Get API keys from:
+
 - OpenAI: https://platform.openai.com/api-keys
 - Anthropic: https://console.anthropic.com/
 - Groq: https://console.groq.com/
@@ -557,7 +572,7 @@ The `Extras` field is a JSON string containing frontend configuration flags:
 | `enableSpeechToText` | `false` | **Shows microphone button for voice input in AI chat.** Requires Google Cloud Speech-to-Text to be configured. |
 
 **How it works:** These values are injected into the frontend at runtime via the backend API. The frontend reads these flags on initialization and enables/disables features accordingly.
-In order the AI functionalyty to work you should provide the required credentials, models and settings in these files `ai.appsettings.json`, `ai.credentials.appsettings.json`, `ai.providers.appsettings.json`, `ai.models.appsettings.json`.
+In order the AI functionality to work you should provide the required credentials, models and settings in these files `ai.appsettings.json`, `ai.credentials.appsettings.json`, `ai.providers.appsettings.json`, `ai.models.appsettings.json`.
 
 ## Docker Image Installation and Running the Container
 
@@ -573,6 +588,7 @@ In order the AI functionalyty to work you should provide the required credential
 ### Docker Run Commands
 
 Load the image
+
 ```bash
 docker load -i appbuilder.tar
 ```
@@ -621,7 +637,7 @@ docker run --restart always -p 80:5000 \
 
 ### Minimum Setup
 
-1. Update `ConnectionStrings` in appsettings.json or use the ennvironment ovveride option (flag)
+1. Update `ConnectionStrings` in appsettings.json or use the environment override option (flag)
 
 ### With Authentication
 
@@ -658,27 +674,32 @@ docker run --restart always -p 80:5000 \
 ### Common Issues
 
 **Database connection failed**
+
 - Verify connection string format matches your provider
 - Check database server is accessible from container
 - For Docker Desktop on Windows/Mac, use `host.docker.internal` instead of `localhost`
 - Ensure database user has permissions to create tables
 
 **CORS errors in browser**
+
 - Add your exact origin (including protocol and port) to `CorsPolicy.Origins`
 - Check browser console for the actual origin being blocked
 
 **AI features not working**
+
 - Verify `disableAI: false` in frontend environment
 - Check API key is valid and has credits
 - Review `ai.log` for specific error messages
 - Ensure model name exactly matches available models
 
 **File uploads fail**
+
 - Verify storage directory exists and is writable
 - Check `MaxImageSizeMb` if uploading large images
 - Ensure volume is mounted correctly in Docker
 
 **Authentication not working**
+
 - Verify `SkipAuth` is `false`
 - Check `Authority` URL is accessible
 - Verify callback URLs match in both config and OAuth provider

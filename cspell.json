@@ -351,6 +351,10 @@
     "batchediting",
     "updateparameters",
     "alldata",
-    "ja"
+    "ja",
+    "appsettings",
+    "Npgsql",
+    "Groq",
+    "Runware"
   ]
 }
