@@ -51,7 +51,7 @@ docker run --restart always -p 80:5000 -e ConnectionStrings__Provider=SqlServer 
 
 <div class="divider--half"></div>
 
-- [On-prem Prerequisites and Installation Overview](../on-prem-prerequisites-and-installation.md)
+- [On-prem Prerequisites and Installation Overview](prerequisites-and-installation.md)
 - [App Builder Deployment Configuration Flags](configuration-flags.md)
 - [External Resources Whitelisting](external-references-for-whitelisting.md)
 - [Running Desktop App](../running-desktop-app.md)
