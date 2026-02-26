@@ -6,7 +6,28 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log
 
 > [!NOTE]
-> Latest update was made on 20th of January, 2026. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 26th of February, 2026. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+
+
+## February 2026 Release
+
+### Features
+
+- Introduced a **Navigation Tabs component** that enables tab-based navigation and automatic selection based on the active route.
+- Added **Grid Lite component** to the toolbox as a lightweight option for displaying tabular data.
+
+
+### AI in App Builder
+
+- Added a collapsible “Edit with AI” adorner that enables contextual AI editing directly from selected components on the canvas.
+- Introduced new pre-built templates for login, registration, and contact forms to accelerate page creation.
+- Enhanced the AI progress indicator to clearly reflect the generation scope.
+
+
+### Improvements
+
+- Added flexible width and height sizing support for the Card component with improved default dimensions and layout behavior.
+- Added support for controlling and binding the Stepper step **isValid property** to improve validation workflows.
 
 ## December 2025 Release
 

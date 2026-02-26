@@ -93,5 +93,5 @@ docker run --restart always -p 80:5000 -e AuthSettings__ClientId="1234-4657-00"
 
 - [Auth with openid connect](auth-with-openid-connect-o-auth.md)
 - [External Resources Whitelisting](external-references-for-whitelisting.md)
-- [On-prem Prerequisites and Installation Overview](../on-prem-prerequisites-and-installation.md)
+- [On-prem Prerequisites and Installation Overview](prerequisites-and-installation.md)
 - [App Builder Interface Overview](../interface-overview.md)
