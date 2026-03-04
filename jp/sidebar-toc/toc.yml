@@ -18,8 +18,8 @@
       items:
         - name: App Builder SDK の使用
           href: ../sdk/sdk.md
-        - name: オンプレミス版の使用
-          href: ../on-prem-prerequisites-and-installation.md
+        - name: オンプレミスのインストール
+          href: ../on-premises/prerequisites-and-installation.md
           items:
           - name: OpenID Connect を使用したオンプレミス認証
             href: ../on-premises/auth-with-openid-connect-o-auth.md
