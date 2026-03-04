@@ -51,7 +51,7 @@ docker run --restart always -p 80:5000 -e ConnectionStrings__Provider=SqlServer 
 
 <div class="divider--half"></div>
 
-- [オンプレミスの前提条件とインストールの概要](../on-prem-prerequisites-and-installation.md)
+- [オンプレミスの前提条件とインストールの概要](prerequisites-and-installation.md)
 - [App Builder の配置構成フラグ](configuration-flags.md)
 - [外部リソースのホワイトリスト化](external-references-for-whitelisting.md)
 - [Desktop アプリの実行方法](../running-desktop-app.md)
