@@ -45,12 +45,9 @@ App Builder stores snapshots efficiently by using a Diff/Delta strategy.
 
 ## Access Version History
 
-You can open **Version History** from:
+You can open **Version History** from the app menu in the application name dropdown (**Show Version History**).
 
-- The toolbar icon.
-- The app menu in the application name dropdown (**Show Version History**).
-
-The panel opens on the right side and displays a timeline of versions.
+The panel opens on the left side and displays a timeline of versions.
 
 ## Save a Manual Version
 
@@ -62,8 +59,7 @@ Use manual versions to create intentional restore points before risky changes.
 : Default format is **Manual save - [timestamp]**.
 4. Select **Save**.
 
-Expected result:
-
+At the end:
 - App Builder creates a version with an automatically assigned unique ID.
 - A success toast appears (for example, **Version saved**).
 
