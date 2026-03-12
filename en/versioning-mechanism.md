@@ -89,21 +89,9 @@ Auto snapshots are labeled by trigger (for example, **Auto: Before Publish**).
 | Version retention period | 90 days |
 | Protected versions exempt from cleanup | Yes |
 
-You can enable or disable supported auto-snapshot triggers in settings.
-
 ## Browse and Manage Versions
 
 The Version History panel supports timeline browsing and version management.
-
-### Available metadata
-
-Each version entry can show:
-
-- Version ID (truncated)
-- Timestamp
-- Label
-- Source (Manual, Auto)
-- User info (name/avatar where applicable)
 
 ### Filtering and grouping
 
@@ -128,17 +116,9 @@ Per-row actions can include:
 - Restore
 - Rename
 - Duplicate
-- Open in New Tab
 - Delete
 
-Interaction behavior:
-
-- Click a version to open it in the same tab.
-- Use `Ctrl+Click` (Windows/Linux) or `Cmd+Click` (macOS) to open in a new tab.
-
 ## Restore Workflow
-
-When you open an older version, App Builder shows a warning so you can confirm context before restoring.
 
 1. Open **Version History**.
 2. Select the target version.
@@ -148,8 +128,7 @@ When you open an older version, App Builder shows a warning so you can confirm c
 Expected result:
 
 - A success toast confirms restoration.
-- The panel highlights the currently viewed/restored version.
-- A pre-restore snapshot can be created automatically if trigger settings are enabled.
+- A pre-restore snapshot will be created automatically if trigger settings are enabled.
 
 ## Application Menu and Save UX Updates
 
