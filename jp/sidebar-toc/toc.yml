@@ -12,6 +12,9 @@
     - name: App Builder でのワークスペースの管理
       href: ../managing-workspaces.md
       new: true
+    - name: App Builder のバージョニング メカニズム
+      href: ../versioning-mechanism.md
+      new: true
     - name: デスクトップ アプリの使用
       href: ../running-desktop-app.md
     - name: SDK・オンプレミス
