@@ -8,7 +8,7 @@ _keywords: App Builder, versioning, version history, autosave, restore, checkpoi
 
 ## Overview
 
-App Builder includes now a strong versioning mechanism. You can safely capture and restore previous states without data loss or inconsistencies, regardless of whether changes were made manually..
+App Builder includes now a strong versioning mechanism. You can safely capture and restore previous states without data loss or inconsistencies, regardless of whether changes were made manually.
 
 This mechanism helps you:
 
