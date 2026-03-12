@@ -60,6 +60,7 @@ Use manual versions to create intentional restore points before risky changes.
 4. Select **Save**.
 
 At the end:
+
 - App Builder creates a version with an automatically assigned unique ID.
 - A success toast appears (for example, **Version saved**).
 
