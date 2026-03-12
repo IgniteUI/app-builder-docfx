@@ -65,29 +65,7 @@ At the end:
 
 ## Automatic Snapshots
 
-App Builder can create automatic snapshots before important operations so you always have recovery points.
-
-Default triggers include:
-
-- Before publishing to GitHub.
-- Before restoring a previous version.
-- Before downloading ZIP.
-- Before importing Sketch/Figma design.
-- After 5 minutes of inactivity when unsaved changes exist.
-- Before large structural updates (for example, adding/deleting many views).
-
-Auto snapshots are labeled by trigger (for example, **Auto: Before Publish**).
-
-### Auto-Snapshot Defaults
-
-| Setting | Default value |
-|---|---|
-| Auto-snapshot before publish | Enabled |
-| Auto-snapshot before design restore | Enabled |
-| Auto-snapshot idle timer | 5 minutes |
-| Max versions retained per app | 50 |
-| Version retention period | 90 days |
-| Protected versions exempt from cleanup | Yes |
+We auto-save only upon restoring a manually saved version.
 
 ## Browse and Manage Versions
 
@@ -128,7 +106,7 @@ Per-row actions can include:
 Expected result:
 
 - A success toast confirms restoration.
-- A pre-restore snapshot will be created automatically if trigger settings are enabled.
+- If you restore a manually saved version, App Builder creates an automatic snapshot before restore.
 
 ## Application Menu and Save UX Updates
 
@@ -141,7 +119,7 @@ The application name now opens a dropdown with:
 
 Related behavior updates:
 
-- Rename is accessed from the dropdown instead of click-to-rename.
+- Rename is accessed from the dropdown and from click-to-rename.
 - Duplicate does not force navigation away from the current app.
 - Success toasts confirm actions, including duplicate and save version.
 
@@ -149,9 +127,8 @@ Related behavior updates:
 
 Version retention follows these rules:
 
-- Versions are retained for at least 90 days.
-- Cleanup starts only after the app exceeds 50 major versions.
-- Protected/manual versions can be exempt from cleanup according to policy.
+- Versions are retained for at least 90 days. After that, we delete only the auto-saved versions
+- Manual and auto-saved versions are not automatically deleted, they can be deleted manually by the user.
 
 ## Limitations and Notes
 
