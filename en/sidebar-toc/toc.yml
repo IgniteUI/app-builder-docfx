@@ -12,6 +12,9 @@
     - name: Managing Workspaces in App Builder
       href: ../managing-workspaces.md
       new: true
+    - name: App Builder Versioning Mechanism
+      href: ../versioning-mechanism.md
+      new: true
     - name: Using the Desktop App
       href: ../running-desktop-app.md
     - name: On-premises and SDK
