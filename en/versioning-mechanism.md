@@ -8,7 +8,7 @@ _keywords: App Builder, versioning, version history, autosave, restore, checkpoi
 
 ## Overview
 
-App Builder includes now a strong versioning mechanism. You can safely capture and restore previous states without data loss or inconsistencies, regardless of whether changes were made manually or through AI-assisted workflows.
+App Builder includes now a strong versioning mechanism. You can safely capture and restore previous states without data loss or inconsistencies, regardless of whether changes were made manually..
 
 This mechanism helps you:
 
@@ -74,7 +74,6 @@ App Builder can create automatic snapshots before important operations so you al
 Default triggers include:
 
 - Before publishing to GitHub.
-- Before applying AI-generated changes.
 - Before restoring a previous version.
 - Before downloading ZIP.
 - Before importing Sketch/Figma design.
@@ -88,7 +87,6 @@ Auto snapshots are labeled by trigger (for example, **Auto: Before Publish**).
 | Setting | Default value |
 |---|---|
 | Auto-snapshot before publish | Enabled |
-| Auto-snapshot before AI apply | Enabled |
 | Auto-snapshot before design restore | Enabled |
 | Auto-snapshot idle timer | 5 minutes |
 | Max versions retained per app | 50 |
@@ -108,7 +106,7 @@ Each version entry can show:
 - Version ID (truncated)
 - Timestamp
 - Label
-- Source (Manual, Auto, AI)
+- Source (Manual, Auto)
 - User info (name/avatar where applicable)
 
 ### Filtering and grouping
@@ -191,7 +189,7 @@ Version retention follows these rules:
 After using versioning, you can:
 
 - Create reliable restore points before risky edits.
-- Recover quickly from AI or manual changes that should be reverted.
+- Recover quickly from unintended changes that should be reverted.
 - Track app and view evolution with clear metadata and timeline filters.
 
 ## Additional Resources
