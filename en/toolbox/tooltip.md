@@ -84,8 +84,10 @@ App Builder generates framework-specific tooltip code based on your visual confi
 ## Known Issues and Limitations
 
 - **Nested tooltips** are not allowed.
-- While **repeated tooltips** generate in all platforms, they only work correctly in **Angular**.
-- **Tooltip in a repeated Select item**: Tooltips inside Select items don't work in Angular unless the `ngProjectAs` attribute is added to an `ng-container` wrapping the select item. For example:
+- **Repeated tooltips** in generated code:
+  - Angular :heavy_check_mark:
+  - React, Blazor, Web Components :construction: — the tooltip does not get correctly attached to the repeated target.
+- **Tooltip in a repeated Select item**: Tooltips attached to repeated Select items don't work in Angular unless the `ngProjectAs` attribute is added to the `ng-container` wrapping the select item. For example:
 
 ```html
 <igx-select type="border" class="user-input">

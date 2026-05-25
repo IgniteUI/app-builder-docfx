@@ -84,8 +84,10 @@ App Builder はビジュアル設定に基づいてフレームワーク固有�
 ## 既知の問題と制限事項
 
 - **ネストされたツールチップ**は使用できません。
-- **繰り返しツールチップ**はすべてのプラットフォームでコードが生成されますが、正しく動作するのは **Angular** のみです。
-- **繰り返し Select アイテム内のツールチップ**: Select アイテム内のツールチップは、セレクト アイテムをラップする `ng-container` に `ngProjectAs` 属性を追加しない限り、Angular では機能しません。以下に例を示します:
+- 生成コードにおける**繰り返しツールチップ**のサポート:
+  - Angular :heavy_check_mark:
+  - React、Blazor、Web Components :construction: — ツールチップが繰り返しターゲットに正しく関連付けられません。
+- **繰り返し Select アイテム内のツールチップ**: 繰り返し Select アイテムに関連付けられたツールチップは、セレクト アイテムをラップする `ng-container` に `ngProjectAs` 属性を追加しない限り、Angular では機能しません。以下に例を示します:
 
 ```html
 <igx-select type="border" class="user-input">
