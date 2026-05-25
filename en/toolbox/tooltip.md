@@ -22,11 +22,9 @@ Tooltips are enabled directly from the target component's **Properties** panel. 
 4. Click the **Edit Tooltip** link that appears to open the tooltip and configure its properties (Target, Mode, Show delay, Hide delay, Arrow).
 
 
-
 ### Tooltip Content
 
 You can bind the tooltip content to a **variable** or a **data field** from a connected data source, enabling dynamic, context-aware hints at runtime.
-
 
 
 ### Show / Hide Delay
