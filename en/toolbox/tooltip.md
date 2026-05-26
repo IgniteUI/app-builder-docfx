@@ -21,6 +21,8 @@ Tooltips are enabled directly from the target component's **Properties** panel. 
 3. Toggle **Enable Tooltip** on.
 4. Click the **Edit Tooltip** link that appears to open the tooltip and configure its properties (Target, Mode, Show delay, Hide delay, Arrow).
 
+Alternatively, you can add a Tooltip by dragging it from the **Components Toolbox** or using the quick-add shortcut **Ctrl+E** (⌘+E on Mac) and searching for "Tooltip".
+
 
 ### Tooltip Content
 
