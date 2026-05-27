@@ -101,10 +101,8 @@ const CONFIGS = [
 function fetchChangelog(language) {
     return new Promise((resolve, reject) => {
         const url = `${HOST}/api/changelog/${language}`;
-        // Allow self-signed certificates when running against localhost
-        const agent = new https.Agent({ rejectUnauthorized: false });
 
-        https.get(url, { agent }, (res) => {
+        https.get(url, (res) => {
             let raw = '';
 
             res.on('data', (chunk) => { raw += chunk; });
@@ -254,6 +252,16 @@ function fixMarkdown(markdown) {
 // --- Main ---
 
 /**
+ * Sanitizes values before writing to plain-text logs to prevent log injection.
+ * Removes CR/LF and other ASCII control characters.
+ * @param {unknown} value
+ * @returns {string}
+ */
+function sanitizeForLog(value) {
+    return String(value).replace(/[\r\n]+/g, ' ').replace(/[\x00-\x1F\x7F]/g, '');
+}
+
+/**
  * Generates the changelog markdown file for a single language configuration.
  * @param {typeof CONFIGS[number]} config
  */
@@ -278,7 +286,8 @@ for (const config of CONFIGS) {
     try {
         await generateChangelog(config);
     } catch (err) {
-        console.error(`[${config.language}] Error: ${err.message}`);
+        const safeMessage = sanitizeForLog(err instanceof Error ? err.message : err);
+        console.error(`[${config.language}] Error: ${safeMessage}`);
         process.exit(1);
     }
 }
