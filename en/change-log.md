@@ -44,12 +44,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Default form inputs display correctly on the design surface.
 - Improved automatic selection and focus behavior when deleting items in a view.
 
-## March 2026 Release
-
-### Features
-
-- Introduced a **Versioning system for App Builder applications and views**, enabling users to save manual snapshots, browse version history, preview previous states, and safely restore earlier versions.
-
 ## February 2026 Release
 
 ### Features
@@ -57,11 +51,13 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Introduced a **Navigation Tabs component** that enables tab-based navigation and automatic selection based on the active route.
 - Added **Grid Lite component** to the toolbox as a lightweight option for displaying tabular data.
 
+
 ### AI in App Builder
 
 - Added a collapsible “Edit with AI” adorner that enables contextual AI editing directly from selected components on the canvas.
 - Introduced new pre-built templates for login, registration, and contact forms to accelerate page creation.
 - Enhanced the AI progress indicator to clearly reflect the generation scope.
+
 
 ### Improvements
 
@@ -74,9 +70,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 - Centralized Notification UI aggregates **design-time errors and warnings**, helping you quickly identify and resolve issues in your app (e.g., broken bindings, missing resources)
 - Added **Query Builder component** for Angular apps, enabling complex filtering logic. Use it as a standalone UI or as an advanced variable editor.
-
-### AI in App Builder
-
 - Redesigned "Create New App" Dialog: A "beautified" modern interface now includes a Prompt Gallery for inspiration and a Your Prompts tab to easily reuse previous inputs.
 - Our AI generation has been optimized to deliver better structural accuracy across full-page blog posts, dynamic image galleries (and carousels), and Kanban boards featuring refined column and task card apps.
 
@@ -86,14 +79,14 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 - **AI-powered design** - Generate multi-view apps with navigation using AI chat. Seamlessly iterate on existing UIs in context without disrupting other parts of your app. Upload images or screenshots to create complete UIs with custom themes.
 - **Richer CRM Sample App** – Expanded CRM app with enhanced Home, Reports, Deals, and Support views for faster customization and prototyping.
-- **Quick Add Enhancements** – Smarter search and insertion for charts, sliders, and inputs; adds the exact type you search for (e.g., Line Chart) and remembers recent selections.
+- **Quick Add Enhancements** – Perform search with insertion for charts, sliders, and inputs; Search and remember recent selections.
 - **List Item Selection** – Enhanced selection capabilities for both dynamically and manually created lists.
 
 ## September 2025 Release
 
 ### Features
 
-- **Conditional Logic for General Actions** – Enables nested If-Else blocks, multi-branch logic, and dynamic parameter passing for more flexible data action flows.
+- **Conditional Logic for General Actions** now enables nested If-Else, multi-branch conditions, conditional deletes with prompts, and dynamic parameter passing for more flexible data action flows.
 
 ## August 2025 Release
 
@@ -101,8 +94,22 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 - Added **ApexCharts** to the component toolbox.
 - **Pivot Grid** now auto-generates dimensions and values from data fields for a ready-to-use pivot view.
-- Added **Empty Grid Template** and **Loading Indicator Template**.
 - Added **Selected List Item** support, applying selected styling and storing the chosen value for later use.
+- Added **Empty Grid Template** and **Loading Indicator Template**.
+
+## June 2025 Release
+
+### Features
+
+- Enabled **Conditional Actions** for Data Actions, allowing forms and grids to perform different logic based on action outcomes.
+- Introduced **Grid Master-Detail** Template.
+- Added **Spanish language support**.
+- Added **Child-level Routing** support using the Views Container within nested routes for richer navigation.
+
+### Improvements
+
+- **Form and Input Validation** enhancements
+- Introduced additional variants for **Icon button** — contained, outlined, and flat.
 
 ### AI Features on [Preview](https://preview.appbuilder.dev/)
 
@@ -114,41 +121,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - **Prompt Gallery Improvements** – Filter and find useful prompts faster.
 - **Image Upload Support** – Upload images via icon, drag & drop, or paste.
 
-## July 2025 Release
-
-### Features
-
-- Enabled **Conditional Actions** for Data Actions, allowing forms and grids to perform different logic based on action outcomes.
-- Introduced **Grid Master-Detail** Template.
-- Added **Empty Grid Template** and **Loading Indicator Template**.
-- Added **Spanish language support**.
-- Added **Child-level Routing** support using the Views Container within nested routes for richer navigation.
-
-### Improvements
-
-- **Form and Input Validation** enhancements
-- Introduced additional variants for **Icon button** — contained, outlined, and flat.
-
-### AI Features
-
-- **Pinned Chat History** – Pin/unpin chats to easily revisit key sessions.
-- **Contextual Editing** – Click a UI element to edit it directly via AI chat.
-- **Component Indicator** – See which UI element is selected below the chat.
-- **Canvas Loading Feedback** – New indicator shows when prompts are processing.
-- **AI on Home Page** – Explore prompt cards and a personalized prompt gallery.
-- **Prompt Gallery Improvements** – Filter and find useful prompts faster.
-- **Image Upload Support** – Upload images via icon, drag & drop, or paste.
-
-## June 2025 Release
-
-### Features
-
-- Added **Spanish language support**.
-- Introduced additional variants for **Icon button** — contained, outlined, and flat.
-- Enabled **Conditional Actions** for Data Actions, allowing forms and grids to perform different logic based on action outcomes.
-- Introduced **Grid Master-Detail** Template.
-- Added **Child-level Routing** support using the Views Container within nested routes for richer navigation.
-
 ## May 2025 Release
 
 ### Features
@@ -159,19 +131,25 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - **Multi-column Headers** and **Collapsible Column Groups** functionality that allows grouping multiple columns under a single header.
 - Added **Azure DevOps Integration** that allows you to publish apps directly to your DevOps repositories. [Help docs](https://www.appbuilder.dev/help/generate-app/azure-integration).
 
-## March 2025 Release
+## End of March 2025 Release ([Preview Environment](https://preview.appbuilder.dev/))
 
 ### Features
 
 - **Conversational AI Experience** for app creation.
 - Added **Initial Advanced Filtering** support to all Grids.
+- New **Query Variable** type - A specialized variable that interacts with data sources, dynamically filtering large datasets through API requests with server-side filtering for optimal performance.
+- Added **Query Builder component** to the component toolbox.
 - **Reorder Actions** – Customize the execution order of actions triggered by component interactions.
 
-## February 2025 Release
+### Maintenance updates
+
+- Forms Reset capabilities in generated applications.
+- Disabled Summaries Support for Blazor, React and Web Components.
+
+## March 2025 Release
 
 ### Features
 
-- **Generative AI** for creating Application Views.
 - Added **Remote Paging** support to allow apps to request paged data from API.
 - **Multiple-actions Support** - a single interaction (e.g., click, row selection) can now trigger multiple actions, enabling more complex workflows.
 - Grid **Summaries toggle** – Added a property to enable/disable summaries per column.
@@ -191,15 +169,21 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Added **Hierarchical Grid** to the component toolbox.
 - **GitHub Pages** deployment for hosting static sites directly from a repository.
 
+### Maintenance updates
+
+- Angular apps are generated using [Ignite UI for Angular `19.0.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/19.0.0).
+- React apps are generated using [Ignite UI for React `18.7.4`](https://github.com/IgniteUI/igniteui-react).
+- Web Component apps are generated using [Ignite UI for Web Components `5.1.2`](https://github.com/IgniteUI/igniteui-webcomponents/).
+- Blazor apps are generated using [Ignite UI for Blazor `24.2.6`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor).
+- Bug fixes
+
 ## November 2024 Release
 
 ### Features
 
-- **Form builder**
-  - Use the **HTML Form component** to add or update records through a REST API.
-  - Auto-generate form based on OpenAPI schema or design it manually.
-- Use built-in **Northwind data source (OpenAPI)** containing endpoints for CRUD operations and support for URL parameters.
-- Added **sample app** to explore the historical timeline of US presidential elections since 1940.
+- **Form builder** - Build forms from scratch or automatically by dropping a REST data endpoint.
+- **New** default data source based on Northwind Rest API.
+- **New** US Presidential Election sample app.
 
 ### Improvements
 
@@ -209,18 +193,32 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 ### Features
 
-- **Real time updates for data sources** to ensure your app uses the latest REST API version.
 - Guided approach to **globally fix incompatible bindings** when relevant data source changes are detected
-- **Use AI to generate** data sources or images on demand!
 - Configure **remote paging** on the Grid component to fetch data from the server in chunks.
-- Create **layouts using CSS Grid** with template rows and columns along with CSS Flexbox.
-- **Adjust component sizes** individually (i.e., small, medium, large), or set a **global size** for your application theme.
+- CSS Grid Layout re-parenting support. Create **layouts using CSS Grid** with template rows and columns along with CSS Flexbox.
+
+### Maintenance updates
+
+- Angular apps are generated using [Ignite UI for Angular `18.1.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/18.1.0).
+- React apps are generated using [Ignite UI for React `18.6.1`](https://github.com/IgniteUI/igniteui-react).
+- Web Component apps are generated using [Ignite UI for Web Components `4.11.1`](https://github.com/IgniteUI/igniteui-webcomponents/).
+- Blazor apps are generated using [Ignite UI for Blazor `23.2.257`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor).
+- Bug fixes
+
+## August 2024 Release
+
+### Features
+
+- App Builder AI-driven image and data source generation.
+- Added CSS Grid Layout support.
+- Set global Application size and component based size.
+- Automatic background refresh of data sources upon updating your Rest API.
 
 ### Improvements
 
-- Improved **data source picker** to allow drill-down and filtering.
-- Added **support for PostgreSQL** when setting up App builder SDK or App Builder On-prem.
-- Download or upload applications as a JSON template.
+- New data provider support - PostgreSQL (SDK and On-prem).
+- New drill-down picker for collections of data sources.
+- Exposed UI for Download/upload application template.
 
 ## June 2024 Release
 
@@ -233,6 +231,14 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 - Added two-way data binding support to **Select, Text-area and Radio-group components**.
 - Get notified of **updates to Datasources** that your app depends on, and view the changes.
+
+### Maintenance updates
+
+- Angular apps are generated using [Ignite UI for Angular `17.2.0`](https://github.com/IgniteUI/igniteui-angular/releases/tag/17.2.0).
+- React apps are generated using [Ignite UI for React `18.6.1`](https://github.com/IgniteUI/igniteui-react).
+- Web Component apps are generated using [Ignite UI for Web Components `4.9.0`](https://github.com/IgniteUI/igniteui-webcomponents/blob/4.9.0/CHANGELOG.md#490---2024-04-30).
+- Blazor apps are generated using [Ignite UI for Blazor `23.2.204`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor#232204).
+- Bug fixes
 
 ## May 2024 Release
 
@@ -252,27 +258,13 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Blazor apps are generated using [Ignite UI for Blazor `23.2.204`](https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/general-changelog-dv-blazor#232204).
 - Bug fixes
 
-## Feb-March 2024 Release
-
-### Features
-
-- Create and use URL **route params** to pass data between views when navigating.
-- Set a **static value for a variable** based on an interaction event (e.g., on click).
-- **Reset a variable** to default value when a linked variable is updated.
-- You can now generate Angular apps with **Standalone components**.
-
-### Improvements
-
-- Angular apps are generated using **Ignite UI for Angular `17.1.0`**.
-- Bug fixes
-
 ## February 2024 Release
 
 ### Features
 
-- Create and use URL **route params** to pass data between views when navigating.
-- Set a **static value for a variable** based on an interaction event (e.g., on click).
-- **Reset a variable** to default value when a linked variable is updated.
+- App Navigation with **Route Parameters**
+- Added **Dependent variables** support
+- Added **Static value input capabilities** for "set variable" action through **editors** (based on variable type)
 
 ### Improvements
 
@@ -315,6 +307,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Added Combo **Single Selection** feature.
 - Added support for **Material Extended Icons**.
 - New Stepper **navigation actions**.
+- New [Indigo.Design UI Kit version 1.3](https://www.figma.com/@infragistics) for both **Fluent** and **Material**.
 
 ### Improvements
 
@@ -325,14 +318,14 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 ### Features
 
-- Customize **Grid** headers and cells with **Custom templates**, both in display and edit mode.
-- Browse Schema entities defined in **OpenAPI** definition from the Datasources toolbox.
-- Access developer help documentation for each component in the toolbox (Design system), based on selected UI framework.
+- Added **Grid Column Templating** - Header, Cell display and Cell editing
+- UI for browsing and navigation through schema entities in OpenAPI definition
+- Toolbox components linked to relevant help documentation
 
 ### Improvements
 
 - Angular apps are generated using **Ignite UI for Angular `16.0.0`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/releases/tag/16.0.0))
-- Updated sample **Travel App** with improvements related to background positioning of images.
+- Travel App: improvements for the background positioning of images
 - Bug fixes and general improvements.
 
 ## May 2023 Release
@@ -340,8 +333,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 ### Features
 
 - Added **Stepper** and **Reveal Dashboard** to the component toolbox.
-- Blazor code generation for **Combo**, **Select** and **Dialog** components.
-- Added new **sample app** - Health Vault.
 - Switch between **licensed vs. unlicensed packages** when generating apps.
 
 ### Improvements
@@ -354,34 +345,59 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Updated **sample apps** - Travel app, Team Collaboration, Ecommerce Auto Shop and HR Portal.
 - Bug fixes and general improvements.
 
+## April 2023 Release
+
+### Improvements
+
+- New code generation for Combo, Select and Dialog components (Blazor)
+- New toggle for unlicensed code export
+- Sample application updates - Team Collaboration, Ecommerce Auto Shop
+- Focus on bug fixing and general improvements
+
+## March 2023 Release
+
+### Features
+
+- New sample application - Health Vault
+
+### Improvements
+
+- Figma import story enhancements
+- Figma Material UI Kit 1.2
+- Figma Plugin upgrade
+- Focus on bug fixing and general improvements
+- Design System Model upgrade
+
+
 ## February 2023 Release
 
 ### Features
 
-- Configure REST API methods **POST/PUT/DELETE** when creating a datasource based on **OpenAPI** definition.
-- New Data-action for creating, updating, and deleting records in **Grid** and **Tree-Grid** component.
-- Use Hierarchical data in **Tree-Grid** and **Tree** component.
-- Added support for **nested** data-binding when repeating components based on hierarchical data.
-- Group and aggregate data in **Category chart** when repeated labels are present.
-- Added two new **sample apps** - Learning portal and Inventory management.
+- Configure REST API methods POST/PUT/DELETE when creating a datasource based on OpenAPI definition.
+- New Data-action for creating, updating, and deleting records in Grid component.
+- Use Hierarchical type data in Tree-Grid and Tree component.
+- Added support for nested data-binding when repeating components based on hierarchical data.
+- Group and aggregate data in Category chart when repeated labels are present.
+- Added two new sample apps - Learning portal and Inventory management.
 
 ### Improvements
 
-- Added `align-self` property to override V.align and H.align defined on parent layout (CSS Flex-box).
-- Added `border-radius` property to set Rounding for Row/Column/Absolute layout components.
-- Show App name as page title in the browser.
-- Select all data-fields when adding a new data collection.
-- Added option to maximize the Create new application dialog.
-- Bug fixes and general improvements.
+- Added Align-self property to override V.align and H.align defined on parent layout (CSS Flex-box).
+- Added Border-radius property to set Rounding for Row/Column/Absolute layout components
+- Show App name as page title in the browser
+- Select all data-fields when adding a new data collection
+- Added option to maximize the Create new application dialog
+- Bug fixes and general improvements
 
 ## December 2022 Release
 
 ### Features
 
-- Added **Pivot Grid component** to the component toolbox for Angular.
+- Added **Pivot Grid component** to the component toolbox.
 - Added Hierarchical data support for **Tree Grid** component.
+- Added **Combo component** code generation for Web Components.
 - Released [**Indigo.Design UI kit** for Figma](https://www.figma.com/@infragistics).
-- Released [Figma plugin](https://www.figma.com/community/plugin/1462024243431691008/indigo-design-figma-plugin) to create an app from designs.
+- Released [Figma plugin](https://www.figma.com/community/plugin/1170035114372031474) to create an app from designs.
 - Added new **sample app** - Movie Premieres.
 
 ### Improvements
@@ -416,9 +432,10 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 - Added support for reference objects when using **OpenAPI** definition
 - Added support for **Safari browser**
-- **Generate app** with licensed packages if you own a subscription
+- **Generate app** with licensed packages if you own a subscription ([more](https://www.infragistics.com/products/appbuilder/help/generate-app/generate-app-overview#licensed-code-export))
 - Angular apps are generated using **Ignite UI for Angular `~14.1.0`** ([Changelog](https://github.com/IgniteUI/igniteui-angular/blob/master/CHANGELOG.md#1410))
-- Bug fixes
+
+[LEARN MORE](https://www.infragistics.com/community/blogs/b/infragistics/posts/app-builder-release-with-web-components-code-generation-tree-grid-and-more)
 
 ## August 2022 Release
 
@@ -443,6 +460,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Added support for selecting any **Google font** when defining app theme
 - General improvements to **Angular and Blazor code generation**
 
+
 ## June 2022 Release
 
 ### Features
@@ -451,6 +469,8 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Added **Pie Chart** to the component toolbox
 - **GitHub Integration**: Publish updates without rolling back user changes
 - Allow data requests from **local network sources**
+
+[LEARN MORE](https://www.infragistics.com/community/blogs/b/infragistics/posts/app-builder-release-with-charts-support-and-more)
 
 ## May 2022 Release
 
@@ -461,7 +481,6 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 ### Improvements
 
--
 - Generate code for **Blazor** apps:
   - Added support for more components - **DropDown, Chip, Slider, Snackbar**
   - Updated code generation for **Navigation drawer, Navigation bar, and Card**
@@ -472,6 +491,11 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Updated "Task Management" **sample app** with new visual styles.
 - You can set appearance properties for **Navigation bar**
 - **Download App builder** desktop app from main App-Menu
+
+## MAINTENANCE UPDATES & BUG FIXES
+
+- Renamed Indigo.Design UI kit
+- Auto-fill baseUrl when configuring endpoints (OpenAPI)
 
 ## April 2022 Release
 
@@ -485,50 +509,118 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 
 - Related to Swagger UI and bug fixes
 
+### MAINTENANCE UPDATES & BUG FIXES
+
+**Including, but not limited to:**
+
+- Hide Swagger table context menu
+- Add progress indicator for done button when adding URL
+- Fix missing `requestInfo` on DS table
+- Hide dropdown when there isn't baseUrl to show
+- Add authorization methods required functionality
+- Swagger empty file proper handling
+- Prevent using empty json
+- Improve performance when too many endpoints
+- Select data dialog is listing the data sources instead of fields
+
 ## March 2022 Release
 
 ### Features
 
 - **OpenAPI (Swagger) Support** as part of our data-binding RestAPI story.
-- **On-Premise Version of App Builder** that you can install on your own server and behind your own server firewall. This instance is runnable on any infrastructure and accessible only by internal personnel
+- **On-Premises Version of App Builder** that you can install on your own server and behind your own server firewall. This instance is runnable on any infrastructure and accessible only by internal personnel
 
 ### Improvements
 
-- Image round radius should be in percentage (#5312)
-- Persist the view zoom ratio rather than using the default (#14214)
+- Set image round radius using px, % or rems
+- Persist zoom level of the design surface when switching between views or preview
+- Improvements when generating **Blazor** apps
+  - Added support for **custom themes** (color palette and typography)
+  - Apply **global font** and **color/background** from the app's theme
+  - Allow **custom headers** when adding REST API URL source
+  - Improved code generation for **Date Picker**, **Grid** (columns), **List** and **Nav-Drawer** items
+  - Added support for **nested arrays** in objects as data source
+
+### MAINTENANCE UPDATES & BUG FIXES
+
+**Including, but not limited to:**
+
+- Fix the error that is thrown on "Get Assets For Sketch"
+- Select component popup is cut at the top in preview mode
+- On app duplication the custom viewport is lost
+- Breadcrumb in data panel doesn't match the latest visual enhancements
+- Icons overflow input when set fluent theme and rounding
+- Detaching a tab when dragging breaks the app
+- Button ir resized after editing its text
+- Outline sections don't collapse when component is de-selected on canvas
+- ComboBox Items are affected by preview and there's no clear button
+- Select is shown in the "pick component" list when adding open/close action
+- Checkbox and Switch generate label position even if set to none
+- Setting dark fluent theme with roundness 1 ends up light
+- Grid: Cell editing doesn't work in preview mode
+- Sign out from Sketch plugin is not actually signing out
+- The disabled state of buttons in the App bar doesn't work
+- Assets with % or # in the name don't show in generated application
+- Improve handling of Data Sources with non-ASCII Unicode names in Angular's service methods and Blazor view model
+- Curly braces are not escaped in the generated text content - _Angular specific_
+- Ensure app root container stretches to full height - _Blazor specific_
+- Multiple iterators bound the same data should no longer create multiple data properties in the same view - _Blazor specific_
+
 
 ## January 2022 Release
 
 ### IMPROVEMENTS
 
 - **Sketch UI Kit Improved Theming Support** - The light/dark mode toggle that changes the surface color now affects how gray colors are set up - as a derivative of black or white.
-- **UI Kits Version Check updates** - Now matching `<major>.<minor>` for consistency between parser dll and symbol. `<patch>` will be ignored and wont throw an error if the symbol version is higher than the parser version (#13942)
+- **UI Kits Version Check updates** - Now matching `<major>.<minor>` for consistency between parser dll and symbol. `<patch>` will be ignored and won't throw an error if the symbol version is higher than the parser version (#13942)
+
+### MAINTENANCE UPDATES & BUG FIXES
+
+**Including, but not limited to:**
+
+- Workspace title not updated
+- Create new workspace cancel shows invalid state
+- About dialog/Header/Account dialog improvements
+- Add template for data source search empty state
+- Move "View All" workspaces link out of the scrollable area
+- Consider a property as bound when type is Bound and data field is set(#14296)
+- Avoid data section for components with IsOverlay = true (#14305)
+- Fix custom list item content #14322
+- Notify visuals updates to update bounds and overlays (#14306)
+- Hide parent adorner while moving or resizing (#1388)
+- Limit zoom in/out actions (#14268)
+- Refresh main menu on new apps notified by realtime sync (#14295)
+- To work with the new way color variations are described in case a layer has fills, instead of setting style, the opacity modifies the color alpha to achieve the same color shade (#14552)
+- Parsing deeply nested groups and backgrounds throws an error (#13954)
+- People app parsing fix (#13905)
+- Dialog window navigation did not work ([GitHub issue](https://github.com/IgniteUI/app-builder/issues/7))
 
 ## December 2021 Release
 
-### FEATURES
+### Features
 
-- Design and generate your app for **Blazor** (beta)
-- Install **App Builder** as a desktop app on **Windows**, **macOS**, and **Linux**
-- Added **Indigo.Design UI kit** for **Adobe XD**
-- Create an app from designs using our new **Adobe XD** plugin
+- Design and generate your app for Blazor (beta)
+- Install App Builder as a desktop app on Windows, macOS, and Linux
+- Added Indigo.Design UI kit for Adobe XD
+- Create an app from designs using our new Adobe XD plugin
 
-### IMPROVEMENTS
+### Improvements
 
-- Updated the **App Builder** menu to manage your apps and **group workspaces**
+- Updated the App Builder menu to manage your apps and group workspaces
 - Added support for Nested collection inside a response object
-- Added Export to Excel feature to **Data-Grid** component
+- Added Export to Excel feature to Data-Grid component
 - Added automatic compression when uploading large images as assets
-- Sketch Plugin Updates - improved theming and **Create new app from Sketch** story
+- Sketch Plugin Updates, improved theming and "Create new app from Sketch" story
 
 ## October 2021 Release
 
-### FEATURES
+### Features
 
 - **Upload your images** to Assets library and share it across all apps in the same Workspace
 - **Download uploaded images** used in the app when you publish or download app source code
+- **Create app** directly from Sketch plugin
 
-### IMPROVEMENTS
+### Improvements
 
 - **Include REST endpoint URL** in the generated app instead of hard-coded JSON data
 - **Extract images** available in your Sketch file and add it to Workspace assets library
@@ -536,40 +628,64 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Show outermost container (View) as the root-level element in the **Document outline**
 - Added tooltip explanations for **Image fit** and **Layout position** options
 
+### MAINTENANCE UPDATES & BUG FIXES
+
+- General bug fixes and maintenance updates
+
 ## September 2021 Release
 
-### FEATURES
+### Features
 
-- Configure features for the **Grid** component in App Builder (e.g., Sorting, Filtering, Editing).
+- Added more features to the **Grid** component part of the toolbox.
+- 10+ new features including Sorting, Filtering, Cell/Row editing, Paging, Selection, GroupBy and more.
 - Added **Snackbar** to the component toolbox.
-- **Publish to Github** now adds a workflow to automatically build and test the project across different versions of node.
-- Added **Quick-Tips** to learn about Flexbox layouts, and App Builder features.
+- Onboarding experience improvements:
+- Quick tips - The quick-tips feature aims to gradually educate users about the concepts and accelerators available. The quick-tips are triggered when the user completes a certain action in the App Builder, like resize a component or add a new child view.
+- The sample apps show new visual thumbs with descriptions.
+- GitHub Actions Integration - GitHub Publish now adds a workflow doing a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node.
 
-### IMPROVEMENTS
+### Improvements
 
-- Generate App button is now **Publish to GitHub**.
-- Improved performance when publishing to Github or downloading generated app as a ZIP.
-- Updated **Create new app** dialog to import Sketch documents and easy access to Indigo.Design system assets.
+- Reduced loading time on app download an Publish to GitHub
+- "Generate app" button is now "Publish to GitHub".
+- "Create new app" Dialog is now with two sizes. One for larger displays, and one for smaller displays. New section to get assets for Sketch or XD.
+- All sample apps are with updated meaningful thumbnails representing actual screenshots and with a brief text description of the app upon hover.
+- Improved loading of theming when uploading .sketch file for app generation.
+- Adobe XD files support (will be available when the Adobe XD Plugin is ready).
 
-## July 2021 Release
+### MAINTENANCE UPDATES & BUG FIXES
 
-### FEATURES
+- Improved load times for apps and general performance tweaks when using the app builder.
+- General bug fixes.
+- Fixed errors with data repeated elements.
+- Data source list population fix for bindable elements.
 
-- **GitHub integration**- Publish your generated app to an existing or new repository
-- Added **Slider** to the component toolbox
-- Added **Banner** to the component toolbox
-- Added Korean language translation for `https://cloud.indigo.design`
+[LEARN MORE](https://www.infragistics.com/community/blogs/b/infragistics/posts/indigo-design-app-builder-september-release)
 
-### IMPROVEMENTS
+## July 12, 2021 Release
 
-- Ability to reorder components in the document outline or design surface using drag and drop
-- Ability to reorder Master and Child views in the **Views** tab of the toolbox
-- When previewing the app, switch between Master and Child views using a dropdown in the **Preview** toolbar
-- Updated **Radio** component to **Radio Group**
-- Updated **Tab Layout** to allow custom content inside Tab Header
-- Updated icons to represent content wrapping scenarios when using **Row**/**Column Layout**
-- Added two new sample apps in **Create new app** dialog
-- Apps are generated using Ignite UI Angular `12.0.0` instead of `11.1.15`
+### Features
+
+- **GitHub Integration**: Publish your generated app to a GitHub repository instead of downloading as a ZIP
+- Added “SLIDER” to the component toolbox
+- Added “BANNER” to the component toolbox
+- Added two new sample apps as reference in “Create new app” dialog
+- Added Korean language translation
+
+### Improvements
+
+- When previewing an app, switch between "master" and "child views" using a dropdown in the toolbar
+- Ability to reorder components in the document outline or design surface using drag & drop
+- Ability to reorder “master” and “child views” in the views tab of the toolbox using drag & drop
+- Updated “Radio” component to “Radio-group”
+- Updated “Tab Layout” to allow custom content inside “Tab header”
+- Improved icons for "align-content" dropdown when wrapping is enabled in Flex layouts
+- Apps are generated using Ignite UI Angular v12.0.1 instead of v11.1.15
+
+### Maintenance updates & bug fixes
+
+- Improved load times and performance tweaks when using the App Builder UI
+- General bug fixes
 
 ## Official Release
 
