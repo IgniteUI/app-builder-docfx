@@ -38,7 +38,7 @@ const { values: args } = parseArgs({
 });
 
 // Resolution order: CLI arg → env var → default
-const HOST  = args.host  || process.env.CHANGELOG_API_HOST;
+const HOST  = args.host  || process.env.CHANGELOG_API_HOST || 'https://my.apbuilder.dev';
 // SINCE: "YYYY-MM" string — only releases from that month onwards are included.
 const SINCE = args.since || process.env.CHANGELOG_SINCE || null;
 
