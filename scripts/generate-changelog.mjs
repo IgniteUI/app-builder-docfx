@@ -6,6 +6,8 @@
  * Usage:
  *   npm run changelog
  *   npm run changelog -- --host https://api.example.com
+ *   npm run changelog -- --since 2026-04          # include April 2026 onwards
+ *   npm run changelog -- --host https://api.example.com --since 2026-04
  *
  * API response format:
  * {
@@ -29,13 +31,16 @@ import { parseArgs } from 'node:util';
 
 const { values: args } = parseArgs({
     options: {
-        host: { type: 'string', short: 'h' },
+        host:  { type: 'string', short: 'h' },
+        since: { type: 'string', short: 's' },
     },
     strict: false,
 });
 
 // Resolution order: CLI arg → env var → default
-const HOST = args.host || process.env.CHANGELOG_API_HOST;
+const HOST  = args.host  || process.env.CHANGELOG_API_HOST;
+// SINCE: "YYYY-MM" string — only releases from that month onwards are included.
+const SINCE = args.since || process.env.CHANGELOG_SINCE || null;
 
 const __dirname = import.meta.dirname;
 
@@ -65,6 +70,33 @@ function formatDateJa(date) {
     return `${date.getFullYear()} 年 ${date.getMonth() + 1} 月 ${date.getDate()} 日`;
 }
 
+// --- Release date parsing (used for --since filtering) ---
+
+/**
+ * Parses a month/year from an English release title.
+ * Handles: "May 2026 Release", "Feb-March 2024 Release", "End of March 2025 Release (...)"
+ * @param {string} title
+ * @returns {{ year: number, month: number }|null}
+ */
+function parseReleaseDateEn(title) {
+    const pattern = new RegExp(`\\b(${MONTHS_EN.join('|')})\\b\\s+(\\d{4})`);
+    const match = title.match(pattern);
+    if (!match) return null;
+    return { year: parseInt(match[2], 10), month: MONTHS_EN.indexOf(match[1]) + 1 };
+}
+
+/**
+ * Parses a month/year from a Japanese release title.
+ * Handles: "2026年5月リリース", "2026年5月末リリース"
+ * @param {string} title
+ * @returns {{ year: number, month: number }|null}
+ */
+function parseReleaseDateJa(title) {
+    const match = title.match(/(\d{4})年(\d{1,2})月/);
+    if (!match) return null;
+    return { year: parseInt(match[1], 10), month: parseInt(match[2], 10) };
+}
+
 // --- Configuration ---
 
 const CONFIGS = [
@@ -73,6 +105,7 @@ const CONFIGS = [
         templatePath: path.join(__dirname, '..', 'en', 'change-log.template'),
         outputPath: path.join(__dirname, '..', 'en', 'change-log.md'),
         formatDate: formatDateEn,
+        parseReleaseDate: parseReleaseDateEn,
         sectionsToRemove: [
             'Maintenance updates',
             'MAINTENANCE UPDATES & BUG FIXES',
@@ -83,6 +116,7 @@ const CONFIGS = [
         templatePath: path.join(__dirname, '..', 'jp', 'change-log.template'),
         outputPath: path.join(__dirname, '..', 'jp', 'change-log.md'),
         formatDate: formatDateJa,
+        parseReleaseDate: parseReleaseDateJa,
         sectionsToRemove: [
             'メンテナンス更新',
             'メンテナンスの更新',
@@ -143,7 +177,7 @@ function fetchChangelog(language) {
  * @param {string[]} sectionsToRemove - ### section titles to strip (heading + content)
  * @returns {string}
  */
-function transformChangelog(markdown, sectionsToRemove = []) {
+function transformChangelog(markdown, { sectionsToRemove = [], since = null, parseReleaseDate = null } = {}) {
     // Normalize line endings to \n
     const normalized = markdown.replace(/\r\n/g, '\n').trim();
 
@@ -182,9 +216,21 @@ function transformChangelog(markdown, sectionsToRemove = []) {
         return result.join('\n').trim();
     });
 
+    // Filter by --since: only keep releases from that month onwards (inclusive)
+    const dated = (since && parseReleaseDate)
+        ? transformed.filter((block) => {
+            const match = block.match(/^## (.+)/m);
+            if (!match) return false; // can't find title — exclude when filtering
+            const date = parseReleaseDate(match[1].trim());
+            if (!date) return false; // can't parse date — exclude when filtering
+            const [sinceYear, sinceMonth] = since.split('-').map(Number);
+            return date.year > sinceYear || (date.year === sinceYear && date.month >= sinceMonth);
+        })
+        : transformed;
+
     // MD024: drop release blocks whose title (## heading) was already seen
     const seenTitles = new Set();
-    const deduplicated = transformed.filter((block) => {
+    const deduplicated = dated.filter((block) => {
         const match = block.match(/^## (.+)/m);
         const title = match ? match[1].trim() : null;
         if (title === null || !seenTitles.has(title)) {
@@ -273,7 +319,11 @@ async function generateChangelog(config) {
     const rawMarkdown = await fetchChangelog(config.language);
     const template = fs.readFileSync(config.templatePath, 'utf8');
 
-    const changelogMarkdown = fixMarkdown(transformChangelog(rawMarkdown, config.sectionsToRemove));
+    const changelogMarkdown = fixMarkdown(transformChangelog(rawMarkdown, {
+        sectionsToRemove: config.sectionsToRemove,
+        since: SINCE,
+        parseReleaseDate: config.parseReleaseDate,
+    }));
     const latestDate = config.formatDate(new Date());
 
     const output = template
