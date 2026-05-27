@@ -101,8 +101,10 @@ const CONFIGS = [
 function fetchChangelog(language) {
     return new Promise((resolve, reject) => {
         const url = `${HOST}/api/changelog/${language}`;
+        // Allow self-signed certificates when running against localhost
+        const agent = new https.Agent({ rejectUnauthorized: false });
 
-        https.get(url, (res) => {
+        https.get(url, { agent }, (res) => {
             let raw = '';
 
             res.on('data', (chunk) => { raw += chunk; });
