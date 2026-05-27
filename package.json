@@ -16,7 +16,9 @@
     "spellcheck": "cspell \"en/**/*.md\"",
     "spellcheck:jp": "cspell \"jp/**/*.md\"",
     "verify": "npm run spellcheck && npm run lint:md:en",
-    "verify:jp": "npm run spellcheck:jp && npm run lint:md:jp"
+    "verify:jp": "npm run spellcheck:jp && npm run lint:md:jp",
+    "changelog": "node scripts/generate-changelog.mjs",
+    "changelog:local":  "node scripts/generate-changelog.mjs --host https://localhost:44381"
   },
   "author": "Infragistics",
   "license": "ISC",
