@@ -29,7 +29,7 @@ jobs:
     - name: Generate changelog
       run: npm run changelog
       env:
-        CHANGELOG_API_HOST: ${{ secrets.CHANGELOG_API_HOST }}
+        CHANGELOG_API_HOST: ${{ vars.CHANGELOG_API_HOST }}
     - run: npm run verify
     - run: npm run build
     
