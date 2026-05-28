@@ -6,20 +6,17 @@
  * Usage:
  *   npm run changelog
  *   npm run changelog -- --host https://api.example.com
- *   npm run changelog -- --since 2026-04          # include April 2026 onwards
- *   npm run changelog -- --host https://api.example.com --since 2026-04
+ *   npm run changelog -- --since 2026-03-01        # include entries from March 1 2026 onwards
+ *   npm run changelog -- --host https://api.example.com --since 2026-03-01
  *
  * API response format:
  * {
  *   "success": true,
- *   "data": {
- *     "changelog": "# May 2026 Release\r\n## Features\r\n- ...\r\n\r\n---\r\n\r\n# April 2026 Release\r\n..."
- *   }
+ *   "data": [
+ *     { "changelog": "# May 2026 Release\r\n## Features\r\n- ...", "date": "2026-05-25T00:00:00" },
+ *     { "changelog": "# April 2026 Release\r\n...",               "date": "2026-04-15T00:00:00" }
+ *   ]
  * }
- *
- * The markdown string uses # for release headers and ## for subsections.
- * These are shifted down one level (# → ##, ## → ###) for the output file.
- * Individual releases are separated by "---" horizontal rules.
  */
 
 import https from 'node:https';
@@ -39,8 +36,8 @@ const { values: args } = parseArgs({
 
 // Resolution order: CLI arg → env var → default
 const HOST  = args.host  || process.env.CHANGELOG_API_HOST || 'https://my.apbuilder.dev';
-// SINCE: "YYYY-MM" string — only releases from that month onwards are included.
-const SINCE = args.since || process.env.CHANGELOG_SINCE || null;
+// SINCE: "YYYY-MM-DD" — only releases on or after this date are fetched (sent as ?fromDate to the API).
+const SINCE = args.since || process.env.CHANGELOG_SINCE || '2026-03-01';
 
 const __dirname = import.meta.dirname;
 
@@ -70,33 +67,6 @@ function formatDateJa(date) {
     return `${date.getFullYear()} 年 ${date.getMonth() + 1} 月 ${date.getDate()} 日`;
 }
 
-// --- Release date parsing (used for --since filtering) ---
-
-/**
- * Parses a month/year from an English release title.
- * Handles: "May 2026 Release", "Feb-March 2024 Release", "End of March 2025 Release (...)"
- * @param {string} title
- * @returns {{ year: number, month: number }|null}
- */
-function parseReleaseDateEn(title) {
-    const pattern = new RegExp(`\\b(${MONTHS_EN.join('|')})\\b\\s+(\\d{4})`);
-    const match = title.match(pattern);
-    if (!match) return null;
-    return { year: parseInt(match[2], 10), month: MONTHS_EN.indexOf(match[1]) + 1 };
-}
-
-/**
- * Parses a month/year from a Japanese release title.
- * Handles: "2026年5月リリース", "2026年5月末リリース"
- * @param {string} title
- * @returns {{ year: number, month: number }|null}
- */
-function parseReleaseDateJa(title) {
-    const match = title.match(/(\d{4})年(\d{1,2})月/);
-    if (!match) return null;
-    return { year: parseInt(match[1], 10), month: parseInt(match[2], 10) };
-}
-
 // --- Configuration ---
 
 const CONFIGS = [
@@ -105,7 +75,6 @@ const CONFIGS = [
         templatePath: path.join(__dirname, '..', 'en', 'change-log.template'),
         outputPath: path.join(__dirname, '..', 'en', 'change-log.md'),
         formatDate: formatDateEn,
-        parseReleaseDate: parseReleaseDateEn,
         sectionsToRemove: [
             'Maintenance updates',
             'MAINTENANCE UPDATES & BUG FIXES',
@@ -116,7 +85,6 @@ const CONFIGS = [
         templatePath: path.join(__dirname, '..', 'jp', 'change-log.template'),
         outputPath: path.join(__dirname, '..', 'jp', 'change-log.md'),
         formatDate: formatDateJa,
-        parseReleaseDate: parseReleaseDateJa,
         sectionsToRemove: [
             'メンテナンス更新',
             'メンテナンスの更新',
@@ -128,33 +96,34 @@ const CONFIGS = [
 // --- API fetch ---
 
 /**
- * Fetches the raw changelog markdown string from the API.
+ * Fetches changelog items from the API.
  * @param {string} language - 'en' or 'ja'
- * @returns {Promise<string>}
+ * @returns {Promise<Array<{ changelog: string, date: string }>>}
  */
 function fetchChangelog(language) {
     return new Promise((resolve, reject) => {
-        const url = `${HOST}/api/changelog/${language}`;
+        const url = `${HOST}/api/changelog/${language}?fromDate=${SINCE}`;
         // Allow self-signed certificates when running against localhost
         const agent = new https.Agent({ rejectUnauthorized: false });
 
         https.get(url, { agent }, (res) => {
-            let raw = '';
+            const chunks = [];
 
-            res.on('data', (chunk) => { raw += chunk; });
+            res.on('data', (chunk) => { chunks.push(chunk); });
 
             res.on('end', () => {
+                const raw = Buffer.concat(chunks).toString('utf8');
                 if (res.statusCode !== 200) {
                     reject(new Error(`HTTP ${res.statusCode} fetching changelog for "${language}"`));
                     return;
                 }
                 try {
                     const body = JSON.parse(raw);
-                    if (!body.success || !body.data || typeof body.data.changelog !== 'string') {
+                    if (!body.success || !Array.isArray(body.data)) {
                         reject(new Error(`Unexpected API response shape for "${language}"`));
                         return;
                     }
-                    resolve(body.data.changelog);
+                    resolve(body.data);
                 } catch (err) {
                     reject(new Error(`Invalid JSON for "${language}": ${err.message}`));
                 }
@@ -168,85 +137,44 @@ function fetchChangelog(language) {
 // --- Markdown transformation ---
 
 /**
- * Shifts heading levels down by one, removes specified sections and
- * [LEARN MORE] links, then joins release blocks without "---" separators.
- *   # Release Title  →  ## Release Title
- *   ## Section       →  ### Section
+ * Transforms a single release's markdown:
+ * - Shifts heading levels (# → ##, ## → ###)
+ * - Removes specified sections and [LEARN MORE] links
  *
- * @param {string} markdown - raw markdown from the API
- * @param {string[]} sectionsToRemove - ### section titles to strip (heading + content)
+ * @param {string} markdown
+ * @param {string[]} sectionsToRemove
  * @returns {string}
  */
-function transformChangelog(markdown, { sectionsToRemove = [], since = null, parseReleaseDate = null } = {}) {
-    // Normalize line endings to \n
-    const normalized = markdown.replace(/\r\n/g, '\n').trim();
+function transformRelease(markdown, sectionsToRemove = []) {
+    const lines = markdown
+        .replace(/\r\n/g, '\n')
+        .trim()
+        .split('\n')
+        .map((line) => {
+            if (line.startsWith('## ')) return `### ${line.slice(3)}`;
+            if (line.startsWith('# '))  return `## ${line.slice(2)}`;
+            return line;
+        });
 
-    // Split into individual release blocks separated by "---"
-    const releases = normalized.split(/\n\n---\n\n/);
+    const result = [];
+    let inRemovedSection = false;
 
-    const transformed = releases.map((block) => {
-        // Shift heading levels
-        const lines = block
-            .split('\n')
-            .map((line) => {
-                if (line.startsWith('## ')) return `### ${line.slice(3)}`;
-                if (line.startsWith('# '))  return `## ${line.slice(2)}`;
-                return line;
-            });
-
-        // Remove unwanted sections and [LEARN MORE] links
-        const result = [];
-        let inRemovedSection = false;
-
-        for (const line of lines) {
-            // Detect start of a ### section
-            if (line.startsWith('### ')) {
-                const sectionTitle = line.slice(4).trim();
-                inRemovedSection = sectionsToRemove.includes(sectionTitle);
-            }
-
-            if (inRemovedSection) continue;
-
-            // Remove [LEARN MORE](...) lines
-            if (/^\[LEARN MORE\]/i.test(line.trim())) continue;
-
-            result.push(line);
+    for (const line of lines) {
+        if (line.startsWith('### ')) {
+            inRemovedSection = sectionsToRemove.includes(line.slice(4).trim());
         }
+        if (inRemovedSection) continue;
+        if (/^\[LEARN MORE\]/i.test(line.trim())) continue;
+        result.push(line);
+    }
 
-        return result.join('\n').trim();
-    });
-
-    // Filter by --since: only keep releases from that month onwards (inclusive)
-    const dated = (since && parseReleaseDate)
-        ? transformed.filter((block) => {
-            const match = block.match(/^## (.+)/m);
-            if (!match) return false; // can't find title — exclude when filtering
-            const date = parseReleaseDate(match[1].trim());
-            if (!date) return false; // can't parse date — exclude when filtering
-            const [sinceYear, sinceMonth] = since.split('-').map(Number);
-            return date.year > sinceYear || (date.year === sinceYear && date.month >= sinceMonth);
-        })
-        : transformed;
-
-    // MD024: drop release blocks whose title (## heading) was already seen
-    const seenTitles = new Set();
-    const deduplicated = dated.filter((block) => {
-        const match = block.match(/^## (.+)/m);
-        const title = match ? match[1].trim() : null;
-        if (title === null || !seenTitles.has(title)) {
-            if (title) seenTitles.add(title);
-            return true;
-        }
-        return false;
-    });
-
-    return deduplicated.join('\n\n');
+    return result.join('\n').trim();
 }
 
 /**
  * Fixes markdown linting issues in API-sourced content:
- * - MD007: strips a single leading space from top-level list items (` - ` → `- `)
- * - MD009: removes trailing whitespace from every line
+ * - MD007: strips a single leading space / normalizes 4-space nesting to 2-space
+ * - MD009: removes trailing whitespace
  * - MD022: ensures blank lines above and below every heading
  * - MD032: ensures blank lines above and below every list block
  *
@@ -259,15 +187,11 @@ function fixMarkdown(markdown) {
 
     // Pass 1 – per-line fixes (MD009, MD007)
     const lines = markdown.split('\n').map((line) => {
-        line = line.trimEnd();                        // MD009: trailing spaces
-        if (/^ - /.test(line)) line = line.slice(1); // MD007: single leading space
-        // MD007: convert 4-space-per-level nesting to 2-space-per-level
+        line = line.trimEnd();
+        if (/^ - /.test(line)) line = line.slice(1);
         const indentMatch = line.match(/^( +)(- )/);
-        if (indentMatch) {
-            const spaces = indentMatch[1].length;
-            if (spaces % 4 === 0) {
-                line = ' '.repeat(spaces / 2) + line.trimStart();
-            }
+        if (indentMatch && indentMatch[1].length % 4 === 0) {
+            line = ' '.repeat(indentMatch[1].length / 2) + line.trimStart();
         }
         return line;
     });
@@ -300,32 +224,28 @@ function fixMarkdown(markdown) {
 // --- Main ---
 
 /**
- * Sanitizes values before writing to plain-text logs to prevent log injection.
- * Removes CR/LF and other ASCII control characters.
- * @param {unknown} value
- * @returns {string}
- */
-function sanitizeForLog(value) {
-    return String(value).replace(/[\r\n]+/g, ' ').replace(/[\x00-\x1F\x7F]/g, '');
-}
-
-/**
  * Generates the changelog markdown file for a single language configuration.
  * @param {typeof CONFIGS[number]} config
  */
 async function generateChangelog(config) {
     console.log(`[${config.language}] Fetching changelog...`);
 
-    const rawMarkdown = await fetchChangelog(config.language);
+    const items = await fetchChangelog(config.language);
+
+    if (items.length === 0) {
+        throw new Error(`No changelog items found for "${config.language}"`);
+    }
+
+    // Use the most recent changelog entry's date for {LATEST_DATE}
+    const latestDate = config.formatDate(new Date(items[0].date));
+
+    const changelogMarkdown = fixMarkdown(
+        items
+            .map((item) => transformRelease(item.changelog, config.sectionsToRemove))
+            .join('\n\n')
+    );
+
     const template = fs.readFileSync(config.templatePath, 'utf8');
-
-    const changelogMarkdown = fixMarkdown(transformChangelog(rawMarkdown, {
-        sectionsToRemove: config.sectionsToRemove,
-        since: SINCE,
-        parseReleaseDate: config.parseReleaseDate,
-    }));
-    const latestDate = config.formatDate(new Date());
-
     const output = template
         .replace('{LATEST_DATE}', latestDate)
         .replace('{CHANGELOGS}', changelogMarkdown);
@@ -338,10 +258,10 @@ for (const config of CONFIGS) {
     try {
         await generateChangelog(config);
     } catch (err) {
-        const safeMessage = sanitizeForLog(err instanceof Error ? err.message : err);
-        console.error(`[${config.language}] Error: ${safeMessage}`);
+        console.error(`[${config.language}] Error: ${err.message}`);
         process.exit(1);
     }
 }
 
 console.log('Changelog generation complete.');
+

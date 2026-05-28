@@ -6,7 +6,7 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 # App Builder - Change Log
 
 > [!NOTE]
-> Latest update was made on 27th of May, 2026. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
+> Latest update was made on 25th of May, 2026. [LEARN MORE in the AppBuilder blog](https://www.appbuilder.dev/blog)
 
 ## May 2026 Release
 
@@ -43,6 +43,12 @@ _keywords: App Builder, Web App Builder, Design Systems, Design Systems UX, UI k
 - Actions persist correctly after page refresh.
 - Default form inputs display correctly on the design surface.
 - Improved automatic selection and focus behavior when deleting items in a view.
+
+## March 2026 Release
+
+### Features
+
+- Introduced a **Versioning system for App Builder applications and views**, enabling users to save manual snapshots, browse version history, preview previous states, and safely restore earlier versions.
 
 ## February 2026 Release
 
