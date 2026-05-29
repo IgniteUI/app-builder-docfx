@@ -35,7 +35,7 @@ const { values: args } = parseArgs({
 });
 
 // Resolution order: CLI arg → env var → default
-const HOST  = args.host  || process.env.CHANGELOG_API_HOST || 'https://my.apbuilder.dev';
+const HOST  = args.host  || process.env.CHANGELOG_API_HOST || 'https://my.appbuilder.dev';
 // SINCE: "YYYY-MM-DD" — only releases on or after this date are fetched (sent as ?fromDate to the API).
 const SINCE = args.since || process.env.CHANGELOG_SINCE || '2026-03-01';
 
@@ -254,14 +254,19 @@ async function generateChangelog(config) {
     console.log(`[${config.language}] Written: ${config.outputPath}`);
 }
 
-for (const config of CONFIGS) {
-    try {
-        await generateChangelog(config);
-    } catch (err) {
-        console.error(`[${config.language}] Error: ${err.message}`);
-        process.exit(1);
+export async function generateChangelogs() {
+    for (const config of CONFIGS) {
+        try {
+            await generateChangelog(config);
+        } catch (err) {
+            console.error(`[${config.language}] Error: ${err.message}`);
+            process.exit(1);
+        }
     }
+
+    console.log('Changelog generation complete.');
 }
 
-console.log('Changelog generation complete.');
-
+if (import.meta.main) {
+    await generateChangelogs();
+}
