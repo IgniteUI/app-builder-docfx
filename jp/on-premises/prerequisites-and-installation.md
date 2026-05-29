@@ -722,5 +722,5 @@ Windows 上の Docker Desktop は、Windows マシンにログインしないと
 - [App Builder コンポーネント](../indigo-design-app-builder-components.md)
 - [Flex レイアウト](../flex-layouts/flex-layouts.md)
 - [Desktop アプリの実行方法](../running-desktop-app.md)
-- [アプリの生成 ](../generate-app/generate-app-overview.md)
+- [アプリの生成](../generate-app/generate-app-overview.md)
 - [Indigo.Design はじめに](https://jp.infragistics.com/products/indigo-design/help/getting-started)
