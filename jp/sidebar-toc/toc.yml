@@ -58,6 +58,9 @@
           href: ../toolbox/grid/master-detail-template.md
       - name: Form Builder
         href: ../using-data-in-your-app/form-builder.md
+      - name: ツールチップ
+        href: ../toolbox/tooltip.md
+        new: true
       - name: Query Builder
         href: ../using-data-in-your-app/query-builder-overview.md
         updated: false

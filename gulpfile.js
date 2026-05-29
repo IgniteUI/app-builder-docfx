@@ -84,12 +84,18 @@ const init = (done) => {
     done();
 };
 
-const  browserSyncReload = (done) => {
+const browserSyncReload = (done) => {
     browserSync.reload();
     done();
 };
 
+async function generateChangeLog() {
+    const { generateChangelogs } = await import('./scripts/generate-changelog.mjs');
+    await generateChangelogs();
+}
+
 const build = series(
+  generateChangeLog,
   buildSite,
   removeHTMLExtensionFromSiteMap,
   replaceEnvironmentVariables);
