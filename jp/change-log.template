@@ -7,7 +7,9 @@ _language: ja
 # App Builder - 変更ログ
 
 > [!NOTE]
-> 最新の更新は 2026 年 2 月 26 日に行われました。[詳細については、App Builder ブログをご覧ください。](https://www.appbuilder.dev/ja/blog)
+> 最新の更新は {LATEST_DATE} に行われました。[詳細については、App Builder ブログをご覧ください。](https://www.appbuilder.dev/ja/blog)
+
+{CHANGELOGS}
 
 ## 2026 年 2 月リリース
 

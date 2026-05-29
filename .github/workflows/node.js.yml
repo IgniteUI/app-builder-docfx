@@ -26,5 +26,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: dotnet tool restore
+    - name: Generate changelog
+      run: npm run changelog
+      env:
+        CHANGELOG_API_HOST: ${{ vars.CHANGELOG_API_HOST }}
     - run: npm run verify
     - run: npm run build
+    
