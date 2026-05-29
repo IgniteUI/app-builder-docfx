@@ -64,5 +64,9 @@ typings/
 en/_site
 jp/_site
 
+# auto-generated change-log
+en/change-log.md
+jp/change-log.md
+
 # OS generated files
 .DS_Store
